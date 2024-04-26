@@ -12,7 +12,7 @@ $reports = json_decode($browser->getResponse()->getContent(), true);
 
 
 $theTime = time();
-for ($i = 0; $i < 150; $i++) {
+for ($i = 0; $i < 250; $i++) {
     $theTime = strtotime('-1 month', $theTime);
     foreach ($reports['data'] as $report) {
         $rawPath = $basePath . '/raw/reports/' . $report['text'] . '/' . date('Y', $theTime);
