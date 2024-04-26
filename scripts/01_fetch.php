@@ -21,30 +21,53 @@ for ($i = 0; $i < 100; $i++) {
         }
         $totalPages = 1;
         for ($j = 1; $j <= $totalPages; $j++) {
-            $browser->jsonRequest('POST', 'https://lmspiq.fda.gov.tw/api/public/sh/piq/6000/search', [
-                'data' => [
-                    'type' => $report['value'],
-                    'licUnit' => 1,
-                    'year' => date('Y', $theTime),
-                    'month' => date('m', $theTime),
-                    'code' => [
-                        'code' => 'wJN3818f2ZsoZ+jVkWZoqxTdmJSxmqA40zV4+MywCEGP06QCe9N5siNtudjKaxMEY',
-                        'verifyCode' => 'wJN3818f2ZsoZ+jVkWZoqxTdmJSxmqA40zV4+MywCEGP06QCe9N5siNtudjKaxME',
+            $targetFile = $rawPath . '/' . date('m', $theTime) . '-' . $j . '.json';
+            if (!file_exists($targetFile)) {
+                $browser->jsonRequest('POST', 'https://lmspiq.fda.gov.tw/api/public/sh/piq/6000/search', [
+                    'data' => [
+                        'type' => $report['value'],
+                        'licUnit' => 1,
+                        'year' => date('Y', $theTime),
+                        'month' => date('m', $theTime),
+                        'code' => [
+                            'code' => 'wJN3818f2ZsoZ+jVkWZoqxTdmJSxmqA40zV4+MywCEGP06QCe9N5siNtudjKaxMEY',
+                            'verifyCode' => 'wJN3818f2ZsoZ+jVkWZoqxTdmJSxmqA40zV4+MywCEGP06QCe9N5siNtudjKaxME',
+                        ],
                     ],
-                ],
-                'page' => [
-                    'page' => $j,
-                    'pageSize' => 100,
-                ],
-            ]);
-            $response = $browser->getResponse()->getContent();
-            $data = json_decode($response, true);
-            unset($data['response']);
+                    'page' => [
+                        'page' => $j,
+                        'pageSize' => 100,
+                    ],
+                ]);
+                $response = $browser->getResponse()->getContent();
+                $data = json_decode($response, true);
+                unset($data['response']);
+                file_put_contents($targetFile, json_encode($data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+            } else {
+                $data = json_decode(file_get_contents($targetFile), true);
+            }
             if ($j == 1 && !empty($data['page']['totalDatas'])) {
                 $totalPages = ceil(intval($data['page']['totalDatas']) / 100);
             }
-            $targetFile = $rawPath . '/' . date('m', $theTime) . '-' . $j . '.json';
-            file_put_contents($rawPath . '/' . date('m', $theTime) . '-' . $j . '.json', json_encode($data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+
+            foreach ($data['data'] as $item) {
+                $licensePath = $basePath . '/raw/licenses/' . substr($item['licId'], 0, 2);
+                if (!file_exists($licensePath)) {
+                    mkdir($licensePath, 0777, true);
+                }
+
+                $licenseFile = $licensePath . '/' . $item['licId'] . '.json';
+                if (!file_exists($licenseFile)) {
+                    $browser->jsonRequest('POST', 'https://lmspiq.fda.gov.tw/api/public/sh/piq/1000/licSearch', [
+                        'data' => [
+                            'licBaseId' => $item['licBaseId'],
+                        ],
+                    ]);
+                    $response = $browser->getResponse()->getContent();
+                    $license = json_decode($response, true);
+                    file_put_contents($licenseFile, json_encode($license['data'], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+                }
+            }
         }
     }
 }
