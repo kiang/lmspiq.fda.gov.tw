@@ -58,6 +58,7 @@ for ($i = 0; $i < 100; $i++) {
 
                 $licenseFile = $licensePath . '/' . $item['licId'] . '.json';
                 if (!file_exists($licenseFile)) {
+                    echo "getting {$item['licKindName']}{$item['licId']}\n";
                     $browser->jsonRequest('POST', 'https://lmspiq.fda.gov.tw/api/public/sh/piq/1000/licSearch', [
                         'data' => [
                             'licBaseId' => $item['licBaseId'],
