@@ -61,6 +61,7 @@ for ($i = 0; $i < 2; $i++) {
                 ]);
                 $response = $browser->getResponse()->getContent();
                 $license = json_decode($response, true);
+                $license['data']['licBaseId'] = $item['licBaseId'];
                 file_put_contents($licenseFile, json_encode($license['data'], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
             }
         }
