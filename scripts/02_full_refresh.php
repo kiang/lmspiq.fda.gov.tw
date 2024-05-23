@@ -6,8 +6,13 @@ use Symfony\Component\BrowserKit\HttpBrowser;
 use Symfony\Component\HttpClient\HttpClient;
 
 $browser = new HttpBrowser(HttpClient::create());
+$now = time();
 
 foreach (glob($basePath . '/raw/licenses/*/*.json') as $licenseFile) {
+    $mTime = filemtime($licenseFile);
+    if ($now - $mTime < 259200) { // skip files updated in 3 days
+        continue;
+    }
     $item = json_decode(file_get_contents($licenseFile), true);
     if (!empty($item['licBaseId'])) {
         $browser->jsonRequest('POST', 'https://lmspiq.fda.gov.tw/api/public/sh/piq/1000/licSearch', [
