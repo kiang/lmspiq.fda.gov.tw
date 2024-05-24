@@ -54,7 +54,9 @@ for ($page = 1; $page <= $totalPages; $page++) {
             $browser->jsonRequest('GET', 'https://lmspiq.fda.gov.tw/api/public/vwHis/list/' . $item['licId']);
             $response = $browser->getResponse()->getContent();
             $license = json_decode($response, true);
-            file_put_contents($licenseFile, json_encode($license, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+            if (!empty($license['licData'])) {
+                file_put_contents($licenseFile, json_encode($license, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+            }
         }
     }
 }

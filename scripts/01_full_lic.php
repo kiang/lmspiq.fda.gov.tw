@@ -60,8 +60,10 @@ foreach ($licUnits as $licUnit) {
                 ]);
                 $response = $browser->getResponse()->getContent();
                 $license = json_decode($response, true);
-                $license['data']['licBaseId'] = $item['licBaseId'];
-                file_put_contents($licenseFile, json_encode($license['data'], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+                if (!empty($license['data']['licid'])) {
+                    $license['data']['licBaseId'] = $item['licBaseId'];
+                    file_put_contents($licenseFile, json_encode($license['data'], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+                }
             } else {
                 $license = json_decode(file_get_contents($licenseFile), true);
                 $license['licBaseId'] = $item['licBaseId'];
