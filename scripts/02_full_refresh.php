@@ -22,7 +22,7 @@ foreach (glob($basePath . '/raw/licenses/*/*.json') as $licenseFile) {
         ]);
         $response = $browser->getResponse()->getContent();
         $license = json_decode($response, true);
-        if (!empty($license['data'])) {
+        if (!empty($license['data']['licid'])) {
             $license['data']['licBaseId'] = $item['licBaseId'];
             file_put_contents($licenseFile, json_encode($license['data'], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
         }
@@ -30,7 +30,7 @@ foreach (glob($basePath . '/raw/licenses/*/*.json') as $licenseFile) {
         $browser->jsonRequest('GET', 'https://lmspiq.fda.gov.tw/api/public/vwHis/list/' . $item['licData']['licId']);
         $response = $browser->getResponse()->getContent();
         $license = json_decode($response, true);
-        if (!empty($license)) {
+        if (!empty($license['licData'])) {
             file_put_contents($licenseFile, json_encode($license, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
         }
     }
