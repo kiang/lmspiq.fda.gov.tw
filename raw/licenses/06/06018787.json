@@ -20,8 +20,7 @@
         "空白"
     ],
     "restraintItemsCode": [
-        "R02",
-        "R05"
+        "R02"
     ],
     "applicantName": "台灣柏朗股份有限公司",
     "applicantAddr": "台北市松山區健康路152號9樓",
@@ -44,38 +43,33 @@
     "factoryDtoList": [
         {
             "factoryCode": "1",
-            "factoryName": "B. BRAUN MEDICAL S.A.S",
+            "factoryName": "B. Braun Medical S.A.S.",
             "factoryAddr": "13 rue Croix la Comtesse, 28400 Nogent-le-Rotrou, France",
-            "factoryCompanyAddr": null,
+            "factoryCompanyAddr": "",
             "countryCode": "FR",
             "processCode": [
                 {
-                    "value": "P01",
-                    "name": "Manufactured by"
+                    "value": "P10",
+                    "name": "全部製程"
                 }
             ],
-            "processCodeStr": "P01;Manufactured by",
-            "factoryKind": "M",
-            "factoryNo": "MFR0830000",
-            "factoryInfo": "2",
+            "processCodeStr": "P10;全部製程",
+            "factoryKind": "P",
+            "factoryNo": "MFR0830001",
+            "factoryInfo": "3",
             "qsd": "QSD3599"
         },
         {
             "factoryCode": "2",
-            "factoryName": "B.BRAUN MELSUNGEN AG",
-            "factoryAddr": "CARL-BRAUN-STRABE 1, 34212 MELSUNGEN, GERMANY",
-            "factoryCompanyAddr": null,
+            "factoryName": "B. Braun Melsungen AG",
+            "factoryAddr": "Carl-Braun-Straβe 1, 34212 Melsungen, Germany",
+            "factoryCompanyAddr": "",
             "countryCode": "DE",
-            "processCode": [
-                {
-                    "value": "P02",
-                    "name": "委託製造者"
-                }
-            ],
-            "processCodeStr": "P02;委託製造者",
-            "factoryKind": "E",
-            "factoryNo": "MDE1020000",
-            "factoryInfo": "2",
+            "processCode": [],
+            "processCodeStr": null,
+            "factoryKind": "O",
+            "factoryNo": "MDE1316001",
+            "factoryInfo": "3",
             "qsd": null
         }
     ],
@@ -133,7 +127,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白  ",
                     "after": null
                 },
                 "m10": {
@@ -197,6 +191,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "一般醫院及個人使用裝置",
                                 "value": "J"
@@ -211,10 +206,6 @@
                 },
                 "m05": {
                     "before": [
-                        {
-                            "name": "委託製造",
-                            "value": "R05"
-                        },
                         {
                             "name": "輸 入",
                             "value": "R02"
@@ -605,7 +596,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白  ",
                     "after": null
                 },
                 "m10": {
@@ -669,6 +660,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "一般醫院及個人使用裝置",
                                 "value": "J"
@@ -683,10 +675,6 @@
                 },
                 "m05": {
                     "before": [
-                        {
-                            "name": "委託製造",
-                            "value": "R05"
-                        },
                         {
                             "name": "輸 入",
                             "value": "R02"
@@ -953,40 +941,48 @@
                     "changeRemark": null
                 },
                 "m18Factory": {
-                    "factoryInfo": "2",
+                    "factoryInfo": "3",
                     "factoryItemList": [
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "AB305069-E1F5-4197-AD79-2F8C5BA9EC39",
+                            "licFactoryId": "C0AD6AE0-4036-4183-9403-037A96BAB648",
                             "factoryCode": "1",
-                            "factoryKind": "M",
+                            "factoryKind": "P",
                             "factoryId": null,
                             "countryCode": "FR",
-                            "factoryNo": "MFR0830000",
-                            "factoryName": "B. BRAUN MEDICAL S.A.S",
+                            "factoryNo": "MFR0830001",
+                            "factoryName": "B. Braun Medical S.A.S.",
                             "factoryAddr": "13 rue Croix la Comtesse, 28400 Nogent-le-Rotrou, France",
                             "factoryMadeIn": null,
                             "processCode": [
-                                "P01"
+                                "P10"
                             ],
-                            "entrustItem": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         },
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "97AB612C-9AB5-4708-929D-215430A9D150",
+                            "licFactoryId": "ADC8CAD7-54D7-4BCD-8F7F-3DAF46A9B55E",
                             "factoryCode": "2",
-                            "factoryKind": "E",
+                            "factoryKind": "O",
                             "factoryId": null,
                             "countryCode": "DE",
-                            "factoryNo": "MDE1020000",
-                            "factoryName": "B.BRAUN MELSUNGEN AG",
-                            "factoryAddr": "CARL-BRAUN-STRABE 1, 34212 MELSUNGEN, GERMANY",
+                            "factoryNo": "MDE1316001",
+                            "factoryName": "B. Braun Melsungen AG",
+                            "factoryAddr": "Carl-Braun-Straβe 1, 34212 Melsungen, Germany",
                             "factoryMadeIn": null,
-                            "processCode": [
-                                "P02"
+                            "processCode": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
                             ],
-                            "entrustItem": [],
                             "qmsQsdItemList": null
                         }
                     ]
@@ -1036,7 +1032,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白  ",
                     "after": null
                 },
                 "m10": {
@@ -1100,6 +1096,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "一般醫院及個人使用裝置",
                                 "value": "J"
@@ -1114,10 +1111,6 @@
                 },
                 "m05": {
                     "before": [
-                        {
-                            "name": "委託製造",
-                            "value": "R05"
-                        },
                         {
                             "name": "輸 入",
                             "value": "R02"
@@ -1293,40 +1286,48 @@
                     "changeRemark": null
                 },
                 "m18Factory": {
-                    "factoryInfo": "2",
+                    "factoryInfo": "3",
                     "factoryItemList": [
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "AB305069-E1F5-4197-AD79-2F8C5BA9EC39",
+                            "licFactoryId": "C0AD6AE0-4036-4183-9403-037A96BAB648",
                             "factoryCode": "1",
-                            "factoryKind": "M",
+                            "factoryKind": "P",
                             "factoryId": null,
                             "countryCode": "FR",
-                            "factoryNo": "MFR0830000",
-                            "factoryName": "B. BRAUN MEDICAL S.A.S",
+                            "factoryNo": "MFR0830001",
+                            "factoryName": "B. Braun Medical S.A.S.",
                             "factoryAddr": "13 rue Croix la Comtesse, 28400 Nogent-le-Rotrou, France",
                             "factoryMadeIn": null,
                             "processCode": [
-                                "P01"
+                                "P10"
                             ],
-                            "entrustItem": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         },
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "97AB612C-9AB5-4708-929D-215430A9D150",
+                            "licFactoryId": "ADC8CAD7-54D7-4BCD-8F7F-3DAF46A9B55E",
                             "factoryCode": "2",
-                            "factoryKind": "E",
+                            "factoryKind": "O",
                             "factoryId": null,
                             "countryCode": "DE",
-                            "factoryNo": "MDE1020000",
-                            "factoryName": "B.BRAUN MELSUNGEN AG",
-                            "factoryAddr": "CARL-BRAUN-STRABE 1, 34212 MELSUNGEN, GERMANY",
+                            "factoryNo": "MDE1316001",
+                            "factoryName": "B. Braun Melsungen AG",
+                            "factoryAddr": "Carl-Braun-Straβe 1, 34212 Melsungen, Germany",
                             "factoryMadeIn": null,
-                            "processCode": [
-                                "P02"
+                            "processCode": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
                             ],
-                            "entrustItem": [],
                             "qmsQsdItemList": null
                         }
                     ]
@@ -1376,7 +1377,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白  ",
                     "after": null
                 },
                 "m10": {
@@ -1440,6 +1441,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "一般醫院及個人使用裝置",
                                 "value": "J"
@@ -1454,10 +1456,6 @@
                 },
                 "m05": {
                     "before": [
-                        {
-                            "name": "委託製造",
-                            "value": "R05"
-                        },
                         {
                             "name": "輸 入",
                             "value": "R02"
@@ -1749,40 +1747,48 @@
                     "changeRemark": null
                 },
                 "m18Factory": {
-                    "factoryInfo": "2",
+                    "factoryInfo": "3",
                     "factoryItemList": [
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "AB305069-E1F5-4197-AD79-2F8C5BA9EC39",
+                            "licFactoryId": "C0AD6AE0-4036-4183-9403-037A96BAB648",
                             "factoryCode": "1",
-                            "factoryKind": "M",
+                            "factoryKind": "P",
                             "factoryId": null,
                             "countryCode": "FR",
-                            "factoryNo": "MFR0830000",
-                            "factoryName": "B. BRAUN MEDICAL S.A.S",
+                            "factoryNo": "MFR0830001",
+                            "factoryName": "B. Braun Medical S.A.S.",
                             "factoryAddr": "13 rue Croix la Comtesse, 28400 Nogent-le-Rotrou, France",
                             "factoryMadeIn": null,
                             "processCode": [
-                                "P01"
+                                "P10"
                             ],
-                            "entrustItem": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         },
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "97AB612C-9AB5-4708-929D-215430A9D150",
+                            "licFactoryId": "ADC8CAD7-54D7-4BCD-8F7F-3DAF46A9B55E",
                             "factoryCode": "2",
-                            "factoryKind": "E",
+                            "factoryKind": "O",
                             "factoryId": null,
                             "countryCode": "DE",
-                            "factoryNo": "MDE1020000",
-                            "factoryName": "B.BRAUN MELSUNGEN AG",
-                            "factoryAddr": "CARL-BRAUN-STRABE 1, 34212 MELSUNGEN, GERMANY",
+                            "factoryNo": "MDE1316001",
+                            "factoryName": "B. Braun Melsungen AG",
+                            "factoryAddr": "Carl-Braun-Straβe 1, 34212 Melsungen, Germany",
                             "factoryMadeIn": null,
-                            "processCode": [
-                                "P02"
+                            "processCode": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
                             ],
-                            "entrustItem": [],
                             "qmsQsdItemList": null
                         }
                     ]
@@ -1832,7 +1838,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白  ",
                     "after": null
                 },
                 "m10": {
@@ -1896,6 +1902,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "一般醫院及個人使用裝置",
                                 "value": "J"
@@ -1910,10 +1917,6 @@
                 },
                 "m05": {
                     "before": [
-                        {
-                            "name": "委託製造",
-                            "value": "R05"
-                        },
                         {
                             "name": "輸 入",
                             "value": "R02"
@@ -2142,40 +2145,48 @@
                     "changeRemark": null
                 },
                 "m18Factory": {
-                    "factoryInfo": "2",
+                    "factoryInfo": "3",
                     "factoryItemList": [
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "AB305069-E1F5-4197-AD79-2F8C5BA9EC39",
+                            "licFactoryId": "C0AD6AE0-4036-4183-9403-037A96BAB648",
                             "factoryCode": "1",
-                            "factoryKind": "M",
+                            "factoryKind": "P",
                             "factoryId": null,
                             "countryCode": "FR",
-                            "factoryNo": "MFR0830000",
-                            "factoryName": "B. BRAUN MEDICAL S.A.S",
+                            "factoryNo": "MFR0830001",
+                            "factoryName": "B. Braun Medical S.A.S.",
                             "factoryAddr": "13 rue Croix la Comtesse, 28400 Nogent-le-Rotrou, France",
                             "factoryMadeIn": null,
                             "processCode": [
-                                "P01"
+                                "P10"
                             ],
-                            "entrustItem": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         },
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "97AB612C-9AB5-4708-929D-215430A9D150",
+                            "licFactoryId": "ADC8CAD7-54D7-4BCD-8F7F-3DAF46A9B55E",
                             "factoryCode": "2",
-                            "factoryKind": "E",
+                            "factoryKind": "O",
                             "factoryId": null,
                             "countryCode": "DE",
-                            "factoryNo": "MDE1020000",
-                            "factoryName": "B.BRAUN MELSUNGEN AG",
-                            "factoryAddr": "CARL-BRAUN-STRABE 1, 34212 MELSUNGEN, GERMANY",
+                            "factoryNo": "MDE1316001",
+                            "factoryName": "B. Braun Melsungen AG",
+                            "factoryAddr": "Carl-Braun-Straβe 1, 34212 Melsungen, Germany",
                             "factoryMadeIn": null,
-                            "processCode": [
-                                "P02"
+                            "processCode": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
                             ],
-                            "entrustItem": [],
                             "qmsQsdItemList": null
                         }
                     ]
@@ -2225,7 +2236,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白  ",
                     "after": null
                 },
                 "m10": {
@@ -2289,6 +2300,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "一般醫院及個人使用裝置",
                                 "value": "J"
@@ -2303,10 +2315,6 @@
                 },
                 "m05": {
                     "before": [
-                        {
-                            "name": "委託製造",
-                            "value": "R05"
-                        },
                         {
                             "name": "輸 入",
                             "value": "R02"
@@ -2468,40 +2476,48 @@
                     "changeRemark": null
                 },
                 "m18Factory": {
-                    "factoryInfo": "2",
+                    "factoryInfo": "3",
                     "factoryItemList": [
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "AB305069-E1F5-4197-AD79-2F8C5BA9EC39",
+                            "licFactoryId": "C0AD6AE0-4036-4183-9403-037A96BAB648",
                             "factoryCode": "1",
-                            "factoryKind": "M",
+                            "factoryKind": "P",
                             "factoryId": null,
                             "countryCode": "FR",
-                            "factoryNo": "MFR0830000",
-                            "factoryName": "B. BRAUN MEDICAL S.A.S",
+                            "factoryNo": "MFR0830001",
+                            "factoryName": "B. Braun Medical S.A.S.",
                             "factoryAddr": "13 rue Croix la Comtesse, 28400 Nogent-le-Rotrou, France",
                             "factoryMadeIn": null,
                             "processCode": [
-                                "P01"
+                                "P10"
                             ],
-                            "entrustItem": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         },
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "97AB612C-9AB5-4708-929D-215430A9D150",
+                            "licFactoryId": "ADC8CAD7-54D7-4BCD-8F7F-3DAF46A9B55E",
                             "factoryCode": "2",
-                            "factoryKind": "E",
+                            "factoryKind": "O",
                             "factoryId": null,
                             "countryCode": "DE",
-                            "factoryNo": "MDE1020000",
-                            "factoryName": "B.BRAUN MELSUNGEN AG",
-                            "factoryAddr": "CARL-BRAUN-STRABE 1, 34212 MELSUNGEN, GERMANY",
+                            "factoryNo": "MDE1316001",
+                            "factoryName": "B. Braun Melsungen AG",
+                            "factoryAddr": "Carl-Braun-Straβe 1, 34212 Melsungen, Germany",
                             "factoryMadeIn": null,
-                            "processCode": [
-                                "P02"
+                            "processCode": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
                             ],
-                            "entrustItem": [],
                             "qmsQsdItemList": null
                         }
                     ]
@@ -2551,7 +2567,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白  ",
                     "after": null
                 },
                 "m10": {
@@ -2615,6 +2631,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "一般醫院及個人使用裝置",
                                 "value": "J"
@@ -2629,10 +2646,6 @@
                 },
                 "m05": {
                     "before": [
-                        {
-                            "name": "委託製造",
-                            "value": "R05"
-                        },
                         {
                             "name": "輸 入",
                             "value": "R02"
@@ -2892,40 +2905,48 @@
                     "changeRemark": null
                 },
                 "m18Factory": {
-                    "factoryInfo": "2",
+                    "factoryInfo": "3",
                     "factoryItemList": [
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "AB305069-E1F5-4197-AD79-2F8C5BA9EC39",
+                            "licFactoryId": "C0AD6AE0-4036-4183-9403-037A96BAB648",
                             "factoryCode": "1",
-                            "factoryKind": "M",
+                            "factoryKind": "P",
                             "factoryId": null,
                             "countryCode": "FR",
-                            "factoryNo": "MFR0830000",
-                            "factoryName": "B. BRAUN MEDICAL S.A.S",
+                            "factoryNo": "MFR0830001",
+                            "factoryName": "B. Braun Medical S.A.S.",
                             "factoryAddr": "13 rue Croix la Comtesse, 28400 Nogent-le-Rotrou, France",
                             "factoryMadeIn": null,
                             "processCode": [
-                                "P01"
+                                "P10"
                             ],
-                            "entrustItem": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         },
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "97AB612C-9AB5-4708-929D-215430A9D150",
+                            "licFactoryId": "ADC8CAD7-54D7-4BCD-8F7F-3DAF46A9B55E",
                             "factoryCode": "2",
-                            "factoryKind": "E",
+                            "factoryKind": "O",
                             "factoryId": null,
                             "countryCode": "DE",
-                            "factoryNo": "MDE1020000",
-                            "factoryName": "B.BRAUN MELSUNGEN AG",
-                            "factoryAddr": "CARL-BRAUN-STRABE 1, 34212 MELSUNGEN, GERMANY",
+                            "factoryNo": "MDE1316001",
+                            "factoryName": "B. Braun Melsungen AG",
+                            "factoryAddr": "Carl-Braun-Straβe 1, 34212 Melsungen, Germany",
                             "factoryMadeIn": null,
-                            "processCode": [
-                                "P02"
+                            "processCode": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
                             ],
-                            "entrustItem": [],
                             "qmsQsdItemList": null
                         }
                     ]
@@ -2975,7 +2996,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白  ",
                     "after": null
                 },
                 "m10": {
@@ -3039,6 +3060,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "一般醫院及個人使用裝置",
                                 "value": "J"
@@ -3053,10 +3075,6 @@
                 },
                 "m05": {
                     "before": [
-                        {
-                            "name": "委託製造",
-                            "value": "R05"
-                        },
                         {
                             "name": "輸 入",
                             "value": "R02"
@@ -3281,40 +3299,48 @@
                     "changeRemark": null
                 },
                 "m18Factory": {
-                    "factoryInfo": "2",
+                    "factoryInfo": "3",
                     "factoryItemList": [
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "AB305069-E1F5-4197-AD79-2F8C5BA9EC39",
+                            "licFactoryId": "C0AD6AE0-4036-4183-9403-037A96BAB648",
                             "factoryCode": "1",
-                            "factoryKind": "M",
+                            "factoryKind": "P",
                             "factoryId": null,
                             "countryCode": "FR",
-                            "factoryNo": "MFR0830000",
-                            "factoryName": "B. BRAUN MEDICAL S.A.S",
+                            "factoryNo": "MFR0830001",
+                            "factoryName": "B. Braun Medical S.A.S.",
                             "factoryAddr": "13 rue Croix la Comtesse, 28400 Nogent-le-Rotrou, France",
                             "factoryMadeIn": null,
                             "processCode": [
-                                "P01"
+                                "P10"
                             ],
-                            "entrustItem": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         },
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "97AB612C-9AB5-4708-929D-215430A9D150",
+                            "licFactoryId": "ADC8CAD7-54D7-4BCD-8F7F-3DAF46A9B55E",
                             "factoryCode": "2",
-                            "factoryKind": "E",
+                            "factoryKind": "O",
                             "factoryId": null,
                             "countryCode": "DE",
-                            "factoryNo": "MDE1020000",
-                            "factoryName": "B.BRAUN MELSUNGEN AG",
-                            "factoryAddr": "CARL-BRAUN-STRABE 1, 34212 MELSUNGEN, GERMANY",
+                            "factoryNo": "MDE1316001",
+                            "factoryName": "B. Braun Melsungen AG",
+                            "factoryAddr": "Carl-Braun-Straβe 1, 34212 Melsungen, Germany",
                             "factoryMadeIn": null,
-                            "processCode": [
-                                "P02"
+                            "processCode": [],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
                             ],
-                            "entrustItem": [],
                             "qmsQsdItemList": null
                         }
                     ]
@@ -3364,7 +3390,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白  ",
                     "after": null
                 },
                 "m10": {
@@ -3428,6 +3454,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "一般醫院及個人使用裝置",
                                 "value": "J"
@@ -3442,10 +3469,6 @@
                 },
                 "m05": {
                     "before": [
-                        {
-                            "name": "委託製造",
-                            "value": "R05"
-                        },
                         {
                             "name": "輸 入",
                             "value": "R02"

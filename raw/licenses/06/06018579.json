@@ -20,10 +20,12 @@
         "空白。"
     ],
     "restraintItemsCode": [
-        "R02"
+        "R02",
+        "R02",
+        "R05"
     ],
     "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
-    "applicantAddr": "台北市南港區經貿二路198號3樓至5樓及7樓",
+    "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
     "medClass": "2",
     "efficacy": "詳如中文仿單核定本 ",
     "mdFormat": "712-101, 712-102, 712-103, 712-104, 712-105, 712-106, 712-107, 712-108, 以下空白.",
@@ -45,13 +47,18 @@
             "factoryCode": "1",
             "factoryName": "3M COMPANY 3M ESPE DENTAL PRODUCTS",
             "factoryAddr": "2111 MC GAW AVENUE IRVINE, CA 92614, U.S.A.",
-            "factoryCompanyAddr": null,
+            "factoryCompanyAddr": "",
             "countryCode": "US",
-            "processCode": [],
-            "processCodeStr": null,
+            "processCode": [
+                {
+                    "value": "P01",
+                    "name": "Manufactured by"
+                }
+            ],
+            "processCodeStr": "P01;Manufactured by",
             "factoryKind": "M",
             "factoryNo": "MUS0980000",
-            "factoryInfo": "4",
+            "factoryInfo": "2",
             "qsd": "QSD6192"
         },
         {
@@ -60,11 +67,16 @@
             "factoryAddr": "2724 SOUTH PECK ROAD, MONROVIA, CA 91016, U.S.A.",
             "factoryCompanyAddr": null,
             "countryCode": "US",
-            "processCode": [],
-            "processCodeStr": null,
+            "processCode": [
+                {
+                    "value": "P02",
+                    "name": "委託製造者"
+                }
+            ],
+            "processCodeStr": "P02;委託製造者",
             "factoryKind": "E",
             "factoryNo": "MUS0979000",
-            "factoryInfo": "4",
+            "factoryInfo": "2",
             "qsd": null
         }
     ],
@@ -176,10 +188,10 @@
     ],
     "changeDtoList": [
         {
-            "licChgDocId": "55E98B4B-E425-4546-BAF7-162750995D8D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-08-28",
-            "changeItem": "M12 醫療器材商地址( 權限管理者)",
+            "licChgDocId": "E71E1AAD-1191-4806-B8A1-34AF0D90E55C",
+            "approvedDocNo": "1130707121",
+            "approvedDate": "2024-05-09",
+            "changeItem": "M16 醫療器材商移轉",
             "changeRecord": {
                 "m01": {
                     "before": "3M 光凝變色黏劑-針筒及子彈型",
@@ -197,7 +209,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白。  ",
                     "after": null
                 },
                 "m10": {
@@ -209,8 +221,8 @@
                     "after": null
                 },
                 "m12": {
-                    "before": "台北市南港區經貿二路198號3樓至8樓",
-                    "after": "台北市南港區經貿二路198號3樓至5樓及7樓"
+                    "before": "臺北市南港區經貿二路198號3樓至5樓",
+                    "after": null
                 },
                 "m15": {
                     "before": "馮天麟Fung, Tin Lun John",
@@ -222,13 +234,23 @@
                         "fadnMdNo": null,
                         "applicantNo": "1407001100",
                         "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
-                        "applicantAddr": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
                         "applicantId": "11833655",
                         "applicantPrincipal": "馮天麟Fung, Tin Lun John",
                         "applicantTel": "",
                         "applicantLic": "018517"
                     },
-                    "after": null
+                    "after": {
+                        "countryCode": "TW",
+                        "fadnMdNo": "MD6201061214",
+                        "applicantNo": "MD6201061214",
+                        "applicantName": "台灣明尼蘇達醫療產品股份有限公司",
+                        "applicantAddr": "臺北市南港區經貿二路198號7樓、7樓之1、7樓之2",
+                        "applicantId": "94115574",
+                        "applicantPrincipal": "Maria Elisabeth Mollemans",
+                        "applicantTel": "",
+                        "applicantLic": "北市衛器販(南)MD6201061214"
+                    }
                 },
                 "m19": {
                     "before": {
@@ -236,7 +258,7 @@
                         "fadnMdNo": null,
                         "applicantNo": "1407001100",
                         "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
-                        "applicantAddr": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
                         "applicantId": "11833655",
                         "applicantPrincipal": "馮天麟Fung, Tin Lun John",
                         "applicantTel": "",
@@ -261,6 +283,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "牙科學",
                                 "value": "F"
@@ -275,6 +298,768 @@
                 },
                 "m05": {
                     "before": [
+                        {
+                            "name": "輸 入",
+                            "value": "R02"
+                        },
+                        {
+                            "name": "委託製造",
+                            "value": "R05"
+                        },
+                        {
+                            "name": "輸 入",
+                            "value": "R02"
+                        }
+                    ],
+                    "after": null
+                },
+                "m07": {
+                    "before": "詳如中文仿單核定本 ",
+                    "after": null
+                },
+                "m08": {
+                    "before": {
+                        "format": "712-101, 712-102, 712-103, 712-104, 712-105, 712-106, 712-107, 712-108, 以下空白.",
+                        "formatDesc": "",
+                        "iomRecord": null
+                    },
+                    "after": null
+                },
+                "m22": {
+                    "before": {
+                        "relationInfo": null,
+                        "relationOther": null,
+                        "relationLicId": []
+                    },
+                    "after": {
+                        "relationInfo": "",
+                        "relationOther": "",
+                        "relationLicId": []
+                    }
+                },
+                "m13": {
+                    "before": null,
+                    "after": []
+                },
+                "m14": {
+                    "before": null,
+                    "after": []
+                },
+                "m17": null,
+                "iom": {
+                    "before": {
+                        "changeItem": null,
+                        "instructionFileList": [
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790001.pdf",
+                                "fileStreamId": "33F48523-B5BA-4827-9D21-82F56C2DFD19"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790002.pdf",
+                                "fileStreamId": "1BD68409-1888-45E4-83D1-1AF437A21CFA"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790003.pdf",
+                                "fileStreamId": "A8277D15-7C5A-4BA4-B8C4-462E664660EA"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790004.pdf",
+                                "fileStreamId": "72544B62-7808-4EEA-A909-FAF2A4512097"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790005.pdf",
+                                "fileStreamId": "83803F04-362A-4756-A58C-87566319C0C0"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790006.pdf",
+                                "fileStreamId": "7A48B6A2-226E-4853-AA83-FF40D42D84C1"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790007.pdf",
+                                "fileStreamId": "5E886867-19C4-4A07-B7F6-65A2D4D0A63D"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790008.pdf",
+                                "fileStreamId": "F87585A8-8026-46E1-A753-D41D6A6E1D69"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790009.pdf",
+                                "fileStreamId": "BC5901E6-D5D7-4B3D-A128-4D8FE569719B"
+                            }
+                        ],
+                        "packageFileList": [
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790001.pdf",
+                                "fileStreamId": "ECDD8BD0-B218-42DB-912B-08944ACDBBBF"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790002.pdf",
+                                "fileStreamId": "5BBBC4F8-7377-4E60-9ED7-A1D402DD8BC2"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790003.pdf",
+                                "fileStreamId": "0ED2B9D2-F8BC-4829-919C-064ED3EA9A90"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790004.pdf",
+                                "fileStreamId": "EC54D866-03D5-4966-9CBF-33883C3CCE1A"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790005.pdf",
+                                "fileStreamId": "0CD02A49-176E-439E-8850-38C6CB8CE61A"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790006.pdf",
+                                "fileStreamId": "4B818DEA-93ED-4870-A964-B5137E0D2E04"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790007.pdf",
+                                "fileStreamId": "DE3F236F-5D74-4422-B9E9-C73EAFEEA13D"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790008.pdf",
+                                "fileStreamId": "90A1EA11-3E91-4CED-9FCF-749E65643F5F"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790009.pdf",
+                                "fileStreamId": "70C4CF64-7709-46CE-A96E-E1118095240D"
+                            }
+                        ],
+                        "iomDesc": null,
+                        "iomOther": null,
+                        "iomEfficacy": null
+                    },
+                    "after": null
+                },
+                "factoryRecord": null,
+                "existedChangeItems": [
+                    "M16"
+                ],
+                "iomOwner": null,
+                "basicData": {
+                    "createUser": "林育如",
+                    "recvDocNo": "1130707121",
+                    "approveDocNo": "1130707121",
+                    "sendDocNo": "1130707121",
+                    "recvDate": "2024-03-19",
+                    "approveDate": "2024-05-09",
+                    "sendDate": "2024-05-09",
+                    "workDate": "2024-06-08",
+                    "changeRemark": ""
+                },
+                "m18Factory": {
+                    "factoryInfo": "2",
+                    "factoryItemList": [
+                        {
+                            "licChgFactoryId": null,
+                            "licFactoryId": "2BEA6B78-E10E-49D4-9392-750427AD8F24",
+                            "factoryCode": "1",
+                            "factoryKind": "M",
+                            "factoryId": null,
+                            "countryCode": "US",
+                            "factoryNo": "MUS0980000",
+                            "factoryName": "3M COMPANY 3M ESPE DENTAL PRODUCTS",
+                            "factoryAddr": "2111 MC GAW AVENUE IRVINE, CA 92614, U.S.A.",
+                            "factoryMadeIn": null,
+                            "processCode": [
+                                "P01"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
+                            "qmsQsdItemList": null
+                        },
+                        {
+                            "licChgFactoryId": null,
+                            "licFactoryId": "F91A23BB-03A9-4184-8CB9-C081F047F630",
+                            "factoryCode": "2",
+                            "factoryKind": "E",
+                            "factoryId": null,
+                            "countryCode": "US",
+                            "factoryNo": "MUS0979000",
+                            "factoryName": "3M UNITEK CORPORATION",
+                            "factoryAddr": "2724 SOUTH PECK ROAD, MONROVIA, CA 91016, U.S.A.",
+                            "factoryMadeIn": null,
+                            "processCode": [
+                                "P02"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
+                            "qmsQsdItemList": null
+                        }
+                    ]
+                },
+                "regTypeRemark": {
+                    "before": {
+                        "replaceModel": "",
+                        "isPriority": "",
+                        "isSimilar": "N",
+                        "isGive": "",
+                        "isConsultation": "",
+                        "isMemberReview": "N",
+                        "prodKindList": []
+                    },
+                    "after": {
+                        "replaceModel": "0",
+                        "isPriority": "N",
+                        "isSimilar": "N",
+                        "isGive": "N",
+                        "isConsultation": "N",
+                        "isMemberReview": "N",
+                        "prodKindList": [
+                            "0"
+                        ]
+                    }
+                }
+            },
+            "remark": ""
+        },
+        {
+            "licChgDocId": "E384D0A8-5906-451E-810C-4CFD98027091",
+            "approvedDocNo": "20240429FDA",
+            "approvedDate": "2024-04-29",
+            "changeItem": "M12 醫療器材商地址( 權限管理者)",
+            "changeRecord": {
+                "m01": {
+                    "before": "3M 光凝變色黏劑-針筒及子彈型",
+                    "after": null
+                },
+                "m02": {
+                    "before": "3M Unitek Transbond PLUS Color Change Adhesive in Syringes and Capsules",
+                    "after": null
+                },
+                "m04": {
+                    "before": {
+                        "name": "第二等級",
+                        "value": "2"
+                    },
+                    "after": null
+                },
+                "m09": {
+                    "before": "空白。  ",
+                    "after": null
+                },
+                "m10": {
+                    "before": null,
+                    "after": null
+                },
+                "m11": {
+                    "before": "臺灣明尼蘇達礦業製造股份有限公司",
+                    "after": null
+                },
+                "m12": {
+                    "before": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                    "after": "臺北市南港區經貿二路198號3樓至5樓"
+                },
+                "m15": {
+                    "before": "馮天麟Fung, Tin Lun John",
+                    "after": null
+                },
+                "m16": {
+                    "before": {
+                        "countryCode": "TW",
+                        "fadnMdNo": null,
+                        "applicantNo": "1407001100",
+                        "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
+                        "applicantId": "11833655",
+                        "applicantPrincipal": "馮天麟Fung, Tin Lun John",
+                        "applicantTel": "",
+                        "applicantLic": "018517"
+                    },
+                    "after": null
+                },
+                "m19": {
+                    "before": {
+                        "countryCode": "TW",
+                        "fadnMdNo": null,
+                        "applicantNo": "1407001100",
+                        "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
+                        "applicantId": "11833655",
+                        "applicantPrincipal": "馮天麟Fung, Tin Lun John",
+                        "applicantTel": "",
+                        "applicantLic": "018517"
+                    },
+                    "after": null
+                },
+                "m20": {
+                    "before": {
+                        "licIdSeq": null,
+                        "issueDate": "2008-02-01"
+                    },
+                    "after": null
+                },
+                "m21": {
+                    "before": {
+                        "licIdSeq": null,
+                        "issueDate": "2008-02-01"
+                    },
+                    "after": null
+                },
+                "m03": {
+                    "before": [
+                        {
+                            "id": null,
+                            "mdKindMCode": {
+                                "name": "牙科學",
+                                "value": "F"
+                            },
+                            "mdKindDCode": {
+                                "name": "牙齒矯正托架黏著樹脂及調節劑",
+                                "value": "F.3750"
+                            }
+                        }
+                    ],
+                    "after": null
+                },
+                "m05": {
+                    "before": [
+                        {
+                            "name": "輸 入",
+                            "value": "R02"
+                        },
+                        {
+                            "name": "委託製造",
+                            "value": "R05"
+                        },
+                        {
+                            "name": "輸 入",
+                            "value": "R02"
+                        }
+                    ],
+                    "after": null
+                },
+                "m07": {
+                    "before": "詳如中文仿單核定本 ",
+                    "after": null
+                },
+                "m08": {
+                    "before": {
+                        "format": "712-101, 712-102, 712-103, 712-104, 712-105, 712-106, 712-107, 712-108, 以下空白.",
+                        "formatDesc": "",
+                        "iomRecord": null
+                    },
+                    "after": null
+                },
+                "m22": {
+                    "before": {
+                        "relationInfo": null,
+                        "relationOther": null,
+                        "relationLicId": []
+                    },
+                    "after": {
+                        "relationInfo": "",
+                        "relationOther": "",
+                        "relationLicId": []
+                    }
+                },
+                "m13": {
+                    "before": null,
+                    "after": []
+                },
+                "m14": {
+                    "before": null,
+                    "after": []
+                },
+                "m17": null,
+                "iom": {
+                    "before": {
+                        "changeItem": null,
+                        "instructionFileList": [
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790001.pdf",
+                                "fileStreamId": "33F48523-B5BA-4827-9D21-82F56C2DFD19"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790002.pdf",
+                                "fileStreamId": "1BD68409-1888-45E4-83D1-1AF437A21CFA"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790003.pdf",
+                                "fileStreamId": "A8277D15-7C5A-4BA4-B8C4-462E664660EA"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790004.pdf",
+                                "fileStreamId": "72544B62-7808-4EEA-A909-FAF2A4512097"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790005.pdf",
+                                "fileStreamId": "83803F04-362A-4756-A58C-87566319C0C0"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790006.pdf",
+                                "fileStreamId": "7A48B6A2-226E-4853-AA83-FF40D42D84C1"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790007.pdf",
+                                "fileStreamId": "5E886867-19C4-4A07-B7F6-65A2D4D0A63D"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790008.pdf",
+                                "fileStreamId": "F87585A8-8026-46E1-A753-D41D6A6E1D69"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790009.pdf",
+                                "fileStreamId": "BC5901E6-D5D7-4B3D-A128-4D8FE569719B"
+                            }
+                        ],
+                        "packageFileList": [
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790001.pdf",
+                                "fileStreamId": "ECDD8BD0-B218-42DB-912B-08944ACDBBBF"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790002.pdf",
+                                "fileStreamId": "5BBBC4F8-7377-4E60-9ED7-A1D402DD8BC2"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790003.pdf",
+                                "fileStreamId": "0ED2B9D2-F8BC-4829-919C-064ED3EA9A90"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790004.pdf",
+                                "fileStreamId": "EC54D866-03D5-4966-9CBF-33883C3CCE1A"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790005.pdf",
+                                "fileStreamId": "0CD02A49-176E-439E-8850-38C6CB8CE61A"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790006.pdf",
+                                "fileStreamId": "4B818DEA-93ED-4870-A964-B5137E0D2E04"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790007.pdf",
+                                "fileStreamId": "DE3F236F-5D74-4422-B9E9-C73EAFEEA13D"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790008.pdf",
+                                "fileStreamId": "90A1EA11-3E91-4CED-9FCF-749E65643F5F"
+                            },
+                            {
+                                "uploadType": null,
+                                "uploadDate": "1900-01-01",
+                                "isPublic": "Y",
+                                "fileName": "060185790009.pdf",
+                                "fileStreamId": "70C4CF64-7709-46CE-A96E-E1118095240D"
+                            }
+                        ],
+                        "iomDesc": null,
+                        "iomOther": null,
+                        "iomEfficacy": null
+                    },
+                    "after": null
+                },
+                "factoryRecord": null,
+                "existedChangeItems": [
+                    "M12"
+                ],
+                "iomOwner": null,
+                "basicData": {
+                    "createUser": "",
+                    "recvDocNo": "20240429FDA",
+                    "approveDocNo": "20240429FDA",
+                    "sendDocNo": "20240429FDA",
+                    "recvDate": "2024-04-29",
+                    "approveDate": "2024-04-29",
+                    "sendDate": "2024-04-29",
+                    "workDate": "2024-04-29",
+                    "changeRemark": null
+                },
+                "m18Factory": {
+                    "factoryInfo": "2",
+                    "factoryItemList": [
+                        {
+                            "licChgFactoryId": null,
+                            "licFactoryId": "2BEA6B78-E10E-49D4-9392-750427AD8F24",
+                            "factoryCode": "1",
+                            "factoryKind": "M",
+                            "factoryId": null,
+                            "countryCode": "US",
+                            "factoryNo": "MUS0980000",
+                            "factoryName": "3M COMPANY 3M ESPE DENTAL PRODUCTS",
+                            "factoryAddr": "2111 MC GAW AVENUE IRVINE, CA 92614, U.S.A.",
+                            "factoryMadeIn": null,
+                            "processCode": [
+                                "P01"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
+                            "qmsQsdItemList": null
+                        },
+                        {
+                            "licChgFactoryId": null,
+                            "licFactoryId": "F91A23BB-03A9-4184-8CB9-C081F047F630",
+                            "factoryCode": "2",
+                            "factoryKind": "E",
+                            "factoryId": null,
+                            "countryCode": "US",
+                            "factoryNo": "MUS0979000",
+                            "factoryName": "3M UNITEK CORPORATION",
+                            "factoryAddr": "2724 SOUTH PECK ROAD, MONROVIA, CA 91016, U.S.A.",
+                            "factoryMadeIn": null,
+                            "processCode": [
+                                "P02"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
+                            "qmsQsdItemList": null
+                        }
+                    ]
+                },
+                "regTypeRemark": {
+                    "before": {
+                        "replaceModel": null,
+                        "isPriority": null,
+                        "isSimilar": null,
+                        "isGive": null,
+                        "isConsultation": null,
+                        "isMemberReview": null,
+                        "prodKindList": []
+                    },
+                    "after": {
+                        "replaceModel": null,
+                        "isPriority": null,
+                        "isSimilar": null,
+                        "isGive": null,
+                        "isConsultation": null,
+                        "isMemberReview": null,
+                        "prodKindList": []
+                    }
+                }
+            },
+            "remark": ""
+        },
+        {
+            "licChgDocId": "55E98B4B-E425-4546-BAF7-162750995D8D",
+            "approvedDocNo": "9999999999",
+            "approvedDate": "2023-08-28",
+            "changeItem": "M12 醫療器材商地址( 權限管理者)",
+            "changeRecord": {
+                "m01": {
+                    "before": "3M 光凝變色黏劑-針筒及子彈型",
+                    "after": null
+                },
+                "m02": {
+                    "before": "3M Unitek Transbond PLUS Color Change Adhesive in Syringes and Capsules",
+                    "after": null
+                },
+                "m04": {
+                    "before": {
+                        "name": "第二等級",
+                        "value": "2"
+                    },
+                    "after": null
+                },
+                "m09": {
+                    "before": "空白。  ",
+                    "after": null
+                },
+                "m10": {
+                    "before": null,
+                    "after": null
+                },
+                "m11": {
+                    "before": "臺灣明尼蘇達礦業製造股份有限公司",
+                    "after": null
+                },
+                "m12": {
+                    "before": "台北市南港區經貿二路198號3樓至8樓",
+                    "after": "台北市南港區經貿二路198號3樓至5樓及7樓"
+                },
+                "m15": {
+                    "before": "馮天麟Fung, Tin Lun John",
+                    "after": null
+                },
+                "m16": {
+                    "before": {
+                        "countryCode": "TW",
+                        "fadnMdNo": null,
+                        "applicantNo": "1407001100",
+                        "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
+                        "applicantId": "11833655",
+                        "applicantPrincipal": "馮天麟Fung, Tin Lun John",
+                        "applicantTel": "",
+                        "applicantLic": "018517"
+                    },
+                    "after": null
+                },
+                "m19": {
+                    "before": {
+                        "countryCode": "TW",
+                        "fadnMdNo": null,
+                        "applicantNo": "1407001100",
+                        "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
+                        "applicantId": "11833655",
+                        "applicantPrincipal": "馮天麟Fung, Tin Lun John",
+                        "applicantTel": "",
+                        "applicantLic": "018517"
+                    },
+                    "after": null
+                },
+                "m20": {
+                    "before": {
+                        "licIdSeq": null,
+                        "issueDate": "2008-02-01"
+                    },
+                    "after": null
+                },
+                "m21": {
+                    "before": {
+                        "licIdSeq": null,
+                        "issueDate": "2008-02-01"
+                    },
+                    "after": null
+                },
+                "m03": {
+                    "before": [
+                        {
+                            "id": null,
+                            "mdKindMCode": {
+                                "name": "牙科學",
+                                "value": "F"
+                            },
+                            "mdKindDCode": {
+                                "name": "牙齒矯正托架黏著樹脂及調節劑",
+                                "value": "F.3750"
+                            }
+                        }
+                    ],
+                    "after": null
+                },
+                "m05": {
+                    "before": [
+                        {
+                            "name": "輸 入",
+                            "value": "R02"
+                        },
+                        {
+                            "name": "委託製造",
+                            "value": "R05"
+                        },
                         {
                             "name": "輸 入",
                             "value": "R02"
@@ -471,11 +1256,11 @@
                     "changeRemark": null
                 },
                 "m18Factory": {
-                    "factoryInfo": "4",
+                    "factoryInfo": "2",
                     "factoryItemList": [
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "946EA865-D667-4C10-9911-61E629480A92",
+                            "licFactoryId": "2BEA6B78-E10E-49D4-9392-750427AD8F24",
                             "factoryCode": "1",
                             "factoryKind": "M",
                             "factoryId": null,
@@ -484,13 +1269,20 @@
                             "factoryName": "3M COMPANY 3M ESPE DENTAL PRODUCTS",
                             "factoryAddr": "2111 MC GAW AVENUE IRVINE, CA 92614, U.S.A.",
                             "factoryMadeIn": null,
-                            "processCode": [],
-                            "entrustItem": [],
+                            "processCode": [
+                                "P01"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         },
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "7A4304E3-5D97-4752-8B24-82AB6C819A0D",
+                            "licFactoryId": "F91A23BB-03A9-4184-8CB9-C081F047F630",
                             "factoryCode": "2",
                             "factoryKind": "E",
                             "factoryId": null,
@@ -499,8 +1291,15 @@
                             "factoryName": "3M UNITEK CORPORATION",
                             "factoryAddr": "2724 SOUTH PECK ROAD, MONROVIA, CA 91016, U.S.A.",
                             "factoryMadeIn": null,
-                            "processCode": [],
-                            "entrustItem": [],
+                            "processCode": [
+                                "P02"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         }
                     ]
@@ -550,7 +1349,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白。  ",
                     "after": null
                 },
                 "m10": {
@@ -562,7 +1361,7 @@
                     "after": null
                 },
                 "m12": {
-                    "before": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                    "before": "臺北市南港區經貿二路198號3樓至5樓",
                     "after": null
                 },
                 "m15": {
@@ -575,7 +1374,7 @@
                         "fadnMdNo": null,
                         "applicantNo": "1407001100",
                         "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
-                        "applicantAddr": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
                         "applicantId": "11833655",
                         "applicantPrincipal": "馮天麟Fung, Tin Lun John",
                         "applicantTel": "",
@@ -589,7 +1388,7 @@
                         "fadnMdNo": null,
                         "applicantNo": "1407001100",
                         "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
-                        "applicantAddr": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
                         "applicantId": "11833655",
                         "applicantPrincipal": "馮天麟Fung, Tin Lun John",
                         "applicantTel": "",
@@ -614,6 +1413,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "牙科學",
                                 "value": "F"
@@ -628,6 +1428,14 @@
                 },
                 "m05": {
                     "before": [
+                        {
+                            "name": "輸 入",
+                            "value": "R02"
+                        },
+                        {
+                            "name": "委託製造",
+                            "value": "R05"
+                        },
                         {
                             "name": "輸 入",
                             "value": "R02"
@@ -891,11 +1699,11 @@
                     "changeRemark": null
                 },
                 "m18Factory": {
-                    "factoryInfo": "4",
+                    "factoryInfo": "2",
                     "factoryItemList": [
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "946EA865-D667-4C10-9911-61E629480A92",
+                            "licFactoryId": "2BEA6B78-E10E-49D4-9392-750427AD8F24",
                             "factoryCode": "1",
                             "factoryKind": "M",
                             "factoryId": null,
@@ -904,13 +1712,20 @@
                             "factoryName": "3M COMPANY 3M ESPE DENTAL PRODUCTS",
                             "factoryAddr": "2111 MC GAW AVENUE IRVINE, CA 92614, U.S.A.",
                             "factoryMadeIn": null,
-                            "processCode": [],
-                            "entrustItem": [],
+                            "processCode": [
+                                "P01"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         },
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "7A4304E3-5D97-4752-8B24-82AB6C819A0D",
+                            "licFactoryId": "F91A23BB-03A9-4184-8CB9-C081F047F630",
                             "factoryCode": "2",
                             "factoryKind": "E",
                             "factoryId": null,
@@ -919,8 +1734,15 @@
                             "factoryName": "3M UNITEK CORPORATION",
                             "factoryAddr": "2724 SOUTH PECK ROAD, MONROVIA, CA 91016, U.S.A.",
                             "factoryMadeIn": null,
-                            "processCode": [],
-                            "entrustItem": [],
+                            "processCode": [
+                                "P02"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         }
                     ]
@@ -970,7 +1792,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白。  ",
                     "after": null
                 },
                 "m10": {
@@ -982,7 +1804,7 @@
                     "after": null
                 },
                 "m12": {
-                    "before": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                    "before": "臺北市南港區經貿二路198號3樓至5樓",
                     "after": null
                 },
                 "m15": {
@@ -995,7 +1817,7 @@
                         "fadnMdNo": null,
                         "applicantNo": "1407001100",
                         "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
-                        "applicantAddr": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
                         "applicantId": "11833655",
                         "applicantPrincipal": "馮天麟Fung, Tin Lun John",
                         "applicantTel": "",
@@ -1009,7 +1831,7 @@
                         "fadnMdNo": null,
                         "applicantNo": "1407001100",
                         "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
-                        "applicantAddr": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
                         "applicantId": "11833655",
                         "applicantPrincipal": "馮天麟Fung, Tin Lun John",
                         "applicantTel": "",
@@ -1034,6 +1856,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "牙科學",
                                 "value": "F"
@@ -1048,6 +1871,14 @@
                 },
                 "m05": {
                     "before": [
+                        {
+                            "name": "輸 入",
+                            "value": "R02"
+                        },
+                        {
+                            "name": "委託製造",
+                            "value": "R05"
+                        },
                         {
                             "name": "輸 入",
                             "value": "R02"
@@ -1244,11 +2075,11 @@
                     "changeRemark": null
                 },
                 "m18Factory": {
-                    "factoryInfo": "4",
+                    "factoryInfo": "2",
                     "factoryItemList": [
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "946EA865-D667-4C10-9911-61E629480A92",
+                            "licFactoryId": "2BEA6B78-E10E-49D4-9392-750427AD8F24",
                             "factoryCode": "1",
                             "factoryKind": "M",
                             "factoryId": null,
@@ -1257,13 +2088,20 @@
                             "factoryName": "3M COMPANY 3M ESPE DENTAL PRODUCTS",
                             "factoryAddr": "2111 MC GAW AVENUE IRVINE, CA 92614, U.S.A.",
                             "factoryMadeIn": null,
-                            "processCode": [],
-                            "entrustItem": [],
+                            "processCode": [
+                                "P01"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         },
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "7A4304E3-5D97-4752-8B24-82AB6C819A0D",
+                            "licFactoryId": "F91A23BB-03A9-4184-8CB9-C081F047F630",
                             "factoryCode": "2",
                             "factoryKind": "E",
                             "factoryId": null,
@@ -1272,8 +2110,15 @@
                             "factoryName": "3M UNITEK CORPORATION",
                             "factoryAddr": "2724 SOUTH PECK ROAD, MONROVIA, CA 91016, U.S.A.",
                             "factoryMadeIn": null,
-                            "processCode": [],
-                            "entrustItem": [],
+                            "processCode": [
+                                "P02"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         }
                     ]
@@ -1323,7 +2168,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白。  ",
                     "after": null
                 },
                 "m10": {
@@ -1335,7 +2180,7 @@
                     "after": null
                 },
                 "m12": {
-                    "before": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                    "before": "臺北市南港區經貿二路198號3樓至5樓",
                     "after": null
                 },
                 "m15": {
@@ -1348,7 +2193,7 @@
                         "fadnMdNo": null,
                         "applicantNo": "1407001100",
                         "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
-                        "applicantAddr": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
                         "applicantId": "11833655",
                         "applicantPrincipal": "馮天麟Fung, Tin Lun John",
                         "applicantTel": "",
@@ -1362,7 +2207,7 @@
                         "fadnMdNo": null,
                         "applicantNo": "1407001100",
                         "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
-                        "applicantAddr": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
                         "applicantId": "11833655",
                         "applicantPrincipal": "馮天麟Fung, Tin Lun John",
                         "applicantTel": "",
@@ -1387,6 +2232,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "牙科學",
                                 "value": "F"
@@ -1401,6 +2247,14 @@
                 },
                 "m05": {
                     "before": [
+                        {
+                            "name": "輸 入",
+                            "value": "R02"
+                        },
+                        {
+                            "name": "委託製造",
+                            "value": "R05"
+                        },
                         {
                             "name": "輸 入",
                             "value": "R02"
@@ -1597,11 +2451,11 @@
                     "changeRemark": null
                 },
                 "m18Factory": {
-                    "factoryInfo": "4",
+                    "factoryInfo": "2",
                     "factoryItemList": [
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "946EA865-D667-4C10-9911-61E629480A92",
+                            "licFactoryId": "2BEA6B78-E10E-49D4-9392-750427AD8F24",
                             "factoryCode": "1",
                             "factoryKind": "M",
                             "factoryId": null,
@@ -1610,13 +2464,20 @@
                             "factoryName": "3M COMPANY 3M ESPE DENTAL PRODUCTS",
                             "factoryAddr": "2111 MC GAW AVENUE IRVINE, CA 92614, U.S.A.",
                             "factoryMadeIn": null,
-                            "processCode": [],
-                            "entrustItem": [],
+                            "processCode": [
+                                "P01"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         },
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "7A4304E3-5D97-4752-8B24-82AB6C819A0D",
+                            "licFactoryId": "F91A23BB-03A9-4184-8CB9-C081F047F630",
                             "factoryCode": "2",
                             "factoryKind": "E",
                             "factoryId": null,
@@ -1625,8 +2486,15 @@
                             "factoryName": "3M UNITEK CORPORATION",
                             "factoryAddr": "2724 SOUTH PECK ROAD, MONROVIA, CA 91016, U.S.A.",
                             "factoryMadeIn": null,
-                            "processCode": [],
-                            "entrustItem": [],
+                            "processCode": [
+                                "P02"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         }
                     ]
@@ -1676,7 +2544,7 @@
                     "after": null
                 },
                 "m09": {
-                    "before": null,
+                    "before": "空白。  ",
                     "after": null
                 },
                 "m10": {
@@ -1701,7 +2569,7 @@
                         "fadnMdNo": null,
                         "applicantNo": "1407001100",
                         "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
-                        "applicantAddr": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
                         "applicantId": "11833655",
                         "applicantPrincipal": "馮天麟Fung, Tin Lun John",
                         "applicantTel": "",
@@ -1715,7 +2583,7 @@
                         "fadnMdNo": null,
                         "applicantNo": "1407001100",
                         "applicantName": "臺灣明尼蘇達礦業製造股份有限公司",
-                        "applicantAddr": "台北市南港區經貿二路198號3樓至5樓及7樓",
+                        "applicantAddr": "臺北市南港區經貿二路198號3樓至5樓",
                         "applicantId": "11833655",
                         "applicantPrincipal": "馮天麟Fung, Tin Lun John",
                         "applicantTel": "",
@@ -1740,6 +2608,7 @@
                 "m03": {
                     "before": [
                         {
+                            "id": null,
                             "mdKindMCode": {
                                 "name": "牙科學",
                                 "value": "F"
@@ -1754,6 +2623,14 @@
                 },
                 "m05": {
                     "before": [
+                        {
+                            "name": "輸 入",
+                            "value": "R02"
+                        },
+                        {
+                            "name": "委託製造",
+                            "value": "R05"
+                        },
                         {
                             "name": "輸 入",
                             "value": "R02"
@@ -1950,11 +2827,11 @@
                     "changeRemark": null
                 },
                 "m18Factory": {
-                    "factoryInfo": "4",
+                    "factoryInfo": "2",
                     "factoryItemList": [
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "946EA865-D667-4C10-9911-61E629480A92",
+                            "licFactoryId": "2BEA6B78-E10E-49D4-9392-750427AD8F24",
                             "factoryCode": "1",
                             "factoryKind": "M",
                             "factoryId": null,
@@ -1963,13 +2840,20 @@
                             "factoryName": "3M COMPANY 3M ESPE DENTAL PRODUCTS",
                             "factoryAddr": "2111 MC GAW AVENUE IRVINE, CA 92614, U.S.A.",
                             "factoryMadeIn": null,
-                            "processCode": [],
-                            "entrustItem": [],
+                            "processCode": [
+                                "P01"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         },
                         {
                             "licChgFactoryId": null,
-                            "licFactoryId": "7A4304E3-5D97-4752-8B24-82AB6C819A0D",
+                            "licFactoryId": "F91A23BB-03A9-4184-8CB9-C081F047F630",
                             "factoryCode": "2",
                             "factoryKind": "E",
                             "factoryId": null,
@@ -1978,8 +2862,15 @@
                             "factoryName": "3M UNITEK CORPORATION",
                             "factoryAddr": "2724 SOUTH PECK ROAD, MONROVIA, CA 91016, U.S.A.",
                             "factoryMadeIn": null,
-                            "processCode": [],
-                            "entrustItem": [],
+                            "processCode": [
+                                "P02"
+                            ],
+                            "entrustItem": [
+                                {
+                                    "entrustNo": "",
+                                    "entrustId": ""
+                                }
+                            ],
                             "qmsQsdItemList": null
                         }
                     ]
