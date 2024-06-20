@@ -1,8 +1,10 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
     "licid": "60001093",
+    "licUnit": "1",
     "validDate": "2028-11-14 00:00:00.000",
     "issueDate": "2018-11-14 00:00:00.000",
     "licKind": "04",
@@ -23,6 +25,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "F69C7EAF-90AA-4BC6-819F-919A019BBC87",
+    "subCategory": [
+        "C0505"
+    ],
     "ingredientsDesc": [
         "FOLLITROPIN ALFA(r-hFSH)",
         "Lutropin alfa (r-hLH)"
@@ -53,7 +60,8 @@
             "factoryKind": "M",
             "factoryNo": "FIT0324000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -71,7 +79,8 @@
             "factoryKind": "M",
             "factoryNo": "FCH0252000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -89,16 +98,18 @@
             "factoryKind": "M",
             "factoryNo": "FES0175000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6818000500",
+            "ingredientsName": "FOLLITROPIN ALFA(r-hFSH)",
             "ingredientsDesc": "FOLLITROPIN ALFA(r-hFSH)",
             "concentDesc": "",
-            "concent": "65.500",
+            "concent": "65.5000",
             "concentUnit": "355",
             "seq": "1",
             "prescription_seq": "1",
@@ -107,9 +118,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6818001100",
+            "ingredientsName": "Lutropin alfa (r-hLH)",
             "ingredientsDesc": "Lutropin alfa (r-hLH)",
             "concentDesc": "",
-            "concent": "19.800",
+            "concent": "19.8000",
             "concentUnit": "355",
             "seq": "2",
             "prescription_seq": "1",
@@ -118,80 +130,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F949DC7F-C4AD-401F-86D1-57A75EFE0D5C",
-            "approvedDocNo": "1129079237",
-            "approvedDate": "2024-04-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3AABA317-8986-4996-BD39-8D71CD82351A",
-            "approvedDocNo": "1120710997",
-            "approvedDate": "2023-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AEB39CB5-C569-4480-A3E1-A197FF2E4166",
-            "approvedDocNo": "1110729714",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8F44002B-1E03-47D5-8717-B10E7DF7E86D",
-            "approvedDocNo": "1110729714",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "88946DCC-1879-4CE8-A21A-FE2BD6AEA4CE",
-            "approvedDocNo": "1110729714",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0EB6920B-5E82-4A79-87E6-68B6322B9268",
-            "approvedDocNo": "1096816956",
-            "approvedDate": "2021-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "241B9AC7-4ADA-4BA5-ABE5-7FAE59B27B53",
-            "approvedDocNo": "1096816956",
-            "approvedDate": "2021-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3B2755D4-2201-481A-B265-15A9129B3D86",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "57F7D7AD-8446-420D-88D1-78DCB69573E4",
-            "approvedDocNo": "1081491998",
-            "approvedDate": "2020-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

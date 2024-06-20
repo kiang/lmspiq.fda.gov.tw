@@ -1,9 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
     "licid": "10000422",
-    "validDate": "2024-08-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-08-31 00:00:00.000",
     "issueDate": "2019-03-21 00:00:00.000",
     "licKind": "04",
     "oldLicid": "10000221",
@@ -27,6 +29,11 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "20888371-155C-4C21-92F0-4AF43AA1F698",
+    "subCategory": [
+        "C06"
+    ],
     "ingredientsDesc": [
         "IMMUNOGLOBULIN HUMAN"
     ],
@@ -55,7 +62,8 @@
             "factoryKind": "M",
             "factoryNo": "FDE0241000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -73,16 +81,18 @@
             "factoryKind": "M",
             "factoryNo": "6131041824",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004000603",
+            "ingredientsName": "IMMUNOGLOBULIN HUMAN",
             "ingredientsDesc": "IMMUNOGLOBULIN HUMAN",
             "concentDesc": "approx",
-            "concent": "160.000",
+            "concent": "160.0000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -91,72 +101,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B34204B8-A0E1-4EB3-84E5-968CE8FE2CFA",
-            "approvedDocNo": "1139001638",
-            "approvedDate": "2024-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9DCC3A5C-D9A3-4EA2-A0CA-4CC824515971",
-            "approvedDocNo": "1110732077",
-            "approvedDate": "2023-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "014F455F-D7CC-4ABE-9EFD-78041185D3B5",
-            "approvedDocNo": "1106029271",
-            "approvedDate": "2021-12-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "036D5363-E494-4F49-82F6-7CD8FE68F049",
-            "approvedDocNo": "1096041053",
-            "approvedDate": "2021-05-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5FEB2015-B74C-48F2-9FCE-765C3E639D57",
-            "approvedDocNo": "1096010296",
-            "approvedDate": "2020-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2D645A37-6EA2-48EA-8E1A-78A19C7AE329",
-            "approvedDocNo": "1086038829",
-            "approvedDate": "2020-03-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5DE3DA89-F82C-4AE1-A619-436587CE15CD",
-            "approvedDocNo": "1086005872",
-            "approvedDate": "2019-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1959ADE5-AA18-4BD9-9D05-516D33D7AFDB",
-            "approvedDocNo": "1076041811",
-            "approvedDate": "2019-03-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

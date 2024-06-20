@@ -1,8 +1,10 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
     "licid": "70000060",
+    "licUnit": "1",
     "validDate": "2030-02-03 00:00:00.000",
     "issueDate": "2020-02-03 00:00:00.000",
     "licKind": "02",
@@ -23,6 +25,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "CA3B42E1-C0BF-4685-8D91-70C2995800DF",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "migalastat hydrochloride"
     ],
@@ -52,7 +59,8 @@
             "factoryKind": "M",
             "factoryNo": "FGB0226200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -70,16 +78,18 @@
             "factoryKind": "M",
             "factoryNo": "FGB0429000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200112000",
+            "ingredientsName": "migalastat hydrochloride",
             "ingredientsDesc": "migalastat hydrochloride",
             "concentDesc": "(=Migalastat......123 MG)",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,56 +98,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "606E4014-209F-4C7E-9655-CEF664E1919F",
-            "approvedDocNo": "1129044861",
-            "approvedDate": "2024-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4032E522-B199-4336-B476-3CECC0020E38",
-            "approvedDocNo": "1119064252",
-            "approvedDate": "2023-02-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B1D799BE-D09F-44F3-B5D2-EF5832C5A804",
-            "approvedDocNo": "1106031035",
-            "approvedDate": "2022-06-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "93514E92-94E5-467C-AEF1-43D55373CFDD",
-            "approvedDocNo": "1101500474",
-            "approvedDate": "2022-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8E9CC850-0A66-4459-BB74-DCA529623A65",
-            "approvedDocNo": "1101500139",
-            "approvedDate": "2022-01-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1572928B-37D6-4062-A9E3-42702B51BB4E",
-            "approvedDocNo": "1101496359",
-            "approvedDate": "2021-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
