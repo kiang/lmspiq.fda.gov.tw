@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060315",
-    "validDate": "2024-07-04 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-04 00:00:00.000",
     "issueDate": "2019-07-04 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -23,6 +26,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "3AEE1640-9F97-487B-9094-B096D6425E10",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "LEVONORGESTREL",
         "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)"
@@ -52,16 +60,19 @@
             "factoryKind": "M",
             "factoryNo": "1223216300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832001004",
+            "ingredientsName": "LEVONORGESTREL",
             "ingredientsDesc": "LEVONORGESTREL",
             "concentDesc": "",
-            "concent": "0.150",
+            "concent": "0.1500",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +81,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816000600",
+            "ingredientsName": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "ingredientsDesc": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "concentDesc": "",
-            "concent": "0.030",
+            "concent": "0.0300",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,48 +93,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A6C8CFE2-FEDE-4B19-AAA4-C6BBC2553676",
-            "approvedDocNo": "1110810415",
-            "approvedDate": "2022-08-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "13A5797B-98BE-469D-8544-C8E4ABCED24F",
-            "approvedDocNo": "1096612637",
-            "approvedDate": "2020-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "70F96011-DC67-4C56-9264-D42C4AD0AB1B",
-            "approvedDocNo": "1096612637",
-            "approvedDate": "2020-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FF55EF9F-29D0-4013-BCA0-F57D1ACBD654",
-            "approvedDocNo": "1096612637",
-            "approvedDate": "2020-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "132207E2-2CAD-4E3C-AD3C-AB8CD95E1811",
-            "approvedDocNo": "1096612637",
-            "approvedDate": "2020-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

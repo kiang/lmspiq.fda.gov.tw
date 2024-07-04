@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01007821",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "1975-10-23 00:00:00.000",
     "licKind": "02",
@@ -27,6 +30,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "301FFB3B-EE3C-477E-8EA3-D7C0254E1E70",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRIAMCINOLONE ACETONIDE",
         "NEOMYCIN (SULFATE)"
@@ -56,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -74,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "(5MG) [或 Neomycin (as sulfate).....3.5mg (potency)]",
             "concent": "3.5000",
@@ -83,58 +93,9 @@
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [
-        {
-            "applicantName": "中美生技醫藥股份有限公司",
-            "certNo": "DHY00100782121",
-            "approveDocNo": "1106088946",
-            "authDate": "2021-05-19",
-            "validDate": "2024-05-25"
-        }
-    ],
+    "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2485FA52-C40F-4E96-929F-6892D66DFDCE",
-            "approvedDocNo": "1110811171",
-            "approvedDate": "2023-02-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C18E8B31-19DD-4848-8733-78D3999C1B18",
-            "approvedDocNo": "1110811171",
-            "approvedDate": "2023-02-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "436CD617-2B1D-445D-BBC2-ABCE8B4712DF",
-            "approvedDocNo": "1110811171",
-            "approvedDate": "2023-02-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "80A96D5E-F272-445C-8B53-5BAEB6D09785",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DD150949-83EE-4960-BA1B-554E5E4F6F6B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

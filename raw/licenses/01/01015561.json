@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01015561",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1978-09-22 00:00:00.000",
     "licKind": "02",
@@ -39,9 +42,10 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
-    "ingredientsDesc": [
-        "MANNITOL"
-    ],
+    "mainCategory": null,
+    "drBaseId": "884A0394-BC39-41BE-9EBE-7229466647C3",
+    "subCategory": [],
+    "ingredientsDesc": [],
     "restraintItemsCode": [
         "01",
         "09"
@@ -60,66 +64,43 @@
         {
             "factoryCode": "1",
             "factoryName": "永豐化學工業股份有限公司新莊工廠",
-            "factoryAddr": "新北市新莊區新樹路２９２號",
+            "factoryAddr": "新北市新莊區新樹路292號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
-            "factoryKind": "M",
+            "factoryKind": "E",
             "factoryNo": "0504302300",
             "factoryInfo": null,
-            "qsd": null
-        }
-    ],
-    "ingredientsDtoList": [
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
         {
-            "ingredientsKind": "1",
-            "ingredientsCode": "4028001200",
-            "ingredientsDesc": "MANNITOL",
-            "concentDesc": "20",
-            "concent": "20.0000",
-            "concentUnit": "002",
-            "seq": "1",
-            "prescription_seq": "1",
-            "prescription_Kind": "1"
+            "factoryCode": "2",
+            "factoryName": "安星製藥股份有限公司",
+            "factoryAddr": "新竹縣新豐鄉鳳坑村坑子口６７３號",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "4R",
+                    "name": "100mL PVC塑膠軟袋裝"
+                }
+            ],
+            "processCodeStr": "4R;100mL PVC塑膠軟袋裝",
+            "factoryKind": "E",
+            "factoryNo": "0603006300",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
+    "ingredientsDtoList": [],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "57567A62-E066-4368-8875-B4B31D342BBF",
-            "approvedDocNo": "1110718796",
-            "approvedDate": "2022-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "819F37F6-6F44-4F0E-9C77-F68E4DBEE217",
-            "approvedDocNo": "1086030807",
-            "approvedDate": "2019-11-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1FF3426B-40A5-4C9C-9BBD-F90E451F2A9E",
-            "approvedDocNo": "1086030807",
-            "approvedDate": "2019-11-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0BDD230A-3E01-4F11-92C4-A80063526109",
-            "approvedDocNo": "1086030807",
-            "approvedDate": "2019-11-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

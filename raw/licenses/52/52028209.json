@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028209",
+    "licUnit": "1",
     "validDate": "2027-01-03 00:00:00.000",
     "issueDate": "2022-01-03 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "066B47BA-EB64-4A7E-BD03-B94F2D1F2C1D",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Filgotinib maleate"
     ],
@@ -54,7 +62,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE0284100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -72,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0621100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013009600",
+            "ingredientsName": "Filgotinib maleate",
             "ingredientsDesc": "Filgotinib maleate",
             "concentDesc": "(equivalent to 200 mg filgotinib)",
-            "concent": "254.480",
+            "concent": "254.4800",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,72 +103,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2B3E2949-A257-4146-A5EE-368ADE16D852",
-            "approvedDocNo": "1120710239",
-            "approvedDate": "2023-05-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "881CCB71-5587-42E2-982D-87FF0998204C",
-            "approvedDocNo": "1120710239",
-            "approvedDate": "2023-05-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FC77DC29-ADBC-41D5-BFBB-A7657A09388E",
-            "approvedDocNo": "1110813230",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "43F23021-3E3E-4A54-9F92-B59D817FC549",
-            "approvedDocNo": "1110719330",
-            "approvedDate": "2023-03-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9B59E13A-3F84-491F-B857-D8B765DB319E",
-            "approvedDocNo": "1110719330",
-            "approvedDate": "2023-03-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "36BE09D3-BAA5-4178-BBBF-80BFB6931625",
-            "approvedDocNo": "1110719330",
-            "approvedDate": "2023-03-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EDD98A69-F112-4B66-BED4-7E243EC0ADB5",
-            "approvedDocNo": "1110715996",
-            "approvedDate": "2022-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DDA88D81-2EAF-4B5E-BB2B-2436BB18BC7A",
-            "approvedDocNo": "1119006059",
-            "approvedDate": "2022-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

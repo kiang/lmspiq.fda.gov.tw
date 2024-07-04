@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027798",
+    "licUnit": "1",
     "validDate": "2025-02-05 00:00:00.000",
     "issueDate": "2020-02-05 00:00:00.000",
     "licKind": "02",
@@ -27,6 +30,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "0336A60B-21FA-4F50-8976-A53FBD8B3CD3",
+    "subCategory": [
+        "A03"
+    ],
     "ingredientsDesc": [
         "Sodium glycerophosphate hydrated"
     ],
@@ -35,7 +43,7 @@
         "07"
     ],
     "applicantName": "台灣費森尤斯卡比股份有限公司",
-    "applicantAddr": "台北市大安區仁愛路三段30號5樓32號5樓",
+    "applicantAddr": "臺北市大安區仁愛路3段30號5樓、32號5樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -47,25 +55,28 @@
     "factoryDtoList": [
         {
             "factoryCode": "1",
-            "factoryName": "FRESENIUS KABI NORGE AS",
+            "factoryName": "HP HALDEN PHARMA AS",
             "factoryAddr": "SVINESUNDSVEIEN 80, HALDEN, NO-1788, NORWAY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "NO",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FNO0005000",
+            "factoryNo": "FNO0025000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200008510",
+            "ingredientsName": "Sodium glycerophosphate hydrated",
             "ingredientsDesc": "Sodium glycerophosphate hydrated",
             "concentDesc": "(corresp. to sodium glycerophosphate......216 MG)",
-            "concent": "306.100",
+            "concent": "306.1000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,16 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B68EFFD5-CA84-4F2A-9E6B-F82D9DDAE1A3",
-            "approvedDocNo": "1110717503",
-            "approvedDate": "2022-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

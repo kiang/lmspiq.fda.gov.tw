@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026993",
+    "licUnit": "1",
     "validDate": "2026-12-15 00:00:00.000",
     "issueDate": "2016-12-15 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BA4BC706-7D6D-4D88-9A22-2E77C865726B",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM MOLYBDATE DIHYDRATE",
         "Chromic chloride hexahydrate",
@@ -40,7 +46,7 @@
         "5F"
     ],
     "applicantName": "台灣費森尤斯卡比股份有限公司",
-    "applicantAddr": "台北市大安區仁愛路三段30號5樓32號5樓",
+    "applicantAddr": "臺北市大安區仁愛路3段30號5樓、32號5樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -52,21 +58,23 @@
     "factoryDtoList": [
         {
             "factoryCode": "1",
-            "factoryName": "FRESENIUS KABI NORGE AS",
+            "factoryName": "HP HALDEN PHARMA AS",
             "factoryAddr": "SVINESUNDSVEIEN 80, HALDEN, NO-1788, NORWAY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "NO",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FNO0005000",
+            "factoryNo": "FNO0025000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
-            "factoryAddr": "桃園市楊梅區梅獅路二段629號",
+            "factoryAddr": "桃園市楊梅區瑞坪里梅獅路二段６２９號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [
@@ -79,16 +87,19 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012007600",
+            "ingredientsName": "Chromic chloride hexahydrate",
             "ingredientsDesc": "Chromic chloride hexahydrate",
             "concentDesc": "",
-            "concent": "5.330",
+            "concent": "5.3300",
             "concentUnit": "355",
             "seq": "1",
             "prescription_seq": "1",
@@ -97,9 +108,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4026000730",
+            "ingredientsName": "Copper chloride dihydrate",
             "ingredientsDesc": "Copper chloride dihydrate",
             "concentDesc": "",
-            "concent": "102.300",
+            "concent": "102.3000",
             "concentUnit": "355",
             "seq": "2",
             "prescription_seq": "1",
@@ -108,9 +120,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2004400220",
+            "ingredientsName": "Ferric chloride hexahydrate",
             "ingredientsDesc": "Ferric chloride hexahydrate",
             "concentDesc": "",
-            "concent": "0.540",
+            "concent": "0.5400",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -119,9 +132,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002720",
+            "ingredientsName": "Manganese chloride tetrahydrate",
             "ingredientsDesc": "Manganese chloride tetrahydrate",
             "concentDesc": "",
-            "concent": "19.790",
+            "concent": "19.7900",
             "concentUnit": "355",
             "seq": "4",
             "prescription_seq": "1",
@@ -130,9 +144,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002900",
+            "ingredientsName": "POTASSIUM IODIDE",
             "ingredientsDesc": "POTASSIUM IODIDE",
             "concentDesc": "",
-            "concent": "16.600",
+            "concent": "16.6000",
             "concentUnit": "355",
             "seq": "5",
             "prescription_seq": "1",
@@ -141,9 +156,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200008400",
+            "ingredientsName": "SODIUM FLUORIDE",
             "ingredientsDesc": "SODIUM FLUORIDE",
             "concentDesc": "",
-            "concent": "0.210",
+            "concent": "0.2100",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -152,9 +168,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200008870",
+            "ingredientsName": "SODIUM MOLYBDATE DIHYDRATE",
             "ingredientsDesc": "SODIUM MOLYBDATE DIHYDRATE",
             "concentDesc": "",
-            "concent": "4.850",
+            "concent": "4.8500",
             "concentUnit": "355",
             "seq": "7",
             "prescription_seq": "1",
@@ -163,9 +180,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8412000900",
+            "ingredientsName": "ZINC CHLORIDE",
             "ingredientsDesc": "ZINC CHLORIDE",
             "concentDesc": "",
-            "concent": "1.050",
+            "concent": "1.0500",
             "concentUnit": "001",
             "seq": "8",
             "prescription_seq": "1",
@@ -174,9 +192,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012003750",
+            "ingredientsName": "Sodium selenite anhydrous",
             "ingredientsDesc": "Sodium selenite anhydrous",
             "concentDesc": "",
-            "concent": "17.290",
+            "concent": "17.2900",
             "concentUnit": "355",
             "seq": "9",
             "prescription_seq": "1",
@@ -185,32 +204,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F09C68DA-D3BB-4CAE-82C2-9E0C11C5B611",
-            "approvedDocNo": "1120707979",
-            "approvedDate": "2023-05-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3AA2517C-908A-4EC1-82B7-D4360A5CB57B",
-            "approvedDocNo": "1110720335",
-            "approvedDate": "2022-10-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "20649F5D-6170-43D9-9BDA-835385537557",
-            "approvedDocNo": "1106814722",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

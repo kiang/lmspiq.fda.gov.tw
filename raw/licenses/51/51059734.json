@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059734",
+    "licUnit": "1",
     "validDate": "2027-07-24 00:00:00.000",
     "issueDate": "2017-07-24 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4C0A375F-3D25-4AFF-897E-2B13FCF1AE2E",
+    "subCategory": [],
     "ingredientsDesc": [
         "NEOMYCIN SULFATE",
         "LIDOCAINE HCL",
@@ -53,16 +59,19 @@
             "factoryKind": "M",
             "factoryNo": "1421417300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812001212",
+            "ingredientsName": "POLYMYXIN B SULFATE",
             "ingredientsDesc": "POLYMYXIN B SULFATE",
             "concentDesc": "[eq. to Polymyxin B (Potency)]",
-            "concent": "10000.000",
+            "concent": "10000.0000",
             "concentUnit": "21A",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +80,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812100530",
+            "ingredientsName": "NEOMYCIN SULFATE",
             "ingredientsDesc": "NEOMYCIN SULFATE",
             "concentDesc": "[eq. to Neomycin (Potency).....3.75mg]",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,9 +92,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001010",
+            "ingredientsName": "LIDOCAINE HCL",
             "ingredientsDesc": "LIDOCAINE HCL",
             "concentDesc": "",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -93,40 +104,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "91C59691-91F5-4FB0-948C-5C94AA794139",
-            "approvedDocNo": "1110028114",
-            "approvedDate": "2023-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "08E86EFF-8964-47C6-85DE-7186F358FE4F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A8FF2056-732E-49C1-8427-64701F85352C",
-            "approvedDocNo": "1106613220",
-            "approvedDate": "2022-03-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "77E0A1B7-CB43-4CC5-99A9-2C10A0A42ECD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

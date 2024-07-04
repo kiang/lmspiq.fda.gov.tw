@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000915",
+    "licUnit": "1",
     "validDate": "2026-03-10 00:00:00.000",
     "issueDate": "2011-03-10 00:00:00.000",
     "licKind": "04",
@@ -27,6 +30,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "ED9B00CA-5375-47C2-8996-61ADA87760BD",
+    "subCategory": [],
     "ingredientsDesc": [
         "RECOMBINANT HUMAN LUTENISING HORMONE",
         "FOLLITROPIN ALFA(r-hFSH)"
@@ -56,7 +62,9 @@
             "factoryKind": "M",
             "factoryNo": "FCH0252000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -74,7 +82,9 @@
             "factoryKind": "M",
             "factoryNo": "FES0175000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -92,16 +102,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT9106000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6818000500",
+            "ingredientsName": "FOLLITROPIN ALFA(r-hFSH)",
             "ingredientsDesc": "FOLLITROPIN ALFA(r-hFSH)",
             "concentDesc": "11 micrograms",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "21A",
             "seq": "0",
             "prescription_seq": "0",
@@ -110,9 +123,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6828000920",
+            "ingredientsName": "RECOMBINANT HUMAN LUTENISING HORMONE",
             "ingredientsDesc": "RECOMBINANT HUMAN LUTENISING HORMONE",
             "concentDesc": "3 micrograms",
-            "concent": "75.000",
+            "concent": "75.0000",
             "concentUnit": "21A",
             "seq": "1",
             "prescription_seq": "0",
@@ -121,80 +135,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6B593C00-0865-479B-9BCF-06CA424A0FFD",
-            "approvedDocNo": "1120710994",
-            "approvedDate": "2023-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "54DFB231-1644-4572-A586-2139FAD7A266",
-            "approvedDocNo": "1110729715",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FA40A76C-AB1B-486C-99CA-2BDD733B8305",
-            "approvedDocNo": "1110729715",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "39E21C5A-7D46-4D8B-A415-4E2452E86123",
-            "approvedDocNo": "1110729715",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0CB40A73-01E0-4BE3-866B-22D2BDA7A696",
-            "approvedDocNo": "1106033301",
-            "approvedDate": "2022-08-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6D1366ED-C8D6-48B1-B316-FADA8485CE5A",
-            "approvedDocNo": "1096816953",
-            "approvedDate": "2021-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DA700427-8A2F-412A-86A1-8E6756FBA342",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3DB1175C-B77F-4217-9FAA-DDBEC01F30B2",
-            "approvedDocNo": "1091490658",
-            "approvedDate": "2020-06-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7F68BEEC-A1A2-4D31-AA83-4B5D2A3B2496",
-            "approvedDocNo": "1081491993",
-            "approvedDate": "2020-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

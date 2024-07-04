@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51061415",
+    "licUnit": "1",
     "validDate": "2028-01-12 00:00:00.000",
     "issueDate": "2023-01-12 00:00:00.000",
     "licKind": "02",
@@ -20,14 +23,20 @@
             "packageUnit": "HE"
         },
         {
-            "packageSpec": "(60毫升HDPE塑膠瓶裝，附20毫升PP量杯及10毫升PP針筒)",
+            "packageSpec": "(附量杯或口服給藥器)",
             "packageUnit": ""
         }
     ],
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "1EC1E866-3766-4C8F-A69A-D1727B07446C",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
+        "ATOMOXETINE HYDROCHLORIDE",
         "ATOMOXETINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
@@ -56,19 +65,34 @@
             "factoryKind": "M",
             "factoryNo": "6103030026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816402010",
+            "ingredientsName": "ATOMOXETINE HYDROCHLORIDE",
             "ingredientsDesc": "ATOMOXETINE HYDROCHLORIDE",
             "concentDesc": "(eq to Atomoxetine.....4 mg)",
-            "concent": "4.600",
+            "concent": "4.6000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
+            "prescription_Kind": "1"
+        },
+        {
+            "ingredientsKind": "1",
+            "ingredientsCode": "2816402010",
+            "ingredientsName": "ATOMOXETINE HYDROCHLORIDE",
+            "ingredientsDesc": "ATOMOXETINE HYDROCHLORIDE",
+            "concentDesc": "(eq to Atomoxetine.....4 mg)",
+            "concent": "4.6000",
+            "concentUnit": "001",
+            "seq": "1",
+            "prescription_seq": "2",
             "prescription_Kind": "1"
         }
     ],

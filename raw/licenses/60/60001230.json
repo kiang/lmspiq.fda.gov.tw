@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001230",
+    "licUnit": "1",
     "validDate": "2028-03-03 00:00:00.000",
     "issueDate": "2023-03-03 00:00:00.000",
     "licKind": "04",
@@ -23,6 +26,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "FCB35590-7BDB-46DE-AECF-D11F7CA1288D",
+    "subCategory": [
+        "C0401"
+    ],
     "ingredientsDesc": [
         "B\/Phuket\/3073\/2013-like virus (B\/Phuket\/3073\/2013, BVR-1B)",
         "A\/Darwin\/9\/2021 (H3N2) - like strain (A\/Darwin\/6\/2021, IVR-227)",
@@ -61,7 +69,9 @@
             "factoryKind": "M",
             "factoryNo": "FGB0278100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -79,16 +89,19 @@
             "factoryKind": "M",
             "factoryNo": "1225204000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8012002540",
+            "ingredientsName": "A\/Victoria\/4897\/2022 (H1N1)pdm09-like strain (A\/Victoria\/4897\/2022, IVR-238)",
             "ingredientsDesc": "A\/Victoria\/4897\/2022 (H1N1)pdm09-like strain (A\/Victoria\/4897\/2022, IVR-238)",
             "concentDesc": "",
-            "concent": "15.000",
+            "concent": "15.0000",
             "concentUnit": "263",
             "seq": "1",
             "prescription_seq": "1",
@@ -97,9 +110,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8012018070",
+            "ingredientsName": "A\/Darwin\/9\/2021 (H3N2) - like strain (A\/Darwin\/6\/2021, IVR-227)",
             "ingredientsDesc": "A\/Darwin\/9\/2021 (H3N2) - like strain (A\/Darwin\/6\/2021, IVR-227)",
             "concentDesc": "",
-            "concent": "15.000",
+            "concent": "15.0000",
             "concentUnit": "263",
             "seq": "2",
             "prescription_seq": "1",
@@ -108,9 +122,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8012006270",
+            "ingredientsName": "B\/Austria\/1359417\/2021 - like strain (B\/Austria\/1359417\/2021, BVR-26)",
             "ingredientsDesc": "B\/Austria\/1359417\/2021 - like strain (B\/Austria\/1359417\/2021, BVR-26)",
             "concentDesc": "",
-            "concent": "15.000",
+            "concent": "15.0000",
             "concentUnit": "263",
             "seq": "3",
             "prescription_seq": "1",
@@ -119,9 +134,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8012006231",
+            "ingredientsName": "B\/Phuket\/3073\/2013-like virus (B\/Phuket\/3073\/2013, BVR-1B)",
             "ingredientsDesc": "B\/Phuket\/3073\/2013-like virus (B\/Phuket\/3073\/2013, BVR-1B)",
             "concentDesc": "",
-            "concent": "15.000",
+            "concent": "15.0000",
             "concentUnit": "263",
             "seq": "4",
             "prescription_seq": "1",
@@ -130,80 +146,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2B40DAB4-388E-41A2-A736-6243B4050A27",
-            "approvedDocNo": "1129074268",
-            "approvedDate": "2024-02-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4F3AE74F-8E05-4AC5-8992-4F229CB95F67",
-            "approvedDocNo": "1120806871",
-            "approvedDate": "2023-09-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "156F0695-565A-4575-8675-F2158344E8D9",
-            "approvedDocNo": "1120713610",
-            "approvedDate": "2023-09-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E98086A9-663B-46D0-B8A0-805365420DC1",
-            "approvedDocNo": "1120707301",
-            "approvedDate": "2023-08-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E19475BC-5E02-4C47-9945-B4E045CEA2BA",
-            "approvedDocNo": "1120707301",
-            "approvedDate": "2023-08-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3A9F3529-5D8A-4C91-BDFD-4E44992F10B1",
-            "approvedDocNo": "1120710215",
-            "approvedDate": "2023-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F72A63A1-84EF-4388-836E-2718E26FB5EE",
-            "approvedDocNo": "1129016950",
-            "approvedDate": "2023-04-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C30E7463-9DAE-469C-A078-4B3D4284B456",
-            "approvedDocNo": "1129016950",
-            "approvedDate": "2023-04-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2DF83DEB-713A-4B6E-9D07-6964826532FF",
-            "approvedDocNo": "1129016950",
-            "approvedDate": "2023-04-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

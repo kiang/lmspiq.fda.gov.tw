@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01017008",
+    "licUnit": "1",
     "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "2004-10-26 00:00:00.000",
     "licKind": "02",
@@ -22,7 +25,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "BB8DA40B-17DB-4F9F-AD8D-2133F869DBD6",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "DL-METHYLEPHEDRINE HCL",
         "CAFFEINE ANHYDROUS",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": null,
             "concent": "12.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": null,
             "concent": "0.1200",
@@ -85,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": null,
             "concent": "0.4800",
@@ -96,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": null,
             "concent": "3.0000",
@@ -107,6 +121,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": null,
             "concent": "1.5000",
@@ -118,32 +133,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1E3524C1-7E69-4EAB-BE1C-4BB2FE14D909",
-            "approvedDocNo": "1110813693",
-            "approvedDate": "2022-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6069B00B-9E95-4FD2-8D69-5BFA53371090",
-            "approvedDocNo": "1110813693",
-            "approvedDate": "2022-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C68F07E5-B84D-449E-BF25-FD59BED48488",
-            "approvedDocNo": "1101491520",
-            "approvedDate": "2021-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000898",
+    "licUnit": "1",
     "validDate": "2025-09-16 00:00:00.000",
     "issueDate": "2010-09-16 00:00:00.000",
     "licKind": "04",
@@ -27,6 +30,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "681D9B5F-5F33-4AC9-915D-8B7A4DFFD088",
+    "subCategory": [],
     "ingredientsDesc": [
         "INSULIN LISPRO",
         "INSULIN LISPRO"
@@ -61,7 +67,9 @@
             "factoryKind": "M",
             "factoryNo": "FFR0118000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "1",
@@ -79,7 +87,9 @@
             "factoryKind": "M",
             "factoryNo": "FIT0058000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -97,7 +107,9 @@
             "factoryKind": "M",
             "factoryNo": "FPR0051000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -115,16 +127,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0073100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820801000",
+            "ingredientsName": "INSULIN LISPRO",
             "ingredientsDesc": "INSULIN LISPRO",
             "concentDesc": "25% Insulin lispro",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "1",
@@ -133,9 +148,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820801000",
+            "ingredientsName": "INSULIN LISPRO",
             "ingredientsDesc": "INSULIN LISPRO",
             "concentDesc": null,
-            "concent": "3.500",
+            "concent": "3.5000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -144,48 +160,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F8B13D23-ADD1-4D9C-A527-2ABC42260050",
-            "approvedDocNo": "1106007122",
-            "approvedDate": "2021-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A2B8B175-AE5C-4D98-BBE8-951415CFAEEB",
-            "approvedDocNo": "1106007122",
-            "approvedDate": "2021-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "26EF8E51-F510-46DA-A48A-4C92495B20CE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "11F8689F-C4B1-49A1-B057-A9388BD51F06",
-            "approvedDocNo": "1096009135",
-            "approvedDate": "2020-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1F7E2077-B2AF-490B-B179-CE2F5BEE6892",
-            "approvedDocNo": "1086023213",
-            "approvedDate": "2019-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "14000541",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "1970-08-04 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "03",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "200E6036-13C0-405E-8E46-6E249915046C",
+    "subCategory": [],
     "ingredientsDesc": [
         "SULFANILAMIDE",
         "SULFUR",
@@ -53,16 +59,19 @@
             "factoryKind": "M",
             "factoryNo": "0900822300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8428000900",
+            "ingredientsName": "SULFUR",
             "ingredientsDesc": "SULFUR",
             "concentDesc": "(PURIFIED) ",
-            "concent": "2.600",
+            "concent": "2.6000",
             "concentUnit": "002",
             "seq": "0",
             "prescription_seq": "0",
@@ -71,9 +80,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204800300",
+            "ingredientsName": "SULFANILAMIDE",
             "ingredientsDesc": "SULFANILAMIDE",
             "concentDesc": "",
-            "concent": "0.625",
+            "concent": "0.6250",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "0",
@@ -82,9 +92,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8428000700",
+            "ingredientsName": "SALICYLIC ACID",
             "ingredientsDesc": "SALICYLIC ACID",
             "concentDesc": "",
-            "concent": "0.625",
+            "concent": "0.6250",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "0",
@@ -93,48 +104,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8EC47885-7407-4F54-BA49-6AB3E54D745C",
-            "approvedDocNo": "1120607581",
-            "approvedDate": "2023-08-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "79538EC6-07E6-42FD-99E0-A8F4B9D1CA9F",
-            "approvedDocNo": "1120607581",
-            "approvedDate": "2023-08-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "41A26397-7E5C-4E25-9B8F-FD9AC2F63087",
-            "approvedDocNo": "1086600096",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "88F283C0-9D6E-4E46-87AE-02390D446E65",
-            "approvedDocNo": "1086600096",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "411BCC80-7E8B-404E-AB96-63EFCF0F7F4E",
-            "approvedDocNo": "1086600096",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

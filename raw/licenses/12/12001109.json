@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12001109",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1969-09-16 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,11 +30,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "803CCE69-DD94-4E7F-8688-2B868198676B",
+    "subCategory": [],
     "ingredientsDesc": [
         "THYROID"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "強生化學製藥廠股份有限公司",
     "applicantAddr": "新北市三重區三和路四段77號2、3樓、79號1至6樓",
@@ -55,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "1110202300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6836400300",
+            "ingredientsName": "THYROID",
             "ingredientsDesc": "THYROID",
             "concentDesc": "",
-            "concent": "64.000",
+            "concent": "64.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

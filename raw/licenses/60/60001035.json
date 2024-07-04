@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001035",
+    "licUnit": "1",
     "validDate": "2026-12-22 00:00:00.000",
     "issueDate": "2016-12-22 00:00:00.000",
     "licKind": "04",
@@ -26,7 +29,10 @@
     ],
     "medMCode": "05",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "D",
+    "mainCategory": "D",
+    "drBaseId": "DB11E100-B7C4-4C54-8A31-BE5DB81F6FA0",
+    "subCategory": [],
     "ingredientsDesc": [
         "Infliximab"
     ],
@@ -60,7 +66,9 @@
             "factoryKind": "M",
             "factoryNo": "FKR0182100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -78,16 +86,19 @@
             "factoryKind": "M",
             "factoryNo": "FKR0182000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200081100",
+            "ingredientsName": "Infliximab",
             "ingredientsDesc": "Infliximab",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -96,96 +107,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "843BB80B-ACC3-49E8-AFAD-14ECD9DC2667",
-            "approvedDocNo": "1106026987",
-            "approvedDate": "2022-03-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9554D045-42C8-4E7C-9E56-79AC50491947",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8C20DC57-AA49-4997-92A1-7D56121F184F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-02-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B04E83C5-ADBD-447D-9C56-62D7C62E88AE",
-            "approvedDocNo": "1106008965",
-            "approvedDate": "2021-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1ED49BB2-B2F6-4EF4-8019-0B095685E73B",
-            "approvedDocNo": "1086033083",
-            "approvedDate": "2020-04-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B3971FEF-AD87-4E1E-8207-D128078BDAE1",
-            "approvedDocNo": "1086033083",
-            "approvedDate": "2020-04-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CFD76030-DF3A-4285-8FD1-F07D6EA16CF1",
-            "approvedDocNo": "1086033083",
-            "approvedDate": "2020-04-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B0CA5767-A802-438B-B0C8-DD7DBC48F2DA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EA3A1A2F-A637-44BF-B4CC-9A189064774D",
-            "approvedDocNo": "1076039261",
-            "approvedDate": "2019-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C4B863DE-CD67-4FD5-B362-1BFDB094ABB0",
-            "approvedDocNo": "1076039261",
-            "approvedDate": "2019-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9B431101-3A89-40B2-A607-529EF24F3576",
-            "approvedDocNo": "1076039261",
-            "approvedDate": "2019-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,8 +1,13 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2024-05-15",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "10000908",
+    "licUnit": "1",
     "validDate": "2026-01-12 00:00:00.000",
     "issueDate": "2011-01-12 00:00:00.000",
     "licKind": "04",
@@ -27,6 +32,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0F3DD35F-CC9B-4CAF-AFD3-9B9037C4A478",
+    "subCategory": [],
     "ingredientsDesc": [
         "INSULIN ASPART"
     ],
@@ -55,7 +63,9 @@
             "factoryKind": "M",
             "factoryNo": "FDK0020000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -73,7 +83,9 @@
             "factoryKind": "M",
             "factoryNo": "FDK0042000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -91,16 +103,19 @@
             "factoryKind": "M",
             "factoryNo": "MDK0036000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820800109",
+            "ingredientsName": "INSULIN ASPART",
             "ingredientsDesc": "INSULIN ASPART",
             "concentDesc": "approx.",
-            "concent": "3.500",
+            "concent": "3.5000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -109,48 +124,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A55115D2-F21E-429A-A3A4-B9C75274BAC4",
-            "approvedDocNo": "1106012042",
-            "approvedDate": "2021-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "690084D8-339E-4AC7-949D-4DDDFF68FB48",
-            "approvedDocNo": "1096003603",
-            "approvedDate": "2020-06-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1EE56C02-9617-47D1-98C8-0F2F3F394F77",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E40E5E6F-2F42-4658-9737-32E455A71A3E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AA43522F-0251-4420-9BFE-6F9CE317D4B2",
-            "approvedDocNo": "1086005691",
-            "approvedDate": "2019-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001114",
-    "validDate": "2024-09-17 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-09-17 00:00:00.000",
     "issueDate": "2019-09-17 00:00:00.000",
     "licKind": "04",
     "oldLicid": null,
@@ -23,6 +26,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "83E266AA-8A3C-4E02-8371-FDEC70391573",
+    "subCategory": [
+        "C0507"
+    ],
     "ingredientsDesc": [
         "ADALIMUMAB"
     ],
@@ -57,7 +65,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE0267200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "1",
@@ -75,7 +85,9 @@
             "factoryKind": "M",
             "factoryNo": "FUS1303000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -93,7 +105,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE0559000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -111,7 +125,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE0598000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -129,7 +145,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE9043000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -147,7 +165,9 @@
             "factoryKind": "M",
             "factoryNo": "FSG0032000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -165,16 +185,19 @@
             "factoryKind": "M",
             "factoryNo": "FSG0043000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200094700",
+            "ingredientsName": "ADALIMUMAB",
             "ingredientsDesc": "ADALIMUMAB",
             "concentDesc": "",
-            "concent": "80.000",
+            "concent": "80.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -183,64 +206,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F9EE3DE8-9ECA-4397-953B-59556AEEE0AA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "89934E29-FC7F-4A92-BB73-632829BD4F97",
-            "approvedDocNo": "1096816082",
-            "approvedDate": "2021-06-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B52966AF-9BDB-4E96-BD98-E7BCA292CF09",
-            "approvedDocNo": "1096816082",
-            "approvedDate": "2021-06-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E834A802-4686-4FB0-BDB8-646D9EB007D8",
-            "approvedDocNo": "1096016375",
-            "approvedDate": "2020-12-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7B4D11BE-A720-4055-AAA7-6DB7ABCEA787",
-            "approvedDocNo": "1086040242",
-            "approvedDate": "2020-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "877EDBF6-BFBC-4061-B322-4CEBDC7E2902",
-            "approvedDocNo": "1086040242",
-            "approvedDate": "2020-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CFE56F48-6668-4C87-A235-4DF1D8B52477",
-            "approvedDocNo": "1086040242",
-            "approvedDate": "2020-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

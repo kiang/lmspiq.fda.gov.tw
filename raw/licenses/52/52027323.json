@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027323",
+    "licUnit": "1",
     "validDate": "2028-01-19 00:00:00.000",
     "issueDate": "2018-01-19 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "26A827E4-6F3C-4D09-A13B-42786AC531DB",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Pibrentasvir",
         "Glecaprevir"
@@ -54,7 +62,9 @@
             "factoryKind": "M",
             "factoryNo": "FIE0067000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -72,7 +82,9 @@
             "factoryKind": "M",
             "factoryNo": "1225204000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -90,16 +102,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0598000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818004850",
+            "ingredientsName": "Glecaprevir",
             "ingredientsDesc": "Glecaprevir",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -108,9 +123,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818004825",
+            "ingredientsName": "Pibrentasvir",
             "ingredientsDesc": "Pibrentasvir",
             "concentDesc": "",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -119,112 +135,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1C4C1A15-EDBE-498F-992F-CEA1678CA75D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E279FD30-4A81-4E3A-8633-BE30688B8C08",
-            "approvedDocNo": "1106034877",
-            "approvedDate": "2022-01-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8D5222C1-135D-438D-BE9D-C08DC8B6A3AC",
-            "approvedDocNo": "1106012276",
-            "approvedDate": "2021-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "488291B4-3386-42DD-84AB-915E6CE527CA",
-            "approvedDocNo": "1096027515",
-            "approvedDate": "2021-03-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D298321A-75DF-4ACE-B469-9D7BD4E2611E",
-            "approvedDocNo": "1096033063",
-            "approvedDate": "2021-02-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D000C2A0-51EE-4898-81A8-80D5AA2E3197",
-            "approvedDocNo": "1096023879",
-            "approvedDate": "2020-09-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DD878590-27AF-486A-B55B-F781F5BDE6C6",
-            "approvedDocNo": "1096011911",
-            "approvedDate": "2020-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "02F07661-D878-47DC-83CB-101B211FE1E8",
-            "approvedDocNo": "1096002232",
-            "approvedDate": "2020-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E7DFC686-8D97-4041-9459-535D311C3A27",
-            "approvedDocNo": "1096002232",
-            "approvedDate": "2020-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "119B6857-D503-468D-A9F9-BB5C62DB03CE",
-            "approvedDocNo": "1096002232",
-            "approvedDate": "2020-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1D9C8D70-4547-4B08-A932-BD0D4EA20029",
-            "approvedDocNo": "1086017188",
-            "approvedDate": "2019-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CBCB2F68-C136-4DFA-B8DA-F856F0089BAC",
-            "approvedDocNo": "1086017188",
-            "approvedDate": "2019-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5B5B03BA-ACD8-4317-BB97-A37D98AB72E8",
-            "approvedDocNo": "1076029945",
-            "approvedDate": "2019-02-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

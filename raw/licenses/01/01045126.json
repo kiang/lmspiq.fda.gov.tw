@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01045126",
+    "licUnit": "1",
     "validDate": "2027-09-18 00:00:00.000",
     "issueDate": "2002-09-18 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7B621632-0EDA-4007-9408-0411EC64282F",
+    "subCategory": [],
     "ingredientsDesc": [
         "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT",
         "DICETHIAMINE HCL",
@@ -30,7 +36,7 @@
         "CYANOCOBALAMIN 0.1%",
         "NIACINAMIDE (ASCORBATE)",
         "RIBOFLAVIN (VIT B2)",
-        "CALCIUM PANTOTHENATE"
+        null
     ],
     "restraintItemsCode": [
         "01"
@@ -57,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "0413004300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656900902",
+            "ingredientsName": "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT",
             "ingredientsDesc": "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT",
             "concentDesc": "",
             "concent": "111.0000",
@@ -75,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100125",
+            "ingredientsName": "DICETHIAMINE HCL",
             "ingredientsDesc": "DICETHIAMINE HCL",
             "concentDesc": "",
             "concent": "4.0000",
@@ -86,6 +96,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "",
             "concent": "4.0000",
@@ -97,6 +108,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "",
             "concent": "4.0000",
@@ -108,6 +120,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810009400",
+            "ingredientsName": "NIACINAMIDE (ASCORBATE)",
             "ingredientsDesc": "NIACINAMIDE (ASCORBATE)",
             "concentDesc": "",
             "concent": "12.0000",
@@ -119,6 +132,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "Z102101527",
+            "ingredientsName": null,
             "ingredientsDesc": "CALCIUM PANTOTHENATE",
             "concentDesc": "",
             "concent": "8.0000",
@@ -130,6 +144,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200320",
+            "ingredientsName": "CYANOCOBALAMIN 0.1%",
             "ingredientsDesc": "CYANOCOBALAMIN 0.1%",
             "concentDesc": "(EQ.TO CYANOCOBALAMIN 1.2 μg)",
             "concent": "1.2000",
@@ -141,48 +156,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2251E6B3-0AA3-4996-A69A-3964B244A097",
-            "approvedDocNo": "1120811527",
-            "approvedDate": "2024-05-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2251E6B3-0AA3-4996-A69A-3964B244A097",
-            "approvedDocNo": "1120811527",
-            "approvedDate": "2024-05-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2251E6B3-0AA3-4996-A69A-3964B244A097",
-            "approvedDocNo": "1120811527",
-            "approvedDate": "2024-05-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2251E6B3-0AA3-4996-A69A-3964B244A097",
-            "approvedDocNo": "1120811527",
-            "approvedDate": "2024-05-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B0E780BE-4DE1-4463-9146-C284359BA805",
-            "approvedDocNo": "1086002027",
-            "approvedDate": "2019-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

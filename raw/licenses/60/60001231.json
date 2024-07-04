@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001231",
+    "licUnit": "1",
     "validDate": "2028-04-10 00:00:00.000",
     "issueDate": "2023-04-10 00:00:00.000",
     "licKind": "04",
@@ -27,6 +30,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "D2FC53A3-A1A6-463C-83E1-C11B04008D5E",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "Anifrolumab"
     ],
@@ -58,7 +66,9 @@
             "factoryKind": "M",
             "factoryNo": "FNL0140000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -76,7 +86,9 @@
             "factoryKind": "M",
             "factoryNo": "FSE0032000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -94,16 +106,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0980100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013010900",
+            "ingredientsName": "Anifrolumab",
             "ingredientsDesc": "Anifrolumab",
             "concentDesc": "",
-            "concent": "300.000",
+            "concent": "300.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -112,16 +127,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3CD77B0E-559C-4BA3-9899-5C02890B8FD4",
-            "approvedDocNo": "1129053479",
-            "approvedDate": "2024-02-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

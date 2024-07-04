@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12012915",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1970-10-21 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -23,6 +26,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "960E19C1-F726-430B-9118-AC49AF257587",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIBOFLAVIN (VIT B2)",
         "PROSULTIAMINE (THIAMINE PROPYL DISULFIDE)"
@@ -53,16 +59,19 @@
             "factoryKind": "M",
             "factoryNo": "1110202300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101500",
+            "ingredientsName": "PROSULTIAMINE (THIAMINE PROPYL DISULFIDE)",
             "ingredientsDesc": "PROSULTIAMINE (THIAMINE PROPYL DISULFIDE)",
             "concentDesc": "50",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +80,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "5",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",

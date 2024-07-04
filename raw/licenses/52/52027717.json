@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027717",
-    "validDate": "2024-08-23 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-08-23 00:00:00.000",
     "issueDate": "2019-08-23 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -23,6 +26,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "401148DB-3CD0-4B75-88F2-01DA241725E8",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Brivaracetam"
     ],
@@ -53,7 +61,9 @@
             "factoryKind": "M",
             "factoryNo": "FBE0064000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -71,16 +81,19 @@
             "factoryKind": "M",
             "factoryNo": "FBE0061100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812002600",
+            "ingredientsName": "Brivaracetam",
             "ingredientsDesc": "Brivaracetam",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,56 +102,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ED00B74F-8398-498E-B121-1D1CFD1F0EB3",
-            "approvedDocNo": "1110729775",
-            "approvedDate": "2023-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "18820AB1-7E64-46A0-971F-4B3C90FFFED6",
-            "approvedDocNo": "1110718375",
-            "approvedDate": "2023-02-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2CD313B4-A92B-478B-9CFA-CBB602C737D4",
-            "approvedDocNo": "1096041993",
-            "approvedDate": "2021-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C948C47E-0DAE-40AC-BB63-92168113AD6A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3BF1F9FB-769F-4A85-BB03-A325B7702C4E",
-            "approvedDocNo": "1096023905",
-            "approvedDate": "2021-01-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "28917909-8CAA-4EE7-B8EC-D1324B9F2C45",
-            "approvedDocNo": "1096023905",
-            "approvedDate": "2021-01-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

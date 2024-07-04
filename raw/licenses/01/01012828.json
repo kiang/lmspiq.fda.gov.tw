@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01012828",
-    "validDate": "2024-07-07 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-07 00:00:00.000",
     "issueDate": "1977-07-07 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,6 +30,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5A4ACF39-BC33-41E5-92E0-0FA758649108",
+    "subCategory": [],
     "ingredientsDesc": [
         "POLYMAGAL",
         "DRIED ALUMINUM HYDROXIDE GEL",
@@ -57,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "0510620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9900036200",
+            "ingredientsName": "POLYMAGAL",
             "ingredientsDesc": "POLYMAGAL",
             "concentDesc": "MgO: Al2O3=1:1",
             "concent": "400.0000",
@@ -75,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002900",
+            "ingredientsName": "OXETHAZAINE",
             "ingredientsDesc": "OXETHAZAINE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -86,6 +96,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000207",
+            "ingredientsName": "DRIED ALUMINUM HYDROXIDE GEL",
             "ingredientsDesc": "DRIED ALUMINUM HYDROXIDE GEL",
             "concentDesc": "",
             "concent": "32.5000",
@@ -97,88 +108,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DBC09383-1D4D-4195-B254-89FCD7D03691",
-            "approvedDocNo": "1139008110",
-            "approvedDate": "2024-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "61290395-3619-4535-B4FD-822F7C3E799E",
-            "approvedDocNo": "1110612194",
-            "approvedDate": "2023-02-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F0CDD2F2-F71D-4540-ADAD-04BD6EBA17A3",
-            "approvedDocNo": "1096613146",
-            "approvedDate": "2020-12-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0AC06D58-4B93-46BD-A4AD-E261238EB43B",
-            "approvedDocNo": "1096612070",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5BF86338-1576-4E4A-AA8A-6AC6BA00FBAE",
-            "approvedDocNo": "1096805433",
-            "approvedDate": "2020-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E2D13650-9309-4C60-916A-71C41C2D52B3",
-            "approvedDocNo": "1096805433",
-            "approvedDate": "2020-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5C181D66-ED39-4E57-B74D-173BFAB059A6",
-            "approvedDocNo": "1096805433",
-            "approvedDate": "2020-04-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FF32CDB9-0517-4295-9333-3FDEE014F561",
-            "approvedDocNo": "1096805433",
-            "approvedDate": "2020-04-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A9F2178-22D3-42FA-8D70-01872EAB0BBB",
-            "approvedDocNo": "1096802644",
-            "approvedDate": "2020-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BF35992C-2660-40A0-AF11-343C567B5DA9",
-            "approvedDocNo": "1096802644",
-            "approvedDate": "2020-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

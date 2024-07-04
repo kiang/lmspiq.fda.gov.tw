@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026318",
-    "validDate": "2024-07-18 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-18 00:00:00.000",
     "issueDate": "2014-07-18 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,6 +30,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "66C7F681-E3F2-4E51-A72C-0A7145F8D800",
+    "subCategory": [],
     "ingredientsDesc": [
         "Fluticasone furoate (micronised) ",
         "Vilanterol trifenatate (micronised)"
@@ -57,7 +63,9 @@
             "factoryKind": "M",
             "factoryNo": "FGB0044000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -75,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "1225204000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406002240",
+            "ingredientsName": "Fluticasone furoate (micronised) ",
             "ingredientsDesc": "Fluticasone furoate (micronised) ",
             "concentDesc": "Equivalent to Fluticasone furoate 100 mcg (pre-dispensed dose) or 92 mcg (delivered dose)",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "016",
             "seq": "1",
             "prescription_seq": "1",
@@ -93,9 +104,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212005510",
+            "ingredientsName": "Vilanterol trifenatate (micronised)",
             "ingredientsDesc": "Vilanterol trifenatate (micronised)",
             "concentDesc": "Equivalent to Vilanterol 25 mcg (pre-dispensed dose) or 22 mcg (delivered dose)",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "016",
             "seq": "1",
             "prescription_seq": "2",
@@ -104,32 +116,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5BE5762A-D1F8-4845-AB51-03675C8AB946",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BE78B72F-0E41-43A1-9C05-374E86CB5A55",
-            "approvedDocNo": "1081491928",
-            "approvedDate": "2020-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1DC14FDD-87CF-4414-81DB-C059C2292FBB",
-            "approvedDocNo": "1086003693",
-            "approvedDate": "2019-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

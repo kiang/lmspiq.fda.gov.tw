@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12015192",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "1970-11-18 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C3614ACD-526D-4FC2-B4C9-961802CA8779",
+    "subCategory": [],
     "ingredientsDesc": [
         "PROCAINE HCL",
         "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
@@ -56,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "6132011106",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424400220",
+            "ingredientsName": "HOMOSULFAMINE",
             "ingredientsDesc": "HOMOSULFAMINE",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001310",
+            "ingredientsName": "PROCAINE HCL",
             "ingredientsDesc": "PROCAINE HCL",
             "concentDesc": "",
-            "concent": "0.350",
+            "concent": "0.3500",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -85,9 +95,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200000900",
+            "ingredientsName": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "ingredientsDesc": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "concentDesc": "",
-            "concent": "0.350",
+            "concent": "0.3500",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -96,9 +107,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200010600",
+            "ingredientsName": "ZINC SULFATE",
             "ingredientsDesc": "ZINC SULFATE",
             "concentDesc": "",
-            "concent": "1.500",
+            "concent": "1.5000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -107,16 +119,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "25EF879A-6700-4C05-8ABF-6BAEC609DBDD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028428",
+    "licUnit": "1",
     "validDate": "2028-03-13 00:00:00.000",
     "issueDate": "2023-03-13 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "A90F98FA-2736-4DA8-9327-9E72FD3E8A5E",
+    "subCategory": [
+        "A03"
+    ],
     "ingredientsDesc": [
         "Upadacitinib Hemihydrate"
     ],
@@ -53,7 +61,9 @@
             "factoryKind": "M",
             "factoryNo": "FIE0075000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -71,7 +81,9 @@
             "factoryKind": "M",
             "factoryNo": "1225204000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -89,16 +101,43 @@
             "factoryKind": "M",
             "factoryNo": "FIT0347000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "factoryCode": "2",
+            "factoryName": "ZUELLIG PHARMA SPECIALTY SOLUTIONS GROUP PTE. LTD.",
+            "factoryAddr": "15 CHANGI NORTH WAY #01-02, #02-02, #02-10, SINGAPORE 498770",
+            "factoryCompanyAddr": "",
+            "countryCode": "SG",
+            "processCode": [
+                {
+                    "value": "3Q",
+                    "name": "二級包裝廠(置入仿單)"
+                },
+                {
+                    "value": "7O",
+                    "name": "二級包裝廠(置換外盒)"
+                }
+            ],
+            "processCodeStr": "3Q;二級包裝廠(置入仿單)#7O;二級包裝廠(置換外盒)",
+            "factoryKind": "M",
+            "factoryNo": "FSG0021200",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200090300",
+            "ingredientsName": "Upadacitinib Hemihydrate",
             "ingredientsDesc": "Upadacitinib Hemihydrate",
             "concentDesc": "(Corresponds to 45 mg of upadacitinib on an anhydrous basis)",
-            "concent": "46.100",
+            "concent": "46.1000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -107,40 +146,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F5E8D9E0-55C5-40C0-B64F-0929ADB193DC",
-            "approvedDocNo": "1120713003",
-            "approvedDate": "2023-12-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "517EB0F6-23BD-46CD-B3FD-50C642C97408",
-            "approvedDocNo": "1120713003",
-            "approvedDate": "2023-12-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B20C2734-6D05-4E70-B924-B5B318B84DC3",
-            "approvedDocNo": "1120713003",
-            "approvedDate": "2023-12-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F754A328-F308-4337-A83E-C4906FABB940",
-            "approvedDocNo": "1120713003",
-            "approvedDate": "2023-12-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

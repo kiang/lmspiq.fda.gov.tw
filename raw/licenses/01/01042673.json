@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01042673",
+    "licUnit": "1",
     "validDate": "2028-11-19 00:00:00.000",
     "issueDate": "1998-11-19 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A0D0FE59-5A2E-4FB4-9E65-D0D616543CB0",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "NICOTINAMIDE",
@@ -54,112 +60,52 @@
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "100",
             "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
-            "prescription_seq": "1",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8810101001",
-            "ingredientsDesc": "THIAMINE MONONITRATE",
-            "concentDesc": "10",
-            "concent": "10.0000",
-            "concentUnit": "001",
-            "seq": "2",
-            "prescription_seq": "1",
+            "prescription_seq": "0",
             "prescription_Kind": "1"
         },
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000330",
+            "ingredientsName": "NICOTINAMIDE",
             "ingredientsDesc": "NICOTINAMIDE",
             "concentDesc": "10",
             "concent": "10.0000",
             "concentUnit": "001",
+            "seq": "2",
+            "prescription_seq": "0",
+            "prescription_Kind": "1"
+        },
+        {
+            "ingredientsKind": "1",
+            "ingredientsCode": "8810101001",
+            "ingredientsName": "THIAMINE MONONITRATE",
+            "ingredientsDesc": "THIAMINE MONONITRATE",
+            "concentDesc": "10",
+            "concent": "10.0000",
+            "concentUnit": "001",
             "seq": "3",
-            "prescription_seq": "1",
+            "prescription_seq": "0",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9E2640C0-6CE2-45C5-8486-B7470FD2D613",
-            "approvedDocNo": "1129070970",
-            "approvedDate": "2024-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9DA8C43A-94E0-46F3-8909-BBE7120FA10A",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "62CAC978-6F30-46DE-A6AE-B1CABED22C0B",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A114358B-CC81-41F7-A327-D9BAC7FE7763",
-            "approvedDocNo": "1086604236",
-            "approvedDate": "2019-07-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "47E765B9-6B47-4EB4-B42E-F1AE9F118210",
-            "approvedDocNo": "1086604236",
-            "approvedDate": "2019-07-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FCAC6974-8A6C-47DE-8A5C-62CD089DD42A",
-            "approvedDocNo": "1086604236",
-            "approvedDate": "2019-07-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F7D33040-1D11-4DBE-8694-869056641F6F",
-            "approvedDocNo": "1086604236",
-            "approvedDate": "2019-07-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EA34261F-D484-43FE-AE51-CBA161D8FF59",
-            "approvedDocNo": "1070038511",
-            "approvedDate": "2019-01-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

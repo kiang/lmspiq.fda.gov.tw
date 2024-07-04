@@ -1,10 +1,13 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2024-05-17",
     "cancelReason": [
         "838"
     ],
+    "otherCancelReason": "",
     "licid": "02026035",
+    "licUnit": "1",
     "validDate": "2023-05-21 00:00:00.000",
     "issueDate": "2013-05-21 00:00:00.000",
     "licKind": "02",
@@ -24,7 +27,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "D6D70381-39E0-4EBD-99F3-5B60AAE62DE5",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "PROPYLENE GLYCOL (EQ TO 1,2-DIHYDROXYPROPANE)(EQ TO 1,2-PROPANEDIOL)",
         "POLYETHYLENE GLYCOL 400"
@@ -54,7 +62,9 @@
             "factoryKind": "M",
             "factoryNo": "FES0015000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -72,13 +82,16 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424121800",
+            "ingredientsName": "POLYETHYLENE GLYCOL 400",
             "ingredientsDesc": "POLYETHYLENE GLYCOL 400",
             "concentDesc": "",
             "concent": "4.0000",
@@ -90,6 +103,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600025000",
+            "ingredientsName": "PROPYLENE GLYCOL (EQ TO 1,2-DIHYDROXYPROPANE)(EQ TO 1,2-PROPANEDIOL)",
             "ingredientsDesc": "PROPYLENE GLYCOL (EQ TO 1,2-DIHYDROXYPROPANE)(EQ TO 1,2-PROPANEDIOL)",
             "concentDesc": "",
             "concent": "3.0000",
@@ -101,40 +115,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EDE388E1-24DB-4A4A-A4C4-968F317CCC39",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68777306-3EAE-4C27-BB06-D24EB184CF95",
-            "approvedDocNo": "1086030113",
-            "approvedDate": "2020-03-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EB764899-FF0F-4FD4-A4C1-338EE75502D1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "69B503A3-B1E2-46B4-8884-A6999DB5CA50",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

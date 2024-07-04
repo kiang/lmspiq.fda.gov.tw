@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058355",
-    "validDate": "2024-08-06 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-08-06 00:00:00.000",
     "issueDate": "2014-08-06 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -26,7 +29,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "244E9424-4F8C-4493-BEB5-1A493B84D215",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "THIAMINE MONONITRATE",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
@@ -58,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "1.200",
+            "concent": "1.2000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101001",
+            "ingredientsName": "THIAMINE MONONITRATE",
             "ingredientsDesc": "THIAMINE MONONITRATE",
             "concentDesc": "",
-            "concent": "0.080",
+            "concent": "0.0800",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -98,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "",
-            "concent": "0.050",
+            "concent": "0.0500",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -109,56 +123,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "23D52766-C5E2-4B83-877E-70FF8181A670",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "505697DE-CB78-4655-84CB-05AC6E1B2C5E",
-            "approvedDocNo": "1101491758",
-            "approvedDate": "2021-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DBA35101-653B-40E3-BFCF-1DC96A1D44F7",
-            "approvedDocNo": "1101491758",
-            "approvedDate": "2021-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0114A2C9-177F-4770-B4FC-374E69510B4A",
-            "approvedDocNo": "1086609960",
-            "approvedDate": "2019-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2144DE8A-A1CF-4B37-91D7-6F0A095F479A",
-            "approvedDocNo": "1086609960",
-            "approvedDate": "2019-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "10A5AC53-8FB4-49A1-9316-FCFE1311F5D5",
-            "approvedDocNo": "1086812551",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

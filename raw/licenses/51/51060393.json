@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060393",
+    "licUnit": "1",
     "validDate": "2024-11-21 00:00:00.000",
     "issueDate": "2019-11-21 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "2C503312-C557-4A4B-8FFB-98A1757871E9",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "CALCIUM CHLORIDE DIHYDRATE",
         "POTASSIUM CHLORIDE",
@@ -56,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "6133060069",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": "CALCIUM CHLORIDE 2H2O",
-            "concent": "9.000",
+            "concent": "9.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": "",
-            "concent": "3.560",
+            "concent": "3.5600",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "5.220",
+            "concent": "5.2200",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -96,9 +109,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "210.700",
+            "concent": "210.7000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -107,9 +121,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000570",
+            "ingredientsName": "DEXTROSE MONOHYDRATE",
             "ingredientsDesc": "DEXTROSE MONOHYDRATE",
             "concentDesc": "",
-            "concent": "77.000",
+            "concent": "77.0000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -118,9 +133,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600000302",
+            "ingredientsName": "ACETIC ACID GLACIAL( eq to  GLACIAL ACETIC ACID)",
             "ingredientsDesc": "ACETIC ACID GLACIAL( eq to  GLACIAL ACETIC ACID)",
             "concentDesc": "",
-            "concent": "6.310",
+            "concent": "6.3100",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -129,32 +145,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2A1A0F21-2962-4337-A7FD-D89A7BF4434F",
-            "approvedDocNo": "1119029407",
-            "approvedDate": "2022-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1729AEE0-341A-442B-8DB8-7113B3693BDB",
-            "approvedDocNo": "1096811203",
-            "approvedDate": "2020-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0742BB0C-DB81-4F9F-871A-AFC1BDDD8DAF",
-            "approvedDocNo": "1096811203",
-            "approvedDate": "2020-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

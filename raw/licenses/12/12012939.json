@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12012939",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "1970-10-21 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EAE1F649-A046-408A-89AB-7EA309DA2E66",
+    "subCategory": [],
     "ingredientsDesc": [
         "POTASSIUM CRESOLSULFONATE",
         "DEXTROMETHORPHAN HBR"
@@ -53,16 +59,19 @@
             "factoryKind": "M",
             "factoryNo": "0201709300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": "2.5",
-            "concent": "2.500",
+            "concent": "2.5000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +80,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003700",
+            "ingredientsName": "POTASSIUM CRESOLSULFONATE",
             "ingredientsDesc": "POTASSIUM CRESOLSULFONATE",
             "concentDesc": "15",
-            "concent": "15.000",
+            "concent": "15.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",

@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029441",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1987-02-09 00:00:00.000",
     "licKind": "02",
     "oldLicid": "01025140",
@@ -27,6 +30,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "ABD168A1-8358-4F2A-9B36-1F5DD6030362",
+    "subCategory": [],
     "ingredientsDesc": [
         "ETHENZAMIDE (ETHOXYBENZAMIDE)",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
@@ -34,7 +40,8 @@
         "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "大豐製藥股份有限公司",
     "applicantAddr": "彰化縣彰化市延平里岸頭巷11號",
@@ -58,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0306811300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -76,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808600900",
+            "ingredientsName": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "ingredientsDesc": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "concentDesc": "116.7",
             "concent": "116.7000",
@@ -87,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824000300",
+            "ingredientsName": "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)",
             "ingredientsDesc": "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)",
             "concentDesc": "66.7",
             "concent": "66.7000",
@@ -98,6 +110,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "16.7",
             "concent": "16.7000",
@@ -109,24 +122,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C2150F98-3E4A-4809-8ACB-C65D4B787AA5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3AAAD6CF-BE1C-48B6-93C4-2249371D8156",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

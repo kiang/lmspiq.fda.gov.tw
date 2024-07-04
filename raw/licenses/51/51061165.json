@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51061165",
+    "licUnit": "1",
     "validDate": "2027-10-28 00:00:00.000",
     "issueDate": "2022-10-28 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "9EA423AA-9204-4438-BD31-A46EE4E76732",
+    "subCategory": [
+        "A02"
+    ],
     "ingredientsDesc": [
         "EZETIMIBE",
         "PITAVASTATIN CALCIUM"
@@ -53,16 +61,19 @@
             "factoryKind": "M",
             "factoryNo": "6139031071",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406003310",
+            "ingredientsName": "PITAVASTATIN CALCIUM",
             "ingredientsDesc": "PITAVASTATIN CALCIUM",
             "concentDesc": "",
-            "concent": "2.000",
+            "concent": "2.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +82,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200095600",
+            "ingredientsName": "EZETIMIBE",
             "ingredientsDesc": "EZETIMIBE",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",

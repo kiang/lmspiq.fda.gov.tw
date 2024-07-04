@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01023711",
-    "validDate": "2024-06-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-06-25 00:00:00.000",
     "issueDate": "2012-01-17 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -26,7 +29,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "33004DE5-FDF6-40CF-BFA7-5CFA0356A190",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "ECONAZOLE NITRATE",
         "TRIAMCINOLONE ACETONIDE"
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812201410",
+            "ingredientsName": "ECONAZOLE NITRATE",
             "ingredientsDesc": "ECONAZOLE NITRATE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -85,96 +97,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3ECACD9D-9630-46C3-8C02-2D6AEC9BFAEE",
-            "approvedDocNo": "1139018300",
-            "approvedDate": "2024-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EF4A6DB6-3759-488F-91D3-C8F68CB4A87E",
-            "approvedDocNo": "1110808795",
-            "approvedDate": "2022-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68BD9280-AA17-417A-BD0C-9FD7B6C980E5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C350A77-4ED9-48C7-928D-6E6527772279",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "969660B4-1D36-4E3F-9F7F-81A75F75F9D9",
-            "approvedDocNo": "1076613030",
-            "approvedDate": "2019-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C7000AD-92AB-4B13-A54A-9608FCA290A8",
-            "approvedDocNo": "1076613030",
-            "approvedDate": "2019-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "572550DA-1B9F-46A8-89D9-6DF98EBBAC08",
-            "approvedDocNo": "1076613030",
-            "approvedDate": "2019-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4F866A96-CCE4-48DE-BCB1-C41600366E94",
-            "approvedDocNo": "1076613030",
-            "approvedDate": "2019-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A09C39F9-D7E3-4440-80D9-D20C724F9CCD",
-            "approvedDocNo": "1076613030",
-            "approvedDate": "2019-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "972309B4-EE43-4D56-9B76-EF02A5276732",
-            "approvedDocNo": "1076613030",
-            "approvedDate": "2019-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "85E6AB77-EDF8-49BE-80AA-2290FE571AA2",
-            "approvedDocNo": "1076613030",
-            "approvedDate": "2019-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

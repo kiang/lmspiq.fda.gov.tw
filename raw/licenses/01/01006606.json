@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01006606",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "2009-10-29 00:00:00.000",
     "licKind": "02",
@@ -26,7 +29,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "BB51B48D-2791-415D-A2F4-8B95876AF4BF",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)"
     ],
@@ -55,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "6139011104",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
             "concent": "300.0000",
@@ -73,56 +84,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0C19CEF5-92FF-4152-96D7-110DF46DEA2B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F8489D95-BF8F-46A1-93BA-5E7AE26AEF33",
-            "approvedDocNo": "1096610163",
-            "approvedDate": "2020-12-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E0A0303F-A49F-42F5-9ADB-D6F1AF899745",
-            "approvedDocNo": "1096610163",
-            "approvedDate": "2020-12-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "13672C9C-1697-43B4-AF01-1FBD8669ACA4",
-            "approvedDocNo": "1096610163",
-            "approvedDate": "2020-12-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4F488371-1B69-41A2-B891-29A0B16D91B2",
-            "approvedDocNo": "1096610163",
-            "approvedDate": "2020-12-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6206FCD5-638F-4D2D-AE31-DC017A8CB141",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

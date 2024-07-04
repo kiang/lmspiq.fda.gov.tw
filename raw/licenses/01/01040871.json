@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040871",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "2012-08-07 00:00:00.000",
     "licKind": "02",
     "oldLicid": "12003088",
@@ -27,6 +30,9 @@
     "medMCode": "06",
     "maMedCode": "X",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A8AE3C5B-6AE7-426F-84FA-EA284D8AF5FB",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLYCYRRHIZA EXTRACT",
         "ANTIMONY POTASSIUM TARTRATE",
@@ -58,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0705330300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800801",
+            "ingredientsName": "OPIUM POWDER",
             "ingredientsDesc": "OPIUM POWDER",
             "concentDesc": "",
             "concent": "2.5000",
@@ -76,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004401",
+            "ingredientsName": "GLYCYRRHIZA EXTRACT",
             "ingredientsDesc": "GLYCYRRHIZA EXTRACT",
             "concentDesc": "",
             "concent": "0.4800",
@@ -87,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0808002900",
+            "ingredientsName": "ANTIMONY POTASSIUM TARTRATE",
             "ingredientsDesc": "ANTIMONY POTASSIUM TARTRATE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -96,58 +107,9 @@
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [
-        {
-            "applicantName": "宏興生化科技有限公司",
-            "certNo": "DHY00104087114",
-            "approveDocNo": "1096801960",
-            "authDate": "2020-02-14",
-            "validDate": "2024-05-25"
-        }
-    ],
+    "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D3C3494E-173C-483C-8D0C-2284514A1CD9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-12-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2C56B25B-7EEA-400A-8312-0580E40DB536",
-            "approvedDocNo": "1110606877",
-            "approvedDate": "2022-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4F6EA670-0534-4318-8EFD-EED2ED5C7208",
-            "approvedDocNo": "1110606877",
-            "approvedDate": "2022-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0959B1BC-C55C-4257-90C7-A4977267BAE7",
-            "approvedDocNo": "1106808207",
-            "approvedDate": "2021-07-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C5E51B6A-3EB4-40C3-81EF-CF10DDAE25F1",
-            "approvedDocNo": "1086609633",
-            "approvedDate": "2019-11-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

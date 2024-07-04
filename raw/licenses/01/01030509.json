@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01030509",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "1987-12-04 00:00:00.000",
     "licKind": "02",
@@ -27,6 +30,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FAC632FF-F847-4482-832E-F62DB502DE22",
+    "subCategory": [],
     "ingredientsDesc": [
         "IODOCHLORHYDROXYQUIN",
         "TOLNAFTATE",
@@ -58,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804009251",
+            "ingredientsName": "BETAMETHASONE (17-VALERATE)",
             "ingredientsDesc": "BETAMETHASONE (17-VALERATE)",
             "concentDesc": "",
             "concent": "0.5000",
@@ -76,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "",
             "concent": "1.0000",
@@ -87,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404801300",
+            "ingredientsName": "TOLNAFTATE",
             "ingredientsDesc": "TOLNAFTATE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -98,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0804000900",
+            "ingredientsName": "IODOCHLORHYDROXYQUIN",
             "ingredientsDesc": "IODOCHLORHYDROXYQUIN",
             "concentDesc": "",
             "concent": "10.0000",
@@ -107,114 +119,9 @@
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [
-        {
-            "applicantName": "中美生技醫藥股份有限公司",
-            "certNo": "DHY00103050928",
-            "approveDocNo": "1106808949",
-            "authDate": "2021-05-25",
-            "validDate": "2024-05-25"
-        }
-    ],
+    "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E6950B65-ACF5-4632-B601-2DBF91CA0E1F",
-            "approvedDocNo": "1110810909",
-            "approvedDate": "2023-01-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "14C37C86-0BE8-4C87-A641-CF6D6CEDC934",
-            "approvedDocNo": "1110810909",
-            "approvedDate": "2023-01-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2C760F1F-41F8-41D5-8536-F9476A12AC4B",
-            "approvedDocNo": "1110810909",
-            "approvedDate": "2023-01-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5D3AA6ED-987D-4B75-8694-E53352347860",
-            "approvedDocNo": "1119045499",
-            "approvedDate": "2022-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "33E33504-5010-4C96-AD45-F2950341477D",
-            "approvedDocNo": "1119045499",
-            "approvedDate": "2022-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B9BFEA6-B461-469E-AA72-B00A2A591C44",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AC0874E1-7E06-4E62-B85D-5194E4ECA2BF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DAAC18B7-B32B-4952-8412-93681B8163C6",
-            "approvedDocNo": "1081490887",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A8D32E15-D141-48F1-93C0-9C07123DBBF2",
-            "approvedDocNo": "1081490887",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C5C9140E-4D49-41F4-880E-07EA1B4C05A2",
-            "approvedDocNo": "1076613218",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "13A24555-4544-42AF-9D84-5C932CA24075",
-            "approvedDocNo": "1076613218",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "62D16E8D-759B-43EC-968C-5FA3BFEFBA3C",
-            "approvedDocNo": "1076613218",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

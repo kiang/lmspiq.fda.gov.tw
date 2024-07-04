@@ -3,8 +3,10 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01038049",
-    "validDate": "2024-09-05 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-09-05 00:00:00.000",
     "issueDate": "1994-09-05 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -24,6 +26,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CB63E185-661D-46B1-A520-E93654F5CE3D",
+    "subCategory": [],
     "ingredientsDesc": [
         "CENTELLA ASIATICA TITRATED EXTRACT",
         "NEOMYCIN (FRADIOMYCIN)",
@@ -31,7 +36,8 @@
     ],
     "restraintItemsCode": [
         "0*",
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "杏輝藥品工業股份有限公司",
     "applicantAddr": "宜蘭縣冬山鄉中山村中山路84、84之4、84之6、84之7號、冬山鄉中山村新寮路95、95之1、100之7、100之13、100之15、100之16、103、136號",
@@ -55,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "0705330300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416001701",
+            "ingredientsName": "CENTELLA ASIATICA TITRATED EXTRACT",
             "ingredientsDesc": "CENTELLA ASIATICA TITRATED EXTRACT",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -73,6 +82,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812100500",
+            "ingredientsName": "NEOMYCIN (FRADIOMYCIN)",
             "ingredientsDesc": "NEOMYCIN (FRADIOMYCIN)",
             "concentDesc": "3.5",
             "concent": "3.5000",
@@ -84,6 +94,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001120",
+            "ingredientsName": "HYDROCORTISONE ACETATE",
             "ingredientsDesc": "HYDROCORTISONE ACETATE",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -95,64 +106,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6097A3CD-163B-44BD-AA54-0B593A7366A9",
-            "approvedDocNo": "1110023351",
-            "approvedDate": "2022-11-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D9B7377B-30A7-4941-973C-C1FBEE096556",
-            "approvedDocNo": "1110023351",
-            "approvedDate": "2022-11-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "541D6D3D-16D6-48B6-9DE7-DB6571586686",
-            "approvedDocNo": "1110023351",
-            "approvedDate": "2022-11-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7345464B-7250-4652-8701-3FC4B3A3EA62",
-            "approvedDocNo": "1110810484",
-            "approvedDate": "2022-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68264653-A70C-4B70-8178-FB1E0A81BE56",
-            "approvedDocNo": "1106610677",
-            "approvedDate": "2021-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DC0A875F-5C77-4764-8C4D-55E71CAF02BF",
-            "approvedDocNo": "1090013040",
-            "approvedDate": "2020-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1298A2D8-4E4F-4A88-841F-407E15C665E5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

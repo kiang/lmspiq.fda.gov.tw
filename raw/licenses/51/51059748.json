@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059748",
+    "licUnit": "1",
     "validDate": "2027-08-02 00:00:00.000",
     "issueDate": "2017-08-02 00:00:00.000",
     "licKind": "02",
@@ -30,7 +33,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "83E17B7B-FAEC-4D10-8AAA-066B42C3083D",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "GLYCYRRHETIC ACID (EQ TO GLYCYRRHETINIC ACID)",
         "DIPHENHYDRAMINE",
@@ -38,11 +46,10 @@
         "CROTAMITON"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01"
     ],
     "applicantName": "寶齡富錦生技股份有限公司",
-    "applicantAddr": "台北市南港區園區街三號16樓",
+    "applicantAddr": "臺北市南港區園區街3號16樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -63,16 +70,19 @@
             "factoryKind": "M",
             "factoryNo": "2001304300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404200200",
+            "ingredientsName": "CROTAMITON",
             "ingredientsDesc": "CROTAMITON",
             "concentDesc": "",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,9 +91,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001600",
+            "ingredientsName": "DIPHENHYDRAMINE",
             "ingredientsDesc": "DIPHENHYDRAMINE",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -92,9 +103,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000213",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA DL-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA DL-",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -103,9 +115,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004500",
+            "ingredientsName": "GLYCYRRHETIC ACID (EQ TO GLYCYRRHETINIC ACID)",
             "ingredientsDesc": "GLYCYRRHETIC ACID (EQ TO GLYCYRRHETINIC ACID)",
             "concentDesc": "",
-            "concent": "2.000",
+            "concent": "2.0000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -114,64 +127,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B3512423-0C31-4C3D-86F8-4809768C0845",
-            "approvedDocNo": "1119024034",
-            "approvedDate": "2022-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B76A15DB-D03B-4D03-BF8C-77BDECD2C38A",
-            "approvedDocNo": "1110707782",
-            "approvedDate": "2022-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5E4933C5-445D-48DE-B363-EB84A0D36F0A",
-            "approvedDocNo": "1086010024",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "08FFB716-5261-4D86-968B-FC24F6668A20",
-            "approvedDocNo": "1086010024",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BB5CA51A-1E65-4C78-97FA-55DBAC125559",
-            "approvedDocNo": "1086010024",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AF398305-D289-4C39-BD14-10C34B92C239",
-            "approvedDocNo": "1086010024",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E49F001B-2EF6-41AA-A8D6-2E59C6891C2B",
-            "approvedDocNo": "1086010024",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

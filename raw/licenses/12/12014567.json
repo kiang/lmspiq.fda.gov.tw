@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12014567",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "1970-11-09 00:00:00.000",
     "licKind": "02",
@@ -27,6 +30,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1E0A2C2E-80A2-4EEB-9998-B534D3DB0973",
+    "subCategory": [],
     "ingredientsDesc": [
         "DIPHENHYDRAMINE HCL",
         "METHYL SALICYLATE",
@@ -58,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "1421417200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001500",
+            "ingredientsName": "PREDNISOLONE",
             "ingredientsDesc": "PREDNISOLONE",
             "concentDesc": null,
-            "concent": "0.100",
+            "concent": "0.1000",
             "concentUnit": "002",
             "seq": "0",
             "prescription_seq": "0",
@@ -76,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": null,
-            "concent": "1.000",
+            "concent": "1.0000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "0",
@@ -87,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424400200",
+            "ingredientsName": "METHYL SALICYLATE",
             "ingredientsDesc": "METHYL SALICYLATE",
             "concentDesc": null,
-            "concent": "1.000",
+            "concent": "1.0000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "0",
@@ -98,9 +109,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000100",
+            "ingredientsName": "CAMPHOR",
             "ingredientsDesc": "CAMPHOR",
             "concentDesc": "1.5",
-            "concent": "1.500",
+            "concent": "1.5000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "0",
@@ -109,88 +121,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "309103FA-8437-46F5-81B6-0DDB2D56B07B",
-            "approvedDocNo": "1110608348",
-            "approvedDate": "2022-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EDB7AC53-9ECE-47E5-928C-25B6E9DF131D",
-            "approvedDocNo": "1110608348",
-            "approvedDate": "2022-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8667E925-873D-4807-AEA9-281C9AA7F95A",
-            "approvedDocNo": "1110608348",
-            "approvedDate": "2022-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1A6592A7-6234-4DEF-A6FB-2CFBE1E11665",
-            "approvedDocNo": "1110608348",
-            "approvedDate": "2022-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "12C3A7C9-C666-4229-A42C-86847C8687FF",
-            "approvedDocNo": "1110608348",
-            "approvedDate": "2022-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8E33E420-0F75-45AF-9B20-9E4CA87020B9",
-            "approvedDocNo": "1110608348",
-            "approvedDate": "2022-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "94CDAC62-6720-4BD0-8FD3-D7EDFA99F2BC",
-            "approvedDocNo": "1110608348",
-            "approvedDate": "2022-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "971A0E57-60AE-4477-9DB8-4A6F6A209A94",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4414A7CD-9E98-4F73-BDBA-29389D8BA116",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4361C375-05BB-4FCD-A471-2126E626A1B9",
-            "approvedDocNo": "1070041615",
-            "approvedDate": "2019-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

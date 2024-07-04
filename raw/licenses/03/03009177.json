@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "03009177",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1992-07-31 00:00:00.000",
     "licKind": "02",
     "oldLicid": "03007429",
@@ -31,6 +34,9 @@
     "medMCode": "03",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1600387E-9153-4F6B-B56D-91A06558A838",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLYCYRRHIZA POWDER",
         "CAMPHOR",
@@ -45,7 +51,8 @@
     ],
     "restraintItemsCode": [
         "01",
-        "09"
+        "09",
+        "1R"
     ],
     "applicantName": "北進國際有限公司",
     "applicantAddr": "新北市三重區三和路四段31號4樓",
@@ -69,13 +76,16 @@
             "factoryKind": "M",
             "factoryNo": "0505720300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": "",
             "concent": "325.0000",
@@ -87,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208004502",
+            "ingredientsName": "SCOPOLIA EXTRACT",
             "ingredientsDesc": "SCOPOLIA EXTRACT",
             "concentDesc": "",
             "concent": "2.5000",
@@ -98,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002400",
+            "ingredientsName": "MAGNESIUM CARBONATE",
             "ingredientsDesc": "MAGNESIUM CARBONATE",
             "concentDesc": "",
             "concent": "110.0000",
@@ -109,6 +121,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612003401",
+            "ingredientsName": "RHEUM POWDER",
             "ingredientsDesc": "RHEUM POWDER",
             "concentDesc": "",
             "concent": "55.0000",
@@ -120,6 +133,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000103",
+            "ingredientsName": "CINNAMON POWDER (CINNAMON CORTEX POWDER)",
             "ingredientsDesc": "CINNAMON POWDER (CINNAMON CORTEX POWDER)",
             "concentDesc": "",
             "concent": "105.0000",
@@ -131,6 +145,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600054602",
+            "ingredientsName": "CARYOPHILLIN POWDER",
             "ingredientsDesc": "CARYOPHILLIN POWDER",
             "concentDesc": "",
             "concent": "105.0000",
@@ -142,6 +157,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004402",
+            "ingredientsName": "GLYCYRRHIZA POWDER",
             "ingredientsDesc": "GLYCYRRHIZA POWDER",
             "concentDesc": "",
             "concent": "280.0000",
@@ -153,6 +169,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000300",
+            "ingredientsName": "MENTHOL",
             "ingredientsDesc": "MENTHOL",
             "concentDesc": "",
             "concent": "10.0000",
@@ -164,6 +181,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000100",
+            "ingredientsName": "CAMPHOR",
             "ingredientsDesc": "CAMPHOR",
             "concentDesc": "",
             "concent": "2.5000",
@@ -175,6 +193,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616000400",
+            "ingredientsName": "BORNEOL",
             "ingredientsDesc": "BORNEOL",
             "concentDesc": "",
             "concent": "2.5000",
@@ -184,42 +203,9 @@
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [
-        {
-            "applicantName": "恆陽健康生技醫藥有限公司",
-            "certNo": "DHY00300917712",
-            "approveDocNo": "1086810345",
-            "authDate": "2019-08-01",
-            "validDate": "2024-05-25"
-        }
-    ],
+    "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BBD0C0C4-34A2-4A29-84ED-40114C9FF399",
-            "approvedDocNo": "1081407096",
-            "approvedDate": "2019-07-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "059F83D8-2D83-487F-955C-54261A83E8AD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "64FF17FE-2611-4E37-9221-72F83D559308",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

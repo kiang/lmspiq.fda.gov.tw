@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01024053",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "1981-08-04 00:00:00.000",
     "licKind": "02",
@@ -23,10 +26,13 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DB07A16E-FEDD-4BD8-95B8-F89CCF8A5678",
+    "subCategory": [],
     "ingredientsDesc": [
         "FOLIC ACID",
         "THIAMINE MONONITRATE",
-        " CYANOCOBALAMIN",
+        "CYANOCOBALAMIN",
         "NICOTINAMIDE",
         "FERROUS FUMARATE",
         "RIBOFLAVIN (VIT B2)"
@@ -56,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "0505720300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2004401100",
+            "ingredientsName": "FERROUS FUMARATE",
             "ingredientsDesc": "FERROUS FUMARATE",
             "concentDesc": "50",
             "concent": "50.0000",
@@ -74,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811600100",
+            "ingredientsName": "FOLIC ACID",
             "ingredientsDesc": "FOLIC ACID",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -85,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101001",
+            "ingredientsName": "THIAMINE MONONITRATE",
             "ingredientsDesc": "THIAMINE MONONITRATE",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -96,6 +107,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -107,6 +119,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200301",
+            "ingredientsName": "CYANOCOBALAMIN",
             "ingredientsDesc": " CYANOCOBALAMIN",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -118,6 +131,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000330",
+            "ingredientsName": "NICOTINAMIDE",
             "ingredientsDesc": "NICOTINAMIDE",
             "concentDesc": "3",
             "concent": "3.0000",
@@ -129,32 +143,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4F68EF54-18F5-4DA0-8C3E-8D18E2AD9F0F",
-            "approvedDocNo": "1119061349",
-            "approvedDate": "2023-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2B9EEF32-0740-40DC-8041-3E8DFAA55CDF",
-            "approvedDocNo": "1091494896",
-            "approvedDate": "2020-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B802DE65-F6E1-47FB-A3C3-754CD7769595",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

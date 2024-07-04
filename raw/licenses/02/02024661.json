@@ -1,10 +1,13 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2024-05-15",
     "cancelReason": [
         "838"
     ],
+    "otherCancelReason": "",
     "licid": "02024661",
+    "licUnit": "1",
     "validDate": "2022-07-11 00:00:00.000",
     "issueDate": "2007-07-11 00:00:00.000",
     "licKind": "10",
@@ -25,6 +28,11 @@
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "789104AF-81F6-489C-BB63-DF830C999966",
+    "subCategory": [
+        "E"
+    ],
     "ingredientsDesc": [
         "STARCH FOOD GRADE (STARCH FOOD MODIFIED)",
         "TOCOPHEROL ALPHA DL- (EQ TO DL-ALPHA TOCOPHEROL)",
@@ -58,7 +66,9 @@
             "factoryKind": "M",
             "factoryNo": "FCH0100000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -71,13 +81,16 @@
             "factoryKind": "M",
             "factoryNo": "FCH0225000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8804000420",
+            "ingredientsName": "BETA-CAROTENE CRYSTALLINE",
             "ingredientsDesc": "BETA-CAROTENE CRYSTALLINE",
             "concentDesc": null,
             "concent": "200.0000",
@@ -89,6 +102,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000113",
+            "ingredientsName": "TOCOPHEROL ALPHA DL- (EQ TO DL-ALPHA TOCOPHEROL)",
             "ingredientsDesc": "TOCOPHEROL ALPHA DL- (EQ TO DL-ALPHA TOCOPHEROL)",
             "concentDesc": null,
             "concent": "15.0000",
@@ -100,6 +114,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600030202",
+            "ingredientsName": "STARCH FOOD GRADE (STARCH FOOD MODIFIED)",
             "ingredientsDesc": "STARCH FOOD GRADE (STARCH FOOD MODIFIED)",
             "concentDesc": null,
             "concent": "500.0000",
@@ -111,6 +126,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000730",
+            "ingredientsName": "GLUCOSE SYRUP",
             "ingredientsDesc": "GLUCOSE SYRUP",
             "concentDesc": null,
             "concent": "60.0000",
@@ -122,6 +138,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000420",
+            "ingredientsName": "SODIUM ASCORBATE CRYST.",
             "ingredientsDesc": "SODIUM ASCORBATE CRYST.",
             "concentDesc": null,
             "concent": "20.0000",
@@ -133,6 +150,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600009000",
+            "ingredientsName": "CORN STARCH (EQ TO STARCH MAYDIS)(EQ TO MAIZE STARCH)",
             "ingredientsDesc": "CORN STARCH (EQ TO STARCH MAYDIS)(EQ TO MAIZE STARCH)",
             "concentDesc": null,
             "concent": "205.0000",
@@ -144,24 +162,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "11DB883D-BA65-484E-9C7B-ACEA8124E4CC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5A07058E-8472-4647-A8B8-88224B4ECD64",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

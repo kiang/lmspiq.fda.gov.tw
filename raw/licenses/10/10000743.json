@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000743",
+    "licUnit": "1",
     "validDate": "2028-04-25 00:00:00.000",
     "issueDate": "2002-11-15 00:00:00.000",
     "licKind": "04",
@@ -27,6 +30,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C713A507-593B-4D1F-A329-32171C88D4DE",
+    "subCategory": [],
     "ingredientsDesc": [
         "RECOMBINANT HUMAN TISSUE-TYPE PLASMINOGEN ACTIVATOR"
     ],
@@ -60,7 +66,29 @@
             "factoryKind": "M",
             "factoryNo": "FDE0215200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "factoryCode": "1",
+            "factoryName": "VETTER PHARMA-FERTIGUNG GMBH & CO KG",
+            "factoryAddr": "MOOSWIESEN 2, 88214 RAVENSBURG, GERMANY",
+            "factoryCompanyAddr": null,
+            "countryCode": "DE",
+            "processCode": [
+                {
+                    "value": "66",
+                    "name": "成品製造廠"
+                }
+            ],
+            "processCodeStr": "66;成品製造廠",
+            "factoryKind": "M",
+            "factoryNo": "FDE0559000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -78,16 +106,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0546000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2040000610",
+            "ingredientsName": "RECOMBINANT HUMAN TISSUE-TYPE PLASMINOGEN ACTIVATOR",
             "ingredientsDesc": "RECOMBINANT HUMAN TISSUE-TYPE PLASMINOGEN ACTIVATOR",
             "concentDesc": "",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -96,80 +127,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C1FC3D01-1973-4A77-B67D-3EF52EB5609F",
-            "approvedDocNo": "1129037924",
-            "approvedDate": "2023-10-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "92688F67-529F-4F11-A047-FEE92DE162C1",
-            "approvedDocNo": "1119044294",
-            "approvedDate": "2023-04-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BA8C4073-7110-4634-ABEB-C84A38496972",
-            "approvedDocNo": "1119018268",
-            "approvedDate": "2022-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6314B0FD-D94C-4C56-821B-017FB7806C81",
-            "approvedDocNo": "1119006049",
-            "approvedDate": "2022-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D4F36D91-7F60-4BF3-8498-5C93337A6D70",
-            "approvedDocNo": "1101495574",
-            "approvedDate": "2022-01-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "134BB5A6-C427-4C5B-86AD-A4E49CADB150",
-            "approvedDocNo": "1106016765",
-            "approvedDate": "2021-09-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F2D933B9-A372-4F1C-A167-7B0DD952921E",
-            "approvedDocNo": "1086039835",
-            "approvedDate": "2020-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7F896135-3250-4BBE-BABB-4353CBCD2E4F",
-            "approvedDocNo": "1086012114",
-            "approvedDate": "2019-09-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D6361657-12BE-4421-8D79-8599B17870B4",
-            "approvedDocNo": "1086002312",
-            "approvedDate": "2019-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

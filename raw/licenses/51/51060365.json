@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060365",
-    "validDate": "2024-10-04 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-10-04 00:00:00.000",
     "issueDate": "2019-10-04 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -22,7 +25,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": "A",
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "F26FA38B-A291-4F5B-88D0-3B46912E6A8C",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
         "CALCIUM CARBONATE",
@@ -53,16 +61,19 @@
             "factoryKind": "M",
             "factoryNo": "6111021077",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600001410",
+            "ingredientsName": "ALGINATE SODIUM",
             "ingredientsDesc": "ALGINATE SODIUM",
             "concentDesc": "",
-            "concent": "500.000",
+            "concent": "500.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +82,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604001200",
+            "ingredientsName": "CALCIUM CARBONATE",
             "ingredientsDesc": "CALCIUM CARBONATE",
             "concentDesc": "",
-            "concent": "160.000",
+            "concent": "160.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,9 +94,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": "",
-            "concent": "267.000",
+            "concent": "267.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -93,32 +106,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5A138309-9FF5-48AA-9618-B9B0A924D6EF",
-            "approvedDocNo": "1120705527",
-            "approvedDate": "2023-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "46DC18EC-03E1-4DDC-A595-249BC6F31496",
-            "approvedDocNo": "1106818466",
-            "approvedDate": "2021-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9F3ABD5A-B4D6-4C81-B2B1-4ECC6F5B11DC",
-            "approvedDocNo": "1106012468",
-            "approvedDate": "2021-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

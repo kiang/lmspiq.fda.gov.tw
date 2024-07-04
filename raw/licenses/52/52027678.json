@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027678",
+    "licUnit": "1",
     "validDate": "2024-05-31 00:00:00.000",
     "issueDate": "2019-05-31 00:00:00.000",
     "licKind": "02",
@@ -27,6 +30,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "7D818C21-5021-4269-BE65-31FA896FA1F0",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "LEVOFLOXACIN HEMIHYDRATE"
     ],
@@ -56,7 +64,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE0884000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -74,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0627000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0836002310",
+            "ingredientsName": "LEVOFLOXACIN HEMIHYDRATE",
             "ingredientsDesc": "LEVOFLOXACIN HEMIHYDRATE",
             "concentDesc": "(corresponding to Levofloxacin.....5mg)",
-            "concent": "5.130",
+            "concent": "5.1300",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -92,48 +105,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8E6D948E-44C6-4E87-9F69-15BC1044B3BC",
-            "approvedDocNo": "1106010078",
-            "approvedDate": "2022-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7DD01119-62EB-4957-9657-164C54244D4E",
-            "approvedDocNo": "1106010078",
-            "approvedDate": "2022-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "256BF441-EC7D-4625-B15E-334074A904FB",
-            "approvedDocNo": "1106010078",
-            "approvedDate": "2022-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "40DCA4DB-B98A-4BF2-9325-2C3195AAF20B",
-            "approvedDocNo": "1091492279",
-            "approvedDate": "2020-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DE1A240A-02AA-4301-A8D6-31C5F00501D7",
-            "approvedDocNo": "1091492279",
-            "approvedDate": "2020-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01027833",
+    "licUnit": "1",
     "validDate": "2029-08-27 00:00:00.000",
     "issueDate": "1985-02-25 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "96239236-2536-4A22-A1A8-529FB5C5967F",
+    "subCategory": [],
     "ingredientsDesc": [
         "FOLIC ACID",
         "FERROUS FUMARATE",
@@ -57,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "1302820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2004401100",
+            "ingredientsName": "FERROUS FUMARATE",
             "ingredientsDesc": "FERROUS FUMARATE",
             "concentDesc": "65",
             "concent": "65.0000",
@@ -75,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "2.5",
             "concent": "2.5000",
@@ -86,6 +96,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811600100",
+            "ingredientsName": "FOLIC ACID",
             "ingredientsDesc": "FOLIC ACID",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -97,6 +108,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811300100",
+            "ingredientsName": "OROTIC ACID (VIT B13)",
             "ingredientsDesc": "OROTIC ACID (VIT B13)",
             "concentDesc": "40",
             "concent": "40.0000",
@@ -108,6 +120,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8832000200",
+            "ingredientsName": "HESPERIDIN (VIT P)",
             "ingredientsDesc": "HESPERIDIN (VIT P)",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -119,6 +132,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100800",
+            "ingredientsName": "THIAMINE DISULFIDE",
             "ingredientsDesc": "THIAMINE DISULFIDE",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -130,6 +144,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -141,16 +156,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "689E2C29-E30F-4B1D-BD72-72EC41808CE9",
-            "approvedDocNo": "1139026149",
-            "approvedDate": "2024-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

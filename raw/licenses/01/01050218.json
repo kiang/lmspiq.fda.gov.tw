@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050218",
+    "licUnit": "1",
     "validDate": "2029-07-02 00:00:00.000",
     "issueDate": "2009-07-02 00:00:00.000",
     "licKind": "02",
@@ -26,7 +29,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "5C302DC8-8C23-48AF-9126-1D3B1061423D",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
         "NOSCAPINE"
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002400",
+            "ingredientsName": "NOSCAPINE",
             "ingredientsDesc": "NOSCAPINE",
             "concentDesc": null,
             "concent": "15.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001420",
+            "ingredientsName": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "concentDesc": null,
             "concent": "200.0000",
@@ -85,16 +97,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "30B57F72-EF50-4439-BB97-77524E62548F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

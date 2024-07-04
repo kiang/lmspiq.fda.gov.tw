@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001175",
+    "licUnit": "1",
     "validDate": "2026-09-15 00:00:00.000",
     "issueDate": "2021-09-15 00:00:00.000",
     "licKind": "04",
@@ -27,12 +30,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "9F57D35D-70CA-4D97-B101-B7021F631B0D",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "dinutuximab beta"
     ],
     "restraintItemsCode": [
         "02",
         "07",
+        "1Q",
         "5G"
     ],
     "applicantName": "吉帝藥品股份有限公司",
@@ -62,7 +71,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE0281100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "1",
@@ -80,7 +91,9 @@
             "factoryKind": "M",
             "factoryNo": "FIT0402000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -98,16 +111,19 @@
             "factoryKind": "M",
             "factoryNo": "FIE0102100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013009300",
+            "ingredientsName": "dinutuximab beta",
             "ingredientsDesc": "dinutuximab beta",
             "concentDesc": "",
-            "concent": "4.500",
+            "concent": "4.5000",
             "concentUnit": "038",
             "seq": "1",
             "prescription_seq": "1",
@@ -116,72 +132,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EA1792C6-ED7C-4107-B120-D5FE12A6C0B2",
-            "approvedDocNo": "1120722784",
-            "approvedDate": "2024-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6313FA6F-B8A1-41C9-8CE3-CAF793CF9865",
-            "approvedDocNo": "1120711857",
-            "approvedDate": "2023-09-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8474B5B6-6213-44B5-9A58-25ED7A560763",
-            "approvedDocNo": "1120719438",
-            "approvedDate": "2023-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D2BBD62A-5061-4713-9845-FD50BA723768",
-            "approvedDocNo": "1120706529",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A20CE351-ED73-4502-80C1-5439D34D8198",
-            "approvedDocNo": "1110729928",
-            "approvedDate": "2023-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B7FBCC00-F708-41D8-BA93-EAECD3021C45",
-            "approvedDocNo": "1110730794",
-            "approvedDate": "2023-02-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "29872223-7DF9-4D66-AB8B-F60EA8251714",
-            "approvedDocNo": "1110711246",
-            "approvedDate": "2022-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CE096C6F-02A6-4621-AD1A-023E2A11C06E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000870",
+    "licUnit": "1",
     "validDate": "2028-09-10 00:00:00.000",
     "issueDate": "2008-09-10 00:00:00.000",
     "licKind": "04",
@@ -23,6 +26,11 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "3D0FD736-322F-445D-AA9E-5A62E024A262",
+    "subCategory": [
+        "C02"
+    ],
     "ingredientsDesc": [
         "CLOSTRIDIUM BOTULINUM TYPE A TOXIN-HAEMAGGLUTININ COMPLEX"
     ],
@@ -43,8 +51,8 @@
     "factoryDtoList": [
         {
             "factoryCode": "1",
-            "factoryName": "IPSEN BIOPHARM LIMITED",
-            "factoryAddr": "ASH ROAD, WREXHAM INDUSTRIAL ESTATE, WREXHAM, CLWYD,LL 13 9UF, UK",
+            "factoryName": "IPSEN BIOPHARM LTD.",
+            "factoryAddr": "ASH ROAD, WREXHAM INDUSTRIAL ESTATE, WREXHAM, CLWYDLL 13 9UF",
             "factoryCompanyAddr": "190,BATH ROAD,SLOUGH,BERKSHIRE,SL1 3XE,UK",
             "countryCode": "GB",
             "processCode": [],
@@ -52,16 +60,39 @@
             "factoryKind": "M",
             "factoryNo": "FGB0146000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "factoryCode": "2",
+            "factoryName": "IPSEN LIMITED",
+            "factoryAddr": "5TH FLOOR, THE POINT, 37 NORTH WHARF ROAD, PADDINGTON, LONDON, W2 1AF, UNITED KINGDOM",
+            "factoryCompanyAddr": null,
+            "countryCode": "GB",
+            "processCode": [
+                {
+                    "value": "01",
+                    "name": "許可證持有者"
+                }
+            ],
+            "processCodeStr": "01;許可證持有者",
+            "factoryKind": "M",
+            "factoryNo": "FGB0439000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220002900",
+            "ingredientsName": "CLOSTRIDIUM BOTULINUM TYPE A TOXIN-HAEMAGGLUTININ COMPLEX",
             "ingredientsDesc": "CLOSTRIDIUM BOTULINUM TYPE A TOXIN-HAEMAGGLUTININ COMPLEX",
             "concentDesc": "",
-            "concent": "500.000",
+            "concent": "500.0000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "1",
@@ -85,80 +116,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E3F51AE8-51BF-4CA1-8FD1-21BC636F765A",
-            "approvedDocNo": "1110715505",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "505A8A1B-D244-4020-8E0D-F0C6D4CFEF39",
-            "approvedDocNo": "1110715505",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DE99731F-FDFA-4CCD-93A2-2752DBC9AAFA",
-            "approvedDocNo": "1110717698",
-            "approvedDate": "2022-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0E27496A-702A-4037-B31C-ACC2E85AD162",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "28A0D090-3614-43B2-9747-D23FE34023E5",
-            "approvedDocNo": "1096039761",
-            "approvedDate": "2021-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F7996975-CC89-431F-A994-FF5023254C5B",
-            "approvedDocNo": "1096039761",
-            "approvedDate": "2021-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E778997A-1B48-4E87-A4B6-41D47C2CF9B9",
-            "approvedDocNo": "1096039761",
-            "approvedDate": "2021-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3344F403-C77D-43C0-8B90-5BB11F22A8A9",
-            "approvedDocNo": "1096039761",
-            "approvedDate": "2021-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AE20E360-501A-48DC-B6A6-81D2C64AFAC7",
-            "approvedDocNo": "1096006202",
-            "approvedDate": "2020-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

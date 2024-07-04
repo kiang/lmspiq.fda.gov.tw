@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026657",
+    "licUnit": "1",
     "validDate": "2026-03-07 00:00:00.000",
     "issueDate": "2016-03-07 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4FBE9E7B-7E46-4F5B-84F4-FCD0966D472F",
+    "subCategory": [],
     "ingredientsDesc": [
         "BUDESONIDE",
         "FORMOTEROL FUMARATE DIHYDRATE"
@@ -53,16 +59,19 @@
             "factoryKind": "M",
             "factoryNo": "FFR0195000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406002100",
+            "ingredientsName": "BUDESONIDE",
             "ingredientsDesc": "BUDESONIDE",
             "concentDesc": "",
-            "concent": "160.000",
+            "concent": "160.0000",
             "concentUnit": "355",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +80,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216003030",
+            "ingredientsName": "FORMOTEROL FUMARATE DIHYDRATE",
             "ingredientsDesc": "FORMOTEROL FUMARATE DIHYDRATE",
             "concentDesc": "",
-            "concent": "4.500",
+            "concent": "4.5000",
             "concentUnit": "355",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,40 +92,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5B36A9D7-1947-4320-B506-C170ADA4EF7F",
-            "approvedDocNo": "1110726450",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FB694F28-F1E6-4A13-837F-09EA461CEAFC",
-            "approvedDocNo": "1110727464",
-            "approvedDate": "2023-02-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED5E29C7-06F5-427D-802C-08009F355925",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2EAA00BF-60D4-4CC7-93D2-8ED1E3A10CF7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

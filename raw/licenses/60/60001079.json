@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001079",
+    "licUnit": "1",
     "validDate": "2028-04-25 00:00:00.000",
     "issueDate": "2018-04-25 00:00:00.000",
     "licKind": "04",
@@ -27,6 +30,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "D0A1CCAC-FCE3-4C1C-8590-07547EEE2CE8",
+    "subCategory": [
+        "C0502"
+    ],
     "ingredientsDesc": [
         "Lixisenatide",
         "INSULIN GLARGINE"
@@ -57,7 +65,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE0108000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -75,7 +85,9 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -93,16 +105,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0388200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820801100",
+            "ingredientsName": "INSULIN GLARGINE",
             "ingredientsDesc": "INSULIN GLARGINE",
             "concentDesc": "equal to 100 units",
-            "concent": "3.638",
+            "concent": "3.6380",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -111,9 +126,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820602400",
+            "ingredientsName": "Lixisenatide",
             "ingredientsDesc": "Lixisenatide",
             "concentDesc": "",
-            "concent": "0.033",
+            "concent": "0.0330",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -122,96 +138,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "929408F2-AD38-433C-B2F7-2DFF21AE7D23",
-            "approvedDocNo": "1129043517",
-            "approvedDate": "2023-11-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F7CA6DBB-8446-4AFF-9535-F248B0A469F0",
-            "approvedDocNo": "1129008674",
-            "approvedDate": "2023-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "32A12F60-58AE-4898-845B-847384E3C3D9",
-            "approvedDocNo": "1110733701",
-            "approvedDate": "2023-07-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "67688DE7-DDD0-4503-8706-59D156E784E1",
-            "approvedDocNo": "1119027119",
-            "approvedDate": "2022-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6D706506-472C-469D-9E96-90B6D449571E",
-            "approvedDocNo": "1106017427",
-            "approvedDate": "2021-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7523483D-EE02-4A64-A0A3-21817C9059A1",
-            "approvedDocNo": "1106001073",
-            "approvedDate": "2021-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F08A14B2-3853-47B9-A0F2-48A759FD12A5",
-            "approvedDocNo": "1096015279",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9EB4EA6B-87A3-4433-A343-58165F3DC3A1",
-            "approvedDocNo": "1096015279",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7CE7FFD6-0DA7-4A1F-A1B0-C4DEC3BDA755",
-            "approvedDocNo": "1096015279",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FEEC87D9-D5C6-4215-921B-E67B769920E1",
-            "approvedDocNo": "1086016430",
-            "approvedDate": "2019-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D436C9D0-AA8B-4C10-8F61-240C1E81EA2F",
-            "approvedDocNo": "1086016430",
-            "approvedDate": "2019-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

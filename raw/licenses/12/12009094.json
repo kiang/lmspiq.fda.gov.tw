@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12009094",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "1970-08-29 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "06",
     "maMedCode": "X",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CCCF76C8-E1C6-4ADD-B41C-C677E5222337",
+    "subCategory": [],
     "ingredientsDesc": [
         "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
         "THEOPHYLLINE"
@@ -52,16 +58,19 @@
             "factoryKind": "M",
             "factoryNo": "6139011104",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8600100100",
+            "ingredientsName": "THEOPHYLLINE",
             "ingredientsDesc": "THEOPHYLLINE",
             "concentDesc": "100",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +79,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001420",
+            "ingredientsName": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "concentDesc": "100",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,80 +91,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "76A1EF6E-23A5-420B-92FB-165AFB61F1F2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BAB42D29-9905-4528-ADAB-1D285CB4C4A2",
-            "approvedDocNo": "1100028637",
-            "approvedDate": "2021-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7B6D947D-C862-4D70-99BA-0308F4FF8DCC",
-            "approvedDocNo": "1100028637",
-            "approvedDate": "2021-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D7DED3F4-A566-420E-98D2-6BB040377A39",
-            "approvedDocNo": "1100028637",
-            "approvedDate": "2021-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4BA15031-56C8-4113-8DF8-A56E4BBEE357",
-            "approvedDocNo": "1100028637",
-            "approvedDate": "2021-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3C5A2F65-5F6F-4DF4-A8C3-BBAC93AACC7C",
-            "approvedDocNo": "1100028637",
-            "approvedDate": "2021-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7956DFDF-1B1F-4D17-BD7E-CDF04AC382EB",
-            "approvedDocNo": "1100028637",
-            "approvedDate": "2021-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7487A26A-4C9F-4B55-8079-ED93B60988C5",
-            "approvedDocNo": "1100028637",
-            "approvedDate": "2021-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "86A7B3F1-64D5-4D10-A132-4BBB2842A9E8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

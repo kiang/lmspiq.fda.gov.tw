@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12001908",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "1970-02-11 00:00:00.000",
     "licKind": "02",
@@ -27,6 +30,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3CA44497-911A-4980-BF7F-692A20EB4E19",
+    "subCategory": [],
     "ingredientsDesc": [
         "POLYETHYLENE GLYCOL (EQ TO CARBOWAX) (EQ TO MACROGOL)",
         "JECORIS PISCIS FORTE OIL",
@@ -62,16 +68,19 @@
             "factoryKind": "M",
             "factoryNo": "1703620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0824000700",
+            "ingredientsName": "SULFADIAZINE",
             "ingredientsDesc": "SULFADIAZINE",
             "concentDesc": "5.0",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -80,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404602700",
+            "ingredientsName": "NITROFURAZONE",
             "ingredientsDesc": "NITROFURAZONE",
             "concentDesc": "0.2",
-            "concent": "0.200",
+            "concent": "0.2000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -91,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": "1.0",
-            "concent": "1.000",
+            "concent": "1.0000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "1",
@@ -102,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200011500",
+            "ingredientsName": "ZINC OXIDE",
             "ingredientsDesc": "ZINC OXIDE",
             "concentDesc": "5.0",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "002",
             "seq": "4",
             "prescription_seq": "1",
@@ -113,9 +125,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424800215",
+            "ingredientsName": "JECORIS PISCIS FORTE OIL",
             "ingredientsDesc": "JECORIS PISCIS FORTE OIL",
             "concentDesc": "0.5",
-            "concent": "0.500",
+            "concent": "0.5000",
             "concentUnit": "002",
             "seq": "5",
             "prescription_seq": "1",
@@ -124,6 +137,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424121000",
+            "ingredientsName": "POLYETHYLENE GLYCOL (EQ TO CARBOWAX) (EQ TO MACROGOL)",
             "ingredientsDesc": "POLYETHYLENE GLYCOL (EQ TO CARBOWAX) (EQ TO MACROGOL)",
             "concentDesc": null,
             "concent": null,
@@ -135,16 +149,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F1F2F760-DA31-4CC3-84CB-D5DD18100900",
-            "approvedDocNo": "1080033690",
-            "approvedDate": "2019-12-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

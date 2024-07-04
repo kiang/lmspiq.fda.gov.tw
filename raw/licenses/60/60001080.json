@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001080",
+    "licUnit": "1",
     "validDate": "2028-04-25 00:00:00.000",
     "issueDate": "2018-04-25 00:00:00.000",
     "licKind": "04",
@@ -27,6 +30,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "8DA654B9-CC3E-430B-9835-E1570ECACC84",
+    "subCategory": [
+        "C0502"
+    ],
     "ingredientsDesc": [
         "Lixisenatide",
         "INSULIN GLARGINE"
@@ -57,7 +65,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE0108000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -75,7 +85,9 @@
             "factoryKind": "M",
             "factoryNo": "6132041444",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -93,7 +105,9 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -111,16 +125,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0388200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820801100",
+            "ingredientsName": "INSULIN GLARGINE",
             "ingredientsDesc": "INSULIN GLARGINE",
             "concentDesc": "equal to 100 units",
-            "concent": "3.638",
+            "concent": "3.6380",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -129,9 +146,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820602400",
+            "ingredientsName": "Lixisenatide",
             "ingredientsDesc": "Lixisenatide",
             "concentDesc": "",
-            "concent": "0.050",
+            "concent": "0.0500",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -140,112 +158,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "63EC5C7D-66D0-41B3-ADC9-DE0FD6207857",
-            "approvedDocNo": "1129043500",
-            "approvedDate": "2023-11-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C25AC77C-FDA3-4DA5-B062-8BD8F4CAB666",
-            "approvedDocNo": "1129008676",
-            "approvedDate": "2023-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF53CD89-C44A-488E-9708-57748E38D551",
-            "approvedDocNo": "1110733702",
-            "approvedDate": "2023-07-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7DA3071B-B87F-40C1-BF1D-E68410CC2AD4",
-            "approvedDocNo": "1119054664",
-            "approvedDate": "2023-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "15D15EC3-7EEE-41B8-BA48-299169A66D3F",
-            "approvedDocNo": "1119027120",
-            "approvedDate": "2022-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4592492C-F882-4419-87F6-E3EE02483E80",
-            "approvedDocNo": "1106017428",
-            "approvedDate": "2021-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "35DDCB14-908B-4F10-8417-5D15E6B55302",
-            "approvedDocNo": "1106001074",
-            "approvedDate": "2021-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "58E48DEE-FBFC-437C-AC32-202A8A12A966",
-            "approvedDocNo": "1096015280",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5A2C12DE-F064-4729-A7E4-C9E8AB275F81",
-            "approvedDocNo": "1096015280",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "884441CE-397B-4ED9-9AEF-CB11F68B1D6E",
-            "approvedDocNo": "1096015280",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4F495BCA-1165-40E4-9028-9551893830FA",
-            "approvedDocNo": "1086016431",
-            "approvedDate": "2019-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5CECF49C-D348-42F5-9A84-E38A7EBB9D7F",
-            "approvedDocNo": "1086016431",
-            "approvedDate": "2019-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AE6B1F5C-F932-4A19-8319-B5E61FB144E6",
-            "approvedDocNo": "1086007147",
-            "approvedDate": "2019-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

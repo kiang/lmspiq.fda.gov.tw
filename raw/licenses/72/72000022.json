@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "72000022",
+    "licUnit": "1",
     "validDate": "2027-04-11 00:00:00.000",
     "issueDate": "2017-04-11 00:00:00.000",
     "licKind": "04",
@@ -27,6 +30,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "CA788ADA-A296-4DD3-8D55-120DAF458E37",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "Taliglucerase alfa"
     ],
@@ -56,7 +64,9 @@
             "factoryKind": "M",
             "factoryNo": "FUS0196100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -74,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FIL0048000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200082800",
+            "ingredientsName": "Taliglucerase alfa",
             "ingredientsDesc": "Taliglucerase alfa",
             "concentDesc": "",
-            "concent": "212.000",
+            "concent": "212.0000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "1",
@@ -100,96 +113,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B4F7F49D-A72E-4837-927C-F7A3A20CF851",
-            "approvedDocNo": "1110728745",
-            "approvedDate": "2023-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DF8956DF-334E-4601-881A-08BFE9AC68FD",
-            "approvedDocNo": "1110700084",
-            "approvedDate": "2022-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AAABA46C-47C2-4507-B5EE-72BEC271D4DA",
-            "approvedDocNo": "1110700084",
-            "approvedDate": "2022-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FEA16271-3F9B-4C57-B14D-FD71F6E6C85A",
-            "approvedDocNo": "1106035974",
-            "approvedDate": "2022-04-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C24877F3-A271-4032-BB94-BA2E450E2F30",
-            "approvedDocNo": "1106025395",
-            "approvedDate": "2021-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "10DF209F-F014-475E-AB18-E5822FE70396",
-            "approvedDocNo": "1101496454",
-            "approvedDate": "2021-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D4E805C1-C5A1-4126-8BD6-8AB309DC3B99",
-            "approvedDocNo": "1106022379",
-            "approvedDate": "2021-10-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "46B3B8A8-7724-4566-96DA-1711AC1B5407",
-            "approvedDocNo": "1106011628",
-            "approvedDate": "2021-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9EA8F758-74F1-4253-9222-E620525B4739",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8879ED78-D915-44C4-83BD-0DE897907B13",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A0A3C95B-726F-4DD9-B942-24AB1B4B1500",
-            "approvedDocNo": "1086028970",
-            "approvedDate": "2020-01-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

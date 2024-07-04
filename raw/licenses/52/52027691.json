@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027691",
-    "validDate": "2024-07-18 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-18 00:00:00.000",
     "issueDate": "2019-07-18 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -23,6 +26,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "79EDEFFF-176A-433B-B538-E463F199C7CF",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Lorlatinib"
     ],
@@ -53,7 +61,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE0247000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -71,16 +81,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013008000",
+            "ingredientsName": "Lorlatinib",
             "ingredientsDesc": "Lorlatinib",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,72 +102,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "77ED4680-DE19-45EF-BC70-EA89A2633258",
-            "approvedDocNo": "1119029579",
-            "approvedDate": "2022-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EE05C131-C993-4968-9C34-363151E1A2D7",
-            "approvedDocNo": "1106007926",
-            "approvedDate": "2021-10-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8885F419-220E-4F1D-9B91-386188AC0437",
-            "approvedDocNo": "1106007926",
-            "approvedDate": "2021-10-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "283CB190-D62E-4C55-AE07-ACEF54CFF855",
-            "approvedDocNo": "1106007926",
-            "approvedDate": "2021-10-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AECB5DF2-AD43-4655-BDA9-E2892A30C44C",
-            "approvedDocNo": "1106007926",
-            "approvedDate": "2021-10-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9040C8B1-D53A-4185-A0C7-EDB42C9F7E39",
-            "approvedDocNo": "1096029786",
-            "approvedDate": "2021-03-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BC129262-23D9-4057-A7EF-FA24C6D5E960",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "222CF401-857A-4599-947C-F64B62D3BDEE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

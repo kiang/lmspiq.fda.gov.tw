@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01028443",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1986-01-20 00:00:00.000",
     "licKind": "02",
     "oldLicid": "01010363",
@@ -23,12 +26,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "66FB52A6-6192-42B2-8A7C-6A6BF6D524F0",
+    "subCategory": [],
     "ingredientsDesc": [
         "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
         "METHYLTESTOSTERONE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "黃氏製藥股份有限公司",
     "applicantAddr": "雲林縣斗南鎮小東里大同路４４４巷１１號",
@@ -52,13 +59,16 @@
             "factoryKind": "M",
             "factoryNo": "1223216300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6808001300",
+            "ingredientsName": "METHYLTESTOSTERONE",
             "ingredientsDesc": "METHYLTESTOSTERONE",
             "concentDesc": "4",
             "concent": "4.0000",
@@ -70,6 +80,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816000600",
+            "ingredientsName": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "ingredientsDesc": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "concentDesc": "0.02",
             "concent": "0.0200",
@@ -81,40 +92,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "512B57AA-CCAC-4405-A7AC-2A4B05E2FBA7",
-            "approvedDocNo": "1086607213",
-            "approvedDate": "2019-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "07CA7209-F53D-4BA3-8871-3E8384510677",
-            "approvedDocNo": "1086607213",
-            "approvedDate": "2019-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D0D2F084-6E35-44FB-B9E6-3F6B70B5CB06",
-            "approvedDocNo": "1086607213",
-            "approvedDate": "2019-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C5167363-D048-460E-ADE9-E4688563BD6F",
-            "approvedDocNo": "1086607213",
-            "approvedDate": "2019-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

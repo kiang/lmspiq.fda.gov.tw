@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058580",
+    "licUnit": "1",
     "validDate": "2025-01-20 00:00:00.000",
     "issueDate": "2015-01-20 00:00:00.000",
     "licKind": "02",
@@ -31,12 +34,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "ABEBC1C0-B388-4E17-B6EB-13E5A3FD0CF9",
+    "subCategory": [],
     "ingredientsDesc": [
         "Pemetrexed disodium 2.5 hydrate"
     ],
     "restraintItemsCode": [
         "01",
-        "26"
+        "26",
+        "67"
     ],
     "applicantName": "台灣東洋藥品工業股份有限公司",
     "applicantAddr": "台北市南港區園區街3之1號3樓",
@@ -60,16 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "1406804300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1004002420",
+            "ingredientsName": "Pemetrexed disodium 2.5 hydrate",
             "ingredientsDesc": "Pemetrexed disodium 2.5 hydrate",
             "concentDesc": "equal to Pemetrexed 25mg",
-            "concent": "30.000",
+            "concent": "30.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -78,48 +88,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "10D54A63-3595-473E-B8AB-00DECD434168",
-            "approvedDocNo": "1110731984",
-            "approvedDate": "2023-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C4B550D3-2ABB-4F38-84AC-899924842727",
-            "approvedDocNo": "1110731984",
-            "approvedDate": "2023-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "81B0C83F-BE55-41A4-AC58-ECA9A244B229",
-            "approvedDocNo": "1110731984",
-            "approvedDate": "2023-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A2141B54-480A-4474-8334-B92D12F72082",
-            "approvedDocNo": "1086817833",
-            "approvedDate": "2020-02-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31DFBAFA-2E7D-4E96-A60D-177651676263",
-            "approvedDocNo": "1086817833",
-            "approvedDate": "2020-02-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001138",
+    "licUnit": "1",
     "validDate": "2025-07-27 00:00:00.000",
     "issueDate": "2020-07-27 00:00:00.000",
     "licKind": "04",
@@ -27,6 +30,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "16818499-B793-44DA-BFB9-58EDFBDB082B",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "fremanezumab"
     ],
@@ -62,7 +70,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE0559000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -80,7 +90,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE0228000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -98,7 +110,9 @@
             "factoryKind": "M",
             "factoryNo": "FKR0182100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -116,16 +130,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS1173000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200090900",
+            "ingredientsName": "fremanezumab",
             "ingredientsDesc": "fremanezumab",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -142,88 +159,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "342D33A1-056E-42FD-837E-CEDB56052480",
-            "approvedDocNo": "1119032463",
-            "approvedDate": "2023-01-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "172833CB-B131-48C0-9641-466CB4C62066",
-            "approvedDocNo": "1119032464",
-            "approvedDate": "2022-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "801C47EB-BDA9-4676-8241-4BB9B4E4F7EA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "46E35AD9-3AC3-4476-B004-565B48C9C392",
-            "approvedDocNo": "1110709850",
-            "approvedDate": "2022-08-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4186267A-1138-4F8D-A8D5-7FCF18DB512B",
-            "approvedDocNo": "1110709849",
-            "approvedDate": "2022-08-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0CCA3E61-F94F-476F-B296-14063EDDB5E3",
-            "approvedDocNo": "1106024625",
-            "approvedDate": "2022-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EBE1A613-3CBC-4A80-B888-729D3274E34B",
-            "approvedDocNo": "1106024625",
-            "approvedDate": "2022-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F1F5FA9D-88BD-4E4A-BCF0-513B32BF93DA",
-            "approvedDocNo": "1106024625",
-            "approvedDate": "2022-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3882364B-BE01-4F79-9C83-A710EA8446FB",
-            "approvedDocNo": "1106034969",
-            "approvedDate": "2021-12-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D67F63E2-9767-4F9E-B749-9943CB7838F4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000461",
-    "validDate": "2024-08-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-08-31 00:00:00.000",
     "issueDate": "2019-07-03 00:00:00.000",
     "licKind": "04",
     "oldLicid": "10000201",
@@ -23,6 +26,11 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "AD6FA06D-08F8-45BB-ACC1-55F5E5DE3B4C",
+    "subCategory": [
+        "C06"
+    ],
     "ingredientsDesc": [
         "Human immunoglobulin proteins with Tetanus potency"
     ],
@@ -51,7 +59,9 @@
             "factoryKind": "M",
             "factoryNo": "FUS0255000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -69,16 +79,19 @@
             "factoryKind": "M",
             "factoryNo": "FES0117000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004000660",
+            "ingredientsName": "Human immunoglobulin proteins with Tetanus potency",
             "ingredientsDesc": "Human immunoglobulin proteins with Tetanus potency",
             "concentDesc": "250 ANTITOXIN UNITS",
-            "concent": "250.000",
+            "concent": "250.0000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,64 +100,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2D090602-4475-4849-A65C-7F0D23383841",
-            "approvedDocNo": "1109500505",
-            "approvedDate": "2022-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A1B75CF0-D280-4D7E-BE89-A4EC12323F59",
-            "approvedDocNo": "1109500505",
-            "approvedDate": "2022-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4BB296BE-76F8-426B-8329-CF05D4CCDA4E",
-            "approvedDocNo": "1109500505",
-            "approvedDate": "2022-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6384D957-A02C-477B-8D90-A8BFE5B91D94",
-            "approvedDocNo": "1101500019",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "18AE9390-7ACF-4D5C-8651-8A8FEE95E639",
-            "approvedDocNo": "1101500327",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2029FDCF-6611-4B7F-8C70-0232F1CE5972",
-            "approvedDocNo": "1101499998",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5400DD5A-01D1-4ECA-8B80-5ED17590CD3B",
-            "approvedDocNo": "1101499998",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

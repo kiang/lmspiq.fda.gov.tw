@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050225",
-    "validDate": "2024-07-10 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-10 00:00:00.000",
     "issueDate": "2009-07-10 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,6 +30,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A5D5D420-5A1E-480C-9D87-A606A91280F4",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEXTROSE MONOHYDRATE",
         "CALCIUM CHLORIDE DIHYDRATE",
@@ -35,7 +41,8 @@
         "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "濟生醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉勝利村實踐路3號",
@@ -59,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "6133060069",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
             "concent": "5.3800",
@@ -77,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": "",
             "concent": "0.0510",
@@ -88,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": "",
             "concent": "0.1830",
@@ -99,6 +111,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000570",
+            "ingredientsName": "DEXTROSE MONOHYDRATE",
             "ingredientsDesc": "DEXTROSE MONOHYDRATE",
             "concentDesc": "",
             "concent": "15.0000",
@@ -110,6 +123,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000900",
+            "ingredientsName": "SODIUM LACTATE",
             "ingredientsDesc": "SODIUM LACTATE",
             "concentDesc": "(60% Sodium lactate 7.47mg)",
             "concent": "4.4800",
@@ -121,16 +135,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4D1850B4-DAF2-432C-BE2C-CEBC5B2D6DF2",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

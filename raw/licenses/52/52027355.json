@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027355",
+    "licUnit": "1",
     "validDate": "2027-12-20 00:00:00.000",
     "issueDate": "2017-12-20 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "106CEEB7-E47A-4FC7-A333-75025FF0D9CA",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "CELECOXIB"
     ],
@@ -44,16 +52,18 @@
     "factoryDtoList": [
         {
             "factoryCode": "1",
-            "factoryName": "PFIZER PHARMACEUTICALS LLC",
-            "factoryAddr": "KM. 1.9 ROAD 689, VEGA BAJA, PUERTO RICO 00693, USA",
+            "factoryName": "VIATRIS PHARMACEUTICALS LLC",
+            "factoryAddr": "KM. 1.9 ROAD 689, VEGA BAJA, PUERTO RICO 00693",
             "factoryCompanyAddr": "",
-            "countryCode": "US",
+            "countryCode": "PR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FUS0474100",
+            "factoryNo": "FPR0019100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -71,16 +81,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0247000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808405200",
+            "ingredientsName": "CELECOXIB",
             "ingredientsDesc": "CELECOXIB",
             "concentDesc": "",
-            "concent": "200.000",
+            "concent": "200.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,56 +102,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5AAF8A68-A363-4C6F-9A3A-111339B78F5A",
-            "approvedDocNo": "1129024224",
-            "approvedDate": "2023-09-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6A431736-03B2-4B5B-BB4F-D8129C0DF07D",
-            "approvedDocNo": "1129024224",
-            "approvedDate": "2023-09-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E21547C4-FC28-4064-B6A0-6FCCBAB8EC2A",
-            "approvedDocNo": "1101500510",
-            "approvedDate": "2022-02-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C09F2857-81EC-4822-855A-8223801DFAF8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "04310B40-326C-4D7F-BF3D-3F31612A93E8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4C217817-BD94-4ED1-B5B8-9CD7D843A2EC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029941",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1987-08-10 00:00:00.000",
     "licKind": "02",
     "oldLicid": "01019848",
@@ -23,6 +26,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "74B29B16-2ECA-4A8B-94D2-7D75CE3FEBF9",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORPHENIRAMINE MALEATE",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
@@ -31,7 +37,8 @@
         "DL-METHYLEPHEDRINE HCL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "黃氏製藥股份有限公司",
     "applicantAddr": "雲林縣斗南鎮小東里大同路４４４巷１１號",
@@ -55,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "1223216300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -73,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "2.5",
             "concent": "2.5000",
@@ -84,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "200",
             "concent": "200.0000",
@@ -95,6 +107,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808600900",
+            "ingredientsName": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "ingredientsDesc": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "concentDesc": "120",
             "concent": "120.0000",
@@ -106,6 +119,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000470",
+            "ingredientsName": "CAFFEINE DEHYDRATE",
             "ingredientsDesc": "CAFFEINE DEHYDRATE",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -117,32 +131,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F6C201CD-7F14-40DD-8182-565CCD58430B",
-            "approvedDocNo": "1110806183",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5E3505A7-E679-461F-9506-621640C67DB6",
-            "approvedDocNo": "1110806183",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "37B49128-7C1E-4A3D-8A8E-6F8C5F3C96AD",
-            "approvedDocNo": "1110806183",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

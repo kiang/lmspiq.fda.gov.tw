@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056710",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "2011-10-07 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F4903AEA-A0AA-449F-8AFF-D191A18CE021",
+    "subCategory": [],
     "ingredientsDesc": [
         "L-THREONINE",
         "L-ISOLEUCINE",
@@ -65,13 +71,16 @@
             "factoryKind": "M",
             "factoryNo": "6133060069",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200093500",
+            "ingredientsName": "L-ARGININE HCL",
             "ingredientsDesc": "L-ARGININE HCL",
             "concentDesc": "",
             "concent": "1.3500",
@@ -83,6 +92,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100912",
+            "ingredientsName": "HISTIDINE L- HCL (EQ TO L-HISTIDINE HYDROCHLORIDE)",
             "ingredientsDesc": "HISTIDINE L- HCL (EQ TO L-HISTIDINE HYDROCHLORIDE)",
             "concentDesc": "",
             "concent": "0.6500",
@@ -94,6 +104,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101002",
+            "ingredientsName": "L-ISOLEUCINE",
             "ingredientsDesc": "L-ISOLEUCINE",
             "concentDesc": "",
             "concent": "0.9000",
@@ -105,6 +116,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101202",
+            "ingredientsName": "L-LEUCINE",
             "ingredientsDesc": "L-LEUCINE",
             "concentDesc": "",
             "concent": "2.0500",
@@ -116,6 +128,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101312",
+            "ingredientsName": "LYSINE L- HCL ( EQ TO L-LYSINE HCL)",
             "ingredientsDesc": "LYSINE L- HCL ( EQ TO L-LYSINE HCL)",
             "concentDesc": "",
             "concent": "3.7000",
@@ -127,6 +140,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101502",
+            "ingredientsName": "L-METHIONINE",
             "ingredientsDesc": "L-METHIONINE",
             "concentDesc": "",
             "concent": "1.2000",
@@ -138,6 +152,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101702",
+            "ingredientsName": "L-PHENYLALANINE",
             "ingredientsDesc": "L-PHENYLALANINE",
             "concentDesc": "",
             "concent": "1.4500",
@@ -149,6 +164,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102002",
+            "ingredientsName": "L-THREONINE",
             "ingredientsDesc": "L-THREONINE",
             "concentDesc": "",
             "concent": "0.9000",
@@ -160,6 +176,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102302",
+            "ingredientsName": "L-VALINE",
             "ingredientsDesc": "L-VALINE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -171,6 +188,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102400",
+            "ingredientsName": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "ingredientsDesc": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "concentDesc": "",
             "concent": "1.7000",
@@ -182,6 +200,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600029600",
+            "ingredientsName": "SORBITOL",
             "ingredientsDesc": "SORBITOL",
             "concentDesc": "",
             "concent": "50.0000",
@@ -193,6 +212,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
             "concent": "4.3000",
@@ -204,6 +224,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "",
             "concent": "0.1500",
@@ -215,6 +236,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": "",
             "concent": "0.1600",
@@ -226,6 +248,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102102",
+            "ingredientsName": "L-TRYPTOPHAN",
             "ingredientsDesc": "L-TRYPTOPHAN",
             "concentDesc": "",
             "concent": "0.3000",
@@ -237,32 +260,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3EACA312-D72E-47C3-B97F-550169F3BB32",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C28B4649-5881-43C3-ACD1-9423DF62A6E4",
-            "approvedDocNo": "1086800238",
-            "approvedDate": "2019-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "85D84FED-88F8-458A-A174-312706C05797",
-            "approvedDocNo": "1086800238",
-            "approvedDate": "2019-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

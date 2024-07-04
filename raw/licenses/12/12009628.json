@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12009628",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1970-09-10 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,6 +30,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7B0669ED-672A-436E-90FA-9BA691B06A81",
+    "subCategory": [],
     "ingredientsDesc": [
         "PYRIDOXINE HCL",
         "THIAMINE DISULFIDE",
@@ -59,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "6139011104",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100800",
+            "ingredientsName": "THIAMINE DISULFIDE",
             "ingredientsDesc": "THIAMINE DISULFIDE",
             "concentDesc": "25",
-            "concent": "25.000",
+            "concent": "25.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "25",
-            "concent": "25.000",
+            "concent": "25.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -88,9 +98,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "250",
-            "concent": "250.000",
+            "concent": "250.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -99,16 +110,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6EE9A7E4-4EFD-4091-9AF7-225627C250DA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

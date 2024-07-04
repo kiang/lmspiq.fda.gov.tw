@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12002131",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "1970-02-21 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "23F94D79-2227-47E0-9758-506B697093AE",
+    "subCategory": [],
     "ingredientsDesc": [
         "CITRIC ACID",
         "DEXTROSE",
@@ -53,16 +59,19 @@
             "factoryKind": "M",
             "factoryNo": "0908703300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200001700",
+            "ingredientsName": "CITRIC ACID",
             "ingredientsDesc": "CITRIC ACID",
             "concentDesc": "0.44",
-            "concent": "0.440",
+            "concent": "0.4400",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +80,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000800",
+            "ingredientsName": "SODIUM CITRATE (SODIUM CITRATE TRIBASIC)",
             "ingredientsDesc": "SODIUM CITRATE (SODIUM CITRATE TRIBASIC)",
             "concentDesc": "1.32",
-            "concent": "1.320",
+            "concent": "1.3200",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,9 +92,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000500",
+            "ingredientsName": "DEXTROSE",
             "ingredientsDesc": "DEXTROSE",
             "concentDesc": "3.00",
-            "concent": "3.000",
+            "concent": "3.0000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "1",
@@ -93,16 +104,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DB770582-9F5E-439F-B1AB-1D498FD2EFEC",
-            "approvedDocNo": "1030009148",
-            "approvedDate": "2024-08-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

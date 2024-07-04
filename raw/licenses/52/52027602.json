@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027602",
+    "licUnit": "1",
     "validDate": "2029-02-20 00:00:00.000",
     "issueDate": "2019-02-20 00:00:00.000",
     "licKind": "02",
@@ -27,12 +30,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "869DA3E1-5396-454A-B15B-420D0D5F65F3",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "BORTEZOMIB"
     ],
     "restraintItemsCode": [
         "02",
-        "24"
+        "24",
+        "67"
     ],
     "applicantName": "嬌生股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號10樓及11樓",
@@ -56,7 +65,9 @@
             "factoryKind": "M",
             "factoryNo": "FIT0479000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -74,7 +85,9 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -92,16 +105,19 @@
             "factoryKind": "M",
             "factoryNo": "FBE0009000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013001200",
+            "ingredientsName": "BORTEZOMIB",
             "ingredientsDesc": "BORTEZOMIB",
             "concentDesc": "",
-            "concent": "3.500",
+            "concent": "3.5000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -110,64 +126,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1A71742C-5FAC-414A-AA9C-31DAF593C0DA",
-            "approvedDocNo": "1110713864",
-            "approvedDate": "2022-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "13C0C4D3-FF5E-49B3-B34C-38BA36C62290",
-            "approvedDocNo": "1110701758",
-            "approvedDate": "2022-08-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E001E7BD-15EE-4F4F-9E83-86A4B6CE4556",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "03753187-FC16-4974-8359-DA871F03DCBF",
-            "approvedDocNo": "1106001061",
-            "approvedDate": "2021-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B92240BD-85A7-4D52-9C0F-47366CBD701C",
-            "approvedDocNo": "1086022265",
-            "approvedDate": "2020-02-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "627DC29A-0351-4F0C-9605-24DF0EF2BBE8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5FF55D50-DD41-4E2D-A4FC-948B20B29151",
-            "approvedDocNo": "1081490989",
-            "approvedDate": "2019-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

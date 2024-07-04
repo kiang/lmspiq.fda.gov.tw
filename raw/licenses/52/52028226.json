@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028226",
+    "licUnit": "1",
     "validDate": "2026-12-20 00:00:00.000",
     "issueDate": "2021-12-20 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "1E31FAC1-92BF-4136-A3F4-CF3C86D62E3B",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "DROSPIRENONE",
         "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)"
@@ -47,24 +55,27 @@
         {
             "factoryCode": "1",
             "factoryName": "LABORATORIOS LEON FARMA, S.A.",
-            "factoryAddr": "POLIGONO INDUSTRIAL DE NAVATEJERA, C\/LA VALLINA S\/N, 24008 NAVATEJERA, LEON, SPAIN",
-            "factoryCompanyAddr": "",
+            "factoryAddr": "POLIGONO INDUSTRIAL NAVATEJERA, C\/LA VALLINA S\/N, VILLAQUILAMBRE, LEON, 24193, SPAIN",
+            "factoryCompanyAddr": null,
             "countryCode": "ES",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FES0238000",
+            "factoryNo": "FES0238100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832003100",
+            "ingredientsName": "DROSPIRENONE",
             "ingredientsDesc": "DROSPIRENONE",
             "concentDesc": "",
-            "concent": "3.000",
+            "concent": "3.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816000600",
+            "ingredientsName": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "ingredientsDesc": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "concentDesc": "",
-            "concent": "0.020",
+            "concent": "0.0200",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,16 +96,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5AADCD93-00DE-45C9-934A-8560FCFD7066",
-            "approvedDocNo": "1110804260",
-            "approvedDate": "2022-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

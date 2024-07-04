@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12013702",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1970-10-30 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -23,11 +26,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "42F8CED2-227B-4A51-AA38-C30F6A5DB3DE",
+    "subCategory": [],
     "ingredientsDesc": [
         "PREDNISOLONE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R",
+        "1R"
     ],
     "applicantName": "光南製藥股份有限公司宜蘭廠",
     "applicantAddr": "宜蘭縣宜蘭市黎明二路240號",
@@ -51,16 +59,19 @@
             "factoryKind": "M",
             "factoryNo": "0606029300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001500",
+            "ingredientsName": "PREDNISOLONE",
             "ingredientsDesc": "PREDNISOLONE",
             "concentDesc": "5",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

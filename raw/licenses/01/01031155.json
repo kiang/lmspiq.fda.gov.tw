@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01031155",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1988-11-28 00:00:00.000",
     "licKind": "02",
     "oldLicid": "01019092",
@@ -31,13 +34,17 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0CB30081-9910-4E35-A20A-3F8BB20758D6",
+    "subCategory": [],
     "ingredientsDesc": [
         "BROMHEXINE HCL",
         "DOXYLAMINE SUCCINATE",
         "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -61,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001410",
+            "ingredientsName": "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
             "ingredientsDesc": "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
             "concentDesc": "",
             "concent": "5.0000",
@@ -79,6 +89,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800000310",
+            "ingredientsName": "BROMHEXINE HCL",
             "ingredientsDesc": "BROMHEXINE HCL",
             "concentDesc": "",
             "concent": "8.0000",
@@ -90,6 +101,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001810",
+            "ingredientsName": "DOXYLAMINE SUCCINATE",
             "ingredientsDesc": "DOXYLAMINE SUCCINATE",
             "concentDesc": "",
             "concent": "7.5000",

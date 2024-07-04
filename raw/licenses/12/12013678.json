@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12013678",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1970-10-30 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -23,11 +26,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9E315B51-0BB7-43DB-B3DC-919302EE26C6",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORMEZANONE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1P",
+        "1R"
     ],
     "applicantName": "人生製藥股份有限公司",
     "applicantAddr": "台中市西屯區工業區五路３號",
@@ -51,16 +59,19 @@
             "factoryKind": "M",
             "factoryNo": "0201709300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220000400",
+            "ingredientsName": "CHLORMEZANONE",
             "ingredientsDesc": "CHLORMEZANONE",
             "concentDesc": "100",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02020468",
+    "licUnit": "1",
     "validDate": "2029-05-26 00:00:00.000",
     "issueDate": "2018-12-11 00:00:00.000",
     "licKind": "10",
@@ -23,6 +26,11 @@
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "D9F7970D-CEEA-4D8F-9734-2A512007772F",
+    "subCategory": [
+        "E"
+    ],
     "ingredientsDesc": [
         "ACETYLCYSTEINE"
     ],
@@ -51,13 +59,16 @@
             "factoryKind": "M",
             "factoryNo": "FES0079000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800000100",
+            "ingredientsName": "ACETYLCYSTEINE",
             "ingredientsDesc": "ACETYLCYSTEINE",
             "concentDesc": "98.0-102.0",
             "concent": null,
@@ -77,48 +88,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "504BB271-1DA0-4D1E-9A80-DB4C319E15BB",
-            "approvedDocNo": "1101493825",
-            "approvedDate": "2021-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "97AEE25C-40DC-4CF8-B45C-8C26C7413093",
-            "approvedDocNo": "1091494475",
-            "approvedDate": "2020-12-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8BC3716A-C4D4-454D-825C-5F635401C496",
-            "approvedDocNo": "1091490187",
-            "approvedDate": "2020-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "91A508C3-4E4D-4BBB-B502-79AD23AEE0BF",
-            "approvedDocNo": "1091490187",
-            "approvedDate": "2020-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3E3162A0-F8C3-4796-8110-17B3E4A091F4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

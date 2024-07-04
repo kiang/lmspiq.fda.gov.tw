@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01042495",
-    "validDate": "2023-08-01 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2028-08-01 00:00:00.000",
     "issueDate": "1998-08-01 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -23,6 +26,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7E16D42E-4362-46AC-921A-D8EAEA58994B",
+    "subCategory": [],
     "ingredientsDesc": [
         "POTASSIUM CHLORIDE",
         "ACETIC ACID GLACIAL( eq to  GLACIAL ACETIC ACID)",
@@ -56,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "0908703300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "161.3",
             "concent": "161.3000",
@@ -74,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "5.48",
             "concent": "5.4800",
@@ -85,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": "3.76",
             "concent": "3.7600",
@@ -96,6 +107,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": "8.13",
             "concent": "8.1300",
@@ -107,6 +119,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600000302",
+            "ingredientsName": "ACETIC ACID GLACIAL( eq to  GLACIAL ACETIC ACID)",
             "ingredientsDesc": "ACETIC ACID GLACIAL( eq to  GLACIAL ACETIC ACID)",
             "concentDesc": "11.06",
             "concent": "11.0600",
@@ -118,6 +131,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000760",
+            "ingredientsName": "GLUCOSE MONOHYDRATE",
             "ingredientsDesc": "GLUCOSE MONOHYDRATE",
             "concentDesc": "(Glucose H2O)",
             "concent": "40.5150",
@@ -129,16 +143,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A66B6ECA-3551-4642-BCCB-B368DB66F1AF",
-            "approvedDocNo": "1129058828",
-            "approvedDate": "2024-05-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

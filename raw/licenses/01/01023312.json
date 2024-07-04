@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01023312",
-    "validDate": "2024-05-08 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-08 00:00:00.000",
     "issueDate": "1981-05-08 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,6 +30,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6882DC88-3139-4746-9643-2D03595D9711",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIBOFLAVIN PHOSPHATE SODIUM",
         "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
@@ -55,7 +61,10 @@
         "MALIC ACID"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1P",
+        "1R",
+        "1R"
     ],
     "applicantName": "南光化學製藥股份有限公司",
     "applicantAddr": "臺南市新化區全興里中山路1001號、1001-1號",
@@ -79,13 +88,16 @@
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101002",
+            "ingredientsName": "L-ISOLEUCINE",
             "ingredientsDesc": "L-ISOLEUCINE",
             "concentDesc": "",
             "concent": "0.8000",
@@ -97,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101202",
+            "ingredientsName": "L-LEUCINE",
             "ingredientsDesc": "L-LEUCINE",
             "concentDesc": "",
             "concent": "1.1000",
@@ -108,6 +121,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101312",
+            "ingredientsName": "LYSINE L- HCL ( EQ TO L-LYSINE HCL)",
             "ingredientsDesc": "LYSINE L- HCL ( EQ TO L-LYSINE HCL)",
             "concentDesc": "(eq. to Lysine 1.00mg)",
             "concent": "1.2500",
@@ -119,6 +133,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101502",
+            "ingredientsName": "L-METHIONINE",
             "ingredientsDesc": "L-METHIONINE",
             "concentDesc": "",
             "concent": "1.0500",
@@ -130,6 +145,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101702",
+            "ingredientsName": "L-PHENYLALANINE",
             "ingredientsDesc": "L-PHENYLALANINE",
             "concentDesc": "",
             "concent": "1.1000",
@@ -141,6 +157,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102002",
+            "ingredientsName": "L-THREONINE",
             "ingredientsDesc": "L-THREONINE",
             "concentDesc": "",
             "concent": "0.5000",
@@ -152,6 +169,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102102",
+            "ingredientsName": "L-TRYPTOPHAN",
             "ingredientsDesc": "L-TRYPTOPHAN",
             "concentDesc": "",
             "concent": "0.2500",
@@ -163,6 +181,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102302",
+            "ingredientsName": "L-VALINE",
             "ingredientsDesc": "L-VALINE",
             "concentDesc": "",
             "concent": "0.7500",
@@ -174,6 +193,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100302",
+            "ingredientsName": "L-ARGININE",
             "ingredientsDesc": "L-ARGININE",
             "concentDesc": "",
             "concent": "2.0000",
@@ -185,6 +205,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100902",
+            "ingredientsName": "L-HISTIDINE",
             "ingredientsDesc": "L-HISTIDINE",
             "concentDesc": "",
             "concent": "0.5000",
@@ -196,6 +217,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100202",
+            "ingredientsName": "L-ALANINE",
             "ingredientsDesc": "L-ALANINE",
             "concentDesc": "",
             "concent": "3.0000",
@@ -207,6 +229,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102400",
+            "ingredientsName": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "ingredientsDesc": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "concentDesc": "",
             "concent": "5.0000",
@@ -218,6 +241,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100702",
+            "ingredientsName": "GLUTAMIC ACID L-",
             "ingredientsDesc": "GLUTAMIC ACID L-",
             "concentDesc": "",
             "concent": "4.5000",
@@ -229,6 +253,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101802",
+            "ingredientsName": "L-PROLINE",
             "ingredientsDesc": "L-PROLINE",
             "concentDesc": "",
             "concent": "3.5000",
@@ -240,6 +265,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600028200",
+            "ingredientsName": "SODIUM HYDROXIDE",
             "ingredientsDesc": "SODIUM HYDROXIDE",
             "concentDesc": "",
             "concent": "1.6000",
@@ -251,6 +277,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600024100",
+            "ingredientsName": "POTASSIUM HYDROXIDE",
             "ingredientsDesc": "POTASSIUM HYDROXIDE",
             "concentDesc": "",
             "concent": "1.6800",
@@ -262,6 +289,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001450",
+            "ingredientsName": "MAGNESIUM ACETATE TETRAHYDRATE",
             "ingredientsDesc": "MAGNESIUM ACETATE TETRAHYDRATE",
             "concentDesc": "",
             "concent": "1.0700",
@@ -273,6 +301,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600017800",
+            "ingredientsName": "MALIC ACID",
             "ingredientsDesc": "MALIC ACID",
             "concentDesc": "",
             "concent": "3.0000",
@@ -284,6 +313,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600029600",
+            "ingredientsName": "SORBITOL",
             "ingredientsDesc": "SORBITOL",
             "concentDesc": "",
             "concent": "25.0000",
@@ -295,6 +325,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020001900",
+            "ingredientsName": "XYLITOL",
             "ingredientsDesc": "XYLITOL",
             "concentDesc": "",
             "concent": "25.0000",
@@ -306,6 +337,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000100",
+            "ingredientsName": "ASCORBIC ACID (VIT C)",
             "ingredientsDesc": "ASCORBIC ACID (VIT C)",
             "concentDesc": "",
             "concent": "0.4000",
@@ -317,6 +349,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200700",
+            "ingredientsName": "RIBOFLAVIN PHOSPHATE SODIUM",
             "ingredientsDesc": "RIBOFLAVIN PHOSPHATE SODIUM",
             "concentDesc": "",
             "concent": "0.0030",
@@ -328,6 +361,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8813000100",
+            "ingredientsName": "INOSITOL (MESO-INOSITOL)",
             "ingredientsDesc": "INOSITOL (MESO-INOSITOL)",
             "concentDesc": "",
             "concent": "0.5000",
@@ -339,6 +373,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000300",
+            "ingredientsName": "NIACINAMIDE (NICOTINAMIDE)",
             "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
             "concentDesc": "",
             "concent": "0.0600",
@@ -350,6 +385,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "",
             "concent": "0.0400",
@@ -361,64 +397,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6852AF9E-03BB-428C-996E-67FA67FA773F",
-            "approvedDocNo": "1119062269",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "14582833-B3AE-44CF-9084-72C91AAF9E0A",
-            "approvedDocNo": "1119062269",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F5506DB5-E462-4DE3-88D5-72F81FAB0451",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "25DF3D1F-B7D6-411D-BA18-2A9C3D7D9278",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0470A833-B5C3-4772-B4DE-410C66F291E1",
-            "approvedDocNo": "1091408925",
-            "approvedDate": "2020-08-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "592AFAB5-E86E-484C-AA26-01DF74866957",
-            "approvedDocNo": "1096802527",
-            "approvedDate": "2020-03-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7D1C7ABE-85C9-4EC7-860E-15B9042BF767",
-            "approvedDocNo": "1096802527",
-            "approvedDate": "2020-03-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060318",
-    "validDate": "2024-07-10 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-10 00:00:00.000",
     "issueDate": "2019-07-10 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,11 +30,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "7227A214-4784-418F-9A91-54F9D2726658",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "WARFARIN SODIUM"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "67"
     ],
     "applicantName": "優良化學製藥股份有限公司",
     "applicantAddr": "新竹縣湖口鄉中興村光復路10號",
@@ -55,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "6133061486",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012401020",
+            "ingredientsName": "WARFARIN SODIUM",
             "ingredientsDesc": "WARFARIN SODIUM",
             "concentDesc": "",
-            "concent": "2.500",
+            "concent": "2.5000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,24 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F963C4A5-63FC-441E-94BE-244A4018FB83",
-            "approvedDocNo": "1106019118",
-            "approvedDate": "2021-07-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "87F9E5C4-BF46-4505-9CEB-DA7826A02971",
-            "approvedDocNo": "1106019118",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

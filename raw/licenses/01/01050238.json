@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050238",
+    "licUnit": "1",
     "validDate": "2029-08-27 00:00:00.000",
     "issueDate": "2009-07-17 00:00:00.000",
     "licKind": "02",
@@ -26,7 +29,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "CEF0B317-B66C-4D3F-8BCC-4D71D2BE3D8B",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
         "ALUMINUM HYDROXIDE DRIED GEL",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "1302820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600002020",
+            "ingredientsName": "SYNTHETIC ALUMINUM SILICATE",
             "ingredientsDesc": "SYNTHETIC ALUMINUM SILICATE",
             "concentDesc": null,
             "concent": "150.0000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000202",
+            "ingredientsName": "ALUMINUM HYDROXIDE DRIED GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE DRIED GEL",
             "concentDesc": null,
             "concent": "125.0000",
@@ -87,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208004502",
+            "ingredientsName": "SCOPOLIA EXTRACT",
             "ingredientsDesc": "SCOPOLIA EXTRACT",
             "concentDesc": null,
             "concent": "1.0000",
@@ -98,6 +111,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": null,
             "concent": "37.0000",
@@ -109,16 +123,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FD489EAC-0AF0-4E15-A7C9-470106612F52",
-            "approvedDocNo": "1139024749",
-            "approvedDate": "2024-05-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

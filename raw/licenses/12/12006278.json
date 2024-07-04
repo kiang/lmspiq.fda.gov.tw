@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12006278",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1970-07-21 00:00:00.000",
     "licKind": "02",
     "oldLicid": "00000000",
@@ -23,6 +26,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "ADF7BB7F-664D-485D-B5C7-20C8B2647067",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMMONIUM CHLORIDE",
         "DIPHENHYDRAMINE HCL"
@@ -54,16 +60,19 @@
             "factoryKind": "M",
             "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": "0.28",
-            "concent": "0.280",
+            "concent": "0.2800",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +81,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4004000200",
+            "ingredientsName": "AMMONIUM CHLORIDE",
             "ingredientsDesc": "AMMONIUM CHLORIDE",
             "concentDesc": "2.74",
-            "concent": "2.740",
+            "concent": "2.7400",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,40 +93,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A364A95C-60A5-4FCC-9169-5C2EC4AFEC8B",
-            "approvedDocNo": "1086601439",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "020A7858-D218-4AD9-9466-9523568359A7",
-            "approvedDocNo": "1086601439",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4E5F8232-AA35-4ED2-834B-C5FFE370F99B",
-            "approvedDocNo": "1086601439",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5DCD6380-4B3D-4DBD-A147-E1378DC42018",
-            "approvedDocNo": "1086601439",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

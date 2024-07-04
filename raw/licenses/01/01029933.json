@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029933",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "1987-08-10 00:00:00.000",
     "licKind": "02",
@@ -27,6 +30,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0DEBAF76-3E13-432B-AA52-F96B5F8E1500",
+    "subCategory": [],
     "ingredientsDesc": [
         "LIVER",
         "RIBOFLAVIN (VIT B2)",
@@ -61,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "1223216300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2004401400",
+            "ingredientsName": "FERROUS SULFATE",
             "ingredientsDesc": "FERROUS SULFATE",
             "concentDesc": "(EXSICCATED)50",
             "concent": null,
@@ -79,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2004800000",
+            "ingredientsName": "LIVER",
             "ingredientsDesc": "LIVER",
             "concentDesc": "(POWDER DRIED)20",
             "concent": null,
@@ -90,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -101,6 +112,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100900",
+            "ingredientsName": "THIAMINE HYDROCHLORIDE",
             "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -112,6 +124,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -123,6 +136,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000100",
+            "ingredientsName": "ASCORBIC ACID (VIT C)",
             "ingredientsDesc": "ASCORBIC ACID (VIT C)",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -134,16 +148,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AEE32538-1FF2-422C-9082-4D7765026453",
-            "approvedDocNo": "1080020015",
-            "approvedDate": "2019-07-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033564",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1991-01-26 00:00:00.000",
     "licKind": "02",
     "oldLicid": "01000390",
@@ -23,6 +26,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6870E7CE-37CD-465F-8893-5925662158D8",
+    "subCategory": [],
     "ingredientsDesc": [
         "METHIONINE DL-",
         "RIBOFLAVIN(5-PHOSPHATE SODIUM)",
@@ -57,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "0306811300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -75,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810209700",
+            "ingredientsName": "RIBOFLAVIN(5-PHOSPHATE SODIUM)",
             "ingredientsDesc": "RIBOFLAVIN(5-PHOSPHATE SODIUM)",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -86,6 +96,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600100",
+            "ingredientsName": "PYRIDOXINE(VITAMIN B6)",
             "ingredientsDesc": "PYRIDOXINE(VITAMIN B6)",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -97,6 +108,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101503",
+            "ingredientsName": "METHIONINE DL-",
             "ingredientsDesc": "METHIONINE DL-",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -108,6 +120,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000100",
+            "ingredientsName": "BIOTIN",
             "ingredientsDesc": "BIOTIN",
             "concentDesc": "250",
             "concent": "250.0000",
@@ -119,6 +132,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000300",
+            "ingredientsName": "NIACINAMIDE (NICOTINAMIDE)",
             "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -130,6 +144,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100500",
+            "ingredientsName": "THIAMINE (VITAMIN B1)",
             "ingredientsDesc": "THIAMINE (VITAMIN B1)",
             "concentDesc": "2.5",
             "concent": "2.5000",
@@ -141,72 +156,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1E663E1E-ACD4-461F-83D0-DB2A89C347F5",
-            "approvedDocNo": "1110614773",
-            "approvedDate": "2023-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F03BB88-71A8-4CA6-A155-E787C285CE84",
-            "approvedDocNo": "1110614773",
-            "approvedDate": "2023-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D0898308-1FAF-42BF-B79F-2373FF5112C5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D1AF824F-7872-4EE4-84B1-46F725FE3CD5",
-            "approvedDocNo": "1106814534",
-            "approvedDate": "2021-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9FE042D0-161C-455D-A485-55F04888D8D7",
-            "approvedDocNo": "1106607864",
-            "approvedDate": "2021-08-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7568F5AF-1161-4ABD-9B7E-B67860F89234",
-            "approvedDocNo": "1106607864",
-            "approvedDate": "2021-08-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "685D0941-387E-4FBD-8988-ED191B97441C",
-            "approvedDocNo": "1106607864",
-            "approvedDate": "2021-08-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9D54C25C-D6F9-41CB-BCF7-D0B177FFA97A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

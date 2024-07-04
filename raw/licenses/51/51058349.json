@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058349",
+    "licUnit": "1",
     "validDate": "2024-08-01 00:00:00.000",
     "issueDate": "2014-08-01 00:00:00.000",
     "licKind": "02",
@@ -26,13 +29,19 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "7FC735FD-66AF-4FC0-91E2-B6CC6D8836F9",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "SCOPOLIA EXTRACT",
         "BERBERINE TANNATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "杏林新生製藥股份有限公司",
     "applicantAddr": "桃園市龍潭區三和里店湖一路237號",
@@ -56,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "1405802300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0804000230",
+            "ingredientsName": "BERBERINE TANNATE",
             "ingredientsDesc": "BERBERINE TANNATE",
             "concentDesc": "",
-            "concent": "33.000",
+            "concent": "33.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208004502",
+            "ingredientsName": "SCOPOLIA EXTRACT",
             "ingredientsDesc": "SCOPOLIA EXTRACT",
             "concentDesc": "",
-            "concent": "3.300",
+            "concent": "3.3000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",

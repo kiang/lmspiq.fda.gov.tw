@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000934",
+    "licUnit": "1",
     "validDate": "2027-10-01 00:00:00.000",
     "issueDate": "2012-10-01 00:00:00.000",
     "licKind": "04",
@@ -23,6 +26,11 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "03560FCA-6EB9-402B-BBC9-5E5425F89239",
+    "subCategory": [
+        "C02"
+    ],
     "ingredientsDesc": [
         "BOTULINUM TOXIN TYPE A"
     ],
@@ -43,7 +51,7 @@
         {
             "factoryCode": "1",
             "factoryName": "IPSEN BIOPHARM LTD.",
-            "factoryAddr": "ASH ROAD, WREXHAM INDUSTRIAL ESTATE, WREXHAM, CLWYD, LL13 9UF, UK",
+            "factoryAddr": "ASH ROAD, WREXHAM INDUSTRIAL ESTATE, WREXHAM, CLWYDLL 13 9UF",
             "factoryCompanyAddr": "190,BATH ROAD,SLOUGH,BERKSHIRE,SL1 3XE,UK",
             "countryCode": "GB",
             "processCode": [],
@@ -51,16 +59,39 @@
             "factoryKind": "M",
             "factoryNo": "FGB0146000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "factoryCode": "2",
+            "factoryName": "IPSEN LIMITED",
+            "factoryAddr": "5TH FLOOR, THE POINT, 37 NORTH WHARF ROAD, PADDINGTON, LONDON, W2 1AF, UNITED KINGDOM",
+            "factoryCompanyAddr": null,
+            "countryCode": "GB",
+            "processCode": [
+                {
+                    "value": "01",
+                    "name": "許可證持有者"
+                }
+            ],
+            "processCodeStr": "01;許可證持有者",
+            "factoryKind": "M",
+            "factoryNo": "FGB0439000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220002600",
+            "ingredientsName": "BOTULINUM TOXIN TYPE A",
             "ingredientsDesc": "BOTULINUM TOXIN TYPE A",
             "concentDesc": null,
-            "concent": "300.000",
+            "concent": "300.0000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "1",
@@ -84,64 +115,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6F5DBCB8-0098-48E3-8E90-EEE49AB58E76",
-            "approvedDocNo": "1110715504",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3AF1EB87-1A98-4671-B188-D2E9F47AAB16",
-            "approvedDocNo": "1110717697",
-            "approvedDate": "2022-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "27544020-EA63-451C-8966-C465F98C9C91",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8233B391-9FA1-4234-9399-366E1473E547",
-            "approvedDocNo": "1096039760",
-            "approvedDate": "2021-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DD559FDC-3721-4349-A7A0-8E90A714187D",
-            "approvedDocNo": "1096039760",
-            "approvedDate": "2021-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "69777BB7-15D6-4F69-82D5-9FB3E2D38E0C",
-            "approvedDocNo": "1096039760",
-            "approvedDate": "2021-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E0D7223A-1B13-4C77-908B-495930B75D99",
-            "approvedDocNo": "1096006301",
-            "approvedDate": "2020-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060351",
-    "validDate": "2024-11-19 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-11-19 00:00:00.000",
     "issueDate": "2019-11-19 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,8 +30,13 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "7A80C8A0-354E-4200-B8F2-A7331B1886F6",
+    "subCategory": [
+        "A05"
+    ],
     "ingredientsDesc": [
-        "STERILE SODIUM COLISTIN METHANESULFONATE"
+        "COLISTIN SODIUM METHANESULFONATE"
     ],
     "restraintItemsCode": [
         "01"
@@ -55,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "6105200259",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "0812000330",
+            "ingredientsCode": "0812000321",
+            "ingredientsName": "COLISTIN SODIUM METHANESULFONATE",
             "ingredientsDesc": "STERILE SODIUM COLISTIN METHANESULFONATE",
             "concentDesc": "(equal to colistin base 66.8mg potency)",
-            "concent": "2000000.000",
+            "concent": "2000000.0000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,40 +84,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7EF41C02-06F9-433A-8158-543A52196E6D",
-            "approvedDocNo": "1110001370",
-            "approvedDate": "2022-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "14F166AE-FFC6-4F22-AC2F-6999FE7A795A",
-            "approvedDocNo": "1110001370",
-            "approvedDate": "2022-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CED0F5D9-32D1-44F3-9016-6C3B8362FF46",
-            "approvedDocNo": "1110001370",
-            "approvedDate": "2022-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A75066AE-FC99-4DEE-A77F-E6AD05880C10",
-            "approvedDocNo": "1110001370",
-            "approvedDate": "2022-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

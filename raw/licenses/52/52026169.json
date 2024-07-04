@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026169",
+    "licUnit": "1",
     "validDate": "2028-10-11 00:00:00.000",
     "issueDate": "2013-10-11 00:00:00.000",
     "licKind": "02",
@@ -23,13 +26,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A443B165-1D33-48F0-BEE2-4FB2FB73A6A5",
+    "subCategory": [],
     "ingredientsDesc": [
         "FENOFIBRATE",
         "PRAVASTATIN SODIUM"
     ],
     "restraintItemsCode": [
         "02",
-        "07"
+        "07",
+        "67"
     ],
     "applicantName": "天義企業股份有限公司",
     "applicantAddr": "台北市復興南路一段１２９號５樓",
@@ -53,16 +60,19 @@
             "factoryKind": "M",
             "factoryNo": "FBE0042100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406002400",
+            "ingredientsName": "FENOFIBRATE",
             "ingredientsDesc": "FENOFIBRATE",
             "concentDesc": "",
-            "concent": "160.000",
+            "concent": "160.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +81,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406002710",
+            "ingredientsName": "PRAVASTATIN SODIUM",
             "ingredientsDesc": "PRAVASTATIN SODIUM",
             "concentDesc": "",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,32 +93,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1609CB39-EFBC-4E7B-858D-CFB63C78546B",
-            "approvedDocNo": "1129016949",
-            "approvedDate": "2023-10-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BA7DFE89-595B-41FE-81DF-E5E649A9DE20",
-            "approvedDocNo": "1129031941",
-            "approvedDate": "2023-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E394A94F-02C3-4069-BD6A-315455BE203E",
-            "approvedDocNo": "1119042820",
-            "approvedDate": "2023-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060155",
+    "licUnit": "1",
     "validDate": "2028-08-14 00:00:00.000",
     "issueDate": "2018-08-14 00:00:00.000",
     "licKind": "02",
@@ -16,17 +19,30 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": "5毫升預充式塑膠(cyclo olefin polymer)含橡膠蓋塞",
-            "packageUnit": "24"
+            "packageSpec": "100支以下",
+            "packageUnit": "03"
         },
         {
             "packageSpec": "100支以下",
             "packageUnit": "03"
+        },
+        {
+            "packageSpec": "5毫升預充式塑膠(cycloolefin polymer)含橡膠膠塞",
+            "packageUnit": "24"
+        },
+        {
+            "packageSpec": "5毫升預充式塑膠(polypropylene)含橡膠膠塞",
+            "packageUnit": "24"
         }
     ],
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "E1A1EE5A-3BD9-4506-8EB8-1A12E0A1CB9A",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "PALONOSETRON (AS HYDROCHLORIDE)"
     ],
@@ -56,16 +72,19 @@
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5622001720",
+            "ingredientsName": "PALONOSETRON (AS HYDROCHLORIDE)",
             "ingredientsDesc": "PALONOSETRON (AS HYDROCHLORIDE)",
             "concentDesc": "(eq. to Palonosetron.....0.05mg)",
-            "concent": "0.056",
+            "concent": "0.0560",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,32 +93,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7FBE698A-0586-4D2D-9946-56D94CE476F9",
-            "approvedDocNo": "1129032971",
-            "approvedDate": "2023-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5736C6AB-A406-4BA1-B1C4-D0A124E0FB8C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31D08D44-A041-4BE7-A338-F70AB3F183CB",
-            "approvedDocNo": "1096816677",
-            "approvedDate": "2021-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

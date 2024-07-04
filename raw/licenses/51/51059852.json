@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059852",
+    "licUnit": "1",
     "validDate": "2028-01-16 00:00:00.000",
     "issueDate": "2018-01-16 00:00:00.000",
     "licKind": "02",
@@ -16,17 +19,42 @@
     "does": "227D",
     "packageUnit": [
         {
+            "packageSpec": "",
+            "packageUnit": "03"
+        },
+        {
+            "packageSpec": "",
+            "packageUnit": "03"
+        },
+        {
             "packageSpec": "2毫升",
             "packageUnit": "M2"
         },
         {
-            "packageSpec": "100支以下",
+            "packageSpec": "",
             "packageUnit": "03"
+        },
+        {
+            "packageSpec": "2毫升",
+            "packageUnit": "M2"
+        },
+        {
+            "packageSpec": "2毫升",
+            "packageUnit": "M2"
+        },
+        {
+            "packageSpec": "10毫升",
+            "packageUnit": "L2"
         }
     ],
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "18B23333-F0A5-4F48-BA5F-2A39297FECF3",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Sodium selenite pentahydrate"
     ],
@@ -57,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012003760",
+            "ingredientsName": "Sodium selenite pentahydrate",
             "ingredientsDesc": "Sodium selenite pentahydrate",
             "concentDesc": "(eq to Selenium………..………………….…50μg)",
-            "concent": "166.500",
+            "concent": "166.5000",
             "concentUnit": "355",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,56 +106,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BE60DAAD-053E-4A09-A901-F17DB8FE8432",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F28B7A6F-0892-4047-ADF9-E08E0A75339E",
-            "approvedDocNo": "1106808953",
-            "approvedDate": "2021-11-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FA24BBB1-47C8-4B20-AEB8-554DC86A6EFC",
-            "approvedDocNo": "1086004588",
-            "approvedDate": "2019-09-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1BC69B11-1C32-4A31-A571-85018886FFC1",
-            "approvedDocNo": "1086004588",
-            "approvedDate": "2019-09-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C69BD1F2-E0D7-49CD-91A3-C0EF5E24294B",
-            "approvedDocNo": "1086004588",
-            "approvedDate": "2019-09-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "73DEE682-EE0C-4DF7-84C1-DBFBB0CC34DE",
-            "approvedDocNo": "1086004588",
-            "approvedDate": "2019-09-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

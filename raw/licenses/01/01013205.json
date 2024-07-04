@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01013205",
+    "licUnit": "1",
     "validDate": "2029-08-22 00:00:00.000",
     "issueDate": "1977-08-22 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0828DB91-1040-442F-B5B9-62DDAF01B838",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRIMETHOPRIM",
         "SULFAMETHOXAZOLE"
@@ -54,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "0922116300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0840001700",
+            "ingredientsName": "TRIMETHOPRIM",
             "ingredientsDesc": "TRIMETHOPRIM",
             "concentDesc": "40",
             "concent": "40.0000",
@@ -72,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0824001500",
+            "ingredientsName": "SULFAMETHOXAZOLE",
             "ingredientsDesc": "SULFAMETHOXAZOLE",
             "concentDesc": "200",
             "concent": "200.0000",
@@ -83,40 +93,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "33E2A4CC-BC17-4B99-AC38-A534918A016B",
-            "approvedDocNo": "1139028590",
-            "approvedDate": "2024-05-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "20007D62-A49C-49F0-854B-18801FDCD3A8",
-            "approvedDocNo": "1110019978",
-            "approvedDate": "2022-08-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7918DACE-1523-43A9-A202-2867F9FB2024",
-            "approvedDocNo": "1110019978",
-            "approvedDate": "2022-08-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A7BED018-5A8A-4034-9B40-2CE770A844E6",
-            "approvedDocNo": "1110019978",
-            "approvedDate": "2022-08-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

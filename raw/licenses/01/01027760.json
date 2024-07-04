@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01027760",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "1984-07-26 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0E4E97E8-E31F-4A12-9830-3029ABF92A64",
+    "subCategory": [],
     "ingredientsDesc": [
         "PROCAINE HCL",
         "MAFENIDE (HOMOSULFAMINE)",
@@ -56,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "6132011106",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204800200",
+            "ingredientsName": "MAFENIDE (HOMOSULFAMINE)",
             "ingredientsDesc": "MAFENIDE (HOMOSULFAMINE)",
             "concentDesc": "500",
             "concent": "500.0000",
@@ -74,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001310",
+            "ingredientsName": "PROCAINE HCL",
             "ingredientsDesc": "PROCAINE HCL",
             "concentDesc": "35",
             "concent": "35.0000",
@@ -85,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200000900",
+            "ingredientsName": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "ingredientsDesc": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "concentDesc": "35",
             "concent": "35.0000",
@@ -96,6 +107,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200010600",
+            "ingredientsName": "ZINC SULFATE",
             "ingredientsDesc": "ZINC SULFATE",
             "concentDesc": "150",
             "concent": "150.0000",
@@ -107,16 +119,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3E3E75DC-642F-452E-96CE-CDF031438B23",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

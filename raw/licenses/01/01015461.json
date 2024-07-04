@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01015461",
+    "licUnit": "1",
     "validDate": "2024-05-25 00:00:00.000",
     "issueDate": "1978-09-07 00:00:00.000",
     "licKind": "02",
@@ -27,6 +30,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AB27E063-48FC-47FD-A7AB-464840E8C0F1",
+    "subCategory": [],
     "ingredientsDesc": [
         "DL-METHYLEPHEDRINE HCL",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
@@ -60,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
             "concent": "210.0000",
@@ -78,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808600900",
+            "ingredientsName": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "ingredientsDesc": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "concentDesc": "",
             "concent": "150.0000",
@@ -89,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
             "concent": "2.5000",
@@ -100,6 +111,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002400",
+            "ingredientsName": "NOSCAPINE",
             "ingredientsDesc": "NOSCAPINE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -111,6 +123,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": "",
             "concent": "50.0000",
@@ -122,6 +135,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "",
             "concent": "10.0000",
@@ -131,58 +145,9 @@
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [
-        {
-            "applicantName": "中美生技醫藥股份有限公司",
-            "certNo": "DHY00101546137",
-            "approveDocNo": "1106808947",
-            "authDate": "2021-05-20",
-            "validDate": "2024-05-25"
-        }
-    ],
+    "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3F2E6434-6FAA-4166-8C66-768B2353727C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "50528B1C-3C8E-45DC-8BE1-755DC8CC9019",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "47027B37-ACAC-4307-9A82-5B2B164C0CA6",
-            "approvedDocNo": "1091495675",
-            "approvedDate": "2020-11-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "47CC621B-D1DC-4D9D-9F5E-FE5ADBF8E9E5",
-            "approvedDocNo": "1091495675",
-            "approvedDate": "2020-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0AB5C32C-C4F6-432A-8741-F7CEE0A98B9B",
-            "approvedDocNo": "1086813794",
-            "approvedDate": "2020-03-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

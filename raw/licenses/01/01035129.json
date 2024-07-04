@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035129",
+    "licUnit": "1",
     "validDate": "2027-04-20 00:00:00.000",
     "issueDate": "1992-04-20 00:00:00.000",
     "licKind": "02",
@@ -23,12 +26,16 @@
     "medMCode": "06",
     "maMedCode": "X",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B85B1F07-DCD2-4753-8C1F-ED42DFB38F4B",
+    "subCategory": [],
     "ingredientsDesc": [
         "CODEINE PHOSPHATE",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "67"
     ],
     "applicantName": "羅得化學製藥股份有限公司",
     "applicantAddr": "台中市大甲區東西七路一段65號",
@@ -52,13 +59,16 @@
             "factoryKind": "M",
             "factoryNo": "1901510300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": null,
             "concent": "300.0000",
@@ -70,6 +80,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": null,
             "concent": "6.0000",
@@ -81,16 +92,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "36946D39-64D7-4223-99B8-B019FF553396",
-            "approvedDocNo": "1110801952",
-            "approvedDate": "2022-11-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "2",

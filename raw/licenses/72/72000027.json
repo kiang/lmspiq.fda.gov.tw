@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "72000027",
+    "licUnit": "1",
     "validDate": "2029-06-21 00:00:00.000",
     "issueDate": "2019-06-21 00:00:00.000",
     "licKind": "04",
@@ -23,6 +26,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "CBC91B00-9566-4B21-9DA8-9C8299063CC2",
+    "subCategory": [
+        "C0601"
+    ],
     "ingredientsDesc": [
         "Human coagulation factor XIII"
     ],
@@ -57,7 +65,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE0241000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -75,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "6131041824",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012104000",
+            "ingredientsName": "Human coagulation factor XIII",
             "ingredientsDesc": "Human coagulation factor XIII",
             "concentDesc": "",
-            "concent": "250.000",
+            "concent": "250.0000",
             "concentUnit": "21A",
             "seq": "1",
             "prescription_seq": "1",
@@ -93,72 +106,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BD6AFD17-5506-4D6E-A50D-9D1A080969D8",
-            "approvedDocNo": "1120703588",
-            "approvedDate": "2023-05-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4A17B26A-AEC9-4E8C-B32D-A67319BEBA7F",
-            "approvedDocNo": "1110705747",
-            "approvedDate": "2022-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "66E01CDE-4994-4F9E-B0C3-A30D3537A97E",
-            "approvedDocNo": "1106023479",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "87BDCFCB-2443-403E-8D3E-569392F79F4B",
-            "approvedDocNo": "1106015265",
-            "approvedDate": "2021-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "36D919C4-72DA-4A5A-96B7-67C2EA6ADB62",
-            "approvedDocNo": "1096041351",
-            "approvedDate": "2021-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EA0BD0E8-78A0-4C32-B019-AD0BD9A7D4A8",
-            "approvedDocNo": "1096036856",
-            "approvedDate": "2021-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6C2834D6-2B4E-4F2F-BE29-B6111FD993D7",
-            "approvedDocNo": "1086037089",
-            "approvedDate": "2020-05-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B1D5BB2-AC6A-4929-8BBF-385473904A65",
-            "approvedDocNo": "1086038830",
-            "approvedDate": "2020-04-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001201",
+    "licUnit": "1",
     "validDate": "2027-11-10 00:00:00.000",
     "issueDate": "2022-11-10 00:00:00.000",
     "licKind": "04",
@@ -27,6 +30,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "71425868-9A1D-43ED-B1A1-8C21B7BBF0A7",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "luspatercept",
         "luspatercept"
@@ -63,14 +71,16 @@
             "factoryKind": "M",
             "factoryNo": "FIT9099000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
-            "factoryName": "SHARP PACKAGING SOLUTIONS",
-            "factoryAddr": "KLOCKNERSTRAAT 1, 3930 HAMONT-ACHEL, BELGIUM",
+            "factoryName": "ENESTIA BELGIUM NV",
+            "factoryAddr": "KLOCKNERSTRAAT 1, HAMONT-ACHEL, B-3930, BELGIUM",
             "factoryCompanyAddr": "",
-            "countryCode": "",
+            "countryCode": "BE",
             "processCode": [
                 {
                     "value": "1A",
@@ -79,14 +89,16 @@
             ],
             "processCodeStr": "1A;二級包裝廠",
             "factoryKind": "M",
-            "factoryNo": "FBE0120000",
+            "factoryNo": "FBE0045100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
             "factoryName": "BIOGEN MA INC.",
-            "factoryAddr": "5000 DAVIS DR, RESEARCH TRIANGLE PARK, NC 27709, USA",
+            "factoryAddr": "5000 DAVIS DRIVE, RESEARCH TRIANGLE PARK, NC 27709, USA",
             "factoryCompanyAddr": "",
             "countryCode": "US",
             "processCode": [
@@ -99,16 +111,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0785200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600001800",
+            "ingredientsName": "luspatercept",
             "ingredientsDesc": "luspatercept",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -117,9 +132,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600001800",
+            "ingredientsName": "luspatercept",
             "ingredientsDesc": "luspatercept",
             "concentDesc": "",
-            "concent": "75.000",
+            "concent": "75.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",

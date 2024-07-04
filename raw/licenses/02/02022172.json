@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022172",
+    "licUnit": "1",
     "validDate": "2024-05-26 00:00:00.000",
     "issueDate": "2019-08-30 00:00:00.000",
     "licKind": "02",
@@ -22,7 +25,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "092BD1FB-53D3-4E04-8FE8-8C5E6874E361",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "CHLORHEXIDINE GLUCONATE"
     ],
@@ -51,7 +59,9 @@
             "factoryKind": "M",
             "factoryNo": "FGB0284000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -69,13 +79,16 @@
             "factoryKind": "M",
             "factoryNo": "FGB0285000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900231",
+            "ingredientsName": "CHLORHEXIDINE GLUCONATE",
             "ingredientsDesc": "CHLORHEXIDINE GLUCONATE",
             "concentDesc": "(20%) ",
             "concent": "20.0000",
@@ -85,50 +98,9 @@
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [
-        {
-            "applicantName": "潔昇興業股份有限公司",
-            "certNo": "DHA00202217249",
-            "approveDocNo": "1086028085",
-            "authDate": "2019-09-11",
-            "validDate": "2024-05-26"
-        }
-    ],
+    "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3F167A09-6AFE-42A1-85A9-01452B767362",
-            "approvedDocNo": "1091490540",
-            "approvedDate": "2020-06-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EF1BBC49-B760-4591-ADF0-8DA38B7B5D41",
-            "approvedDocNo": "1081490955",
-            "approvedDate": "2019-06-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C2D256FE-559F-4D85-906C-B22F48FAA5B3",
-            "approvedDocNo": "1071491947",
-            "approvedDate": "2019-06-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D2C8776B-0E8F-444D-AA56-8A4290E7F7FC",
-            "approvedDocNo": "1071491947",
-            "approvedDate": "2019-06-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

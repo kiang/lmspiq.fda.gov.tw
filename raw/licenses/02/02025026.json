@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025026",
+    "licUnit": "1",
     "validDate": "2024-05-08 00:00:00.000",
     "issueDate": "2009-05-08 00:00:00.000",
     "licKind": "02",
@@ -22,7 +25,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "4E54234B-4D39-4B0A-8F77-ED1E843B14DA",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "FURSULTIAMINE HYDROCHLORIDE",
         "CYANOCOBALAMIN (VIT B12)",
@@ -55,7 +63,9 @@
             "factoryKind": "M",
             "factoryNo": "FJP0367100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -73,13 +83,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP1022000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810102510",
+            "ingredientsName": "FURSULTIAMINE HYDROCHLORIDE",
             "ingredientsDesc": "FURSULTIAMINE HYDROCHLORIDE",
             "concentDesc": null,
             "concent": "54.5750",
@@ -91,6 +104,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600330",
+            "ingredientsName": "PYRIDOXINE HYDROCHLORIDE",
             "ingredientsDesc": "PYRIDOXINE HYDROCHLORIDE",
             "concentDesc": null,
             "concent": "50.0000",
@@ -102,6 +116,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": null,
             "concent": "0.7500",
@@ -113,6 +128,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000111",
+            "ingredientsName": "TOCOPHEROL ALPHA D-",
             "ingredientsDesc": "TOCOPHEROL ALPHA D-",
             "concentDesc": null,
             "concent": "50.0000",
@@ -124,6 +140,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820002103",
+            "ingredientsName": "ORYZANOL GAMMA-",
             "ingredientsDesc": "ORYZANOL GAMMA-",
             "concentDesc": null,
             "concent": "5.0000",
@@ -135,48 +152,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BCCDF41A-1A5B-4D3C-AD3D-C72736CE82AF",
-            "approvedDocNo": "1106606732",
-            "approvedDate": "2021-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EC3FA5AA-FC22-4E95-88AB-D8F680355BE1",
-            "approvedDocNo": "1106606732",
-            "approvedDate": "2021-07-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D6EC2A34-2250-40A3-A245-09F4A6CFA11B",
-            "approvedDocNo": "1086603181",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F2621710-AB69-4CC6-B989-21775513E2E6",
-            "approvedDocNo": "1086603181",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "04CAF6C5-C244-4CB1-AB29-42C766BE315C",
-            "approvedDocNo": "1086603181",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
