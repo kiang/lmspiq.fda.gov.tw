@@ -6,7 +6,7 @@
     "otherCancelReason": "",
     "licid": "10000891",
     "licUnit": "1",
-    "validDate": "2024-11-25 00:00:00.000",
+    "validDate": "2029-11-25 00:00:00.000",
     "issueDate": "2009-11-25 00:00:00.000",
     "licKind": "04",
     "oldLicid": null,
@@ -77,11 +77,11 @@
             "countryCode": "BE",
             "processCode": [
                 {
-                    "value": "6T",
-                    "name": "原料藥製造、放行廠"
+                    "value": "75",
+                    "name": "放行廠"
                 }
             ],
-            "processCodeStr": "6T;原料藥製造、放行廠",
+            "processCodeStr": "75;放行廠",
             "factoryKind": "M",
             "factoryNo": "FBE0018000",
             "factoryInfo": null,
@@ -137,11 +137,15 @@
             "countryCode": "BE",
             "processCode": [
                 {
-                    "value": "3S",
-                    "name": "原料藥製造、充填、包裝"
+                    "value": "02",
+                    "name": "包裝"
+                },
+                {
+                    "value": "04",
+                    "name": "充填"
                 }
             ],
-            "processCodeStr": "3S;原料藥製造、充填、包裝",
+            "processCodeStr": "02;包裝#04;充填",
             "factoryKind": "M",
             "factoryNo": "FBE0087000",
             "factoryInfo": null,
@@ -353,16 +357,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "J07AF01"
-        },
-        {
             "isMain": "1",
             "atcCode": "J07AL52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J07AL02"
         }
     ],
     "licBaseId": "DD94AB4E-C21B-4150-9A0E-C598AC6B4A39"
