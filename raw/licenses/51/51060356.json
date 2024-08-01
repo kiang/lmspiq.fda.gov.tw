@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060356",
-    "validDate": "2024-09-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-09-25 00:00:00.000",
     "issueDate": "2019-09-25 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,6 +30,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "735EC72F-A486-4F50-94E3-5D5DE1362D76",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "VORICONAZOLE"
     ],
@@ -56,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812204300",
+            "ingredientsName": "VORICONAZOLE",
             "ingredientsDesc": "VORICONAZOLE",
             "concentDesc": "",
-            "concent": "200.000",
+            "concent": "200.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,40 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AFDE28E7-3DC2-4F87-9DC0-41721D54285C",
-            "approvedDocNo": "1129058953",
-            "approvedDate": "2023-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "96804A05-98AA-4CEB-8863-B52F6725291D",
-            "approvedDocNo": "1110810705",
-            "approvedDate": "2022-11-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6B585FB0-7584-48DF-AD7E-CCF6BAE07D94",
-            "approvedDocNo": "1096819823",
-            "approvedDate": "2021-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "873C99AA-F417-4F82-B4B0-D495877F24DF",
-            "approvedDocNo": "1096819823",
-            "approvedDate": "2021-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

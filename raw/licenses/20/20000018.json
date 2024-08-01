@@ -1,10 +1,13 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2020-11-04",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "20000018",
+    "licUnit": "1",
     "validDate": "2024-06-29 00:00:00.000",
     "issueDate": "2009-06-29 00:00:00.000",
     "licKind": "02",
@@ -33,6 +36,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "950611D7-E0A8-487C-92F2-5F23959C5AE3",
+    "subCategory": [],
     "ingredientsDesc": [
         "EPOPROSTENOL SODIUM"
     ],
@@ -61,16 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0339000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012102710",
+            "ingredientsName": "EPOPROSTENOL SODIUM",
             "ingredientsDesc": "EPOPROSTENOL SODIUM",
             "concentDesc": "(equivalent to Epoprostenol 1.5mg)",
-            "concent": "1.593",
+            "concent": "1.5930",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -79,23 +88,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3E15DD8B-7B3D-436F-B519-2C7E923D93CD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "C04AX"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C04AX"
         }
     ],

@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026327",
+    "licUnit": "1",
     "validDate": "2024-06-18 00:00:00.000",
     "issueDate": "2014-06-18 00:00:00.000",
     "licKind": "02",
@@ -22,7 +25,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "BB1BD409-45FA-406A-991C-31C3AAFDC980",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "COPTIS RHIZOME",
         "SWERTIAE HERBA POWDER ( POWDERED SWERTIA HERB)",
@@ -56,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0529000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208004503",
+            "ingredientsName": "SCOPOLIA EXTRACT POWDER",
             "ingredientsDesc": "SCOPOLIA EXTRACT POWDER",
             "concentDesc": "(JP Scopolia Extract 2.22mg, JP Potato Starch 20mg)",
-            "concent": "22.220",
+            "concent": "22.2200",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612003720",
+            "ingredientsName": "POWDERED SCUTELLARIA ROOT",
             "ingredientsDesc": "POWDERED SCUTELLARIA ROOT",
             "concentDesc": "",
-            "concent": "22.220",
+            "concent": "22.2200",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612003813",
+            "ingredientsName": "COPTIS RHIZOME",
             "ingredientsDesc": "COPTIS RHIZOME",
             "concentDesc": "",
-            "concent": "88.890",
+            "concent": "88.8900",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -96,9 +109,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000107",
+            "ingredientsName": "CINNAMON BARK POWDER ( EQ TO POWDERED CINNAMON BARK )",
             "ingredientsDesc": "CINNAMON BARK POWDER ( EQ TO POWDERED CINNAMON BARK )",
             "concentDesc": "",
-            "concent": "44.440",
+            "concent": "44.4400",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -107,9 +121,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200014911",
+            "ingredientsName": "SWERTIAE HERBA POWDER ( POWDERED SWERTIA HERB)",
             "ingredientsDesc": "SWERTIAE HERBA POWDER ( POWDERED SWERTIA HERB)",
             "concentDesc": "",
-            "concent": "5.560",
+            "concent": "5.5600",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -118,9 +133,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616001800",
+            "ingredientsName": "URSODEOXYCHOLIC ACID",
             "ingredientsDesc": "URSODEOXYCHOLIC ACID",
             "concentDesc": "",
-            "concent": "3.330",
+            "concent": "3.3300",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -132,20 +148,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A03B"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
             "isMain": "1",
             "atcCode": "A03B"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A05AA02"
         }
     ],
     "licBaseId": "36774FFC-3710-4668-92D8-E4326E2D2391"

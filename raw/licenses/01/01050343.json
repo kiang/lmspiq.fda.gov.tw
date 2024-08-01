@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050343",
-    "validDate": "2024-08-12 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-08-12 00:00:00.000",
     "issueDate": "2009-08-12 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,6 +30,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B41E91B7-86A9-47A1-AF61-141F7BC9D933",
+    "subCategory": [],
     "ingredientsDesc": [
         "MEROPENEM TRIHYDRATE",
         "MEROPENEM TRIHYDRATE",
@@ -59,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0922116200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812010110",
+            "ingredientsName": "MEROPENEM TRIHYDRATE",
             "ingredientsDesc": "MEROPENEM TRIHYDRATE",
             "concentDesc": "(eq. to Meropenem) (potency)",
             "concent": "0.2500",
@@ -77,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812010110",
+            "ingredientsName": "MEROPENEM TRIHYDRATE",
             "ingredientsDesc": "MEROPENEM TRIHYDRATE",
             "concentDesc": "(eq. to Meropenem) (potency)",
             "concent": "0.5000",
@@ -88,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812010110",
+            "ingredientsName": "MEROPENEM TRIHYDRATE",
             "ingredientsDesc": "MEROPENEM TRIHYDRATE",
             "concentDesc": "(eq. to Meropenem) (potency)",
             "concent": "1.0000",
@@ -99,39 +110,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "40AE5A7A-0E78-4BE0-B4EE-7624A61E336A",
-            "approvedDocNo": "1106814898",
-            "approvedDate": "2022-01-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "503AE2DF-007B-4AA0-A58B-DDF63C5FE37A",
-            "approvedDocNo": "1106814898",
-            "approvedDate": "2022-01-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "35C966E8-0F98-431A-8AA0-590F6468ED48",
-            "approvedDocNo": "1096601753",
-            "approvedDate": "2020-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J01DH02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J01DH02"
         }
     ],

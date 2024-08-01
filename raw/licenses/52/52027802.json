@@ -1,8 +1,13 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2024-06-18",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "52027802",
+    "licUnit": "1",
     "validDate": "2025-02-03 00:00:00.000",
     "issueDate": "2020-02-03 00:00:00.000",
     "licKind": "02",
@@ -23,6 +28,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "CBBE5A54-EBA0-4071-877E-C50FE1AB63DD",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Talazoparib Tosylate"
     ],
@@ -53,7 +63,9 @@
             "factoryKind": "M",
             "factoryNo": "FDE0364100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -71,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1005000100",
+            "ingredientsName": "Talazoparib Tosylate",
             "ingredientsDesc": "Talazoparib Tosylate",
             "concentDesc": "(1.453 mg of talazoparib tosylate is equivalent to 1 mg of talazoparib active moiety (free base).)",
-            "concent": "1.453",
+            "concent": "1.4530",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,48 +104,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4E6FB538-8382-46C0-B467-8D1DE598CF9F",
-            "approvedDocNo": "1119029580",
-            "approvedDate": "2022-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "94452A02-A28D-4517-A3E1-68DCEAA4180A",
-            "approvedDocNo": "1106029871",
-            "approvedDate": "2022-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3238FAF2-E068-48F3-98CA-F3048B119A48",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DCF638E0-3108-4E62-9D0E-575D88314CC8",
-            "approvedDocNo": "1096807179",
-            "approvedDate": "2020-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "42564DC0-5FD1-4560-A77A-0CA2B4A0CF76",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

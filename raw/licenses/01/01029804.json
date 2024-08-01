@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029804",
+    "licUnit": "1",
     "validDate": "2024-06-22 00:00:00.000",
     "issueDate": "1987-06-22 00:00:00.000",
     "licKind": "02",
@@ -27,6 +30,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "98EE1A38-13BF-4D5D-8805-BF1B7754461D",
+    "subCategory": [],
     "ingredientsDesc": [
         "ATENOLOL",
         "CHLORTHALIDONE"
@@ -57,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408000200",
+            "ingredientsName": "ATENOLOL",
             "ingredientsDesc": "ATENOLOL",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -75,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028000600",
+            "ingredientsName": "CHLORTHALIDONE",
             "ingredientsDesc": "CHLORTHALIDONE",
             "concentDesc": "25",
             "concent": "25.0000",
@@ -84,43 +94,10 @@
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [
-        {
-            "applicantName": "中美生技醫藥股份有限公司",
-            "certNo": "DHY00102980419",
-            "approveDocNo": "1120812046",
-            "authDate": "2023-09-08",
-            "validDate": "2024-06-22"
-        }
-    ],
+    "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "880BF21E-3A72-46D5-A5AD-5BCBA1499397",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "79A557D9-D602-47F2-8105-689525A9C90B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C07AB03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03BA04"
-        },
         {
             "isMain": "1",
             "atcCode": "C07CB03"

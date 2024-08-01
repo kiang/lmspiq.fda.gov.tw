@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027737",
-    "validDate": "2024-09-02 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-09-02 00:00:00.000",
     "issueDate": "2019-09-02 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -23,6 +26,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "2E0C96C1-A047-4AC4-A30E-28C11C5D9C81",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Doravirine"
     ],
@@ -53,7 +61,9 @@
             "factoryKind": "M",
             "factoryNo": "FIE0079100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -71,7 +81,9 @@
             "factoryKind": "M",
             "factoryNo": "FNL0016000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -89,16 +101,19 @@
             "factoryKind": "M",
             "factoryNo": "FPT0015000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818006100",
+            "ingredientsName": "Doravirine",
             "ingredientsDesc": "Doravirine",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -107,72 +122,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D0819249-A8DC-47D7-80AB-5FCC9F6B5A31",
-            "approvedDocNo": "1110710586",
-            "approvedDate": "2022-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "858767E0-38A0-4B5F-A517-B3A3A079042F",
-            "approvedDocNo": "1110710586",
-            "approvedDate": "2022-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E88EC3BA-B728-429A-8654-CB24AB140100",
-            "approvedDocNo": "1110710586",
-            "approvedDate": "2022-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E4C035C9-0A45-4961-9532-4E78B4DAD8C4",
-            "approvedDocNo": "1106015801",
-            "approvedDate": "2021-10-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "869F8A8F-B813-4960-8E0D-1AEED9CB3C59",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2C40B19F-4729-416A-925A-634872AB9EF0",
-            "approvedDocNo": "1096007679",
-            "approvedDate": "2020-10-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F2B5ACC-DAA8-4CE5-8B7E-AAEA3C4E019C",
-            "approvedDocNo": "1096007679",
-            "approvedDate": "2020-10-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0A796CAC-228B-4BB4-9274-CD647C6A0F1D",
-            "approvedDocNo": "1096007679",
-            "approvedDate": "2020-10-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

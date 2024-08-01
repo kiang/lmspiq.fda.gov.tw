@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060335",
-    "validDate": "2024-08-01 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-08-01 00:00:00.000",
     "issueDate": "2019-08-01 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,6 +30,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "EB31B7FD-D96C-42EA-885C-4F8606E68535",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "SOLIFENACIN SUCCINATE"
     ],
@@ -57,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200098510",
+            "ingredientsName": "SOLIFENACIN SUCCINATE",
             "ingredientsDesc": "SOLIFENACIN SUCCINATE",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,21 +86,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "37BBFCC4-E279-408C-8478-1E4B5693BA2E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "G04BD08"
-        },
         {
             "isMain": "1",
             "atcCode": "G04BD08"

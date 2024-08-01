@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050237",
-    "validDate": "2024-07-15 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-15 00:00:00.000",
     "issueDate": "2009-07-15 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,11 +30,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F17418E7-A20B-432C-BAA5-6707ECD4DC05",
+    "subCategory": [],
     "ingredientsDesc": [
         "DICLOFENAC SODIUM"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "惠勝藥品股份有限公司",
     "applicantAddr": "嘉義市東區東川里公園街159號8樓之2",
@@ -55,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "6140040022",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808400410",
+            "ingredientsName": "DICLOFENAC SODIUM",
             "ingredientsDesc": "DICLOFENAC SODIUM",
             "concentDesc": null,
             "concent": "75.0000",
@@ -75,10 +85,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "M01AB05"
-        },
         {
             "isMain": "1",
             "atcCode": "M01AB05"

@@ -1,8 +1,13 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2024-06-07",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "02019924",
+    "licUnit": "1",
     "validDate": "2028-04-20 00:00:00.000",
     "issueDate": "2017-10-26 00:00:00.000",
     "licKind": "02",
@@ -23,6 +28,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "395FFC3D-CA78-457B-A707-F5A226F00114",
+    "subCategory": [],
     "ingredientsDesc": [
         "STREPTOCOCCUS PYROGENE SU STRAIN TX WITH PN G POTASSIUM"
     ],
@@ -51,7 +59,9 @@
             "factoryKind": "M",
             "factoryNo": "FJP0533100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -69,13 +79,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0533000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5608001231",
+            "ingredientsName": "STREPTOCOCCUS PYROGENE SU STRAIN TX WITH PN G POTASSIUM",
             "ingredientsDesc": "STREPTOCOCCUS PYROGENE SU STRAIN TX WITH PN G POTASSIUM",
             "concentDesc": "(14MG)",
             "concent": "0.5000",
@@ -87,43 +100,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8454334D-AD47-49F3-B796-11D8A102F0C1",
-            "approvedDocNo": "1101500005",
-            "approvedDate": "2022-04-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C64A604A-175F-4B3E-A5B4-B8FB7985A265",
-            "approvedDocNo": "1101500016",
-            "approvedDate": "2022-04-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68F8B67D-28C1-419C-A058-73DA4D14A809",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "J01CE01"
-        },
-        {
             "isMain": "1",
-            "atcCode": "L01XX"
-        },
-        {
-            "isMain": "2",
             "atcCode": "L01XX"
         }
     ],

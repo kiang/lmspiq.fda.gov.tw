@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01030602",
-    "validDate": "2024-05-25 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1988-01-23 00:00:00.000",
     "licKind": "02",
     "oldLicid": "12007687",
@@ -23,6 +26,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AF91E636-CD22-418A-8418-FBB8860FAF2F",
+    "subCategory": [],
     "ingredientsDesc": [
         "CETYLPYRIDINIUM CHLORIDE",
         "DEQUALINIUM CHLORIDE"
@@ -52,15 +58,18 @@
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "1103310200",
+            "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404601310",
+            "ingredientsName": "CETYLPYRIDINIUM CHLORIDE",
             "ingredientsDesc": "CETYLPYRIDINIUM CHLORIDE",
             "concentDesc": null,
             "concent": "0.1000",
@@ -72,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8420000210",
+            "ingredientsName": "DEQUALINIUM CHLORIDE",
             "ingredientsDesc": "DEQUALINIUM CHLORIDE",
             "concentDesc": null,
             "concent": "0.0100",
@@ -83,52 +93,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "15EC602A-9374-4997-9833-0AFCD7702732",
-            "approvedDocNo": "1086601439",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0130CD81-7097-4118-AB4E-494980ECF851",
-            "approvedDocNo": "1086601439",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4CCFB79A-92A8-4F09-B365-5B9F1A1CB01C",
-            "approvedDocNo": "1086601439",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "26D55213-6C0B-44C9-BFF4-BE480ED64A17",
-            "approvedDocNo": "1086601439",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R02AA20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R02AA06"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R02AA02"
         }
     ],
     "licBaseId": "07338470-6443-4962-8143-719B67906F22"

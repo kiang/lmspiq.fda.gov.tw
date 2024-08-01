@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049842",
-    "validDate": "2023-12-01 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2028-12-01 00:00:00.000",
     "issueDate": "2008-12-01 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -35,6 +38,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FA23FF86-6C17-40AA-B1B1-955939E48B64",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLOTRIMAZOLE",
         "BETAMETHASONE (AS DIPROPIONATE)",
@@ -65,13 +71,16 @@
             "factoryKind": "M",
             "factoryNo": "1419531200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804009220",
+            "ingredientsName": "BETAMETHASONE (AS DIPROPIONATE)",
             "ingredientsDesc": "BETAMETHASONE (AS DIPROPIONATE)",
             "concentDesc": null,
             "concent": "0.5000",
@@ -83,6 +92,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "(potency)",
             "concent": "1.0000",
@@ -94,6 +104,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
             "ingredientsDesc": "CLOTRIMAZOLE",
             "concentDesc": null,
             "concent": "10.0000",
@@ -105,48 +116,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "91972379-E8A3-41D2-AFEB-407E7E93608C",
-            "approvedDocNo": "1110810970",
-            "approvedDate": "2022-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CDDFDF1C-F90A-42BA-86AA-F6E50FE21B87",
-            "approvedDocNo": "1110810970",
-            "approvedDate": "2022-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "80C54230-4539-492C-8F5A-B6FC24B46BAB",
-            "approvedDocNo": "1086021087",
-            "approvedDate": "2019-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D01AC01"
-        },
         {
             "isMain": "1",
             "atcCode": "D07CC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX07"
         }
     ],
     "licBaseId": "6893923C-3AFC-4D5C-B6A0-5B81499513D3"

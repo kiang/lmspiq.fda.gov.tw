@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060319",
-    "validDate": "2024-07-10 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-10 00:00:00.000",
     "issueDate": "2019-07-10 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,6 +30,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "05902F7F-9CB9-4732-A016-FE7FB3A1B309",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "PALONOSETRON (AS HYDROCHLORIDE)"
     ],
@@ -56,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5622001720",
+            "ingredientsName": "PALONOSETRON (AS HYDROCHLORIDE)",
             "ingredientsDesc": "PALONOSETRON (AS HYDROCHLORIDE)",
             "concentDesc": "(as Palonosetron Hydrochloride.....0.056mg) (增率3%：0.0515mg)",
-            "concent": "0.050",
+            "concent": "0.0500",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,31 +85,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "15D74B7F-B64F-4174-B58E-FEE351007CEE",
-            "approvedDocNo": "1129022754",
-            "approvedDate": "2024-01-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A55BE6E3-7DE5-4BC2-952F-9FDB0FCC80DA",
-            "approvedDocNo": "1129022754",
-            "approvedDate": "2023-10-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "A04AA05"
-        },
-        {
-            "isMain": "2",
             "atcCode": "A04AA05"
         }
     ],

@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058308",
+    "licUnit": "1",
     "validDate": "2024-06-23 00:00:00.000",
     "issueDate": "2014-06-23 00:00:00.000",
     "licKind": "02",
@@ -26,7 +29,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "43D52998-8EA0-4E8E-9B99-B4A18A827F25",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "BACILLUS COAGULANS"
     ],
@@ -56,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "1104602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616007000",
+            "ingredientsName": "BACILLUS COAGULANS",
             "ingredientsDesc": "BACILLUS COAGULANS",
             "concentDesc": "",
-            "concent": "300.000",
+            "concent": "300.0000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -76,10 +87,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "G01AX"
-        },
         {
             "isMain": "1",
             "atcCode": "G01AX"

@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058302",
+    "licUnit": "1",
     "validDate": "2024-06-18 00:00:00.000",
     "issueDate": "2014-06-18 00:00:00.000",
     "licKind": "02",
@@ -27,6 +30,9 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A8F26680-1C7A-4300-BC2F-1BCF7520D090",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRAMADOL HCL",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)"
@@ -35,7 +41,8 @@
         "01",
         "24",
         "34",
-        "61"
+        "61",
+        "67"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -59,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
-            "concent": "325.000",
+            "concent": "325.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808202510",
+            "ingredientsName": "TRAMADOL HCL",
             "ingredientsDesc": "TRAMADOL HCL",
             "concentDesc": "",
-            "concent": "37.500",
+            "concent": "37.5000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -88,60 +99,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D3018B31-E91F-4BB9-A59F-8E99C85F0BE2",
-            "approvedDocNo": "1110725006",
-            "approvedDate": "2023-02-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "45EF46C8-21A8-47CC-A607-0F063EB42F3E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F8A903D-7881-472C-9599-B0C49157F9B9",
-            "approvedDocNo": "1106803410",
-            "approvedDate": "2021-06-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4F3884D2-4A7F-437A-AFC4-524749C452F7",
-            "approvedDocNo": "1096816106",
-            "approvedDate": "2020-12-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "73B8B909-6E3F-4BA7-B3AC-1EFD78D07A5B",
-            "approvedDocNo": "1076804045",
-            "approvedDate": "2019-01-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
         {
             "isMain": "1",
             "atcCode": "N02AJ13"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02AX02 "
         }
     ],
     "licBaseId": "DDEBEB09-B7C9-4402-8364-6D39C0BC0E6B"

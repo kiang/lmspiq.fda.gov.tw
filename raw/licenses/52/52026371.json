@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026371",
-    "validDate": "2024-08-01 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-08-01 00:00:00.000",
     "issueDate": "2014-08-01 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -22,7 +25,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "0935B23A-36E5-4013-B399-C97596738D28",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "Calcium chloride hydrate",
         "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
@@ -56,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0253100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406000310",
+            "ingredientsName": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "ingredientsDesc": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "1.500",
+            "concent": "1.5000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000380",
+            "ingredientsName": "Calcium chloride hydrate",
             "ingredientsDesc": "Calcium chloride hydrate",
             "concentDesc": "",
-            "concent": "0.150",
+            "concent": "0.1500",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -96,9 +109,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "4.000",
+            "concent": "4.0000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -107,9 +121,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612001520",
+            "ingredientsName": "Magnesium sulfate hydrate",
             "ingredientsDesc": "Magnesium sulfate hydrate",
             "concentDesc": "",
-            "concent": "0.100",
+            "concent": "0.1000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -118,9 +133,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600015505",
+            "ingredientsName": "HYPROMELLOSE",
             "ingredientsDesc": "HYPROMELLOSE",
             "concentDesc": "",
-            "concent": "2.000",
+            "concent": "2.0000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -129,32 +145,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "178ACB3F-AC48-442D-9905-E2C72CF2AC3F",
-            "approvedDocNo": "1110731063",
-            "approvedDate": "2023-02-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01KA02"
-        },
         {
             "isMain": "1",
             "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA03"
         }
     ],
     "licBaseId": "2A9235D3-2A41-4EC6-847F-BA7003891AE3"

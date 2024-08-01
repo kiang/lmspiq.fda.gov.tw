@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058301",
+    "licUnit": "1",
     "validDate": "2024-06-18 00:00:00.000",
     "issueDate": "2014-06-18 00:00:00.000",
     "licKind": "02",
@@ -26,7 +29,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "03424CB5-D20D-430B-933A-DB03DB2D8527",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "NICOTINE"
     ],
@@ -56,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "0908703300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200006000",
+            "ingredientsName": "NICOTINE",
             "ingredientsDesc": "NICOTINE",
             "concentDesc": "",
-            "concent": "35.000",
+            "concent": "35.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,47 +85,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "393A7C42-E27B-4390-A9A3-19665821EBF3",
-            "approvedDocNo": "1110804036",
-            "approvedDate": "2022-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "04A86BE2-9615-4887-9710-B3594C4C7B84",
-            "approvedDocNo": "1110804036",
-            "approvedDate": "2022-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7D06B5CD-25F1-4B6C-BD23-FC6C1262F821",
-            "approvedDocNo": "1076808172",
-            "approvedDate": "2019-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "34A5255B-FE0F-40C9-9989-48183A28BBBB",
-            "approvedDocNo": "1076808172",
-            "approvedDate": "2019-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N07BA01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "N07BA01"
         }
     ],

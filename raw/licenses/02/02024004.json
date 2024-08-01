@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024004",
+    "licUnit": "1",
     "validDate": "2024-06-02 00:00:00.000",
     "issueDate": "2004-06-02 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C888DD8D-9BAD-4A3F-A9FE-76CB02A296C7",
+    "subCategory": [],
     "ingredientsDesc": [
         "SULFUR",
         "DL-CAMPHOR "
@@ -52,13 +58,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0535000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8428000900",
+            "ingredientsName": "SULFUR",
             "ingredientsDesc": "SULFUR",
             "concentDesc": "",
             "concent": "50.0000",
@@ -70,6 +79,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000103",
+            "ingredientsName": "DL-CAMPHOR ",
             "ingredientsDesc": "DL-CAMPHOR ",
             "concentDesc": "",
             "concent": "3.0000",
@@ -79,53 +89,12 @@
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [
-        {
-            "applicantName": "日藥本舖股份有限公司",
-            "certNo": "DHA00202400429",
-            "approveDocNo": "1120706759",
-            "authDate": "2023-03-22",
-            "validDate": "2024-06-02"
-        }
-    ],
+    "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "771AD9A0-C85C-48E4-BB9D-2CB70CD850DF",
-            "approvedDocNo": "1076037698",
-            "approvedDate": "2019-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E6C4360C-5937-4284-9A98-3238DC6618D5",
-            "approvedDocNo": "1076037698",
-            "approvedDate": "2019-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "88A43AC4-4DC0-45DC-A135-DCA599DE89B5",
-            "approvedDocNo": "1076037698",
-            "approvedDate": "2019-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
             "isMain": "1",
-            "atcCode": "D10AB02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D10AB02"
         }
     ],

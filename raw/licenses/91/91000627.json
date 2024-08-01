@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "91000627",
-    "validDate": "2023-10-21 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2028-10-21 00:00:00.000",
     "issueDate": "2013-10-21 00:00:00.000",
     "licKind": "10",
     "oldLicid": null,
@@ -23,6 +26,11 @@
     "medMCode": "01",
     "maMedCode": "",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "A6B7E581-BA5C-411D-B48A-37F08FE0BB9F",
+    "subCategory": [
+        "E"
+    ],
     "ingredientsDesc": [
         "Ampicillin Sodium contains not less than 91.0% and not more than 102.0% of C16H18N3 NaO4S, calculated on the anhydrous substance."
     ],
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "FCN1487000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Ampicillin Sodium contains not less than 91.0% and not more than 102.0% of C16H18N3 NaO4S, calculated on the anhydrous substance.",
             "ingredientsDesc": "Ampicillin Sodium contains not less than 91.0% and not more than 102.0% of C16H18N3 NaO4S, calculated on the anhydrous substance.",
             "concentDesc": null,
             "concent": null,
@@ -68,26 +79,21 @@
             "prescription_Kind": "2"
         }
     ],
-    "authDtoList": [],
-    "iomDtoList": [],
-    "changeDtoList": [
+    "authDtoList": [
         {
-            "licChgDocId": "321AF2F9-F686-41AC-A8BB-01D1F844006F",
-            "approvedDocNo": "1096002182",
-            "approvedDate": "2020-03-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
+            "applicantName": "中國化學製藥股份有限公司",
+            "certNo": "DHA09100062717",
+            "approveDocNo": "1139046321",
+            "authDate": "2024-06-19",
+            "validDate": "2028-10-21"
         }
     ],
+    "iomDtoList": [],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AA19"
         }
     ],
     "licBaseId": "3D1A3C98-1676-48A1-BCA8-EDAC8DEFDBDA"

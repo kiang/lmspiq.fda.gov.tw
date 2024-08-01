@@ -1,10 +1,13 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-02-14",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "52027689",
+    "licUnit": "1",
     "validDate": "2024-06-20 00:00:00.000",
     "issueDate": "2019-06-20 00:00:00.000",
     "licKind": "02",
@@ -25,6 +28,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "6A41A4CF-2EDE-4E7C-B376-A2D19F8C722B",
+    "subCategory": [
+        "A02"
+    ],
     "ingredientsDesc": [
         "BUDESONIDE",
         "SALMETEROL XINAFOATE"
@@ -55,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "FBE0042000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406002100",
+            "ingredientsName": "BUDESONIDE",
             "ingredientsDesc": "BUDESONIDE",
             "concentDesc": "(mean delivered dose......0.240 MG)",
-            "concent": "0.300",
+            "concent": "0.3000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216002910",
+            "ingredientsName": "SALMETEROL XINAFOATE",
             "ingredientsDesc": "SALMETEROL XINAFOATE",
             "concentDesc": "(Salmeterol base......0.025 MG)(mean delivered dose......0.020 MG)",
-            "concent": "0.036",
+            "concent": "0.0360",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",

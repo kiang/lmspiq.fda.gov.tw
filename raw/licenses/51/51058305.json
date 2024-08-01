@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058305",
+    "licUnit": "1",
     "validDate": "2024-06-23 00:00:00.000",
     "issueDate": "2014-06-23 00:00:00.000",
     "licKind": "02",
@@ -26,7 +29,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "25972AE8-DB10-426B-A457-35A0BBD86B49",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "THIAMINE HYDROCHLORIDE",
         "CAFFEINE ANHYDROUS"
@@ -56,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "0202114300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100900",
+            "ingredientsName": "THIAMINE HYDROCHLORIDE",
             "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,16 +100,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
             "isMain": "1",
             "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
         }
     ],
     "licBaseId": "E26524C1-FDF5-43DC-A5F5-1744FD3AA918"

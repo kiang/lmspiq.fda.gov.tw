@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060311",
+    "licUnit": "1",
     "validDate": "2024-06-20 00:00:00.000",
     "issueDate": "2019-06-20 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "D8467912-EA6A-4556-9C3A-6C0A4746272B",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "CAPSULE SHELL",
         "FLUCONAZOLE"
@@ -54,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812203400",
+            "ingredientsName": "FLUCONAZOLE",
             "ingredientsDesc": "FLUCONAZOLE",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9800000100",
+            "ingredientsName": "CAPSULE SHELL",
             "ingredientsDesc": "CAPSULE SHELL",
             "concentDesc": "(衛署藥製字第026825號，硬空膠囊殼1號(白色)， GELATIN、WATER PURIFIED 、WATER PURIFIED、POLYETHYLENE GLYCOL 4000、GLYCERIN、SODIUM LAURYL SULFATE、SILICONE DIOXIDE、CITRIC ACID、Mono- and Diglycerides,Citrated、TITANIUM DIOXIDE)",
             "concent": null,
@@ -83,40 +95,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "90BFA07D-26D6-479F-B3FB-65658D8818F9",
-            "approvedDocNo": "1129044413",
-            "approvedDate": "2023-11-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "266608E2-7807-4FFC-BD35-9751EFDFCA4B",
-            "approvedDocNo": "1129044413",
-            "approvedDate": "2023-11-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B32D16C4-B282-442C-AD36-D3E4BA1EFB3C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "783AB3D5-CB9B-4732-B35A-3FC71AA60B9A",
-            "approvedDocNo": "1106810446",
-            "approvedDate": "2021-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

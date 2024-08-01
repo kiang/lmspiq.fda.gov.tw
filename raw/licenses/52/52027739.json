@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027739",
-    "validDate": "2024-09-04 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-09-04 00:00:00.000",
     "issueDate": "2019-09-04 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -23,6 +26,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "0521DD64-520F-4119-88FF-FFEC31ACBB5A",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "LAMIVUDINE",
         "TENOFOVIR DISOPROXIL FUMARATE",
@@ -55,7 +63,9 @@
             "factoryKind": "M",
             "factoryNo": "FIE0079100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -73,7 +83,9 @@
             "factoryKind": "M",
             "factoryNo": "FID0002000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -91,16 +103,19 @@
             "factoryKind": "M",
             "factoryNo": "FPT0015000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818006100",
+            "ingredientsName": "Doravirine",
             "ingredientsDesc": "Doravirine",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -109,9 +124,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818001400",
+            "ingredientsName": "LAMIVUDINE",
             "ingredientsDesc": "LAMIVUDINE",
             "concentDesc": "",
-            "concent": "300.000",
+            "concent": "300.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "3",
@@ -120,9 +136,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818003510",
+            "ingredientsName": "TENOFOVIR DISOPROXIL FUMARATE",
             "ingredientsDesc": "TENOFOVIR DISOPROXIL FUMARATE",
             "concentDesc": "",
-            "concent": "300.000",
+            "concent": "300.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "3",
@@ -131,104 +148,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DEB4D8D0-2C38-4127-80A3-415964A75486",
-            "approvedDocNo": "1110710585",
-            "approvedDate": "2022-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F8D8BE95-7A2B-425F-A55C-810F642C7609",
-            "approvedDocNo": "1110710585",
-            "approvedDate": "2022-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0CF782F0-908D-4160-98D9-B06BEFFCDA53",
-            "approvedDocNo": "1110710585",
-            "approvedDate": "2022-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "86FE6265-465D-425D-928A-D92391E6C65A",
-            "approvedDocNo": "1101499950",
-            "approvedDate": "2022-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0A3C4DC9-CC90-4CFD-9909-AF2638FACD02",
-            "approvedDocNo": "1101499950",
-            "approvedDate": "2022-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A6A21D1D-EBEB-4A2C-8373-3E9105D8334C",
-            "approvedDocNo": "1106015800",
-            "approvedDate": "2021-10-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AC4D13F5-8355-4AD7-BEE8-8E3CB7174AC1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EF7E70EA-015A-4450-8171-AB74373EC17C",
-            "approvedDocNo": "1096007680",
-            "approvedDate": "2020-10-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "898A81A5-F1F2-4956-A497-287112B2CBD4",
-            "approvedDocNo": "1096007680",
-            "approvedDate": "2020-10-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1245ED9B-D09F-4624-9336-E5CBE696A16E",
-            "approvedDocNo": "1096007680",
-            "approvedDate": "2020-10-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J05AF07"
-        },
         {
             "isMain": "1",
             "atcCode": "J05AR24"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AF05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AG06"
         }
     ],
     "licBaseId": "D8C690A7-1023-438A-BB5A-6C058E7B8B27"

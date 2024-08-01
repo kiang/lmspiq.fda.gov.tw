@@ -1,10 +1,13 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2021-02-19",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "02025045",
+    "licUnit": "1",
     "validDate": "2024-06-11 00:00:00.000",
     "issueDate": "2009-06-11 00:00:00.000",
     "licKind": "02",
@@ -25,6 +28,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "23D96E56-880C-4F7A-900D-8D9EC6A15F26",
+    "subCategory": [],
     "ingredientsDesc": [
         "INDAPAMIDE",
         "PERINDOPRIL ARGININE"
@@ -55,7 +61,9 @@
             "factoryKind": "M",
             "factoryNo": "FFR0075000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -68,13 +76,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0075100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408004730",
+            "ingredientsName": "PERINDOPRIL ARGININE",
             "ingredientsDesc": "PERINDOPRIL ARGININE",
             "concentDesc": "(Corresponds to Perindopril 1.6975 mg)",
             "concent": "2.5000",
@@ -86,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028001000",
+            "ingredientsName": "INDAPAMIDE",
             "ingredientsDesc": "INDAPAMIDE",
             "concentDesc": null,
             "concent": "0.6250",
@@ -97,44 +109,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "03D83537-AFCE-483A-BDAC-470C8C294B1D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1A385FB7-6506-4508-9E9D-1E8E7E576A39",
-            "approvedDocNo": "1086039303",
-            "approvedDate": "2020-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C9EB2AB2-62F9-4EED-9A2E-E94596DC75B3",
-            "approvedDocNo": "1086027585",
-            "approvedDate": "2020-01-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C09AA04"
-        },
         {
             "isMain": "1",
             "atcCode": "C09BA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03BA11"
         }
     ],
     "licBaseId": "6453ED81-3910-4C4A-8AC3-39215A75F44D"

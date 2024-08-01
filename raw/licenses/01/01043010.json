@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043010",
+    "licUnit": "1",
     "validDate": "2024-06-04 00:00:00.000",
     "issueDate": "1999-06-04 00:00:00.000",
     "licKind": "02",
@@ -27,6 +30,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6E1365BB-A3FD-4F1B-A5F2-06DACCFAA9E9",
+    "subCategory": [],
     "ingredientsDesc": [
         "OXETHAZAINE",
         "ALUMINUM HYDROXIDE DRIED GEL",
@@ -58,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002900",
+            "ingredientsName": "OXETHAZAINE",
             "ingredientsDesc": "OXETHAZAINE",
             "concentDesc": "",
             "concent": "5.0000",
@@ -76,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000202",
+            "ingredientsName": "ALUMINUM HYDROXIDE DRIED GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE DRIED GEL",
             "concentDesc": "",
             "concent": "125.0000",
@@ -87,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002400",
+            "ingredientsName": "MAGNESIUM CARBONATE",
             "ingredientsDesc": "MAGNESIUM CARBONATE",
             "concentDesc": "",
             "concent": "84.0000",
@@ -96,50 +107,13 @@
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [
-        {
-            "applicantName": "中美生技醫藥股份有限公司",
-            "certNo": "DHY00104301027",
-            "approveDocNo": "1106808947",
-            "authDate": "2021-05-20",
-            "validDate": "2024-06-04"
-        }
-    ],
+    "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B19425CA-D244-4714-8147-1F8F68674AA1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1ECA52A4-8D46-4A0B-816D-1A0C1E92875A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A02X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
         }
     ],
     "licBaseId": "1421AFEC-D1A2-4E84-B911-FD9BF1C02763"

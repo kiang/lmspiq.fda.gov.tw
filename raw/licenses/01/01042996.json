@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01042996",
-    "validDate": "2024-06-01 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-06-01 00:00:00.000",
     "issueDate": "1999-06-01 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,6 +30,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D19D36A0-8E7A-4695-A670-5A166D0E18C0",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLAVULANATE POTASSIUM",
         "AMOXICILLIN (SODIUM)",
@@ -61,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "0922116300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812609210",
+            "ingredientsName": "AMOXICILLIN (SODIUM)",
             "ingredientsDesc": "AMOXICILLIN (SODIUM)",
             "concentDesc": "(POTENCY)    0.5",
             "concent": null,
@@ -79,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410000410",
+            "ingredientsName": "CLAVULANATE POTASSIUM",
             "ingredientsDesc": "CLAVULANATE POTASSIUM",
             "concentDesc": "0.1",
             "concent": "0.1000",
@@ -90,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812609210",
+            "ingredientsName": "AMOXICILLIN (SODIUM)",
             "ingredientsDesc": "AMOXICILLIN (SODIUM)",
             "concentDesc": "(POTECNY)      1",
             "concent": null,
@@ -101,6 +112,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410000410",
+            "ingredientsName": "CLAVULANATE POTASSIUM",
             "ingredientsDesc": "CLAVULANATE POTASSIUM",
             "concentDesc": "0.2",
             "concent": "0.2000",
@@ -117,14 +129,6 @@
         {
             "isMain": "1",
             "atcCode": "J01CR02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CG"
         }
     ],
     "licBaseId": "94E93BD7-EC6F-4332-831D-84E826D0B207"

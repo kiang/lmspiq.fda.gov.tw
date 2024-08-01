@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01037689",
-    "validDate": "2024-06-23 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-06-23 00:00:00.000",
     "issueDate": "1994-06-23 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,12 +30,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D3DCB12A-9C98-4E07-8DC0-E84272F89B6F",
+    "subCategory": [],
     "ingredientsDesc": [
         "THIAMINE DISULFIDE",
         "RIBOFLAVIN (VIT B2)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "永勝藥品工業股份有限公司",
     "applicantAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路6之3號",
@@ -56,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "6140040022",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100800",
+            "ingredientsName": "THIAMINE DISULFIDE",
             "ingredientsDesc": "THIAMINE DISULFIDE",
             "concentDesc": "",
             "concent": "50.0000",
@@ -74,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "",
             "concent": "5.0000",
@@ -85,49 +96,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "80616C74-DC13-4BC4-8A76-8678E9999C47",
-            "approvedDocNo": "1110803983",
-            "approvedDate": "2022-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F7B298CE-3624-4259-8218-C12DB5DA2D2E",
-            "approvedDocNo": "1096808285",
-            "approvedDate": "2020-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "56B8A497-A6EF-4E60-85E8-EA0102C59C5F",
-            "approvedDocNo": "1096808285",
-            "approvedDate": "2020-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E1D503A5-C02F-4293-9D23-264CF141C065",
-            "approvedDocNo": "1096804014",
-            "approvedDate": "2020-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
         {
             "isMain": "1",
             "atcCode": "A11JA"

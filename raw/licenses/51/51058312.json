@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058312",
-    "validDate": "2024-06-24 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-06-24 00:00:00.000",
     "issueDate": "2014-06-24 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -22,7 +25,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "B03B85FA-AE77-4A08-9C46-5BA60CCA1F4B",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "CALCIUM CARBONATE PRECIPITATE (EQ TO PRECIPITATED CALCIUM CARBONATE)",
         "CALCIUM CITRATE",
@@ -30,7 +38,8 @@
         "CHOLECALCIFEROL ( EQ TO VIT D3) ( EQ TO VITAMIN D3)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "佐藤製藥股份有限公司",
     "applicantAddr": "臺北市信義區基隆路一段333號4樓",
@@ -54,7 +63,9 @@
             "factoryKind": "M",
             "factoryNo": "0710606200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
             "factoryCode": "2",
@@ -72,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "0711101100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604001230",
+            "ingredientsName": "CALCIUM CARBONATE PRECIPITATE (EQ TO PRECIPITATED CALCIUM CARBONATE)",
             "ingredientsDesc": "CALCIUM CARBONATE PRECIPITATE (EQ TO PRECIPITATED CALCIUM CARBONATE)",
             "concentDesc": "",
-            "concent": "157.222",
+            "concent": "157.2220",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,9 +104,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600005000",
+            "ingredientsName": "CALCIUM CITRATE",
             "ingredientsDesc": "CALCIUM CITRATE",
             "concentDesc": "",
-            "concent": "11.111",
+            "concent": "11.1110",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -101,9 +116,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6824000100",
+            "ingredientsName": "CALCIUM GLUCONATE",
             "ingredientsDesc": "CALCIUM GLUCONATE",
             "concentDesc": "(eq. to Total Calcium 66.78 mg)",
-            "concent": "16.667",
+            "concent": "16.6670",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -112,9 +128,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8818000300",
+            "ingredientsName": "CHOLECALCIFEROL ( EQ TO VIT D3) ( EQ TO VITAMIN D3)",
             "ingredientsDesc": "CHOLECALCIFEROL ( EQ TO VIT D3) ( EQ TO VITAMIN D3)",
             "concentDesc": "RIKEN DRY D3-B5N-GP 20mg",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "21A",
             "seq": "4",
             "prescription_seq": "1",
@@ -123,44 +140,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CD69A273-86E6-4877-8517-2295C9997B78",
-            "approvedDocNo": "1086017042",
-            "approvedDate": "2019-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2C3D4D49-DDD5-406E-ACD1-BF63FADD4D62",
-            "approvedDocNo": "1086017042",
-            "approvedDate": "2019-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A12AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11CC05"
-        },
         {
             "isMain": "1",
             "atcCode": "A12AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12AA13"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12AA04"
         }
     ],
     "licBaseId": "55C51847-F0A1-4E86-B4AD-ADC64331A3E3"

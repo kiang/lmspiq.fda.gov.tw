@@ -1,9 +1,12 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043114",
-    "validDate": "2024-07-20 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-20 00:00:00.000",
     "issueDate": "1999-07-20 00:00:00.000",
     "licKind": "02",
     "oldLicid": null,
@@ -27,12 +30,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "93AC937E-CB6B-443D-A2FB-A6078CF2A543",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRIMETHOPRIM",
         "SULFAMETHOXAZOLE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "信東生技股份有限公司",
     "applicantAddr": "桃園市桃園區介壽路２２號",
@@ -56,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "0603006300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0824001500",
+            "ingredientsName": "SULFAMETHOXAZOLE",
             "ingredientsDesc": "SULFAMETHOXAZOLE",
             "concentDesc": "400",
             "concent": "400.0000",
@@ -74,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0840001700",
+            "ingredientsName": "TRIMETHOPRIM",
             "ingredientsDesc": "TRIMETHOPRIM",
             "concentDesc": "80",
             "concent": "80.0000",
@@ -85,44 +96,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B7228907-3F9E-49C9-9570-25EEBA27C626",
-            "approvedDocNo": "1110812241",
-            "approvedDate": "2023-02-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F12DB116-422A-4318-8C60-A88683989E79",
-            "approvedDocNo": "1110812241",
-            "approvedDate": "2023-02-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7025E604-B6BE-44A3-836A-D1EEE4012A2B",
-            "approvedDocNo": "1086609755",
-            "approvedDate": "2019-11-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01EE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01EC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01EA01"
         }
     ],
     "licBaseId": "BCC060EA-C4E9-482B-A494-A08B8371DFDB"

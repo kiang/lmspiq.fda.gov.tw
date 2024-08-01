@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026321",
+    "licUnit": "1",
     "validDate": "2024-06-09 00:00:00.000",
     "issueDate": "2014-06-09 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0ECB7A43-B00C-4B0B-86C1-E148EED5FC8C",
+    "subCategory": [],
     "ingredientsDesc": [
         "LOSARTAN POTASSIUM"
     ],
@@ -52,16 +58,19 @@
             "factoryKind": "M",
             "factoryNo": "FIN0655000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005210",
+            "ingredientsName": "LOSARTAN POTASSIUM",
             "ingredientsDesc": "LOSARTAN POTASSIUM",
             "concentDesc": "",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,39 +79,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "69CE60FE-E2A6-491D-AD5E-17F36FFB47E3",
-            "approvedDocNo": "1076038298",
-            "approvedDate": "2019-02-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5DE2615E-F92F-4B98-9FCE-300BCD7C8C73",
-            "approvedDocNo": "1076038298",
-            "approvedDate": "2019-02-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0267E88B-95E2-4B96-B0F1-CF5AD52349D3",
-            "approvedDocNo": "1076035403",
-            "approvedDate": "2019-01-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "C09CA01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C09CA01"
         }
     ],

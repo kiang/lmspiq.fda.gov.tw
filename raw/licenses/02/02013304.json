@@ -1,8 +1,11 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02013304",
+    "licUnit": "1",
     "validDate": "2024-06-23 00:00:00.000",
     "issueDate": "1985-02-15 00:00:00.000",
     "licKind": "02",
@@ -23,6 +26,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CE00DAFB-4126-4F53-916C-FBE97B38766C",
+    "subCategory": [],
     "ingredientsDesc": [
         "TETRAHYDROZOLINE HCL",
         "ANTAZOLINE PHOSPHATE"
@@ -52,13 +58,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0181100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000220",
+            "ingredientsName": "ANTAZOLINE PHOSPHATE",
             "ingredientsDesc": "ANTAZOLINE PHOSPHATE",
             "concentDesc": "0.15",
             "concent": "0.1500",
@@ -70,6 +79,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5232000310",
+            "ingredientsName": "TETRAHYDROZOLINE HCL",
             "ingredientsDesc": "TETRAHYDROZOLINE HCL",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -84,20 +94,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "S01AX09"
-        },
-        {
             "isMain": "1",
             "atcCode": "S01GA52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01GA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01GX"
         }
     ],
     "licBaseId": "BC02FCF4-04AE-42F1-A462-9F563D52294C"
