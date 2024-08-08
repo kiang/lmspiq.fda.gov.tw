@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01005499",
-    "validDate": "2025-01-03 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2030-01-03 00:00:00.000",
     "issueDate": "1975-01-03 00:00:00.000",
+    "oriIssueDate": "1975-01-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100549900",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F01C8C5F-C9FF-4845-A708-D7EA475DD900",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM ACETATE TRIHYDRATE (EQ TO SODIUM ACETATE 3H2O )",
         "POTASSIUM CHLORIDE",
@@ -36,7 +43,6 @@
         "DEXTROSE MONOHYDRATE"
     ],
     "restraintItemsCode": [
-        "01",
         "1R"
     ],
     "applicantName": "信東生技股份有限公司",
@@ -51,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "78CD18B6-1627-49C8-9F78-89E45306DE15",
             "factoryCode": "1",
             "factoryName": "信東生技股份有限公司",
             "factoryAddr": "桃園市桃園區介壽路２２號",
@@ -61,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "0908703300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
             "concent": "202.5000",
@@ -79,6 +89,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "",
             "concent": "5.2000",
@@ -90,6 +101,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": "",
             "concent": "6.5000",
@@ -101,6 +113,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": "",
             "concent": "5.3000",
@@ -112,6 +125,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000670",
+            "ingredientsName": "SODIUM ACETATE TRIHYDRATE (EQ TO SODIUM ACETATE 3H2O )",
             "ingredientsDesc": "SODIUM ACETATE TRIHYDRATE (EQ TO SODIUM ACETATE 3H2O )",
             "concentDesc": "",
             "concent": "157.8000",
@@ -123,6 +137,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000570",
+            "ingredientsName": "DEXTROSE MONOHYDRATE",
             "ingredientsDesc": "DEXTROSE MONOHYDRATE",
             "concentDesc": "",
             "concent": "70.0000",
@@ -136,14 +151,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05ZA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05ZA"
-        },
         {
             "isMain": "1",
             "atcCode": "B05ZA"

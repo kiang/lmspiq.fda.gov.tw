@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02017728",
+    "licUnit": "1",
     "validDate": "2025-01-22 00:00:00.000",
     "issueDate": "2014-07-30 00:00:00.000",
+    "oriIssueDate": "1990-01-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201772806",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DF78846A-A53D-40FD-A563-520DCC5EBE09",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLUCOSE MONOHYDRATE",
         "GLYCERIN (eq to GLYCEROL)"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B314159A-6231-4204-BACA-B4DB5B77AAEF",
             "factoryCode": "1",
             "factoryName": "FRESENIUS KABI AUSTRIA GMBH",
             "factoryAddr": "HAFNERSTRABE 36 ,A-8055 GRAZ AUSTRIA.",
@@ -56,9 +64,12 @@
             "factoryKind": "M",
             "factoryNo": "FAT0014100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8199236A-EA9F-4DC9-A697-8300E485EF69",
             "factoryCode": "2",
             "factoryName": "FRESENIUS KABI AUSTRIA GMBH",
             "factoryAddr": "AM GEWERBEPARK 6, 8402 WERNDORF, AUSTRIA",
@@ -74,13 +85,16 @@
             "factoryKind": "M",
             "factoryNo": "FAT0045000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600013500",
+            "ingredientsName": "GLYCERIN (eq to GLYCEROL)",
             "ingredientsDesc": "GLYCERIN (eq to GLYCEROL)",
             "concentDesc": "",
             "concent": "100.0000",
@@ -92,6 +106,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000760",
+            "ingredientsName": "GLUCOSE MONOHYDRATE",
             "ingredientsDesc": "GLUCOSE MONOHYDRATE",
             "concentDesc": "(= Glucose anhydrous 25g)",
             "concent": "27.5000",
@@ -103,29 +118,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "36465A01-DEF1-47BB-B892-5C6BB26B7123",
-            "approvedDocNo": "1096812126",
-            "approvedDate": "2021-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5AA995C9-97B8-4FD3-AEE3-EE533A6DC475",
-            "approvedDocNo": "1096812126",
-            "approvedDate": "2021-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05BC"
-        },
         {
             "isMain": "1",
             "atcCode": "B05BC"

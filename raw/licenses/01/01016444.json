@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01016444",
-    "validDate": "2025-01-18 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2030-01-18 00:00:00.000",
     "issueDate": "1979-01-18 00:00:00.000",
+    "oriIssueDate": "1979-01-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101644409",
@@ -31,11 +35,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C3639965-F267-4500-AA90-EF5A55C3F307",
+    "subCategory": [],
     "ingredientsDesc": [
         "PIPRINHYDRINATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "井田國際醫藥廠股份有限公司",
     "applicantAddr": "台中市大甲區幼獅路32號",
@@ -49,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3DE64C56-1FEB-49E5-9B3B-21AC88AB17B7",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
@@ -59,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400003200",
+            "ingredientsName": "PIPRINHYDRINATE",
             "ingredientsDesc": "PIPRINHYDRINATE",
             "concentDesc": "",
             "concent": "3.0000",

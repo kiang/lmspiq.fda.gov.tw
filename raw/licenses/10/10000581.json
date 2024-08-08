@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000581",
+    "licUnit": "1",
     "validDate": "2025-01-11 00:00:00.000",
     "issueDate": "2000-01-11 00:00:00.000",
+    "oriIssueDate": "2000-01-11",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000058106",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A6EDAA00-67D1-403F-8539-DD29CA93C20A",
+    "subCategory": [],
     "ingredientsDesc": [
         "EPOETIN ALFA"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "126B9D1D-44FA-406C-889D-BC66D8BF00BA",
             "factoryCode": "1",
             "factoryName": "CILAG AG",
             "factoryAddr": "HOCHSTRASSE 201, CH-8200 SCHAFFHAUSEN, SWITZERLAND",
@@ -60,9 +68,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0263000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F79F3915-7678-423C-9FE4-9940769702FE",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -78,16 +89,19 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600001200",
+            "ingredientsName": "EPOETIN ALFA",
             "ingredientsDesc": "EPOETIN ALFA",
             "concentDesc": null,
-            "concent": "16.800",
+            "concent": "16.8000",
             "concentUnit": "016",
             "seq": "0",
             "prescription_seq": "0",
@@ -96,72 +110,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8A034DCF-49F7-4BEE-BC2E-B3FEDF2A86AB",
-            "approvedDocNo": "1106036048",
-            "approvedDate": "2022-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FAB20854-5ED2-4028-8E5D-15BFBCFBDC7F",
-            "approvedDocNo": "1106009780",
-            "approvedDate": "2021-09-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0504B48C-03C9-48BA-B7AD-59A3F26C8D83",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "240BE0EB-3801-4CD9-9E78-7E13B2037D54",
-            "approvedDocNo": "1086035643",
-            "approvedDate": "2020-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BD881F38-03F3-42CA-9323-F6F3A87AA40E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7DEBE7D0-E350-4658-87E9-9C571D9B7BE4",
-            "approvedDocNo": "1081490987",
-            "approvedDate": "2019-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "989E2593-193C-4F73-8ABC-63B55CD2C979",
-            "approvedDocNo": "1076039727",
-            "approvedDate": "2019-06-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C3988C28-B605-41E9-B80B-F9B193B46217",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

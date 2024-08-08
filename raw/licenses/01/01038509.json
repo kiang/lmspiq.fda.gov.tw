@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01038509",
+    "licUnit": "1",
     "validDate": "2025-01-23 00:00:00.000",
     "issueDate": "1995-01-23 00:00:00.000",
+    "oriIssueDate": "1995-01-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103850907",
@@ -31,6 +35,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BAA81FF4-DAEA-4186-AB96-4BE4C5D9F3E8",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORHEXIDINE DL-GLUCONATE",
         "SULFADIAZINE SILVER"
@@ -50,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1B648349-13A0-4F26-953F-F275B2ED9712",
             "factoryCode": "1",
             "factoryName": "健康化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區幼獅工業區幼四路１２號",
@@ -60,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0824000720",
+            "ingredientsName": "SULFADIAZINE SILVER",
             "ingredientsDesc": "SULFADIAZINE SILVER",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -78,6 +89,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900230",
+            "ingredientsName": "CHLORHEXIDINE DL-GLUCONATE",
             "ingredientsDesc": "CHLORHEXIDINE DL-GLUCONATE",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -89,52 +101,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A33494FD-9118-41C0-B400-38F8354DEEE0",
-            "approvedDocNo": "1096802894",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "22E37B59-FA07-451A-8758-8BD98710499D",
-            "approvedDocNo": "1096802894",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8F61F75B-6847-421A-9AD1-E5621747A68F",
-            "approvedDocNo": "1096802894",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D78F17D1-A061-44E5-8EBB-F2DC2D47E9D4",
-            "approvedDocNo": "1096802894",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D06BA51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D08AC02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06BA01"
         }
     ],
     "licBaseId": "FB38CC14-0950-45B4-940C-412376A487FA"

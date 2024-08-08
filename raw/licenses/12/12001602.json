@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12001602",
+    "licUnit": "1",
     "validDate": "2025-01-15 00:00:00.000",
     "issueDate": "1970-01-16 00:00:00.000",
+    "oriIssueDate": "1970-01-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01200160200",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B1F54745-4C15-46AF-8C9B-25BC6CDF808F",
+    "subCategory": [],
     "ingredientsDesc": [
         "NEOMYCIN (SULFATE)",
         "FLUOCINOLONE ACETONIDE"
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E1E415ED-A150-4BFA-804A-E929C26FA323",
             "factoryCode": "1",
             "factoryName": "榮民製藥股份有限公司",
             "factoryAddr": "桃園市中壢區中山東路３段４４７號",
@@ -53,16 +61,19 @@
             "factoryKind": "M",
             "factoryNo": "623202D135",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000910",
+            "ingredientsName": "FLUOCINOLONE ACETONIDE",
             "ingredientsDesc": "FLUOCINOLONE ACETONIDE",
             "concentDesc": "0.25",
-            "concent": "0.250",
+            "concent": "0.2500",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +82,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "3.50",
-            "concent": "3.500",
+            "concent": "3.5000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,25 +94,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5E26CA5D-3249-494D-B74C-F3AC50F4DFE6",
-            "approvedDocNo": "1086810921",
-            "approvedDate": "2019-12-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D07AC04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX04"
-        },
         {
             "isMain": "1",
             "atcCode": "D07CC02"

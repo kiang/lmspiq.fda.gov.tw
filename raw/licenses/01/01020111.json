@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01020111",
+    "licUnit": "1",
     "validDate": "2025-01-05 00:00:00.000",
     "issueDate": "1980-01-05 00:00:00.000",
+    "oriIssueDate": "1980-01-05",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00102011100",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8B5E0E1B-121D-42D8-920D-A71DA38627BB",
+    "subCategory": [],
     "ingredientsDesc": [
         "RESERPINE",
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "82860026-A51C-4D30-A865-382C808E4F8D",
             "factoryCode": "1",
             "factoryName": "皇佳化學製藥股份有限公司",
             "factoryAddr": "高雄市鳥松區?埔里埔安街1號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0920322300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408003000",
+            "ingredientsName": "RESERPINE",
             "ingredientsDesc": "RESERPINE",
             "concentDesc": "0.1",
             "concent": "0.1000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -86,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408001410",
+            "ingredientsName": "HYDRALAZINE HCL",
             "ingredientsDesc": "HYDRALAZINE HCL",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -97,48 +110,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0352F5C3-C005-4037-BF00-7E68D9CD49E9",
-            "approvedDocNo": "1080018822",
-            "approvedDate": "2019-07-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C330EDCA-1146-4C11-9697-C51D150CC0C2",
-            "approvedDocNo": "1080018822",
-            "approvedDate": "2019-07-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B5EC5087-17DD-4CE4-B8E7-B7C5FE4F350B",
-            "approvedDocNo": "1070043810",
-            "approvedDate": "2019-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
-        },
         {
             "isMain": "1",
             "atcCode": "C02LA51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C02AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C02DB02"
         }
     ],
     "licBaseId": "BFDDC051-F370-4D8C-8721-D510E34964AA"

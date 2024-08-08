@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01046941",
+    "licUnit": "1",
     "validDate": "2025-01-20 00:00:00.000",
     "issueDate": "2005-01-20 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104694102",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "F86ED2A8-7B0C-4EE8-B439-D89E5F564494",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "TOCOPHEROL ACETATE ALPHA DL-",
         "CHOLECALCIFEROL ( EQ TO VIT D3) ( EQ TO VITAMIN D3)",
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B8599DC5-BE2C-4C3A-B0EC-E46BC00F90D1",
             "factoryCode": "1",
             "factoryName": "黃氏製藥股份有限公司",
             "factoryAddr": "雲林縣斗南鎮小東里大同路４４４巷１１號",
@@ -53,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "1223216300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8804000300",
+            "ingredientsName": "VITAMIN A PALMITATE",
             "ingredientsDesc": "VITAMIN A PALMITATE",
             "concentDesc": null,
             "concent": "2000.0000",
@@ -71,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8818000300",
+            "ingredientsName": "CHOLECALCIFEROL ( EQ TO VIT D3) ( EQ TO VITAMIN D3)",
             "ingredientsDesc": "CHOLECALCIFEROL ( EQ TO VIT D3) ( EQ TO VITAMIN D3)",
             "concentDesc": null,
             "concent": "500.0000",
@@ -82,6 +96,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000213",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA DL-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA DL-",
             "concentDesc": null,
             "concent": "2.0000",
@@ -93,45 +108,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5AE7F645-034A-4860-9A7B-CAB9E613FDC7",
-            "approvedDocNo": "1110812115",
-            "approvedDate": "2022-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EF3F782A-F599-43F9-B8EB-2343A760BE01",
-            "approvedDocNo": "1076616420",
-            "approvedDate": "2019-06-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "788C377C-7EEA-4119-80DA-2753E37BC4F8",
-            "approvedDocNo": "1076616420",
-            "approvedDate": "2019-06-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BBB2E04E-23DA-42FE-AB50-9FD87CE09F89",
-            "approvedDocNo": "1076616420",
-            "approvedDate": "2019-06-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D02AX"
-        },
         {
             "isMain": "1",
             "atcCode": "D02AX"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058602",
+    "licUnit": "1",
     "validDate": "2025-01-27 00:00:00.000",
     "issueDate": "2015-01-27 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105860202",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "A7514B9F-33AB-43F5-8F43-76F5D2C1C5B0",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "PHENYLEPHRINE HCL",
         "CHLORPHENIRAMINE MALEATE",
@@ -47,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8DD9EF27-DBB5-4F3E-BEAB-AA982CF5B0A7",
             "factoryCode": "1",
             "factoryName": "十全實業股份有限公司",
             "factoryAddr": "南投縣南投市仁和路２７號",
@@ -57,16 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "0202114300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002310",
+            "ingredientsName": "PHENYLEPHRINE HCL",
             "ingredientsDesc": "PHENYLEPHRINE HCL",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "35.000",
+            "concent": "35.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -86,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
-            "concent": "3.000",
+            "concent": "3.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -97,56 +112,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A23859F2-3D96-47BA-AAEF-19D4975BAE70",
-            "approvedDocNo": "1086614639",
-            "approvedDate": "2020-02-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FC700AF3-A092-4AC7-8CE7-64C13CED019F",
-            "approvedDocNo": "1086614639",
-            "approvedDate": "2020-02-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A04B7C6C-A3DC-4457-922B-97D94FC0A87C",
-            "approvedDocNo": "1086614639",
-            "approvedDate": "2020-02-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A3377855-503C-4139-856F-B35E8603024C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R01BA53"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
         }
     ],
     "licBaseId": "D2F05DBD-4CE9-4B65-BDDC-0CA4C4A3F479"

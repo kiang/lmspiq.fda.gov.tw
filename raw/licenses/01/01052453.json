@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01052453",
+    "licUnit": "1",
     "validDate": "2025-01-12 00:00:00.000",
     "issueDate": "2010-01-12 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105245301",
@@ -31,6 +35,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8FF5116F-042B-4B91-9552-AEB9B1017F83",
+    "subCategory": [],
     "ingredientsDesc": [
         "TERLIPRESSIN ACETATE",
         "WATER FOR INJECTION ADD TO",
@@ -53,6 +60,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4494D0B0-F0F0-488B-A5BD-CC38917B7A1D",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口182-1號",
@@ -63,13 +71,16 @@
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6828001120",
+            "ingredientsName": "TERLIPRESSIN ACETATE",
             "ingredientsDesc": "TERLIPRESSIN ACETATE",
             "concentDesc": "(eq.to Terlipressin 0.85mg)",
             "concent": "1.0000",
@@ -81,6 +92,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": null,
             "concent": "9.0000",
@@ -92,6 +104,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600014900",
+            "ingredientsName": "HYDROCHLORIC ACID",
             "ingredientsDesc": "HYDROCHLORIC ACID",
             "concentDesc": null,
             "concent": null,
@@ -103,6 +116,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9604000910",
+            "ingredientsName": "WATER FOR INJECTION ADD TO",
             "ingredientsDesc": "WATER FOR INJECTION ADD TO",
             "concentDesc": null,
             "concent": "1.0000",
@@ -114,44 +128,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9E83E99F-9C51-4B81-91E4-817228A31EC8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4F7E1AD4-2BC2-400C-94A2-D8A116A3F5C3",
-            "approvedDocNo": "1086040214",
-            "approvedDate": "2020-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8FB7D7E4-C63A-455C-B3DA-EC395E0DA7CB",
-            "approvedDocNo": "1086040214",
-            "approvedDate": "2020-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "H01BA04"
-        },
         {
             "isMain": "1",
             "atcCode": "H01BA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07AB"
         }
     ],
     "licBaseId": "1B6E705F-6D87-490C-BD58-E5CC412076D0"

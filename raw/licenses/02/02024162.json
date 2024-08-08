@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024162",
+    "licUnit": "1",
     "validDate": "2025-01-28 00:00:00.000",
     "issueDate": "2005-01-28 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202416202",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "3E6A2134-DA91-4D0A-9216-EDA39CBB1FAB",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "BISACODYL",
         "SENNOSIDE"
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "90846702-73E3-4B99-9F88-EF8F69F285B2",
             "factoryCode": "1",
             "factoryName": "SHISEIDO PHARMACEUTICAL INC.",
             "factoryAddr": "220-1 CHINARA OAZA GOSE-CITY NARA JAPAN",
@@ -52,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0529000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612000400",
+            "ingredientsName": "BISACODYL",
             "ingredientsDesc": "BISACODYL",
             "concentDesc": "",
             "concent": "5.0000",
@@ -70,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002500",
+            "ingredientsName": "SENNOSIDE",
             "ingredientsDesc": "SENNOSIDE",
             "concentDesc": "",
             "concent": "13.3300",
@@ -81,100 +95,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BFB34A77-CC47-4F1F-991F-0965AC0A465A",
-            "approvedDocNo": "1110700738",
-            "approvedDate": "2022-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1F35DA51-4788-43AF-9336-1C8D3D623469",
-            "approvedDocNo": "1110700738",
-            "approvedDate": "2022-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7E72C9E7-6E76-4D4D-A75E-1DFBEF16D786",
-            "approvedDocNo": "1110700738",
-            "approvedDate": "2022-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CD6D33CA-31CD-41F4-A85D-4B2F7D37B09A",
-            "approvedDocNo": "1106808326",
-            "approvedDate": "2021-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6CDA2C79-5437-4C9F-839A-89E6415FBC98",
-            "approvedDocNo": "1106808326",
-            "approvedDate": "2021-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6301A36F-8EB2-4740-BE70-A4078B51B40E",
-            "approvedDocNo": "1086811490",
-            "approvedDate": "2020-02-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "587AA9F8-720E-4987-A362-F75B72721CFC",
-            "approvedDocNo": "1086811490",
-            "approvedDate": "2020-02-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "170DB57B-67FB-46F8-90D5-590617A295CE",
-            "approvedDocNo": "1086811490",
-            "approvedDate": "2020-02-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F1F2021C-FBAD-47A1-9683-339A8AC922C3",
-            "approvedDocNo": "1086811490",
-            "approvedDate": "2020-02-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C6978FBD-7F44-49EF-8808-1268A8707459",
-            "approvedDocNo": "1086811490",
-            "approvedDate": "2020-02-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A06AB02"
-        },
         {
             "isMain": "1",
             "atcCode": "A06AB20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A06AB06"
         }
     ],
     "licBaseId": "329C3786-376B-448C-B2F3-DB2F4AF60E18"

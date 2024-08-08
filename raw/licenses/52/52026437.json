@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2022-10-06",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "52026437",
+    "licUnit": "1",
     "validDate": "2025-01-15 00:00:00.000",
     "issueDate": "2015-01-15 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -25,6 +29,9 @@
     "medMCode": "06",
     "maMedCode": "B",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "919C8181-FE0C-42C3-A4DC-5B7DF6221250",
+    "subCategory": [],
     "ingredientsDesc": [
         "OXYCODONE HCL"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "ADF52BF2-26C0-4E04-8CDA-1A1F8885FE7A",
             "factoryCode": "1",
             "factoryName": "PURDUE PHARMACEUTICALS LP",
             "factoryAddr": "4701 PURDUE DR, WILSON NC 27893 USA",
@@ -55,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0908000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D2EE3EE4-AEEA-4F9A-A9AC-53F1E3EAC4E9",
             "factoryCode": "2",
             "factoryName": "AndersonBrecon Inc ",
             "factoryAddr": "4545 ASSEMBLY DRIVE, ROCKFORD, IL 61109 USA",
@@ -73,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS2401000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800710",
+            "ingredientsName": "OXYCODONE HCL",
             "ingredientsDesc": "OXYCODONE HCL",
             "concentDesc": "",
-            "concent": "60.000",
+            "concent": "60.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -91,79 +105,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "38C9934D-6274-4CE8-BA47-960D7D9AB6E6",
-            "approvedDocNo": "1111401439",
-            "approvedDate": "2022-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5DE384AA-670C-43E0-9540-9EF757207EF7",
-            "approvedDocNo": "1101406366",
-            "approvedDate": "2021-09-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D43AE430-F9A1-4841-9F5A-B9B79BD5077B",
-            "approvedDocNo": "1091410412",
-            "approvedDate": "2020-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F22B2B0-32C6-44E9-A05D-797C0B265201",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "261A449C-67FB-4DA2-873E-41959ED5DC7D",
-            "approvedDocNo": "1091407006",
-            "approvedDate": "2020-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C2646D46-1566-4A98-94E0-B8435D5B198D",
-            "approvedDocNo": "1081411169",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DAD33F23-2420-41C7-A9C5-E9645C8A5460",
-            "approvedDocNo": "1081411169",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3B867901-F2A0-466B-9CC9-FE16D2D2997E",
-            "approvedDocNo": "1081411169",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N02AA05"
-        },
-        {
-            "isMain": "2",
             "atcCode": "N02AA05"
         }
     ],

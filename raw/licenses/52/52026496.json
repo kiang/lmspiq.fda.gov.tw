@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026496",
+    "licUnit": "1",
     "validDate": "2025-01-28 00:00:00.000",
     "issueDate": "2015-01-28 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202649605",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CFC997A1-9B26-4CBA-9294-CD88A111CD24",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
         "CANDESARTAN CILEXETIL"
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1D797D2D-CAD5-4532-A80B-633140BC41BF",
             "factoryCode": "1",
             "factoryName": "MYLAN LABORATORIES LIMITED",
             "factoryAddr": "F\/4 & F\/12 MALEGAON MIDC, SINNAR, NASHIK-422 113, MAHARASHTRA, INDIA",
@@ -57,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "FIN0716000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005710",
+            "ingredientsName": "CANDESARTAN CILEXETIL",
             "ingredientsDesc": "CANDESARTAN CILEXETIL",
             "concentDesc": "",
-            "concent": "16.000",
+            "concent": "16.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": "",
-            "concent": "12.500",
+            "concent": "12.5000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -94,52 +106,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C64A67B0-671F-4380-8A04-3E3530AF3B72",
-            "approvedDocNo": "1110700289",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "936A261B-C9D4-435D-BAA8-A62F2D3BDF99",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "61AD6C34-B36F-4915-BAFD-EE3790FB9C54",
-            "approvedDocNo": "1086021603",
-            "approvedDate": "2019-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E6F66D62-B325-40E9-884A-21F7896F3C14",
-            "approvedDocNo": "1086021603",
-            "approvedDate": "2019-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C09CA06"
-        },
         {
             "isMain": "1",
             "atcCode": "C09DA06"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
         }
     ],
     "licBaseId": "3FAAA3BA-A3D6-4E39-986F-FC306A5EDC5F"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51R00033",
+    "licUnit": "1",
     "validDate": "2025-01-16 00:00:00.000",
     "issueDate": "2015-01-16 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY051R0003306",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4BE76972-C9BC-4861-9E64-963A9FB86324",
+    "subCategory": [],
     "ingredientsDesc": [
         "2-Deoxy-2-[18F]fluoro-D-glucose"
     ],
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E144CAF2-FC5C-414E-8876-1F22C401A86C",
             "factoryCode": "1",
             "factoryName": "吉晟生技股份有限公司",
             "factoryAddr": "新北市新莊區後港一路141號1、2樓及143號1、2樓",
@@ -52,16 +60,19 @@
             "factoryKind": "M",
             "factoryNo": "6131061700",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7800000200",
+            "ingredientsName": "2-Deoxy-2-[18F]fluoro-D-glucose",
             "ingredientsDesc": "2-Deoxy-2-[18F]fluoro-D-glucose",
             "concentDesc": "370MBq at calibration time (10 mCi at calibration time)",
-            "concent": "370.000",
+            "concent": "370.0000",
             "concentUnit": "046",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,47 +81,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5915465F-E7F6-42C1-AE0B-941DE594E8FF",
-            "approvedDocNo": "1129028972",
-            "approvedDate": "2023-08-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "672D1818-E4B1-4423-A668-E6937629B39F",
-            "approvedDocNo": "1129028970",
-            "approvedDate": "2023-07-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B4ABCAEB-8FC0-4C71-B284-1C649DEA0C27",
-            "approvedDocNo": "1129028971",
-            "approvedDate": "2023-07-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A81EE83C-4ED2-4428-B8DD-F005DC689C4A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "V09IX04"
-        },
-        {
-            "isMain": "2",
             "atcCode": "V09IX04"
         }
     ],

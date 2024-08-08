@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01046899",
+    "licUnit": "1",
     "validDate": "2025-01-12 00:00:00.000",
     "issueDate": "2005-01-12 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104689903",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FF89B8EA-5398-4011-8FAB-A73F39823FEF",
+    "subCategory": [],
     "ingredientsDesc": [
         "SULFAMETHOXAZOLE",
         "TETRAHYDROZOLINE HCL"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6BA538C9-B480-411C-B186-B3BDD0FC19CD",
             "factoryCode": "1",
             "factoryName": "景德製藥股份有限公司桃園廠",
             "factoryAddr": "桃園市蘆竹區內厝里長安路一段80號、蘆竹市長安路一段148號2樓至7樓",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "6132051397",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0824001500",
+            "ingredientsName": "SULFAMETHOXAZOLE",
             "ingredientsDesc": "SULFAMETHOXAZOLE",
             "concentDesc": "",
             "concent": "18.4000",
@@ -70,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5232000310",
+            "ingredientsName": "TETRAHYDROZOLINE HCL",
             "ingredientsDesc": "TETRAHYDROZOLINE HCL",
             "concentDesc": "",
             "concent": "0.0250",
@@ -81,84 +93,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "689D73A1-7F13-4974-BEF2-ACCDCE559477",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A4232DEC-136E-48C2-BD80-71E5454F84E6",
-            "approvedDocNo": "1086805885",
-            "approvedDate": "2019-09-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F80A2CD4-E743-4B94-A4E5-A0367753F363",
-            "approvedDocNo": "1086805885",
-            "approvedDate": "2019-09-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DAA0A274-D815-4FFD-8B11-A1CF18D23443",
-            "approvedDocNo": "1076805013",
-            "approvedDate": "2019-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED5E928D-171D-44CA-A012-4D6CAB0F645D",
-            "approvedDocNo": "1076805013",
-            "approvedDate": "2019-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4CD40B93-F9B6-4B55-9A30-C861F0A85602",
-            "approvedDocNo": "1076805013",
-            "approvedDate": "2019-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9CBF087F-BD5D-444D-B1B5-D9D09C4FB033",
-            "approvedDocNo": "1076805013",
-            "approvedDate": "2019-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4334FA2C-4999-4B6A-B0F6-F374EE9F33DE",
-            "approvedDocNo": "1076805013",
-            "approvedDate": "2019-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01GA02"
-        },
         {
             "isMain": "1",
             "atcCode": "S01GA52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AB"
         }
     ],
     "licBaseId": "BAE255E8-E9BA-4064-860F-0BD56052E285"

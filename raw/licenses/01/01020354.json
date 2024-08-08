@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01020354",
+    "licUnit": "1",
     "validDate": "2025-01-29 00:00:00.000",
     "issueDate": "1980-01-29 00:00:00.000",
+    "oriIssueDate": "1980-01-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102035400",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A7F3164B-9674-4A87-979C-5CFA5842B0F5",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEXTROSE",
         "THIAMINE DISULFIDE"
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BB352561-9E95-4026-968A-953232AB9CE6",
             "factoryCode": "1",
             "factoryName": "政德製藥股份有限公司",
             "factoryAddr": "雲林縣大埤鄉嘉興村豐田路２號",
@@ -53,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "0922116300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100800",
+            "ingredientsName": "THIAMINE DISULFIDE",
             "ingredientsDesc": "THIAMINE DISULFIDE",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -71,6 +82,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000500",
+            "ingredientsName": "DEXTROSE",
             "ingredientsDesc": "DEXTROSE",
             "concentDesc": "200",
             "concent": "200.0000",
@@ -86,14 +98,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA03"
-        },
-        {
-            "isMain": "2",
             "atcCode": "A11DA01"
         }
     ],

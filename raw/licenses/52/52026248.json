@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026248",
+    "licUnit": "1",
     "validDate": "2025-01-15 00:00:00.000",
     "issueDate": "2015-01-15 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202624802",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "B97EA3EC-649E-4030-AEC5-E97765AA6327",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "TAR"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BB08043A-5419-48F3-AA42-661D53C12E9A",
             "factoryCode": "1",
             "factoryName": "EGO PHARMACEUTICALS PTY LTD.",
             "factoryAddr": "21-31 MALCOLM ROAD, BRAESIDE VIC 3195, AUSTRALIA",
@@ -51,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FAU0119000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F5B386D0-C00E-429D-A2D4-804D9812FD9E",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -69,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "1225204000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408001200",
+            "ingredientsName": "TAR",
             "ingredientsDesc": "TAR",
             "concentDesc": "",
-            "concent": "16.000",
+            "concent": "16.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,53 +103,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B7D10D40-6820-42AA-8676-ABE8E71A09C7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-03-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4E9EB71F-1F48-4E93-82F4-E5E535256E37",
-            "approvedDocNo": "1086018538",
-            "approvedDate": "2019-09-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BD4A711B-43F4-4170-9723-47182D8A4DD2",
-            "approvedDocNo": "1086018538",
-            "approvedDate": "2019-09-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D26B0FD8-A481-4074-9A0C-6DB0E5F5F273",
-            "approvedDocNo": "1086018538",
-            "approvedDate": "2019-09-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1E38993A-2326-447C-B8BB-6C00F4037595",
-            "approvedDocNo": "1086003078",
-            "approvedDate": "2019-03-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D05AA"
-        },
         {
             "isMain": "1",
             "atcCode": "D05AA"

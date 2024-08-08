@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-12-26",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "52026411",
+    "licUnit": "1",
     "validDate": "2025-01-09 00:00:00.000",
     "issueDate": "2015-01-09 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202641100",
@@ -25,6 +29,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9715D2D4-AC92-463F-8E4F-6F57E594E49B",
+    "subCategory": [],
     "ingredientsDesc": [
         "Riociguat"
     ],
@@ -34,7 +41,7 @@
         "51"
     ],
     "applicantName": "台灣拜耳股份有限公司",
-    "applicantAddr": "台北市信義區信義路5段7號53樓",
+    "applicantAddr": "臺北市信義區信義路5段7號53樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "235DB095-82C4-4B96-86E6-1AE0F0633523",
             "factoryCode": "1",
             "factoryName": "BAYER AG",
             "factoryAddr": "Kaiser-Wilhelm-Allee, 51368 Leverkusen, Germany",
@@ -55,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0082000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412004100",
+            "ingredientsName": "Riociguat",
             "ingredientsDesc": "Riociguat",
             "concentDesc": "",
-            "concent": "1.000",
+            "concent": "1.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,71 +84,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CE35F510-53F5-4756-8E24-10A49219AA98",
-            "approvedDocNo": "1120708883",
-            "approvedDate": "2023-09-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9DAD0BE2-202C-4F5E-9CA7-FF0346C8238F",
-            "approvedDocNo": "1110718694",
-            "approvedDate": "2022-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FA9ADE6A-3F67-49C8-8861-1DFD1612F818",
-            "approvedDocNo": "1106033136",
-            "approvedDate": "2022-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B9A3EC74-D4A0-4859-A215-97FE9FC7C67D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "205427C3-72AA-4D7B-9AF0-6737EA79EAE1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "69A5CF9F-D7A2-4659-8356-825EEE322307",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F9772A2E-3CBD-4EE3-94B2-FD0DCCBB9BD2",
-            "approvedDocNo": "1086001314",
-            "approvedDate": "2019-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "C02KX05"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C02KX05"
         }
     ],
