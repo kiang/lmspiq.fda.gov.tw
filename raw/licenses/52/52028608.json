@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028608",
+    "licUnit": "1",
     "validDate": "2028-11-08 00:00:00.000",
     "issueDate": "2023-11-08 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202860800",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "51C2F865-4480-47CF-A030-FAD5D3755A51",
+    "subCategory": [
+        "B01"
+    ],
     "ingredientsDesc": [
         "Dienogest (Micronised)"
     ],
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CADF6224-9D73-4019-B353-7739C6FE286F",
             "factoryCode": "1",
             "factoryName": "CYNDEA PHARMA, S.L.",
             "factoryAddr": "POLIGONO INDUSTRIAL EMILIANO REVILLA SANZ, AVENIDA DE AGREDA 31, 42110 OLVEGA, SORIA, SPAIN",
@@ -53,23 +63,55 @@
             "factoryKind": "M",
             "factoryNo": "FES0243000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "FD0ADDCD-3E1C-4C71-A8EB-E5BFA3F8400D",
+            "factoryCode": "2",
+            "factoryName": "久裕企業股份有限公司",
+            "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "3P",
+                    "name": "二級包裝廠(委託貼標及置入仿單)"
+                }
+            ],
+            "processCodeStr": "3P;二級包裝廠(委託貼標及置入仿單)",
+            "factoryKind": "M",
+            "factoryNo": "6605071926",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9901049710",
+            "ingredientsName": "Dienogest (Micronised)",
             "ingredientsDesc": "Dienogest (Micronised)",
             "concentDesc": "",
-            "concent": "2.000",
+            "concent": "2.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [],
+    "authDtoList": [
+        {
+            "applicantName": "久裕企業股份有限公司",
+            "certNo": "DHA05202860811",
+            "approveDocNo": "1139058447",
+            "authDate": "2024-08-01",
+            "validDate": "2028-11-08"
+        }
+    ],
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [

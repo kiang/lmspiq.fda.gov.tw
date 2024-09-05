@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01038589",
+    "licUnit": "1",
     "validDate": "2025-02-18 00:00:00.000",
     "issueDate": "1995-02-18 00:00:00.000",
+    "oriIssueDate": "1995-02-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103858905",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "62D780C2-6EE7-4B7F-B59A-107CD6A117F3",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "CAFFEINE ANHYDROUS"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C1442179-DFC9-4541-9081-E28FE56644CF",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
             "factoryAddr": "彰化市東芳里彰鹿路１０６號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
             "concent": "500.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
             "concent": "65.0000",
@@ -93,68 +105,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "63329228-B83F-4B47-9A5F-1154EBE74A26",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0B22CE22-9DEF-4EDB-8C21-5C54C6705E25",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "374881EC-4DF3-4D8D-ABDE-BE6F92B1A91F",
-            "approvedDocNo": "1096800120",
-            "approvedDate": "2020-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9AEA74F7-FCE8-4395-BCA6-FE28627D7C3B",
-            "approvedDocNo": "1096800120",
-            "approvedDate": "2020-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "50939EDA-640F-4C94-9BF2-24B1B3408D52",
-            "approvedDocNo": "1096800120",
-            "approvedDate": "2020-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DD1918E9-55EF-454F-A9B8-0B94E81D40BC",
-            "approvedDocNo": "1096800120",
-            "approvedDate": "2020-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02BE51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
         }
     ],
     "licBaseId": "636B5ACA-F20B-4CBB-A5F3-723CFF1AA2BC"

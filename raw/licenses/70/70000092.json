@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "70000092",
+    "licUnit": "1",
     "validDate": "2033-06-26 00:00:00.000",
     "issueDate": "2023-06-26 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA07000009206",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "2C54A6EB-0458-434D-851F-86F8AC57B4E3",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "MITOTANE"
     ],
@@ -42,19 +51,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D9D15902-7648-40E9-8994-DB3BF86D17F8",
             "factoryCode": "1",
-            "factoryName": "Corden Pharma Latina S.p.A.",
-            "factoryAddr": "VIA MURILLO, 7 - 04013 SERMONETA (LT), ITALY",
+            "factoryName": "LATINA PHARMA S.P.A.",
+            "factoryAddr": "VIA MURILLO, 7 -04013 SERMONETA (LT), ITALY",
             "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FIT0034000",
+            "factoryNo": "FIT0034100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "5595FCBE-7660-49A8-B8C5-661D89E3FEB7",
             "factoryCode": "2",
             "factoryName": "友華生技醫藥股份有限公司桃園製藥廠",
             "factoryAddr": "桃園市桃園區大誠路11號",
@@ -70,9 +83,12 @@
             "factoryKind": "M",
             "factoryNo": "0416604300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F7D36667-BA46-4D52-BCD3-E0EDE48B82AF",
             "factoryCode": "2",
             "factoryName": "Centre Specialites Pharmaceutiques",
             "factoryAddr": "76-78 Avenue du Midi CS 30077 Cournon, 63802 France",
@@ -88,16 +104,19 @@
             "factoryKind": "M",
             "factoryNo": "FFR0403000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1000000100",
+            "ingredientsName": "MITOTANE",
             "ingredientsDesc": "MITOTANE",
             "concentDesc": "",
-            "concent": "500.000",
+            "concent": "500.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "72000015",
+    "licUnit": "1",
     "validDate": "2028-12-27 00:00:00.000",
     "issueDate": "2013-12-27 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA07200001504",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "449A6C31-046A-45D1-8C43-5A71129CE8AA",
+    "subCategory": [],
     "ingredientsDesc": [
         "IMIGLUCERASE"
     ],
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "279ABA15-8ED7-43C3-B58E-18C813BEE925",
             "factoryCode": "1",
             "factoryName": "GENZYME IRELAND LIMITED",
             "factoryAddr": "IDA INDUSTRIAL PARK, OLD KILMEADEN ROAD, WATERFORD, IRELAND",
@@ -52,9 +60,54 @@
             "factoryKind": "M",
             "factoryNo": "FIE0035000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "83ACA55B-0B7A-4A17-9DFC-143B181EFF70",
+            "factoryCode": "2",
+            "factoryName": "台灣大昌華嘉股份有限公司高上倉",
+            "factoryAddr": "桃園市楊梅區高上路1段150號",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "3Q",
+                    "name": "二級包裝廠(置入仿單)"
+                }
+            ],
+            "processCodeStr": "3Q;二級包裝廠(置入仿單)",
+            "factoryKind": "M",
+            "factoryNo": "6132041444",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "7733797F-3A40-4D98-A8D8-F11E741225DE",
+            "factoryCode": "2",
+            "factoryName": "台灣大昌華嘉股份有限公司",
+            "factoryAddr": "桃園市楊梅區瑞坪里梅獅路二段６２９號",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "3Q",
+                    "name": "二級包裝廠(置入仿單)"
+                }
+            ],
+            "processCodeStr": "3Q;二級包裝廠(置入仿單)",
+            "factoryKind": "M",
+            "factoryNo": "7770824858",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "97450F0B-4EFF-4995-ADD7-1E9164009DD7",
             "factoryCode": "2",
             "factoryName": "RESILIENCE US, INC.",
             "factoryAddr": "500 SOLDIERS FIELD RD, ALLSTON, MA 02134, U.S.A.",
@@ -70,9 +123,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0348200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "159451E5-EBC5-4856-80A9-5A9FEF154F45",
             "factoryCode": "2",
             "factoryName": "LONZA BIOLOGICS, INC.",
             "factoryAddr": "101 INTERNATIONAL DRIVE PEASE INTERNATIONAL TRADEPORT PORTSMOUTH, NEW HAMPSHIRE, U.S. 03801",
@@ -88,9 +144,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0508000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7F793108-9A00-4556-BF54-D6C51B4D9965",
             "factoryCode": "2",
             "factoryName": "Genzyme Corporation",
             "factoryAddr": "11 Forbes Road, Northborough, MA 01532, USA",
@@ -106,9 +165,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0788000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "93A014C9-3BC9-40C3-A3F3-664D1642152F",
             "factoryCode": "2",
             "factoryName": "Genzyme Corporation",
             "factoryAddr": "8 New York Avenue, Framingham, MA, 01701, USA",
@@ -124,16 +186,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS1218000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200099000",
+            "ingredientsName": "IMIGLUCERASE",
             "ingredientsDesc": "IMIGLUCERASE",
             "concentDesc": "",
-            "concent": "424.000",
+            "concent": "424.0000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "1",
@@ -142,48 +207,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "479C5D11-8009-4772-B35E-24F95235554D",
-            "approvedDocNo": "1129012972",
-            "approvedDate": "2023-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4E4A6E1B-BC39-41BF-9604-45D886852443",
-            "approvedDocNo": "1129012972",
-            "approvedDate": "2023-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "186E3E05-ACF3-4D81-AB13-F881CFCD70D8",
-            "approvedDocNo": "1129013432",
-            "approvedDate": "2023-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A510AB2A-DE9A-4AD5-AEA2-8C79677BD676",
-            "approvedDocNo": "1119039987",
-            "approvedDate": "2022-09-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9FAA6573-80CF-43C4-9F34-8559D9258DB1",
-            "approvedDocNo": "1086008842",
-            "approvedDate": "2019-09-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

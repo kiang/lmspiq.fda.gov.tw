@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028217",
+    "licUnit": "1",
     "validDate": "2027-01-05 00:00:00.000",
     "issueDate": "2022-01-05 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202821701",
@@ -27,6 +31,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "1625EFCA-A34F-40A6-8004-975CF2C484DC",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "rilpivirine"
     ],
@@ -47,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "29CE8452-854F-4A8F-89D1-60D88BDBE674",
             "factoryCode": "1",
             "factoryName": "CILAG AG",
             "factoryAddr": "HOCHSTRASSE 201, 8200 SCHAFFHAUSEN, SWITZERLAND",
@@ -57,9 +67,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0216000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "C20D15BF-7394-457D-9131-693A27EAF5B4",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -75,9 +88,12 @@
             "factoryKind": "M",
             "factoryNo": "1225204000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "945DD46E-960D-4C66-B4CB-8137C7A3FB59",
             "factoryCode": "2",
             "factoryName": "STIFTUNG ALTRA SCHAFFHAUSEN",
             "factoryAddr": "MUHLENSTRASSE 56, 8200 SCHAFFHAUSEN, SWITZERLAND",
@@ -93,16 +109,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0335000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818006200",
+            "ingredientsName": "rilpivirine",
             "ingredientsDesc": "rilpivirine",
             "concentDesc": "",
-            "concent": "300.000",
+            "concent": "300.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -119,40 +138,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DD93447F-EC1F-4027-971F-6293612C6D8C",
-            "approvedDocNo": "1120707369",
-            "approvedDate": "2023-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BD4F97D6-ADE8-4EE8-966C-8486D11D57E9",
-            "approvedDocNo": "1120702210",
-            "approvedDate": "2023-06-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D4301C5B-3694-4851-A498-A0D6F23F0140",
-            "approvedDocNo": "1110710651",
-            "approvedDate": "2023-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CA6D1A6B-C786-4957-9C55-187C8C8D7053",
-            "approvedDocNo": "1110710651",
-            "approvedDate": "2023-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059409",
+    "licUnit": "1",
     "validDate": "2027-01-09 00:00:00.000",
     "issueDate": "2017-01-09 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105940900",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0B209468-2AEC-4752-808C-99E68B0C0F6C",
+    "subCategory": [],
     "ingredientsDesc": [
         "VALSARTAN",
         "AMLODIPINE BESYLATE"
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "31D21FB1-006D-48C5-B3CE-7B2701BBD2FA",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -58,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412402210",
+            "ingredientsName": "AMLODIPINE BESYLATE",
             "ingredientsDesc": "AMLODIPINE BESYLATE",
             "concentDesc": "(eq. to Amlodipine.....5mg)",
-            "concent": "6.940",
+            "concent": "6.9400",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005100",
+            "ingredientsName": "VALSARTAN",
             "ingredientsDesc": "VALSARTAN",
             "concentDesc": "",
-            "concent": "80.000",
+            "concent": "80.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,57 +99,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9CF2F5B2-9950-4224-B490-1130E24E0DE7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C072F9A2-57AC-4D41-B2A6-C58611B0C728",
-            "approvedDocNo": "1096029533",
-            "approvedDate": "2020-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1117F0C0-857E-4DC3-ACCF-BF495CF4E442",
-            "approvedDocNo": "1096024175",
-            "approvedDate": "2020-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F66E5D05-C1C0-42AA-BE2E-B19E7729264F",
-            "approvedDocNo": "1096021793",
-            "approvedDate": "2020-08-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6DAE5428-FBDD-41DA-AA08-3E282CCC08EC",
-            "approvedDocNo": "1086033664",
-            "approvedDate": "2019-11-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C08CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09CA03"
-        },
         {
             "isMain": "1",
             "atcCode": "C09DB01"

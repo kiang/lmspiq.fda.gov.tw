@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028616",
+    "licUnit": "1",
     "validDate": "2028-12-25 00:00:00.000",
     "issueDate": "2023-12-25 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202861602",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "C054F697-CEF9-4C51-A949-509EDB9CA157",
+    "subCategory": [
+        "A03"
+    ],
     "ingredientsDesc": [
         "Niraparib tosylate monohydrate",
         "Abiraterone Acetate"
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BF81574B-CA69-4795-A6A6-FFA5698531F5",
             "factoryCode": "1",
             "factoryName": "PATHEON FRANCE",
             "factoryAddr": "40 BOULEVARD DE CHAMPARET, 38300 BOURGOIN JALLIEU, FRANCE.",
@@ -58,9 +68,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0109000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "24DF2C31-8DAD-44AA-B206-9719D7C889AB",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -76,9 +89,12 @@
             "factoryKind": "M",
             "factoryNo": "1225204000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "97E13F47-5118-4B3D-8BBB-59185DFA9243",
             "factoryCode": "2",
             "factoryName": "JANSSEN-CILAG S.P.A.",
             "factoryAddr": "VIA C. JANSSEN 04100 BORGO S. MICHELE-LATINA, ITALY",
@@ -94,16 +110,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0332000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013002000",
+            "ingredientsName": "Niraparib tosylate monohydrate",
             "ingredientsDesc": "Niraparib tosylate monohydrate",
             "concentDesc": "Granules-Intragranular phase",
-            "concent": "159.400",
+            "concent": "159.4000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -112,9 +131,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200093900",
+            "ingredientsName": "Abiraterone Acetate",
             "ingredientsDesc": "Abiraterone Acetate",
             "concentDesc": "",
-            "concent": "500.000",
+            "concent": "500.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -124,6 +144,11 @@
     "authDtoList": [],
     "iomDtoList": [],
     "changeDtoList": [],
-    "atcList": [],
+    "atcList": [
+        {
+            "isMain": "1",
+            "atcCode": "L01XK52"
+        }
+    ],
     "licBaseId": "75279C02-F450-4B3D-8CAA-3CCAD298A69F"
 }

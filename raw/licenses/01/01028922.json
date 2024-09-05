@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01028922",
+    "licUnit": "1",
     "validDate": "2025-02-25 00:00:00.000",
     "issueDate": "1986-06-03 00:00:00.000",
+    "oriIssueDate": "1986-06-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102892209",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3B17541A-0296-4ADF-90FB-711A53FFC0CD",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM LAURYL SULFATE",
         "TOTAL TITANIUM DIOXIDE",
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B260A33E-8168-412B-965E-D1E03E289FE4",
             "factoryCode": "1",
             "factoryName": "信隆藥品工業股份有限公司",
             "factoryAddr": "台南市仁德區中正路三段２６９號",
@@ -54,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "0909920300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820002500",
+            "ingredientsName": "PIRACETAM",
             "ingredientsDesc": "PIRACETAM",
             "concentDesc": "400",
             "concent": "400.0000",
@@ -72,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600012700",
+            "ingredientsName": "GELATIN",
             "ingredientsDesc": "GELATIN",
             "concentDesc": "",
             "concent": "81.3900",
@@ -83,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9602020802",
+            "ingredientsName": "TOTAL TITANIUM DIOXIDE",
             "ingredientsDesc": "TOTAL TITANIUM DIOXIDE",
             "concentDesc": "",
             "concent": "0.5620",
@@ -94,6 +107,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8420000600",
+            "ingredientsName": "SODIUM LAURYL SULFATE",
             "ingredientsDesc": "SODIUM LAURYL SULFATE",
             "concentDesc": "",
             "concent": "0.0480",
@@ -107,10 +121,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N06BX03"
-        },
         {
             "isMain": "1",
             "atcCode": "N06BX03"

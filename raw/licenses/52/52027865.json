@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027865",
+    "licUnit": "1",
     "validDate": "2025-05-21 00:00:00.000",
     "issueDate": "2020-05-21 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202786502",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "04FF7FE8-4092-4AFB-8BFE-C22B74B976A0",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Entrectinib"
     ],
@@ -33,7 +42,7 @@
         "5F"
     ],
     "applicantName": "羅氏大藥廠股份有限公司",
-    "applicantAddr": "台北市信義區松仁路100號40樓、40樓之1、41樓之1",
+    "applicantAddr": "台北市南港區經貿一路170號10樓、10樓之1至之3、10樓之5至之8",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -44,19 +53,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "05F793E9-0640-4B1D-96DA-2C76C91ECB2C",
             "factoryCode": "1",
-            "factoryName": "Mayne Pharma Inc.",
-            "factoryAddr": "1240 Sugg Parkway Greenville, NC 27834 ,USA",
+            "factoryName": "Catalent Greenville, Inc.",
+            "factoryAddr": "1240 Sugg Parkway, Greenville, NC 27834, USA",
             "factoryCompanyAddr": "",
             "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FUS1056000",
+            "factoryNo": "FUS9498000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "9190976B-2C0F-4FB3-95BE-E8DE893D79BF",
             "factoryCode": "2",
             "factoryName": "F.HOFFMANN-LA ROCHE LTD.",
             "factoryAddr": "WURMISWEG, CH-4303 KAISERAUGST, SWITZERLAND",
@@ -72,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0208000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013007800",
+            "ingredientsName": "Entrectinib",
             "ingredientsDesc": "Entrectinib",
             "concentDesc": "",
-            "concent": "200.000",
+            "concent": "200.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,80 +106,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C920D023-5323-476C-9A7A-4AD6293908B9",
-            "approvedDocNo": "1120701733",
-            "approvedDate": "2023-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A7144440-DAD6-46E6-B99E-9942D24454C5",
-            "approvedDocNo": "1120701733",
-            "approvedDate": "2023-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9E9415DF-278C-4A04-8B32-C049347DFFDB",
-            "approvedDocNo": "1120707346",
-            "approvedDate": "2023-05-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7C68E63E-8E79-43C6-B628-D6F0DE27E130",
-            "approvedDocNo": "1110723781",
-            "approvedDate": "2022-09-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B2619812-053B-4339-B3CA-7B7ECEF99F58",
-            "approvedDocNo": "1110709845",
-            "approvedDate": "2022-08-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C7E92DB8-9895-40A4-BA76-0BC7E612D787",
-            "approvedDocNo": "1106009261",
-            "approvedDate": "2021-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2D74DB44-D7A5-4383-A13C-927293F15AD9",
-            "approvedDocNo": "1106009261",
-            "approvedDate": "2021-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EDBFFCCA-9B38-43B3-8BF9-C5F1072CA142",
-            "approvedDocNo": "1106009261",
-            "approvedDate": "2021-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9E99621B-3DC8-44A1-88AF-895329ED97A7",
-            "approvedDocNo": "1096019968",
-            "approvedDate": "2021-04-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

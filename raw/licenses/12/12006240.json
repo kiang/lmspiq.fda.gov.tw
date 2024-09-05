@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12006240",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1970-07-21 00:00:00.000",
+    "oriIssueDate": "1970-07-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01200624004",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6CC15D6B-26E9-45AB-A3F1-79B3AE2E7AA1",
+    "subCategory": [],
     "ingredientsDesc": [
         "PECTIN",
         "KAOLIN (WHITE)(BOLUS ALBA)",
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BC9FF9DE-B892-4F76-80D5-E88BE6A060C5",
             "factoryCode": "1",
             "factoryName": "人人化學製藥股份有限公司中壢廠",
             "factoryAddr": "桃園市中壢區南園二路３號",
@@ -54,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "0201504300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812100530",
+            "ingredientsName": "NEOMYCIN SULFATE",
             "ingredientsDesc": "NEOMYCIN SULFATE",
             "concentDesc": "70",
-            "concent": "70.000",
+            "concent": "70.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5608000600",
+            "ingredientsName": "KAOLIN (WHITE)(BOLUS ALBA)",
             "ingredientsDesc": "KAOLIN (WHITE)(BOLUS ALBA)",
             "concentDesc": null,
             "concent": null,
@@ -83,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5608001100",
+            "ingredientsName": "PECTIN",
             "ingredientsDesc": "PECTIN",
             "concentDesc": null,
             "concent": null,
@@ -94,37 +107,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BCE8589F-D411-46AA-A78F-5F6AE1A79630",
-            "approvedDocNo": "1110814675",
-            "approvedDate": "2023-05-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "21ACAD6F-5300-4953-9F57-DE1CC3461BCB",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A07BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A07AA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A07BC02"
-        },
         {
             "isMain": "1",
             "atcCode": "A07XA"

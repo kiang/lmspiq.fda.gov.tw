@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026376",
+    "licUnit": "1",
     "validDate": "2025-02-03 00:00:00.000",
     "issueDate": "2015-02-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202637608",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "181BD90D-5676-4BE5-A37D-C9778E44BFDC",
+    "subCategory": [],
     "ingredientsDesc": [
         "POSACONAZOLE, MICRONIZED"
     ],
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "702A5273-0A72-4206-8ED2-8660D48370F9",
             "factoryCode": "1",
             "factoryName": "N.V. ORGANON",
             "factoryAddr": "KLOOSTERSTRAAT 6 5349 AB OSS,THE NETHERLANDS",
@@ -52,9 +60,12 @@
             "factoryKind": "M",
             "factoryNo": "FNL0022000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "BBA088FA-B2AF-4608-A314-E15D33552E6A",
             "factoryCode": "2",
             "factoryName": "Organon Heist bv",
             "factoryAddr": "Industriepark 30, 2220 Heist-op-den-Berg, Belgium",
@@ -70,16 +81,19 @@
             "factoryKind": "M",
             "factoryNo": "FBE0122000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812204720",
+            "ingredientsName": "POSACONAZOLE, MICRONIZED",
             "ingredientsDesc": "POSACONAZOLE, MICRONIZED",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,71 +102,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B030D7B3-DA82-48A5-8806-15535B10C7D8",
-            "approvedDocNo": "1129025192",
-            "approvedDate": "2023-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AAB5E488-7206-49B0-B950-32D47D049337",
-            "approvedDocNo": "1129025192",
-            "approvedDate": "2023-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E46D0E76-E379-4604-85EE-4E2177F24703",
-            "approvedDocNo": "1101499390",
-            "approvedDate": "2022-03-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5D8967B1-A9C6-4D96-817F-6748727F6E8B",
-            "approvedDocNo": "1101495007",
-            "approvedDate": "2021-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "381CC55D-ECB2-41DE-98B6-AC34B437CCDA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9529C350-F378-4154-9D91-0E1B795277AA",
-            "approvedDocNo": "1086018605",
-            "approvedDate": "2020-01-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "95833E49-EE2B-4585-AAC4-04B76571AE56",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J02AC04"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J02AC04"
         }
     ],

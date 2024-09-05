@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022254",
+    "licUnit": "1",
     "validDate": "2023-07-29 00:00:00.000",
     "issueDate": "1998-07-29 00:00:00.000",
+    "oriIssueDate": "1998-07-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202225407",
@@ -16,13 +20,16 @@
     "does": "1119",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D25C553C-926F-42F5-92DC-E3AE99A2B1A6",
+    "subCategory": [],
     "ingredientsDesc": [
         "PYRIDOXINE HCL",
         "TOCOPHEROL SUCCINATE",
@@ -30,7 +37,7 @@
         "CYANOCOBALAMIN (VIT B12)"
     ],
     "restraintItemsCode": [
-        "02"
+        "1Q"
     ],
     "applicantName": "高平貿易股份有限公司",
     "applicantAddr": "台北市錦州街２８６號",
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "99F2F493-8691-4183-A1B6-54CBCC06C13E",
             "factoryCode": "1",
             "factoryName": "KOBAYASHI YAKUHIN KOGYO CO. LTD",
             "factoryAddr": "OUJI PLANT:14,2-CHOME,NAGARAOUJI-CHO,GIFU-CITY,GIFU-PREF,JAPAN",
@@ -54,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0143000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000400",
+            "ingredientsName": "TOCOPHEROL SUCCINATE",
             "ingredientsDesc": "TOCOPHEROL SUCCINATE",
             "concentDesc": "(D-)       33.33",
             "concent": null,
@@ -72,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101100",
+            "ingredientsName": "BISBENTIAMINE (THIAMINE O-BENZOYL DISULFIDE)",
             "ingredientsDesc": "BISBENTIAMINE (THIAMINE O-BENZOYL DISULFIDE)",
             "concentDesc": "33.33",
             "concent": "33.3300",
@@ -83,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "33.33",
             "concent": "33.3300",
@@ -94,6 +107,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -105,60 +119,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C26BC623-6311-4DD2-A8A6-1A3F99BBEB41",
-            "approvedDocNo": "1101494836",
-            "approvedDate": "2021-07-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "99422DC9-A0C6-42F6-8AC2-AF5C6E1334CD",
-            "approvedDocNo": "1101492075",
-            "approvedDate": "2021-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3DCA170B-137D-468B-BC57-B68C9F2A6DA2",
-            "approvedDocNo": "1101492075",
-            "approvedDate": "2021-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "29FE4046-2109-4E86-9755-D23CCD4F7D9B",
-            "approvedDocNo": "1101492075",
-            "approvedDate": "2021-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
         {
             "isMain": "1",
             "atcCode": "A11JA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
         }
     ],
     "licBaseId": "56F64F6F-238B-4C16-8539-65972F4E11F9"

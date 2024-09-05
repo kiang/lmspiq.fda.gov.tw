@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01023524",
+    "licUnit": "1",
     "validDate": "2024-12-31 00:00:00.000",
     "issueDate": "1981-05-30 00:00:00.000",
+    "oriIssueDate": "1981-05-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102352401",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A1052D70-B9E2-4992-A3B7-A5D2356B0C85",
+    "subCategory": [],
     "ingredientsDesc": [
         "CARBETAPENTANE CITRATE (eq to Pentoxyverine Citrate)"
     ],
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D5C5A552-677F-47C5-938D-89E524E6CC81",
             "factoryCode": "1",
             "factoryName": "華興化學製藥廠股份有限公司",
             "factoryAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -51,13 +59,16 @@
             "factoryKind": "M",
             "factoryNo": "1203612300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800000510",
+            "ingredientsName": "CARBETAPENTANE CITRATE (eq to Pentoxyverine Citrate)",
             "ingredientsDesc": "CARBETAPENTANE CITRATE (eq to Pentoxyverine Citrate)",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -69,47 +80,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C7ACD29B-5DF2-48C4-9BE5-1F22DCA2E651",
-            "approvedDocNo": "1110017857",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DCC08278-5947-4F07-B7F8-FEB742B2E67D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5A9B039F-1706-4EAC-91B6-6521524E5F91",
-            "approvedDocNo": "1100032643",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BDF8D8C9-C121-4CDD-AA85-358477A110AC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "R05DB05"
-        },
-        {
-            "isMain": "2",
             "atcCode": "R05DB05"
         }
     ],

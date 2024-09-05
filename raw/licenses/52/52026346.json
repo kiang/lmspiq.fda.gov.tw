@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026346",
+    "licUnit": "1",
     "validDate": "2024-07-14 00:00:00.000",
     "issueDate": "2014-07-14 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202634602",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F38BB5C6-812C-4B13-B696-8012E6A1F4E0",
+    "subCategory": [],
     "ingredientsDesc": [
         "CEFTRIAXONE SODIUM"
     ],
@@ -34,7 +41,7 @@
         "02"
     ],
     "applicantName": "台灣費森尤斯卡比股份有限公司",
-    "applicantAddr": "台北市大安區仁愛路三段30號5樓32號5樓",
+    "applicantAddr": "臺北市大安區仁愛路3段30號5樓、32號5樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1903F35F-BACB-4337-B844-B9A36688905C",
             "factoryCode": "1",
             "factoryName": "LABESFAL, LABORATORIOS ALMIRO, S.A.",
             "factoryAddr": "ZONA INDUSTRIAL DO LAGEDO, 3465-157 SANTIAGO DE BESTEIROS, PORTUGAL",
@@ -55,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "FPT0017000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812303310",
+            "ingredientsName": "CEFTRIAXONE SODIUM",
             "ingredientsDesc": "CEFTRIAXONE SODIUM",
             "concentDesc": "3.5 H2O (eq. to Ceftriaxone 0.5gm)",
-            "concent": "0.597",
+            "concent": "0.5970",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,23 +84,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6325F9DE-95E0-4AAB-874D-EC3075C297B8",
-            "approvedDocNo": "1106819273",
-            "approvedDate": "2022-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J01DD04"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J01DD04"
         }
     ],

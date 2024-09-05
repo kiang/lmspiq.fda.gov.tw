@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01032124",
-    "validDate": "2025-02-01 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2030-02-01 00:00:00.000",
     "issueDate": "1990-02-01 00:00:00.000",
+    "oriIssueDate": "1990-02-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103212409",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "225E2575-2737-465F-88E6-DF07E5B22FD4",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
@@ -31,7 +38,6 @@
         "CHLORPHENIRAMINE MALEATE"
     ],
     "restraintItemsCode": [
-        "01",
         "1R"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
@@ -46,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C58E476F-3E30-40A6-8987-A2B838FC688E",
             "factoryCode": "1",
             "factoryName": "優良化學製藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉中興村光復路10號",
@@ -56,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "1702804200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
             "concent": "150.0000",
@@ -74,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808600900",
+            "ingredientsName": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "ingredientsDesc": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "concentDesc": "",
             "concent": "150.0000",
@@ -85,6 +96,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
             "concent": "4.0000",
@@ -96,6 +108,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001810",
+            "ingredientsName": "METHYLEPHEDRINE HCL",
             "ingredientsDesc": "METHYLEPHEDRINE HCL",
             "concentDesc": "",
             "concent": "15.0000",
@@ -107,6 +120,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
             "concent": "30.0000",
@@ -118,96 +132,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A0FD7880-4373-4114-814C-CEFDCA697552",
-            "approvedDocNo": "1120732758",
-            "approvedDate": "2024-01-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "01C09FD7-13AB-46E5-858F-ED3BE285A75D",
-            "approvedDocNo": "1120732758",
-            "approvedDate": "2024-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E3810238-52F3-4A64-82BA-FD4CF557A066",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AF212572-BEC0-4554-99A3-DB4B5EE19820",
-            "approvedDocNo": "1076808067",
-            "approvedDate": "2019-04-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FCA3F393-FA97-4FA9-9EB6-2FA8FF924CF4",
-            "approvedDocNo": "1076808067",
-            "approvedDate": "2019-04-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B9A18664-23C0-440C-B5FE-30053126C3EC",
-            "approvedDocNo": "1076808067",
-            "approvedDate": "2019-04-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3FDF0AC9-EE28-452A-B107-3DAFE8CDD320",
-            "approvedDocNo": "1076808067",
-            "approvedDate": "2019-04-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BC5B13E1-80DE-4982-9B66-8AD4F03ABCB2",
-            "approvedDocNo": "1076808067",
-            "approvedDate": "2019-04-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N02BA07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
-        },
         {
             "isMain": "1",
             "atcCode": "R05X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
         }
     ],
     "licBaseId": "ED9484D7-F734-4292-AA50-38FDE4987C9C"

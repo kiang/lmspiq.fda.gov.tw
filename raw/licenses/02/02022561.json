@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022561",
+    "licUnit": "1",
     "validDate": "2024-07-29 00:00:00.000",
     "issueDate": "1999-07-29 00:00:00.000",
+    "oriIssueDate": "1999-07-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202256103",
@@ -16,17 +20,20 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "13"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F325CE6C-0F12-4561-A1C2-942E6518C304",
+    "subCategory": [],
     "ingredientsDesc": [
         "LIDOCAINE HCL",
         "EPINEPHRINE BITARTRATE"
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4EFC2597-5409-4AD8-A9A3-A0BB342CE481",
             "factoryCode": "1",
             "factoryName": "AYUMI Pharmaceutical Corporation(TAMAGAWA PLANT)",
             "factoryAddr": "13-1,3-CHOME,SHIMONOGE, TAKATU-KU,KAWASAKI-CITY,KANAGAWA,JAPAN",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0305000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001010",
+            "ingredientsName": "LIDOCAINE HCL",
             "ingredientsDesc": "LIDOCAINE HCL",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212000620",
+            "ingredientsName": "EPINEPHRINE BITARTRATE",
             "ingredientsDesc": "EPINEPHRINE BITARTRATE",
             "concentDesc": "0.025",
             "concent": "0.0250",
@@ -86,44 +98,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A05513B4-8005-41EA-A935-3B1C3D823EDE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B76187EF-819E-4745-80F4-64358525D198",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B67923EA-323E-45C3-BA05-F29B5AEDEDA8",
-            "approvedDocNo": "1076044752",
-            "approvedDate": "2019-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B02BC09"
-        },
         {
             "isMain": "1",
             "atcCode": "N01BB52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N01BB02"
         }
     ],
     "licBaseId": "C77D2280-4B6A-4315-A8E0-626E3F551261"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050240",
+    "licUnit": "1",
     "validDate": "2024-07-17 00:00:00.000",
     "issueDate": "2009-07-17 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105024000",
@@ -27,13 +31,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BA1E1E89-D6F5-4DF6-9C10-31979A44816B",
+    "subCategory": [],
     "ingredientsDesc": [
         "LOSARTAN POTASSIUM"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "67"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -47,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2B6191B7-0364-4720-8FDD-0C56B505DE0B",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
@@ -57,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005210",
+            "ingredientsName": "LOSARTAN POTASSIUM",
             "ingredientsDesc": "LOSARTAN POTASSIUM",
             "concentDesc": null,
             "concent": "50.0000",
@@ -75,31 +84,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BF491BB1-8515-4940-A601-1A2EB3E86F53",
-            "approvedDocNo": "1086808072",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D70E8AE4-9C6F-40A3-99E6-2DE7F32ADCCB",
-            "approvedDocNo": "1086808072",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "C09CA01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C09CA01"
         }
     ],

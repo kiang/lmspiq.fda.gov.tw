@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025192",
+    "licUnit": "1",
     "validDate": "2025-05-17 00:00:00.000",
     "issueDate": "2010-05-17 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202519200",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "47F9B093-0736-4B92-A61E-FFAEACE123D0",
+    "subCategory": [],
     "ingredientsDesc": [
         "DARUNAVIR ETHANOLATE"
     ],
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5A757FF5-3738-41A4-BFAE-94D558CD3571",
             "factoryCode": "1",
             "factoryName": "JANSSEN ORTHO LLC",
             "factoryAddr": "STATE ROAD 933 KM 0.1 MAMEY WARD, GURABO, PUERTO RICO, 00778, USA",
@@ -51,9 +59,12 @@
             "factoryKind": "M",
             "factoryNo": "FPR0062000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "AE25B436-4045-407D-BFD7-D9B7CD84B5C4",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -69,9 +80,12 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F504876B-84C3-4A8B-8B6F-649043E7DDA8",
             "factoryCode": "2",
             "factoryName": "JANSSEN-CILAG S.P.A.",
             "factoryAddr": "VIA C. JANSSEN 04010 BORGO SAN MICHELE-LATINA, ITALY",
@@ -87,13 +101,16 @@
             "factoryKind": "M",
             "factoryNo": "FIT0332300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818003610",
+            "ingredientsName": "DARUNAVIR ETHANOLATE",
             "ingredientsDesc": "DARUNAVIR ETHANOLATE",
             "concentDesc": "(equivalent to Darunavir 600mg)",
             "concent": "650.4600",
@@ -105,87 +122,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "82A869F4-0BBC-4BDF-AA44-0E9D3E11D9FC",
-            "approvedDocNo": "1101492570",
-            "approvedDate": "2021-11-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1FAE6E83-CD42-4D6C-BCFD-B1242C3DCFAD",
-            "approvedDocNo": "1101493209",
-            "approvedDate": "2021-09-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F142A1A7-84A3-48C8-B1C8-1FD084553F4C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FC8FC3BB-2399-4C2C-9DBC-8DF6A08AE85F",
-            "approvedDocNo": "1086026321",
-            "approvedDate": "2020-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5D9BD7CA-9082-4868-9C28-47071A41A5BF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CAFBA391-A0E3-4A57-9B7F-F8716C92909D",
-            "approvedDocNo": "1086019817",
-            "approvedDate": "2019-08-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "734B6763-8A17-4131-A196-E2E67EE2DDC1",
-            "approvedDocNo": "1081490985",
-            "approvedDate": "2019-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5954EB50-58D2-42CA-A833-753E06625880",
-            "approvedDocNo": "1076042476",
-            "approvedDate": "2019-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7FC1364B-98B3-456A-A25B-4BC131FB4987",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J05AE10"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J05AE10"
         }
     ],

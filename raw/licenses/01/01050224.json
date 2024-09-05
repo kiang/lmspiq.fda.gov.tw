@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050224",
-    "validDate": "2024-07-10 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-10 00:00:00.000",
     "issueDate": "2009-07-10 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105022402",
@@ -26,12 +30,17 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "627BA349-0888-4103-A7C9-548D83A7C84D",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "SIMETHICONE (ACTIVE DIMETHICONE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "1R"
     ],
     "applicantName": "永勝藥品工業股份有限公司",
     "applicantAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路6-3號",
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A7C36F17-3B10-4C7E-B9E6-4D70C8DFC56D",
             "factoryCode": "1",
             "factoryName": "永勝藥品工業股份有限公司",
             "factoryAddr": "嘉義縣民雄鄉頭橋工業區工業三路六之三號",
@@ -55,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "6140040022",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000600",
+            "ingredientsName": "SIMETHICONE (ACTIVE DIMETHICONE)",
             "ingredientsDesc": "SIMETHICONE (ACTIVE DIMETHICONE)",
             "concentDesc": null,
             "concent": "40.0000",
@@ -73,21 +86,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C97C6006-C9BD-45E1-AF24-176726B4B555",
-            "approvedDocNo": "1096804027",
-            "approvedDate": "2020-04-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02AF"
-        },
         {
             "isMain": "1",
             "atcCode": "A02AF"

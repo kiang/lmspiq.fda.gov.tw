@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050243",
+    "licUnit": "1",
     "validDate": "2024-07-17 00:00:00.000",
     "issueDate": "2009-07-17 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105024306",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "77EA0ED0-5DBC-4F43-9C1E-C2EDE19EE78A",
+    "subCategory": [],
     "ingredientsDesc": [
         "CALCIUM POLYSTYRENE SULFONATE EQUIVALENT TO CALCIUM"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D016146D-E5F3-43A5-B009-55A0194C1B75",
             "factoryCode": "1",
             "factoryName": "羅得化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區東西七路一段65號",
@@ -55,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "1901510300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4018000310",
+            "ingredientsName": "CALCIUM POLYSTYRENE SULFONATE EQUIVALENT TO CALCIUM",
             "ingredientsDesc": "CALCIUM POLYSTYRENE SULFONATE EQUIVALENT TO CALCIUM",
             "concentDesc": "7.0~9.0%",
             "concent": "999.3000",
@@ -73,23 +84,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6AABE8C0-238A-4692-A589-91F8BC98B132",
-            "approvedDocNo": "1106615379",
-            "approvedDate": "2022-01-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "V03AE01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "V03AE01"
         }
     ],

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027914",
+    "licUnit": "1",
     "validDate": "2025-07-10 00:00:00.000",
     "issueDate": "2020-07-10 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202791402",
@@ -27,6 +31,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "E1F8DD86-532A-44A6-A25A-CD1D294624F3",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "erdafitinib"
     ],
@@ -49,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1A97F280-AF77-4F2C-BE92-805228B1F216",
             "factoryCode": "1",
             "factoryName": "JANSSEN-CILAG S.P.A.",
             "factoryAddr": "VIA C. JANSSEN 04100 BORGO S. MICHELE-LATINA, ITALY",
@@ -59,9 +69,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0332000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3BB82E1F-CD48-416C-A2F0-0176595DD8BB",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -77,16 +90,19 @@
             "factoryKind": "M",
             "factoryNo": "1225204000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1006000100",
+            "ingredientsName": "erdafitinib",
             "ingredientsDesc": "erdafitinib",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -95,28 +111,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "16F7F212-3F47-428F-B93B-45789F789BF9",
-            "approvedDocNo": "1110719019",
-            "approvedDate": "2023-04-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A83E133D-2663-49C0-A68A-EB1DBCEAFBF2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L01EX16"
+            "atcCode": "L01EN01"
         }
     ],
     "licBaseId": "86B3512B-E879-4C8B-B80F-7D546704689A"

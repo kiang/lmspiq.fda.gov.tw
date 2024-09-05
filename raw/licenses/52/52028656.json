@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028656",
+    "licUnit": "1",
     "validDate": "2029-02-07 00:00:00.000",
     "issueDate": "2024-02-07 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202865601",
@@ -27,6 +31,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "6A26D6DF-5B6D-43B1-893D-7C0054317516",
+    "subCategory": [
+        "A06"
+    ],
     "ingredientsDesc": [
         "RISPERIDONE"
     ],
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "04BB6A13-12E9-40D5-986F-EF5A786EA4ED",
             "factoryCode": "1",
             "factoryName": "LABORATORIOS FARMACEUTICOS ROVI, S.A.",
             "factoryAddr": "CALLE DE JLIAN CAMARILLO, 35, POLIGONO JULIAN CAMARILLO NORTE, 28037 MADRID, SPAIN ",
@@ -55,9 +65,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0290000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "C088CF8C-CCBF-47E9-A967-26655B01021B",
             "factoryCode": "2",
             "factoryName": "ROVI PHARMA INDUSTRIAL SERVICES S.A.",
             "factoryAddr": "C\/JULIAN CAMARILLO, 35 28037 MADRID, Spain",
@@ -73,9 +86,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0212100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "6236DCD0-46AF-4FB2-B393-85244768985F",
             "factoryCode": "2",
             "factoryName": "Rovi Pharma Industrial Services",
             "factoryAddr": "Via Complutense, 140, 28805 Alcala de Henares, Madrid, Spain",
@@ -91,16 +107,19 @@
             "factoryKind": "M",
             "factoryNo": "FES0265100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816100600",
+            "ingredientsName": "RISPERIDONE",
             "ingredientsDesc": "RISPERIDONE",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -110,6 +129,11 @@
     "authDtoList": [],
     "iomDtoList": [],
     "changeDtoList": [],
-    "atcList": [],
+    "atcList": [
+        {
+            "isMain": "1",
+            "atcCode": "N05AX08"
+        }
+    ],
     "licBaseId": "BEF70D96-2671-4B68-A1D9-14C32CA81122"
 }

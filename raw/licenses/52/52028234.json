@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028234",
+    "licUnit": "1",
     "validDate": "2027-01-19 00:00:00.000",
     "issueDate": "2022-01-19 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202823401",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "2218697A-A7B8-4B66-B976-11CD345315E7",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Abrocitinib"
     ],
@@ -44,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4CF85D36-5338-4DE9-B234-8ACD4377A95B",
             "factoryCode": "1",
             "factoryName": "PFIZER MANUFACTURING DEUTSCHLAND GMBH",
             "factoryAddr": "BETRIEBSSTATTE FREIBURG, MOOSWALDALLEE 1, 79090 FREIBURG, GERMANY",
@@ -54,9 +64,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0247000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "987F343A-92B8-46D4-941A-5EBE6DE22242",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司(仿單置入)",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
@@ -72,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9250001700",
+            "ingredientsName": "Abrocitinib",
             "ingredientsDesc": "Abrocitinib",
             "concentDesc": "(PF-04965842)",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,48 +106,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8B87303D-8EB8-4395-9E14-3C7F0EF04D74",
-            "approvedDocNo": "1120806424",
-            "approvedDate": "2023-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "76A73682-6FBF-4F5F-B838-DF4FA8F9D137",
-            "approvedDocNo": "1120704000",
-            "approvedDate": "2023-07-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DA996FBD-90C6-4166-ADB5-F0C24ED98F77",
-            "approvedDocNo": "1110710490",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C9206D29-50AB-4ABB-A944-89158B95F989",
-            "approvedDocNo": "1110710490",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FE380C59-0051-4165-B62E-2832B216310C",
-            "approvedDocNo": "1110710490",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

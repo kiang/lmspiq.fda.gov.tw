@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035398",
+    "licUnit": "1",
     "validDate": "2027-06-24 00:00:00.000",
     "issueDate": "1992-06-24 00:00:00.000",
+    "oriIssueDate": "1992-06-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103539809",
@@ -16,17 +20,20 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0D2EA018-9BE2-41C8-AC78-4909CE3F803A",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "MECLIZINE HCL ( EQ TO MECLIZINE HYDROCHLORIDE )",
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C5716513-176D-437C-A0B2-4B34C4A7DC5B",
             "factoryCode": "1",
             "factoryName": "杏林新生製藥股份有限公司",
             "factoryAddr": "桃園市龍潭區三和村店湖一路２３７號",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "1405802300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400002611",
+            "ingredientsName": "MECLIZINE HCL ( EQ TO MECLIZINE HYDROCHLORIDE )",
             "ingredientsDesc": "MECLIZINE HCL ( EQ TO MECLIZINE HYDROCHLORIDE )",
             "concentDesc": "12.5",
             "concent": "12.5000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -87,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208004620",
+            "ingredientsName": "SCOPOLAMINE HBR",
             "ingredientsDesc": "SCOPOLAMINE HBR",
             "concentDesc": "0.05",
             "concent": "0.0500",
@@ -98,37 +111,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7C27F921-3D33-47DB-9912-F0579A276C4F",
-            "approvedDocNo": "1119006646",
-            "approvedDate": "2022-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4A1762F1-CD99-4ADE-9F0F-436FA4348A30",
-            "approvedDocNo": "1096612391",
-            "approvedDate": "2021-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R06AE05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A04AD01"
-        },
         {
             "isMain": "1",
             "atcCode": "A04AD51"

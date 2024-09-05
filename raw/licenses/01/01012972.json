@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01012972",
+    "licUnit": "1",
     "validDate": "2024-07-20 00:00:00.000",
     "issueDate": "1977-07-20 00:00:00.000",
+    "oriIssueDate": "1977-07-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101297201",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C6EB4A1F-6FDD-47BE-8B15-3DDE4364F2CD",
+    "subCategory": [],
     "ingredientsDesc": [
         "HOMATROPINE METHYLBROMIDE",
         "POLYMAGAL"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F4D2FE2C-3C1D-4F2F-B0F8-18A19766FD71",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司",
             "factoryAddr": "台南市新營區土庫里土庫6之20號",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "0510620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5224000220",
+            "ingredientsName": "HOMATROPINE METHYLBROMIDE",
             "ingredientsDesc": "HOMATROPINE METHYLBROMIDE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -70,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9900036200",
+            "ingredientsName": "POLYMAGAL",
             "ingredientsDesc": "POLYMAGAL",
             "concentDesc": "",
             "concent": "230.0000",
@@ -86,14 +98,6 @@
         {
             "isMain": "1",
             "atcCode": "A02AG"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AD03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03BA"
         }
     ],
     "licBaseId": "4BF2F95C-1C5D-43AB-B3AF-F9CA7958006F"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043496",
+    "licUnit": "1",
     "validDate": "2025-02-01 00:00:00.000",
     "issueDate": "2000-02-01 00:00:00.000",
+    "oriIssueDate": "2000-02-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104349605",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7BF745ED-4135-436E-B591-E66997A1B790",
+    "subCategory": [],
     "ingredientsDesc": [
         "NEOMYCIN (FRADIOMYCIN)",
         "DEXAMETHASONE PHOSPHATE (21-BETA)"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8F5B9DBF-CEEA-4CBA-9848-3D4AA4C96908",
             "factoryCode": "1",
             "factoryName": "溫士頓醫藥股份有限公司",
             "factoryAddr": "台南市永康區鹽洲里仁愛街１１７號",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "1217820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812100500",
+            "ingredientsName": "NEOMYCIN (FRADIOMYCIN)",
             "ingredientsDesc": "NEOMYCIN (FRADIOMYCIN)",
             "concentDesc": "(POTENCY) ",
             "concent": "3.5000",
@@ -70,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000620",
+            "ingredientsName": "DEXAMETHASONE PHOSPHATE (21-BETA)",
             "ingredientsDesc": "DEXAMETHASONE PHOSPHATE (21-BETA)",
             "concentDesc": "",
             "concent": "1.0000",
@@ -81,76 +93,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5C42456C-60AC-42B3-A9BE-607E1F3E345C",
-            "approvedDocNo": "1120604877",
-            "approvedDate": "2023-07-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5DA61489-6B7B-4078-BD6E-C42CEE43C9EB",
-            "approvedDocNo": "1110600567",
-            "approvedDate": "2022-06-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5C5FB9A0-3A0B-42B0-BFB2-632C8F1EB55E",
-            "approvedDocNo": "1110600567",
-            "approvedDate": "2022-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8D6C6655-BAFB-4F45-B71B-90553DF3D954",
-            "approvedDocNo": "1110600567",
-            "approvedDate": "2022-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9856D5EC-864E-448F-B702-1E1CF564EB6E",
-            "approvedDocNo": "1110600567",
-            "approvedDate": "2022-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5A625FD4-0450-4E96-A01C-254DA58DCEAC",
-            "approvedDocNo": "1110600567",
-            "approvedDate": "2022-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "93EAE9F9-2E28-4A7C-BAE6-C6AADCEAC96D",
-            "approvedDocNo": "1086608283",
-            "approvedDate": "2019-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "S01CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AA03"
         }
     ],
     "licBaseId": "61548537-A007-49B9-BA56-809239CEDABA"

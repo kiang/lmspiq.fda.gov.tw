@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01000090",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1971-09-16 00:00:00.000",
+    "oriIssueDate": "1971-09-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100009003",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "98A822E3-7581-45CE-AB4A-E07242404E16",
+    "subCategory": [],
     "ingredientsDesc": [
         "VITAMIN A",
         "VITAMIN D"
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "314515DE-6543-42A1-8A5C-6D6A612737C8",
             "factoryCode": "1",
             "factoryName": "漁人製藥股份有限公司",
             "factoryAddr": "高雄市左營區民族一路７０７號",
@@ -53,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "1422121300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8804000100",
+            "ingredientsName": "VITAMIN A",
             "ingredientsDesc": "VITAMIN A",
             "concentDesc": "",
             "concent": "5000.0000",
@@ -71,6 +82,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8818000000",
+            "ingredientsName": "VITAMIN D",
             "ingredientsDesc": "VITAMIN D",
             "concentDesc": "",
             "concent": "1000.0000",
@@ -82,49 +94,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8D6B87FD-A620-4BE1-BFEA-D3BAE6192921",
-            "approvedDocNo": "1129010813",
-            "approvedDate": "2023-03-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DE09F958-7BC3-41DE-A4CE-1EA9ED70168E",
-            "approvedDocNo": "1076610793",
-            "approvedDate": "2019-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "940B2624-F885-4FD2-9560-73E0C7DBECB4",
-            "approvedDocNo": "1076610793",
-            "approvedDate": "2019-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "29BF94CA-6D6C-4440-946F-AC58D10C50BE",
-            "approvedDocNo": "1076610793",
-            "approvedDate": "2019-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11CC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11CA01"
-        },
         {
             "isMain": "1",
             "atcCode": "A11CB"

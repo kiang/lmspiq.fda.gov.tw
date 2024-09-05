@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01013923",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1917-11-28 00:00:00.000",
+    "oriIssueDate": "1917-11-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101392306",
@@ -16,23 +20,25 @@
     "does": "3360",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "36"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "99CF4B26-534D-4413-B949-45A99E5CE516",
+    "subCategory": [],
     "ingredientsDesc": [
         "GENTAMICIN (AS SULFATE)",
         "BETAMETHASONE VALERATE"
     ],
     "restraintItemsCode": [
-        "01",
         "1R"
     ],
     "applicantName": "嘉信藥品股份有限公司",
@@ -47,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F76365E2-6912-4790-9358-856398883989",
             "factoryCode": "1",
             "factoryName": "政德製藥股份有限公司",
             "factoryAddr": "雲林縣大埤鄉嘉興村豐田路２號",
@@ -57,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0922116300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000250",
+            "ingredientsName": "BETAMETHASONE VALERATE",
             "ingredientsDesc": "BETAMETHASONE VALERATE",
             "concentDesc": "1.2",
             "concent": "1.2000",
@@ -75,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "1.0",
             "concent": "1.0000",
@@ -86,44 +97,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DEF2FA54-FBA9-4A5F-9F10-1237E4A94330",
-            "approvedDocNo": "1120002143",
-            "approvedDate": "2023-04-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A6C7870-6182-4735-9E51-21E3B08EC474",
-            "approvedDocNo": "1120002143",
-            "approvedDate": "2023-04-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED13E1D6-1214-4882-8B2A-28E27288600C",
-            "approvedDocNo": "1120002143",
-            "approvedDate": "2023-04-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D07CC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
         }
     ],
     "licBaseId": "51E55993-BD16-4377-868A-6E78F1CF5F3D"

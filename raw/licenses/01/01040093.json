@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040093",
+    "licUnit": "1",
     "validDate": "2026-06-28 00:00:00.000",
     "issueDate": "1996-06-28 00:00:00.000",
+    "oriIssueDate": "1996-06-28",
     "licKind": "02",
     "oldLicid": "01015093",
     "certNo": "DHY00104009307",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D1B05817-C9BA-4FF1-8792-00DB7825AC8E",
+    "subCategory": [],
     "ingredientsDesc": [
         "THIAMINE HYDROCHLORIDE",
         "PYRIDOXINE(VITAMIN B6)",
@@ -56,6 +63,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6A277FC7-D78F-444B-8296-C9962DB1983B",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
@@ -66,13 +74,16 @@
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656900720",
+            "ingredientsName": "THIOCTIC ACID AMIDE (THIOCTAMIDE)",
             "ingredientsDesc": "THIOCTIC ACID AMIDE (THIOCTAMIDE)",
             "concentDesc": null,
             "concent": "0.0500",
@@ -84,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101302",
+            "ingredientsName": "LYSINE L-",
             "ingredientsDesc": "LYSINE L-",
             "concentDesc": null,
             "concent": "0.2000",
@@ -95,6 +107,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101503",
+            "ingredientsName": "METHIONINE DL-",
             "ingredientsDesc": "METHIONINE DL-",
             "concentDesc": null,
             "concent": "0.5000",
@@ -106,6 +119,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100900",
+            "ingredientsName": "THIAMINE HYDROCHLORIDE",
             "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
             "concentDesc": null,
             "concent": "0.1000",
@@ -117,6 +131,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": null,
             "concent": "0.0200",
@@ -128,6 +143,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600100",
+            "ingredientsName": "PYRIDOXINE(VITAMIN B6)",
             "ingredientsDesc": "PYRIDOXINE(VITAMIN B6)",
             "concentDesc": null,
             "concent": "0.0100",
@@ -139,6 +155,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300200",
+            "ingredientsName": "PANTOTHENATE CALCIUM",
             "ingredientsDesc": "PANTOTHENATE CALCIUM",
             "concentDesc": null,
             "concent": "0.0500",
@@ -150,6 +167,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000330",
+            "ingredientsName": "NICOTINAMIDE",
             "ingredientsDesc": "NICOTINAMIDE",
             "concentDesc": null,
             "concent": "0.1500",
@@ -161,6 +179,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000460",
+            "ingredientsName": "CAFFEINE HYDRATE",
             "ingredientsDesc": "CAFFEINE HYDRATE",
             "concentDesc": null,
             "concent": "0.3000",
@@ -172,6 +191,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200000900",
+            "ingredientsName": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "ingredientsDesc": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "concentDesc": null,
             "concent": "1.0000",
@@ -183,6 +203,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200017911",
+            "ingredientsName": "ANGELICA RADIX EXTRACT",
             "ingredientsDesc": "ANGELICA RADIX EXTRACT",
             "concentDesc": null,
             "concent": "0.0300",
@@ -194,6 +215,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004012",
+            "ingredientsName": "GINSENG RADIX EXTRACT",
             "ingredientsDesc": "GINSENG RADIX EXTRACT",
             "concentDesc": null,
             "concent": "0.0100",
@@ -205,6 +227,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200024911",
+            "ingredientsName": "CNIDIUM RHIZOMA EXTRACT",
             "ingredientsDesc": "CNIDIUM RHIZOMA EXTRACT",
             "concentDesc": null,
             "concent": "0.0100",
@@ -219,40 +242,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA31"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
             "isMain": "1",
             "atcCode": "A11EX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V06DD"
         }
     ],
     "licBaseId": "3FDE91A2-E11A-48FA-9044-65093BBE7E29"

@@ -1,13 +1,14 @@
 {
-    "cancelStatus": "1",
+    "cancelStatus": "9",
     "licStatus": "1",
     "cancelDate": null,
-    "cancelReason": [
-        "838"
-    ],
+    "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01027966",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1984-12-07 00:00:00.000",
+    "oriIssueDate": "1984-12-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102796601",
@@ -19,13 +20,16 @@
     "does": "1119",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A6249584-51C6-419E-81BE-B3E5FA8C98AD",
+    "subCategory": [],
     "ingredientsDesc": [
         "THIAMINE (VITAMIN B1)",
         "VITAMIN C (ROSE HIPS EXTRACT)",
@@ -41,8 +45,6 @@
         "PANTOTHENATE CALCIUM"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
         "1R"
     ],
     "applicantName": "新喜國際企業股份有限公司",
@@ -57,6 +59,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4349B08A-A1C4-4AD3-8C1C-A110DBF935B9",
             "factoryCode": "1",
             "factoryName": "正和製藥股份有限公司新營廠",
             "factoryAddr": "台南市新營區嘉芳里新工路２３號",
@@ -67,13 +70,16 @@
             "factoryKind": "M",
             "factoryNo": "0505720300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8804000200",
+            "ingredientsName": "VITAMIN A ACETATE",
             "ingredientsDesc": "VITAMIN A ACETATE",
             "concentDesc": "1000",
             "concent": "1000.0000",
@@ -85,6 +91,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8818000000",
+            "ingredientsName": "VITAMIN D",
             "ingredientsDesc": "VITAMIN D",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -96,6 +103,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100500",
+            "ingredientsName": "THIAMINE (VITAMIN B1)",
             "ingredientsDesc": "THIAMINE (VITAMIN B1)",
             "concentDesc": "(HCL) 2",
             "concent": null,
@@ -107,6 +115,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -118,6 +127,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300200",
+            "ingredientsName": "PANTOTHENATE CALCIUM",
             "ingredientsDesc": "PANTOTHENATE CALCIUM",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -129,6 +139,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "0.1",
             "concent": "0.1000",
@@ -140,6 +151,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -151,6 +163,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811600100",
+            "ingredientsName": "FOLIC ACID",
             "ingredientsDesc": "FOLIC ACID",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -162,6 +175,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000110",
+            "ingredientsName": "TOCOPHEROL ALPHA-",
             "ingredientsDesc": "TOCOPHEROL ALPHA-",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -173,6 +187,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000300",
+            "ingredientsName": "NIACINAMIDE (NICOTINAMIDE)",
             "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -184,6 +199,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8824000000",
+            "ingredientsName": "VITAMIN K ACTIVITY",
             "ingredientsDesc": "VITAMIN K ACTIVITY",
             "concentDesc": "0.05",
             "concent": "0.0500",
@@ -195,6 +211,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816009700",
+            "ingredientsName": "VITAMIN C (ROSE HIPS EXTRACT)",
             "ingredientsDesc": "VITAMIN C (ROSE HIPS EXTRACT)",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -206,84 +223,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CAF40E26-BDFA-4768-9158-BD021E313EC5",
-            "approvedDocNo": "1120612957",
-            "approvedDate": "2024-02-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AAF8B66B-819C-4648-8F3F-38FA211A4657",
-            "approvedDocNo": "1086818664",
-            "approvedDate": "2020-06-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "21B864E5-A13C-4234-8EA0-15066A5353DC",
-            "approvedDocNo": "1086809552",
-            "approvedDate": "2020-02-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B02BA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11CA01"
-        },
         {
             "isMain": "1",
             "atcCode": "A11BA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11CC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA31"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
         }
     ],
     "licBaseId": "657BA877-3EF4-43F5-98E6-8DD5694AEF28"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01037807",
+    "licUnit": "1",
     "validDate": "2024-07-18 00:00:00.000",
     "issueDate": "1994-07-18 00:00:00.000",
+    "oriIssueDate": "1994-07-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103780700",
@@ -20,13 +24,16 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "K2"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "18B4AC99-EEAC-442A-A4FE-F7F8E1214659",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E68B72D2-B682-4BD0-9FA8-1BC52AEAFABB",
             "factoryCode": "1",
             "factoryName": "培力藥品工業股份有限公司",
             "factoryAddr": "台中市工業區六路１１號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "1112209300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "500",
             "concent": "500.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -88,16 +100,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
             "isMain": "1",
             "atcCode": "N02BE51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
         }
     ],
     "licBaseId": "F2A67977-F3F8-4B73-AD49-D35636D9A048"

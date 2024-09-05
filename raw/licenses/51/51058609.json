@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058609",
+    "licUnit": "1",
     "validDate": "2025-02-04 00:00:00.000",
     "issueDate": "2015-02-04 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105860903",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "2256D086-E25B-4BCA-B94E-BBCC726419F8",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "20% CHLORHEXIDINE GLUCONATE SOLUTION"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "15C9B6D7-0610-4483-80A7-102E7A6492EF",
             "factoryCode": "1",
             "factoryName": "濟生醫藥生技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉勝利村實踐路3號",
@@ -51,16 +61,19 @@
             "factoryKind": "M",
             "factoryNo": "6133060069",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900234",
+            "ingredientsName": "20% CHLORHEXIDINE GLUCONATE SOLUTION",
             "ingredientsDesc": "20% CHLORHEXIDINE GLUCONATE SOLUTION",
             "concentDesc": "(eq. to Chlorhexidine Gluconate 20mg)",
-            "concent": "0.100",
+            "concent": "0.1000",
             "concentUnit": "003",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,10 +84,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D08AC02"
-        },
         {
             "isMain": "1",
             "atcCode": "D08AC02"

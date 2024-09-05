@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058612",
+    "licUnit": "1",
     "validDate": "2025-02-05 00:00:00.000",
     "issueDate": "2015-02-05 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105861205",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7DD00CCE-A7AF-486E-9072-FF9BB110C7B6",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRICHLORMETHIAZIDE"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B8C85C03-5754-4E0A-9BF1-D103D4AB07C7",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
@@ -55,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028101000",
+            "ingredientsName": "TRICHLORMETHIAZIDE",
             "ingredientsDesc": "TRICHLORMETHIAZIDE",
             "concentDesc": "",
-            "concent": "2.000",
+            "concent": "2.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,45 +92,8 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AEAB0CFB-CC11-4334-A927-8FE9ACC09E33",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "13AE1699-73EF-42CE-910F-FE6FE96D5CB9",
-            "approvedDocNo": "1080037578",
-            "approvedDate": "2020-02-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C0B606F4-DCDF-4A1B-A282-7B2EBF118D02",
-            "approvedDocNo": "1086810374",
-            "approvedDate": "2019-08-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DEF193AD-E061-4B8E-83A8-B8081A2E69D8",
-            "approvedDocNo": "1086810374",
-            "approvedDate": "2019-08-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C03AA06"
-        },
         {
             "isMain": "1",
             "atcCode": "C03AA06"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058087",
+    "licUnit": "1",
     "validDate": "2028-10-03 00:00:00.000",
     "issueDate": "2013-10-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105808702",
@@ -18,20 +22,30 @@
         {
             "packageSpec": "1000公克以下",
             "packageUnit": "A3"
+        },
+        {
+            "packageSpec": "1-100包(每包10公克)",
+            "packageUnit": "73"
+        },
+        {
+            "packageSpec": "100公克以下",
+            "packageUnit": "CN"
         }
     ],
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EB30D2B0-A4B0-42DE-8738-A77EA22F48D8",
+    "subCategory": [],
     "ingredientsDesc": [
         "LIDOCAINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01"
     ],
     "applicantName": "瑞安大藥廠股份有限公司",
-    "applicantAddr": "台北市內湖區內湖路一段392號11樓之1",
+    "applicantAddr": "臺北市內湖區內湖路1段392號11樓之1",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -42,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8F00881E-EA18-4EF9-9E19-5D816073B6DB",
             "factoryCode": "1",
             "factoryName": "健康化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區幼獅工業區幼四路１２號",
@@ -52,66 +67,28 @@
             "factoryKind": "M",
             "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001010",
+            "ingredientsName": "LIDOCAINE HCL",
             "ingredientsDesc": "LIDOCAINE HCL",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "001",
-            "seq": "0",
+            "seq": "1",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7AF3D751-92A7-4389-B63E-96ACE93F2D50",
-            "approvedDocNo": "1096812597",
-            "approvedDate": "2020-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DC7CF35A-D16A-4C36-ACCC-F7689E605B59",
-            "approvedDocNo": "1096812597",
-            "approvedDate": "2020-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1E14D1D5-A3E4-4B50-8951-D0D7B63FCDDB",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "79237556-CEFF-45E3-A7B8-2945958102FD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB5430EF-6194-4089-8875-86F5ABA580D4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

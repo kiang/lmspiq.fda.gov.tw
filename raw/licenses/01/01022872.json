@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01022872",
+    "licUnit": "1",
     "validDate": "2025-02-02 00:00:00.000",
     "issueDate": "1981-02-02 00:00:00.000",
+    "oriIssueDate": "1981-02-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102287203",
@@ -16,13 +20,16 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "579B9833-B568-4021-A920-6F9606679072",
+    "subCategory": [],
     "ingredientsDesc": [
         "PHENOBARBITAL",
         "BELLADONNA"
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FBA46499-DDED-4970-B7A6-B8D539DFD24C",
             "factoryCode": "1",
             "factoryName": "榮民製藥股份有限公司",
             "factoryAddr": "桃園市中壢區中山東路３段４４７號",
@@ -54,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "6132020070",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208000600",
+            "ingredientsName": "BELLADONNA",
             "ingredientsDesc": "BELLADONNA",
             "concentDesc": "8",
             "concent": "8.0000",
@@ -72,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824401200",
+            "ingredientsName": "PHENOBARBITAL",
             "ingredientsDesc": "PHENOBARBITAL",
             "concentDesc": "15",
             "concent": "15.0000",
@@ -88,14 +100,6 @@
         {
             "isMain": "1",
             "atcCode": "A03ED"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N03AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03BA04"
         }
     ],
     "licBaseId": "F53A5A70-5C3A-4915-8FE8-D02DCFF18FFF"

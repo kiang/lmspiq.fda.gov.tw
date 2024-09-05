@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028291",
+    "licUnit": "1",
     "validDate": "2027-05-03 00:00:00.000",
     "issueDate": "2022-05-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202829100",
@@ -27,6 +31,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "20F7214E-5B7D-4141-97DB-E4C008A4703A",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Sotorasib"
     ],
@@ -48,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "126F4D70-63CF-4992-B926-74D244341461",
             "factoryCode": "1",
             "factoryName": "Patheon Inc.",
             "factoryAddr": "2100 Syntex Court, Mississauga, Ontario L5N 7K9, Canada",
@@ -58,16 +68,19 @@
             "factoryKind": "M",
             "factoryNo": "FCA0148000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013009700",
+            "ingredientsName": "Sotorasib",
             "ingredientsDesc": "Sotorasib",
             "concentDesc": "",
-            "concent": "120.000",
+            "concent": "120.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,48 +89,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F73ED3CC-6BB9-4C1A-83E6-13ED838ABD5D",
-            "approvedDocNo": "1129054352",
-            "approvedDate": "2023-12-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "844513B2-D50A-4CE8-A432-B16213EFCBD9",
-            "approvedDocNo": "1129054352",
-            "approvedDate": "2023-12-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C035A90B-FB66-4A61-93C5-509CF414950E",
-            "approvedDocNo": "1120703615",
-            "approvedDate": "2023-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF18164D-2185-40C2-8C57-63C48D8BD4A7",
-            "approvedDocNo": "1120703615",
-            "approvedDate": "2023-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "01B2223C-AC13-49A8-BB44-517048C5A016",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

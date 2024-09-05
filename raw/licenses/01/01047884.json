@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047884",
+    "licUnit": "1",
     "validDate": "2026-03-14 00:00:00.000",
     "issueDate": "2006-03-14 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104788408",
@@ -27,11 +31,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B4EB212A-CB05-4AD3-BA4D-75DA506F1DB8",
+    "subCategory": [],
     "ingredientsDesc": [
         "GELATIN",
-        "GELATIN",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
-        "CARISOPRODOL"
+        "CARISOPRODOL",
+        "GELATIN"
     ],
     "restraintItemsCode": [
         "01",
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8CCA853B-1974-4A18-901A-BCA956076595",
             "factoryCode": "1",
             "factoryName": "優良化學製藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉中興村光復路10號",
@@ -59,27 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "1702804200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220000300",
+            "ingredientsName": "CARISOPRODOL",
             "ingredientsDesc": "CARISOPRODOL",
             "concentDesc": "",
             "concent": "175.0000",
-            "concentUnit": "001",
-            "seq": "0",
-            "prescription_seq": "1",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "2808000100",
-            "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
-            "concentDesc": "",
-            "concent": "350.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,75 +87,48 @@
         },
         {
             "ingredientsKind": "1",
+            "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
+            "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
+            "concentDesc": "",
+            "concent": "350.0000",
+            "concentUnit": "001",
+            "seq": "2",
+            "prescription_seq": "1",
+            "prescription_Kind": "1"
+        },
+        {
+            "ingredientsKind": "1",
             "ingredientsCode": "9600012700",
+            "ingredientsName": "GELATIN",
             "ingredientsDesc": "GELATIN",
             "concentDesc": "",
             "concent": "85.5100",
             "concentUnit": "001",
-            "seq": "0",
+            "seq": "1",
             "prescription_seq": "2",
             "prescription_Kind": "1"
         },
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600012700",
+            "ingredientsName": "GELATIN",
             "ingredientsDesc": "GELATIN",
             "concentDesc": "",
             "concent": "101.9800",
             "concentUnit": "001",
-            "seq": "0",
+            "seq": "1",
             "prescription_seq": "3",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B097912B-06E0-4A2C-A4C7-A5FC1866BC8B",
-            "approvedDocNo": "1106605168",
-            "approvedDate": "2021-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1E3F3942-7A57-455A-BC4C-BF054D3164E5",
-            "approvedDocNo": "1106605168",
-            "approvedDate": "2021-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "330F5A81-B203-46C4-8E2E-E962CA6E3AB3",
-            "approvedDocNo": "1106605168",
-            "approvedDate": "2021-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B256F927-FC45-4A10-B9CB-E6C606D93E75",
-            "approvedDocNo": "1096610006",
-            "approvedDate": "2020-10-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "M03BA52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "M03BA02"
         }
     ],
     "licBaseId": "E0E08E49-30B9-414B-B581-7E8E2FD0E41D"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01032220",
+    "licUnit": "1",
     "validDate": "2025-02-19 00:00:00.000",
     "issueDate": "1990-02-19 00:00:00.000",
+    "oriIssueDate": "1990-02-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103222005",
@@ -16,17 +20,20 @@
     "does": "1130",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CCEEAB16-1382-4DB5-8D81-363B9206B6F9",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLYCYRRHIZATE TRISODIUM",
         "CHLORPHENIRAMINE MALEATE",
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "EBFFA4D9-2A64-490E-A7AC-3715952AFD81",
             "factoryCode": "1",
             "factoryName": "美西製藥有限公司",
             "factoryAddr": "高雄市仁武區仁武里工業一路９號",
@@ -59,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "0900822300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811300100",
+            "ingredientsName": "OROTIC ACID (VIT B13)",
             "ingredientsDesc": "OROTIC ACID (VIT B13)",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -77,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004630",
+            "ingredientsName": "GLYCYRRHIZATE TRISODIUM",
             "ingredientsDesc": "GLYCYRRHIZATE TRISODIUM",
             "concentDesc": "60",
             "concent": "60.0000",
@@ -88,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -99,40 +112,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5C855731-99E8-4B32-BF64-6F9A9E5AABF2",
-            "approvedDocNo": "1120607581",
-            "approvedDate": "2023-08-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B055FCEF-12B9-4952-AD49-953974BE60C2",
-            "approvedDocNo": "1120607581",
-            "approvedDate": "2023-08-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
         {
             "isMain": "1",
             "atcCode": "R06AB54"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA"
         }
     ],
     "licBaseId": "4A1308A5-8625-4621-A030-177A755BEBD1"

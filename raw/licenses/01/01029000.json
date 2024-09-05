@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029000",
+    "licUnit": "1",
     "validDate": "2025-07-03 00:00:00.000",
     "issueDate": "1986-12-04 00:00:00.000",
+    "oriIssueDate": "1986-12-04",
     "licKind": "02",
     "oldLicid": "01018494",
     "certNo": "DHY00102900007",
@@ -16,7 +20,7 @@
     "does": "1170",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "C7"
         },
         {
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B35A5D25-EBB4-4C42-B6EE-BA84734C0164",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "CHLORPHENIRAMINE MALEATE",
@@ -51,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1153A14B-873A-4720-950A-43EBFA375531",
             "factoryCode": "1",
             "factoryName": "衛肯生技製藥股份有限公司",
             "factoryAddr": "桃園市平鎮區工業十路15號",
@@ -61,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "6132100028",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "12",
             "concent": "12.0000",
@@ -79,6 +90,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "0.12",
             "concent": "0.1200",
@@ -90,6 +102,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "0.48",
             "concent": "0.4800",
@@ -101,6 +114,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": "3",
             "concent": "3.0000",
@@ -112,6 +126,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "1.5",
             "concent": "1.5000",
@@ -126,28 +141,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "R03CA"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
         }
     ],
     "licBaseId": "38F4A4A5-D68B-4C21-AB8D-FB94C39880BF"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000926",
+    "licUnit": "1",
     "validDate": "2027-05-22 00:00:00.000",
     "issueDate": "2012-05-22 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000092601",
@@ -23,6 +27,11 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "C78246CF-92D2-4409-B142-E17AFD092DB2",
+    "subCategory": [
+        "C06"
+    ],
     "ingredientsDesc": [
         "HUMAN ALBUMIN"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BA5C5571-C620-46DE-98C8-9BAFD46C91EE",
             "factoryCode": "1",
             "factoryName": "KEDRION S.P.A.",
             "factoryAddr": "BOLOGNANA GALLICANO 55027 LUCCA ITALY",
@@ -51,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0461000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "BC2097D5-131C-49FA-BB91-9A5F1E049477",
             "factoryCode": "2",
             "factoryName": "新昱物流股份有限公司",
             "factoryAddr": "桃園市大園區大觀路207巷5號",
@@ -69,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "6132061231",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600000150",
+            "ingredientsName": "HUMAN ALBUMIN",
             "ingredientsDesc": "HUMAN ALBUMIN",
             "concentDesc": null,
-            "concent": "200.000",
+            "concent": "200.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,72 +103,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "03865320-F3E6-4FA1-981D-24D8A62BBA6D",
-            "approvedDocNo": "1129023542",
-            "approvedDate": "2023-08-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A9406943-2D3E-48D2-9771-CB6E5CE6B2F7",
-            "approvedDocNo": "1129035248",
-            "approvedDate": "2023-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "536BDE99-BE29-4E5F-90A0-736E7C277F15",
-            "approvedDocNo": "1119044266",
-            "approvedDate": "2022-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "51E2DC3F-A403-4373-B210-35018C2170C9",
-            "approvedDocNo": "1119031428",
-            "approvedDate": "2022-09-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CA62A219-DFD3-4360-9501-BFE5DC58B03A",
-            "approvedDocNo": "1110007873",
-            "approvedDate": "2022-04-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "50FBF730-2F4B-4D7D-B71D-F66196BF26D2",
-            "approvedDocNo": "1101498887",
-            "approvedDate": "2022-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5CA6DEA7-DE83-4E76-8E3E-30DF5D21AA99",
-            "approvedDocNo": "1091496054",
-            "approvedDate": "2021-03-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "16BAF2AF-BA05-43DC-A34E-EA06E88AC77D",
-            "approvedDocNo": "1086603976",
-            "approvedDate": "2019-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

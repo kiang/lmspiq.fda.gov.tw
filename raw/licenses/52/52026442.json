@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026442",
+    "licUnit": "1",
     "validDate": "2025-02-24 00:00:00.000",
     "issueDate": "2015-02-24 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202644208",
@@ -27,13 +31,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1FC41E07-31BD-4A3A-AFED-96E3BC5C21F5",
+    "subCategory": [],
     "ingredientsDesc": [
         "Pantoprazole hemimagnesium monohydrate"
     ],
     "restraintItemsCode": [
         "02",
         "07",
-        "51"
+        "51",
+        "68"
     ],
     "applicantName": "台灣武田藥品工業股份有限公司",
     "applicantAddr": "台北市信義區松高路1號17樓",
@@ -47,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "500E744B-0E6A-427C-BDDF-612BB4944F1F",
             "factoryCode": "1",
             "factoryName": "Takeda GMBH,Production site Oranienburg",
             "factoryAddr": "LEHNITZSTR. 70-98, 16515 ORANIENBURG, GERMANY",
@@ -57,9 +66,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0026200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2C2469D5-2BE0-4121-B170-354381F3E77E",
             "factoryCode": "2",
             "factoryName": "HETERO DRUGS LTD. (Unit-I)",
             "factoryAddr": "Sy. No.213, 214& 255, Bonthapally Village, Gummadidala Mandal, Sangareddy District, Telangana state, India",
@@ -75,16 +87,19 @@
             "factoryKind": "M",
             "factoryNo": "FIN0444400",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640002640",
+            "ingredientsName": "Pantoprazole hemimagnesium monohydrate",
             "ingredientsDesc": "Pantoprazole hemimagnesium monohydrate",
             "concentDesc": "equiv. to 40.00 mg of Pantoprazole",
-            "concent": "43.040",
+            "concent": "43.0400",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -93,69 +108,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C922A255-5F21-48C9-9689-97FFA3F30AAA",
-            "approvedDocNo": "1119062549",
-            "approvedDate": "2023-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7F107359-1AA5-46A7-BF73-FBBB162E92AD",
-            "approvedDocNo": "1110704835",
-            "approvedDate": "2022-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C0526B7C-4063-4E34-837F-11755BFFCCAF",
-            "approvedDocNo": "1119034034",
-            "approvedDate": "2022-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EF0AC2EF-EEBE-4052-83FA-AF6005D7FF34",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F1E84015-E439-4DF8-B787-F6F421888399",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5657F1B4-DFD9-4148-8049-0BD660184CE3",
-            "approvedDocNo": "1086009737",
-            "approvedDate": "2019-05-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "33F29F6E-BD69-4611-B35F-6C9C49C0BCCA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02BC02"
-        },
         {
             "isMain": "1",
             "atcCode": "A02BC02"

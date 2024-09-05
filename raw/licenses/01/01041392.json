@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01041392",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1997-06-20 00:00:00.000",
+    "oriIssueDate": "1997-06-20",
     "licKind": "02",
     "oldLicid": "12013688",
     "certNo": "DHY00104139209",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D856F916-6642-4B3F-BD99-EC131FE406E6",
+    "subCategory": [],
     "ingredientsDesc": [
         "PYRIDOXINE(VITAMIN B6)",
         "NIACINAMIDE (NICOTINAMIDE)",
@@ -56,6 +63,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "870DA3CD-E4E5-4512-9B68-C8D32C0DFC80",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
@@ -66,13 +74,16 @@
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100000",
+            "ingredientsName": "AMINO ACID",
             "ingredientsDesc": "AMINO ACID",
             "concentDesc": "(ESSENTIAL)3000",
             "concent": null,
@@ -84,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2004800100",
+            "ingredientsName": "LIVER EXTRACT",
             "ingredientsDesc": "LIVER EXTRACT",
             "concentDesc": "500",
             "concent": "500.0000",
@@ -95,6 +107,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100430",
+            "ingredientsName": "ASPARTATE MAGNESIUM",
             "ingredientsDesc": "ASPARTATE MAGNESIUM",
             "concentDesc": "500",
             "concent": "500.0000",
@@ -106,6 +119,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100440",
+            "ingredientsName": "ASPARTATE POTASSIUM",
             "ingredientsDesc": "ASPARTATE POTASSIUM",
             "concentDesc": "500",
             "concent": "500.0000",
@@ -117,6 +131,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200000900",
+            "ingredientsName": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "ingredientsDesc": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -128,6 +143,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0820000630",
+            "ingredientsName": "QUININE SULFATE",
             "ingredientsDesc": "QUININE SULFATE",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -139,6 +155,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101503",
+            "ingredientsName": "METHIONINE DL-",
             "ingredientsDesc": "METHIONINE DL-",
             "concentDesc": "300",
             "concent": "300.0000",
@@ -150,6 +167,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300300",
+            "ingredientsName": "SODIUM PANTOTHENATE",
             "ingredientsDesc": "SODIUM PANTOTHENATE",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -161,6 +179,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100500",
+            "ingredientsName": "THIAMINE (VITAMIN B1)",
             "ingredientsDesc": "THIAMINE (VITAMIN B1)",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -172,6 +191,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -183,6 +203,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600100",
+            "ingredientsName": "PYRIDOXINE(VITAMIN B6)",
             "ingredientsDesc": "PYRIDOXINE(VITAMIN B6)",
             "concentDesc": "(VIT. B6)5",
             "concent": null,
@@ -194,6 +215,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -205,6 +227,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000300",
+            "ingredientsName": "NIACINAMIDE (NICOTINAMIDE)",
             "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -216,6 +239,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": "50",
             "concent": "50.0000",
@@ -229,50 +253,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V06DD"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12CC05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12BA"
-        },
         {
             "isMain": "1",
             "atcCode": "A11EX"

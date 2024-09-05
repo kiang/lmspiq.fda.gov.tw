@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040702",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1996-12-19 00:00:00.000",
+    "oriIssueDate": "1996-12-19",
     "licKind": "02",
     "oldLicid": "12007560",
     "certNo": "DHY00104070206",
@@ -23,13 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4D90F9EF-550A-49AC-9B34-300179FCE16A",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAFFEINE",
         "ERGOTAMINE TARTRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
         "1R"
     ],
     "applicantName": "人人化學製藥股份有限公司",
@@ -44,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F3D38033-02BD-40A7-BB4E-533E885F32BF",
             "factoryCode": "1",
             "factoryName": "順華藥品工業股份有限公司三峽工廠",
             "factoryAddr": "新北市三峽區二鬮路186號",
@@ -54,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "1210702300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216000910",
+            "ingredientsName": "ERGOTAMINE TARTRATE",
             "ingredientsDesc": "ERGOTAMINE TARTRATE",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -72,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -83,36 +93,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A7D010CA-DE1C-4619-9E3A-87F98348F66C",
-            "approvedDocNo": "1120810098",
-            "approvedDate": "2023-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BF98DF68-3043-4786-9AA0-F117C8E09F56",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02CA52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02CA02"
         }
     ],
     "licBaseId": "3F78E8C7-DD13-4416-B7AD-15EF45F46544"

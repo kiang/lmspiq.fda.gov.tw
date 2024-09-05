@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028233",
+    "licUnit": "1",
     "validDate": "2027-01-19 00:00:00.000",
     "issueDate": "2022-01-19 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202823309",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "19A755AE-09FD-47F0-88AA-17EDA7AD07E4",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Abrocitinib"
     ],
@@ -44,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "385F259D-ED9D-42FF-B0A8-C3B512FB5AD9",
             "factoryCode": "1",
             "factoryName": "PFIZER MANUFACTURING DEUTSCHLAND GMBH",
             "factoryAddr": "BETRIEBSSTATTE FREIBURG, MOOSWALDALLEE 1, 79090 FREIBURG, GERMANY",
@@ -54,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0247000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9250001700",
+            "ingredientsName": "Abrocitinib",
             "ingredientsDesc": "Abrocitinib",
             "concentDesc": "(PF-04965842)",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,40 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9B846B10-C2F8-43D3-A874-D6B68298C513",
-            "approvedDocNo": "1120806426",
-            "approvedDate": "2023-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5CA4464F-24FE-45A3-A4D6-0FC042A55EF0",
-            "approvedDocNo": "1110710488",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "40D08EF1-8ACB-4A0B-99E1-8A566FF5D08B",
-            "approvedDocNo": "1110710488",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CFC0461F-3569-414A-ABA7-B6B1F019C188",
-            "approvedDocNo": "1110710488",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

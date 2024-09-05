@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01022442",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1980-10-30 00:00:00.000",
+    "oriIssueDate": "1980-10-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102244204",
@@ -17,7 +20,7 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         },
         {
@@ -28,11 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E78C0452-B059-4635-844D-EC1870C25265",
+    "subCategory": [],
     "ingredientsDesc": [
         "BROMELAIN"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "成大藥品股份有限公司",
     "applicantAddr": "台南市麻豆區南勢里關帝廟８０號",
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DFC6CF53-7FBE-4314-897D-C0A28736504B",
             "factoryCode": "1",
             "factoryName": "成大藥品股份有限公司",
             "factoryAddr": "台南市麻豆區南勢里關帝廟８０號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0603820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400000300",
+            "ingredientsName": "BROMELAIN",
             "ingredientsDesc": "BROMELAIN",
             "concentDesc": "(100MG) ",
             "concent": "50000.0000",
@@ -74,31 +85,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5F711AD2-0BC9-40F0-9093-99C930D47A42",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2024-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9021523F-AE7F-4C07-B90D-A5DD81B90FB8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-11-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "M09AB03"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M09AB03"
         }
     ],

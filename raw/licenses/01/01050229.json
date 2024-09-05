@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050229",
+    "licUnit": "1",
     "validDate": "2024-07-10 00:00:00.000",
     "issueDate": "2009-07-10 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105022902",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "F1EA9D67-9BF5-4898-9C21-2659DD4EF670",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "TERBINAFINE HYDROCHLORIDE"
     ],
@@ -46,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8C5A7B08-757E-41DB-A054-C7E1D5C6774E",
             "factoryCode": "1",
             "factoryName": "培力藥品工業股份有限公司",
             "factoryAddr": "台中市西屯區工業六路11號",
@@ -56,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "1112209300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "3632000108",
+            "ingredientsName": "TERBINAFINE HYDROCHLORIDE",
             "ingredientsDesc": "TERBINAFINE HYDROCHLORIDE",
             "concentDesc": "",
             "concent": "11.2000",
@@ -74,23 +87,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ABE9589A-3E4F-4538-A2DA-0E2A90D2EF89",
-            "approvedDocNo": "1076615026",
-            "approvedDate": "2019-04-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D01AE15"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D01AE15"
         }
     ],

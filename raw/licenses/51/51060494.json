@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060494",
+    "licUnit": "1",
     "validDate": "2025-05-08 00:00:00.000",
     "issueDate": "2020-05-08 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106049404",
@@ -23,6 +27,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "BE6EBB66-7157-4E92-AA44-7795B7519EC1",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D78A4D09-7361-4C8E-B3E7-08D726E2E8CD",
             "factoryCode": "1",
             "factoryName": "濟生醫藥生技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉勝利村實踐路3號",
@@ -51,16 +61,19 @@
             "factoryKind": "M",
             "factoryNo": "6133060069",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": "",
-            "concent": "84.000",
+            "concent": "84.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -69,79 +82,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F717F4F4-3750-4AA4-A675-261F3BD465C7",
-            "approvedDocNo": "1110800770",
-            "approvedDate": "2022-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0528BD94-1881-4977-A3CB-F29CEF934B7F",
-            "approvedDocNo": "1101496568",
-            "approvedDate": "2021-11-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "16F6E06F-4005-4415-B647-DC26AFACCD99",
-            "approvedDocNo": "1101497490",
-            "approvedDate": "2021-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "40942D04-4197-4295-8EAE-DCE785290070",
-            "approvedDocNo": "1101497490",
-            "approvedDate": "2021-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "840568CD-DF43-4983-8168-E548F3003CAC",
-            "approvedDocNo": "1101497490",
-            "approvedDate": "2021-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C578B010-985F-470E-B466-4D039C3BEAD0",
-            "approvedDocNo": "1096811204",
-            "approvedDate": "2020-07-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8B746677-23D0-4F2D-A63F-5A51BA5A1C39",
-            "approvedDocNo": "1096811204",
-            "approvedDate": "2020-07-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0A9181F3-FAB7-4AD0-AEF3-2032E0643B7B",
-            "approvedDocNo": "1096811204",
-            "approvedDate": "2020-07-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "B05Z"
-        },
-        {
-            "isMain": "2",
             "atcCode": "B05Z"
         }
     ],

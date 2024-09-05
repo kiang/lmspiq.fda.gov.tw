@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025148",
+    "licUnit": "1",
     "validDate": "2025-02-22 00:00:00.000",
     "issueDate": "2010-02-22 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202514800",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DCA426FF-4E49-4880-A280-0FDB15A8C1CF",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEVODOPA",
         "ENTACAPONE",
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "783A3D7E-48E9-4671-BB51-2D6F80E06028",
             "factoryCode": "1",
             "factoryName": "ORION CORPORATION",
             "factoryAddr": "ORIONINTIE 1 FIN-02200 ESPOO FINLAND",
@@ -59,9 +67,12 @@
             "factoryKind": "M",
             "factoryNo": "FFI0009100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "A7D4F39F-CB24-4742-A635-252E6BEF0CA3",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA AG",
             "factoryAddr": "LICHTSTRASSE 35, 4056 BASEL, SWITZERLAND",
@@ -77,9 +88,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088500",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "5D65C5B2-3CED-4DB0-8EE5-BBC67172249A",
             "factoryCode": "2",
             "factoryName": "Orion Corporation",
             "factoryAddr": "Joensuunkatu 7, Salo 24100, Finland",
@@ -95,13 +109,16 @@
             "factoryKind": "M",
             "factoryNo": "FFI0031000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208008800",
+            "ingredientsName": "ENTACAPONE",
             "ingredientsDesc": "ENTACAPONE",
             "concentDesc": null,
             "concent": "200.0000",
@@ -113,6 +130,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208002900",
+            "ingredientsName": "LEVODOPA",
             "ingredientsDesc": "LEVODOPA",
             "concentDesc": null,
             "concent": "125.0000",
@@ -124,6 +142,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408000420",
+            "ingredientsName": "CARBIDOPA MONOHYDRATE",
             "ingredientsDesc": "CARBIDOPA MONOHYDRATE",
             "concentDesc": "(=Carbidopa 31.25mg)",
             "concent": "33.8000",
@@ -135,72 +154,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "862E9BC9-AB7D-4FC3-9692-9C785D28BF12",
-            "approvedDocNo": "1110728517",
-            "approvedDate": "2023-04-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "60DC8766-4D28-4583-B854-483DC54D13CE",
-            "approvedDocNo": "1106027660",
-            "approvedDate": "2022-06-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "51714C33-AF7F-4048-BC86-4A517069C72F",
-            "approvedDocNo": "1101497642",
-            "approvedDate": "2021-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "482A1813-7578-4981-A8F5-79FA13A8DB6C",
-            "approvedDocNo": "1091493382",
-            "approvedDate": "2020-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DFD88D44-D9B4-4622-A94D-E9BE0418CCE4",
-            "approvedDocNo": "1081491151",
-            "approvedDate": "2019-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "572FE29E-7F57-45FB-BA62-586DF8686A4D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N04BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N04BX02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N04BA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N04BA01"
         }
     ],
     "licBaseId": "40BAFAD4-17CA-4AC9-9228-327AD8E6165E"

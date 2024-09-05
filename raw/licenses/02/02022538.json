@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022538",
-    "validDate": "2024-07-02 00:00:00.000",
-    "issueDate": "1999-07-02 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-02 00:00:00.000",
+    "issueDate": "2024-07-18 00:00:00.000",
+    "oriIssueDate": "1999-07-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202253808",
@@ -16,13 +20,16 @@
     "does": "4434",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "58F180B9-F3E2-4D60-BFE5-B96827E7611F",
+    "subCategory": [],
     "ingredientsDesc": [
         "NICOTINE"
     ],
@@ -41,21 +48,9 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "35C4D9D6-38B2-40B2-B250-24AA17858BBC",
             "factoryCode": "1",
-            "factoryName": "MCNEIL AB",
-            "factoryAddr": "NORRBROPLASTEN 2, SE-251 09 HELSINGBORG, SWEDEN",
-            "factoryCompanyAddr": null,
-            "countryCode": "SE",
-            "processCode": [],
-            "processCodeStr": null,
-            "factoryKind": "M",
-            "factoryNo": "FSE0035000",
-            "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "香港商台灣利豐物流有限公司台灣分公司大同倉",
+            "factoryName": "香港商臺灣馬士基物流有限公司台灣分公司大同倉",
             "factoryAddr": "桃園市大園區民生路104-1號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
@@ -69,13 +64,32 @@
             "factoryKind": "M",
             "factoryNo": "6132061188",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "AC53981A-C6B5-4614-B4AA-D38E14235DE1",
+            "factoryCode": "1",
+            "factoryName": "MCNEIL AB",
+            "factoryAddr": "NORRBROPLASTEN 2, SE-251 09 HELSINGBORG, SWEDEN",
+            "factoryCompanyAddr": null,
+            "countryCode": "SE",
+            "processCode": [],
+            "processCodeStr": null,
+            "factoryKind": "M",
+            "factoryNo": "FSE0035000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200006000",
+            "ingredientsName": "NICOTINE",
             "ingredientsDesc": "NICOTINE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -87,72 +101,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "00BE8948-9804-4319-AAAD-178862F88DAB",
-            "approvedDocNo": "1120701661",
-            "approvedDate": "2023-09-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF0421BB-FC2B-4D4E-B354-9C0DD8943D37",
-            "approvedDocNo": "1120701661",
-            "approvedDate": "2023-09-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "026C5855-F8A4-4185-B360-A362F9024C13",
-            "approvedDocNo": "1129020475",
-            "approvedDate": "2023-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "639F5C96-54A6-4CF7-87F6-DCCC8497F17B",
-            "approvedDocNo": "1129020459",
-            "approvedDate": "2023-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E9DC4261-F996-49CB-AA61-079EBE546256",
-            "approvedDocNo": "1106005708",
-            "approvedDate": "2021-08-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "76AF103D-D732-4948-A776-3C6C06F6197F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B474CFAB-8FBC-4B6F-8BDA-97AA99EFF259",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3659C9E7-3843-4B1D-91CC-D4F775A3EF92",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

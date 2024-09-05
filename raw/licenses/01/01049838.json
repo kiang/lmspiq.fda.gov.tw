@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049838",
-    "validDate": "2023-12-01 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2028-12-01 00:00:00.000",
     "issueDate": "2008-12-01 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104983801",
@@ -31,12 +35,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D868BFB9-2119-4E28-A22B-0DABA4BA3902",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEUPROLIDE ACETATE"
     ],
     "restraintItemsCode": [
         "01",
-        "24"
+        "24",
+        "67"
     ],
     "applicantName": "南光化學製藥股份有限公司",
     "applicantAddr": "臺南市新化區全興里中山路1001號、1001-1號",
@@ -50,23 +58,57 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A4F2067B-AE92-44CC-ACAB-F6070D4A32C3",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區全興里中山路1001號、1001-1號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
-            "processCode": [],
-            "processCodeStr": null,
+            "processCode": [
+                {
+                    "value": "4S",
+                    "name": "2.8毫升玻璃小瓶規格之製造"
+                },
+                {
+                    "value": "4T",
+                    "name": "0.4毫升預充式玻璃注射針筒：滅菌、異檢、包裝"
+                }
+            ],
+            "processCodeStr": "4S;2.8毫升玻璃小瓶規格之製造#4T;0.4毫升預充式玻璃注射針筒：滅菌、異檢、包裝",
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "20BE34CF-D83B-404E-9294-9B2E510BB198",
+            "factoryCode": "2",
+            "factoryName": "霖揚生技製藥股份有限公司南科廠",
+            "factoryAddr": "臺南市新市區南科二路5號3樓之2、4樓之1、4樓之2、9號4樓之1",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "4U",
+                    "name": "0.4毫升預充式玻璃注射針筒：調劑、過濾、充填"
+                }
+            ],
+            "processCodeStr": "4U;0.4毫升預充式玻璃注射針筒：調劑、過濾、充填",
+            "factoryKind": "M",
+            "factoryNo": "6105200259",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1012001110",
+            "ingredientsName": "LEUPROLIDE ACETATE",
             "ingredientsDesc": "LEUPROLIDE ACETATE",
             "concentDesc": null,
             "concent": "5.0000",
@@ -78,31 +120,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FC20BC42-AF7A-473F-8F3A-B6BE23E31B2A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-09-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BE082387-027E-4093-8373-217CB838E44F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L02AE02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "L02AE02"
         }
     ],

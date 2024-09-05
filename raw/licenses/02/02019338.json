@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02019338",
+    "licUnit": "1",
     "validDate": "2028-05-29 00:00:00.000",
     "issueDate": "1996-11-22 00:00:00.000",
+    "oriIssueDate": "1996-11-22",
     "licKind": "02",
     "oldLicid": "02019338",
     "certNo": "DHA00201933803",
@@ -16,17 +20,20 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "14"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B458B3AE-C66B-4D16-9E57-C82D5208970C",
+    "subCategory": [],
     "ingredientsDesc": [
         "HALOPERIDOL"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "179B5C07-2071-408A-AA68-E2D085044243",
             "factoryCode": "1",
             "factoryName": "JANSSEN PHARMACEUTICA N.V.",
             "factoryAddr": "TURNHOUTSEWEG 30, B-2340, BEERSE, BELGIUM",
@@ -55,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FBE0009000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "9634206A-58E4-4BB9-B08C-FF283E461F5E",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -73,13 +84,16 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816100300",
+            "ingredientsName": "HALOPERIDOL",
             "ingredientsDesc": "HALOPERIDOL",
             "concentDesc": "",
             "concent": "5.0000",
@@ -91,88 +105,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CC784729-04B8-489A-AE6D-7D4792774B98",
-            "approvedDocNo": "1110706020",
-            "approvedDate": "2022-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5E217F77-6899-449F-BFBA-AA0E29001555",
-            "approvedDocNo": "1110706020",
-            "approvedDate": "2022-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31DF3BB5-C28F-46FB-B926-FB3E9047BB9C",
-            "approvedDocNo": "1110706020",
-            "approvedDate": "2022-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F8B0E19B-68A7-4CA3-93CE-E0D0D2886567",
-            "approvedDocNo": "1101493208",
-            "approvedDate": "2021-07-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "269F9BE4-F10D-499A-A322-109A3F82E2AA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "114F7BE1-E0C6-417E-A791-27B5F2597E1C",
-            "approvedDocNo": "1096020526",
-            "approvedDate": "2021-01-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FE1EAA4D-A6A5-4DDF-9454-B52183C99511",
-            "approvedDocNo": "1096020526",
-            "approvedDate": "2021-01-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D7B40CF0-9ACE-4F60-B018-6F52850CAE1A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "91C8ED2F-F4F0-45A1-9423-C4DDCE738F8A",
-            "approvedDocNo": "1081490986",
-            "approvedDate": "2019-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "87D97791-F560-461D-A40D-0B8FDC03040D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

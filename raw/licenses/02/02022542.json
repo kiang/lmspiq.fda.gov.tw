@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022542",
-    "validDate": "2024-07-13 00:00:00.000",
-    "issueDate": "1999-07-13 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-13 00:00:00.000",
+    "issueDate": "2024-08-02 00:00:00.000",
+    "oriIssueDate": "1999-07-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202254202",
@@ -16,13 +20,16 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AC4686FB-6A84-4F61-BBA9-84985C9F3D40",
+    "subCategory": [],
     "ingredientsDesc": [
         "QUETIAPINE (AS FUMARATE)"
     ],
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1CD0CB61-3266-4B80-AEE6-D5A366138C29",
             "factoryCode": "1",
             "factoryName": "ASTRAZENECA PHARMACEUTICALS LP",
             "factoryAddr": "587 OLD BALTIMORE PIKE,NEWARK, DE 19702, U.S.A. ",
@@ -52,9 +60,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0516000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "DE821A7E-3091-4B8D-BB15-02B96735FC7C",
             "factoryCode": "2",
             "factoryName": "ASTRAZENECA UK LIMITED",
             "factoryAddr": "SILK ROAD BUSINESS PARK,MACCLESFIELD,CHESHIRE,SK10 2NA",
@@ -70,13 +81,16 @@
             "factoryKind": "M",
             "factoryNo": "FGB0053000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037610",
+            "ingredientsName": "QUETIAPINE (AS FUMARATE)",
             "ingredientsDesc": "QUETIAPINE (AS FUMARATE)",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -88,48 +102,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5F453C8B-B97E-4369-9176-AC84FFABBA3A",
-            "approvedDocNo": "1129062908",
-            "approvedDate": "2023-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BFD6663E-7BF1-4371-86F1-2A579642B3C4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "44D98C70-B711-4F00-BDC9-EB9D2BB5B792",
-            "approvedDocNo": "1106018736",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D4353589-7C86-467D-B41B-3C6510ECA55F",
-            "approvedDocNo": "1096038608",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "53866CB9-2FDD-4B6B-80AD-CCE3C3A74D6D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

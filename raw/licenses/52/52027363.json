@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027363",
+    "licUnit": "1",
     "validDate": "2028-03-27 00:00:00.000",
     "issueDate": "2018-03-27 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202736304",
     "prodNameC": "銳思定® 膜衣錠 0.25毫克",
     "prodNameE": "REXULTI® (brexpiprazole) tablets 0.25 mg",
     "indicationsName": [
-        "思覺失調症"
+        "１、思覺失調症。\n２、阿茲海默症(Alzheimer's disease)之失智症相關激動症狀。使用限制:REXULTI不適合作為視需要給予(PRN)方式治療阿茲海默症(Alzheimer's disease)之失智症相關激動症狀。"
     ],
     "does": "1116",
     "packageUnit": [
@@ -27,6 +31,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "EBAB6AA9-6E80-4D81-8F80-D47B6F5D94AB",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "brexpiprazole"
     ],
@@ -47,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "25444491-9F81-4AA1-BB6E-E1513EF88A98",
             "factoryCode": "1",
             "factoryName": "OTSUKA PHARMACEUTICAL CO., LTD. (TOKUSHIMA PLANT)",
             "factoryAddr": "463-10,KAGASUNO,KAWAUCHI-CHO TOKUSHIMA CITY,TOKUSHIMA 771-0192,JAPAN",
@@ -57,9 +67,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP0246000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "341CB04D-4549-479D-8B1B-8D53824EE182",
             "factoryCode": "2",
             "factoryName": "台灣大塚製藥股份有限公司中壢工廠",
             "factoryAddr": "桃園市中壢區吉林路１５號",
@@ -75,9 +88,12 @@
             "factoryKind": "M",
             "factoryNo": "1403304300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8269A5B1-37B1-479A-8F5C-7FEA5912EEB9",
             "factoryCode": "2",
             "factoryName": "Sharp Packaging Services, LLC",
             "factoryAddr": "7451 KEEBLER WAY , ALLENTOWN , PENNSYLVANIA 18106 , USA",
@@ -93,16 +109,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS1229000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816300100",
+            "ingredientsName": "brexpiprazole",
             "ingredientsDesc": "brexpiprazole",
             "concentDesc": "",
-            "concent": "0.250",
+            "concent": "0.2500",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -111,64 +130,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C98DF5A5-45EB-4FD6-AD45-F3E5BBB10F5C",
-            "approvedDocNo": "1119055402",
-            "approvedDate": "2022-11-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "03CD8A7D-2C87-4AAE-91FB-3D3D5F6974BE",
-            "approvedDocNo": "1096033944",
-            "approvedDate": "2020-11-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "799DBF88-5314-483B-BA14-DAE6804341B8",
-            "approvedDocNo": "1091492375",
-            "approvedDate": "2020-10-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0EC32556-E84F-43FE-8740-96294220D5A3",
-            "approvedDocNo": "1096027958",
-            "approvedDate": "2020-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F16F3957-8CA9-4CFD-8B49-A5FCFC128367",
-            "approvedDocNo": "1096027959",
-            "approvedDate": "2020-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9484992D-B7E0-4CD7-BF94-52C7B20949B0",
-            "approvedDocNo": "1096015093",
-            "approvedDate": "2020-08-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AAF56A1D-941C-4065-B589-04CEFD037157",
-            "approvedDocNo": "1081490657",
-            "approvedDate": "2019-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

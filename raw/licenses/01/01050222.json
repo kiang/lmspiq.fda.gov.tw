@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050222",
-    "validDate": "2024-07-09 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-09 00:00:00.000",
     "issueDate": "2009-07-09 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105022201",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "473E47F5-6A61-4950-B7A1-9B4A0538B581",
+    "subCategory": [],
     "ingredientsDesc": [
         "METOCLOPRAMIDE 2HCL",
         "PANCREATIN (DIASTASE VERA)"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8451C976-1083-435F-9FEB-0F7F334625B7",
             "factoryCode": "1",
             "factoryName": "明德製藥股份有限公司",
             "factoryAddr": "桃園市楊梅區民富路2段360號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0806804300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616001200",
+            "ingredientsName": "PANCREATIN (DIASTASE VERA)",
             "ingredientsDesc": "PANCREATIN (DIASTASE VERA)",
             "concentDesc": "",
             "concent": "212.5000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5622000720",
+            "ingredientsName": "METOCLOPRAMIDE 2HCL",
             "ingredientsDesc": "METOCLOPRAMIDE 2HCL",
             "concentDesc": "",
             "concent": "5.0000",
@@ -90,14 +102,6 @@
         {
             "isMain": "1",
             "atcCode": "A03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A09AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03FA01"
         }
     ],
     "licBaseId": "3DC5D103-A319-46D2-B83A-C52620E031A5"

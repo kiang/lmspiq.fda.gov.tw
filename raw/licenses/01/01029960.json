@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029960",
+    "licUnit": "1",
     "validDate": "2025-02-26 00:00:00.000",
     "issueDate": "1987-08-14 00:00:00.000",
+    "oriIssueDate": "1987-08-14",
     "licKind": "02",
     "oldLicid": "01020646",
     "certNo": "DHY00102996009",
@@ -31,6 +35,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8A275C88-620F-44D7-ABE1-5B6591875325",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM CHLORIDE",
         "DEXTROSE MONOHYDRATE"
@@ -50,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "76995BAD-D196-4619-A5EE-D38371D70ACD",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區全興里中山路１００１號",
@@ -60,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000570",
+            "ingredientsName": "DEXTROSE MONOHYDRATE",
             "ingredientsDesc": "DEXTROSE MONOHYDRATE",
             "concentDesc": "25",
             "concent": "25.0000",
@@ -78,6 +89,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "4.5",
             "concent": "4.5000",
@@ -97,33 +109,8 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5946091B-963F-4618-9EC9-A337B2B97723",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3D5C040C-ED08-40C4-B499-F4BD709F51A0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05BB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA03"
-        },
         {
             "isMain": "1",
             "atcCode": "B05BB02"

@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01038974",
-    "validDate": "2024-09-14 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-09-14 00:00:00.000",
     "issueDate": "1995-06-21 00:00:00.000",
+    "oriIssueDate": "1995-06-21",
     "licKind": "02",
     "oldLicid": "01027409",
     "certNo": "DHY00103897408",
@@ -28,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "29D986CD-4998-4925-BB48-DAA3AD4600D3",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIBOFLAVIN (VIT B2)",
         "CYANOCOBALAMIN (VIT B12)",
@@ -52,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "10E830DA-16D7-4CF8-ABE6-20E6279B0697",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -62,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656991100",
+            "ingredientsName": "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
             "ingredientsDesc": "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
             "concentDesc": "(103MG)",
             "concent": "70.0000",
@@ -80,6 +90,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "",
             "concent": "4.0000",
@@ -91,6 +102,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100900",
+            "ingredientsName": "THIAMINE HYDROCHLORIDE",
             "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
             "concentDesc": "",
             "concent": "4.0000",
@@ -102,6 +114,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810009300",
+            "ingredientsName": "NIACIN (NIACINAMIDE)",
             "ingredientsDesc": "NIACIN (NIACINAMIDE)",
             "concentDesc": "",
             "concent": "12.0000",
@@ -113,6 +126,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "",
             "concent": "4.0000",
@@ -124,6 +138,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300200",
+            "ingredientsName": "PANTOTHENATE CALCIUM",
             "ingredientsDesc": "PANTOTHENATE CALCIUM",
             "concentDesc": "",
             "concent": "8.0000",
@@ -135,6 +150,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "",
             "concent": "1.2000",
@@ -146,88 +162,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5815FE0A-02AA-400F-B6CF-35A46B11E203",
-            "approvedDocNo": "1120718107",
-            "approvedDate": "2023-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "26587FF6-F7AD-4E8F-B02D-431CFE3EC448",
-            "approvedDocNo": "1120718107",
-            "approvedDate": "2023-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "337AE289-241F-436E-99FC-D491FE3C284E",
-            "approvedDocNo": "1106003736",
-            "approvedDate": "2021-03-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2840B549-6CE7-4C30-9616-F1F4E1BFCBBD",
-            "approvedDocNo": "1086024997",
-            "approvedDate": "2019-12-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CCCC5BC1-CE7C-487C-8011-53AB5D71F35F",
-            "approvedDocNo": "1086024997",
-            "approvedDate": "2019-12-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E79AF50C-CB06-4351-99B2-34F64C7F8C7F",
-            "approvedDocNo": "1086020080",
-            "approvedDate": "2019-07-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
         {
             "isMain": "1",
             "atcCode": "A05BA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A05BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA31"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
         }
     ],
     "licBaseId": "0C05CD56-2D58-4996-89FE-10AEA518A93E"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01030547",
-    "validDate": "2024-12-16 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-16 00:00:00.000",
     "issueDate": "1987-12-16 00:00:00.000",
+    "oriIssueDate": "1987-12-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103054701",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E8B23B20-1B06-46AC-A297-94D57BC88AD0",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM BISULFITE (EQ TO SODIUM HYDROGEN SULFITE)",
         "FRUCTOSE (LAEVULOSE)",
@@ -53,6 +60,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DE67CEEC-BE42-4EAF-8588-3DB1B43857C5",
             "factoryCode": "1",
             "factoryName": "信東生技股份有限公司",
             "factoryAddr": "桃園市桃園區豐林里介壽路２２號",
@@ -63,13 +71,16 @@
             "factoryKind": "M",
             "factoryNo": "0908703300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000600",
+            "ingredientsName": "FRUCTOSE (LAEVULOSE)",
             "ingredientsDesc": "FRUCTOSE (LAEVULOSE)",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -81,6 +92,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600028200",
+            "ingredientsName": "SODIUM HYDROXIDE",
             "ingredientsDesc": "SODIUM HYDROXIDE",
             "concentDesc": "0.68017",
             "concent": "0.6800",
@@ -92,6 +104,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200005300",
+            "ingredientsName": "LACTIC ACID",
             "ingredientsDesc": "LACTIC ACID",
             "concentDesc": "2.07184",
             "concent": "2.0720",
@@ -103,6 +116,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "1.26735",
             "concent": "1.2670",
@@ -114,6 +128,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": "0.30498",
             "concent": "0.3050",
@@ -125,6 +140,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "0.2338",
             "concent": "0.2340",
@@ -136,6 +152,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612001900",
+            "ingredientsName": "POTASSIUM PHOSPHATE ( eq to POTASSIUM PHOSPHATE DIBASIC)",
             "ingredientsDesc": "POTASSIUM PHOSPHATE ( eq to POTASSIUM PHOSPHATE DIBASIC)",
             "concentDesc": "0.26127",
             "concent": "0.2610",
@@ -147,6 +164,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6400000600",
+            "ingredientsName": "SODIUM BISULFITE (EQ TO SODIUM HYDROGEN SULFITE)",
             "ingredientsDesc": "SODIUM BISULFITE (EQ TO SODIUM HYDROGEN SULFITE)",
             "concentDesc": "0.41628",
             "concent": "0.4160",
@@ -163,14 +181,6 @@
         {
             "isMain": "1",
             "atcCode": "B05BA10"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BB01"
         }
     ],
     "licBaseId": "1D836998-1851-4BA1-9A5A-E16BD720AFDD"

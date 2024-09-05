@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01032120",
+    "licUnit": "1",
     "validDate": "2025-02-01 00:00:00.000",
     "issueDate": "1990-02-01 00:00:00.000",
+    "oriIssueDate": "1990-02-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103212001",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "92E34433-14C8-4DD6-996E-EA261A915AC9",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM ACETATE TRIHYDRATE (EQ TO SODIUM ACETATE 3H2O )",
         "POTASSIUM CHLORIDE",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A4CAF492-CAA1-4E24-9210-1BF06E712EEA",
             "factoryCode": "1",
             "factoryName": "信東生技股份有限公司",
             "factoryAddr": "桃園市桃園區介壽路２２號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0908703300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "208.845",
             "concent": "208.8450",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "5.215",
             "concent": "5.2150",
@@ -86,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": "5.34",
             "concent": "5.3400",
@@ -97,6 +110,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": "8.36",
             "concent": "8.3600",
@@ -108,6 +122,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000670",
+            "ingredientsName": "SODIUM ACETATE TRIHYDRATE (EQ TO SODIUM ACETATE 3H2O )",
             "ingredientsDesc": "SODIUM ACETATE TRIHYDRATE (EQ TO SODIUM ACETATE 3H2O )",
             "concentDesc": "171.36",
             "concent": "171.3600",
@@ -119,6 +134,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000760",
+            "ingredientsName": "GLUCOSE MONOHYDRATE",
             "ingredientsDesc": "GLUCOSE MONOHYDRATE",
             "concentDesc": "70.00",
             "concent": "70.0000",
@@ -134,10 +150,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "B05ZA"
-        },
-        {
-            "isMain": "2",
             "atcCode": "B05ZA"
         }
     ],

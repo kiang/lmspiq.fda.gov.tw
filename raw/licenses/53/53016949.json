@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "53016949",
+    "licUnit": "1",
     "validDate": "2027-10-03 00:00:00.000",
     "issueDate": "2017-10-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05301694909",
@@ -23,6 +27,9 @@
     "medMCode": "03",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8B5FF31F-ECBC-49A7-AF93-3F64CD0FAAEA",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM CHLORIDE",
         "GLYCERIN (eq to GLYCEROL)"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3958477F-FEF8-4A5E-8AF0-E2A82444843B",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
@@ -52,16 +60,19 @@
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600013500",
+            "ingredientsName": "GLYCERIN (eq to GLYCEROL)",
             "ingredientsDesc": "GLYCERIN (eq to GLYCEROL)",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +81,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,41 +93,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "650C8C17-5669-4875-BF59-36DD355F8B50",
-            "approvedDocNo": "1110815766",
-            "approvedDate": "2023-05-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DADB3F36-4187-4A42-9D3A-4AE429C61AFB",
-            "approvedDocNo": "1110815766",
-            "approvedDate": "2023-05-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B0C7B7ED-8608-4FF8-A1FA-919C6DE0C144",
-            "approvedDocNo": "1119025452",
-            "approvedDate": "2022-06-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A06AG04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A06AG"
-        },
         {
             "isMain": "1",
             "atcCode": "A06AG20"

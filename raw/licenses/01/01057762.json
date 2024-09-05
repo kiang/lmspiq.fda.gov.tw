@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057762",
+    "licUnit": "1",
     "validDate": "2027-12-10 00:00:00.000",
     "issueDate": "2012-12-10 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105776200",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "48372272-5C96-4EB7-8B55-CF126E200194",
+    "subCategory": [],
     "ingredientsDesc": [
         "SULBACTAM(AS SODIUM)STERILE",
         "AMPICILLIN (AS SODIUM) STERILE",
@@ -51,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A3B2466E-864C-4513-9561-B2D73290CC74",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司台中工廠",
             "factoryAddr": "台中市工業區１５路１０號",
@@ -61,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "0402609300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812609321",
+            "ingredientsName": "AMPICILLIN (AS SODIUM) STERILE",
             "ingredientsDesc": "AMPICILLIN (AS SODIUM) STERILE",
             "concentDesc": "(potency)",
             "concent": "0.5000",
@@ -79,6 +90,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410009511",
+            "ingredientsName": "SULBACTAM(AS SODIUM)STERILE",
             "ingredientsDesc": "SULBACTAM(AS SODIUM)STERILE",
             "concentDesc": "(potency)",
             "concent": "0.2500",
@@ -90,6 +102,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812609321",
+            "ingredientsName": "AMPICILLIN (AS SODIUM) STERILE",
             "ingredientsDesc": "AMPICILLIN (AS SODIUM) STERILE",
             "concentDesc": "(potency)",
             "concent": "1.0000",
@@ -101,6 +114,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410009511",
+            "ingredientsName": "SULBACTAM(AS SODIUM)STERILE",
             "ingredientsDesc": "SULBACTAM(AS SODIUM)STERILE",
             "concentDesc": "(potency)",
             "concent": "0.5000",
@@ -112,6 +126,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812609321",
+            "ingredientsName": "AMPICILLIN (AS SODIUM) STERILE",
             "ingredientsDesc": "AMPICILLIN (AS SODIUM) STERILE",
             "concentDesc": "(potency)",
             "concent": "2.0000",
@@ -123,6 +138,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410009511",
+            "ingredientsName": "SULBACTAM(AS SODIUM)STERILE",
             "ingredientsDesc": "SULBACTAM(AS SODIUM)STERILE",
             "concentDesc": "(potency)",
             "concent": "1.0000",
@@ -134,52 +150,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EBB41BD0-1920-4574-8C14-41C37BDA77FE",
-            "approvedDocNo": "1110711681",
-            "approvedDate": "2022-09-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "85E2ADCD-899D-489A-823B-86670F98BB1E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5062C2A5-67A8-4BAC-AFA7-15188F851A7D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-09-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "91BA75ED-5263-420D-92D9-0DEA748EF05A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01CA01"
-        },
         {
             "isMain": "1",
             "atcCode": "J01CR01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CG01"
         }
     ],
     "licBaseId": "B8FF145E-B438-4A6D-A5D8-F8342B14352B"

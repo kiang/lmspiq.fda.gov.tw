@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023241",
+    "licUnit": "1",
     "validDate": "2026-07-24 00:00:00.000",
     "issueDate": "2001-07-24 00:00:00.000",
+    "oriIssueDate": "2001-07-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202324103",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BA091F29-E318-4F19-940F-060431F135C6",
+    "subCategory": [],
     "ingredientsDesc": [
         "IOHEXOL"
     ],
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1AADF348-7183-4BF1-90D2-6A8A8AB6CBF3",
             "factoryCode": "1",
             "factoryName": "GE HEALTHCARE IRELAND LIMITED",
             "factoryAddr": "IDA BUSINESS PARK, CARRIGTOHILL, CO. CORK IRELAND",
@@ -57,9 +65,12 @@
             "factoryKind": "M",
             "factoryNo": "FIE0028000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "DD04E380-8D90-4A91-96C7-2CE85572A4F3",
             "factoryCode": "2",
             "factoryName": "GE HEALTHCARE AS",
             "factoryAddr": "NYCOVEIEN 1-2, P.O. BOX 4220, NYDALEN, NO-0401 OSLO, NORWAY",
@@ -75,13 +86,16 @@
             "factoryKind": "O",
             "factoryNo": "FNO0003000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "3668002700",
+            "ingredientsName": "IOHEXOL",
             "ingredientsDesc": "IOHEXOL",
             "concentDesc": "",
             "concent": "388.0000",
@@ -95,14 +109,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05XX02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V08AB02"
-        },
         {
             "isMain": "1",
             "atcCode": "V08AB02"

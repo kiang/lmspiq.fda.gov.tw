@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01021916",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1980-08-07 00:00:00.000",
+    "oriIssueDate": "1980-08-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102191605",
@@ -23,12 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "50FEC131-33E2-4E4F-ACC9-AEA709E7D40E",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "CHLORZOXAZONE"
     ],
     "restraintItemsCode": [
-        "01",
         "1R"
     ],
     "applicantName": "鎰浩貿易股份有限公司",
@@ -43,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3EA88CC7-5EFE-43A0-BE30-5DDE5FFEE3E9",
             "factoryCode": "1",
             "factoryName": "利達製藥股份有限公司",
             "factoryAddr": "台中市大甲區中山路一段９０６號",
@@ -53,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "0701010300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220000600",
+            "ingredientsName": "CHLORZOXAZONE",
             "ingredientsDesc": "CHLORZOXAZONE",
             "concentDesc": "125",
             "concent": "125.0000",
@@ -71,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "150",
             "concent": "150.0000",
@@ -87,14 +98,6 @@
         {
             "isMain": "1",
             "atcCode": "M03BB53"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "M03BB03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
         }
     ],
     "licBaseId": "5E213D92-28C0-409B-919E-6D23EDE647E9"

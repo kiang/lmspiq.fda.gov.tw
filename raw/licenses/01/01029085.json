@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029085",
+    "licUnit": "1",
     "validDate": "2028-08-06 00:00:00.000",
     "issueDate": "1986-08-06 00:00:00.000",
+    "oriIssueDate": "1986-08-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102908502",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C544D47A-9EDB-4043-BAE3-AE5B7F66DB97",
+    "subCategory": [],
     "ingredientsDesc": [
         "METHYLPREDNISOLONE SODIUM SUCCINATE BUFFERED 3%",
         "METHYLPREDNISOLONE SODIUM SUCCINATE BUFFERED 3%",
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FEB55DEA-C661-4556-90B0-B49D7DCC7B99",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區全興里中山路1001號、1001之1號",
@@ -59,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001333",
+            "ingredientsName": "METHYLPREDNISOLONE SODIUM SUCCINATE BUFFERED 3%",
             "ingredientsDesc": "METHYLPREDNISOLONE SODIUM SUCCINATE BUFFERED 3%",
             "concentDesc": "(eq. to METHYLPREDNISOLONE 40mg)",
             "concent": "54.6000",
@@ -77,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001333",
+            "ingredientsName": "METHYLPREDNISOLONE SODIUM SUCCINATE BUFFERED 3%",
             "ingredientsDesc": "METHYLPREDNISOLONE SODIUM SUCCINATE BUFFERED 3%",
             "concentDesc": "(eq. to METHYLPREDNISOLONE 125mg)",
             "concent": "170.6000",
@@ -88,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001333",
+            "ingredientsName": "METHYLPREDNISOLONE SODIUM SUCCINATE BUFFERED 3%",
             "ingredientsDesc": "METHYLPREDNISOLONE SODIUM SUCCINATE BUFFERED 3%",
             "concentDesc": "(eq. to METHYLPREDNISOLONE 250mg)",
             "concent": "341.2000",
@@ -99,6 +112,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001333",
+            "ingredientsName": "METHYLPREDNISOLONE SODIUM SUCCINATE BUFFERED 3%",
             "ingredientsDesc": "METHYLPREDNISOLONE SODIUM SUCCINATE BUFFERED 3%",
             "concentDesc": "(eq. to METHYLPREDNISOLONE 500mg)",
             "concent": "682.5000",
@@ -110,6 +124,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001333",
+            "ingredientsName": "METHYLPREDNISOLONE SODIUM SUCCINATE BUFFERED 3%",
             "ingredientsDesc": "METHYLPREDNISOLONE SODIUM SUCCINATE BUFFERED 3%",
             "concentDesc": "(eq. to METHYLPREDNISOLONE 1G)",
             "concent": "1.3650",
@@ -121,47 +136,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8E6F79B7-F3D6-49F4-9896-0893801D819E",
-            "approvedDocNo": "1129023754",
-            "approvedDate": "2023-07-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "11D7A8F7-9AC5-4A92-9F6F-5AFBA32590E4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "71F26936-6713-4E90-B01A-B0D4A792C1BE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "57D23552-39C9-4017-A70E-E8E449104445",
-            "approvedDocNo": "1101495998",
-            "approvedDate": "2021-08-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "H02AB04"
-        },
-        {
-            "isMain": "2",
             "atcCode": "H02AB04"
         }
     ],

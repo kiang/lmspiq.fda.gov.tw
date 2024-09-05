@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01027146",
+    "licUnit": "1",
     "validDate": "2025-12-31 00:00:00.000",
     "issueDate": "1983-05-18 00:00:00.000",
+    "oriIssueDate": "1983-05-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102714602",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6AB77215-CD19-4CC2-9E69-BA2D5B56B27E",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRIAMCINOLONE ACETONIDE",
         "ECONAZOLE NITRATE"
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "31716DDA-A58C-4992-97AD-A51D7FEC8A6E",
             "factoryCode": "1",
             "factoryName": "明德製藥股份有限公司",
             "factoryAddr": "桃園市楊梅區瑞原里7鄰民富路二段３６０號",
@@ -59,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "0806804300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812201410",
+            "ingredientsName": "ECONAZOLE NITRATE",
             "ingredientsDesc": "ECONAZOLE NITRATE",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -77,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -88,36 +100,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "93A409FE-87E1-4D06-BEDC-2F4BECDCAFD4",
-            "approvedDocNo": "1110021836",
-            "approvedDate": "2023-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "71283152-CC86-4CF0-8D7D-99065F93570D",
-            "approvedDocNo": "1110021836",
-            "approvedDate": "2023-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D01AC03"
-        },
         {
             "isMain": "1",
             "atcCode": "D01AC20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AB09"
         }
     ],
     "licBaseId": "10815F32-9EE0-471E-9124-BF66206D9C63"

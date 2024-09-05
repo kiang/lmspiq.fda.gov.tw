@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000462",
+    "licUnit": "1",
     "validDate": "2029-01-05 00:00:00.000",
     "issueDate": "2018-12-06 00:00:00.000",
+    "oriIssueDate": "1997-08-14",
     "licKind": "04",
     "oldLicid": "10000087",
     "certNo": "DHA01000046201",
@@ -27,6 +31,11 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "31C1C284-2B15-404A-B5E4-C7C9F2029036",
+    "subCategory": [
+        "C06"
+    ],
     "ingredientsDesc": [
         "GAMMA GLOBULIN, ANTI-RHO (D)"
     ],
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A89E3ABE-49CA-4AF8-8088-A21BC7D68CD0",
             "factoryCode": "1",
             "factoryName": "Grifols Therapeutics LLC",
             "factoryAddr": "8368 US 70 BUS HWY WEST, CLAYTON, NC 27520, U.S.A.",
@@ -55,9 +65,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0255000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7867B265-1788-4E5B-95FF-485E3CC40124",
             "factoryCode": "2",
             "factoryName": "INSTITUTO GRIFOLS S.A.",
             "factoryAddr": "POLIGONO LEVANTE C\/CAN GUASCH 2, 08150 PARETS DEL VALLES BARCELONA SPAIN",
@@ -73,16 +86,19 @@
             "factoryKind": "M",
             "factoryNo": "FES0117000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004000520",
+            "ingredientsName": "GAMMA GLOBULIN, ANTI-RHO (D)",
             "ingredientsDesc": "GAMMA GLOBULIN, ANTI-RHO (D)",
             "concentDesc": "Minimun of",
-            "concent": "1500.000",
+            "concent": "1500.0000",
             "concentUnit": "21A",
             "seq": "0",
             "prescription_seq": "1",
@@ -91,16 +107,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C0DC035C-4153-4F0D-929B-ED8324F60BDA",
-            "approvedDocNo": "1120031177",
-            "approvedDate": "2023-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

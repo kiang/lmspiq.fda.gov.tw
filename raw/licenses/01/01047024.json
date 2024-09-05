@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047024",
+    "licUnit": "1",
     "validDate": "2025-02-15 00:00:00.000",
     "issueDate": "2005-02-15 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104702400",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "E1E23800-5BC1-4A9A-9336-153D687D52F8",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "PHENYLEPHRINE HCL"
@@ -44,23 +53,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B19A5EF5-FB1C-46F2-800C-7A701FEA169E",
             "factoryCode": "1",
-            "factoryName": "優良化學製藥股份有限公司",
-            "factoryAddr": "新竹縣湖口鄉中興村光復路10號",
+            "factoryName": "健康化學製藥股份有限公司",
+            "factoryAddr": "台中市大甲區幼獅工業區幼四路１２號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "1702804200",
+            "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": null,
             "concent": "100.0000",
@@ -72,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002310",
+            "ingredientsName": "PHENYLEPHRINE HCL",
             "ingredientsDesc": "PHENYLEPHRINE HCL",
             "concentDesc": null,
             "concent": "1.6600",
@@ -88,14 +102,6 @@
         {
             "isMain": "1",
             "atcCode": "N02BE51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA03"
         }
     ],
     "licBaseId": "7F248AB1-E5AB-4F97-A05F-7BF09443FEF7"

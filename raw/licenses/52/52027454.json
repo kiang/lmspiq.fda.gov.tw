@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027454",
+    "licUnit": "1",
     "validDate": "2028-09-13 00:00:00.000",
     "issueDate": "2018-09-13 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202745407",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "39CE2203-FA34-4C49-9D16-DC4883E8F47C",
+    "subCategory": [
+        "A07"
+    ],
     "ingredientsDesc": [
         "DYDROGESTERONE",
         "ESTRADIOL HEMIHYDRATE"
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1F53C093-A4B8-4B54-B629-B87853B3267C",
             "factoryCode": "1",
             "factoryName": "ABBOTT BIOLOGICALS B.V.",
             "factoryAddr": "VEERWEG 12, 8121 AA OLST, THE NETHERLANDS",
@@ -53,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FNL0058000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4E397803-EE08-42AD-AAFB-438436610AF9",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -71,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816500110",
+            "ingredientsName": "ESTRADIOL HEMIHYDRATE",
             "ingredientsDesc": "ESTRADIOL HEMIHYDRATE",
             "concentDesc": "(e.q. to estradiol 1mg)",
-            "concent": "1.030",
+            "concent": "1.0300",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,9 +105,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832000200",
+            "ingredientsName": "DYDROGESTERONE",
             "ingredientsDesc": "DYDROGESTERONE",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -100,60 +117,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9DEE23CF-C3B9-42B8-AA00-428842DC0030",
-            "approvedDocNo": "1129049250",
-            "approvedDate": "2023-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DEB07A7B-D2C5-4815-B29C-CBE5A4846B36",
-            "approvedDocNo": "1110712955",
-            "approvedDate": "2022-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AE21374C-F997-4FC5-8142-24D3B3CBF2DD",
-            "approvedDocNo": "1096015883",
-            "approvedDate": "2020-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B3F671C1-9E0F-494B-869E-E74B3587197F",
-            "approvedDocNo": "1086011366",
-            "approvedDate": "2019-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AEDBA9C4-679B-467E-BA62-B33DB9E23983",
-            "approvedDocNo": "1086012106",
-            "approvedDate": "2019-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G03FA14"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03CA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03DB01"
         }
     ],
     "licBaseId": "EE0EA921-3617-4223-B9C7-8E29E991B129"

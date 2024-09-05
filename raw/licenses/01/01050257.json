@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050257",
+    "licUnit": "1",
     "validDate": "2024-07-27 00:00:00.000",
     "issueDate": "2009-07-27 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105025704",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "C58476E7-74F9-450E-8212-197A752D13FA",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "TOCOPHEROL ACETATE ALPHA DL-",
         "CAPSICUM EXTRACT",
@@ -49,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F86EB923-ECE7-478A-87EE-FABF8BECB4ED",
             "factoryCode": "1",
             "factoryName": "德山製藥股份有限公司",
             "factoryAddr": "嘉義縣民雄鄉民雄工業區中山路38號",
@@ -59,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "6140040013",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8400000200",
+            "ingredientsName": "GLYCOL SALICYLATE",
             "ingredientsDesc": "GLYCOL SALICYLATE",
             "concentDesc": "",
             "concent": "240.0000",
@@ -77,6 +90,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000103",
+            "ingredientsName": "DL-CAMPHOR ",
             "ingredientsDesc": "DL-CAMPHOR ",
             "concentDesc": "",
             "concent": "80.0000",
@@ -88,6 +102,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000213",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA DL-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA DL-",
             "concentDesc": "",
             "concent": "48.0000",
@@ -99,6 +114,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200018002",
+            "ingredientsName": "CAPSICUM EXTRACT",
             "ingredientsDesc": "CAPSICUM EXTRACT",
             "concentDesc": "",
             "concent": "32.0000",
@@ -110,45 +126,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AC1EB5E3-5327-4CA9-8E36-861970637848",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BD87FBD1-36B6-4B8E-ACE3-F0F8218CBCC8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F7A66D98-3614-4556-9E66-A52B972DC6B3",
-            "approvedDocNo": "1080000037",
-            "approvedDate": "2019-05-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N01BX04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D02AF"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
         {
             "isMain": "1",
             "atcCode": "M02AC"

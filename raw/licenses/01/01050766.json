@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050766",
-    "validDate": "2024-08-26 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-08-26 00:00:00.000",
     "issueDate": "2009-08-26 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105076602",
@@ -22,12 +26,18 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "523DECD0-DD04-4CFB-A16D-8C3724594621",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "EPRAZINONE HCL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "臺灣汎生製藥廠股份有限公司",
     "applicantAddr": "高雄市鳥松區坔埔里大同路5-1號及神農路330號",
@@ -41,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "24018268-8BA3-493C-8B20-3CB4159087E9",
             "factoryCode": "1",
             "factoryName": "臺灣汎生製藥廠股份有限公司",
             "factoryAddr": "高雄市鳥松區圣埔村大同路5-1號",
@@ -51,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "1405522300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001311",
+            "ingredientsName": "EPRAZINONE HCL",
             "ingredientsDesc": "EPRAZINONE HCL",
             "concentDesc": null,
             "concent": "100.0000",
@@ -69,21 +83,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F6544D5E-7291-4C77-BB5D-3A8D517CA9DE",
-            "approvedDocNo": "1086603470",
-            "approvedDate": "2019-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05CB04"
-        },
         {
             "isMain": "1",
             "atcCode": "R05CB04"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058568",
+    "licUnit": "1",
     "validDate": "2024-12-17 00:00:00.000",
     "issueDate": "2014-12-17 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105856802",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D44FB47F-BBFD-4443-B58F-A8349D761080",
+    "subCategory": [],
     "ingredientsDesc": [
         "PRILOCAINE",
         "LIDOCAINE"
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "735CEE2B-4827-4C4D-81C3-B7B9EA652F1A",
             "factoryCode": "1",
             "factoryName": "竟天生物科技製藥工廠",
             "factoryAddr": "新竹縣竹北市生醫路二段18, 20, 22號6樓",
@@ -57,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "6133050769",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200009200",
+            "ingredientsName": "PRILOCAINE",
             "ingredientsDesc": "PRILOCAINE",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001000",
+            "ingredientsName": "LIDOCAINE",
             "ingredientsDesc": "LIDOCAINE",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -86,33 +98,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D653CA3E-F1D7-4F70-AB09-FCF3D3D4256F",
-            "approvedDocNo": "1129054858",
-            "approvedDate": "2023-12-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "43625979-1EF6-4BB7-A4C1-5F6F61A40CA9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D04AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AB01"
-        },
         {
             "isMain": "1",
             "atcCode": "D04AB"

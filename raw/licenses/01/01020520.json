@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01020520",
+    "licUnit": "1",
     "validDate": "2025-02-12 00:00:00.000",
     "issueDate": "1980-02-12 00:00:00.000",
+    "oriIssueDate": "1980-02-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102052001",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FDB699FF-3F36-4210-9220-3235A87F1076",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "CHLORMEZANONE"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BEA7F7C2-9E93-45B2-B433-0AAF21033E53",
             "factoryCode": "1",
             "factoryName": "優生製藥廠股份有限公司",
             "factoryAddr": "台中市南屯區寶山里工業區21路14號",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "1702509300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "450",
             "concent": "450.0000",
@@ -70,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220000400",
+            "ingredientsName": "CHLORMEZANONE",
             "ingredientsDesc": "CHLORMEZANONE",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -83,14 +95,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "M03BB02"
-        },
         {
             "isMain": "1",
             "atcCode": "M03BB52"

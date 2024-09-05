@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035672",
+    "licUnit": "1",
     "validDate": "2027-09-15 00:00:00.000",
     "issueDate": "1992-09-15 00:00:00.000",
+    "oriIssueDate": "1992-09-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103567203",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FD78D75C-3ADE-4210-94D8-F769D7241796",
+    "subCategory": [],
     "ingredientsDesc": [
         "FLURBIPROFEN"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D7FD43FC-3C5C-4E9E-8760-E7DB6C7C94BF",
             "factoryCode": "1",
             "factoryName": "約克製藥股份有限公司",
             "factoryAddr": "雲林縣斗六市榴中里復興路3號",
@@ -55,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "6139011104",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808401000",
+            "ingredientsName": "FLURBIPROFEN",
             "ingredientsDesc": "FLURBIPROFEN",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -73,87 +84,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7F69E564-6AC0-4E7E-BD48-023440C1E571",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "642909A7-C433-4E0F-86CB-73F160090F02",
-            "approvedDocNo": "1106604759",
-            "approvedDate": "2021-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B233DC09-9072-42C7-8F90-7E985518C24B",
-            "approvedDocNo": "1106604759",
-            "approvedDate": "2021-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7EBEDDC4-F40D-4DC3-9B22-E9B0DE681A95",
-            "approvedDocNo": "1106604759",
-            "approvedDate": "2021-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EFDB8FD8-AFA5-4282-A8F7-539427F55BB1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "43B4FDA3-A545-476A-9F83-D1FC5F891D0E",
-            "approvedDocNo": "1096601934",
-            "approvedDate": "2020-05-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "39F4C6D4-F1C1-4814-A290-919625CA657E",
-            "approvedDocNo": "1096601934",
-            "approvedDate": "2020-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "762ADB02-33BA-4086-A9AD-66BE0B78314F",
-            "approvedDocNo": "1096601934",
-            "approvedDate": "2020-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "10B3C847-94E4-4F0E-963D-449AE9A64DA8",
-            "approvedDocNo": "1096601934",
-            "approvedDate": "2020-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "M01AE09"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M01AE09"
         }
     ],

@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2024-07-11",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "02024743",
+    "licUnit": "1",
     "validDate": "2022-11-13 00:00:00.000",
     "issueDate": "2007-11-13 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202474306",
@@ -22,7 +28,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "82CBD515-9564-43A6-AC1A-6574F6B104ED",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "GENTAMICIN (AS SULFATE)",
         "BETAMETHASONE DIPROPIONATE"
@@ -43,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "26A646B4-FD7E-405F-9C1E-B1FD538062CB",
             "factoryCode": "1",
             "factoryName": "GREEN CROSS CORPORATION",
             "factoryAddr": "26, MUGEUK-RO 65 BEON-GIL, GEUMWANG-EUP, EUMSEONG-GUN, CHUNGCHEONGBUK-DO, KOREA",
@@ -53,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "FKR0091000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000220",
+            "ingredientsName": "BETAMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BETAMETHASONE DIPROPIONATE",
             "concentDesc": "(eq. to Betamethasone 0.5mg)",
             "concent": "0.6000",
@@ -71,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "(potency)",
             "concent": "1.0000",
@@ -87,14 +103,6 @@
         {
             "isMain": "1",
             "atcCode": "D07CC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX07"
         }
     ],
     "licBaseId": "FC6AE0BB-5751-4750-899B-F4565A6053B1"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01018929",
+    "licUnit": "1",
     "validDate": "2024-12-31 00:00:00.000",
     "issueDate": "1979-10-01 00:00:00.000",
+    "oriIssueDate": "1979-10-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101892904",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F5E79A22-4AD1-4262-B733-7ED88D9773D6",
+    "subCategory": [],
     "ingredientsDesc": [
         "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)",
         "ETHENZAMIDE (ETHOXYBENZAMIDE)",
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "54CC70A0-FB6A-4CEC-89F6-003A0C96C483",
             "factoryCode": "1",
             "factoryName": "華興化學製藥廠股份有限公司",
             "factoryAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "1203612300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808600900",
+            "ingredientsName": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "ingredientsDesc": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "concentDesc": "200",
             "concent": "200.0000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "80",
             "concent": "80.0000",
@@ -87,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824000300",
+            "ingredientsName": "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)",
             "ingredientsDesc": "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -98,6 +111,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "25",
             "concent": "25.0000",
@@ -109,60 +123,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "58FAF38C-41EE-4C86-937D-F49C327C3888",
-            "approvedDocNo": "1110017857",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "110AEB0B-0C23-4CF1-ABFA-C8E1D230822E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4E2BC1DD-A5A9-446F-A7C1-1C3BE9076681",
-            "approvedDocNo": "1100032643",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F2C02FBC-B2D1-44BE-B809-6C99F963289D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N05CM03"
-        },
         {
             "isMain": "1",
             "atcCode": "N02BE71"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BA07"
         }
     ],
     "licBaseId": "48ECA1AD-9709-44F8-B09A-D9093EC41A97"

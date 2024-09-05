@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027860",
+    "licUnit": "1",
     "validDate": "2025-04-22 00:00:00.000",
     "issueDate": "2020-04-22 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202786005",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "7C5782FC-1784-4084-BAF9-7E34A6D04B6A",
+    "subCategory": [
+        "A02"
+    ],
     "ingredientsDesc": [
         "Dolutegravir Sodium",
         "LAMIVUDINE"
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "933E6A20-A300-402A-8982-96D1DFB32256",
             "factoryCode": "1",
             "factoryName": "GLAXO WELLCOME, S.A.",
             "factoryAddr": "AVENIDA EXTREMADURA 3, ARANDA de DUERO, BURGOS 09400, SPAIN",
@@ -58,9 +68,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0122000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "53ED3305-7563-4EC1-98C7-F8724092CDCA",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -76,9 +89,12 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "165FAC64-7C0A-4C5F-B11B-218EA1873DB7",
             "factoryCode": "2",
             "factoryName": "VIIV HEALTHCARE B.V.",
             "factoryAddr": "HUIS TER HEIDEWEG 62, 3705 LZ, ZEIST, NETHERLANDS",
@@ -94,16 +110,19 @@
             "factoryKind": "M",
             "factoryNo": "FNL0123000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818001400",
+            "ingredientsName": "LAMIVUDINE",
             "ingredientsDesc": "LAMIVUDINE",
             "concentDesc": "",
-            "concent": "300.000",
+            "concent": "300.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -112,9 +131,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818004700",
+            "ingredientsName": "Dolutegravir Sodium",
             "ingredientsDesc": "Dolutegravir Sodium",
             "concentDesc": "(equivalent to 50 MG Dolutegravir)",
-            "concent": "52.600",
+            "concent": "52.6000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -123,65 +143,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A3FF7091-B743-4F8F-A989-5C9F6EFD3EAE",
-            "approvedDocNo": "1129055896",
-            "approvedDate": "2023-10-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4E416811-C369-4311-BC0D-B192AC3FF851",
-            "approvedDocNo": "1129048093",
-            "approvedDate": "2023-09-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F42E8C96-6904-432B-A34F-222A52B85686",
-            "approvedDocNo": "1119060809",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "88A0455F-AE08-4E2D-8152-BA9F106793DF",
-            "approvedDocNo": "1101492961",
-            "approvedDate": "2022-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AA7C999D-9B77-4465-9665-7BB2EB28D3D6",
-            "approvedDocNo": "1101492961",
-            "approvedDate": "2022-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "715CBA39-A7B1-48CB-A3F7-B43302738190",
-            "approvedDocNo": "1091492436",
-            "approvedDate": "2020-10-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J05AX12"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AF05"
-        },
         {
             "isMain": "1",
             "atcCode": "J05AR25"

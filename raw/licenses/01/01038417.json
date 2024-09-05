@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01038417",
-    "validDate": "2024-12-23 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-23 00:00:00.000",
     "issueDate": "1994-12-23 00:00:00.000",
+    "oriIssueDate": "1994-12-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103841702",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F1477BDF-CBD9-4621-B8F4-43EE46CD405E",
+    "subCategory": [],
     "ingredientsDesc": [
         "NEOMYCIN (SULFATE)",
         "HYDROCORTISONE ACETATE",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "09234BD8-21AD-4171-9E3F-16A6DEE0B207",
             "factoryCode": "1",
             "factoryName": "羅得化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區東西七路一段65號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "1901510300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "3.5",
             "concent": "3.5000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001120",
+            "ingredientsName": "HYDROCORTISONE ACETATE",
             "ingredientsDesc": "HYDROCORTISONE ACETATE",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -86,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416001701",
+            "ingredientsName": "CENTELLA ASIATICA TITRATED EXTRACT",
             "ingredientsDesc": "CENTELLA ASIATICA TITRATED EXTRACT",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -97,104 +110,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2EF9F912-63DD-4E76-A511-DA0BAEFE9FA0",
-            "approvedDocNo": "1110811694",
-            "approvedDate": "2022-11-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "53CCED5A-BC86-439E-997F-E49F4402C8E8",
-            "approvedDocNo": "1110811694",
-            "approvedDate": "2022-11-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F118B05-9393-4906-9073-E99CE4E278A1",
-            "approvedDocNo": "1086804578",
-            "approvedDate": "2019-06-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "03DDB2CB-FF3B-4EF0-9836-F5E61E3296E7",
-            "approvedDocNo": "1086804578",
-            "approvedDate": "2019-06-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DB176C22-1276-42B2-A63C-0AF065D4BB1E",
-            "approvedDocNo": "1086804578",
-            "approvedDate": "2019-06-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F821D8BB-BDE1-432E-B6CC-6845499FF240",
-            "approvedDocNo": "1086804578",
-            "approvedDate": "2019-06-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BF158848-558F-40E2-AF67-73F3297BF2F0",
-            "approvedDocNo": "1086804578",
-            "approvedDate": "2019-06-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "74EC252D-38FE-47D4-8B86-84AC6F61D2FA",
-            "approvedDocNo": "1086804578",
-            "approvedDate": "2019-06-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C1A3095D-EAAD-40F0-8CE0-B034041004B0",
-            "approvedDocNo": "1086804578",
-            "approvedDate": "2019-06-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4CE27BF8-B6CC-4F16-AEBF-B83C2F8608C1",
-            "approvedDocNo": "1086804578",
-            "approvedDate": "2019-06-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
         {
             "isMain": "1",
             "atcCode": "D07CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AA02"
         }
     ],
     "licBaseId": "302949C1-9D39-40EE-9DB1-A285D4AFF75C"

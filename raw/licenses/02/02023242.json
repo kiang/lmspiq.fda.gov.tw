@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023242",
+    "licUnit": "1",
     "validDate": "2026-07-24 00:00:00.000",
     "issueDate": "2001-07-24 00:00:00.000",
+    "oriIssueDate": "2001-07-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202324205",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F568FBAF-99AD-4426-A3C3-4D01AEA403CB",
+    "subCategory": [],
     "ingredientsDesc": [
         "IOHEXOL"
     ],
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "10D17BD3-F169-4522-9715-49BE04F2FAE4",
             "factoryCode": "1",
             "factoryName": "GE HEALTHCARE IRELAND LIMITED",
             "factoryAddr": "IDA BUSINESS PARK, CARRIGTOHILL, CO. CORK IRELAND",
@@ -57,9 +65,12 @@
             "factoryKind": "M",
             "factoryNo": "FIE0028000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "FC4D2385-1215-4289-BDCF-F80374BD65F2",
             "factoryCode": "2",
             "factoryName": "GE HEALTHCARE AS",
             "factoryAddr": "NYCOVEIEN 1-2, P.O. BOX 4220, NYDALEN, NO-0401 OSLO, NORWAY",
@@ -75,13 +86,16 @@
             "factoryKind": "O",
             "factoryNo": "FNO0003000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "3668002700",
+            "ingredientsName": "IOHEXOL",
             "ingredientsDesc": "IOHEXOL",
             "concentDesc": "",
             "concent": "518.0000",
@@ -97,14 +111,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "V08AB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05XX02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "V08AB02"
         }
     ],

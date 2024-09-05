@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01052345",
-    "validDate": "2024-12-11 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-11 00:00:00.000",
     "issueDate": "2009-12-11 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105234501",
@@ -20,13 +24,16 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9FF05533-76BE-490B-B065-35C53462DD13",
+    "subCategory": [],
     "ingredientsDesc": [
         "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT (EQ TO 150MG OF SILYMARIN CALCULATED AS SILYBIN)"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DF764CB0-DAB6-4B82-94AF-E763C01FE34A",
             "factoryCode": "1",
             "factoryName": "十全實業股份有限公司",
             "factoryAddr": "南投縣南投市南崗工業區仁和路２７號",
@@ -55,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "0202114300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656900920",
+            "ingredientsName": "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT (EQ TO 150MG OF SILYMARIN CALCULATED AS SILYBIN)",
             "ingredientsDesc": "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT (EQ TO 150MG OF SILYMARIN CALCULATED AS SILYBIN)",
             "concentDesc": "",
             "concent": "230.0000",
@@ -73,21 +84,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AD6AA996-6830-448D-B20E-9A8F9EDEF0ED",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A05BA03"
-        },
         {
             "isMain": "1",
             "atcCode": "A05BA03"

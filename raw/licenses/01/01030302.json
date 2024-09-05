@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01030302",
-    "validDate": "2024-09-21 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-09-21 00:00:00.000",
     "issueDate": "1987-09-21 00:00:00.000",
+    "oriIssueDate": "1987-09-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103030200",
@@ -17,17 +20,20 @@
     "does": "3375",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "35"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4DBBFE70-6604-40C5-A117-41196B88183A",
+    "subCategory": [],
     "ingredientsDesc": [
         "MENTHOL",
         "CAMPHOR"
@@ -47,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BD3CE065-8DB2-47A8-84B6-E5EE66FC5D70",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -57,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000300",
+            "ingredientsName": "MENTHOL",
             "ingredientsDesc": "MENTHOL",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -75,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000100",
+            "ingredientsName": "CAMPHOR",
             "ingredientsDesc": "CAMPHOR",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -88,10 +99,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D04AX"
-        },
         {
             "isMain": "1",
             "atcCode": "D04AX"

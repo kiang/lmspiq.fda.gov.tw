@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01052531",
+    "licUnit": "1",
     "validDate": "2025-02-26 00:00:00.000",
     "issueDate": "2010-02-26 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105253108",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "1D7EFA4C-9C55-4BFB-A5B7-D31837D34BE8",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "LACTOBACILLUS RHAMNOSUS"
     ],
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "46B3E684-8DA4-4B41-90D9-B570075D62DF",
             "factoryCode": "1",
             "factoryName": "盈盈生技製藥股份有限公司三峽廠",
             "factoryAddr": "新北市三峽區紫新路２６巷６號",
@@ -55,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "1104602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5608000744",
+            "ingredientsName": "LACTOBACILLUS RHAMNOSUS",
             "ingredientsDesc": "LACTOBACILLUS RHAMNOSUS",
             "concentDesc": "",
             "concent": "150.0000",
@@ -73,39 +86,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FAC8E34E-A230-41FD-A364-99EC14D28D0D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "11891BEE-2F5D-4333-894E-E2FD54F974D2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "517AD03C-3493-4A45-80E7-3211C32BCEC3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "A07FA01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "A07FA01"
         }
     ],

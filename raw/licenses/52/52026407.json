@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026407",
+    "licUnit": "1",
     "validDate": "2025-02-03 00:00:00.000",
     "issueDate": "2015-02-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202640706",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "603310BD-5AD1-4D1A-935A-A0A0E0DBB6E4",
+    "subCategory": [],
     "ingredientsDesc": [
         "Dolutegravir Sodium"
     ],
@@ -43,22 +50,31 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3A5F6B44-0EFF-4759-88E7-13EA0473B7E8",
             "factoryCode": "1",
-            "factoryName": "GLAXO OPERATIONS UK LIMITED",
-            "factoryAddr": "PRIORY STREET,WARE,HERTFORDSHIRE SG12 0DJ,UNITED KINGDOM.",
-            "factoryCompanyAddr": "-",
-            "countryCode": "GB",
-            "processCode": [],
-            "processCodeStr": null,
+            "factoryName": "Delpharm Poznan Spolka Akcyjna",
+            "factoryAddr": "UL. GRUNWALDZKA 189, 60-322 POZNAN, POLAND",
+            "factoryCompanyAddr": null,
+            "countryCode": "PL",
+            "processCode": [
+                {
+                    "value": "17",
+                    "name": "製造、包裝"
+                }
+            ],
+            "processCodeStr": "17;製造、包裝",
             "factoryKind": "M",
-            "factoryNo": "FGB0044000",
+            "factoryNo": "FPL0010000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "9AE263C4-2EB8-47B9-8A12-940B1AD970A4",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
-            "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
+            "factoryAddr": "桃園市大園區和平里１鄰開和路91號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [
@@ -71,27 +87,12 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
-            "factoryCode": "2",
-            "factoryName": "GLAXO WELLCOME, S.A.",
-            "factoryAddr": "AVENIDA EXTREMADURA 3, ARANDA de DUERO, BURGOS 09400, SPAIN",
-            "factoryCompanyAddr": "",
-            "countryCode": "ES",
-            "processCode": [
-                {
-                    "value": "16",
-                    "name": "包裝及分裝"
-                }
-            ],
-            "processCodeStr": "16;包裝及分裝",
-            "factoryKind": "M",
-            "factoryNo": "FES0122000",
-            "factoryInfo": null,
-            "qsd": null
-        },
-        {
+            "id": "3C6F45B7-DF61-4D72-A51F-761AB85B3D9D",
             "factoryCode": "2",
             "factoryName": "VIIV HEALTHCARE UK LIMITED",
             "factoryAddr": "980 GREAT WEST ROAD BRENTFORD MIDDLESEX, TW8 9GS, UNITED KINGDOM",
@@ -107,16 +108,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0290000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818004700",
+            "ingredientsName": "Dolutegravir Sodium",
             "ingredientsDesc": "Dolutegravir Sodium",
             "concentDesc": "(Equivalent to 50mg Dolutegravir)",
-            "concent": "52.600",
+            "concent": "52.6000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -125,56 +129,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "79E7E74C-9D3A-4C85-A1CE-17C40F1EFA91",
-            "approvedDocNo": "1119066775",
-            "approvedDate": "2023-08-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "62AFD62F-7DAB-49DF-A55D-6C8BBC94B9AA",
-            "approvedDocNo": "1119049225",
-            "approvedDate": "2023-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1C777FD4-3D79-41C0-8349-9E486237656B",
-            "approvedDocNo": "1101492966",
-            "approvedDate": "2021-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B1045E81-C326-409B-974C-B8647D006E67",
-            "approvedDocNo": "1091495055",
-            "approvedDate": "2020-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C17D30ED-D24C-465B-AE5C-C8479BEC43FA",
-            "approvedDocNo": "1096013220",
-            "approvedDate": "2020-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1A92C2B4-DBEA-4717-B761-EB4939F744D6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

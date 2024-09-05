@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01019780",
-    "validDate": "2024-12-14 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-14 00:00:00.000",
     "issueDate": "1979-12-14 00:00:00.000",
+    "oriIssueDate": "1979-12-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101978001",
@@ -23,13 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8E612629-B604-4EC5-929D-7BFD886AA8CF",
+    "subCategory": [],
     "ingredientsDesc": [
         "BERBERINE TANNATE",
         "SCOPOLIA EXTRACT",
         "BENZOCAINE (ETHYL AMINOBENZOATE)"
     ],
     "restraintItemsCode": [
-        "01",
         "1R"
     ],
     "applicantName": "回春堂製藥廠股份有限公司",
@@ -44,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "516F1DC1-019E-43BA-AD39-A42BA531F0D3",
             "factoryCode": "1",
             "factoryName": "回春堂製藥廠股份有限公司",
             "factoryAddr": "桃園市新屋區社子里中興路988號",
@@ -54,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "0614004300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0804000230",
+            "ingredientsName": "BERBERINE TANNATE",
             "ingredientsDesc": "BERBERINE TANNATE",
             "concentDesc": "25",
             "concent": "25.0000",
@@ -72,6 +82,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208004502",
+            "ingredientsName": "SCOPOLIA EXTRACT",
             "ingredientsDesc": "SCOPOLIA EXTRACT",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -83,6 +94,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000200",
+            "ingredientsName": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "ingredientsDesc": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "concentDesc": "50",
             "concent": "50.0000",
@@ -99,18 +111,6 @@
         {
             "isMain": "1",
             "atcCode": "A03ED"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A07XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N01BA05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03BA03"
         }
     ],
     "licBaseId": "3F1BA8A5-A755-45CE-AF71-32318D6C94FA"

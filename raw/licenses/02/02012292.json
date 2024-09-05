@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2021-01-29",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "02012292",
+    "licUnit": "1",
     "validDate": "2025-02-06 00:00:00.000",
     "issueDate": "1999-11-16 00:00:00.000",
+    "oriIssueDate": "1999-11-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201229209",
@@ -18,13 +22,16 @@
     "does": "5592",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6A2B8713-11B6-4B78-B122-69609D1F344B",
+    "subCategory": [],
     "ingredientsDesc": [
         "DICLOFENAC SODIUM"
     ],
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8BCF1DD3-51A6-40FE-B304-D5EE6DB6CD42",
             "factoryCode": "1",
             "factoryName": "Delpharm Huningue SAS",
             "factoryAddr": "(POSTAL ADD) 26 RUE DE LA CHAPELLE, 68333 HUNINGUE CEDEX, FRANCE。(LOCATION ADD) 26 RUE DE LA CHAPELLE, B.P. 349, 68330 HUNINGUE, FRANCE",
@@ -53,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0161000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "E41C2F62-8A44-4C79-A433-21B43F14EFDE",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA AG",
             "factoryAddr": "LICHTSTRASSE 35 CH-4056 BASLE, SWITZERLAND",
@@ -71,13 +82,16 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808400410",
+            "ingredientsName": "DICLOFENAC SODIUM",
             "ingredientsDesc": "DICLOFENAC SODIUM",
             "concentDesc": "(EXTRA FINE)",
             "concent": "12.5000",
@@ -89,40 +103,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9573EC0B-3384-4DCC-BE23-D6C8CD8C2CC4",
-            "approvedDocNo": "1086021800",
-            "approvedDate": "2019-12-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "24E7505D-CA88-43BD-81D8-996F83DFD1A3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "330687CD-E472-4D8D-BC0E-573CAE2A9F05",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "457C1002-BB45-4F58-A281-89CCBE23C377",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

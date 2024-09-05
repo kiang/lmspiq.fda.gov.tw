@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050251",
-    "validDate": "2024-07-22 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-07-22 00:00:00.000",
     "issueDate": "2009-07-22 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": "C",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BE193901-D6AE-438A-AD4A-A396C648A80F",
+    "subCategory": [],
     "ingredientsDesc": [
         "BUPRENORPHINE HYDROCHLORIDE",
         "NALOXONE HCL DIHYDRATE"
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DF4A687E-6BF5-49AC-9A19-A7F5B2AB411F",
             "factoryCode": "1",
             "factoryName": "美時化學製藥股份有限公司南投廠",
             "factoryAddr": "南投縣南投市新興里成功一路３０號",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "0901314300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808801510",
+            "ingredientsName": "BUPRENORPHINE HYDROCHLORIDE",
             "ingredientsDesc": "BUPRENORPHINE HYDROCHLORIDE",
             "concentDesc": "",
             "concent": "8.6240",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2810000120",
+            "ingredientsName": "NALOXONE HCL DIHYDRATE",
             "ingredientsDesc": "NALOXONE HCL DIHYDRATE",
             "concentDesc": "",
             "concent": "2.4430",
@@ -87,76 +99,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BE3A9246-3175-474E-818A-1765B65F3782",
-            "approvedDocNo": "1110808183",
-            "approvedDate": "2022-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E80A83D4-04DC-43D4-BE55-675B6D0F2CC8",
-            "approvedDocNo": "1110808183",
-            "approvedDate": "2022-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "503B9397-FFCE-4470-BB75-F546875C0C07",
-            "approvedDocNo": "1110808183",
-            "approvedDate": "2022-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D71B9C72-195E-43A8-BC86-713E85EABB03",
-            "approvedDocNo": "1096012590",
-            "approvedDate": "2020-08-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1136C556-41FF-478F-8924-AE180B0D7DD9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BCD60044-4A43-4BDD-BA19-8612803D3ADD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4458AE83-6090-4D1E-9137-F46DEE5D661C",
-            "approvedDocNo": "1076035066",
-            "approvedDate": "2019-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N07BC01"
-        },
         {
             "isMain": "1",
             "atcCode": "N07BC51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AB15"
         }
     ],
     "licBaseId": "0FC99DE5-C85A-4B96-9792-67F07DED951A"

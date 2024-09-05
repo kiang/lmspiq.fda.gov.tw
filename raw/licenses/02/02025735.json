@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025735",
+    "licUnit": "1",
     "validDate": "2027-06-25 00:00:00.000",
     "issueDate": "2012-06-25 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202573502",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "2456886F-8981-4DCE-839D-3DCC77F7BCCF",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "CAPSICUM TINCTURE",
         "D-CAMPHOR ",
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8B1ED973-EDD3-42FC-8FE3-67939A7AFA12",
             "factoryCode": "1",
             "factoryName": "Kinkando Co., Ltd. Saitama Factory",
             "factoryAddr": "350-2 KODAMACHOKYOEI, HONJO-SHI , SAITAMA , 367-0206 JAPAN",
@@ -55,13 +65,37 @@
             "factoryKind": "M",
             "factoryNo": "FJP0730000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "3D6091A9-88CE-4F4B-B155-EA91B8A7C6FD",
+            "factoryCode": "2",
+            "factoryName": "KINKANDO CO., LTD.",
+            "factoryAddr": "1-34-14 SANGENJAYA, SETAGAYA-KU, TOKYO, 154-0024 JAPAN",
+            "factoryCompanyAddr": null,
+            "countryCode": "JP",
+            "processCode": [
+                {
+                    "value": "6K",
+                    "name": "製造廠公司"
+                }
+            ],
+            "processCodeStr": "6K;製造廠公司",
+            "factoryKind": "M",
+            "factoryNo": "FJP1094000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000102",
+            "ingredientsName": "AMMONIA WATER (AMMONIUM HYDROXIDE)",
             "ingredientsDesc": "AMMONIA WATER (AMMONIUM HYDROXIDE)",
             "concentDesc": "",
             "concent": "21.3000",
@@ -73,6 +107,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000101",
+            "ingredientsName": "D-CAMPHOR ",
             "ingredientsDesc": "D-CAMPHOR ",
             "concentDesc": "",
             "concent": "2.4100",
@@ -84,6 +119,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000330",
+            "ingredientsName": "L-MENTHOL",
             "ingredientsDesc": "L-MENTHOL",
             "concentDesc": "",
             "concent": "1.9700",
@@ -95,6 +131,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8428000700",
+            "ingredientsName": "SALICYLIC ACID",
             "ingredientsDesc": "SALICYLIC ACID",
             "concentDesc": "",
             "concent": "0.5700",
@@ -106,6 +143,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200018080",
+            "ingredientsName": "CAPSICUM TINCTURE",
             "ingredientsDesc": "CAPSICUM TINCTURE",
             "concentDesc": "",
             "concent": "0.3500",
@@ -117,72 +155,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D35BD3B4-32BC-47BB-B728-CB36307607A7",
-            "approvedDocNo": "1106010076",
-            "approvedDate": "2021-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D41AD915-0068-4ECD-8C9D-44794F3C8F71",
-            "approvedDocNo": "1101492446",
-            "approvedDate": "2021-05-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8157688E-2BBB-44A4-91C2-820FC9E2EFB0",
-            "approvedDocNo": "1101492446",
-            "approvedDate": "2021-05-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A23F60A4-3FD0-4EAF-B724-7F4CB29526CB",
-            "approvedDocNo": "1086039453",
-            "approvedDate": "2020-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A695CCCB-D688-467F-85DB-FA30BA0A825C",
-            "approvedDocNo": "1086039453",
-            "approvedDate": "2020-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5BBCAE29-42E7-4424-87B3-6C87A0B9909F",
-            "approvedDocNo": "1086014133",
-            "approvedDate": "2019-10-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D04AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "M02AB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "M02AC"
         }
     ],
     "licBaseId": "9DC1414E-2927-42B4-BCAE-2A5BB4811CE3"

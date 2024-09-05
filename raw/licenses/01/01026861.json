@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01026861",
+    "licUnit": "1",
     "validDate": "2025-02-18 00:00:00.000",
     "issueDate": "1983-02-18 00:00:00.000",
+    "oriIssueDate": "1983-02-18",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00102686105",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E1D7015D-020D-4757-BD91-61E09A3B1395",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRIAMCINOLONE ACETONIDE",
         "ECONAZOLE NITRATE"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C0B00315-BCCD-436F-90C6-53FC3FE3F62A",
             "factoryCode": "1",
             "factoryName": "榮民製藥股份有限公司",
             "factoryAddr": "桃園市中壢區中山東路３段４４７號",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "6132020070",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812201410",
+            "ingredientsName": "ECONAZOLE NITRATE",
             "ingredientsDesc": "ECONAZOLE NITRATE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -70,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -81,49 +93,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8A4174F4-5286-4DAA-9D56-4ECECBA790D2",
-            "approvedDocNo": "1110805284",
-            "approvedDate": "2022-08-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB5CBBE3-4F36-489C-862D-CD6E1B2B2427",
-            "approvedDocNo": "1110805284",
-            "approvedDate": "2022-08-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0ECF28DF-AA2B-42B0-BDE9-DC70A5666231",
-            "approvedDocNo": "1110805284",
-            "approvedDate": "2022-08-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0DC7B8C8-4F91-4FE2-B3D1-E6C0E7BC77F0",
-            "approvedDocNo": "1110805284",
-            "approvedDate": "2022-08-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D01AC03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AB09"
-        },
         {
             "isMain": "1",
             "atcCode": "D01AC20"

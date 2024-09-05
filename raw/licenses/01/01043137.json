@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043137",
+    "licUnit": "1",
     "validDate": "2024-07-30 00:00:00.000",
     "issueDate": "1999-07-30 00:00:00.000",
+    "oriIssueDate": "1999-07-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104313703",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "539D0B6C-735C-49A1-8707-F7C9500C5699",
+    "subCategory": [],
     "ingredientsDesc": [
         "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
         "NORETHINDRONE ACETATE (NORETHISTERONE ACETATE)"
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3F16DC06-549C-4000-900C-32929D5AD251",
             "factoryCode": "1",
             "factoryName": "人生製藥股份有限公司",
             "factoryAddr": "台中市西屯區工業區五路３號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0201709300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832000810",
+            "ingredientsName": "NORETHINDRONE ACETATE (NORETHISTERONE ACETATE)",
             "ingredientsDesc": "NORETHINDRONE ACETATE (NORETHISTERONE ACETATE)",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816000600",
+            "ingredientsName": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "ingredientsDesc": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -89,16 +101,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "G03CA03"
-        },
-        {
             "isMain": "1",
             "atcCode": "G03FA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03DC02"
         }
     ],
     "licBaseId": "BB836ACD-0973-46ED-939D-A7369AE94D61"

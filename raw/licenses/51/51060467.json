@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060467",
+    "licUnit": "1",
     "validDate": "2025-03-30 00:00:00.000",
     "issueDate": "2020-03-30 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": "01005691",
     "certNo": "DHY05106046701",
@@ -27,6 +31,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "54044B8D-8F4C-461A-8C2B-B46F75961B49",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "ERGOTAMINE TARTRATE",
         "CAFFEINE"
@@ -46,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "920144E4-0930-4C92-B421-69636EDBF194",
             "factoryCode": "1",
             "factoryName": "約克製藥股份有限公司",
             "factoryAddr": "雲林縣斗六市榴中里復興路3號",
@@ -56,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "6139011104",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216000910",
+            "ingredientsName": "ERGOTAMINE TARTRATE",
             "ingredientsDesc": "ERGOTAMINE TARTRATE",
             "concentDesc": "",
-            "concent": "1.000",
+            "concent": "1.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,33 +99,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "019CB324-367D-4BAA-ABB6-5DE47911471C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "34CEE0CD-400A-4F45-B2D8-AF548163140E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02CA02"
-        },
         {
             "isMain": "1",
             "atcCode": "N02CA52"

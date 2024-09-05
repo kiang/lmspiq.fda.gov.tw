@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043698",
+    "licUnit": "1",
     "validDate": "2025-04-24 00:00:00.000",
     "issueDate": "2000-04-24 00:00:00.000",
+    "oriIssueDate": "2000-04-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104369804",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3BA5B31B-DDE3-4887-90D5-C4E32EB7EDD4",
+    "subCategory": [],
     "ingredientsDesc": [
         "URACIL",
         "TEGAFUR (FTORAFUR)"
@@ -47,8 +54,9 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2CBD7C36-4397-4A14-9C42-5FA3E1FC4385",
             "factoryCode": "1",
-            "factoryName": "臺灣東洋藥品工業股份有限公司中壢廠",
+            "factoryName": "台灣東洋藥品工業股份有限公司中壢廠",
             "factoryAddr": "桃園市中壢區中華路一段８３８號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "1406804300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1008400300",
+            "ingredientsName": "TEGAFUR (FTORAFUR)",
             "ingredientsDesc": "TEGAFUR (FTORAFUR)",
             "concentDesc": "",
             "concent": "100.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600098800",
+            "ingredientsName": "URACIL",
             "ingredientsDesc": "URACIL",
             "concentDesc": "",
             "concent": "224.0000",
@@ -94,33 +106,8 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "147B1AF1-967E-4795-98B5-D7A5A59AFEFB",
-            "approvedDocNo": "1110713551",
-            "approvedDate": "2022-09-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2C2D2E22-7367-495B-8A82-BBB63DC98782",
-            "approvedDocNo": "1086015727",
-            "approvedDate": "2019-09-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "L01BC03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "L01BC"
-        },
         {
             "isMain": "1",
             "atcCode": "L01BC53"

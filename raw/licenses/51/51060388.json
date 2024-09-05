@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060388",
-    "validDate": "2024-11-15 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-11-15 00:00:00.000",
     "issueDate": "2019-11-15 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106038805",
@@ -23,11 +27,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "9DAC9BA5-F7CC-420F-B047-56D31FAAF523",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "瑩碩生技醫藥股份有限公司",
     "applicantAddr": "台北市中山區南京東路二段206號8樓之3",
@@ -41,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E53C56A4-A940-4BFE-9520-361ED8E6BD93",
             "factoryCode": "1",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉光復路1號",
@@ -51,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "6133061413",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": "",
-            "concent": "500.000",
+            "concent": "500.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -69,16 +83,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AC2DEA36-2A4D-4C74-91F1-D06F3459F24D",
-            "approvedDocNo": "1091494631",
-            "approvedDate": "2020-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

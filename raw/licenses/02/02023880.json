@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023880",
+    "licUnit": "1",
     "validDate": "2028-12-03 00:00:00.000",
     "issueDate": "2003-12-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "C",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "24A4C433-4BB1-40B5-A374-19D05B688E85",
+    "subCategory": [],
     "ingredientsDesc": [
         "METHYLPHENIDATE HCL",
         "METHYLPHENIDATE HCL",
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "140606D3-6084-4677-95CA-E2D04BF01B75",
             "factoryCode": "1",
             "factoryName": "JANSSEN CILAG MANUFACTURING LLC",
             "factoryAddr": "STATE ROAD 933 KM 0.1 MAMEY WARD, GURABO, PUERTO RICO 00778",
@@ -55,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FPR0052000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "442FAC6F-D4C0-42D0-8A52-33D63728C85E",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -73,13 +84,16 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820001910",
+            "ingredientsName": "METHYLPHENIDATE HCL",
             "ingredientsDesc": "METHYLPHENIDATE HCL",
             "concentDesc": "",
             "concent": "7.5200",
@@ -91,6 +105,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820001910",
+            "ingredientsName": "METHYLPHENIDATE HCL",
             "ingredientsDesc": "METHYLPHENIDATE HCL",
             "concentDesc": "",
             "concent": "20.4800",
@@ -102,6 +117,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820001910",
+            "ingredientsName": "METHYLPHENIDATE HCL",
             "ingredientsDesc": "METHYLPHENIDATE HCL",
             "concentDesc": "",
             "concent": "8.0000",
@@ -113,85 +129,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BADFA85C-ADFD-4D98-B670-EF7EC7C46FDC",
-            "approvedDocNo": "1110724120",
-            "approvedDate": "2023-01-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D2D100BF-EF19-4CD3-8C11-B30D93956F51",
-            "approvedDocNo": "1101498026",
-            "approvedDate": "2022-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BC5D6FF4-28BD-4E4C-9064-B20ACEC99B1A",
-            "approvedDocNo": "1101493207",
-            "approvedDate": "2021-10-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F7B381CA-2D81-4679-92F8-B65DE85C82FE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4F227E5E-405C-44B8-86C7-7763819168C4",
-            "approvedDocNo": "1096025576",
-            "approvedDate": "2021-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6C2398F8-0BC3-408E-A347-42DB0683BE84",
-            "approvedDocNo": "1086024063",
-            "approvedDate": "2019-12-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1A5905D6-580B-4D1D-82FB-759A9113AB02",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7188BB67-B175-465E-9226-9ED15787B557",
-            "approvedDocNo": "1081490987",
-            "approvedDate": "2019-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "17258263-5FD2-4077-A813-746B1F723437",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N06BA04"
-        },
         {
             "isMain": "1",
             "atcCode": "N06BA04"

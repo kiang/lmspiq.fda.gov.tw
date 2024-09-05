@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01023833",
+    "licUnit": "1",
     "validDate": "2024-07-07 00:00:00.000",
     "issueDate": "1981-07-07 00:00:00.000",
+    "oriIssueDate": "1981-07-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102383301",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E062F848-8F01-4EE8-830A-389C46D1EC99",
+    "subCategory": [],
     "ingredientsDesc": [
         "HOMATROPINE",
         "ALUMINUM HYDROXIDE DRIED GEL"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "447143F4-7B29-4938-A6AB-1AB474943636",
             "factoryCode": "1",
             "factoryName": "優生製藥廠股份有限公司",
             "factoryAddr": "台中市南屯區寶山里工業區21路14號",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "1702509300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5224000200",
+            "ingredientsName": "HOMATROPINE",
             "ingredientsDesc": "HOMATROPINE",
             "concentDesc": "1.25",
             "concent": "1.2500",
@@ -70,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000202",
+            "ingredientsName": "ALUMINUM HYDROXIDE DRIED GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE DRIED GEL",
             "concentDesc": "230",
             "concent": "230.0000",
@@ -84,16 +96,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A03BA"
-        },
-        {
             "isMain": "1",
             "atcCode": "A02AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
         }
     ],
     "licBaseId": "1DA07E11-F3E9-4310-B468-A47B61EE3749"

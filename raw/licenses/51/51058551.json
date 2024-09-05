@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058551",
-    "validDate": "2024-12-08 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-08 00:00:00.000",
     "issueDate": "2014-12-08 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105855101",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2747E52C-CF95-438B-9F7C-3BA514351A1D",
+    "subCategory": [],
     "ingredientsDesc": [
         "CARISOPRODOL"
     ],
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "23A13AC4-9558-4281-A096-7A6DD4627E8A",
             "factoryCode": "1",
             "factoryName": "友霖生技醫藥股份有限公司",
             "factoryAddr": "雲林縣虎尾鎮墾地里科虎一路8號",
@@ -53,16 +61,19 @@
             "factoryKind": "M",
             "factoryNo": "6139031071",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220000300",
+            "ingredientsName": "CARISOPRODOL",
             "ingredientsDesc": "CARISOPRODOL",
             "concentDesc": "",
-            "concent": "350.000",
+            "concent": "350.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,47 +82,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CF5BED39-5DA6-4014-BCCE-2B4D0C5F51FD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-12-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0BCC5E48-57BF-476D-9D2A-E55765344499",
-            "approvedDocNo": "1110704222",
-            "approvedDate": "2022-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3C5D4924-A130-4C3A-81FE-1A9CEB9F2367",
-            "approvedDocNo": "1076037202",
-            "approvedDate": "2019-02-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DC3A77B3-B697-4161-BD62-7DA6DD432BDD",
-            "approvedDocNo": "1076037202",
-            "approvedDate": "2019-02-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "M03BA02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M03BA02"
         }
     ],
