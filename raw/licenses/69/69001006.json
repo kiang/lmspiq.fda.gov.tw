@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "69001006",
+    "licUnit": "1",
     "validDate": "2026-12-09 00:00:00.000",
     "issueDate": "2021-12-09 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA06900100603",
@@ -23,6 +27,9 @@
     "medMCode": "13",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CDFA6CD1-F399-46AD-BB03-6DF38E2D48EC",
+    "subCategory": [],
     "ingredientsDesc": [
         "METHYL SALICYLATE",
         "L-MENTHOL ",
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0B92D689-20C2-490A-882B-EE86025510BD",
             "factoryCode": "1",
             "factoryName": "YUKINOMOTO HONTEN CO., LTD.",
             "factoryAddr": "182,183,184, Otani-Cho, Kashihara City, Nara, Japan",
@@ -53,16 +61,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0114000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000302",
+            "ingredientsName": "L-MENTHOL ",
             "ingredientsDesc": "L-MENTHOL ",
             "concentDesc": "",
-            "concent": "13.000",
+            "concent": "13.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +82,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424400200",
+            "ingredientsName": "METHYL SALICYLATE",
             "ingredientsDesc": "METHYL SALICYLATE",
             "concentDesc": "",
-            "concent": "12.000",
+            "concent": "12.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,9 +94,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000103",
+            "ingredientsName": "DL-CAMPHOR ",
             "ingredientsDesc": "DL-CAMPHOR ",
             "concentDesc": "",
-            "concent": "68.000",
+            "concent": "68.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -104,20 +117,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D02AF"
-        },
-        {
             "isMain": "1",
             "atcCode": "D02AF"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
         }
     ],
     "licBaseId": "0E28D278-7202-4946-9009-AC12F70FB64E"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057216",
+    "licUnit": "1",
     "validDate": "2027-05-15 00:00:00.000",
     "issueDate": "2012-05-15 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105721602",
@@ -16,7 +20,7 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         },
         {
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "520B550B-7B1B-42E7-A04A-5FA508B431D8",
+    "subCategory": [],
     "ingredientsDesc": [
         "LOVASTATIN",
         "NIACIN"
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "05786F3E-DFA4-4015-8DF1-D53F9FCF977F",
             "factoryCode": "1",
             "factoryName": "健亞生物科技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉新竹工業區工業一路１號",
@@ -59,9 +67,12 @@
             "factoryKind": "M",
             "factoryNo": "1119206300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "5805114B-C632-4369-AC1E-819D0C098EBB",
             "factoryCode": "2",
             "factoryName": "BIOCON LIMITED",
             "factoryAddr": "20TH KM HOSUR ROAD ELECTRONICS CITY BANGALORE 560 100 INDIA",
@@ -77,9 +88,12 @@
             "factoryKind": "M",
             "factoryNo": "FIN0446000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "BAC32B62-F4BB-417B-AE19-D902ECC3B40A",
             "factoryCode": "2",
             "factoryName": "SPECTRUM CHEMICALS & LABORATORY PRODUCTS",
             "factoryAddr": "14422 S. SAN PEDRO ST. GARDENA, CA 90248, USA",
@@ -95,13 +109,16 @@
             "factoryKind": "M",
             "factoryNo": "FUS0761000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000202",
+            "ingredientsName": "NIACIN",
             "ingredientsDesc": "NIACIN",
             "concentDesc": "",
             "concent": "500.0000",
@@ -113,6 +130,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406002600",
+            "ingredientsName": "LOVASTATIN",
             "ingredientsDesc": "LOVASTATIN",
             "concentDesc": "",
             "concent": "20.0000",
@@ -124,36 +142,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "932F1EF1-FA4F-43D7-A01B-225CCE9F2843",
-            "approvedDocNo": "1110722370",
-            "approvedDate": "2022-11-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "23F7B6F8-F035-4428-9F24-322166016603",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C10BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C10AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
         }
     ],
     "licBaseId": "D4EE9054-1E3F-468B-BCA3-7BBF4D1BD1BD"

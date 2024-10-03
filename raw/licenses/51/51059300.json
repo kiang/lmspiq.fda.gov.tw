@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059300",
+    "licUnit": "1",
     "validDate": "2026-10-04 00:00:00.000",
     "issueDate": "2016-10-04 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105930004",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3D4311EF-BCFD-4205-8E37-EF7746D71D4A",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLIMEPIRIDE",
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)"
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DA1BE588-A5FA-49F0-B4CD-A6F031947E19",
             "factoryCode": "1",
             "factoryName": "健亞生物科技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉新竹工業區工業一路１號",
@@ -58,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "1119206300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": "",
-            "concent": "500.000",
+            "concent": "500.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820601200",
+            "ingredientsName": "GLIMEPIRIDE",
             "ingredientsDesc": "GLIMEPIRIDE",
             "concentDesc": "",
-            "concent": "2.000",
+            "concent": "2.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,52 +99,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CEAE1668-D4BD-429C-B3FD-65E40FA11620",
-            "approvedDocNo": "1120719253",
-            "approvedDate": "2023-12-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EB737029-30A1-4899-B459-CF9F0E9536FD",
-            "approvedDocNo": "1110733264",
-            "approvedDate": "2023-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "172EEB60-8F2C-4610-BEB3-7FFA56E3C151",
-            "approvedDocNo": "1106022633",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DFF5AD51-AEA5-476C-ABC1-DCDFE1336F3D",
-            "approvedDocNo": "1106027533",
-            "approvedDate": "2021-10-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A10BD02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A10BB12"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A10BA02"
         }
     ],
     "licBaseId": "4511D94C-BA6E-4F15-968B-E03FC40D67AC"

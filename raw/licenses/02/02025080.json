@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025080",
+    "licUnit": "1",
     "validDate": "2024-08-20 00:00:00.000",
     "issueDate": "2009-08-20 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202508002",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4670A70B-234C-4DA5-824C-5D008A01B5F2",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM CHLORIDE",
         "CALCIUM CHLORIDE DIHYDRATE",
@@ -52,6 +59,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9302DDC5-32B0-4783-8C72-EF154F4F6456",
             "factoryCode": "1",
             "factoryName": "B. BRAUN MEDICAL AG",
             "factoryAddr": "ROUTE DE SORGE 9 CH-1023 CRISSIER SWITZERLAND",
@@ -62,9 +70,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0095100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4941ADA3-15AB-47AA-8D8A-9379A4BDE6C1",
             "factoryCode": "2",
             "factoryName": "B. BRAUN MELSUNGEN AG.",
             "factoryAddr": "CARL-BRAUN-STRASSE 1, D-34212 MELSUNGEN GERMANY。P.O.BOX ADDRESS:D-34209 MELSUNGEN GERMANY",
@@ -80,13 +91,16 @@
             "factoryKind": "M",
             "factoryNo": "MDE0005000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600009069",
+            "ingredientsName": "POLY(O-2- HYDROXYETHYL)STARCH (HES)(MOLAR SUBS 0.42; AVERAGE MOLECULAR WEIGHT 130000 DA)",
             "ingredientsDesc": "POLY(O-2- HYDROXYETHYL)STARCH (HES)(MOLAR SUBS 0.42; AVERAGE MOLECULAR WEIGHT 130000 DA)",
             "concentDesc": null,
             "concent": "60.0000",
@@ -98,6 +112,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": null,
             "concent": "6.2500",
@@ -109,6 +124,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": null,
             "concent": "0.3000",
@@ -120,6 +136,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": null,
             "concent": "0.3700",
@@ -131,6 +148,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": null,
             "concent": "0.2000",
@@ -142,6 +160,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000670",
+            "ingredientsName": "SODIUM ACETATE TRIHYDRATE (EQ TO SODIUM ACETATE 3H2O )",
             "ingredientsDesc": "SODIUM ACETATE TRIHYDRATE (EQ TO SODIUM ACETATE 3H2O )",
             "concentDesc": null,
             "concent": "3.2700",
@@ -153,6 +172,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600017800",
+            "ingredientsName": "MALIC ACID",
             "ingredientsDesc": "MALIC ACID",
             "concentDesc": null,
             "concent": "0.6700",
@@ -164,44 +184,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "17B29070-5E6B-42C9-B6F3-F1340FB79757",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FEDDFE0E-2754-44C4-90BD-644C06AB56DC",
-            "approvedDocNo": "1101500072",
-            "approvedDate": "2022-04-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "780B3BCA-F33A-485A-9A71-AF467C0516DD",
-            "approvedDocNo": "1086015285",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05AA07"
-        },
         {
             "isMain": "1",
             "atcCode": "B05AA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BB01"
         }
     ],
     "licBaseId": "2E2188F5-1B30-421A-951B-75BA3578504C"

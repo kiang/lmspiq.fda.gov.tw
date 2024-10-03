@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024042",
+    "licUnit": "1",
     "validDate": "2024-08-05 00:00:00.000",
     "issueDate": "2004-08-05 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202404202",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "AE76ECCB-C12E-4417-9D48-48A0B5E5865D",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "DIPHENHYDRAMINE HCL",
         "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1B6F1FCD-5572-4413-B1E1-43757B4ABC1E",
             "factoryCode": "1",
             "factoryName": "SATO PHARMACEUTICAL CO. LTD.",
             "factoryAddr": "1468 HAZAMA-CHO,HACHIOHJI,TOKYO,JAPAN",
@@ -53,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0279000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004680",
+            "ingredientsName": "DIPOTASSIUM GLYCYRRHIZINATE",
             "ingredientsDesc": "DIPOTASSIUM GLYCYRRHIZINATE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -71,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": "",
             "concent": "0.2000",
@@ -82,6 +96,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406000310",
+            "ingredientsName": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "ingredientsDesc": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "concentDesc": "",
             "concent": "0.5000",
@@ -93,63 +108,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8AFFA614-CA06-4B4B-896E-ECEDC0EFFF5B",
-            "approvedDocNo": "1129046011",
-            "approvedDate": "2023-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1674E8E2-CEDA-4CCA-B5B8-F18B47D165CE",
-            "approvedDocNo": "1106009679",
-            "approvedDate": "2021-09-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "69993864-3CD2-47CD-B8F9-047073F0F7AB",
-            "approvedDocNo": "1086812905",
-            "approvedDate": "2019-12-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "09EFB69A-57D2-45E5-BF26-604CD7B9C354",
-            "approvedDocNo": "1086004028",
-            "approvedDate": "2019-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FECDBE40-BF4D-4879-A103-EE2387B4FBDC",
-            "approvedDocNo": "1086004028",
-            "approvedDate": "2019-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "S01GX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
             "atcCode": "S01GX"
         }
     ],

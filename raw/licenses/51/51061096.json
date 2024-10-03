@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51061096",
+    "licUnit": "1",
     "validDate": "2027-07-05 00:00:00.000",
     "issueDate": "2022-07-05 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106109600",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "E4502B4D-0105-49F9-AB0E-AB30DF2D1173",
+    "subCategory": [
+        "A07"
+    ],
     "ingredientsDesc": [
         "PIOGLITAZONE HYDROCHLORIDE",
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)"
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "34DA0EB1-F42E-4D80-8595-88A21798569A",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅廠",
             "factoryAddr": "台中市大甲區工七路9號、工九路27號",
@@ -53,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "86EE6E53-18BB-4B59-875E-EECB07EB930D",
             "factoryCode": "2",
             "factoryName": "永信藥品工業股份有限公司",
             "factoryAddr": "台中市大甲區頂店里中山路一段1191號",
@@ -71,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "0502110200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400910",
+            "ingredientsName": "PIOGLITAZONE HYDROCHLORIDE",
             "ingredientsDesc": "PIOGLITAZONE HYDROCHLORIDE",
             "concentDesc": "(as Pioglitazone......15 MG)",
-            "concent": "16.530",
+            "concent": "16.5300",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,9 +105,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": "",
-            "concent": "500.000",
+            "concent": "500.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -100,25 +117,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C3D63E9A-E1CE-47CB-A5B0-D24B07781C55",
-            "approvedDocNo": "1129068551",
-            "approvedDate": "2024-01-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A10BG03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A10BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "A10BD05"

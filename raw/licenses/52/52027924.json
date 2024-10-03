@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027924",
+    "licUnit": "1",
     "validDate": "2025-08-07 00:00:00.000",
     "issueDate": "2020-08-07 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202792405",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "BA9D6C35-2165-48AD-890A-4A87B82E501A",
+    "subCategory": [
+        "A05"
+    ],
     "ingredientsDesc": [
         "IBUPROFEN"
     ],
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "48E9FAC8-79F6-4127-B636-A3A7B4BCAD0A",
             "factoryCode": "1",
             "factoryName": "LAMP SAN PROSPERO S.P.A.",
             "factoryAddr": "VIA DELLA PACE, 25\/A, SAN PROSPERO, MODENA, I-41030, ITALY",
@@ -52,9 +62,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0472000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D9D242DC-9F47-44D1-95BF-54F53510B61B",
             "factoryCode": "2",
             "factoryName": "Farmalider S.A.",
             "factoryAddr": "C\/La Granja, 1 28108 Alcobendas, Madrid, Spain",
@@ -70,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "FES0260000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808401300",
+            "ingredientsName": "IBUPROFEN",
             "ingredientsDesc": "IBUPROFEN",
             "concentDesc": "",
-            "concent": "600.000",
+            "concent": "600.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,56 +104,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0F5627E8-AD02-4752-B0A4-B8AC1CCC1F14",
-            "approvedDocNo": "1119026805",
-            "approvedDate": "2022-07-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6D1D75FC-DC92-4689-A455-D672AB1FD5A9",
-            "approvedDocNo": "1101495292",
-            "approvedDate": "2021-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7246224F-4404-43CF-A82C-FD3BB2C343FC",
-            "approvedDocNo": "1101495292",
-            "approvedDate": "2021-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4A77B7F2-7A62-4B41-B90D-027A7435E0B8",
-            "approvedDocNo": "1101495292",
-            "approvedDate": "2021-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DA57070F-56E0-452B-B0EF-03C4768D9F6F",
-            "approvedDocNo": "1101495292",
-            "approvedDate": "2021-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "097C02B4-AC41-424F-9E89-56F12342D6A0",
-            "approvedDocNo": "1101495292",
-            "approvedDate": "2021-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

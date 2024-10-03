@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01031140",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1988-11-21 00:00:00.000",
+    "oriIssueDate": "1988-11-21",
     "licKind": "02",
     "oldLicid": "01002019",
     "certNo": "DHY00103114002",
@@ -16,13 +20,16 @@
     "does": "1119",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3F404967-49A5-4DCA-BD9F-4A4E332C1BCF",
+    "subCategory": [],
     "ingredientsDesc": [
         "LYSINE L- HCL ( EQ TO L-LYSINE HCL)",
         "MENADIONE (VIT K3)",
@@ -44,7 +51,6 @@
         "PYRIDOXINE(VITAMIN B6)"
     ],
     "restraintItemsCode": [
-        "01",
         "1R"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
@@ -59,6 +65,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "904AC1CE-C2B3-4E96-A590-4F48E62E7333",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業一路６號",
@@ -69,13 +76,16 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200000900",
+            "ingredientsName": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "ingredientsDesc": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -87,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000100",
+            "ingredientsName": "ASCORBIC ACID (VIT C)",
             "ingredientsDesc": "ASCORBIC ACID (VIT C)",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -98,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000110",
+            "ingredientsName": "TOCOPHEROL ALPHA-",
             "ingredientsDesc": "TOCOPHEROL ALPHA-",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -109,6 +121,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000100",
+            "ingredientsName": "BIOTIN",
             "ingredientsDesc": "BIOTIN",
             "concentDesc": "0.03",
             "concent": "0.0300",
@@ -120,6 +133,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -131,6 +145,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600100",
+            "ingredientsName": "PYRIDOXINE(VITAMIN B6)",
             "ingredientsDesc": "PYRIDOXINE(VITAMIN B6)",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -142,6 +157,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -153,6 +169,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8804000100",
+            "ingredientsName": "VITAMIN A",
             "ingredientsDesc": "VITAMIN A",
             "concentDesc": "2500",
             "concent": "2500.0000",
@@ -164,6 +181,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8818000200",
+            "ingredientsName": "ERGOCALCIFEROL (VIT D2CALCIFEROL)",
             "ingredientsDesc": "ERGOCALCIFEROL (VIT D2CALCIFEROL)",
             "concentDesc": "250",
             "concent": "250.0000",
@@ -175,6 +193,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8824000300",
+            "ingredientsName": "MENADIONE (VIT K3)",
             "ingredientsDesc": "MENADIONE (VIT K3)",
             "concentDesc": "0.4",
             "concent": "0.4000",
@@ -186,6 +205,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811600100",
+            "ingredientsName": "FOLIC ACID",
             "ingredientsDesc": "FOLIC ACID",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -197,6 +217,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000300",
+            "ingredientsName": "NIACINAMIDE (NICOTINAMIDE)",
             "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -208,6 +229,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004004",
+            "ingredientsName": "GINSENG POWDER",
             "ingredientsDesc": "GINSENG POWDER",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -219,6 +241,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100000",
+            "ingredientsName": "AMINO ACID",
             "ingredientsDesc": "AMINO ACID",
             "concentDesc": "(COLLECTIVE) 100",
             "concent": null,
@@ -230,6 +253,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101312",
+            "ingredientsName": "LYSINE L- HCL ( EQ TO L-LYSINE HCL)",
             "ingredientsDesc": "LYSINE L- HCL ( EQ TO L-LYSINE HCL)",
             "concentDesc": "25",
             "concent": "25.0000",
@@ -241,6 +265,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300200",
+            "ingredientsName": "PANTOTHENATE CALCIUM",
             "ingredientsDesc": "PANTOTHENATE CALCIUM",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -252,6 +277,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101001",
+            "ingredientsName": "THIAMINE MONONITRATE",
             "ingredientsDesc": "THIAMINE MONONITRATE",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -263,6 +289,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2004403300",
+            "ingredientsName": "FERRIC PHOSPHATE",
             "ingredientsDesc": "FERRIC PHOSPHATE",
             "concentDesc": "16",
             "concent": "16.0000",
@@ -274,92 +301,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "77E10A39-751C-4174-8AFF-979A5FC9FA2D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D37B520E-6B04-46C2-A700-72AA196D9C04",
-            "approvedDocNo": "1086802858",
-            "approvedDate": "2019-07-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B03BB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
-        },
         {
             "isMain": "1",
             "atcCode": "A11AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA31"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V06DD"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B02BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11CC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
         }
     ],
     "licBaseId": "2B613597-73BB-46BA-B61A-53EC1EF47F14"

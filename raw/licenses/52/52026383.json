@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2021-02-19",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "52026383",
+    "licUnit": "1",
     "validDate": "2024-08-25 00:00:00.000",
     "issueDate": "2014-08-25 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202638305",
@@ -25,6 +29,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D39849FB-2C40-4E07-B8FE-15AF5EA2DFC9",
+    "subCategory": [],
     "ingredientsDesc": [
         "IMATINIB MESYLATE"
     ],
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B14C1191-ED05-40F0-BE0F-714EC1F79A9A",
             "factoryCode": "1",
             "factoryName": "NOVARTIS PHARMA PRODUKTIONS GMBH",
             "factoryAddr": "OEFLINGERSTRASSE 44, 79664 WEHR, GERMANY",
@@ -54,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0239000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000710",
+            "ingredientsName": "IMATINIB MESYLATE",
             "ingredientsDesc": "IMATINIB MESYLATE",
             "concentDesc": "(eq. to Imatinib 100mg)",
-            "concent": "119.500",
+            "concent": "119.5000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,48 +83,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "44367B13-EF9A-437F-BE42-B2F356D1F402",
-            "approvedDocNo": "1096023506",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "34B3EFCB-18AC-4577-84C1-280E8E8FFC93",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "472A2B8C-B062-4E84-81BC-C76BE447C346",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BA8888CB-B0FF-4B41-A684-510637B9C10E",
-            "approvedDocNo": "1081491454",
-            "approvedDate": "2020-02-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CC922388-D07C-4BBC-8C78-8FAF5DE05CD6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

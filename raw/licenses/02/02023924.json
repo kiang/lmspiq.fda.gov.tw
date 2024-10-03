@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023924",
+    "licUnit": "1",
     "validDate": "2029-02-17 00:00:00.000",
     "issueDate": "2004-02-17 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202392405",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0AFE30A0-FE75-473F-9FE1-714C1B9CA4C8",
+    "subCategory": [],
     "ingredientsDesc": [
         "LANREOTIDE (ACETATE)"
     ],
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "91FEFC58-CE13-4F2A-939D-FCB0AF21309B",
             "factoryCode": "1",
             "factoryName": "IPSEN PHARMA BIOTECH",
             "factoryAddr": "PARC D' ACTIVITES DU PLATEAU DE SIGNES, CD N 402-83870 SIGNES, FRANCE",
@@ -51,9 +59,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0208000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B5102851-8345-46F9-B80E-92DB618FC60F",
             "factoryCode": "2",
             "factoryName": "IPSEN PHARMA BIOTECH",
             "factoryAddr": "ETABLISSEMENT GAMMASTER, MIN 712 ARNAVAUX, 13323 MARSEILLE CEDEX 14, FRANCE",
@@ -69,9 +80,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0210000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "FBAC094C-D3B0-4790-99DB-705A5D0E7725",
             "factoryCode": "2",
             "factoryName": "IPSEN PHARMA",
             "factoryAddr": "65 QUAI GEORGES GORSE, 92100 BOULOGNE-BILLANCOURT, FRANCE",
@@ -87,13 +101,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0271000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200036610",
+            "ingredientsName": "LANREOTIDE (ACETATE)",
             "ingredientsDesc": "LANREOTIDE (ACETATE)",
             "concentDesc": "",
             "concent": "90.0000",
@@ -113,72 +130,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C99BEAD9-0E64-40C8-92D5-1C72C0D9C11D",
-            "approvedDocNo": "1110712979",
-            "approvedDate": "2023-02-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8D91CA43-3A80-46FD-85D9-83151740879A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "273BAD0E-E90E-4135-8A15-A7043FF13E9A",
-            "approvedDocNo": "1086012324",
-            "approvedDate": "2019-11-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "32CF2535-B11A-4B58-8D77-F940FC3CB582",
-            "approvedDocNo": "1086012324",
-            "approvedDate": "2019-11-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F9D8EF11-3870-4AF4-A20B-F9BE5B0E3198",
-            "approvedDocNo": "1086012324",
-            "approvedDate": "2019-11-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "07B04582-FE3F-4E00-A0DA-0E4E096F1D08",
-            "approvedDocNo": "1086011585",
-            "approvedDate": "2019-05-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1288861C-608B-47D4-ABD5-D8CDB26728A5",
-            "approvedDocNo": "1086011585",
-            "approvedDate": "2019-05-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9B5A8223-026B-48A0-BE21-5F3FC128D78F",
-            "approvedDocNo": "1086011585",
-            "approvedDate": "2019-05-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

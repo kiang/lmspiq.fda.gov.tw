@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035675",
+    "licUnit": "1",
     "validDate": "2027-09-17 00:00:00.000",
     "issueDate": "1992-09-17 00:00:00.000",
+    "oriIssueDate": "1992-09-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103567509",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0A328AE2-CD20-499C-8D1D-BA2D3DC8F78D",
+    "subCategory": [],
     "ingredientsDesc": [
         "ASCORBIC ACID (VIT C)",
         "RIBOFLAVIN TETRABUTYRATE",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7F60200B-A2A4-4A4F-89B0-E999A4B6E939",
             "factoryCode": "1",
             "factoryName": "佐藤製藥股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉湖南村十鄰光復北路７號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0710606300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000100",
+            "ingredientsName": "ASCORBIC ACID (VIT C)",
             "ingredientsDesc": "ASCORBIC ACID (VIT C)",
             "concentDesc": "500",
             "concent": "500.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000211",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA D-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA D-",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -86,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200800",
+            "ingredientsName": "RIBOFLAVIN TETRABUTYRATE",
             "ingredientsDesc": "RIBOFLAVIN TETRABUTYRATE",
             "concentDesc": "4",
             "concent": "4.0000",
@@ -97,72 +110,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "79E1FF2A-CFB6-4173-8B40-D2F428A08EAD",
-            "approvedDocNo": "1119024632",
-            "approvedDate": "2022-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2D741208-AF30-407D-A5AA-624BB09A8DD6",
-            "approvedDocNo": "1110602005",
-            "approvedDate": "2022-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4BCDDE99-34B7-4A8F-928C-F954E0D4E27A",
-            "approvedDocNo": "1110602643",
-            "approvedDate": "2022-03-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7C41A045-19A5-4435-AF83-BDA4D503D698",
-            "approvedDocNo": "1110602005",
-            "approvedDate": "2022-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2DD64D1F-0EE4-441B-BEC2-C15A6D78E176",
-            "approvedDocNo": "1086017046",
-            "approvedDate": "2022-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DAC51F88-4458-41D4-99A4-4279D6ACA78D",
-            "approvedDocNo": "1086017046",
-            "approvedDate": "2022-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
         {
             "isMain": "1",
             "atcCode": "A11JA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
         }
     ],
     "licBaseId": "3285F04A-04EC-4A71-B8BE-BA593114C1AD"

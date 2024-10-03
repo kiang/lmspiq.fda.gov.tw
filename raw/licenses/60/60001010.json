@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001010",
+    "licUnit": "1",
     "validDate": "2026-03-08 00:00:00.000",
     "issueDate": "2016-03-08 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000101000",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "23111C4D-3774-4C96-B7E5-6166DDADCC38",
+    "subCategory": [],
     "ingredientsDesc": [
         "PALIVIZUMAB",
         "PALIVIZUMAB"
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7E81BE82-BE40-4BD2-9A9F-2AA5BFE8DC2E",
             "factoryCode": "1",
             "factoryName": "BOEHRINGER INGELHEIM PHARMA GMBH & CO. KG",
             "factoryAddr": "BIRKENDORFER STRASSE 65, 88397 BIBERACH AN DER RISS.  GERMANY",
@@ -62,9 +70,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0021300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "BAD6A6D6-3313-45CD-8217-AAEFDFE7FEE7",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -80,9 +91,12 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "A73574C3-93FC-4C7D-A600-F801334690DD",
             "factoryCode": "2",
             "factoryName": "ABBVIE S.R.L.",
             "factoryAddr": "S.R. 148 PONTINA KM 52,SNC-CAMPOVERDE DI APRILIA (LT) 04011 ITALY",
@@ -98,16 +112,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0347000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013002200",
+            "ingredientsName": "PALIVIZUMAB",
             "ingredientsDesc": "PALIVIZUMAB",
             "concentDesc": "",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -116,9 +133,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013002200",
+            "ingredientsName": "PALIVIZUMAB",
             "ingredientsDesc": "PALIVIZUMAB",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -127,68 +145,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "460E22EB-CFE3-4FB9-BB13-EA0DFB2CD23A",
-            "approvedDocNo": "1129014911",
-            "approvedDate": "2023-06-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "66FC77F0-FF8C-4FC1-A683-739C075CF33C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7511FA57-4574-4397-811E-4B3E0EF810CC",
-            "approvedDocNo": "1106031648",
-            "approvedDate": "2021-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F1B154A2-E7A8-4A4F-986C-13487B572FFC",
-            "approvedDocNo": "1101491233",
-            "approvedDate": "2021-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0DE71DA0-8A7E-4400-94E2-68B68A71DFD0",
-            "approvedDocNo": "1106003095",
-            "approvedDate": "2021-04-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BBE6287F-36BB-4F4A-93E4-320EE57CA522",
-            "approvedDocNo": "1096016895",
-            "approvedDate": "2020-09-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5FBC2BAD-48F9-4BBF-B640-F402B286210D",
-            "approvedDocNo": "1086001776",
-            "approvedDate": "2019-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J06BB16"
+            "atcCode": "J06BD01"
         }
     ],
     "licBaseId": "92A42657-8CB2-4981-BB06-3C26E9DE76E7"

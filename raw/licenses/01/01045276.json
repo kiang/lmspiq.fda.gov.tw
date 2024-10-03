@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01045276",
+    "licUnit": "1",
     "validDate": "2027-12-09 00:00:00.000",
     "issueDate": "2002-12-09 00:00:00.000",
+    "oriIssueDate": "2002-12-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104527601",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "22CA8B56-ECBB-4213-8506-A395EF25EBFA",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMOXICILLIN (AS TRIHYDATE)",
         "CLAVULANIC ACID"
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D5AB939C-FB13-4D2D-8EA4-B04ED31CF121",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅三廠",
             "factoryAddr": "台中市大甲區工六路２６號，工十路１２之１號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0520910300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812600270",
+            "ingredientsName": "AMOXICILLIN (AS TRIHYDATE)",
             "ingredientsDesc": "AMOXICILLIN (AS TRIHYDATE)",
             "concentDesc": "(POTENCY)",
             "concent": "500.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410000400",
+            "ingredientsName": "CLAVULANIC ACID",
             "ingredientsDesc": "CLAVULANIC ACID",
             "concentDesc": null,
             "concent": "125.0000",
@@ -94,49 +106,8 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8A89C2C7-97CD-4BB0-BC8B-F5E17FA388BF",
-            "approvedDocNo": "1110816583",
-            "approvedDate": "2022-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F1E753D8-4DF2-4BDD-A887-8BC76B8BB643",
-            "approvedDocNo": "1110815906",
-            "approvedDate": "2022-11-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CB243834-CA66-484B-853A-35732BBDBD99",
-            "approvedDocNo": "1110812658",
-            "approvedDate": "2022-10-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "46587E16-ACAC-4539-AF17-BAC8F958E082",
-            "approvedDocNo": "1096818646",
-            "approvedDate": "2021-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01CG"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CA04"
-        },
         {
             "isMain": "1",
             "atcCode": "J01CR02"

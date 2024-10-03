@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049799",
+    "licUnit": "1",
     "validDate": "2028-11-14 00:00:00.000",
     "issueDate": "2008-11-14 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104979901",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8381C1C0-9F39-47DB-9B1B-88EB4320473C",
+    "subCategory": [],
     "ingredientsDesc": [
         "ENALAPRIL MALEATE",
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)"
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C1085F7D-F47B-4A2B-946B-8239FF5D28EC",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅廠",
             "factoryAddr": "台中市大甲區日南里工九路27號",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408004010",
+            "ingredientsName": "ENALAPRIL MALEATE",
             "ingredientsDesc": "ENALAPRIL MALEATE",
             "concentDesc": null,
             "concent": "5.0000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": null,
             "concent": "12.5000",
@@ -87,33 +99,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6B327189-2EE4-48DF-B281-E06EECB4FDF8",
-            "approvedDocNo": "1110814097",
-            "approvedDate": "2022-10-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "284F604A-66D4-45C2-B728-A9AEED5FE235",
-            "approvedDocNo": "1080020495",
-            "approvedDate": "2019-11-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C09AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
-        },
         {
             "isMain": "1",
             "atcCode": "C09BA02"

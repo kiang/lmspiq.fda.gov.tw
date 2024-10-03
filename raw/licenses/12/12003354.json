@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12003354",
+    "licUnit": "1",
     "validDate": "2025-09-13 00:00:00.000",
     "issueDate": "1970-05-08 00:00:00.000",
+    "oriIssueDate": "1970-05-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01200335404",
@@ -16,13 +20,16 @@
     "does": "1130",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F1888D27-9E30-40C5-BC4D-B1BE689ADF38",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROXYZINE PAMOATE"
     ],
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1A5BAD7E-A069-4329-8D50-C2A6F2ECBA20",
             "factoryCode": "1",
             "factoryName": "聯亞藥業股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉中興村光復北路45號",
@@ -52,16 +60,19 @@
             "factoryKind": "M",
             "factoryNo": "6133061495",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816800720",
+            "ingredientsName": "HYDROXYZINE PAMOATE",
             "ingredientsDesc": "HYDROXYZINE PAMOATE",
             "concentDesc": "(equivalent to HYDROXYZINE HCl 25mg)",
-            "concent": "0.000",
+            "concent": "0.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,48 +81,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A11D74E2-3C35-45A2-95FC-7B827113C983",
-            "approvedDocNo": "1106017572",
-            "approvedDate": "2021-12-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B10E21B1-E447-4B99-8131-3DFE6AE9A7C2",
-            "approvedDocNo": "1096019286",
-            "approvedDate": "2020-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F599E3AA-6581-42F6-9EF2-357DD7858B31",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9E6E2604-AC5A-4B9B-A16B-10E965A13124",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F2DFDB91-0DA6-414A-AED5-AB8183915191",
-            "approvedDocNo": "1086000843",
-            "approvedDate": "2019-03-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

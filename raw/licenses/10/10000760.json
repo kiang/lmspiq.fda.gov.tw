@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000760",
+    "licUnit": "1",
     "validDate": "2026-02-07 00:00:00.000",
     "issueDate": "2003-03-05 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000076006",
@@ -31,6 +35,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DFAD9232-DDCF-448A-B173-D44FD4B9DDA0",
+    "subCategory": [],
     "ingredientsDesc": [
         "HUMAN MONOCOMPONENT ISOPHANE INSULIN"
     ],
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "EBCC6DF8-1EE7-463C-80F1-8A9963BA7656",
             "factoryCode": "1",
             "factoryName": "Novo Nordisk Production SAS",
             "factoryAddr": "45, Avenue d’Orleans, F-28000 Chartres, France",
@@ -59,9 +67,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0324000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "0036B2BE-2839-4089-B59F-DBA55E1488AC",
             "factoryCode": "2",
             "factoryName": "NOVO NORDISK A\/S",
             "factoryAddr": "Hallas Alle 1, DK-4400 Kalundborg, Denmark",
@@ -77,9 +88,12 @@
             "factoryKind": "M",
             "factoryNo": "FDK0042000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "86B4F9F1-6C7C-4DBB-B2EC-F4BF6054A18E",
             "factoryCode": "2",
             "factoryName": "NOVO NORDISK A\/S",
             "factoryAddr": "Novo Alle, DK 2880 Bagsvaerd, Denmark",
@@ -95,16 +109,19 @@
             "factoryKind": "O",
             "factoryNo": "FDK0043000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820800350",
+            "ingredientsName": "HUMAN MONOCOMPONENT ISOPHANE INSULIN",
             "ingredientsDesc": "HUMAN MONOCOMPONENT ISOPHANE INSULIN",
             "concentDesc": "(3.5mg)",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "212",
             "seq": "0",
             "prescription_seq": "1",
@@ -113,72 +130,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8C70B6B4-F553-4D24-8C68-00F333F23012",
-            "approvedDocNo": "1129066100",
-            "approvedDate": "2024-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0B2C7910-A7A7-48B4-9D5B-B0120C261FB3",
-            "approvedDocNo": "1129021840",
-            "approvedDate": "2023-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FE4F012A-EE0D-4962-B732-264EC7C3836A",
-            "approvedDocNo": "1106026852",
-            "approvedDate": "2022-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "773B2A4F-B1D4-4B99-8E4B-B7F390E95700",
-            "approvedDocNo": "1106001586",
-            "approvedDate": "2021-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "621AED73-6283-4324-8872-ACF6FA929B61",
-            "approvedDocNo": "1096041569",
-            "approvedDate": "2021-01-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "529C1E2A-75A3-4A58-AB7C-0C8832A7A14D",
-            "approvedDocNo": "1096041569",
-            "approvedDate": "2021-01-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ECD78E03-D060-4F5B-9EC8-6605E4EF947E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1F5E7FA9-0503-4D37-B70A-5322621F4D1D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

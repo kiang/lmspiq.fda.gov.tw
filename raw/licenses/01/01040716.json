@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040716",
+    "licUnit": "1",
     "validDate": "2026-12-26 00:00:00.000",
     "issueDate": "1996-12-26 00:00:00.000",
+    "oriIssueDate": "1996-12-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHYS0104071602",
@@ -16,17 +20,20 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
-            "packageUnit": "03"
+            "packageSpec": "6-1000",
+            "packageUnit": "01"
         },
         {
-            "packageSpec": null,
-            "packageUnit": "01"
+            "packageSpec": "6-1000",
+            "packageUnit": "03"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7BDCC6B0-C197-43A1-9744-C8D5A26D44ED",
+    "subCategory": [],
     "ingredientsDesc": [
         "BACLOFEN"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "25A3E773-4AD7-4248-A554-AB12D28EDD56",
             "factoryCode": "1",
             "factoryName": "強生化學製藥廠股份有限公司",
             "factoryAddr": "新北市三重區三和路四段７７號",
@@ -55,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "1110202300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220000200",
+            "ingredientsName": "BACLOFEN",
             "ingredientsDesc": "BACLOFEN",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -77,10 +88,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "M03BX01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M03BX01"
         }
     ],

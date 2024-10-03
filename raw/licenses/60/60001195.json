@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001195",
+    "licUnit": "1",
     "validDate": "2027-07-06 00:00:00.000",
     "issueDate": "2022-07-06 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000119502",
@@ -26,7 +30,10 @@
     ],
     "medMCode": "05",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "D",
+    "mainCategory": "D",
+    "drBaseId": "B24B7FDD-A165-401F-8EEE-8B7253B73BD4",
+    "subCategory": [],
     "ingredientsDesc": [
         "Rituximab",
         "Rituximab"
@@ -50,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C1FF5533-B670-4129-93B5-A8550909CFDF",
             "factoryCode": "1",
             "factoryName": "BAXTER ONCOLOGY GMBH",
             "factoryAddr": "Kantstraβe 2, 33790 Halle\/Westfalen, Germany",
@@ -60,12 +68,15 @@
             "factoryKind": "M",
             "factoryNo": "FDE0565100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D6D73542-4255-424C-B5D7-E9CB2C168C30",
             "factoryCode": "2",
-            "factoryName": "AMGEN MANUFACTURING,LIMITED",
-            "factoryAddr": "STATE ROAD 31,KM 24.6 JUNCOS,PUERTO RICO 00777-4060",
+            "factoryName": "AMGEN MANUFACTURING LIMITED LLC",
+            "factoryAddr": "STATE ROAD 31, KM 24.6 JUNCOS, PUERTO RICO 00777-4060",
             "factoryCompanyAddr": null,
             "countryCode": "PR",
             "processCode": [
@@ -76,11 +87,14 @@
             ],
             "processCodeStr": "02;包裝",
             "factoryKind": "M",
-            "factoryNo": "FPR0034000",
+            "factoryNo": "FPR0062100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "56D03BDD-F108-4D14-980D-CB3580710857",
             "factoryCode": "2",
             "factoryName": "IMMUNEX RHODE ISLAND CORPORATION",
             "factoryAddr": "40 TECHNOLOGY WAY, WEST GREENWICH RHODE ISLAND 02817, USA",
@@ -96,16 +110,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0866000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013002400",
+            "ingredientsName": "Rituximab",
             "ingredientsDesc": "Rituximab",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -114,9 +131,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013002400",
+            "ingredientsName": "Rituximab",
             "ingredientsDesc": "Rituximab",
             "concentDesc": "",
-            "concent": "500.000",
+            "concent": "500.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -125,16 +143,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B0EAB2C9-4CDB-4461-BCE7-2948F85CACB0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

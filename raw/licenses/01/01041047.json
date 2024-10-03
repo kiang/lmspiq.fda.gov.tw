@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01041047",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1997-04-11 00:00:00.000",
+    "oriIssueDate": "1997-04-11",
     "licKind": "02",
     "oldLicid": "01033351",
     "certNo": "DHY00104104705",
@@ -20,13 +24,16 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "K2"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4764CB1A-A8CD-42DB-BF6A-BF9470ED01F0",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIBOFLAVIN (VIT B2)",
         "CHLORPHENIRAMINE MALEATE",
@@ -51,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3B7D1837-0009-4DC4-8F00-096F6F9A30C3",
             "factoryCode": "1",
             "factoryName": "國嘉製藥工業股份有限公司幼獅三廠",
             "factoryAddr": "臺中市大甲區日南里工十路2號",
@@ -61,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "6103030026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "150",
             "concent": "150.0000",
@@ -79,6 +90,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808600900",
+            "ingredientsName": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "ingredientsDesc": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "concentDesc": "200",
             "concent": "200.0000",
@@ -90,6 +102,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "2.5",
             "concent": "2.5000",
@@ -101,6 +114,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": "27.5",
             "concent": "27.5000",
@@ -112,6 +126,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100800",
+            "ingredientsName": "THIAMINE DISULFIDE",
             "ingredientsDesc": "THIAMINE DISULFIDE",
             "concentDesc": "8",
             "concent": "8.0000",
@@ -123,6 +138,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -134,49 +150,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "52CD4A2B-DEA6-4748-B2C6-6ED66DD5F9B7",
-            "approvedDocNo": "1120804780",
-            "approvedDate": "2023-08-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "67D90757-2BE4-4240-AB70-1E34F6B5D5BC",
-            "approvedDocNo": "1096801777",
-            "approvedDate": "2020-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BA07"
-        },
         {
             "isMain": "1",
             "atcCode": "R05X"

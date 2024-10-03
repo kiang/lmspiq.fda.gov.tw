@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023981",
+    "licUnit": "1",
     "validDate": "2029-05-11 00:00:00.000",
     "issueDate": "2004-05-11 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202398104",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AC190E98-ED6D-4AC9-AC69-545BD065C4AD",
+    "subCategory": [],
     "ingredientsDesc": [
         "ETORICOXIB"
     ],
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "549F9734-FE57-49E3-A410-5059BB72A673",
             "factoryCode": "1",
             "factoryName": "ROVI PHARMA INDUSTRIAL SERVICES, S.A.",
             "factoryAddr": "VIA COMPUTENSE 140, 28805 ALCALA DE HENARES, MADRID, SPAIN",
@@ -58,9 +66,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0131000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "437C4557-C687-4B86-BCE3-0361EB267B95",
             "factoryCode": "2",
             "factoryName": "PT. Organon Pharma Indonesia Tbk.",
             "factoryAddr": "JI. RAYA PANDAAN KM. 48, PANDAAN, PASURUAN,JAWA TIMUR , INDONESIA",
@@ -76,13 +87,16 @@
             "factoryKind": "M",
             "factoryNo": "FID0002000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200097300",
+            "ingredientsName": "ETORICOXIB",
             "ingredientsDesc": "ETORICOXIB",
             "concentDesc": "",
             "concent": "90.0000",
@@ -94,88 +108,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "05896C1E-3E5E-4FD8-A642-6E87334FBC2F",
-            "approvedDocNo": "1129019717",
-            "approvedDate": "2023-10-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8592411A-7777-48D2-9041-38D9ADEA7D1E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-03-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "83B909DE-C79C-405A-BA5B-D98F537C42A4",
-            "approvedDocNo": "1119011887",
-            "approvedDate": "2022-05-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DE358E38-A108-462E-8FAF-23D8E564AAFA",
-            "approvedDocNo": "1119011890",
-            "approvedDate": "2022-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "03E3A856-3299-4942-900A-EE47B82AC4A3",
-            "approvedDocNo": "1119011889",
-            "approvedDate": "2022-04-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EBDCA310-EF88-4809-9780-16AC5E3BA8EB",
-            "approvedDocNo": "1106015247",
-            "approvedDate": "2021-10-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2FA8C8B0-D77E-408B-93FF-BF7213798FDC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E4EC1046-1B89-47A5-B5D6-F7245EC7BC9A",
-            "approvedDocNo": "1086024207",
-            "approvedDate": "2020-02-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B908303C-14E3-43E0-9ACF-8BDFC4CC9F6A",
-            "approvedDocNo": "1086024207",
-            "approvedDate": "2020-02-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "38A11BFC-8378-4E78-B6A0-4F733A1B719A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

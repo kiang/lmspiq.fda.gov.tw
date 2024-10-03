@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027423",
+    "licUnit": "1",
     "validDate": "2028-07-09 00:00:00.000",
     "issueDate": "2018-07-09 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202742309",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": "A",
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "3C36571D-0604-4B5F-952F-4DDCDFA13DF7",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "PANCREATIN (PANCREAS POWDER)"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C79BC76D-FC18-4EC9-9848-FB87773A774B",
             "factoryCode": "1",
             "factoryName": "ABBOTT LABORATORIES GMBH",
             "factoryAddr": "JUSTUS-VON-LIEBIG-STR. 33, 31535 NEUSTADT, GERMANY",
@@ -51,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0472000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "54B490C1-BBDD-49C0-A95D-D08D23FFBD5B",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -69,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616001210",
+            "ingredientsName": "PANCREATIN (PANCREAS POWDER)",
             "ingredientsDesc": "PANCREATIN (PANCREAS POWDER)",
             "concentDesc": "(eq. to Lipase 10000 Ph.Eur units, Amylase 8000 Ph.Eur. units, and Protease 600 Ph.Eur. units)",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,16 +103,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "637E88AA-A3C8-4B1E-8B5E-36E707513CB8",
-            "approvedDocNo": "1129026336",
-            "approvedDate": "2023-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

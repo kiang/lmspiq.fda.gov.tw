@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028503",
+    "licUnit": "1",
     "validDate": "2028-07-04 00:00:00.000",
     "issueDate": "2023-07-04 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202850302",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "C53C6867-D569-41BA-A92C-722F1C80A588",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "EZETIMIBE",
         "SIMVASTATIN"
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7010E650-B7CA-4042-9575-CC3C9893AEAC",
             "factoryCode": "1",
             "factoryName": "ZYDUS LIFESCIENCES LIMITED",
             "factoryAddr": "SURVEY NO. 417, 419, 420, SARKHEJ-BAVLA NATIONAL HIGHWAY NO. 8A, VILLAGE-MORAIYA, TALUKA-SANAND, DIST.-AHMEDABAD - 382 210, GUJARAT STATE, INDIA",
@@ -53,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "FIN1161000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200095600",
+            "ingredientsName": "EZETIMIBE",
             "ingredientsDesc": "EZETIMIBE",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406002900",
+            "ingredientsName": "SIMVASTATIN",
             "ingredientsDesc": "SIMVASTATIN",
             "concentDesc": "",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,14 +101,6 @@
         {
             "isMain": "1",
             "atcCode": "C10BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C10AX09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C10AA01"
         }
     ],
     "licBaseId": "2E3AA62A-E353-4F61-8E91-38BE7E1A6986"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029726",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1987-05-28 00:00:00.000",
+    "oriIssueDate": "1987-05-28",
     "licKind": "02",
     "oldLicid": "01027602",
     "certNo": "DHY00102972601",
@@ -16,17 +20,20 @@
     "does": "5592",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "076F4980-2162-4123-A0B0-0DBF2D9AAF64",
+    "subCategory": [],
     "ingredientsDesc": [
         "CARBARSONE",
         "CHLORAMPHENICOL",
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0DE8BF71-035A-4836-A0B9-37F9EE986E4E",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅廠",
             "factoryAddr": "台中市大甲區日南里工九路２７號",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812400100",
+            "ingredientsName": "CHLORAMPHENICOL",
             "ingredientsDesc": "CHLORAMPHENICOL",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0804000400",
+            "ingredientsName": "CARBARSONE",
             "ingredientsDesc": "CARBARSONE",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -87,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404600410",
+            "ingredientsName": "BENZETHONIUM CHLORIDE",
             "ingredientsDesc": "BENZETHONIUM CHLORIDE",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -98,28 +111,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4C89032F-711D-4312-ABE7-08D53F6C1084",
-            "approvedDocNo": "1110814096",
-            "approvedDate": "2022-10-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "P01AR"
-        },
         {
             "isMain": "1",
             "atcCode": "G01AA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G01AA05"
         }
     ],
     "licBaseId": "EF14D7FF-9D4C-4AD5-8654-47AC49C503CB"

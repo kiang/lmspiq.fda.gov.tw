@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043176",
-    "validDate": "2024-08-20 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-08-20 00:00:00.000",
     "issueDate": "1999-08-20 00:00:00.000",
+    "oriIssueDate": "1999-08-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104317600",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "22F8C019-D16B-4C62-BF33-F08F59DECC76",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "CAFFEINE ANHYDROUS"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "89FFBAD3-8199-43E6-A547-62C7C263D8C3",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅廠",
             "factoryAddr": "台中市大甲區工七路9號、工九路27號",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "500",
             "concent": "500.0000",
@@ -70,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "65",
             "concent": "65.0000",
@@ -81,73 +93,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "591697BE-47A4-4779-B3BD-2EB0371FCB41",
-            "approvedDocNo": "1129069569",
-            "approvedDate": "2024-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A6C91EE8-1B5E-4CCA-9DEC-720FA14B72CF",
-            "approvedDocNo": "1129069569",
-            "approvedDate": "2024-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "144B6AB7-3198-4909-BE23-909419F02C99",
-            "approvedDocNo": "1129069569",
-            "approvedDate": "2024-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B95A3C89-57C0-4C6C-8538-F618341358CD",
-            "approvedDocNo": "1129069569",
-            "approvedDate": "2024-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0152FFB0-52A6-4AE3-812E-49564C0290BE",
-            "approvedDocNo": "1129060806",
-            "approvedDate": "2023-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F3FC6A4D-B42A-484A-86E1-5E1125E0811C",
-            "approvedDocNo": "1071491901",
-            "approvedDate": "2019-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AF44D8EF-E33F-4939-B25A-CDE2E3914AC9",
-            "approvedDocNo": "1071491901",
-            "approvedDate": "2019-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
         {
             "isMain": "1",
             "atcCode": "N02BE51"

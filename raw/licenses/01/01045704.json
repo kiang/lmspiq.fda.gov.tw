@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01045704",
+    "licUnit": "1",
     "validDate": "2028-08-18 00:00:00.000",
     "issueDate": "2003-08-18 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104570409",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "19DDC9AE-036A-4C5B-9C12-FF31BD3E60A8",
+    "subCategory": [],
     "ingredientsDesc": [
         "TAZOBACTAM (AS SODIUM)",
         "PIPERACILLIN (SODIUM)",
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5C1E1452-C4FA-44BC-86CA-0FB223BE6B3F",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅三廠",
             "factoryAddr": "台中市大甲區工六路２６號，工十路１２之１號",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "0520910300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812691910",
+            "ingredientsName": "PIPERACILLIN (SODIUM)",
             "ingredientsDesc": "PIPERACILLIN (SODIUM)",
             "concentDesc": "(POTENCY)",
             "concent": "2.0000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410000710",
+            "ingredientsName": "TAZOBACTAM (AS SODIUM)",
             "ingredientsDesc": "TAZOBACTAM (AS SODIUM)",
             "concentDesc": "(POTENCY)",
             "concent": "0.2500",
@@ -87,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812691910",
+            "ingredientsName": "PIPERACILLIN (SODIUM)",
             "ingredientsDesc": "PIPERACILLIN (SODIUM)",
             "concentDesc": "(POTENCY)",
             "concent": "4.0000",
@@ -98,6 +111,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410000710",
+            "ingredientsName": "TAZOBACTAM (AS SODIUM)",
             "ingredientsDesc": "TAZOBACTAM (AS SODIUM)",
             "concentDesc": "(POTENCY)",
             "concent": "0.5000",
@@ -109,49 +123,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "48863406-CE9E-4250-8DCA-8A6CC229BE66",
-            "approvedDocNo": "1129034187",
-            "approvedDate": "2023-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1DB91641-E895-49EE-9519-D594E637578F",
-            "approvedDocNo": "1129034187",
-            "approvedDate": "2023-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8795451B-7DA1-47BB-8D9C-1E2EEF22BB57",
-            "approvedDocNo": "1110810682",
-            "approvedDate": "2022-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "71497094-812F-4811-B9CC-61D436A709C3",
-            "approvedDocNo": "1070043953",
-            "approvedDate": "2019-04-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01CA12"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CG02"
-        },
         {
             "isMain": "1",
             "atcCode": "J01CR05"

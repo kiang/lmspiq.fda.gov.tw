@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01037861",
-    "validDate": "2024-08-02 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-08-02 00:00:00.000",
     "issueDate": "1994-08-02 00:00:00.000",
+    "oriIssueDate": "1994-08-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103786103",
@@ -27,11 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5D62602D-0998-42BB-93EF-BF86D383DFEF",
+    "subCategory": [],
     "ingredientsDesc": [
         "BENZBROMARONE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "約克製藥股份有限公司",
     "applicantAddr": "雲林縣斗六市榴中里復興路3號",
@@ -45,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7A89D500-8A62-419D-80C6-F9EF96FC8DAB",
             "factoryCode": "1",
             "factoryName": "約克製藥股份有限公司",
             "factoryAddr": "雲林縣斗六市榴中里復興路3號",
@@ -55,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "6139011104",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4040000300",
+            "ingredientsName": "BENZBROMARONE",
             "ingredientsDesc": "BENZBROMARONE",
             "concentDesc": "",
             "concent": "50.0000",
@@ -73,88 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "80FAB266-F111-4DCE-9665-02C8A0653F90",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "96BE5378-BBBD-408D-9D9E-C6BD7CD6FF62",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "347496D6-D4B4-4D3A-897A-E42ABA20523F",
-            "approvedDocNo": "1096605661",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "11EE1925-3759-412E-89C3-E75921DD635E",
-            "approvedDocNo": "1096605661",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7E4B15F4-9A08-481C-97AE-08AEFEBC95DB",
-            "approvedDocNo": "1096605661",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6C26D17A-F22F-48B4-9A04-3A755A3938CE",
-            "approvedDocNo": "1096605661",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FF1B4490-1129-44B5-A433-4654101FB20F",
-            "approvedDocNo": "1096605661",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "548A879E-47FF-488D-B94C-47ABFD1CC8EC",
-            "approvedDocNo": "1096605661",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C531AA95-AEC3-429A-8D66-4A33AC66936C",
-            "approvedDocNo": "1096605661",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "160F1E68-C8DE-48CF-A0B8-B1AA2B1349E3",
-            "approvedDocNo": "1096605661",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2024-08-05",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "10000351",
+    "licUnit": "1",
     "validDate": "2025-03-05 00:00:00.000",
     "issueDate": "2014-12-23 00:00:00.000",
+    "oriIssueDate": "1992-06-25",
     "licKind": "04",
     "oldLicid": "10000305",
     "certNo": "DHA01000035102",
@@ -27,6 +33,11 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "67159CC9-5C75-4630-BA95-DE58B6054111",
+    "subCategory": [
+        "C04"
+    ],
     "ingredientsDesc": [
         "HEPATITIS B, ANTIGEN, SURFACE"
     ],
@@ -45,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8C6D8BF1-C05D-4DEA-903C-2CA99E7D9B9B",
             "factoryCode": "1",
             "factoryName": "MERCK SHARP & DOHME LLC",
             "factoryAddr": "770 SUMNEYTOWN PIKE, WEST POINT, PA 19486 U.S.A.",
@@ -55,9 +67,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS9468000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "FBAE3944-16FB-476D-BE3B-64F44F462C56",
             "factoryCode": "2",
             "factoryName": "MERCK SHARP & DOHME B.V.",
             "factoryAddr": "WAARDERWEG 39,2031 BN,HAARLEM,THE NETHERLANDS",
@@ -73,16 +88,19 @@
             "factoryKind": "M",
             "factoryNo": "FNL0016000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8081211000",
+            "ingredientsName": "HEPATITIS B, ANTIGEN, SURFACE",
             "ingredientsDesc": "HEPATITIS B, ANTIGEN, SURFACE",
             "concentDesc": "10",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "016",
             "seq": "1",
             "prescription_seq": "1",
@@ -91,63 +109,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "74BB6240-084D-41CF-9FE2-2722FEBDD916",
-            "approvedDocNo": "1119053398",
-            "approvedDate": "2022-12-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FCD618F3-537C-4580-96A7-E34AE6477D63",
-            "approvedDocNo": "1119053398",
-            "approvedDate": "2022-12-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1E388B30-E58D-4BFB-AFC9-31BBCE39EF01",
-            "approvedDocNo": "1096035645",
-            "approvedDate": "2021-03-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7F76893C-F667-43BC-9597-E9ED5787E2D6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C534706D-7F36-4759-B435-7254E1281AEC",
-            "approvedDocNo": "1086009974",
-            "approvedDate": "2019-08-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3E5CBBB3-6F31-44AF-8DBA-35DE7EC7C8C9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J07BC01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J07BC01"
         }
     ],

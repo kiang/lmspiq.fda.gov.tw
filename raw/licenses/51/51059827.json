@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059827",
+    "licUnit": "1",
     "validDate": "2027-12-11 00:00:00.000",
     "issueDate": "2017-12-11 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105982705",
@@ -23,6 +27,11 @@
     "medMCode": "17",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "D9E1CFC3-9A11-4CAC-82BA-A41C088E8E24",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "GLYCYRRHIZA EXTRACT",
         "CHLORHEXIDINE HCL"
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DB8D74FA-0625-4A7F-9A2C-7B33A4A4C1C0",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅廠",
             "factoryAddr": "台中市大甲區工七路9號、工九路27號",
@@ -52,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900211",
+            "ingredientsName": "CHLORHEXIDINE HCL",
             "ingredientsDesc": "CHLORHEXIDINE HCL",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004401",
+            "ingredientsName": "GLYCYRRHIZA EXTRACT",
             "ingredientsDesc": "GLYCYRRHIZA EXTRACT",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,28 +95,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "62AD556D-660A-4A2F-83DA-FD50043D1F1F",
-            "approvedDocNo": "1106814222",
-            "approvedDate": "2022-01-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R02AA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R02AA05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
         }
     ],
     "licBaseId": "2E00C057-7C77-458E-8188-D2BCDF6EAEAC"

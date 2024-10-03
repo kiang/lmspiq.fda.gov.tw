@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01036654",
+    "licUnit": "1",
     "validDate": "2028-08-23 00:00:00.000",
     "issueDate": "1993-08-23 00:00:00.000",
+    "oriIssueDate": "1993-08-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103665406",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C0E6E113-029D-4AE5-94A8-B4DB7C23A180",
+    "subCategory": [],
     "ingredientsDesc": [
         "BETAMETHASONE DISODIUM PHOSPHATE"
     ],
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1AE08B33-F3DF-4A14-8F40-32B048AAB742",
             "factoryCode": "1",
             "factoryName": "麥迪森醫藥股份有限公司桃園廠",
             "factoryAddr": "桃園市桃園區桃鶯路445之2號",
@@ -51,13 +59,16 @@
             "factoryKind": "M",
             "factoryNo": "6132011106",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000230",
+            "ingredientsName": "BETAMETHASONE DISODIUM PHOSPHATE",
             "ingredientsDesc": "BETAMETHASONE DISODIUM PHOSPHATE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -69,72 +80,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "51E819BD-2CA3-47A6-93FB-A9723A42FF62",
-            "approvedDocNo": "1120606281",
-            "approvedDate": "2023-09-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "59992231-3ABC-4F85-80CD-B12740C0C209",
-            "approvedDocNo": "1120606281",
-            "approvedDate": "2023-09-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AF58022C-2971-40BA-AC6E-B327A2543101",
-            "approvedDocNo": "1110614205",
-            "approvedDate": "2023-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "73515320-7D4E-452A-8CE8-137C98B16DD4",
-            "approvedDocNo": "1110614205",
-            "approvedDate": "2023-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FB81B713-FAC6-4073-BCAF-4CDB8EB18EA4",
-            "approvedDocNo": "1110614205",
-            "approvedDate": "2023-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6A77DB02-DFF1-4A8F-AA82-4A1956E22B57",
-            "approvedDocNo": "1120601570",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6E4E04EA-E22A-4A19-A9A4-82AF7D5A0F8F",
-            "approvedDocNo": "1110612148",
-            "approvedDate": "2023-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F1D892A1-C6F8-405E-B4D4-AC83A0630695",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

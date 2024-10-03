@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058559",
-    "validDate": "2024-12-11 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-11 00:00:00.000",
     "issueDate": "2014-12-11 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -31,6 +35,9 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "09A95F1D-1FC3-45F2-B5AD-9454E87F5DBD",
+    "subCategory": [],
     "ingredientsDesc": [
         "LORAZEPAM"
     ],
@@ -50,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A755F992-EA0E-4B6D-BDEC-E2E27C734B53",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
@@ -60,16 +68,19 @@
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824201200",
+            "ingredientsName": "LORAZEPAM",
             "ingredientsDesc": "LORAZEPAM",
             "concentDesc": "",
-            "concent": "1.000",
+            "concent": "1.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -78,39 +89,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "49DA282E-788A-47A2-BD75-5C24F3861F3F",
-            "approvedDocNo": "1129063080",
-            "approvedDate": "2024-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "370E271E-7E19-4C32-A5E4-D196506D32B4",
-            "approvedDocNo": "1129063080",
-            "approvedDate": "2024-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D4F09102-6337-4921-A490-0F992DABB7A9",
-            "approvedDocNo": "1096821877",
-            "approvedDate": "2021-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N05BA06"
-        },
-        {
-            "isMain": "2",
             "atcCode": "N05BA06"
         }
     ],

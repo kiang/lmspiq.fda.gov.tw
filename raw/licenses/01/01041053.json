@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01041053",
+    "licUnit": "1",
     "validDate": "2027-07-16 00:00:00.000",
     "issueDate": "2007-07-16 00:00:00.000",
+    "oriIssueDate": "1997-04-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104105300",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "31E38631-F3E3-439E-B9C0-CD68AF6D245B",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "DICLOFENAC SODIUM (DIETHYLAMMONIUM)",
         "DICLOFENAC SODIUM (DIETHYLAMMONIUM)",
@@ -47,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9748AE5B-1B49-443D-9A08-16996EE7B33A",
             "factoryCode": "1",
             "factoryName": "福元化學製藥股份有限公司",
             "factoryAddr": "新北市瑞芳區大寮路９５號之１",
@@ -57,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "1419502300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808408420",
+            "ingredientsName": "DICLOFENAC SODIUM (DIETHYLAMMONIUM)",
             "ingredientsDesc": "DICLOFENAC SODIUM (DIETHYLAMMONIUM)",
             "concentDesc": "",
             "concent": "11.6000",
@@ -75,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808408420",
+            "ingredientsName": "DICLOFENAC SODIUM (DIETHYLAMMONIUM)",
             "ingredientsDesc": "DICLOFENAC SODIUM (DIETHYLAMMONIUM)",
             "concentDesc": "",
             "concent": "11.6000",
@@ -86,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808408420",
+            "ingredientsName": "DICLOFENAC SODIUM (DIETHYLAMMONIUM)",
             "ingredientsDesc": "DICLOFENAC SODIUM (DIETHYLAMMONIUM)",
             "concentDesc": "",
             "concent": "11.6000",
@@ -97,23 +112,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E00311F9-9072-488F-9EDE-61671B2CB213",
-            "approvedDocNo": "1110604972",
-            "approvedDate": "2022-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "M02AA15"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M02AA15"
         }
     ],

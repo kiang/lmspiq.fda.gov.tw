@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000941",
+    "licUnit": "1",
     "validDate": "2028-06-07 00:00:00.000",
     "issueDate": "2013-06-07 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000094100",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5CBC0984-E440-4ED4-8408-DBBD4C07950B",
+    "subCategory": [],
     "ingredientsDesc": [
         "Panitumumab"
     ],
@@ -46,19 +53,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "50F99EF7-5A63-4001-8723-BE7A10703829",
             "factoryCode": "1",
-            "factoryName": "AMGEN MANUFACTURING,LIMITED",
-            "factoryAddr": "STATE ROAD 31,KM 24.6 JUNCOS,PUERTO RICO 00777-4060",
+            "factoryName": "AMGEN MANUFACTURING LIMITED LLC",
+            "factoryAddr": "STATE ROAD 31, KM 24.6 JUNCOS, PUERTO RICO 00777-4060",
             "factoryCompanyAddr": null,
             "countryCode": "PR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FPR0034000",
+            "factoryNo": "FPR0062100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D91B7183-0F83-4E94-8511-9D6C570ECF16",
             "factoryCode": "2",
             "factoryName": "IMMUNEX RHODE ISLAND CORPORATION",
             "factoryAddr": "40 TECHNOLOGY WAY, WEST GREENWICH RHODE ISLAND 02817, USA",
@@ -74,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0866000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013003700",
+            "ingredientsName": "Panitumumab",
             "ingredientsDesc": "Panitumumab",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -92,84 +106,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C92ADF25-D70B-4298-873B-11F0DFB0A984",
-            "approvedDocNo": "1129023474",
-            "approvedDate": "2023-06-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "56A2EF0A-E5BC-4617-BD74-F9B199D2EAF5",
-            "approvedDocNo": "1110723224",
-            "approvedDate": "2023-02-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E1C4F910-87DE-45C7-BB3A-D35B0D972811",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D180B927-0ED1-40E1-A5A8-EACB7AC10706",
-            "approvedDocNo": "1110700210",
-            "approvedDate": "2022-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8DAB4FC9-F05A-43C5-A340-F4424CE8B800",
-            "approvedDocNo": "1110700210",
-            "approvedDate": "2022-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C2D6A3C1-8618-4DFB-B981-B368A4EB62E9",
-            "approvedDocNo": "1110700210",
-            "approvedDate": "2022-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "51DC34FB-FFC7-48FF-904E-616EDFC0F405",
-            "approvedDocNo": "1110700210",
-            "approvedDate": "2022-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "78445D7E-E273-4117-99B6-974F89E9EBDC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-02-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3AFF301C-11EA-412C-B7F8-A826F109B0B9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-01-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L01XC08"
+            "atcCode": "L01FE02"
         }
     ],
     "licBaseId": "43F9A97C-56EE-47FF-B9A9-A72FB6486DED"

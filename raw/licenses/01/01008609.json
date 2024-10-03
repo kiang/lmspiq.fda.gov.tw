@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01008609",
-    "validDate": "2024-12-29 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-29 00:00:00.000",
     "issueDate": "1975-12-29 00:00:00.000",
+    "oriIssueDate": "1975-12-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100860906",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C81D8952-9DE3-41DC-9402-9EC1E4C2B918",
+    "subCategory": [],
     "ingredientsDesc": [
         "BERBERINE TANNATE",
         "ALUMINUM 3-HYDROXY-2-NAPHTHOATE"
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "79793575-0257-469E-88B8-CFA73206BE39",
             "factoryCode": "1",
             "factoryName": "杏林新生製藥股份有限公司",
             "factoryAddr": "桃園市龍潭區三和村店湖一路２３７號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "1405802300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0804000230",
+            "ingredientsName": "BERBERINE TANNATE",
             "ingredientsDesc": "BERBERINE TANNATE",
             "concentDesc": "33",
             "concent": "33.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5608001400",
+            "ingredientsName": "ALUMINUM 3-HYDROXY-2-NAPHTHOATE",
             "ingredientsDesc": "ALUMINUM 3-HYDROXY-2-NAPHTHOATE",
             "concentDesc": "50",
             "concent": "50.0000",
@@ -91,14 +103,6 @@
         {
             "isMain": "1",
             "atcCode": "A02AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A07AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB"
         }
     ],
     "licBaseId": "86BD76BE-E546-4F4C-9B9A-F51A20E18AFB"

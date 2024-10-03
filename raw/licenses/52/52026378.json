@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026378",
+    "licUnit": "1",
     "validDate": "2024-08-25 00:00:00.000",
     "issueDate": "2014-08-25 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202637802",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EE062321-9379-488C-927C-3DD982A17AAC",
+    "subCategory": [],
     "ingredientsDesc": [
         "LIGNOCAINE HYDROCHLORIDE MONOHYDRATE"
     ],
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "ECB0E718-E64A-4C04-8F39-CB09178E5AB9",
             "factoryCode": "1",
             "factoryName": "KOTRA PHARMA(M) SDN.BHD.",
             "factoryAddr": "NO.1,2&3, JALAN TTC12, CHENG INDUSTRIAL ESTATE, 75250 MELAKA, MALAYSIA",
@@ -51,9 +59,12 @@
             "factoryKind": "M",
             "factoryNo": "FMY0017000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2D6189BE-4CB0-47CC-84ED-DC4669C11998",
             "factoryCode": "2",
             "factoryName": "嘉里醫藥物流股份有限公司",
             "factoryAddr": "桃園市龜山區頂湖路５８號２樓",
@@ -69,16 +80,19 @@
             "factoryKind": "M",
             "factoryNo": "6132071675",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001030",
+            "ingredientsName": "LIGNOCAINE HYDROCHLORIDE MONOHYDRATE",
             "ingredientsDesc": "LIGNOCAINE HYDROCHLORIDE MONOHYDRATE",
             "concentDesc": "(eq. to Anhydrous Lidocaine HCl 20mg)",
-            "concent": "21.340",
+            "concent": "21.3400",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,55 +101,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "125C8BA6-49FA-4CCD-981E-E61A0457DCB6",
-            "approvedDocNo": "1129050082",
-            "approvedDate": "2023-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DA9B221C-5F29-47C7-BC76-8858745C717D",
-            "approvedDocNo": "1101498652",
-            "approvedDate": "2021-12-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB4EBCED-CF5A-4BC1-9B12-7EFA2739BF7B",
-            "approvedDocNo": "1101496973",
-            "approvedDate": "2021-10-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9E469C24-4AE3-4EAF-9634-0DE41705B2ED",
-            "approvedDocNo": "1101497476",
-            "approvedDate": "2021-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "221D869E-35FA-424D-BFB7-81BB0CC71ED0",
-            "approvedDocNo": "1091497446",
-            "approvedDate": "2021-01-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D04AB"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D04AB"
         }
     ],

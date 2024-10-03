@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01042590",
+    "licUnit": "1",
     "validDate": "2028-09-28 00:00:00.000",
     "issueDate": "1998-09-28 00:00:00.000",
+    "oriIssueDate": "1998-09-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104259005",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E25FC7A2-BCB1-4EAF-ABDE-6EACBF34A794",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRIPROLIDINE HCL",
         "PSEUDOEPHEDRINE HCL"
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D0AC2D41-661A-4100-9936-AEA59ED7D85C",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅廠",
             "factoryAddr": "台中市大甲區日南里工九路２７號",
@@ -53,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400004110",
+            "ingredientsName": "TRIPROLIDINE HCL",
             "ingredientsDesc": "TRIPROLIDINE HCL",
             "concentDesc": "1.25",
             "concent": "1.2500",
@@ -71,6 +82,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002610",
+            "ingredientsName": "PSEUDOEPHEDRINE HCL",
             "ingredientsDesc": "PSEUDOEPHEDRINE HCL",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -82,52 +94,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ADA92FC4-E040-4D61-B261-D628297FFAE4",
-            "approvedDocNo": "1110807854",
-            "approvedDate": "2022-06-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "087DEDFB-673B-41CD-9174-E263D435C374",
-            "approvedDocNo": "1086814502",
-            "approvedDate": "2020-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68353544-8186-43BD-A88F-F29011650C4F",
-            "approvedDocNo": "1086814502",
-            "approvedDate": "2020-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E5C3FC0C-57CA-422D-8117-55BFCCF2F0B1",
-            "approvedDocNo": "1086814502",
-            "approvedDate": "2020-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R01BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "R01BA52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AX07"
         }
     ],
     "licBaseId": "3FB5B109-EE34-47FA-8637-3ABE632F73AB"

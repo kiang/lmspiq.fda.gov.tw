@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01003086",
-    "validDate": "2023-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2028-12-31 00:00:00.000",
     "issueDate": "1973-07-04 00:00:00.000",
+    "oriIssueDate": "1973-07-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100308601",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "828C442E-4B50-4D05-8396-0D1D2077F780",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEXAMETHASONE"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3A46C068-2EB0-4FD6-9988-1A387B96FFFB",
             "factoryCode": "1",
             "factoryName": "台灣陽生製藥工業股份有限公司",
             "factoryAddr": "屏東縣屏東市龍華路３８１號",
@@ -55,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "1111823300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000600",
+            "ingredientsName": "DEXAMETHASONE",
             "ingredientsDesc": "DEXAMETHASONE",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -73,39 +84,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5CED5C9E-51A9-4444-AF58-58C0205280E6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E9FB0455-4791-412C-8120-2548779F1496",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9E22C6CD-7777-4858-A6EC-5927C2F8D922",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "H02AB02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "H02AB02"
         }
     ],

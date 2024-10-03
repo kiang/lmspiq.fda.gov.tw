@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01031512",
+    "licUnit": "1",
     "validDate": "2029-06-03 00:00:00.000",
     "issueDate": "1989-06-03 00:00:00.000",
+    "oriIssueDate": "1989-06-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103151200",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2F8F9EBB-B87B-491C-9555-556DAB17D20F",
+    "subCategory": [],
     "ingredientsDesc": [
         "CARBINOXAMINE MALEATE",
         "GLYCYRRHIZA RADIX EXTRACT",
@@ -50,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "12BDAA3E-9DE9-49DC-AD50-85C38C316546",
             "factoryCode": "1",
             "factoryName": "榮民製藥股份有限公司",
             "factoryAddr": "桃園市中壢區中山東路３段４４７號",
@@ -60,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "6132020070",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001710",
+            "ingredientsName": "METHOXYPHENAMINE HCL",
             "ingredientsDesc": "METHOXYPHENAMINE HCL",
             "concentDesc": "50",
             "concent": "50.0000",
@@ -78,6 +89,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002400",
+            "ingredientsName": "NOSCAPINE",
             "ingredientsDesc": "NOSCAPINE",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -89,6 +101,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000610",
+            "ingredientsName": "CARBINOXAMINE MALEATE",
             "ingredientsDesc": "CARBINOXAMINE MALEATE",
             "concentDesc": "4",
             "concent": "4.0000",
@@ -100,6 +113,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "50",
             "concent": "50.0000",
@@ -111,6 +125,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": "90",
             "concent": "90.0000",
@@ -122,6 +137,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004412",
+            "ingredientsName": "GLYCYRRHIZA RADIX EXTRACT",
             "ingredientsDesc": "GLYCYRRHIZA RADIX EXTRACT",
             "concentDesc": "(eq to Crude Glycyrrhiza Extract)",
             "concent": "66.0000",
@@ -133,100 +149,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "62AF6FEC-00B1-4350-B021-5D74A3F3285F",
-            "approvedDocNo": "1129056808",
-            "approvedDate": "2023-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D33DC518-AB5A-43C6-9588-6D225FEAD5AE",
-            "approvedDocNo": "1129056808",
-            "approvedDate": "2023-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1925542A-A916-44C4-8E1E-7CE5435224AD",
-            "approvedDocNo": "1129056808",
-            "approvedDate": "2023-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EC0DFD1D-00FA-40E3-9F68-EB0A58E150B3",
-            "approvedDocNo": "1129056808",
-            "approvedDate": "2023-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D02803CA-47F4-415E-83CC-9E0C902980A5",
-            "approvedDocNo": "1129043309",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E98B283B-2712-4C69-B769-D3337FB603D1",
-            "approvedDocNo": "1129022899",
-            "approvedDate": "2023-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F9FA574F-97D9-41D9-AC86-317CFE9B5E63",
-            "approvedDocNo": "1081491868",
-            "approvedDate": "2019-12-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AF70F08C-F4FF-427B-BE7D-B291981858DB",
-            "approvedDocNo": "1086800457",
-            "approvedDate": "2019-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R06AA08"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
-        },
         {
             "isMain": "1",
             "atcCode": "R05FA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
         }
     ],
     "licBaseId": "5C72B5DF-3646-4494-A8CC-BE89BB371AEF"

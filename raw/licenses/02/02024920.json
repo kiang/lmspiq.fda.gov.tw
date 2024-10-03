@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024920",
+    "licUnit": "1",
     "validDate": "2028-11-20 00:00:00.000",
     "issueDate": "2008-11-20 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202492002",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "172A9DB0-2686-429D-B336-5D06DCAC3821",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM S-LACTATE",
         "CALCIUM CHLORIDE DIHYDRATE",
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8BE89AF4-735C-49AE-A3CE-E22D5C394701",
             "factoryCode": "1",
             "factoryName": "FRESENIUS MEDICAL CARE DEUTSCHLAND GMBH",
             "factoryAddr": "FRANKFURTER STR. 6-8 66606 ST. WENDEL, GERMANY",
@@ -59,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0244000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": null,
             "concent": "11.2790",
@@ -77,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": null,
             "concent": "0.3680",
@@ -88,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": null,
             "concent": "0.2030",
@@ -99,6 +112,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000750",
+            "ingredientsName": "GLUCOSE ANHYDROUS",
             "ingredientsDesc": "GLUCOSE ANHYDROUS",
             "concentDesc": null,
             "concent": "45.4600",
@@ -110,6 +124,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000990",
+            "ingredientsName": "SODIUM S-LACTATE",
             "ingredientsDesc": "SODIUM S-LACTATE",
             "concentDesc": null,
             "concent": "7.8500",
@@ -121,6 +136,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": null,
             "concent": "5.6400",
@@ -132,6 +148,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000990",
+            "ingredientsName": "SODIUM S-LACTATE",
             "ingredientsDesc": "SODIUM S-LACTATE",
             "concentDesc": null,
             "concent": "3.9250",
@@ -143,6 +160,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": null,
             "concent": "0.1840",
@@ -154,6 +172,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": null,
             "concent": "0.1020",
@@ -165,45 +184,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BC4A120D-3A4F-460A-803B-6FA7A1F0322E",
-            "approvedDocNo": "1110728099",
-            "approvedDate": "2023-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B069D220-1BB5-41FA-927A-A9A02B9FB985",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EA8B57F3-3D4B-4F32-B897-AA6F97C61612",
-            "approvedDocNo": "1101490803",
-            "approvedDate": "2021-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "10304333-FA2C-4C63-AD59-C945D26E71F0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05D"
-        },
         {
             "isMain": "1",
             "atcCode": "B05D"

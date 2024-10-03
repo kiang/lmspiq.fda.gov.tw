@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001176",
+    "licUnit": "1",
     "validDate": "2026-09-30 00:00:00.000",
     "issueDate": "2021-09-30 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000117608",
@@ -23,6 +27,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "66F16EFC-6EFB-4AEA-8CDF-86C93910E4C1",
+    "subCategory": [
+        "C0901"
+    ],
     "ingredientsDesc": [
         "Tisagenlecleucel (CTL019 cells)"
     ],
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "631A3D2E-6B34-4533-B4D4-16B8882621CE",
             "factoryCode": "1",
             "factoryName": "NOVARTIS PHARMA STEIN AG NOVARTIS TECHNICAL OPERATIONS SCHWEIZ, STEIN CELL AND GENE THERAPY",
             "factoryAddr": "SCHAFFHAUSERSTRASSE, 4332 STEIN, SWITZERLAD",
@@ -58,16 +68,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0334000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1000000500",
+            "ingredientsName": "Tisagenlecleucel (CTL019 cells)",
             "ingredientsDesc": "Tisagenlecleucel (CTL019 cells)",
             "concentDesc": "1.2 x 10^6 to 6.0 x 10^8 CAR-positive viable T cells",
-            "concent": "0.000",
+            "concent": "0.0000",
             "concentUnit": "320",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,68 +89,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "93C8FCD9-1E32-4D24-A0D5-EA25CF3A824D",
-            "approvedDocNo": "1120720288",
-            "approvedDate": "2023-12-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1FDFF75F-7DE7-46AE-836D-30735890AD61",
-            "approvedDocNo": "1120701527",
-            "approvedDate": "2023-04-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "01F94F61-4102-4541-A692-63D6E835EA0B",
-            "approvedDocNo": "1110715837",
-            "approvedDate": "2023-04-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8369C71F-0E3B-4484-B87D-A87C5ADFDE73",
-            "approvedDocNo": "1110715837",
-            "approvedDate": "2023-04-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31486D65-56F2-45B7-9903-F0604AB988B9",
-            "approvedDocNo": "1110715837",
-            "approvedDate": "2023-04-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "70C602FC-CA37-4544-852C-6A2ACC568B64",
-            "approvedDocNo": "1110715836",
-            "approvedDate": "2022-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9BAFEC4E-471C-4619-9430-CD60F55D34F1",
-            "approvedDocNo": "1106034295",
-            "approvedDate": "2022-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L01XX71"
+            "atcCode": "L01XL04"
         }
     ],
     "licBaseId": "A7411241-0683-43BD-8BAD-E313FD9DE6BA"

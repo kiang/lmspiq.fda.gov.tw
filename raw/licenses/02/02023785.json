@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023785",
+    "licUnit": "1",
     "validDate": "2028-07-23 00:00:00.000",
     "issueDate": "2003-07-23 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202378504",
@@ -31,11 +35,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5C34FB32-D749-45BB-8C35-5E0D9F5723E6",
+    "subCategory": [],
     "ingredientsDesc": [
         "BUSULFAN"
     ],
     "restraintItemsCode": [
-        "02"
+        "02",
+        "68"
     ],
     "applicantName": "台灣大塚製藥股份有限公司",
     "applicantAddr": "台北市中山區復興北路378號11樓",
@@ -49,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B0B5E3EA-B82E-43A7-BE14-AB17492249A8",
             "factoryCode": "1",
             "factoryName": "BAXTER ONCOLOGY GMBH",
             "factoryAddr": "KANTSTR. 2, 33790 HALLE\/WESTFALEN, GERMANY",
@@ -64,9 +73,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0565000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4EEB9538-AED9-49B8-A7CF-16FC8B5524B8",
             "factoryCode": "2",
             "factoryName": "台灣大塚製藥股份有限公司中壢工廠",
             "factoryAddr": "桃園市中壢區吉林路15號",
@@ -82,9 +94,12 @@
             "factoryKind": "M",
             "factoryNo": "1403304300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "039E70A5-3B5C-4912-A3DE-F626FA703A0A",
             "factoryCode": "2",
             "factoryName": "OTSUKA PHARMACEUTICAL COMPANY, LTD.",
             "factoryAddr": "2-9, KANDA TSUKASA-CHO CHIYODA-KU, TOKYO,101-8535 JAPAN",
@@ -100,9 +115,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP0246500",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "04D28A8E-641C-4198-BB56-13FD1182423A",
             "factoryCode": "2",
             "factoryName": "Sharp Packaging Services, LLC",
             "factoryAddr": "7451 KEEBLER WAY , ALLENTOWN , PENNSYLVANIA 18106 , USA",
@@ -118,13 +136,16 @@
             "factoryKind": "M",
             "factoryNo": "FUS1229000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1004000100",
+            "ingredientsName": "BUSULFAN",
             "ingredientsDesc": "BUSULFAN",
             "concentDesc": "",
             "concent": "60.0000",
@@ -136,40 +157,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D956E157-566E-4010-8ABE-9492896CE728",
-            "approvedDocNo": "1119055402",
-            "approvedDate": "2022-11-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C1580AE4-9597-47D6-A60F-E1652307CCCF",
-            "approvedDocNo": "1101500485",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FEF60C4E-EF9C-4576-A78E-C6B7ED7D0C5A",
-            "approvedDocNo": "1101500484",
-            "approvedDate": "2022-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D24F5152-3DC1-44FD-BF50-7F1207C575CE",
-            "approvedDocNo": "1091497410",
-            "approvedDate": "2021-02-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

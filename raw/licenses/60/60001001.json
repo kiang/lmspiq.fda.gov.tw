@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001001",
+    "licUnit": "1",
     "validDate": "2026-02-02 00:00:00.000",
     "issueDate": "2016-02-02 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000100102",
@@ -31,6 +35,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "45973B2F-A105-4263-88F4-93BEE20C5EF9",
+    "subCategory": [
+        "C04"
+    ],
     "ingredientsDesc": [
         "TYPE 16 L1 PROTEIN",
         "Type 45 L1 Protein",
@@ -60,6 +69,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E19B790D-B70E-4760-A9F3-5B5FA4478466",
             "factoryCode": "1",
             "factoryName": "MSD INTERNATIONAL GMBH T\/A MSD IRELAND (CARLOW)",
             "factoryAddr": "DUBLIN ROAD, CARLOW, CO. CARLOW, IRELAND",
@@ -75,9 +85,12 @@
             "factoryKind": "M",
             "factoryNo": "FIE0079300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F55570FB-FABB-4B66-A9B2-D00034E8D381",
             "factoryCode": "1",
             "factoryName": "MERCK SHARP & DOHME LLC",
             "factoryAddr": "770 SUMNEYTOWN PIKE, WEST POINT, PA 19486 U.S.A.",
@@ -93,9 +106,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS9468000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "02CFEA72-304A-42D3-971A-F53DCFCE6DD4",
             "factoryCode": "2",
             "factoryName": "MERCK SHARP & DOHME B.V.",
             "factoryAddr": "WAARDERWEG 39,2031 BN,HAARLEM,THE NETHERLANDS",
@@ -111,9 +127,33 @@
             "factoryKind": "M",
             "factoryNo": "FNL0016000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "674F455F-6AE2-4262-A03C-4536FCEAF6F4",
+            "factoryCode": "2",
+            "factoryName": "MSD INTERNATIONAL GMBH  (SINGAPORE BRANCH)",
+            "factoryAddr": "70 TUAS WEST DRIVE, SINGAPORE 638414",
+            "factoryCompanyAddr": "",
+            "countryCode": "SG",
+            "processCode": [
+                {
+                    "value": "1A",
+                    "name": "二級包裝廠"
+                }
+            ],
+            "processCodeStr": "1A;二級包裝廠",
+            "factoryKind": "M",
+            "factoryNo": "FSG0012100",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "23AC3ACF-82FE-4147-A2D7-634E16EE03C9",
             "factoryCode": "2",
             "factoryName": "MERCK SHARP & DOHME LLC",
             "factoryAddr": "2778 SOUTH EAST SIDE HIGHWAY ELKTON VA 22827, USA",
@@ -129,16 +169,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS1232000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600001610",
+            "ingredientsName": "TYPE 6 L1 PROTEIN",
             "ingredientsDesc": "TYPE 6 L1 PROTEIN",
             "concentDesc": "",
-            "concent": "30.000",
+            "concent": "30.0000",
             "concentUnit": "355",
             "seq": "1",
             "prescription_seq": "1",
@@ -147,9 +190,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600001620",
+            "ingredientsName": "TYPE 11 L1 PROTEIN",
             "ingredientsDesc": "TYPE 11 L1 PROTEIN",
             "concentDesc": "",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "355",
             "seq": "2",
             "prescription_seq": "1",
@@ -158,9 +202,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600001630",
+            "ingredientsName": "TYPE 16 L1 PROTEIN",
             "ingredientsDesc": "TYPE 16 L1 PROTEIN",
             "concentDesc": "",
-            "concent": "60.000",
+            "concent": "60.0000",
             "concentUnit": "355",
             "seq": "3",
             "prescription_seq": "1",
@@ -169,9 +214,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600001640",
+            "ingredientsName": "TYPE 18 L1 PROTEIN",
             "ingredientsDesc": "TYPE 18 L1 PROTEIN",
             "concentDesc": "",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "355",
             "seq": "4",
             "prescription_seq": "1",
@@ -180,9 +226,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600003100",
+            "ingredientsName": "Type 31 L1 Protein",
             "ingredientsDesc": "Type 31 L1 Protein",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "355",
             "seq": "5",
             "prescription_seq": "1",
@@ -191,9 +238,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600003200",
+            "ingredientsName": "Type 33 L1 Protein",
             "ingredientsDesc": "Type 33 L1 Protein",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "355",
             "seq": "6",
             "prescription_seq": "1",
@@ -202,9 +250,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600003300",
+            "ingredientsName": "Type 45 L1 Protein",
             "ingredientsDesc": "Type 45 L1 Protein",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "355",
             "seq": "7",
             "prescription_seq": "1",
@@ -213,9 +262,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600003400",
+            "ingredientsName": "Type 52 L1 Protein",
             "ingredientsDesc": "Type 52 L1 Protein",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "355",
             "seq": "8",
             "prescription_seq": "1",
@@ -224,9 +274,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600003500",
+            "ingredientsName": "Type 58 L1 Protein",
             "ingredientsDesc": "Type 58 L1 Protein",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "355",
             "seq": "9",
             "prescription_seq": "1",
@@ -235,144 +286,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3D29390A-41AD-40FE-B2E8-FAB0D14BA595",
-            "approvedDocNo": "1120703261",
-            "approvedDate": "2023-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "45CFEC9F-87C6-4063-89FA-EC83F41F5AF7",
-            "approvedDocNo": "1119053391",
-            "approvedDate": "2022-11-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "33344EDD-050A-46A6-8D3F-33FB35264214",
-            "approvedDocNo": "1119053391",
-            "approvedDate": "2022-11-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2CD54346-2565-41CD-81C5-4796941BEE42",
-            "approvedDocNo": "1101499487",
-            "approvedDate": "2022-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A737A717-ACCC-433D-AB92-7E78791538E2",
-            "approvedDocNo": "1106819530",
-            "approvedDate": "2022-01-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B993A08A-B671-4801-8EB8-B1E9D55B6CD9",
-            "approvedDocNo": "1101490610",
-            "approvedDate": "2021-08-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AAFE6C50-9ECF-424A-ABFD-B25724E0034C",
-            "approvedDocNo": "1101490610",
-            "approvedDate": "2021-08-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6C917D83-0724-4AD6-AFA1-DA77BE2DCDE0",
-            "approvedDocNo": "1101490610",
-            "approvedDate": "2021-08-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "07D2C3B1-7797-4FC2-9A72-E89CC131350E",
-            "approvedDocNo": "1101490610",
-            "approvedDate": "2021-08-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AF26FFC0-BC0C-432D-9004-94B62FD6DCEA",
-            "approvedDocNo": "1091492651",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4ED6FE0E-1E97-4200-8879-107274A3F42F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "26B479DF-7274-49AE-B01F-10EDC51F8160",
-            "approvedDocNo": "1091493722",
-            "approvedDate": "2020-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CCFFF3A2-209C-4687-8203-AB7960580F11",
-            "approvedDocNo": "1086027154",
-            "approvedDate": "2020-03-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4854C4E3-A516-45C6-A8CA-03F39F5E63B6",
-            "approvedDocNo": "1086029514",
-            "approvedDate": "2020-03-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "321D66A0-E273-4128-8214-76A6758099FF",
-            "approvedDocNo": "1086029514",
-            "approvedDate": "2020-03-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C5ED04D6-F0E0-42A8-AF1B-CA8A781894F7",
-            "approvedDocNo": "1086029514",
-            "approvedDate": "2020-03-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3C9398E0-3945-4DC6-B362-6476521CFFEA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

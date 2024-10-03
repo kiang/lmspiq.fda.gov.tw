@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2022-05-04",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "02025070",
+    "licUnit": "1",
     "validDate": "2024-08-11 00:00:00.000",
     "issueDate": "2009-08-11 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202507002",
@@ -25,6 +29,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A1EC50A7-BB4A-4010-9911-59F4E0906E6D",
+    "subCategory": [],
     "ingredientsDesc": [
         "CARVEDILOL"
     ],
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E643E3E0-1B75-43DD-A1A2-005AA1ADCBB7",
             "factoryCode": "1",
             "factoryName": "SALUTAS PHARMA GMBH",
             "factoryAddr": "OTTO-VON-GUERICKE-ALLEE 1 39179 BARLEBEN GERMANY",
@@ -56,9 +64,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0266000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "CF3E53E5-1B4A-40CF-BC6F-D964BDACF069",
             "factoryCode": "2",
             "factoryName": "HEXAL AG",
             "factoryAddr": "INDUSTRIESTRABE 25 83607 HOLZKIRCHEN GERMANY",
@@ -74,13 +85,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0230000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1210100100",
+            "ingredientsName": "CARVEDILOL",
             "ingredientsDesc": "CARVEDILOL",
             "concentDesc": null,
             "concent": "12.5000",
@@ -92,47 +106,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8A032A32-72AB-4F23-B818-BB9DCA29EF38",
-            "approvedDocNo": "1106815344",
-            "approvedDate": "2022-03-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E8D53BFC-8EB8-4CE9-82FE-FD0BAAA5AF1A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F6CFAB8-8332-43D3-AC80-CFCC4AD0E3B6",
-            "approvedDocNo": "1086816179",
-            "approvedDate": "2020-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3ED49BC7-7C3C-4AB9-95E4-83CFAC347715",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "C07AG02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C07AG02"
         }
     ],

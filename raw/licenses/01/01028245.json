@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01028245",
-    "validDate": "2024-08-14 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-08-14 00:00:00.000",
     "issueDate": "1985-08-14 00:00:00.000",
+    "oriIssueDate": "1985-08-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102824506",
@@ -27,11 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7B8A4011-A113-477F-ADA5-49C00EF16D8E",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLYBURIDE (EQ TO GLIBENCLAMIDE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "衛達化學製藥股份有限公司",
     "applicantAddr": "台中市工業區２３路２１號",
@@ -45,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "905970E1-EBA2-4F7E-AC41-83E60149B8C8",
             "factoryCode": "1",
             "factoryName": "衛達化學製藥股份有限公司",
             "factoryAddr": "台中市工業區２３路２１號",
@@ -55,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "1605609300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820600700",
+            "ingredientsName": "GLYBURIDE (EQ TO GLIBENCLAMIDE)",
             "ingredientsDesc": "GLYBURIDE (EQ TO GLIBENCLAMIDE)",
             "concentDesc": null,
             "concent": "5.0000",
@@ -77,10 +89,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "A10BB01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "A10BB01"
         }
     ],

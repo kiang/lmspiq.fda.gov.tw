@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029173",
+    "licUnit": "1",
     "validDate": "2028-09-24 00:00:00.000",
     "issueDate": "1986-09-24 00:00:00.000",
+    "oriIssueDate": "1986-09-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102917302",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "852AFE31-FE41-4237-B885-3E3228603F37",
+    "subCategory": [],
     "ingredientsDesc": [
         "UREA",
         "HYDROCORTISONE ACETATE"
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D4798761-AA45-424C-8B38-A16AD508A498",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅廠",
             "factoryAddr": "台中市大甲區日南里工九路２７號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416001100",
+            "ingredientsName": "UREA",
             "ingredientsDesc": "UREA",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001120",
+            "ingredientsName": "HYDROCORTISONE ACETATE",
             "ingredientsDesc": "HYDROCORTISONE ACETATE",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -86,89 +98,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "727A2436-345A-4E29-8645-C923E92DA60B",
-            "approvedDocNo": "1110810512",
-            "approvedDate": "2022-10-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "99655447-58DB-4A3E-8CC2-56645D2628AF",
-            "approvedDocNo": "1110807854",
-            "approvedDate": "2022-06-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B2FEBBA5-5E59-485A-9538-64F89722856B",
-            "approvedDocNo": "1076808307",
-            "approvedDate": "2019-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AAFB45C5-0E1A-4946-864E-6FBEA93C65D4",
-            "approvedDocNo": "1076808307",
-            "approvedDate": "2019-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2AD168DB-8C41-4A77-B766-8F95092A6122",
-            "approvedDocNo": "1076808307",
-            "approvedDate": "2019-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5AB4C8BB-CD1B-4007-8482-C2D7E7A6E9AC",
-            "approvedDocNo": "1076808307",
-            "approvedDate": "2019-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "73F3E109-2491-41FB-B434-CDFEC7C0B9C1",
-            "approvedDocNo": "1076808307",
-            "approvedDate": "2019-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "888EA459-809F-4BE2-B1B4-14036488C97E",
-            "approvedDocNo": "1076808307",
-            "approvedDate": "2019-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C780F7BC-DDFB-4F0C-8ED6-23AD1942C062",
-            "approvedDocNo": "1076808307",
-            "approvedDate": "2019-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D02AE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AA02"
-        },
         {
             "isMain": "1",
             "atcCode": "D07XA01"

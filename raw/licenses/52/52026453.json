@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026453",
-    "validDate": "2024-11-24 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-11-24 00:00:00.000",
     "issueDate": "2014-11-24 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202645300",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DBD40B2D-B2B0-4511-9C35-CFB66F405127",
+    "subCategory": [],
     "ingredientsDesc": [
         "DESMOPRESSIN ACETATE TRIHYDRATE"
     ],
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CEF8CCEB-7166-42E4-9997-EEA0B8B45609",
             "factoryCode": "1",
             "factoryName": "Pharmascience  Inc.",
             "factoryAddr": "100 Boul de l’Industrie., Candiac, Quebec, Canada J5R 1J1",
@@ -52,9 +60,12 @@
             "factoryKind": "M",
             "factoryNo": "FCA0130000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "69C472C0-E750-4E09-92D0-43D298D45D91",
             "factoryCode": "2",
             "factoryName": "PHARMASCIENCE INC.",
             "factoryAddr": "6111 ROYALMOUNT AVENUE SUITE 100 MONTREAL, QUEBEC CANADA H4P 2T4",
@@ -70,16 +81,19 @@
             "factoryKind": "M",
             "factoryNo": "FCA0049000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6828000215",
+            "ingredientsName": "DESMOPRESSIN ACETATE TRIHYDRATE",
             "ingredientsDesc": "DESMOPRESSIN ACETATE TRIHYDRATE",
             "concentDesc": "",
-            "concent": "0.100",
+            "concent": "0.1000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,61 +102,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "168D3599-90F6-4A08-9C72-AE703090F6E3",
-            "approvedDocNo": "1110733015",
-            "approvedDate": "2023-04-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C0376010-4B0B-417D-93F9-16652AC5385F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4049BCE2-6967-4EE3-831F-A024B4400201",
-            "approvedDocNo": "1086805471",
-            "approvedDate": "2019-11-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B66889B8-0DED-4FDC-AF2B-2CCCA09B2D45",
-            "approvedDocNo": "1086805471",
-            "approvedDate": "2019-11-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CD1D76CE-CCA5-431D-9661-5BFFADE0C20D",
-            "approvedDocNo": "1086805471",
-            "approvedDate": "2019-11-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0740A6ED-795B-450F-801C-7A38AD79A4FA",
-            "approvedDocNo": "1086805471",
-            "approvedDate": "2019-11-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "H01BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "H01BA02"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023224",
+    "licUnit": "1",
     "validDate": "2026-07-05 00:00:00.000",
     "issueDate": "2001-07-05 00:00:00.000",
+    "oriIssueDate": "2001-07-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202322403",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7B490FFF-CD96-4B44-B4FB-11F34EC39DD6",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLUCOSE",
         "L-LEUCINE",
@@ -65,6 +72,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1A9CC680-9ED4-4903-9C0C-91579C306298",
             "factoryCode": "1",
             "factoryName": "Baxter S.A.",
             "factoryAddr": "Boulevard Rene Branquart 80, 7860 Lessines,Belgium",
@@ -75,9 +83,12 @@
             "factoryKind": "M",
             "factoryNo": "MBE0829000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3ECDD2E2-3289-4781-84D0-726304E94AED",
             "factoryCode": "2",
             "factoryName": "泉泰物流有限公司",
             "factoryAddr": "桃園市蘆竹區海湖里海山東街482號",
@@ -93,13 +104,16 @@
             "factoryKind": "M",
             "factoryNo": "6132051306",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101202",
+            "ingredientsName": "L-LEUCINE",
             "ingredientsDesc": "L-LEUCINE",
             "concentDesc": "",
             "concent": "4.0200",
@@ -111,6 +125,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101702",
+            "ingredientsName": "L-PHENYLALANINE",
             "ingredientsDesc": "L-PHENYLALANINE",
             "concentDesc": "",
             "concent": "3.0800",
@@ -122,6 +137,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101502",
+            "ingredientsName": "L-METHIONINE",
             "ingredientsDesc": "L-METHIONINE",
             "concentDesc": "",
             "concent": "2.2000",
@@ -133,6 +149,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101312",
+            "ingredientsName": "LYSINE L- HCL ( EQ TO L-LYSINE HCL)",
             "ingredientsDesc": "LYSINE L- HCL ( EQ TO L-LYSINE HCL)",
             "concentDesc": "",
             "concent": "4.0000",
@@ -144,6 +161,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101002",
+            "ingredientsName": "L-ISOLEUCINE",
             "ingredientsDesc": "L-ISOLEUCINE",
             "concentDesc": "",
             "concent": "3.3000",
@@ -155,6 +173,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102302",
+            "ingredientsName": "L-VALINE",
             "ingredientsDesc": "L-VALINE",
             "concentDesc": "",
             "concent": "3.1900",
@@ -166,6 +185,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100902",
+            "ingredientsName": "L-HISTIDINE",
             "ingredientsDesc": "L-HISTIDINE",
             "concentDesc": "",
             "concent": "2.6400",
@@ -177,6 +197,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102002",
+            "ingredientsName": "L-THREONINE",
             "ingredientsDesc": "L-THREONINE",
             "concentDesc": "",
             "concent": "2.3100",
@@ -188,6 +209,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102102",
+            "ingredientsName": "L-TRYPTOPHAN",
             "ingredientsDesc": "L-TRYPTOPHAN",
             "concentDesc": "",
             "concent": "0.9900",
@@ -199,6 +221,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100202",
+            "ingredientsName": "L-ALANINE",
             "ingredientsDesc": "L-ALANINE",
             "concentDesc": "",
             "concent": "11.3800",
@@ -210,6 +233,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100302",
+            "ingredientsName": "L-ARGININE",
             "ingredientsDesc": "L-ARGININE",
             "concentDesc": "",
             "concent": "6.3200",
@@ -221,6 +245,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102400",
+            "ingredientsName": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "ingredientsDesc": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "concentDesc": "",
             "concent": "5.6600",
@@ -232,6 +257,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101802",
+            "ingredientsName": "L-PROLINE",
             "ingredientsDesc": "L-PROLINE",
             "concentDesc": "",
             "concent": "3.7400",
@@ -243,6 +269,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101902",
+            "ingredientsName": "L-SERINE",
             "ingredientsDesc": "L-SERINE",
             "concentDesc": "",
             "concent": "2.7500",
@@ -254,6 +281,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102202",
+            "ingredientsName": "L-TYROSINE",
             "ingredientsDesc": "L-TYROSINE",
             "concentDesc": "",
             "concent": "0.2200",
@@ -265,6 +293,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000600",
+            "ingredientsName": "SODIUM ACETATE",
             "ingredientsDesc": "SODIUM ACETATE",
             "concentDesc": "",
             "concent": "4.3100",
@@ -276,6 +305,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612001900",
+            "ingredientsName": "POTASSIUM PHOSPHATE ( eq to POTASSIUM PHOSPHATE DIBASIC)",
             "ingredientsDesc": "POTASSIUM PHOSPHATE ( eq to POTASSIUM PHOSPHATE DIBASIC)",
             "concentDesc": "",
             "concent": "5.2200",
@@ -287,6 +317,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
             "concent": "2.2400",
@@ -298,6 +329,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": "",
             "concent": "1.0200",
@@ -309,6 +341,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000700",
+            "ingredientsName": "GLUCOSE",
             "ingredientsDesc": "GLUCOSE",
             "concentDesc": "",
             "concent": "150.0000",
@@ -320,6 +353,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": "",
             "concent": "0.6600",
@@ -331,104 +365,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AE66B5D7-B084-4BFE-9147-4486968D4A01",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E9525E01-1C4B-43DB-9842-C854902AD10C",
-            "approvedDocNo": "1086040593",
-            "approvedDate": "2020-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "11D9CC65-9C0C-4211-BCA5-AA147F30F4BD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F8A460A2-6113-4D68-A74D-846B2005BD1F",
-            "approvedDocNo": "1086003295",
-            "approvedDate": "2019-05-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "584510D7-5F79-4092-8BB0-610DD9EA0A0C",
-            "approvedDocNo": "1076035288",
-            "approvedDate": "2019-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6C2B750D-8AB5-4883-8104-6B6EB81B046E",
-            "approvedDocNo": "1076035288",
-            "approvedDate": "2019-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0F02E5A4-FBE4-4D0F-9B6C-71F87B95483F",
-            "approvedDocNo": "1076035288",
-            "approvedDate": "2019-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FE1087F8-5000-4CEC-AC0E-7E64A07C2B52",
-            "approvedDocNo": "1076035288",
-            "approvedDate": "2019-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7E107EA7-7D98-4AB2-8912-F30CCE65AA9E",
-            "approvedDocNo": "1076035288",
-            "approvedDate": "2019-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0F7C43D7-197D-416C-AB5F-EB06E540BA1E",
-            "approvedDocNo": "1076037591",
-            "approvedDate": "2019-01-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05BA01"
-        },
         {
             "isMain": "1",
             "atcCode": "B05BB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA03"
         }
     ],
     "licBaseId": "8D371B43-0EA2-447B-ABAC-320AE2A4ABC2"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01005332",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1974-12-17 00:00:00.000",
+    "oriIssueDate": "1974-12-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100533200",
@@ -31,6 +35,9 @@
     "medMCode": "17",
     "maMedCode": "X",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D8B76CA4-6B1F-49A5-84DF-1A0F1B384A43",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMMONIUM CHLORIDE",
         "PLATYCODON EXTRACT",
@@ -52,6 +59,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "52F5D101-56E4-4A42-8258-6874C644B9EA",
             "factoryCode": "1",
             "factoryName": "台灣陽生製藥工業股份有限公司",
             "factoryAddr": "屏東縣屏東市龍華路３８１號",
@@ -62,13 +70,16 @@
             "factoryKind": "M",
             "factoryNo": "1111823300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -80,6 +91,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4004000200",
+            "ingredientsName": "AMMONIUM CHLORIDE",
             "ingredientsDesc": "AMMONIUM CHLORIDE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -91,6 +103,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003601",
+            "ingredientsName": "PLATYCODON EXTRACT",
             "ingredientsDesc": "PLATYCODON EXTRACT",
             "concentDesc": "(LIQUID) ",
             "concent": "40.0000",
@@ -102,44 +115,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A38B9310-C2D2-4B81-958E-08FC034DBF86",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E140938F-DD6F-4550-86F6-8B53A5AA9B74",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "336CBEED-89BB-4EA6-95BF-8BCD3810057E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
         {
             "isMain": "1",
             "atcCode": "R05FA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA04"
         }
     ],
     "licBaseId": "E606FC7D-4821-44E8-A7CF-2E882E132A04"

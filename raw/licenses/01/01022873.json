@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01022873",
+    "licUnit": "1",
     "validDate": "2029-02-02 00:00:00.000",
     "issueDate": "1981-02-02 00:00:00.000",
+    "oriIssueDate": "1981-02-02",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHY00102287305",
@@ -16,17 +20,20 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "43"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "E525FAAB-47E3-4DEC-89C3-7E534D299DA7",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLONIDINE HCL (CLONIDINE HYDROCHLORIDE)"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0D0AA64A-3781-4E51-8822-D708E8A608FE",
             "factoryCode": "1",
             "factoryName": "永日化學工業股份有限公司台中幼獅廠",
             "factoryAddr": "台中市大甲區日南里幼獅路59、61號",
@@ -55,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "0500310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408000510",
+            "ingredientsName": "CLONIDINE HCL (CLONIDINE HYDROCHLORIDE)",
             "ingredientsDesc": "CLONIDINE HCL (CLONIDINE HYDROCHLORIDE)",
             "concentDesc": "98+",
             "concent": null,
@@ -73,60 +84,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9CB02CA2-B300-4BD9-AE92-440163A06928",
-            "approvedDocNo": "1120609311",
-            "approvedDate": "2023-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1E77DBBC-B651-47B1-AFD7-7E7FA600CA75",
-            "approvedDocNo": "1120609311",
-            "approvedDate": "2023-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "99DA089C-06E1-4DF5-BD2E-E7896681B2CF",
-            "approvedDocNo": "1120605214",
-            "approvedDate": "2023-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FAC0AF9A-440D-45DE-92D9-99C2AE3F4471",
-            "approvedDocNo": "1110017486",
-            "approvedDate": "2022-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E2DB0839-28A8-49CE-98A9-57A8A960FDAB",
-            "approvedDocNo": "1110017486",
-            "approvedDate": "2022-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01EA04"
-        },
         {
             "isMain": "1",
             "atcCode": "C02AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02CX02"
         }
     ],
     "licBaseId": "05EE876E-4086-49BE-B634-0F82A55DA731"

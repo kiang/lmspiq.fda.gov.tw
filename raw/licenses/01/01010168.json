@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01010168",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1976-06-14 00:00:00.000",
+    "oriIssueDate": "1976-06-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101016807",
@@ -16,17 +20,20 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9E29E16C-B591-42D4-B185-C00078B6315F",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEXAMETHASONE"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "71FA47E5-2397-4807-8731-1EBD6F4F63BB",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅廠",
             "factoryAddr": "台中市大甲區日南里工九路２７號",
@@ -55,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000600",
+            "ingredientsName": "DEXAMETHASONE",
             "ingredientsDesc": "DEXAMETHASONE",
             "concentDesc": "0.75",
             "concent": "0.7500",
@@ -73,23 +84,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BFECBFC9-2AAC-4739-8928-7CD415B46079",
-            "approvedDocNo": "1110813378",
-            "approvedDate": "2023-01-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "H02AB02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "H02AB02"
         }
     ],

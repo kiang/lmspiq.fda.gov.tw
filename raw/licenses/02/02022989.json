@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022989",
+    "licUnit": "1",
     "validDate": "2025-09-04 00:00:00.000",
     "issueDate": "2000-09-04 00:00:00.000",
+    "oriIssueDate": "2000-09-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202298902",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "11C5AF17-0331-4E23-97A8-8E5D1E23EBC5",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
         "LOSARTAN POTASSIUM"
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5682C303-E637-4F0F-A9D4-5BB16137E1CF",
             "factoryCode": "1",
             "factoryName": "Organon Pharma (UK) Limited",
             "factoryAddr": "SHOTTON LANE, CRAMLINGTON, NORTHUMBERLAND, NE23 3JU, UNITED KINDOM",
@@ -53,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FGB0070000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "85ACF3EB-3429-425F-BBE4-EF6FD0ADF50A",
             "factoryCode": "2",
             "factoryName": "聯亞藥業股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉中興村光復北路45號 (進口半成品-裸錠大桶裝 (LOSARTAN\/HCTZ 50\/12.5MG BULK) 於國內進行分裝及包裝作業)",
@@ -71,13 +82,16 @@
             "factoryKind": "M",
             "factoryNo": "6133061495",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005210",
+            "ingredientsName": "LOSARTAN POTASSIUM",
             "ingredientsDesc": "LOSARTAN POTASSIUM",
             "concentDesc": null,
             "concent": "50.0000",
@@ -89,6 +103,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": null,
             "concent": "12.5000",
@@ -100,100 +115,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1AB29469-7AB6-457D-8CE7-3B2959B98241",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-03-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C24EC40-94EC-4FC2-84FC-498F8E9B3BD1",
-            "approvedDocNo": "1119030014",
-            "approvedDate": "2022-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DEC3EF23-24AE-4BC9-A3CC-E4955061F86A",
-            "approvedDocNo": "1119017977",
-            "approvedDate": "2022-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "71417E59-6921-45D2-B8A7-659DC24DE333",
-            "approvedDocNo": "1109500261",
-            "approvedDate": "2022-03-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "62F231EC-1623-4DA1-A765-BEB2C3A93731",
-            "approvedDocNo": "1101500234",
-            "approvedDate": "2022-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "60E2B184-4945-493E-846B-1EF04A45A8B1",
-            "approvedDocNo": "1101500263",
-            "approvedDate": "2022-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F02D6594-BC9D-411C-89F3-D2E92D677F21",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E05B0D18-0F7D-43E2-A7CB-50996BE3875A",
-            "approvedDocNo": "1086031514",
-            "approvedDate": "2020-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E4925AC4-EE85-4C9A-B3F7-ECD9830B6305",
-            "approvedDocNo": "1086009975",
-            "approvedDate": "2019-08-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A3D85E96-EF2A-4593-A0E7-A81A92884796",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C09DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09CA01"
         }
     ],
     "licBaseId": "1732D979-E10A-48DB-914C-48356E4AE171"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "22000005",
+    "licUnit": "1",
     "validDate": "2029-04-26 00:00:00.000",
     "issueDate": "2004-04-26 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA02200000508",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DB9C23CF-5DF3-4370-89D7-BC8435FC8F13",
+    "subCategory": [],
     "ingredientsDesc": [
         "AGALSIDASE BETA"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "49B72F78-623D-4A3A-A993-8775FA9B1467",
             "factoryCode": "1",
             "factoryName": "GENZYME IRELAND LIMITED",
             "factoryAddr": "IDA INDUSTRIAL PARK, OLD KILMEADEN ROAD, WATERFORD, IRELAND",
@@ -60,9 +68,54 @@
             "factoryKind": "M",
             "factoryNo": "FIE0035000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "FE452244-D7BC-4E03-8307-460670E47E77",
+            "factoryCode": "2",
+            "factoryName": "台灣大昌華嘉股份有限公司高上倉",
+            "factoryAddr": "桃園市楊梅區高上路1段150號",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "3Q",
+                    "name": "二級包裝廠(置入仿單)"
+                }
+            ],
+            "processCodeStr": "3Q;二級包裝廠(置入仿單)",
+            "factoryKind": "M",
+            "factoryNo": "6132041444",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "49036A1B-26BD-481F-BFEE-F3129934CDCB",
+            "factoryCode": "2",
+            "factoryName": "台灣大昌華嘉股份有限公司",
+            "factoryAddr": "桃園市楊梅區瑞坪里梅獅路二段６２９號",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "3Q",
+                    "name": "二級包裝廠(置入仿單)"
+                }
+            ],
+            "processCodeStr": "3Q;二級包裝廠(置入仿單)",
+            "factoryKind": "M",
+            "factoryNo": "7770824858",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "59D78C06-9183-4FB7-821A-743AE6DCF33D",
             "factoryCode": "2",
             "factoryName": "Genzyme Corporation",
             "factoryAddr": "11 Forbes Road, Northborough, MA 01532, USA",
@@ -78,9 +131,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0788000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2AE4C3B2-4806-44B8-88F2-8C57E3133A7D",
             "factoryCode": "2",
             "factoryName": "Genzyme Corporation",
             "factoryAddr": "8 New York Avenue, Framingham, MA, 01701, USA",
@@ -96,16 +152,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS1218000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200096800",
+            "ingredientsName": "AGALSIDASE BETA",
             "ingredientsDesc": "AGALSIDASE BETA",
             "concentDesc": "",
-            "concent": "35.000",
+            "concent": "35.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -114,24 +173,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8F5C27FB-22E1-424F-B1B8-910B17DFEBE3",
-            "approvedDocNo": "1101497576",
-            "approvedDate": "2022-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "551E05E8-6672-41F1-8155-C7EE1C61AE7B",
-            "approvedDocNo": "1101497574",
-            "approvedDate": "2022-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

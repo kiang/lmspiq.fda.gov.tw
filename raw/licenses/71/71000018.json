@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "71000018",
+    "licUnit": "1",
     "validDate": "2027-11-30 00:00:00.000",
     "issueDate": "2017-11-30 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY07100001806",
@@ -27,6 +31,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "04E9D4A6-96FC-436F-95F1-C26E86DB067E",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "SAPROPTERIN DIHYDROCHLORIDE"
     ],
@@ -47,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1FFF5C26-7D62-486C-9E1A-E1B4F20A5CBC",
             "factoryCode": "1",
             "factoryName": "五洲製藥股份有限公司",
             "factoryAddr": "桃園市新屋區赤欄里17之1號",
@@ -57,16 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "0413004300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200093610",
+            "ingredientsName": "SAPROPTERIN DIHYDROCHLORIDE",
             "ingredientsDesc": "SAPROPTERIN DIHYDROCHLORIDE",
             "concentDesc": "(eq. to tetrahydrobiopterin dihydrochloride)",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -83,48 +96,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8963D199-EAF7-401B-BC5F-4A1FC29E3A17",
-            "approvedDocNo": "1120720216",
-            "approvedDate": "2023-10-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C5DCFD6-0352-4002-A9AF-7F606229B3C7",
-            "approvedDocNo": "1110715889",
-            "approvedDate": "2023-01-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BC35043F-3F59-470A-843E-AE991AD6BBE1",
-            "approvedDocNo": "1086039763",
-            "approvedDate": "2020-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8186F78A-83FC-44E6-9E4E-B9086B636451",
-            "approvedDocNo": "1086039763",
-            "approvedDate": "2020-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BC7524E1-1E1F-4866-9C7C-3B53870D4BA2",
-            "approvedDocNo": "1086039763",
-            "approvedDate": "2020-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

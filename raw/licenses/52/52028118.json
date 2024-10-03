@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028118",
+    "licUnit": "1",
     "validDate": "2026-07-02 00:00:00.000",
     "issueDate": "2021-07-02 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202811809",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "35FB0823-3D3A-4092-9B16-C9AC1303C9F8",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "BUDESONIDE",
         "FORMOTEROL FUMARATE DIHYDRATE"
@@ -31,8 +40,8 @@
         "02",
         "24"
     ],
-    "applicantName": "新加坡商美納里尼醫藥有限公司台灣分公司",
-    "applicantAddr": "臺北市中山區民生東路3段2號9樓之2",
+    "applicantName": "健喬信元醫藥生技股份有限公司",
+    "applicantAddr": "新竹縣湖口鄉工業一路6號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "31F9AE6F-3FE2-4CFE-B834-4965FC157C7F",
             "factoryCode": "1",
             "factoryName": "ORION CORPORATION ORION PHARMA ESPOO PLANT",
             "factoryAddr": "ORIONINTIE 1, SF-02200 ESPOO, FINLAND",
@@ -53,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "FFI0009000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406002100",
+            "ingredientsName": "BUDESONIDE",
             "ingredientsDesc": "BUDESONIDE",
             "concentDesc": "",
-            "concent": "320.000",
+            "concent": "320.0000",
             "concentUnit": "355",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216003030",
+            "ingredientsName": "FORMOTEROL FUMARATE DIHYDRATE",
             "ingredientsDesc": "FORMOTEROL FUMARATE DIHYDRATE",
             "concentDesc": "",
-            "concent": "9.000",
+            "concent": "9.0000",
             "concentUnit": "355",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,28 +96,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "114FB3E7-5950-410B-BEAE-1D8602F1B8FE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R03AK07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03AC13"
         }
     ],
     "licBaseId": "ABA351FE-30DD-4244-A982-B200CD29EB41"

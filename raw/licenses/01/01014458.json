@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01014458",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1978-03-13 00:00:00.000",
+    "oriIssueDate": "1978-03-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101445800",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D09AEC80-BBBE-4B28-B9EE-161AE5B09421",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIBOFLAVIN (VIT B2)",
         "BIOTIN",
@@ -33,9 +40,7 @@
         "CHLORPHENIRAMINE MALEATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G"
+        "1R"
     ],
     "applicantName": "賜利優醫藥生技有限公司",
     "applicantAddr": "彰化縣彰化市茄苳里茄苳路二段251巷臨115-1號1樓",
@@ -49,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "58BD8F77-89E6-461A-8484-4150B118E690",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
@@ -59,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
             "concent": "5.0000",
@@ -77,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "",
             "concent": "5.0000",
@@ -88,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "",
             "concent": "5.0000",
@@ -99,6 +110,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000100",
+            "ingredientsName": "BIOTIN",
             "ingredientsDesc": "BIOTIN",
             "concentDesc": "",
             "concent": "0.2500",
@@ -110,6 +122,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000300",
+            "ingredientsName": "NIACINAMIDE (NICOTINAMIDE)",
             "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
             "concentDesc": "",
             "concent": "10.0000",
@@ -121,6 +134,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300200",
+            "ingredientsName": "PANTOTHENATE CALCIUM",
             "ingredientsDesc": "PANTOTHENATE CALCIUM",
             "concentDesc": "",
             "concent": "20.0000",
@@ -132,6 +146,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004602",
+            "ingredientsName": "GLYCYRRHIZIN",
             "ingredientsDesc": "GLYCYRRHIZIN",
             "concentDesc": "",
             "concent": "12.5000",
@@ -143,56 +158,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3B9400CF-3DEC-420F-A38F-794ACDF5C1AD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B919DCB7-520D-4A12-B9F8-9DA79D33296F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-08-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R06AB54"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA31"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
         }
     ],
     "licBaseId": "E72EBAE4-DEE4-4116-BDF7-7DABFFE747FD"

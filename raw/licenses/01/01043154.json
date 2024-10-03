@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043154",
-    "validDate": "2024-08-10 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-08-10 00:00:00.000",
     "issueDate": "1999-08-10 00:00:00.000",
+    "oriIssueDate": "1999-08-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104315403",
@@ -16,13 +20,16 @@
     "does": "1121",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "58"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E31654D1-7249-4C30-B67B-11C250AAB194",
+    "subCategory": [],
     "ingredientsDesc": [
         "NAPROXEN"
     ],
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0ED8169A-6998-4EDD-B1AF-020F7A10E232",
             "factoryCode": "1",
             "factoryName": "約克製藥股份有限公司",
             "factoryAddr": "雲林縣斗六市榴中里復興路3號",
@@ -53,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "6239016049",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808402000",
+            "ingredientsName": "NAPROXEN",
             "ingredientsDesc": "NAPROXEN",
             "concentDesc": "750",
             "concent": "750.0000",
@@ -71,48 +82,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E108B356-A1C5-4AB3-81B8-19EEA7352817",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AA7296E7-A9FF-4B56-B5E3-2F2C6CB996DA",
-            "approvedDocNo": "1076806335",
-            "approvedDate": "2019-02-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B3FEF7C3-38BD-4C1E-8F61-7243E76D0117",
-            "approvedDocNo": "1076806335",
-            "approvedDate": "2019-02-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "82B95E17-AFF4-4048-827D-A1DE9E058579",
-            "approvedDocNo": "1076806335",
-            "approvedDate": "2019-02-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9ED207B8-3640-4285-8ADA-D6A09CB4EC1C",
-            "approvedDocNo": "1076806335",
-            "approvedDate": "2019-02-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

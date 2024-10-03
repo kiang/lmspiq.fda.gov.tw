@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01028802",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1986-05-21 00:00:00.000",
+    "oriIssueDate": "1986-05-21",
     "licKind": "02",
     "oldLicid": "01004292",
     "certNo": "DHY00102880202",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "13215E75-2E79-4D4D-AD03-77F49E8FE481",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEXAMETHASONE",
         "CROTAMITON"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9FE82973-4C41-4D28-8115-98C4B5FD4BDE",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅廠",
             "factoryAddr": "台中市大甲區日南里工九路２７號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000600",
+            "ingredientsName": "DEXAMETHASONE",
             "ingredientsDesc": "DEXAMETHASONE",
             "concentDesc": "0.25",
             "concent": "0.2500",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404200200",
+            "ingredientsName": "CROTAMITON",
             "ingredientsDesc": "CROTAMITON",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -85,68 +97,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A1C93504-0405-441C-B766-A23EF29E5662",
-            "approvedDocNo": "1110812704",
-            "approvedDate": "2023-03-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0C7A7788-8607-4602-8DA6-730BEFBEDB15",
-            "approvedDocNo": "1110810508",
-            "approvedDate": "2022-11-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E8752B37-A468-4837-8DE9-736A5AB10A36",
-            "approvedDocNo": "1076806445",
-            "approvedDate": "2019-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "07E6BF01-5AB5-4138-B816-7B6173D4CB7E",
-            "approvedDocNo": "1076806445",
-            "approvedDate": "2019-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "78F727C0-E068-49D3-851D-A79CEF70E2BC",
-            "approvedDocNo": "1076806445",
-            "approvedDate": "2019-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5CEA7DD6-1C44-45FB-95AF-D4EAE8C1E638",
-            "approvedDocNo": "1076806445",
-            "approvedDate": "2019-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D04AX"
-        },
         {
             "isMain": "1",
             "atcCode": "D07XB05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AB19"
         }
     ],
     "licBaseId": "CF5CF328-B4DC-45C1-AD9A-7F23987D3899"

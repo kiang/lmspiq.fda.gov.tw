@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022938",
+    "licUnit": "1",
     "validDate": "2025-07-07 00:00:00.000",
     "issueDate": "2000-07-07 00:00:00.000",
+    "oriIssueDate": "2000-07-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202293801",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F7EAB0EC-4527-45CB-A458-D71F300DA5AC",
+    "subCategory": [],
     "ingredientsDesc": [
         "BETAMETHASONE DIPROPIONATE",
         "GENTAMICIN (AS SULFATE)"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DC4C963F-ECCA-4E9A-9489-1A16ECC1BFCE",
             "factoryCode": "1",
             "factoryName": "PT. Organon Pharma Indonesia Tbk.",
             "factoryAddr": "JI. RAYA PANDAAN KM. 48, PANDAAN, PASURUAN,JAWA TIMUR , INDONESIA",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "FID0002000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000220",
+            "ingredientsName": "BETAMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BETAMETHASONE DIPROPIONATE",
             "concentDesc": null,
             "concent": "0.6400",
@@ -70,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": null,
             "concent": "1.0000",
@@ -81,76 +93,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "295A7989-2E44-4DF5-8705-8C6386FA6BEC",
-            "approvedDocNo": "1129030017",
-            "approvedDate": "2023-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FCE78F70-59B2-4B7D-82F8-30E401E9CB14",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-03-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "62A54271-DBA7-4524-9C60-CA354499424D",
-            "approvedDocNo": "1110721697",
-            "approvedDate": "2023-02-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F57A053-8AFF-41AF-9E77-4F21216BE16A",
-            "approvedDocNo": "1119029252",
-            "approvedDate": "2022-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BD6668E8-06A5-4A88-B4BE-D0FEBEF22390",
-            "approvedDocNo": "1119029253",
-            "approvedDate": "2022-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "440815E9-AF18-4B2C-89EB-E185D7EC1B14",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0ADE8D4B-8366-45F9-93F4-AC75B7AE130A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D07CC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX07"
         }
     ],
     "licBaseId": "F32FAD58-1C83-4E1B-A780-BADD5B2A0800"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058573",
-    "validDate": "2024-12-24 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-24 00:00:00.000",
     "issueDate": "2014-12-24 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105857308",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8F9BAD3C-ADEB-49C3-BB32-AACB14106CC3",
+    "subCategory": [],
     "ingredientsDesc": [
         "INDAPAMIDE",
         "PERINDOPRIL TERT-BUTYLAMINE"
     ],
     "restraintItemsCode": [
         "01",
+        "1R",
         "24",
         "61"
     ],
@@ -44,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CF0395C0-C9BF-4C4A-8ED5-3BD263BFD40F",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業一路６號",
@@ -54,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408004712",
+            "ingredientsName": "PERINDOPRIL TERT-BUTYLAMINE",
             "ingredientsDesc": "PERINDOPRIL TERT-BUTYLAMINE",
             "concentDesc": "(equiv. to Perindopril 3.338mg)",
-            "concent": "4.000",
+            "concent": "4.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028001000",
+            "ingredientsName": "INDAPAMIDE",
             "ingredientsDesc": "INDAPAMIDE",
             "concentDesc": "",
-            "concent": "1.250",
+            "concent": "1.2500",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,36 +96,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "82B2D63A-C0D2-4BB6-8AE4-AF888A53A3BF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "06D0A9E8-FF52-45B9-B4E3-B790CD2292A8",
-            "approvedDocNo": "1086808555",
-            "approvedDate": "2019-07-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C09AA04"
-        },
         {
             "isMain": "1",
             "atcCode": "C09BA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03BA11"
         }
     ],
     "licBaseId": "89F251D6-0BB1-4031-A481-C4F137E5AD5F"

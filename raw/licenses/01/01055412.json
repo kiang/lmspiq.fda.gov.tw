@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055412",
+    "licUnit": "1",
     "validDate": "2025-10-07 00:00:00.000",
     "issueDate": "2010-10-07 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105541202",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "0C437769-35AF-4472-85C1-FE4578B94A50",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "AMYLASE",
         "PROTEASE",
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6A43E637-6AA1-441A-8636-30979F2C66E5",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅廠",
             "factoryAddr": "台中市大甲區日南里工九路27號",
@@ -55,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616001300",
+            "ingredientsName": "PANCRELIPASE",
             "ingredientsDesc": "PANCRELIPASE",
             "concentDesc": "",
             "concent": null,
@@ -73,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616000900",
+            "ingredientsName": "LIPASE",
             "ingredientsDesc": "LIPASE",
             "concentDesc": "",
             "concent": "10000.0000",
@@ -84,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400000100",
+            "ingredientsName": "AMYLASE",
             "ingredientsDesc": "AMYLASE",
             "concentDesc": "",
             "concent": "33200.0000",
@@ -95,6 +110,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400007700",
+            "ingredientsName": "PROTEASE",
             "ingredientsDesc": "PROTEASE",
             "concentDesc": "",
             "concent": "37500.0000",
@@ -106,21 +122,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5D624849-19F1-428B-B9B9-3A8D54518F5B",
-            "approvedDocNo": "1110807849",
-            "approvedDate": "2022-07-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A09AA02"
-        },
         {
             "isMain": "1",
             "atcCode": "A09AA02"

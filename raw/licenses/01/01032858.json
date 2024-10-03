@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01032858",
+    "licUnit": "1",
     "validDate": "2025-08-03 00:00:00.000",
     "issueDate": "1990-08-03 00:00:00.000",
+    "oriIssueDate": "1990-08-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103285802",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6E052B06-D3E5-4606-8D63-589EDD6586C7",
+    "subCategory": [],
     "ingredientsDesc": [
         "BENZOCAINE (ETHYL AMINOBENZOATE)",
         "MAGNESIUM ALUMINUM METASILICATE (NEUSILIN)",
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FA04AA91-DF33-49F2-B772-CC2A46570E0A",
             "factoryCode": "1",
             "factoryName": "佐藤製藥股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉湖南村十鄰光復北路７號",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "0710606300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000200",
+            "ingredientsName": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "ingredientsDesc": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100912",
+            "ingredientsName": "HISTIDINE L- HCL (EQ TO L-HISTIDINE HYDROCHLORIDE)",
             "ingredientsDesc": "HISTIDINE L- HCL (EQ TO L-HISTIDINE HYDROCHLORIDE)",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -87,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000202",
+            "ingredientsName": "ALUMINUM HYDROXIDE DRIED GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE DRIED GEL",
             "concentDesc": "50",
             "concent": "50.0000",
@@ -98,6 +111,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604001200",
+            "ingredientsName": "CALCIUM CARBONATE",
             "ingredientsDesc": "CALCIUM CARBONATE",
             "concentDesc": "(PPT) 20",
             "concent": null,
@@ -109,6 +123,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416000640",
+            "ingredientsName": "CHLOROPHYLL SODIUM COPPER",
             "ingredientsDesc": "CHLOROPHYLL SODIUM COPPER",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -120,6 +135,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000501",
+            "ingredientsName": "MAGNESIUM ALUMINUM METASILICATE (NEUSILIN)",
             "ingredientsDesc": "MAGNESIUM ALUMINUM METASILICATE (NEUSILIN)",
             "concentDesc": "150",
             "concent": "150.0000",
@@ -131,6 +147,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208004502",
+            "ingredientsName": "SCOPOLIA EXTRACT",
             "ingredientsDesc": "SCOPOLIA EXTRACT",
             "concentDesc": "3",
             "concent": "3.0000",
@@ -142,6 +159,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -153,84 +171,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AE915681-73FE-442C-B1AB-79207B9A6DCC",
-            "approvedDocNo": "1106001485",
-            "approvedDate": "2021-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "84495680-23FF-4407-A318-7DABC1F7D006",
-            "approvedDocNo": "1096807041",
-            "approvedDate": "2020-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF6CB2A0-6E47-43BA-8CA9-E30F79408CCE",
-            "approvedDocNo": "1086009061",
-            "approvedDate": "2019-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6587CACA-19D9-4083-A0F4-5DC58067466B",
-            "approvedDocNo": "1086019864",
-            "approvedDate": "2019-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F80133A-BBFF-47CB-B589-95F55D170D7A",
-            "approvedDocNo": "1086019864",
-            "approvedDate": "2019-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
         {
             "isMain": "1",
             "atcCode": "A02X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V06DD"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AD05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N01BA05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AH"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AC01"
         }
     ],
     "licBaseId": "71725C12-3229-4846-99E3-BFA08AA5AB35"

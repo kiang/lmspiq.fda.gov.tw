@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12000050",
+    "licUnit": "1",
     "validDate": "2029-06-30 00:00:00.000",
     "issueDate": "1969-05-30 00:00:00.000",
+    "oriIssueDate": "1969-05-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01200005008",
@@ -31,6 +35,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "18F8A8FF-71CD-4104-AF8D-AC20E38ED26E",
+    "subCategory": [],
     "ingredientsDesc": [
         "QUININE ETHYLCARBONATE",
         "CAFFEINE",
@@ -56,6 +63,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F10E7824-9EC8-429A-A630-2E82599DD25F",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅廠",
             "factoryAddr": "台中市大甲區日南里工九路２７號",
@@ -66,16 +74,19 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "150",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -84,9 +95,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0820000620",
+            "ingredientsName": "QUININE ETHYLCARBONATE",
             "ingredientsDesc": "QUININE ETHYLCARBONATE",
             "concentDesc": "40",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -95,9 +107,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "3",
-            "concent": "3.000",
+            "concent": "3.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -106,9 +119,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": "2",
-            "concent": "2.000",
+            "concent": "2.0000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -117,9 +131,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "8",
-            "concent": "8.000",
+            "concent": "8.0000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -128,9 +143,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "1",
-            "concent": "1.000",
+            "concent": "1.0000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -139,9 +155,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101001",
+            "ingredientsName": "THIAMINE MONONITRATE",
             "ingredientsDesc": "THIAMINE MONONITRATE",
             "concentDesc": "2",
-            "concent": "2.000",
+            "concent": "2.0000",
             "concentUnit": "001",
             "seq": "7",
             "prescription_seq": "1",
@@ -153,36 +170,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
         }
     ],
     "licBaseId": "59A9279F-97B7-47F5-91D3-FE052EC1AEC4"

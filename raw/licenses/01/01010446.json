@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01010446",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1976-07-31 00:00:00.000",
+    "oriIssueDate": "1976-07-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101044609",
@@ -27,11 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C3DD6E89-66EF-4776-8911-5B0A3C428E7F",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM 1,4-DIMETHYL-7-ISOPROPYLAZULENE-3-SULFONATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "68"
     ],
     "applicantName": "華興化學製藥廠股份有限公司",
     "applicantAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -45,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3CC9CC5E-4FB9-4A96-8F5C-39CB52B98DCD",
             "factoryCode": "1",
             "factoryName": "華興化學製藥廠股份有限公司",
             "factoryAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -55,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "1203612300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9901048400",
+            "ingredientsName": "SODIUM 1,4-DIMETHYL-7-ISOPROPYLAZULENE-3-SULFONATE",
             "ingredientsDesc": "SODIUM 1,4-DIMETHYL-7-ISOPROPYLAZULENE-3-SULFONATE",
             "concentDesc": "",
             "concent": "2.0000",
@@ -73,40 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8BDD78D6-2D00-4C2B-B458-B2C8EFAE4BB2",
-            "approvedDocNo": "1110017857",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "073A8197-9888-49EA-AC3F-8B7C3B26DF1C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B98F3BFC-9BBB-4ED0-A62E-809766781A60",
-            "approvedDocNo": "1100032643",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CB0365E5-233C-4815-BA44-5E8177F8E4C2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

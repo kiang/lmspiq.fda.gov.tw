@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2024-01-11",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "02025067",
+    "licUnit": "1",
     "validDate": "2024-08-06 00:00:00.000",
     "issueDate": "2009-08-06 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202506700",
@@ -25,6 +29,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DBBB3FF5-7283-447C-B1F3-DCC14013A644",
+    "subCategory": [],
     "ingredientsDesc": [
         "RITONAVIR",
         "LOPINAVIR"
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E8FC593F-A194-4EDC-9194-42324F58F95F",
             "factoryCode": "1",
             "factoryName": "ABBVIE DEUTSCHLAND GMBH & CO. KG",
             "factoryAddr": "KNOLLSTRASSE 67061 LUDWIGSHAFEN GERMANY",
@@ -54,9 +62,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0280000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "77746BEA-7BB5-4EE2-8F27-060761284FFE",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -72,13 +83,16 @@
             "factoryKind": "M",
             "factoryNo": "1225204000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818002100",
+            "ingredientsName": "LOPINAVIR",
             "ingredientsDesc": "LOPINAVIR",
             "concentDesc": "",
             "concent": "100.0000",
@@ -90,6 +104,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818001100",
+            "ingredientsName": "RITONAVIR",
             "ingredientsDesc": "RITONAVIR",
             "concentDesc": "",
             "concent": "25.0000",
@@ -101,67 +116,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5B6365D0-A6B8-4229-ACF1-C944E5DC102A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "729FEB4D-2FD6-4DBB-9506-73CEE7097EE4",
-            "approvedDocNo": "1106010339",
-            "approvedDate": "2021-05-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "43113694-B5EE-4E75-8E42-88AF0E4886B6",
-            "approvedDocNo": "1096027251",
-            "approvedDate": "2021-02-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9109357A-D217-4519-824E-8A2666DECE35",
-            "approvedDocNo": "1086030047",
-            "approvedDate": "2020-04-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "77E1CB46-6BE3-4F23-98F9-0128AE90183E",
-            "approvedDocNo": "1086006340",
-            "approvedDate": "2019-06-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "67730C5E-F549-45B2-BFE0-937BC0861F71",
-            "approvedDocNo": "1076041934",
-            "approvedDate": "2019-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J05AR10"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AE03"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J05AR10"
         }
     ],

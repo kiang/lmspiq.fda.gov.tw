@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02017867",
+    "licUnit": "1",
     "validDate": "2025-04-04 00:00:00.000",
     "issueDate": "1990-04-04 00:00:00.000",
+    "oriIssueDate": "1990-04-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201786707",
@@ -16,13 +20,16 @@
     "does": "2272",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2A73BF30-05FB-466E-8775-AE158A4A60E9",
+    "subCategory": [],
     "ingredientsDesc": [
         "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
         "DEXTROSE (MONOHYDRATE)",
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "01B5D936-358C-4581-93E1-6CCC68DA30D6",
             "factoryCode": "1",
             "factoryName": "FRESENIUS MEDICAL CARE DEUTSCHLAND GMBH",
             "factoryAddr": "FRANKFURTER STR. 6-8 66606 ST. WENDEL GERMANYD-61346 BAD HOMBURG GERMANY",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0244000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "5.786",
             "concent": "5.7860",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000980",
+            "ingredientsName": "SODIUM LACTATE SOLUTION",
             "ingredientsDesc": "SODIUM LACTATE SOLUTION",
             "concentDesc": "7.847",
             "concent": "7.8470",
@@ -85,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": "0.2573",
             "concent": "0.2570",
@@ -96,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": "0.1017",
             "concent": "0.1020",
@@ -107,6 +121,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020009570",
+            "ingredientsName": "DEXTROSE (MONOHYDRATE)",
             "ingredientsDesc": "DEXTROSE (MONOHYDRATE)",
             "concentDesc": "(15.00G) 16.50",
             "concent": "0.0000",
@@ -118,31 +133,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F8E52F4C-499F-4ACF-B124-75DE2441E2CD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "16C4EE50-E655-4223-97FB-D69E68C22843",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "B05D"
-        },
-        {
-            "isMain": "2",
             "atcCode": "B05D"
         }
     ],

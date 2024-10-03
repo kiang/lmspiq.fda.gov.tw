@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01045579",
+    "licUnit": "1",
     "validDate": "2028-06-03 00:00:00.000",
     "issueDate": "2003-06-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104557906",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3FDAE04C-5394-44D4-9E16-4017E67782E8",
+    "subCategory": [],
     "ingredientsDesc": [
         "TOCOPHEROL ACETATE",
         "LIDOCAINE",
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9C60646B-3B13-40D5-B5DD-8F355D2F1515",
             "factoryCode": "1",
             "factoryName": "佐藤製藥股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉湖南村十鄰光復北路７號",
@@ -55,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "0710606300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900211",
+            "ingredientsName": "CHLORHEXIDINE HCL",
             "ingredientsDesc": "CHLORHEXIDINE HCL",
             "concentDesc": null,
             "concent": "2.0000",
@@ -73,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001510",
+            "ingredientsName": "PREDNISOLONE ACETATE",
             "ingredientsDesc": "PREDNISOLONE ACETATE",
             "concentDesc": null,
             "concent": "0.5000",
@@ -84,6 +96,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001000",
+            "ingredientsName": "LIDOCAINE",
             "ingredientsDesc": "LIDOCAINE",
             "concentDesc": null,
             "concent": "30.0000",
@@ -95,6 +108,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416000200",
+            "ingredientsName": "ALUMINUM CHLORHYDROXYALLANTOINATE (ALCOXA)",
             "ingredientsDesc": "ALUMINUM CHLORHYDROXYALLANTOINATE (ALCOXA)",
             "concentDesc": null,
             "concent": "2.5000",
@@ -106,6 +120,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000200",
+            "ingredientsName": "TOCOPHEROL ACETATE",
             "ingredientsDesc": "TOCOPHEROL ACETATE",
             "concentDesc": null,
             "concent": "10.0000",
@@ -117,83 +132,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6C901742-E698-489D-9947-6EEEBD13394B",
-            "approvedDocNo": "1110613397",
-            "approvedDate": "2023-02-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B38FE093-A5BF-4015-AC87-18D673EAE9FE",
-            "approvedDocNo": "1110015318",
-            "approvedDate": "2022-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B0D4B543-A0A4-4AE5-B62E-CB702A1DA85D",
-            "approvedDocNo": "1106011905",
-            "approvedDate": "2021-08-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FB476368-9127-4280-84CD-A898677187FD",
-            "approvedDocNo": "1106009678",
-            "approvedDate": "2021-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "130619DD-E8FA-499B-90EA-B9E591C20DB3",
-            "approvedDocNo": "1106009678",
-            "approvedDate": "2021-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F6A69EF3-3D18-46B9-B54A-BE2704A834CD",
-            "approvedDocNo": "1106009678",
-            "approvedDate": "2021-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8FAEABC3-6594-4696-8206-137E4664A2B1",
-            "approvedDocNo": "1106009678",
-            "approvedDate": "2021-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "C05AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AX01"
-        },
-        {
             "isMain": "1",
-            "atcCode": "C05AA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AD01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C05AA04"
         }
     ],

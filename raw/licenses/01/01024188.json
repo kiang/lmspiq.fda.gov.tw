@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01024188",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1981-10-02 00:00:00.000",
+    "oriIssueDate": "1981-10-02",
     "licKind": "02",
     "oldLicid": "01006234",
     "certNo": "DHY00102418800",
@@ -16,11 +20,11 @@
     "does": "3363",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "88"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "92"
         },
         {
@@ -31,6 +35,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4599FE1C-C3CA-4F20-8C57-2DC8E694BFB5",
+    "subCategory": [],
     "ingredientsDesc": [
         "VITAMIN A",
         "VITAMIN D",
@@ -52,6 +59,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4E3EEB1F-93A9-4D17-AEEE-8B388072965F",
             "factoryCode": "1",
             "factoryName": "永信藥品工業股份有限公司台中幼獅廠",
             "factoryAddr": "台中市大甲區日南里工九路２７號",
@@ -62,13 +70,16 @@
             "factoryKind": "M",
             "factoryNo": "0502110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8804000100",
+            "ingredientsName": "VITAMIN A",
             "ingredientsDesc": "VITAMIN A",
             "concentDesc": "2,000",
             "concent": null,
@@ -80,6 +91,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8818000000",
+            "ingredientsName": "VITAMIN D",
             "ingredientsDesc": "VITAMIN D",
             "concentDesc": "500",
             "concent": "500.0000",
@@ -91,6 +103,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000110",
+            "ingredientsName": "TOCOPHEROL ALPHA-",
             "ingredientsDesc": "TOCOPHEROL ALPHA-",
             "concentDesc": "0.2",
             "concent": "0.2000",
@@ -102,71 +115,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DF9DE079-3491-43F4-8C56-3C556E088D1B",
-            "approvedDocNo": "1120807444",
-            "approvedDate": "2023-06-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D5AE2B0A-5E50-4B9B-B3E5-584B535E424E",
-            "approvedDocNo": "1110802737",
-            "approvedDate": "2022-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EFA9A301-5650-4C8A-A3E7-8839B74C58A3",
-            "approvedDocNo": "1110802737",
-            "approvedDate": "2022-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F163563-9723-4B71-918B-B30F3629448B",
-            "approvedDocNo": "1110802737",
-            "approvedDate": "2022-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C38EB42F-7CFB-4A30-B5B2-CD56F263BE44",
-            "approvedDocNo": "1110802737",
-            "approvedDate": "2022-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1EA959F3-B1F6-479A-A014-FC3E88E93DA5",
-            "approvedDocNo": "1076806444",
-            "approvedDate": "2019-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C54A0BF7-535E-49D7-BC51-0D8ABE5710AE",
-            "approvedDocNo": "1076806444",
-            "approvedDate": "2019-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D02AX"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D02AX"
         }
     ],

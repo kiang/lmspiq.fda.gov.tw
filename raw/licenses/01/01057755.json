@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057755",
+    "licUnit": "1",
     "validDate": "2027-12-04 00:00:00.000",
     "issueDate": "2012-12-04 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105775503",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "76DC45CB-7033-4F98-B60A-31FD19570A6D",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "RIBOFLAVIN (VIT B2)",
@@ -51,6 +60,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A256B7BD-9E2C-4297-8BEA-3CDE5EDA6CBB",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
             "factoryAddr": "彰化市東芳里彰鹿路１０６號",
@@ -61,13 +71,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
             "concent": "325.0000",
@@ -79,6 +92,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
             "concent": "2.5000",
@@ -90,6 +104,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002400",
+            "ingredientsName": "NOSCAPINE",
             "ingredientsDesc": "NOSCAPINE",
             "concentDesc": "",
             "concent": "15.0000",
@@ -101,6 +116,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": "",
             "concent": "70.0000",
@@ -112,6 +128,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
             "concent": "30.0000",
@@ -123,6 +140,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100900",
+            "ingredientsName": "THIAMINE HYDROCHLORIDE",
             "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -134,6 +152,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "",
             "concent": "2.0000",
@@ -153,88 +172,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E842E921-E509-4D01-8788-0873686BF4F7",
-            "approvedDocNo": "1119058539",
-            "approvedDate": "2023-04-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F76596C-3B06-4375-9723-3F2DD4E13032",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5D2C0ED2-2D5E-4A89-B74C-4AE01B66AC6D",
-            "approvedDocNo": "1110810799",
-            "approvedDate": "2022-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "74ECC0D6-D682-4F8D-8013-447A93A8517F",
-            "approvedDocNo": "1101409020",
-            "approvedDate": "2021-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C75D8358-AF71-4ACC-9578-FEFAB38EFF83",
-            "approvedDocNo": "1101402903",
-            "approvedDate": "2021-03-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4EFEFCEE-0BDD-4C1B-BC52-A9D58CCAD151",
-            "approvedDocNo": "1091400304",
-            "approvedDate": "2020-01-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05DA07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
         {
             "isMain": "1",
             "atcCode": "N02BE51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
         }
     ],
     "licBaseId": "D2AD02DB-3A33-4C5F-894C-55C5A3DAA367"

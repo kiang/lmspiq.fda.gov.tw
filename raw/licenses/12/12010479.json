@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12010479",
+    "licUnit": "1",
     "validDate": "2025-12-31 00:00:00.000",
     "issueDate": "1970-09-25 00:00:00.000",
+    "oriIssueDate": "1970-09-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01201047902",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "252AEBE0-A780-450D-BA95-F51BD62E7429",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMINOPHYLLINE (COROPHYLLIN)"
     ],
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FDEC7CB5-91F8-4059-97A4-A2D9F641C9C8",
             "factoryCode": "1",
             "factoryName": "衛肯生技製藥股份有限公司",
             "factoryAddr": "桃園市平鎮區工業十路15號",
@@ -52,16 +60,19 @@
             "factoryKind": "M",
             "factoryNo": "6132100028",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8600000300",
+            "ingredientsName": "AMINOPHYLLINE (COROPHYLLIN)",
             "ingredientsDesc": "AMINOPHYLLINE (COROPHYLLIN)",
             "concentDesc": "100",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -70,40 +81,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7D29E9D8-D0CE-4E2E-BB32-12A7540306B0",
-            "approvedDocNo": "1080024982",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2822B4BE-6E4D-4EF5-9DA3-1A2C78D8DDF9",
-            "approvedDocNo": "1080024982",
-            "approvedDate": "2019-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "97CA3069-AF46-478D-9186-7F7A986D9C84",
-            "approvedDocNo": "1080024982",
-            "approvedDate": "2019-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "613CB37C-483F-4A91-984E-C3F1A1F14BA3",
-            "approvedDocNo": "1080024982",
-            "approvedDate": "2019-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

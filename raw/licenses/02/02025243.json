@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025243",
+    "licUnit": "1",
     "validDate": "2025-08-05 00:00:00.000",
     "issueDate": "2010-08-05 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202524304",
     "prodNameC": "愛斯萬膠囊20毫克",
     "prodNameE": "TS-1 CAPSULES 20MG",
     "indicationsName": [
-        "適應症變更：\r\n胃癌： \r\n胃癌術後輔助性化療，用於罹患TNM Stage II (排除TI)、IIIA或IIIB胃癌且接受過胃癌根除性手術之成年病人。 \r\n適用於治療無法切除之晚期胃癌。 \r\n胰臟癌：適用於治療局部晚期或轉移性胰臟癌病人。 \r\n大腸直腸癌：與Irinotecan合併使用於已使用含有Oxaliplatin化學療法失敗之轉移性大腸直腸癌病人。 \r\n晚期非小細胞肺癌：適用於對含鉑之化學療法治療失敗的局部晚期或轉移性之非小細胞肺癌。 \r\n膽道癌: 與Gemcitabine合併使用治療晚期或復發之膽道癌。\r\n\r\n\r\n"
+        "1.\t胃癌：\n(１)\t胃癌術後輔助性化療，用於罹患TNM Stage II (排除TI)、IIIA或IIIB胃癌且接受過胃癌根除性手術之成年病人。\n(２)\t適用於治療無法切除之晚期胃癌。\n2.\t胰臟癌：適用於治療局部晚期或轉移性胰臟癌病人。\n3.\t大腸直腸癌：與Irinotecan合併使用於已使用含有Oxaliplatin化學療法失敗之轉移性大腸直腸癌病人。\n4.\t晚期非小細胞肺癌：適用於對含鉑之化學療法治療失敗的局部晚期或轉移性之非小細胞肺癌。\n5.\t膽道癌: 與Gemcitabine合併使用治療晚期或復發之膽道癌。\n6.\t早期乳癌 : 併用內分泌療法，適用於具有高復發風險的荷爾蒙受體（HR）陽性和第二型人類上皮生長因子接受體（HER2）陰性早期乳癌之婦女的術後輔助治療。"
     ],
     "does": "1130",
     "packageUnit": [
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1E88420D-37B5-49E0-9A13-33E4C00C18D1",
+    "subCategory": [],
     "ingredientsDesc": [
         "GIMERACIL",
         "OTERACIL POTASSIUM",
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4CB9FE25-C596-4BB9-B4FE-4489E1E82BE9",
             "factoryCode": "1",
             "factoryName": "TAIHO PHARMACEUTICAL CO. LTD. (TOKUSHIMA PLANT)",
             "factoryAddr": "224-15,AZA-EBISUNO,HIRAISHI,KAWAUCHI-CHO,TOKUSHIMA-SHI,TOKUSHIMA,771-0194, JAPAN ",
@@ -53,11 +61,14 @@
             "factoryKind": "M",
             "factoryNo": "FJP0317000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B7609889-8175-4601-9A1E-C0246F877AEB",
             "factoryCode": "2",
-            "factoryName": "臺灣東洋藥品工業股份有限公司中壢廠",
+            "factoryName": "台灣東洋藥品工業股份有限公司中壢廠",
             "factoryAddr": "桃園市中壢區中華路一段８３８號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
@@ -71,13 +82,16 @@
             "factoryKind": "M",
             "factoryNo": "1406804300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1008400300",
+            "ingredientsName": "TEGAFUR (FTORAFUR)",
             "ingredientsDesc": "TEGAFUR (FTORAFUR)",
             "concentDesc": null,
             "concent": "20.0000",
@@ -89,6 +103,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1008400600",
+            "ingredientsName": "GIMERACIL",
             "ingredientsDesc": "GIMERACIL",
             "concentDesc": null,
             "concent": "5.8000",
@@ -100,6 +115,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1008400710",
+            "ingredientsName": "OTERACIL POTASSIUM",
             "ingredientsDesc": "OTERACIL POTASSIUM",
             "concentDesc": null,
             "concent": "19.6000",
@@ -111,41 +127,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B99A4E44-4F18-4ABE-9B66-53B7D2530568",
-            "approvedDocNo": "1110713552",
-            "approvedDate": "2022-09-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D7651223-5006-495C-8943-5A6090A7718F",
-            "approvedDocNo": "1106019061",
-            "approvedDate": "2022-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "32BCC0E3-9EE0-4220-81A6-50850E4B77D9",
-            "approvedDocNo": "1106019061",
-            "approvedDate": "2022-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "L01BC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "L01BC03"
-        },
         {
             "isMain": "1",
             "atcCode": "L01BC53"

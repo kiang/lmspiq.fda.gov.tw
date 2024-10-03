@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040410",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1996-10-04 00:00:00.000",
+    "oriIssueDate": "1996-10-04",
     "licKind": "02",
     "oldLicid": "12004719",
     "certNo": "DHY00104041006",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E9F6E9B5-64B7-4538-B97F-34375F38ACEC",
+    "subCategory": [],
     "ingredientsDesc": [
         "CALCIUM",
         "FOLIC ACID",
@@ -73,6 +80,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F21A3B06-8B21-460E-AC9D-CC653546BD84",
             "factoryCode": "1",
             "factoryName": "順華藥品工業股份有限公司三峽工廠",
             "factoryAddr": "新北市三峽區二鬮路186號",
@@ -83,13 +91,16 @@
             "factoryKind": "M",
             "factoryNo": "1210702300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8804000100",
+            "ingredientsName": "VITAMIN A",
             "ingredientsDesc": "VITAMIN A",
             "concentDesc": "1000",
             "concent": "1000.0000",
@@ -101,6 +112,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8818000000",
+            "ingredientsName": "VITAMIN D",
             "ingredientsDesc": "VITAMIN D",
             "concentDesc": "200",
             "concent": "200.0000",
@@ -112,6 +124,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100500",
+            "ingredientsName": "THIAMINE (VITAMIN B1)",
             "ingredientsDesc": "THIAMINE (VITAMIN B1)",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -123,6 +136,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "0.6",
             "concent": "0.6000",
@@ -134,6 +148,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600100",
+            "ingredientsName": "PYRIDOXINE(VITAMIN B6)",
             "ingredientsDesc": "PYRIDOXINE(VITAMIN B6)",
             "concentDesc": "(VIT B6) 0.05",
             "concent": "0.0000",
@@ -145,6 +160,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -156,6 +172,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000110",
+            "ingredientsName": "TOCOPHEROL ALPHA-",
             "ingredientsDesc": "TOCOPHEROL ALPHA-",
             "concentDesc": "0.25",
             "concent": "0.2500",
@@ -167,6 +184,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000100",
+            "ingredientsName": "ASCORBIC ACID (VIT C)",
             "ingredientsDesc": "ASCORBIC ACID (VIT C)",
             "concentDesc": "10.0",
             "concent": "10.0000",
@@ -178,6 +196,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8824000000",
+            "ingredientsName": "VITAMIN K ACTIVITY",
             "ingredientsDesc": "VITAMIN K ACTIVITY",
             "concentDesc": "0.05",
             "concent": "0.0500",
@@ -189,6 +208,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811600100",
+            "ingredientsName": "FOLIC ACID",
             "ingredientsDesc": "FOLIC ACID",
             "concentDesc": "0.05",
             "concent": "0.0500",
@@ -200,6 +220,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000200",
+            "ingredientsName": "NIACIN (NICOTINIC ACID)",
             "ingredientsDesc": "NIACIN (NICOTINIC ACID)",
             "concentDesc": "5.0",
             "concent": "5.0000",
@@ -211,6 +232,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300200",
+            "ingredientsName": "PANTOTHENATE CALCIUM",
             "ingredientsDesc": "PANTOTHENATE CALCIUM",
             "concentDesc": "1.0",
             "concent": "1.0000",
@@ -222,6 +244,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8832000500",
+            "ingredientsName": "RUTIN",
             "ingredientsDesc": "RUTIN",
             "concentDesc": "1.0",
             "concent": "1.0000",
@@ -233,6 +256,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101500",
+            "ingredientsName": "METHIONINE",
             "ingredientsDesc": "METHIONINE",
             "concentDesc": "0.05",
             "concent": "0.0500",
@@ -244,6 +268,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8813200104",
+            "ingredientsName": "PARA-AMINOBENZOIC ACID (VIT H1)",
             "ingredientsDesc": "PARA-AMINOBENZOIC ACID (VIT H1)",
             "concentDesc": "20.0",
             "concent": "20.0000",
@@ -255,6 +280,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4026000900",
+            "ingredientsName": "IRON",
             "ingredientsDesc": "IRON",
             "concentDesc": "10.0",
             "concent": "10.0000",
@@ -266,6 +292,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4026000400",
+            "ingredientsName": "CALCIUM",
             "ingredientsDesc": "CALCIUM",
             "concentDesc": "100.0",
             "concent": "100.0000",
@@ -277,6 +304,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9400000900",
+            "ingredientsName": "PHOSPHORUS",
             "ingredientsDesc": "PHOSPHORUS",
             "concentDesc": "100.00",
             "concent": "100.0000",
@@ -288,6 +316,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4026000700",
+            "ingredientsName": "COPPER",
             "ingredientsDesc": "COPPER",
             "concentDesc": "0.10",
             "concent": "0.1000",
@@ -299,6 +328,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404602000",
+            "ingredientsName": "IODINE",
             "ingredientsDesc": "IODINE",
             "concentDesc": "0.05",
             "concent": "0.0500",
@@ -310,6 +340,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4026001100",
+            "ingredientsName": "MAGNESIUM",
             "ingredientsDesc": "MAGNESIUM",
             "concentDesc": "10.00",
             "concent": "10.0000",
@@ -321,6 +352,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4026001200",
+            "ingredientsName": "MANGANESE",
             "ingredientsDesc": "MANGANESE",
             "concentDesc": "1.00",
             "concent": "1.0000",
@@ -332,6 +364,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4026001800",
+            "ingredientsName": "ZINC",
             "ingredientsDesc": "ZINC",
             "concentDesc": "1.00",
             "concent": "1.0000",
@@ -343,6 +376,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4026000600",
+            "ingredientsName": "COBALT",
             "ingredientsDesc": "COBALT",
             "concentDesc": "0.05",
             "concent": "0.0500",
@@ -354,6 +388,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4026001500",
+            "ingredientsName": "POTASSIUM",
             "ingredientsDesc": "POTASSIUM",
             "concentDesc": "1.00",
             "concent": "1.0000",
@@ -365,6 +400,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7804000300",
+            "ingredientsName": "MOLYBDENUM",
             "ingredientsDesc": "MOLYBDENUM",
             "concentDesc": "0.20",
             "concent": "0.2000",
@@ -376,6 +412,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8428000900",
+            "ingredientsName": "SULFUR",
             "ingredientsDesc": "SULFUR",
             "concentDesc": "0.25",
             "concent": "0.2500",
@@ -387,6 +424,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4026001700",
+            "ingredientsName": "SODIUM",
             "ingredientsDesc": "SODIUM",
             "concentDesc": "25.00",
             "concent": "25.0000",
@@ -398,6 +436,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4026001900",
+            "ingredientsName": "FLUORINE",
             "ingredientsDesc": "FLUORINE",
             "concentDesc": "0.10",
             "concent": "0.1000",
@@ -409,6 +448,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4026002900",
+            "ingredientsName": "BORON",
             "ingredientsDesc": "BORON",
             "concentDesc": "1.00",
             "concent": "1.0000",
@@ -420,124 +460,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1E79A613-AC12-4E7F-872A-B49C031AAE93",
-            "approvedDocNo": "1120810098",
-            "approvedDate": "2023-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1F3079CD-F2D4-47D1-856C-3211FD70F1D4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A12CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA31"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B02BA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12CX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12CC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12CB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AX07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V06DD"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12CD"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
         {
             "isMain": "1",
             "atcCode": "A11AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12BA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12AA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11CC"
         }
     ],
     "licBaseId": "8980A0DD-B265-4F71-990D-3ADCE642326A"

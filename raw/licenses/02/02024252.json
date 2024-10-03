@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024252",
+    "licUnit": "1",
     "validDate": "2025-06-06 00:00:00.000",
     "issueDate": "2005-06-06 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202425200",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "02484F94-8757-433B-B507-9A605F51F1A4",
+    "subCategory": [],
     "ingredientsDesc": [
         "EZETIMIBE",
         "SIMVASTATIN"
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C00A50D7-3374-4382-9981-51C99C58C4B7",
             "factoryCode": "1",
             "factoryName": "MSD International GmbH (Singapore Branch)",
             "factoryAddr": "21 TUAS SOUTH AVENUE 6, 637766, SINGAPORE",
@@ -53,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FSG0010000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "989508CB-7FED-44ED-89CE-CF8A8EFECCFD",
             "factoryCode": "2",
             "factoryName": "P.T. Organon Pharma Indonesia Tbk.",
             "factoryAddr": "JI. RAYA PANDAAN KM. 48, PANDAAN, PASURUAN,JAWA TIMUR , INDONESIA",
@@ -71,13 +82,16 @@
             "factoryKind": "M",
             "factoryNo": "FID0002000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200095600",
+            "ingredientsName": "EZETIMIBE",
             "ingredientsDesc": "EZETIMIBE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -89,6 +103,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406002900",
+            "ingredientsName": "SIMVASTATIN",
             "ingredientsDesc": "SIMVASTATIN",
             "concentDesc": "",
             "concent": "10.0000",
@@ -100,108 +115,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A13D247E-DFEC-4DDD-998D-C00DA981DC84",
-            "approvedDocNo": "1129051558",
-            "approvedDate": "2024-01-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5C236951-CA50-4610-9E06-0077CB70F357",
-            "approvedDocNo": "1129014581",
-            "approvedDate": "2023-07-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4895C473-422B-4638-971C-0A7FF2DD8D02",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-03-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D75B013F-CECB-4586-A367-03973B1DC7BF",
-            "approvedDocNo": "1110721698",
-            "approvedDate": "2023-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "333A1726-D80B-4E1D-B190-89961B33EAA0",
-            "approvedDocNo": "1101498617",
-            "approvedDate": "2022-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6CCD817A-A831-4200-88AC-54704104044E",
-            "approvedDocNo": "1101500533",
-            "approvedDate": "2022-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5FE34CFD-4650-4337-AB03-5A9473C30526",
-            "approvedDocNo": "1101500263",
-            "approvedDate": "2022-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "63773AAC-449B-408B-A599-32869691212E",
-            "approvedDocNo": "1101495739",
-            "approvedDate": "2021-11-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6249A212-92CC-4544-A536-ABD10C43700D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "273299BD-6390-4BF1-B866-8F7C7E5A72AF",
-            "approvedDocNo": "1086004822",
-            "approvedDate": "2019-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "81474FF4-854D-48AC-83B5-24EAC94DE266",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C10BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C10AA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C10AX09"
         }
     ],
     "licBaseId": "20EB4F01-9A77-4133-8234-E9A384E93492"

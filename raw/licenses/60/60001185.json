@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001185",
+    "licUnit": "1",
     "validDate": "2027-01-14 00:00:00.000",
     "issueDate": "2022-01-14 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000118509",
@@ -26,7 +30,10 @@
     ],
     "medMCode": "05",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "D",
+    "mainCategory": "D",
+    "drBaseId": "BC9DB2C6-C543-4CF2-9D73-45FFBDE65881",
+    "subCategory": [],
     "ingredientsDesc": [
         "BEVACIZUMAB"
     ],
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4727BD7C-8C6D-4D99-B810-716C3107303D",
             "factoryCode": "1",
             "factoryName": "Universal Farma, S.L. (CHEMO)",
             "factoryAddr": "C\/EL Tejido, 2, Azugueca de Henares Guadalajara, 19200 Spain",
@@ -63,9 +71,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0268000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "A6FAE9BB-E879-4242-8F84-63392B68E3B4",
             "factoryCode": "2",
             "factoryName": "GH GENHELIX S.A.",
             "factoryAddr": "C\/JULIA MORROS S\/N PARQUE TECNOLOGICO - ARMUNIA, LEON, 24009 LEON, SPAIN",
@@ -81,16 +92,19 @@
             "factoryKind": "M",
             "factoryNo": "FES0271000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000800",
+            "ingredientsName": "BEVACIZUMAB",
             "ingredientsDesc": "BEVACIZUMAB",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -99,56 +113,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6ED83A2D-3376-418E-8A03-27BF01E7785D",
-            "approvedDocNo": "1110724945",
-            "approvedDate": "2023-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "082452B2-81B8-4B03-86E6-40542CCFFC2B",
-            "approvedDocNo": "1110724945",
-            "approvedDate": "2023-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "32A3C64D-8BE5-4039-91BB-665005750D2F",
-            "approvedDocNo": "1120711047",
-            "approvedDate": "2023-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C43EB3A9-5FAE-46E8-A23E-7F543619E037",
-            "approvedDocNo": "1110731754",
-            "approvedDate": "2023-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E44C4C59-6076-41BE-9E0A-A66F841C6E92",
-            "approvedDocNo": "1110724945",
-            "approvedDate": "2023-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C6002D82-ABEF-4957-8708-633B9A4ACDCB",
-            "approvedDocNo": "1110708371",
-            "approvedDate": "2022-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

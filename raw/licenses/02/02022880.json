@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022880",
+    "licUnit": "1",
     "validDate": "2025-07-03 00:00:00.000",
     "issueDate": "2000-07-03 00:00:00.000",
+    "oriIssueDate": "2000-07-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202288006",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6125E54C-8A66-461A-8A94-F46E2E5B30F2",
+    "subCategory": [],
     "ingredientsDesc": [
         "METHYL SALICYLATE",
         "GLYCYRRHETIC ACID (EQ TO GLYCYRRHETINIC ACID)",
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "647AAA4B-B297-4EDE-8E10-DBC18B974AF6",
             "factoryCode": "1",
             "factoryName": "MIKASA SEIYAKU CO., LTD. Kakegawa Factory",
             "factoryAddr": "2679 Kuniyasu, Kakegawa-city, Shizuoka 437-1491, Japan",
@@ -54,9 +62,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP0981000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8261FE44-F58C-4211-8F9B-9770363B7B87",
             "factoryCode": "2",
             "factoryName": "人生製藥股份有限公司",
             "factoryAddr": "台中市西屯區工業區五路３號",
@@ -72,13 +83,16 @@
             "factoryKind": "M",
             "factoryNo": "0201709300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000103",
+            "ingredientsName": "DL-CAMPHOR ",
             "ingredientsDesc": "DL-CAMPHOR ",
             "concentDesc": "",
             "concent": "0.0500",
@@ -90,6 +104,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000302",
+            "ingredientsName": "L-MENTHOL ",
             "ingredientsDesc": "L-MENTHOL ",
             "concentDesc": "",
             "concent": "0.0600",
@@ -101,6 +116,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424400200",
+            "ingredientsName": "METHYL SALICYLATE",
             "ingredientsDesc": "METHYL SALICYLATE",
             "concentDesc": "",
             "concent": "0.1750",
@@ -112,6 +128,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004500",
+            "ingredientsName": "GLYCYRRHETIC ACID (EQ TO GLYCYRRHETINIC ACID)",
             "ingredientsDesc": "GLYCYRRHETIC ACID (EQ TO GLYCYRRHETINIC ACID)",
             "concentDesc": "",
             "concent": "0.2000",
@@ -123,48 +140,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "267F0E14-8850-4888-B4BF-A457DC79A86D",
-            "approvedDocNo": "1096610040",
-            "approvedDate": "2020-12-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A3369442-E176-4C7A-BC04-BD6D23A48BD6",
-            "approvedDocNo": "1096611164",
-            "approvedDate": "2020-11-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9E9C02C8-44AD-4998-9E07-F229698B37E6",
-            "approvedDocNo": "1096611164",
-            "approvedDate": "2020-11-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "M02AC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
         {
             "isMain": "1",
             "atcCode": "M02AC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
         }
     ],
     "licBaseId": "A0E4A44E-5D8F-4837-A044-BB04FDB8F168"

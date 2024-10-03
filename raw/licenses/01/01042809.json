@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01042809",
+    "licUnit": "1",
     "validDate": "2029-02-12 00:00:00.000",
     "issueDate": "1999-02-12 00:00:00.000",
+    "oriIssueDate": "1999-02-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104280908",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "7D5AF325-2107-4548-980F-C93B4493CB15",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLOTRIMAZOLE",
         "UREA"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DEE155BC-932E-49F6-B18C-BDD4D4C2B23E",
             "factoryCode": "1",
             "factoryName": "佐藤製藥股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉湖南村十鄰光復北路７號",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "0710606300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
             "ingredientsDesc": "CLOTRIMAZOLE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -70,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416001100",
+            "ingredientsName": "UREA",
             "ingredientsDesc": "UREA",
             "concentDesc": "",
             "concent": "30.0000",
@@ -81,52 +93,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D53CD212-B8A0-4473-BEB6-26D289AC7AD3",
-            "approvedDocNo": "1129068028",
-            "approvedDate": "2023-12-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0DCB296F-A14F-49B1-AB9C-87AD05004277",
-            "approvedDocNo": "1129068028",
-            "approvedDate": "2023-12-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1BC14EE7-75CD-4499-A496-E45A2491A5E9",
-            "approvedDocNo": "1129068028",
-            "approvedDate": "2023-12-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7700E911-4958-4EAE-9FB1-36602898D0CD",
-            "approvedDocNo": "1120603091",
-            "approvedDate": "2023-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D01AC01"
-        },
         {
             "isMain": "1",
             "atcCode": "D01AC20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D02AE01"
         }
     ],
     "licBaseId": "4332F242-06F1-4D75-9E8B-C9A3FA14EBBD"

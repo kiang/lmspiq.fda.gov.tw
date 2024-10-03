@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025073",
+    "licUnit": "1",
     "validDate": "2024-08-19 00:00:00.000",
     "issueDate": "2009-08-19 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202507305",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "065FFE22-AD60-4708-90D7-4E49DBD9CA9A",
+    "subCategory": [],
     "ingredientsDesc": [
         "ESCITALOPRAM OXALATE"
     ],
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A9FBF8B6-CACA-44EB-A62B-C654A3A774F9",
             "factoryCode": "1",
             "factoryName": "H. LUNDBECK A\/S",
             "factoryAddr": "OTTILIAVEJ 9,2500 VALBY, DENMARK",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "FDK0012000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200098910",
+            "ingredientsName": "ESCITALOPRAM OXALATE",
             "ingredientsDesc": "ESCITALOPRAM OXALATE",
             "concentDesc": "(corresp. to Escitalopram  15.00mg)",
             "concent": "19.1600",
@@ -68,49 +79,12 @@
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [
-        {
-            "applicantName": "和聯生技藥業股份有限公司",
-            "certNo": "DHA00202507316",
-            "approveDocNo": "1086010625",
-            "authDate": "2019-04-10",
-            "validDate": "2024-08-19"
-        }
-    ],
+    "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6120D09C-A506-46A8-AC4F-1C034E2B6D90",
-            "approvedDocNo": "1110806671",
-            "approvedDate": "2022-11-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E3EBFAF2-DE51-4DFF-8183-85ADECC22E1E",
-            "approvedDocNo": "1101491601",
-            "approvedDate": "2021-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "08EC865F-1368-418F-B11C-2D076300D02B",
-            "approvedDocNo": "1091494114",
-            "approvedDate": "2021-02-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N06AB10"
-        },
-        {
-            "isMain": "2",
             "atcCode": "N06AB10"
         }
     ],

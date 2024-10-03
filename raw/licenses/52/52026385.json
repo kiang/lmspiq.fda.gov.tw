@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2020-12-21",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "52026385",
+    "licUnit": "1",
     "validDate": "2024-08-25 00:00:00.000",
     "issueDate": "2014-08-25 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202638509",
@@ -29,6 +33,9 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "03592EB0-374F-49DC-BF77-7976495846EC",
+    "subCategory": [],
     "ingredientsDesc": [
         "ZOLEDRONIC ACID MONOHYDRATE"
     ],
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "00B2A3F6-B08A-44E7-AFDB-E6D86466F747",
             "factoryCode": "1",
             "factoryName": "NOVARTIS PHARMA STEIN AG",
             "factoryAddr": "SCHAFFHAUSERSTRASSE CH-4332 STEIN, SWITZERLAND",
@@ -59,16 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6400001630",
+            "ingredientsName": "ZOLEDRONIC ACID MONOHYDRATE",
             "ingredientsDesc": "ZOLEDRONIC ACID MONOHYDRATE",
             "concentDesc": "(eq. to Zoledronic acid anhydrous 4mg)",
-            "concent": "4.264",
+            "concent": "4.2640",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,10 +92,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "M05BA08"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M05BA08"
         }
     ],

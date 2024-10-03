@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001098",
+    "licUnit": "1",
     "validDate": "2029-03-11 00:00:00.000",
     "issueDate": "2019-03-11 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000109801",
@@ -34,7 +38,10 @@
     ],
     "medMCode": "05",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "D",
+    "mainCategory": "D",
+    "drBaseId": "D8A38380-4B07-429E-BB4F-AC42970ADC55",
+    "subCategory": [],
     "ingredientsDesc": [
         "ADALIMUMAB",
         "ADALIMUMAB"
@@ -57,19 +64,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "423532DD-1FD3-41CA-B946-CD6BC85A1FFE",
             "factoryCode": "1",
-            "factoryName": "AMGEN MANUFACTURING,LIMITED",
-            "factoryAddr": "STATE ROAD 31,KM 24.6 JUNCOS,PUERTO RICO 00777-4060",
+            "factoryName": "AMGEN MANUFACTURING LIMITED LLC",
+            "factoryAddr": "STATE ROAD 31, KM 24.6 JUNCOS, PUERTO RICO 00777-4060",
             "factoryCompanyAddr": null,
             "countryCode": "PR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FPR0034000",
+            "factoryNo": "FPR0062100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B12D8941-2020-46C1-AD7C-4CCD94217EC2",
             "factoryCode": "2",
             "factoryName": "AMGEN INC.",
             "factoryAddr": "ONE AMGEN CENTER DRIVE THOUSAND OAKS CA 91320-1799 U.S.A.",
@@ -85,9 +96,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0325000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "589C2F22-0C91-4951-A00A-B3C402001647",
             "factoryCode": "2",
             "factoryName": "IMMUNEX RHODE ISLAND CORPORATION",
             "factoryAddr": "40 TECHNOLOGY WAY, WEST GREENWICH RHODE ISLAND 02817, USA",
@@ -103,16 +117,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0866000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200094700",
+            "ingredientsName": "ADALIMUMAB",
             "ingredientsDesc": "ADALIMUMAB",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -121,9 +138,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200094700",
+            "ingredientsName": "ADALIMUMAB",
             "ingredientsDesc": "ADALIMUMAB",
             "concentDesc": "",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -132,88 +150,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "047852E7-99A0-40E6-938A-904CF8DBD130",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7B7CB0B7-1A70-4FBA-B931-FD25DCE79E94",
-            "approvedDocNo": "1110717151",
-            "approvedDate": "2022-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FBDCF938-3876-44D0-B446-4695C1984049",
-            "approvedDocNo": "1096041142",
-            "approvedDate": "2021-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E71489F5-F260-4ED4-9328-B7D83A6FCFA0",
-            "approvedDocNo": "1096041142",
-            "approvedDate": "2021-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1F30DE50-227C-4512-8277-D1AB98AC3949",
-            "approvedDocNo": "1096041142",
-            "approvedDate": "2021-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "61477061-BB0E-4579-B8C7-B93DE0636038",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-02-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DB3C7CC7-C470-4B4B-8A7D-C56772A66DA7",
-            "approvedDocNo": "1096014245",
-            "approvedDate": "2020-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "978F25E8-CC7D-43B6-9104-90A7685D0314",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-01-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F6271D24-05F5-4262-A7BE-2047D13DBEFB",
-            "approvedDocNo": "1086016895",
-            "approvedDate": "2019-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "01E432E8-A416-4348-9996-D8BE1AA7DF77",
-            "approvedDocNo": "1086012120",
-            "approvedDate": "2019-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
