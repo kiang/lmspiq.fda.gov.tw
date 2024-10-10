@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01032319",
+    "licUnit": "1",
     "validDate": "2025-03-20 00:00:00.000",
     "issueDate": "1990-03-20 00:00:00.000",
+    "oriIssueDate": "1990-03-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103231901",
@@ -31,6 +35,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D2989DEA-B812-4213-BE30-7EF03DA3509F",
+    "subCategory": [],
     "ingredientsDesc": [
         "GENTAMICIN (AS SULFATE)",
         "BETAMETHASONE DIPROPIONATE"
@@ -50,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CC174FF0-0C2E-4021-83ED-BCA3D215C3B1",
             "factoryCode": "1",
             "factoryName": "健康化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區幼獅工業區幼四路１２號",
@@ -60,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000220",
+            "ingredientsName": "BETAMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BETAMETHASONE DIPROPIONATE",
             "concentDesc": "",
             "concent": "0.6400",
@@ -78,6 +89,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "",
             "concent": "1.0000",
@@ -97,124 +109,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FE675521-286E-4CE9-97DD-A9241BF9D964",
-            "approvedDocNo": "1120706388",
-            "approvedDate": "2023-06-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C58BF6D4-E65B-4293-87C7-E17493A35CFD",
-            "approvedDocNo": "1120706388",
-            "approvedDate": "2023-06-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9AA4103C-16DE-47FA-9965-9D383633CCB3",
-            "approvedDocNo": "1110817491",
-            "approvedDate": "2022-12-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "45F7D1C1-E4FE-4C3E-B44B-D6FDD7256B70",
-            "approvedDocNo": "1110722079",
-            "approvedDate": "2022-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E06A9835-8C38-4F07-AC3D-A878C914EB40",
-            "approvedDocNo": "1096802484",
-            "approvedDate": "2020-08-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DC75FEDC-E6B7-4CCB-A68F-18D0E29AEE7F",
-            "approvedDocNo": "1096802484",
-            "approvedDate": "2020-08-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C5E95F9B-E8E3-4CDE-BBBA-1B3A60B2ABA0",
-            "approvedDocNo": "1096802484",
-            "approvedDate": "2020-08-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB479C30-A278-441E-B052-042E5949C90F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1B2CC003-D48C-401E-83B4-AF60502F8831",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A3A5F7D1-1A8A-4B5A-8E10-C5B301B6E2B8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "41951AE3-EEF6-4ED6-870E-AD5E4111E452",
-            "approvedDocNo": "1076038517",
-            "approvedDate": "2019-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DF03F736-7846-4FF6-80CF-DA282528266E",
-            "approvedDocNo": "1076038517",
-            "approvedDate": "2019-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9B4E1C57-EBAD-43A2-A904-F81CF6212002",
-            "approvedDocNo": "1076038517",
-            "approvedDate": "2019-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D07CC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX07"
         }
     ],
     "licBaseId": "00991B0D-C12A-435E-B40B-B1C809B63F1A"

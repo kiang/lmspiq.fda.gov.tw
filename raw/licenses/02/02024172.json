@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024172",
+    "licUnit": "1",
     "validDate": "2025-03-09 00:00:00.000",
     "issueDate": "2005-03-09 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202417202",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "62B5E1C1-0DAA-4793-AEE8-56C1975AF2B5",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEVODOPA",
         "CARBIDOPA MONOHYDRATE",
@@ -31,7 +38,8 @@
     "restraintItemsCode": [
         "02",
         "07",
-        "54"
+        "54",
+        "68"
     ],
     "applicantName": "美時化學製藥股份有限公司",
     "applicantAddr": "台北市信義區松仁路277號17樓",
@@ -45,9 +53,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D67F6473-9FEB-4C87-8659-03BC73DFC5FC",
             "factoryCode": "1",
             "factoryName": "ORION CORPORATION",
-            "factoryAddr": "ORIONINITE 1, FIN-02200 ESPOO, FINLAND",
+            "factoryAddr": "ORIONINTIE 1 FIN-02200 ESPOO FINLAND",
             "factoryCompanyAddr": "",
             "countryCode": "FI",
             "processCode": [
@@ -58,11 +67,14 @@
             ],
             "processCodeStr": "66;成品製造廠",
             "factoryKind": "M",
-            "factoryNo": "FFI0013500",
+            "factoryNo": "FFI0009100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "371E77B8-2176-4C03-B20C-1E59BF472B36",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA. AG",
             "factoryAddr": "LICHTSTRASSE 35 CH-4056 BASLE SWITZERLAND",
@@ -78,9 +90,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "75F17745-0292-49CF-849A-84FC1ED84B9A",
             "factoryCode": "2",
             "factoryName": "Orion Corporation",
             "factoryAddr": "Joensuunkatu 7, Salo 24100, Finland",
@@ -96,13 +111,16 @@
             "factoryKind": "M",
             "factoryNo": "FFI0031000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208008800",
+            "ingredientsName": "ENTACAPONE",
             "ingredientsDesc": "ENTACAPONE",
             "concentDesc": "",
             "concent": "200.0000",
@@ -114,6 +132,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208002900",
+            "ingredientsName": "LEVODOPA",
             "ingredientsDesc": "LEVODOPA",
             "concentDesc": "",
             "concent": "150.0000",
@@ -125,6 +144,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408000420",
+            "ingredientsName": "CARBIDOPA MONOHYDRATE",
             "ingredientsDesc": "CARBIDOPA MONOHYDRATE",
             "concentDesc": "",
             "concent": "40.5000",
@@ -136,85 +156,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "30465ADF-8E0F-44E5-BEC8-FED3608088AF",
-            "approvedDocNo": "1110728518",
-            "approvedDate": "2023-04-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "74EE741D-D1D2-4DB8-BEAD-0FC4BDD24486",
-            "approvedDocNo": "1106027661",
-            "approvedDate": "2022-06-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0AF9869C-5843-46C3-B62B-C3D6488CBC90",
-            "approvedDocNo": "1101497643",
-            "approvedDate": "2021-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "87811717-853D-4430-9898-22869F9D5339",
-            "approvedDocNo": "1091493382",
-            "approvedDate": "2020-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F59FF78-7920-43D2-924D-23355DE6C44E",
-            "approvedDocNo": "1081491152",
-            "approvedDate": "2019-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E725D094-2843-40DF-9728-616FBC12F254",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AE5F8149-1A45-4843-86A5-E03BEA124BF6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E67BFBBC-7445-4C48-88E4-3CCDB5F3A1CF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N04BX02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N04BA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N04BA01"
-        },
         {
             "isMain": "1",
             "atcCode": "N04BA03"

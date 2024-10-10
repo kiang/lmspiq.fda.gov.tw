@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047143",
+    "licUnit": "1",
     "validDate": "2025-03-29 00:00:00.000",
     "issueDate": "2005-03-29 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104714305",
@@ -16,7 +20,7 @@
     "does": "3363",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         },
         {
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "DAA0D0D1-F12D-47FC-9D84-60B2350C8EEF",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "TERBINAFINE HYDROCHLORIDE"
     ],
@@ -46,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "32FBD04A-203E-4133-961C-45B8A417F2B4",
             "factoryCode": "1",
             "factoryName": "約克製藥股份有限公司",
             "factoryAddr": "雲林縣斗六市榴中里復興路3號",
@@ -56,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "6139011104",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "3632000108",
+            "ingredientsName": "TERBINAFINE HYDROCHLORIDE",
             "ingredientsDesc": "TERBINAFINE HYDROCHLORIDE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -74,88 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B6EB5FC0-ED6F-4EE5-AF58-889F41D1B7F8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "02203E2E-BE35-49A6-B1D6-0175729E2F1B",
-            "approvedDocNo": "1106600090",
-            "approvedDate": "2021-05-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "00C96578-E1D6-4DEF-9595-2C020D5122CE",
-            "approvedDocNo": "1106600090",
-            "approvedDate": "2021-05-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DE1EAEB3-772C-49C8-B5DC-427346B868DA",
-            "approvedDocNo": "1106600090",
-            "approvedDate": "2021-05-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "86BCD885-B988-4FC0-9057-68C94CC2DB0B",
-            "approvedDocNo": "1106600090",
-            "approvedDate": "2021-05-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "14E711DD-D431-447F-804E-419F8CB2B6B7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FB13A1C3-5B86-420E-BF94-9201E2B32362",
-            "approvedDocNo": "1086613627",
-            "approvedDate": "2020-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D51CA59D-352E-4DAD-97BA-B313BDEE5E6C",
-            "approvedDocNo": "1086613627",
-            "approvedDate": "2020-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F4747CA-B3E1-4515-A9E9-C9D064C18E7D",
-            "approvedDocNo": "1086613627",
-            "approvedDate": "2020-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C7657D8C-A082-41DA-8DF7-EFCDD0C8296C",
-            "approvedDocNo": "1086613627",
-            "approvedDate": "2020-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

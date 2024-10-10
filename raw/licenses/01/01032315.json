@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01032315",
+    "licUnit": "1",
     "validDate": "2025-03-20 00:00:00.000",
     "issueDate": "1990-03-20 00:00:00.000",
+    "oriIssueDate": "1990-03-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103231503",
@@ -16,17 +20,20 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8A496FD5-0E74-4653-B5E5-EFEDB7157610",
+    "subCategory": [],
     "ingredientsDesc": [
         "CIMETIDINE"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "754DE6D9-27E3-4081-8BF6-84D779E50D15",
             "factoryCode": "1",
             "factoryName": "優良化學製藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉中興村光復路10號 ",
@@ -55,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "6133061486",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640000500",
+            "ingredientsName": "CIMETIDINE",
             "ingredientsDesc": "CIMETIDINE",
             "concentDesc": "",
             "concent": "200.0000",
@@ -73,48 +84,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "994D3239-454B-4115-9621-AEC24A68E97F",
-            "approvedDocNo": "1106806922",
-            "approvedDate": "2021-05-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "575A0ED0-6CC9-4CCC-B519-C7CE3C983D95",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8630A082-3A6A-4328-BD72-E4CBB36303DE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "616DAC02-798F-4C9D-A122-7C84F722E415",
-            "approvedDocNo": "1086000038",
-            "approvedDate": "2019-05-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "63CC12F7-B5BE-4E05-8631-CB7475359663",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

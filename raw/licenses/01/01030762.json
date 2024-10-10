@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01030762",
+    "licUnit": "1",
     "validDate": "2025-03-18 00:00:00.000",
     "issueDate": "1988-03-18 00:00:00.000",
+    "oriIssueDate": "1988-03-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103076205",
@@ -16,13 +20,16 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F2EA63DF-1CB4-4D37-B67F-A43C93BA58AA",
+    "subCategory": [],
     "ingredientsDesc": [
         "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
         "NORGESTREL L-"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "AA7F34CB-49CB-4E41-850A-06CE1D9E0E48",
             "factoryCode": "1",
             "factoryName": "溫士頓醫藥股份有限公司",
             "factoryAddr": "台南市永康區鹽洲里仁愛街１１７號",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "1217820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832001002",
+            "ingredientsName": "NORGESTREL L-",
             "ingredientsDesc": "NORGESTREL L-",
             "concentDesc": "0.05",
             "concent": "0.0500",
@@ -70,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816000600",
+            "ingredientsName": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "ingredientsDesc": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "concentDesc": "0.03",
             "concent": "0.0300",
@@ -83,14 +95,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "G03CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03AC"
-        },
         {
             "isMain": "1",
             "atcCode": "G03AB"

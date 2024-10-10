@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01052553",
+    "licUnit": "1",
     "validDate": "2025-03-17 00:00:00.000",
     "issueDate": "2010-03-17 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105255305",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3DF4F8B7-4B09-470A-8F71-50E7E2C62406",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMPICILLIN (SODIUM)",
         "SULBACTAM ( AS SODIUM)",
@@ -51,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3576F220-6367-45E2-9A9E-76DBE1D76BA8",
             "factoryCode": "1",
             "factoryName": "政德製藥股份有限公司",
             "factoryAddr": "雲林縣大埤鄉嘉興村豐田路２號",
@@ -61,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "0922116300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812609320",
+            "ingredientsName": "AMPICILLIN (SODIUM)",
             "ingredientsDesc": "AMPICILLIN (SODIUM)",
             "concentDesc": "(potency)",
             "concent": "0.5000",
@@ -79,6 +90,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410009520",
+            "ingredientsName": "SULBACTAM ( AS SODIUM)",
             "ingredientsDesc": "SULBACTAM ( AS SODIUM)",
             "concentDesc": "(potency)",
             "concent": "0.2500",
@@ -90,6 +102,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812609320",
+            "ingredientsName": "AMPICILLIN (SODIUM)",
             "ingredientsDesc": "AMPICILLIN (SODIUM)",
             "concentDesc": "(potency)",
             "concent": "1.0000",
@@ -101,6 +114,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410009520",
+            "ingredientsName": "SULBACTAM ( AS SODIUM)",
             "ingredientsDesc": "SULBACTAM ( AS SODIUM)",
             "concentDesc": "(potency)",
             "concent": "0.5000",
@@ -112,6 +126,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812609320",
+            "ingredientsName": "AMPICILLIN (SODIUM)",
             "ingredientsDesc": "AMPICILLIN (SODIUM)",
             "concentDesc": "(potency)",
             "concent": "2.0000",
@@ -123,6 +138,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410009520",
+            "ingredientsName": "SULBACTAM ( AS SODIUM)",
             "ingredientsDesc": "SULBACTAM ( AS SODIUM)",
             "concentDesc": "(potency)",
             "concent": "1.0000",
@@ -134,68 +150,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DACFCBA6-F36A-40EE-9B13-2BFDF300E639",
-            "approvedDocNo": "1086609085",
-            "approvedDate": "2019-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1B0D7015-1A0E-45B4-BA00-39BFA73798F8",
-            "approvedDocNo": "1086609085",
-            "approvedDate": "2019-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3EC4EDC3-551F-438C-966F-3B5C67A696A1",
-            "approvedDocNo": "1086609085",
-            "approvedDate": "2019-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F34158ED-482F-462E-A560-9353FA09624D",
-            "approvedDocNo": "1086609085",
-            "approvedDate": "2019-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "004B6BC5-9A3F-4DB7-A2B1-EF5349394B32",
-            "approvedDocNo": "1086609085",
-            "approvedDate": "2019-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A4A9B107-AAB9-482C-826A-FF77948E0D6D",
-            "approvedDocNo": "1086609085",
-            "approvedDate": "2019-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01CR01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CG01"
         }
     ],
     "licBaseId": "11BC31AA-61B8-4255-B920-3EDF60ADB9BA"

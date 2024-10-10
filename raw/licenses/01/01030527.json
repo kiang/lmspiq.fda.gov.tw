@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01030527",
+    "licUnit": "1",
     "validDate": "2025-03-26 00:00:00.000",
     "issueDate": "1987-12-11 00:00:00.000",
+    "oriIssueDate": "1987-12-11",
     "licKind": "02",
     "oldLicid": "01021110",
     "certNo": "DHY00103052708",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1A500751-8326-4FA9-860D-7132F2C9A64C",
+    "subCategory": [],
     "ingredientsDesc": [
         "TERPIN HYDRATE",
         "DEXTROMETHORPHAN HBR"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B4668695-BA5D-4905-9AEA-6046F1780E80",
             "factoryCode": "1",
             "factoryName": "皇佳化學製藥股份有限公司",
             "factoryAddr": "高雄市鳥松區?埔里埔安街1號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0920322300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003250",
+            "ingredientsName": "TERPIN HYDRATE",
             "ingredientsDesc": "TERPIN HYDRATE",
             "concentDesc": "85",
             "concent": "85.0000",
@@ -85,57 +97,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C83BEE0B-A610-4FD2-899F-079E463C34F8",
-            "approvedDocNo": "1076615702",
-            "approvedDate": "2019-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "86900A8D-86A3-4C42-9B9E-2A1B90A834A5",
-            "approvedDocNo": "1076615702",
-            "approvedDate": "2019-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2ED093D6-8AE3-4722-90B4-78C14A111C49",
-            "approvedDocNo": "1076615702",
-            "approvedDate": "2019-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F76A97A4-3711-4098-8602-F4AE210978BD",
-            "approvedDocNo": "1076615702",
-            "approvedDate": "2019-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "62C78252-5D36-44D0-9863-65892D6A75C6",
-            "approvedDocNo": "1070043810",
-            "approvedDate": "2019-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05DA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
         {
             "isMain": "1",
             "atcCode": "R05FA02"

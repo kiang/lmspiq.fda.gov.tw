@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040570",
+    "licUnit": "1",
     "validDate": "2025-03-13 00:00:00.000",
     "issueDate": "1996-11-11 00:00:00.000",
+    "oriIssueDate": "1996-11-11",
     "licKind": "02",
     "oldLicid": "01020859",
     "certNo": null,
@@ -16,7 +20,7 @@
     "does": "1184",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         },
         {
@@ -31,6 +35,9 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "16177046-52C3-4DF9-AE1D-F3497A23075E",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMMONIUM CHLORIDE",
         "POTASSIUM GUAIACOLSULFONATE",
@@ -54,6 +61,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "882327E5-A769-472F-819F-E8107E894647",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
@@ -64,13 +72,16 @@
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": "0.24",
             "concent": "0.2400",
@@ -82,6 +93,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212000510",
+            "ingredientsName": "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)",
             "ingredientsDesc": "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -93,6 +105,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4004000200",
+            "ingredientsName": "AMMONIUM CHLORIDE",
             "ingredientsDesc": "AMMONIUM CHLORIDE",
             "concentDesc": "7.5",
             "concent": "7.5000",
@@ -104,6 +117,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": "7.5",
             "concent": "7.5000",
@@ -118,24 +132,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA02"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05FA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA04"
         }
     ],
     "licBaseId": "554B0655-1DE9-4690-9478-5C63ABAACC7C"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01009191",
+    "licUnit": "1",
     "validDate": "2025-03-09 00:00:00.000",
     "issueDate": "1976-03-09 00:00:00.000",
+    "oriIssueDate": "1976-03-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100919102",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1D8117A9-47C2-4B1B-8804-123F1645AF79",
+    "subCategory": [],
     "ingredientsDesc": [
         "L-TRYPTOPHAN",
         "LYSINE L- HCL 2H2O",
@@ -55,6 +62,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4B73C535-A4F9-463B-ACFF-DF003A741DFD",
             "factoryCode": "1",
             "factoryName": "大豐製藥股份有限公司",
             "factoryAddr": "彰化市延平里岸頭巷１１號",
@@ -65,13 +73,16 @@
             "factoryKind": "M",
             "factoryNo": "0306811200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101002",
+            "ingredientsName": "L-ISOLEUCINE",
             "ingredientsDesc": "L-ISOLEUCINE",
             "concentDesc": "9.6",
             "concent": "9.6000",
@@ -83,6 +94,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101202",
+            "ingredientsName": "L-LEUCINE",
             "ingredientsDesc": "L-LEUCINE",
             "concentDesc": "10.9",
             "concent": "10.9000",
@@ -94,6 +106,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101352",
+            "ingredientsName": "LYSINE L- HCL 2H2O",
             "ingredientsDesc": "LYSINE L- HCL 2H2O",
             "concentDesc": "14.4",
             "concent": "14.4000",
@@ -105,6 +118,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101502",
+            "ingredientsName": "L-METHIONINE",
             "ingredientsDesc": "L-METHIONINE",
             "concentDesc": "9.6",
             "concent": "9.6000",
@@ -116,6 +130,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101702",
+            "ingredientsName": "L-PHENYLALANINE",
             "ingredientsDesc": "L-PHENYLALANINE",
             "concentDesc": "6.4",
             "concent": "6.4000",
@@ -127,6 +142,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102002",
+            "ingredientsName": "L-THREONINE",
             "ingredientsDesc": "L-THREONINE",
             "concentDesc": "6.4",
             "concent": "6.4000",
@@ -138,6 +154,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102102",
+            "ingredientsName": "L-TRYPTOPHAN",
             "ingredientsDesc": "L-TRYPTOPHAN",
             "concentDesc": "eq to TRYPTOPHANE 3.2mg",
             "concent": "3.2000",
@@ -149,6 +166,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102302",
+            "ingredientsName": "L-VALINE",
             "ingredientsDesc": "L-VALINE",
             "concentDesc": "9.6",
             "concent": "9.6000",
@@ -160,6 +178,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100312",
+            "ingredientsName": "ARGININE HCL L-",
             "ingredientsDesc": "ARGININE HCL L-",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -171,6 +190,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100922",
+            "ingredientsName": "HISTIDINE L- HCL MONOHYDRATE",
             "ingredientsDesc": "HISTIDINE L- HCL MONOHYDRATE",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -182,6 +202,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102400",
+            "ingredientsName": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "ingredientsDesc": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "concentDesc": "14.9",
             "concent": "14.9000",
@@ -193,36 +214,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0697C5AB-6180-4819-85BC-DF10939A2CD2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "259321C9-EC28-4C7E-A67C-D9BA993C3E59",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05BA01"
-        },
         {
             "isMain": "1",
             "atcCode": "B05BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05XB01"
         }
     ],
     "licBaseId": "00695447-7E76-4770-95DF-390BBF87755F"

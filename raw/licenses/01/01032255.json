@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01032255",
+    "licUnit": "1",
     "validDate": "2025-03-02 00:00:00.000",
     "issueDate": "1990-03-02 00:00:00.000",
+    "oriIssueDate": "1990-03-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103225501",
@@ -16,13 +20,16 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "14"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E1298C07-D685-4608-B75E-0C7C346FAF6B",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM PHOSPHATE MONOBASIC MONOHYDRATE (SODIUM DIHYDROGEN PHOSPHATE MONOHYDRATE)",
         "SODIUM PHOSPHATE DIBASIC ANHYDROUS (EQ TO DISODIUM HYDROGEN PHOSPHATE ANHYDROUS)(EQ TO DIBASIC SODIUM PHOSPHATE ANHYDROUS)(DISODIUM PHOSPHATE ANHYDROUS)"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "44FE7A0E-4406-4EB0-ABD5-C3F288EDB370",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002617",
+            "ingredientsName": "SODIUM PHOSPHATE MONOBASIC MONOHYDRATE (SODIUM DIHYDROGEN PHOSPHATE MONOHYDRATE)",
             "ingredientsDesc": "SODIUM PHOSPHATE MONOBASIC MONOHYDRATE (SODIUM DIHYDROGEN PHOSPHATE MONOHYDRATE)",
             "concentDesc": "276.0",
             "concent": "276.0000",
@@ -70,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002605",
+            "ingredientsName": "SODIUM PHOSPHATE DIBASIC ANHYDROUS (EQ TO DISODIUM HYDROGEN PHOSPHATE ANHYDROUS)(EQ TO DIBASIC SODIUM PHOSPHATE ANHYDROUS)(DISODIUM PHOSPHATE ANHYDROUS)",
             "ingredientsDesc": "SODIUM PHOSPHATE DIBASIC ANHYDROUS (EQ TO DISODIUM HYDROGEN PHOSPHATE ANHYDROUS)(EQ TO DIBASIC SODIUM PHOSPHATE ANHYDROUS)(DISODIUM PHOSPHATE ANHYDROUS)",
             "concentDesc": "142.0",
             "concent": "142.0000",
@@ -83,10 +95,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05XA09"
-        },
         {
             "isMain": "1",
             "atcCode": "B05BB01"

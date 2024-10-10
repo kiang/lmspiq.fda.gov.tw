@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025164",
+    "licUnit": "1",
     "validDate": "2025-03-31 00:00:00.000",
     "issueDate": "2010-03-31 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202516408",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A273E266-920A-42D7-A9C2-B3749FC08839",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
         "ALISKIREN HEMIFUMARATE"
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D67CC275-9AAD-46A4-BDE5-C56544B6BFEA",
             "factoryCode": "1",
             "factoryName": "NOVARTIS FARMA S.P.A.",
             "factoryAddr": "VIA PROVINCIALE SCHITO 131-80058 TORRE ANNUNZIATA, ITALY",
@@ -55,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0320000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F2EE82D6-B931-455D-8EE5-378DAC3D1578",
             "factoryCode": "2",
             "factoryName": "Noden Pharma DAC",
             "factoryAddr": "D'Olier Chambers,16A D'Olier Street, Dublin 2, Ireland",
@@ -73,13 +84,16 @@
             "factoryKind": "M",
             "factoryNo": "FIE0111000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408007010",
+            "ingredientsName": "ALISKIREN HEMIFUMARATE",
             "ingredientsDesc": "ALISKIREN HEMIFUMARATE",
             "concentDesc": "(eq. to 300mg of aliskiren free base)",
             "concent": "331.5000",
@@ -91,6 +105,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": null,
             "concent": "25.0000",
@@ -102,28 +117,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9CD68DBB-2599-47CB-939A-6913E5D2D04B",
-            "approvedDocNo": "1086006430",
-            "approvedDate": "2019-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C09XA52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09XA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
         }
     ],
     "licBaseId": "01274865-43D6-4220-B9B5-F0E5F181EECD"

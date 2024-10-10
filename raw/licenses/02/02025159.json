@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025159",
+    "licUnit": "1",
     "validDate": "2025-03-30 00:00:00.000",
     "issueDate": "2010-03-30 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202515902",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "62463333-8E8B-46D3-9853-7E28DA4056EA",
+    "subCategory": [],
     "ingredientsDesc": [
         "BETAMETHASONE (AS DIPROPIONATE)",
         "CALCIPOTRIOL"
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8F96E60B-FE7D-493F-BB9A-6E4D8E3E556B",
             "factoryCode": "1",
             "factoryName": "LEO LABORATORIES LIMITED",
             "factoryAddr": "285 CASHEL ROAD, CRUMLIN, DUBLIN 12, IRELAND",
@@ -53,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FIE0034000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F7AC72D2-20E5-49A9-AFEA-E003E4A4F6BD",
             "factoryCode": "2",
             "factoryName": "LEO PHARMA A\/S.",
             "factoryAddr": "55,INDUSTRIPARKEN, DK-2750 BALLERUP, DENMARK",
@@ -71,13 +82,16 @@
             "factoryKind": "M",
             "factoryNo": "FDK0013000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200035900",
+            "ingredientsName": "CALCIPOTRIOL",
             "ingredientsDesc": "CALCIPOTRIOL",
             "concentDesc": "(as Hydrate)",
             "concent": "50.0000",
@@ -89,6 +103,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804009220",
+            "ingredientsName": "BETAMETHASONE (AS DIPROPIONATE)",
             "ingredientsDesc": "BETAMETHASONE (AS DIPROPIONATE)",
             "concentDesc": "",
             "concent": "0.5000",
@@ -115,44 +130,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E2D660CE-B7B2-4A6A-98C7-4C67A33517BD",
-            "approvedDocNo": "1120728882",
-            "approvedDate": "2023-11-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6E247B70-D393-41E3-8268-23D196081D30",
-            "approvedDocNo": "1129031635",
-            "approvedDate": "2023-09-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6822D86F-20C3-4D04-A028-B7F9BF6AF03D",
-            "approvedDocNo": "1096019679",
-            "approvedDate": "2020-11-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D05AX52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D05AX02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
         }
     ],
     "licBaseId": "41B41AFD-B29F-40CC-8698-8DF08294DD52"

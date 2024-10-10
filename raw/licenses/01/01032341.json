@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01032341",
+    "licUnit": "1",
     "validDate": "2025-03-22 00:00:00.000",
     "issueDate": "1990-03-22 00:00:00.000",
+    "oriIssueDate": "1990-03-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103234104",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1EF24113-53CD-42B8-8295-789C8541D1F7",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMIDOCAPROIC ACID -EPSILON (ACEXAMIC ACID)",
         "NEOMYCIN (SULFATE)"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2FF69B9F-947A-499E-9733-0703E927424E",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
             "factoryAddr": "彰化市東芳里彰鹿路１０６號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000100",
+            "ingredientsName": "ACETAMIDOCAPROIC ACID -EPSILON (ACEXAMIC ACID)",
             "ingredientsDesc": "ACETAMIDOCAPROIC ACID -EPSILON (ACEXAMIC ACID)",
             "concentDesc": "",
             "concent": "50.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "",
             "concent": "4.0000",
@@ -93,88 +105,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "09F6D804-11FA-4510-85D5-D03E71086451",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4324692E-18E5-4BF7-A2BB-D5EE5F9F09C1",
-            "approvedDocNo": "1101400120",
-            "approvedDate": "2021-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "809E175A-D3A8-4914-81F6-4B3EDD5BDB21",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "286CD849-7FB8-4761-90F7-4D1EE0DBFAAD",
-            "approvedDocNo": "1096803607",
-            "approvedDate": "2020-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6BA0D4EC-8683-4320-9FED-5DE7537355EE",
-            "approvedDocNo": "1096803607",
-            "approvedDate": "2020-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9953A3CA-2C2D-4715-9669-753342823F25",
-            "approvedDocNo": "1096803607",
-            "approvedDate": "2020-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2DFC107F-1D57-4378-B3C4-957426032828",
-            "approvedDocNo": "1096803607",
-            "approvedDate": "2020-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7D272C62-B159-4236-AE32-B70E1E3259F0",
-            "approvedDocNo": "1096803607",
-            "approvedDate": "2020-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
         {
             "isMain": "1",
             "atcCode": "D03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX04"
         }
     ],
     "licBaseId": "4F74ADFD-DDFB-4D31-A43A-A9E78A23601C"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02017835",
+    "licUnit": "1",
     "validDate": "2025-03-30 00:00:00.000",
     "issueDate": "2015-01-16 00:00:00.000",
+    "oriIssueDate": "1990-03-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201783507",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6D581BAC-8B53-468F-84B3-9F9FB85F51F3",
+    "subCategory": [],
     "ingredientsDesc": [
         "METRONIDAZOLE"
     ],
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "233D598D-BC02-4668-AB48-C05D2D4A1647",
             "factoryCode": "1",
             "factoryName": "FRESENIUS KABI DEUTSCHLAND GMBH",
             "factoryAddr": "FESENIUSSTRABE 1,D-61169 FRIEDBERG GERMANYD-61346 BAD HOMBURG V.D.H. GERMANY",
@@ -51,9 +59,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0257000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8FE3B01C-4DE2-4EC9-8D2C-ABDC8D976995",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
             "factoryAddr": "桃園市楊梅區梅獅路二段629號",
@@ -69,13 +80,16 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0832000300",
+            "ingredientsName": "METRONIDAZOLE",
             "ingredientsDesc": "METRONIDAZOLE",
             "concentDesc": "",
             "concent": "5.0000",
@@ -91,10 +105,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J01XD01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J01XD01"
         }
     ],

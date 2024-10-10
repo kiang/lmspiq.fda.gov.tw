@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01004933",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1974-09-23 00:00:00.000",
+    "oriIssueDate": "1974-09-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100493308",
@@ -23,11 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "99570584-9CB9-41DF-9BA3-3779F0BB2E92",
+    "subCategory": [],
     "ingredientsDesc": [
         "BUTYLSCOPOLAMINE BROMIDE (EQ TO HYOSCINE-N-BUTYLBROMIDE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "台灣陽生製藥工業股份有限公司",
     "applicantAddr": "屏東縣屏東市龍華路３８１號",
@@ -41,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F2D37E91-C877-47FB-92D3-79B4DBF3499A",
             "factoryCode": "1",
             "factoryName": "台灣陽生製藥工業股份有限公司",
             "factoryAddr": "屏東縣屏東市龍華路３８１號",
@@ -51,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "1111823200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208001210",
+            "ingredientsName": "BUTYLSCOPOLAMINE BROMIDE (EQ TO HYOSCINE-N-BUTYLBROMIDE)",
             "ingredientsDesc": "BUTYLSCOPOLAMINE BROMIDE (EQ TO HYOSCINE-N-BUTYLBROMIDE)",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -69,40 +81,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "90325FE5-141E-4BF7-B192-90B0F8FB0673",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4E1C0DD9-9227-4CD9-84FF-3AF4CF2C162B",
-            "approvedDocNo": "1096804502",
-            "approvedDate": "2020-07-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3133E2DB-7D53-4C6D-88B2-D71111C58197",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FF966CF9-2F77-4822-9BAD-64F7E3BCB5B4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

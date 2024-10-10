@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058266",
-    "validDate": "2024-05-01 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-05-01 00:00:00.000",
     "issueDate": "2014-05-01 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105826602",
@@ -27,12 +31,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "02877C4A-2962-4011-B7C9-CA5A63A77393",
+    "subCategory": [],
     "ingredientsDesc": [
         "MEROPENEM TRIHYDRATE",
         "MEROPENEM TRIHYDRATE"
     ],
     "restraintItemsCode": [
         "01",
+        "1R",
         "24"
     ],
     "applicantName": "松瑞製藥股份有限公司南科分公司針劑廠",
@@ -47,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D969B482-A17D-423B-A255-5C97F0AF1FAA",
             "factoryCode": "1",
             "factoryName": "松瑞製藥股份有限公司南科分公司針劑廠",
             "factoryAddr": "台南市新市區創業路12號4樓及16號4樓",
@@ -57,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "6105200071",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812010110",
+            "ingredientsName": "MEROPENEM TRIHYDRATE",
             "ingredientsDesc": "MEROPENEM TRIHYDRATE",
             "concentDesc": "(eq. to Meropenem) (with excipient Sodium carbonate) 500mg (potency) ",
-            "concent": "0.000",
+            "concent": "0.0000",
             "concentUnit": "",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812010110",
+            "ingredientsName": "MEROPENEM TRIHYDRATE",
             "ingredientsDesc": "MEROPENEM TRIHYDRATE",
             "concentDesc": "(eq. to Meropenem) (with excipient Sodium carbonate) 1g (potency)",
-            "concent": "0.000",
+            "concent": "0.0000",
             "concentUnit": "",
             "seq": "1",
             "prescription_seq": "2",
@@ -86,79 +99,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "85B6E7B3-2736-4FA1-9CD4-21076D4C6B7C",
-            "approvedDocNo": "1110800321",
-            "approvedDate": "2022-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "47B3BF48-A7D5-4074-8F3D-E8088951785A",
-            "approvedDocNo": "1110800321",
-            "approvedDate": "2022-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E61ACEAF-23F7-4695-9E52-9AF27829204B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1ECAE35D-20AB-49A0-B7E6-A2497C218391",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CE1D330C-B965-402B-BEC3-F07C7F225FCC",
-            "approvedDocNo": "1106601082",
-            "approvedDate": "2021-02-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C86ED2DF-CA86-4CB6-A002-1A017D3A8AA9",
-            "approvedDocNo": "1096814964",
-            "approvedDate": "2020-10-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "09397BAA-72DF-4F51-8881-4B15D4ACFD7C",
-            "approvedDocNo": "1096814964",
-            "approvedDate": "2020-10-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F7DAAC28-56A3-4A95-BA0D-4D8AE0EAFE85",
-            "approvedDocNo": "1096814964",
-            "approvedDate": "2020-10-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J01DH02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J01DH02"
         }
     ],

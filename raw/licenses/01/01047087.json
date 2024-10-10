@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047087",
+    "licUnit": "1",
     "validDate": "2025-03-15 00:00:00.000",
     "issueDate": "2005-03-15 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104708708",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "C2FF0A31-6DFD-4BC1-B497-E6C24763B81D",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "NEOMYCIN (SULFATE)",
         "POLYMYXIN B (SULFATE)",
@@ -47,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "123FB0C2-9F69-40E5-B09A-C0DC30C7B744",
             "factoryCode": "1",
             "factoryName": "溫士頓醫藥股份有限公司",
             "factoryAddr": "臺南市永康區鹽洲里仁愛街一一七號",
@@ -57,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "1217820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "(POTENCY)",
             "concent": "3.5000",
@@ -75,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812091212",
+            "ingredientsName": "POLYMYXIN B (SULFATE)",
             "ingredientsDesc": "POLYMYXIN B (SULFATE)",
             "concentDesc": "(POTENCY)",
             "concent": "5000.0000",
@@ -86,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812009110",
+            "ingredientsName": "BACITRACIN (ZINC)",
             "ingredientsDesc": "BACITRACIN (ZINC)",
             "concentDesc": "(POTENCY)",
             "concent": "400.0000",
@@ -97,56 +112,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "72CBFFCB-B3F0-465C-91EF-834187B28E93",
-            "approvedDocNo": "1086806610",
-            "approvedDate": "2019-05-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "766E5510-176B-41D1-A6F6-02C786BABF17",
-            "approvedDocNo": "1070031979",
-            "approvedDate": "2019-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3AFE9B91-CEAD-49C9-9D6E-342B12D93B66",
-            "approvedDocNo": "1070031979",
-            "approvedDate": "2019-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C76A45E0-70DC-48B0-BACE-54EEADF1CEB4",
-            "approvedDocNo": "1070031979",
-            "approvedDate": "2019-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D06AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX05"
         }
     ],
     "licBaseId": "4A1482F1-20DD-43E9-B198-B51F33C32255"

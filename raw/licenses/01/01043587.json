@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043587",
+    "licUnit": "1",
     "validDate": "2025-03-07 00:00:00.000",
     "issueDate": "2000-05-08 00:00:00.000",
+    "oriIssueDate": "2000-05-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104358708",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C6068CBB-96E7-4BAD-B973-31C872EC8F4C",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "CARBINOXAMINE MALEATE",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A56278DF-BAB0-4009-BC67-DC00D41329B2",
             "factoryCode": "1",
             "factoryName": "黃氏製藥股份有限公司",
             "factoryAddr": "雲林縣斗南鎮小東里大同路４４４巷１１號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "1223216300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000610",
+            "ingredientsName": "CARBINOXAMINE MALEATE",
             "ingredientsDesc": "CARBINOXAMINE MALEATE",
             "concentDesc": "",
             "concent": "3.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
             "concent": "50.0000",
@@ -86,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002310",
+            "ingredientsName": "PHENYLEPHRINE HCL",
             "ingredientsDesc": "PHENYLEPHRINE HCL",
             "concentDesc": "",
             "concent": "10.0000",
@@ -97,80 +110,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A8485080-9323-4995-AAC8-2D47A37DFCE7",
-            "approvedDocNo": "1110808125",
-            "approvedDate": "2022-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F65ED685-4E20-4FF5-B0B0-3762848BB14A",
-            "approvedDocNo": "1110808125",
-            "approvedDate": "2022-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "55635CD0-4FE4-4FDB-BF70-3C323C98CDFB",
-            "approvedDocNo": "1110808125",
-            "approvedDate": "2022-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "93278808-442E-45F4-8CAF-4E911BAA448D",
-            "approvedDocNo": "1110808125",
-            "approvedDate": "2022-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "42B85625-EC82-40E3-8154-C57ECB639EE4",
-            "approvedDocNo": "1086608332",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1C07ABA3-31E1-43BB-B8BA-FF03F18118B0",
-            "approvedDocNo": "1086608332",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3C22C55F-FA06-40A8-A30C-4E57A8C2F58C",
-            "approvedDocNo": "1086608332",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
         {
             "isMain": "1",
             "atcCode": "R01BA53"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AA08"
         }
     ],
     "licBaseId": "0C651D8B-73D3-4091-8D0A-6E9B30798EC0"

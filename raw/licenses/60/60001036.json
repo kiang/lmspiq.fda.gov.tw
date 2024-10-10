@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001036",
+    "licUnit": "1",
     "validDate": "2026-12-08 00:00:00.000",
     "issueDate": "2016-12-08 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000103605",
@@ -28,11 +31,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "C525042D-595E-48A0-9D73-18DA3569CDBD",
+    "subCategory": [
+        "C04"
+    ],
     "ingredientsDesc": [
+        "A\/Thailand\/8\/2022 (H3N2)-like strain (A\/California\/122\/2022, SAN-022)",
         "B\/Austria\/1359417\/2021 - like strain (B\/Michigan\/01\/2021, wild type)",
         "B\/Phuket\/3073\/2013 - like strain (B\/Phuket\/3073\/2013, wild type)",
-        "A\/Victoria\/4897\/2022 (H1N1)pdm09-like strain (A\/Victoria\/4897\/2022, IVR-238)",
-        "A\/Darwin\/9\/2021 (H3N2) - like strain (A\/Darwin\/9\/2021, IVR-228)"
+        "A\/Victoria\/4897\/2022 (H1N1)pdm09-like strain (A\/Victoria\/4897\/2022, IVR-238)"
     ],
     "restraintItemsCode": [
         "02",
@@ -51,6 +59,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BC8F67D7-3680-41A4-A05C-68C5D1919BEF",
             "factoryCode": "1",
             "factoryName": "SANOFI PASTEUR",
             "factoryAddr": "PARC INDUSTRIEL D'INCARVILLE, BP.101, 27101(OR 27100), VAL DE REUIL CEDEX, FRANCE",
@@ -66,9 +75,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0256000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "CD767D16-F205-4F06-BCBF-CD986F6F798E",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -84,9 +96,12 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "141D53CC-55F4-46A3-BDDE-693C85E36ECA",
             "factoryCode": "2",
             "factoryName": "SANOFI PASTEUR",
             "factoryAddr": "1541, AV. MARCEL-MERIEUX, 69280 MARCY L'ETOILE FRANCE",
@@ -102,9 +117,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0017000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "08887A24-FF79-4C67-9695-792E6A8E274A",
             "factoryCode": "2",
             "factoryName": "Sanofi Winthrop Industrie",
             "factoryAddr": "1051 BOULEVARD INDUSTRIEL, 76580 LE TRAIT, FRANCE",
@@ -120,13 +138,16 @@
             "factoryKind": "M",
             "factoryNo": "MFR0940000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8012002540",
+            "ingredientsName": "A\/Victoria\/4897\/2022 (H1N1)pdm09-like strain (A\/Victoria\/4897\/2022, IVR-238)",
             "ingredientsDesc": "A\/Victoria\/4897\/2022 (H1N1)pdm09-like strain (A\/Victoria\/4897\/2022, IVR-238)",
             "concentDesc": "",
             "concent": "15.0000",
@@ -137,8 +158,9 @@
         },
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "8012018060",
-            "ingredientsDesc": "A\/Darwin\/9\/2021 (H3N2) - like strain (A\/Darwin\/9\/2021, IVR-228)",
+            "ingredientsCode": "8012006260",
+            "ingredientsName": "B\/Austria\/1359417\/2021 - like strain (B\/Michigan\/01\/2021, wild type)",
+            "ingredientsDesc": "B\/Austria\/1359417\/2021 - like strain (B\/Michigan\/01\/2021, wild type)",
             "concentDesc": "",
             "concent": "15.0000",
             "concentUnit": "263",
@@ -148,8 +170,9 @@
         },
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "8012006260",
-            "ingredientsDesc": "B\/Austria\/1359417\/2021 - like strain (B\/Michigan\/01\/2021, wild type)",
+            "ingredientsCode": "8012006210",
+            "ingredientsName": "B\/Phuket\/3073\/2013 - like strain (B\/Phuket\/3073\/2013, wild type)",
+            "ingredientsDesc": "B\/Phuket\/3073\/2013 - like strain (B\/Phuket\/3073\/2013, wild type)",
             "concentDesc": "",
             "concent": "15.0000",
             "concentUnit": "263",
@@ -159,260 +182,20 @@
         },
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "8012006210",
-            "ingredientsDesc": "B\/Phuket\/3073\/2013 - like strain (B\/Phuket\/3073\/2013, wild type)",
-            "concentDesc": "",
+            "ingredientsCode": "8012005712",
+            "ingredientsName": "A\/Thailand\/8\/2022 (H3N2)-like strain (A\/California\/122\/2022, SAN-022)",
+            "ingredientsDesc": "A\/Thailand\/8\/2022 (H3N2)-like strain (A\/California\/122\/2022, SAN-022)",
+            "concentDesc": null,
             "concent": "15.0000",
             "concentUnit": "263",
-            "seq": "4",
+            "seq": "5",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2D56DBCD-21D0-484C-81EF-46F784D48B00",
-            "approvedDocNo": "1129062605",
-            "approvedDate": "2024-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F3D9B847-23ED-4087-95BA-B34A199F9352",
-            "approvedDocNo": "1120714401",
-            "approvedDate": "2023-09-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "739A6E10-A72B-4ADA-9A7D-2D3273183544",
-            "approvedDocNo": "1110728633",
-            "approvedDate": "2023-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "49F4EEB4-F222-46A5-BEDC-45AAC0BA0906",
-            "approvedDocNo": "1110720088",
-            "approvedDate": "2022-11-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A1177B62-6C62-47B2-B4BF-031E6AD4D50C",
-            "approvedDocNo": "1110715219",
-            "approvedDate": "2022-09-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "23158FB3-A972-4C69-B9C8-7FBB6E2358A1",
-            "approvedDocNo": "1110715219",
-            "approvedDate": "2022-09-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E7F195BD-48BA-4A3C-B44A-870D87F9E58C",
-            "approvedDocNo": "1110715219",
-            "approvedDate": "2022-09-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BF8912FF-358F-40C6-8486-A1FF5AAE8EA6",
-            "approvedDocNo": "1110715219",
-            "approvedDate": "2022-09-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F270A918-8292-454C-ADC3-A3F3917AA521",
-            "approvedDocNo": "1110701082",
-            "approvedDate": "2022-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0A3FCFCF-9121-42BF-ADDE-D1502D3066AE",
-            "approvedDocNo": "1110701081",
-            "approvedDate": "2022-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D739C830-31C3-4292-9D61-10FDBA0849D7",
-            "approvedDocNo": "1119006058",
-            "approvedDate": "2022-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3D079062-8C04-4DE3-95CF-DB32B238B734",
-            "approvedDocNo": "1106024134",
-            "approvedDate": "2022-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2FCBD9AB-D6BF-4F60-AC34-B887A754427D",
-            "approvedDocNo": "1106033247",
-            "approvedDate": "2022-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9D278AA2-2BE8-4EAF-AF3F-6422E304B98E",
-            "approvedDocNo": "1106024135",
-            "approvedDate": "2021-12-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2AC6B9C9-28AC-4824-8BB1-DB171A9E10FA",
-            "approvedDocNo": "1101492396",
-            "approvedDate": "2021-11-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A88DB247-9A90-4FA9-AA6A-CAF7575F5F7C",
-            "approvedDocNo": "1106019125",
-            "approvedDate": "2021-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F6B6DC9C-ABA8-4776-BFDC-6B7517B08B6D",
-            "approvedDocNo": "1106019125",
-            "approvedDate": "2021-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7501DF50-3EE5-4E6E-893C-90F21BF8B301",
-            "approvedDocNo": "1106019125",
-            "approvedDate": "2021-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "37BDD09A-2EB9-4DFA-85A2-88E6DFFCB7A4",
-            "approvedDocNo": "1101401976",
-            "approvedDate": "2021-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2778E185-6F73-4C55-94BF-457A75639FE0",
-            "approvedDocNo": "1096021126",
-            "approvedDate": "2020-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5FEC2339-1AC7-4DDE-B923-A1A19DF6589A",
-            "approvedDocNo": "1091492913",
-            "approvedDate": "2020-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "548F67BE-C359-40F3-8FCB-A1B1883A73AD",
-            "approvedDocNo": "1096021126",
-            "approvedDate": "2020-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "64CE4088-F552-4B7A-92F6-FF3926A61E8D",
-            "approvedDocNo": "1096021126",
-            "approvedDate": "2020-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "32B4D087-958D-4A06-AB2E-0EC18BA03EE4",
-            "approvedDocNo": "1091490342",
-            "approvedDate": "2020-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "98F70CA6-7CBB-482F-9713-414DC0F8AB94",
-            "approvedDocNo": "1086019428",
-            "approvedDate": "2019-10-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "06C82B9D-E5AD-4502-929D-95D9D5A9DEBA",
-            "approvedDocNo": "1086019428",
-            "approvedDate": "2019-10-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9931ECC6-AC18-4AB6-A76F-6879933A13D6",
-            "approvedDocNo": "1086019428",
-            "approvedDate": "2019-10-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "02664C09-32CF-4283-92F2-6BFC6487CF5A",
-            "approvedDocNo": "1086007982",
-            "approvedDate": "2019-07-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E841A673-696C-4D7F-8C51-197FCA05AD4C",
-            "approvedDocNo": "1086003865",
-            "approvedDate": "2019-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AF62CB49-1725-4801-8E86-AF58E51EE948",
-            "approvedDocNo": "1086003865",
-            "approvedDate": "2019-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

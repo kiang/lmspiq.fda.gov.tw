@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01030766",
+    "licUnit": "1",
     "validDate": "2025-03-21 00:00:00.000",
     "issueDate": "1988-03-21 00:00:00.000",
+    "oriIssueDate": "1988-03-21",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00103076600",
@@ -20,17 +24,20 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "C7"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A80C9B59-F778-46B2-BCE1-8E9E156ED9C9",
+    "subCategory": [],
     "ingredientsDesc": [
         "BEZAFIBRATE"
     ],
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DDE9770E-7D0B-4806-A667-F8DB7D1E2393",
             "factoryCode": "1",
             "factoryName": "黃氏製藥股份有限公司",
             "factoryAddr": "雲林縣斗南鎮小東里大同路４４４巷１１號",
@@ -59,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "1223216300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406000100",
+            "ingredientsName": "BEZAFIBRATE",
             "ingredientsDesc": "BEZAFIBRATE",
             "concentDesc": "200",
             "concent": "200.0000",
@@ -77,39 +88,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D2955226-DF6A-4E3E-A9DD-1C19B3B6D542",
-            "approvedDocNo": "1110812185",
-            "approvedDate": "2023-02-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7BE40483-9A6F-435A-8DE6-B14958B8D756",
-            "approvedDocNo": "1110812185",
-            "approvedDate": "2023-02-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "650A3D99-9E8B-4DD2-B4CC-F3F68A9C5C99",
-            "approvedDocNo": "1110812185",
-            "approvedDate": "2023-02-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "C10AB02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C10AB02"
         }
     ],

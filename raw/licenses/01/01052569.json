@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01052569",
+    "licUnit": "1",
     "validDate": "2025-03-22 00:00:00.000",
     "issueDate": "2010-03-22 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105256907",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "79DAC2EC-4E71-43D7-86D3-D773986D2F55",
+    "subCategory": [],
     "ingredientsDesc": [
         "ATROPINE SULFATE"
     ],
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FAD949BE-46AF-424E-9921-B313EA17A076",
             "factoryCode": "1",
             "factoryName": "麥迪森醫藥股份有限公司桃園廠",
             "factoryAddr": "桃園市桃園區桃鶯路445之2號",
@@ -51,13 +59,16 @@
             "factoryKind": "M",
             "factoryNo": "6132011106",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208000530",
+            "ingredientsName": "ATROPINE SULFATE",
             "ingredientsDesc": "ATROPINE SULFATE",
             "concentDesc": "",
             "concent": "1.2500",
@@ -69,47 +80,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1EA2F707-BB26-498B-945D-7E96D61B2510",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "13C90813-E8A0-4958-9354-B2CB42043B7E",
-            "approvedDocNo": "1086606268",
-            "approvedDate": "2019-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7620D2F1-E644-47D7-ADD7-DBECFEB22F09",
-            "approvedDocNo": "1086606268",
-            "approvedDate": "2019-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "86C853A5-BC68-492D-9814-84CE91CFCDA3",
-            "approvedDocNo": "1076613561",
-            "approvedDate": "2019-01-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "S01FA01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "S01FA01"
         }
     ],

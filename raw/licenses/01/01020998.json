@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01020998",
+    "licUnit": "1",
     "validDate": "2025-03-17 00:00:00.000",
     "issueDate": "1980-03-17 00:00:00.000",
+    "oriIssueDate": "1980-03-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102099802",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "90B7EBB6-A4D0-48EA-86CB-E491AB6D3253",
+    "subCategory": [],
     "ingredientsDesc": [
         "IODOCHLORHYDROXYQUIN",
         "GENTAMICIN SULFATE",
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "261306BE-9083-4C40-AB20-B474E150640C",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司二廠",
             "factoryAddr": "台南市新營區開元路１５４號",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "6141010064",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000251",
+            "ingredientsName": "BETAMETHASONE 17-VALERATE",
             "ingredientsDesc": "BETAMETHASONE 17-VALERATE",
             "concentDesc": "",
             "concent": "0.5000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812100310",
+            "ingredientsName": "GENTAMICIN SULFATE",
             "ingredientsDesc": "GENTAMICIN SULFATE",
             "concentDesc": "eq to GENTAMICIN BASE 1MG POTENCY",
             "concent": "1.0000",
@@ -87,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404801300",
+            "ingredientsName": "TOLNAFTATE",
             "ingredientsDesc": "TOLNAFTATE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -98,6 +111,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0804000900",
+            "ingredientsName": "IODOCHLORHYDROXYQUIN",
             "ingredientsDesc": "IODOCHLORHYDROXYQUIN",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -109,52 +123,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E22E59B8-7722-4A5A-A13D-36649116947B",
-            "approvedDocNo": "1110016778",
-            "approvedDate": "2022-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A71C2B8B-8120-406A-9679-91FB366626E5",
-            "approvedDocNo": "1110016778",
-            "approvedDate": "2022-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4428EE8A-9C1E-4547-AD5D-B6CB35CC3C16",
-            "approvedDocNo": "1106607425",
-            "approvedDate": "2021-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D08AH30"
-        },
         {
             "isMain": "1",
             "atcCode": "D01AE20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AE18"
         }
     ],
     "licBaseId": "3F76328E-2D44-460B-A13A-A7D58127B78F"

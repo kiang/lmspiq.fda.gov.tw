@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01017367",
-    "validDate": "2025-03-09 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2030-03-09 00:00:00.000",
     "issueDate": "2005-03-09 00:00:00.000",
+    "oriIssueDate": "1979-05-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101736709",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "062435E4-552B-44C3-921A-C04D185987F3",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "PSEUDOEPHEDRINE HCL"
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C1BF0894-6516-4205-98F1-06ECF081072A",
             "factoryCode": "1",
             "factoryName": "福元化學製藥股份有限公司",
             "factoryAddr": "新北市瑞芳區大寮路９５號之１",
@@ -53,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "1419502300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
             "concent": "325.0000",
@@ -71,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002610",
+            "ingredientsName": "PSEUDOEPHEDRINE HCL",
             "ingredientsDesc": "PSEUDOEPHEDRINE HCL",
             "concentDesc": "",
             "concent": "30.0000",
@@ -82,44 +96,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "05F5297D-F52A-4BA1-B6AC-4062EEB9FA61",
-            "approvedDocNo": "1086010888",
-            "approvedDate": "2019-08-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0BC60813-6136-4507-A7D4-66F1C7005EC2",
-            "approvedDocNo": "1086010888",
-            "approvedDate": "2019-08-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "832CDB28-43B9-49D8-AD5E-CEE4C3A406F8",
-            "approvedDocNo": "1086010888",
-            "approvedDate": "2019-08-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
         {
             "isMain": "1",
             "atcCode": "R05X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA02"
         }
     ],
     "licBaseId": "BBD73D08-A8DB-4DB3-935D-6BFA3F90F46F"

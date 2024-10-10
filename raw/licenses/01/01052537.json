@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01052537",
+    "licUnit": "1",
     "validDate": "2025-03-02 00:00:00.000",
     "issueDate": "2010-03-02 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105253707",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FBA2A03E-8556-432C-9E4D-A61A5F188652",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIZATRIPTAN BENZOATE"
     ],
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A68D08E2-8F5F-488B-BD58-AFAF8B7E8965",
             "factoryCode": "1",
             "factoryName": "保瑞藥業股份有限公司",
             "factoryAddr": "台南市官田區二鎮里工業西路54號",
@@ -53,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "6105140025",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200038610",
+            "ingredientsName": "RIZATRIPTAN BENZOATE",
             "ingredientsDesc": "RIZATRIPTAN BENZOATE",
             "concentDesc": "(eq. Rizatriptan 5mg )",
             "concent": "7.2650",
@@ -79,55 +90,10 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B131FC0A-3AE4-45C5-B0BA-150BCCB8A5CC",
-            "approvedDocNo": "1119015793",
-            "approvedDate": "2022-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A0168EC4-F071-4018-AF93-18E872A986A5",
-            "approvedDocNo": "1119006826",
-            "approvedDate": "2022-03-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B0ED1515-1111-4F14-97A8-268BEA24FEF3",
-            "approvedDocNo": "1119006826",
-            "approvedDate": "2022-03-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C9651FA3-9112-4CB5-BC36-FA1D810CDC29",
-            "approvedDocNo": "1119006826",
-            "approvedDate": "2022-03-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "07561486-A013-4AEC-AB9B-31AAD2DD907E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N02CC04"
-        },
-        {
-            "isMain": "2",
             "atcCode": "N02CC04"
         }
     ],

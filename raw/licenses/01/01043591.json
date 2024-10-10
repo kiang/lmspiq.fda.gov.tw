@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043591",
+    "licUnit": "1",
     "validDate": "2025-03-08 00:00:00.000",
     "issueDate": "2000-03-08 00:00:00.000",
+    "oriIssueDate": "2000-03-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104359102",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C2FBAF6A-53AC-47F4-96D6-A998E3933FCF",
+    "subCategory": [],
     "ingredientsDesc": [
         "ISOCONAZOLE NITRATE",
         "DIFLUCORTOLONE VALERATE",
@@ -50,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A4D8F037-A3B9-4460-84AD-53E043AC7D67",
             "factoryCode": "1",
             "factoryName": "壽元化學工業股份有限公司",
             "factoryAddr": "嘉義市西區新民路128號",
@@ -60,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "1421417300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200610",
+            "ingredientsName": "ISOCONAZOLE NITRATE",
             "ingredientsDesc": "ISOCONAZOLE NITRATE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -78,6 +89,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000810",
+            "ingredientsName": "DIFLUCORTOLONE VALERATE",
             "ingredientsDesc": "DIFLUCORTOLONE VALERATE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -89,6 +101,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200610",
+            "ingredientsName": "ISOCONAZOLE NITRATE",
             "ingredientsDesc": "ISOCONAZOLE NITRATE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -100,6 +113,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000810",
+            "ingredientsName": "DIFLUCORTOLONE VALERATE",
             "ingredientsDesc": "DIFLUCORTOLONE VALERATE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -111,6 +125,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200610",
+            "ingredientsName": "ISOCONAZOLE NITRATE",
             "ingredientsDesc": "ISOCONAZOLE NITRATE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -122,6 +137,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000810",
+            "ingredientsName": "DIFLUCORTOLONE VALERATE",
             "ingredientsDesc": "DIFLUCORTOLONE VALERATE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -133,65 +149,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2EA1EA21-A7D3-471B-8599-9FE2BC64EA22",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-09-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8BEAD7AC-97AB-4ED0-843F-A6127B846393",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-01-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8933456E-4090-4BB8-95B0-B5E1DB2085B1",
-            "approvedDocNo": "1110022368",
-            "approvedDate": "2022-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E5145FF5-1A75-4FD0-B36F-CB89145F4280",
-            "approvedDocNo": "1110022368",
-            "approvedDate": "2022-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DF994474-022E-4FF0-8A0B-4EE824E8BFE7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1EA640C8-A1D1-43BD-813A-73A6709EE2B1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D01AC05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC06"
-        },
         {
             "isMain": "1",
             "atcCode": "D01AC20"

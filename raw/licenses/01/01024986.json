@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01024986",
+    "licUnit": "1",
     "validDate": "2025-03-02 00:00:00.000",
     "issueDate": "1982-03-02 00:00:00.000",
+    "oriIssueDate": "1982-03-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102498602",
@@ -31,6 +35,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "533B3339-3FEA-42F6-A0B3-CC31A98AC765",
+    "subCategory": [],
     "ingredientsDesc": [
         "FRUCTOSE (LAEVULOSE)",
         "SODIUM CHLORIDE",
@@ -51,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "84A45A7E-00FC-49DE-8F73-5EC98135E2FD",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區中山路1001號、1001之1號",
@@ -61,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600013500",
+            "ingredientsName": "GLYCERIN (eq to GLYCEROL)",
             "ingredientsDesc": "GLYCERIN (eq to GLYCEROL)",
             "concentDesc": "",
             "concent": "100.0000",
@@ -79,6 +90,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000600",
+            "ingredientsName": "FRUCTOSE (LAEVULOSE)",
             "ingredientsDesc": "FRUCTOSE (LAEVULOSE)",
             "concentDesc": "",
             "concent": "50.0000",
@@ -90,6 +102,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
             "concent": "9.0000",
@@ -101,44 +114,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DF7BAA8A-DE9E-49C7-801D-28022C481478",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "78D57B9D-2A75-4C78-A538-66EE4BCE004B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7BB21B5C-3117-42B7-BC26-DE75CC8FD01E",
-            "approvedDocNo": "1101490511",
-            "approvedDate": "2021-03-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "B05BC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BB01"
         }
     ],
     "licBaseId": "F9EFEAD4-2BE1-4CED-911E-E164DF3CDEC4"

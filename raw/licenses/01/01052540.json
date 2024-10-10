@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01052540",
+    "licUnit": "1",
     "validDate": "2025-03-03 00:00:00.000",
     "issueDate": "2010-03-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105254009",
@@ -31,12 +35,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "87747C69-264B-4522-9D86-6CEEF4F1470D",
+    "subCategory": [],
     "ingredientsDesc": [
         "POTASSIUM CITRATE MONOHYDRATE",
         "CITRIC ACID MONOHYDRATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "68"
     ],
     "applicantName": "盛雲藥品股份有限公司",
     "applicantAddr": "台中市西區忠明南路303號18樓之3",
@@ -50,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FF4B4E50-1A3C-4174-9FCB-1D59E2B0A6EB",
             "factoryCode": "1",
             "factoryName": "羅得化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區東西七路一段65號",
@@ -60,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "1901510300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000360",
+            "ingredientsName": "POTASSIUM CITRATE MONOHYDRATE",
             "ingredientsDesc": "POTASSIUM CITRATE MONOHYDRATE",
             "concentDesc": null,
             "concent": "660.0000",
@@ -78,6 +90,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200001760",
+            "ingredientsName": "CITRIC ACID MONOHYDRATE",
             "ingredientsDesc": "CITRIC ACID MONOHYDRATE",
             "concentDesc": null,
             "concent": "200.4000",
@@ -89,21 +102,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E08F2707-FF04-425C-AB52-ABD4E1989F71",
-            "approvedDocNo": "1106615391",
-            "approvedDate": "2022-02-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "G04BC"
-        },
         {
             "isMain": "1",
             "atcCode": "G04BC"
