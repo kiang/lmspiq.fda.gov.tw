@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "70000067",
+    "licUnit": "1",
     "validDate": "2031-05-18 00:00:00.000",
     "issueDate": "2021-05-18 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA07000006707",
@@ -24,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "513CD087-FBB6-49B9-A204-1351F249C600",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Stiripentol"
     ],
@@ -43,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7C35911B-EFB9-4524-90CC-960E57678DD3",
             "factoryCode": "1",
             "factoryName": "BIOCODEX",
             "factoryAddr": "1 AVENUE BLAISE PASCAL, 60000 BEAUVAIS, FRANCE",
@@ -58,9 +67,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0027000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "75F8E1DB-E5F6-4CDB-8445-4D65E43D76C5",
             "factoryCode": "2",
             "factoryName": "科懋生物科技股份有限公司",
             "factoryAddr": "新北市汐止區大同路一段120、122、126號6樓",
@@ -76,13 +88,37 @@
             "factoryKind": "M",
             "factoryNo": "6131111849",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "17381D0A-2689-49DC-A36E-8FC6761D9C1B",
+            "factoryCode": "2",
+            "factoryName": "BIOCODEX",
+            "factoryAddr": "22 RUE DES AQUEDUCS, 94250 GENTILLY, FRANCE",
+            "factoryCompanyAddr": null,
+            "countryCode": "FR",
+            "processCode": [
+                {
+                    "value": "01",
+                    "name": "許可證持有者"
+                }
+            ],
+            "processCodeStr": "01;許可證持有者",
+            "factoryKind": "M",
+            "factoryNo": "FFR0439000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2803017000",
+            "ingredientsName": "Stiripentol",
             "ingredientsDesc": "Stiripentol",
             "concentDesc": "",
             "concent": "250.0000",
@@ -94,16 +130,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DACFBA47-FF12-47C2-A9E2-40C13630BE9E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2024-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02012714",
+    "licUnit": "1",
     "validDate": "2028-12-18 00:00:00.000",
     "issueDate": "2018-11-02 00:00:00.000",
+    "oriIssueDate": "1993-12-04",
     "licKind": "02",
     "oldLicid": "02012089",
     "certNo": "DHA00201271409",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F796378F-1F12-4068-8E93-CCDA250E560F",
+    "subCategory": [],
     "ingredientsDesc": [
         "CARBACHOL"
     ],
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "EFBA69F6-6345-4129-8D10-02E67A118496",
             "factoryCode": "1",
             "factoryName": "ALCON RESEARCH LLC",
             "factoryAddr": "6201, SOUTH FREEWAY, FORT WORTH, TEXAS 76134, U.S.A.",
@@ -56,12 +64,36 @@
             "factoryKind": "M",
             "factoryNo": "FUS0011100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "AAA2B9F1-1E98-4A42-BDC9-2237F38B6FD6",
+            "factoryCode": "2",
+            "factoryName": "台灣大昌華嘉股份有限公司高上倉",
+            "factoryAddr": "桃園市楊梅區高上路1段150號",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "3P",
+                    "name": "二級包裝廠(委託貼標及置入仿單)"
+                }
+            ],
+            "processCodeStr": "3P;二級包裝廠(委託貼標及置入仿單)",
+            "factoryKind": "M",
+            "factoryNo": "6132041444",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "C42519FF-58BC-4B65-801B-226E85B1761C",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
-            "factoryAddr": "桃園市楊梅區梅獅路二段629號",
+            "factoryAddr": "桃園市楊梅區瑞坪里梅獅路二段６２９號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [
@@ -74,12 +106,15 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7A1750E5-42DE-4CB6-8C96-54F99E02838C",
             "factoryCode": "2",
             "factoryName": "ALCON LABORATORIES, INC.",
-            "factoryAddr": "6201 SOUTH FREEWAY, FORT WORTH, TEXAS 76134",
+            "factoryAddr": "6201, SOUTH FREEWAY, FORT WORTH, TEXAS 76134, U.S.A.",
             "factoryCompanyAddr": "",
             "countryCode": "US",
             "processCode": [
@@ -92,13 +127,16 @@
             "factoryKind": "M",
             "factoryNo": "FUS0011000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5220000100",
+            "ingredientsName": "CARBACHOL",
             "ingredientsDesc": "CARBACHOL",
             "concentDesc": "0.1",
             "concent": "0.1000",
@@ -110,40 +148,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9DA96374-97B9-4F3A-8769-CC332973F203",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "66BD660F-8778-4825-8B7C-1B94909CBD09",
-            "approvedDocNo": "1096002295",
-            "approvedDate": "2020-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "332E30E9-C1D5-410D-879C-B091331E1247",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "392EAE97-12B5-4E01-94D4-57D5C7D9035E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

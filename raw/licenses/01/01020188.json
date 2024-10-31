@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01020188",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1980-01-11 00:00:00.000",
+    "oriIssueDate": "1980-01-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102018806",
@@ -16,13 +20,16 @@
     "does": "3360",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "630534C7-A842-4C35-994E-6A47EC6CB4BF",
+    "subCategory": [],
     "ingredientsDesc": [
         "L-MENTHOL ",
         "METHYL SALICYLATE",
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8769DC12-F9BA-4108-9B1F-E12C43786335",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
@@ -54,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000100",
+            "ingredientsName": "CAMPHOR",
             "ingredientsDesc": "CAMPHOR",
             "concentDesc": null,
             "concent": "96.0000",
@@ -72,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000302",
+            "ingredientsName": "L-MENTHOL ",
             "ingredientsDesc": "L-MENTHOL ",
             "concentDesc": null,
             "concent": "13.5000",
@@ -83,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424400200",
+            "ingredientsName": "METHYL SALICYLATE",
             "ingredientsDesc": "METHYL SALICYLATE",
             "concentDesc": null,
             "concent": "2.2000",
@@ -94,51 +107,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5C1CDA15-D541-4061-8A44-8ADBAC25CF83",
-            "approvedDocNo": "1086607694",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1A0B594E-F58C-4C14-A6E4-A36398B0937B",
-            "approvedDocNo": "1086607694",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "100D9B39-5E5E-4649-80C0-B14DC310ADF1",
-            "approvedDocNo": "1086607694",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2FFFBBE2-051A-4B30-8B15-F8BE0A787CB9",
-            "approvedDocNo": "1086607694",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "A02AF"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
             "atcCode": "A02AF"
         }
     ],

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01022640",
-    "validDate": "2024-12-19 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-19 00:00:00.000",
     "issueDate": "1980-12-19 00:00:00.000",
+    "oriIssueDate": "1980-12-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102264008",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "295D693F-5475-44E7-904E-5700C6440450",
+    "subCategory": [],
     "ingredientsDesc": [
         "NEOMYCIN (SULFATE)",
         "FLUOCINOLONE ACETONIDE"
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6EBFDF16-579F-4317-9ED4-4241929FF8D7",
             "factoryCode": "1",
             "factoryName": "榮民製藥股份有限公司",
             "factoryAddr": "桃園市中壢區中山東路３段４４７號",
@@ -53,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "6132020070",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000910",
+            "ingredientsName": "FLUOCINOLONE ACETONIDE",
             "ingredientsDesc": "FLUOCINOLONE ACETONIDE",
             "concentDesc": "0.25",
             "concent": "0.2500",
@@ -71,6 +82,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "(5.0MG) 3.5",
             "concent": null,
@@ -82,77 +94,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2B41FBD9-3F78-459C-B894-358B69494CC0",
-            "approvedDocNo": "1110816307",
-            "approvedDate": "2022-12-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FF20F46D-ABC8-4AB9-A57F-7303098AA4B8",
-            "approvedDocNo": "1110816307",
-            "approvedDate": "2022-12-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8E67F208-76E3-482B-B230-809A6D7FC9FE",
-            "approvedDocNo": "1110816307",
-            "approvedDate": "2022-12-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "16E25254-6CBA-4A9B-9B60-B37146039AC7",
-            "approvedDocNo": "1110816307",
-            "approvedDate": "2022-12-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D213F66A-9F58-4CFA-871A-3200DB4D2B11",
-            "approvedDocNo": "1086609598",
-            "approvedDate": "2020-02-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BD27A330-42F0-4058-94A2-99C44B1CB9C8",
-            "approvedDocNo": "1086609598",
-            "approvedDate": "2020-02-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "12A805D8-F3C6-4727-96CF-7E21FC0C0328",
-            "approvedDocNo": "1086609598",
-            "approvedDate": "2020-02-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D813C8AA-D4E6-49F6-8C4C-6E32DAEDB8CD",
-            "approvedDocNo": "1086609598",
-            "approvedDate": "2020-02-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D07AC04"
-        },
         {
             "isMain": "1",
             "atcCode": "D07CC02"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058060",
+    "licUnit": "1",
     "validDate": "2024-12-31 00:00:00.000",
     "issueDate": "2013-08-27 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": "12013358",
     "certNo": "DHY05105806005",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "926FEAC7-9E0E-4D30-B0EB-48DA08C89940",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIBOFLAVIN (VIT B2)",
         "THIAMINE DISULFIDE",
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FAAF2DC3-EF18-466F-A0D1-D89D8A31545D",
             "factoryCode": "1",
             "factoryName": "福元化學製藥股份有限公司",
             "factoryAddr": "新北市瑞芳區大寮路９５號之１",
@@ -58,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "1419502300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100800",
+            "ingredientsName": "THIAMINE DISULFIDE",
             "ingredientsDesc": "THIAMINE DISULFIDE",
             "concentDesc": "(T.D.S.)",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -98,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "",
-            "concent": "0.005",
+            "concent": "0.0050",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -109,57 +123,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E4EBB4B1-086B-4A58-99CE-0DE2B5ED8F0D",
-            "approvedDocNo": "1106011894",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D56DE203-B4B8-4273-9DB9-2472A058D0CC",
-            "approvedDocNo": "1106011894",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D477CD05-524C-4420-B578-CE31C33565BC",
-            "approvedDocNo": "1106011894",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C23064AC-F591-4332-819A-FAA8D1B72D8D",
-            "approvedDocNo": "1106011894",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
         {
             "isMain": "1",
             "atcCode": "A11JA"

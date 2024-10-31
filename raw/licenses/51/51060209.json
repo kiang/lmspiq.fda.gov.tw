@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060209",
-    "validDate": "2023-11-28 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2028-11-28 00:00:00.000",
     "issueDate": "2018-11-28 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106020905",
@@ -27,6 +31,11 @@
     "medMCode": "17",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "CC3AA0D4-06ED-49EE-8623-655DB1E0F1F2",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "PREDNISOLONE",
         "CHLORPHENIRAMINE MALEATE",
@@ -47,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "11B1AAEE-932C-4EB1-936B-94C81122ADAD",
             "factoryCode": "1",
             "factoryName": "元宙化學製藥股份有限公司",
             "factoryAddr": "南投縣南投市南崗工業區南崗三路２７２號",
@@ -57,16 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "0406914300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001500",
+            "ingredientsName": "PREDNISOLONE",
             "ingredientsDesc": "PREDNISOLONE",
             "concentDesc": "",
-            "concent": "2.500",
+            "concent": "2.5000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -86,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001000",
+            "ingredientsName": "LIDOCAINE",
             "ingredientsDesc": "LIDOCAINE",
             "concentDesc": "",
-            "concent": "30.000",
+            "concent": "30.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -97,48 +112,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1F870126-5B0D-451D-A9CD-DFCA9187CE30",
-            "approvedDocNo": "1110019396",
-            "approvedDate": "2022-11-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CFA121BC-4679-423F-B719-12B864A510E9",
-            "approvedDocNo": "1086608082",
-            "approvedDate": "2019-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8686422F-22B5-4F00-8546-6CAE1040A846",
-            "approvedDocNo": "1086608082",
-            "approvedDate": "2019-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D07XA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AB01"
         }
     ],
     "licBaseId": "2B0FAED8-1799-4B9D-8458-0BBEB7D7224D"

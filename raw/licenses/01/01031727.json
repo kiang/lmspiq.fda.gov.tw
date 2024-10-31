@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01031727",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1989-08-21 00:00:00.000",
+    "oriIssueDate": "1989-08-21",
     "licKind": "02",
     "oldLicid": "01029419",
     "certNo": "DHY00103172708",
@@ -16,21 +20,24 @@
     "does": "1140",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "94"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "73"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "58"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A3851EDE-F4E2-4218-8A8E-52AB6A3B2F3A",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)",
@@ -54,6 +61,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CDFDE886-0E3A-4EF4-8385-B3BD4A1621C5",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
@@ -64,13 +72,16 @@
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "300",
             "concent": "300.0000",
@@ -82,6 +93,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808600900",
+            "ingredientsName": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "ingredientsDesc": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "concentDesc": "350",
             "concent": "350.0000",
@@ -93,6 +105,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824000300",
+            "ingredientsName": "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)",
             "ingredientsDesc": "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)",
             "concentDesc": "200",
             "concent": "200.0000",
@@ -104,6 +117,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "50",
             "concent": "50.0000",
@@ -115,60 +129,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "70E093EA-54F3-4B44-88CD-591F25335942",
-            "approvedDocNo": "1086607694",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "522E7F8A-C3DD-4BAA-9876-6A801A510EC4",
-            "approvedDocNo": "1086607694",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5DF25C09-3DCB-41AE-8F39-A1E784E96D43",
-            "approvedDocNo": "1086607694",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5CD82238-75D0-4CFD-8D3C-AE6C4720884C",
-            "approvedDocNo": "1086607694",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
         {
             "isMain": "1",
             "atcCode": "N02BE71"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BA07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N05CM03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
         }
     ],
     "licBaseId": "CF0C7DFA-32B8-4E90-8BBF-7B20FCC0203A"

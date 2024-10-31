@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027112",
+    "licUnit": "1",
     "validDate": "2027-07-29 00:00:00.000",
     "issueDate": "2017-07-29 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202711205",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": "A",
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "8E576086-6212-4E81-A558-BB36FC0AA8EC",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "PROPYLENE GLYCOL",
         "HYALURONATE SODIUM ( EQ TO SODIUM HYALURONATE )",
@@ -44,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "300D1CD0-C56E-460C-9C71-8221E42EC4AE",
             "factoryCode": "1",
             "factoryName": "Alcon Singapore Manufacturing Pte. Ltd.",
             "factoryAddr": "19 Tuas South Avenue 14, Singapore 637313",
@@ -59,9 +69,12 @@
             "factoryKind": "M",
             "factoryNo": "FSG0040000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "C3BD0636-25DA-4AB6-963B-CC03C1655C10",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
             "factoryAddr": "桃園市楊梅區梅獅路二段629號",
@@ -77,16 +90,19 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5236001210",
+            "ingredientsName": "HYALURONATE SODIUM ( EQ TO SODIUM HYALURONATE )",
             "ingredientsDesc": "HYALURONATE SODIUM ( EQ TO SODIUM HYALURONATE )",
             "concentDesc": "",
-            "concent": "1.500",
+            "concent": "1.5000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -95,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424121800",
+            "ingredientsName": "POLYETHYLENE GLYCOL 400",
             "ingredientsDesc": "POLYETHYLENE GLYCOL 400",
             "concentDesc": "",
-            "concent": "4.000",
+            "concent": "4.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -106,9 +123,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600205000",
+            "ingredientsName": "PROPYLENE GLYCOL",
             "ingredientsDesc": "PROPYLENE GLYCOL",
             "concentDesc": "",
-            "concent": "3.000",
+            "concent": "3.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -117,69 +135,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A2304A98-8EE8-4FEF-8FD7-439C664058D0",
-            "approvedDocNo": "1129022234",
-            "approvedDate": "2023-08-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "76DA1D98-16B5-4C7C-AD4C-64605E73D3AA",
-            "approvedDocNo": "1106033017",
-            "approvedDate": "2022-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "42B467C0-8031-474A-9808-F8C3E2619C61",
-            "approvedDocNo": "1106033017",
-            "approvedDate": "2022-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DFCA71AF-8145-4CA8-A76E-F81162146111",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF3E00F3-6E67-4F2A-AC1B-533E3707DFED",
-            "approvedDocNo": "1096029085",
-            "approvedDate": "2021-04-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EA3058A7-A804-48E4-B897-86A0E2B8FC4B",
-            "approvedDocNo": "1086030113",
-            "approvedDate": "2020-03-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01KA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA"
-        },
         {
             "isMain": "1",
             "atcCode": "S01XA"

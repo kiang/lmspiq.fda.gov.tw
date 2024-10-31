@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01003796",
-    "validDate": "2024-12-12 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-12 00:00:00.000",
     "issueDate": "1973-12-12 00:00:00.000",
+    "oriIssueDate": "1973-12-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100379606",
@@ -27,11 +31,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "36AF529A-852F-4A0F-83AC-9C2147C06491",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMINOPHYLLINE (COROPHYLLIN)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "榮民製藥股份有限公司",
     "applicantAddr": "桃園市中壢區中山東路３段４４７號",
@@ -45,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2C2D97F3-0E7A-44CE-8241-9932E56AF26D",
             "factoryCode": "1",
             "factoryName": "信東生技股份有限公司",
             "factoryAddr": "桃園市桃園區介壽路22號",
@@ -55,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "6132010010",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8600000300",
+            "ingredientsName": "AMINOPHYLLINE (COROPHYLLIN)",
             "ingredientsDesc": "AMINOPHYLLINE (COROPHYLLIN)",
             "concentDesc": "250",
             "concent": "250.0000",

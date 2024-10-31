@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001115",
+    "licUnit": "1",
     "validDate": "2024-12-11 00:00:00.000",
     "issueDate": "2019-12-11 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000111501",
@@ -26,7 +30,10 @@
     ],
     "medMCode": "05",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "D",
+    "mainCategory": "D",
+    "drBaseId": "85810391-D804-4FB5-85C0-4D141DD31C61",
+    "subCategory": [],
     "ingredientsDesc": [
         "Trastuzumab"
     ],
@@ -34,6 +41,7 @@
         "02",
         "07",
         "1D",
+        "68",
         "91"
     ],
     "applicantName": "台灣賽特瑞恩有限公司",
@@ -48,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0C1FC13C-5A41-49FF-8EBA-4566F8CE96F3",
             "factoryCode": "1",
             "factoryName": "CELLTRION INC.",
             "factoryAddr": "20, ACADEMY-RO, 51BEON-GIL, YEONSU-GU, INCHEON, 22014, REPUBLIC OF KOREA",
@@ -63,9 +72,12 @@
             "factoryKind": "M",
             "factoryNo": "FKR0182100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "28473043-44AD-4F58-8BED-CFACB03A9A5E",
             "factoryCode": "2",
             "factoryName": "CELLTRION INC.",
             "factoryAddr": "23, ACADEMY-RO, YEONSU-GU, INCHEON, 22014, REPUBLIC OF KOREA",
@@ -81,16 +93,19 @@
             "factoryKind": "M",
             "factoryNo": "FKR0182000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013004800",
+            "ingredientsName": "Trastuzumab",
             "ingredientsDesc": "Trastuzumab",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -99,32 +114,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AE29C7CB-228A-4DFB-9B3C-5DB7AD70B6D0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "480D4845-D3EF-4354-B84D-A48A712F962B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-02-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "28118779-F2FE-472E-BB4A-5B2EE722BF11",
-            "approvedDocNo": "1106008966",
-            "approvedDate": "2021-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

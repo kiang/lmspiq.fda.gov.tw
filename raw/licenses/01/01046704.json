@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01046704",
-    "validDate": "2024-12-15 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-15 00:00:00.000",
     "issueDate": "2004-12-15 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104670401",
@@ -16,21 +20,26 @@
     "does": "4435",
     "packageUnit": [
         {
-            "packageSpec": null,
-            "packageUnit": "HE"
-        },
-        {
-            "packageSpec": "1000毫升、4000毫升",
+            "packageSpec": "100毫升以下",
             "packageUnit": "HE"
         },
         {
             "packageSpec": "100毫升以下",
             "packageUnit": "C7"
+        },
+        {
+            "packageSpec": "1000毫升、4000毫升",
+            "packageUnit": "HE"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "A1C98542-89C4-439A-80ED-B3C6246EA580",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "BENZYDAMINE HCL"
     ],
@@ -49,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3E2E2596-26B3-46E7-91DA-6DA0EFD382A8",
             "factoryCode": "1",
             "factoryName": "溫士頓醫藥股份有限公司",
             "factoryAddr": "臺南市永康區鹽洲里仁愛街一一七號",
@@ -59,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "1217820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808400210",
+            "ingredientsName": "BENZYDAMINE HCL",
             "ingredientsDesc": "BENZYDAMINE HCL",
             "concentDesc": "",
             "concent": "1.5000",

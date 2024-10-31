@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01041557",
+    "licUnit": "1",
     "validDate": "2027-09-11 00:00:00.000",
     "issueDate": "1997-09-11 00:00:00.000",
+    "oriIssueDate": "1997-09-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A4F10ECD-8A29-4713-B8AE-25D38F8AD7D7",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRAMADOL HCL"
     ],
@@ -34,7 +41,8 @@
         "01",
         "06",
         "07",
-        "34"
+        "34",
+        "67"
     ],
     "applicantName": "臺灣派頓化學製藥股份有限公司",
     "applicantAddr": "高雄市岡山區為隨東路50號",
@@ -48,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "11EAF19F-95D5-4455-A87F-F75D39F61926",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
@@ -58,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808202510",
+            "ingredientsName": "TRAMADOL HCL",
             "ingredientsDesc": "TRAMADOL HCL",
             "concentDesc": "",
             "concent": "50.0000",
@@ -76,96 +88,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "61CB7DB8-E7C0-48A4-89EA-311FAA20B8FE",
-            "approvedDocNo": "1110812983",
-            "approvedDate": "2023-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "24244BB9-AC5B-4672-AB0C-3FCEEEBF934D",
-            "approvedDocNo": "1101499245",
-            "approvedDate": "2022-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AE6F7042-D458-485D-8315-AE467DA4A5FA",
-            "approvedDocNo": "1101499245",
-            "approvedDate": "2022-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A8B975D0-6678-40CE-B544-DD1FA09E2C72",
-            "approvedDocNo": "1119020892",
-            "approvedDate": "2022-07-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5004C589-AD4E-4446-8080-CCA6B03A2F2A",
-            "approvedDocNo": "1091497316",
-            "approvedDate": "2021-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FEFC4029-DD9D-416F-9418-69EFD6EBA1B6",
-            "approvedDocNo": "1091497316",
-            "approvedDate": "2021-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "91DB60A1-EA70-4DB1-8CF7-7CD1D205E87E",
-            "approvedDocNo": "1091497316",
-            "approvedDate": "2021-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F22EB5EA-CBC6-4CF0-A5FE-8919F71D509B",
-            "approvedDocNo": "1091497316",
-            "approvedDate": "2021-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "26B7FD43-A033-4F38-A439-A1B8049E9230",
-            "approvedDocNo": "1091497316",
-            "approvedDate": "2021-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "982E064F-0A04-4A00-ACE2-ECB662880C53",
-            "approvedDocNo": "1091497316",
-            "approvedDate": "2020-12-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D9500BC9-B866-4045-9CC1-FDC9514DA649",
-            "approvedDocNo": "1091497316",
-            "approvedDate": "2020-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

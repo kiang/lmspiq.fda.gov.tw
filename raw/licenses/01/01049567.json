@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049567",
+    "licUnit": "1",
     "validDate": "2028-07-31 00:00:00.000",
     "issueDate": "2008-07-31 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104956706",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "4A5B0FB2-5C6E-4090-A121-9A849F2EA093",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "KETOPROFEN"
     ],
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4295B31E-BCC8-48A0-BE17-6B24322A7134",
             "factoryCode": "1",
             "factoryName": "得生製藥股份有限公司二廠",
             "factoryAddr": "台南市永康區環工路42-1號",
@@ -55,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "6141311164",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808401600",
+            "ingredientsName": "KETOPROFEN",
             "ingredientsDesc": "KETOPROFEN",
             "concentDesc": "",
             "concent": "30.0000",
@@ -73,39 +86,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0CF81619-CD7C-4E7F-924E-70E2F200C927",
-            "approvedDocNo": "1120709694",
-            "approvedDate": "2023-06-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8399A13C-ABD4-4394-9780-EC6383B05BC7",
-            "approvedDocNo": "1110724417",
-            "approvedDate": "2022-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BC454645-E858-40A1-A4AC-BE741C888497",
-            "approvedDocNo": "1110704405",
-            "approvedDate": "2022-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "M02AA10"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M02AA10"
         }
     ],

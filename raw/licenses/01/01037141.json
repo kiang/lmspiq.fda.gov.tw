@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01037141",
+    "licUnit": "1",
     "validDate": "2028-04-26 00:00:00.000",
     "issueDate": "1994-01-10 00:00:00.000",
+    "oriIssueDate": "1994-01-10",
     "licKind": "02",
     "oldLicid": "01036319",
     "certNo": "DHY00103714108",
@@ -16,17 +20,20 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "336A4516-E76D-4F8C-9EB9-1DD023C75982",
+    "subCategory": [],
     "ingredientsDesc": [
         "BACLOFEN"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "ADB28A0D-8B0B-4B58-B8E3-4606B2AD71E1",
             "factoryCode": "1",
             "factoryName": "美時化學製藥股份有限公司南投廠",
             "factoryAddr": "南投縣南投市南崗工業區成功一路３０號",
@@ -55,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "0901314300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220000200",
+            "ingredientsName": "BACLOFEN",
             "ingredientsDesc": "BACLOFEN",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -73,53 +84,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "888F5470-DACA-4721-9984-158774D60A3E",
-            "approvedDocNo": "1110726012",
-            "approvedDate": "2023-02-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8C40DA74-D68A-4D6C-8008-A65820D6A999",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E4D2F194-8C9B-4C78-9B32-74FBE8930510",
-            "approvedDocNo": "1086811883",
-            "approvedDate": "2019-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1A20FC4E-235D-4023-88BA-FCB011679DB6",
-            "approvedDocNo": "1086811883",
-            "approvedDate": "2019-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C58BD5FC-A53D-4F50-975F-E95B5BB85C48",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "M03BX01"
-        },
         {
             "isMain": "1",
             "atcCode": "M03BX01"

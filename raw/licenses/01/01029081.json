@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029081",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1986-08-05 00:00:00.000",
+    "oriIssueDate": "1986-08-05",
     "licKind": "02",
     "oldLicid": "01023314",
     "certNo": "DHY00102908107",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "169A0CCC-6E78-4B4C-8ECB-85022CDFB640",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEQUALINIUM CHLORIDE",
         "ASCORBIC ACID (VIT C)",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "90A27672-5563-458C-8BD7-CFAC3431E9AD",
             "factoryCode": "1",
             "factoryName": "大豐製藥股份有限公司",
             "factoryAddr": "彰化縣彰化市延平里岸頭巷11號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0306811300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404601310",
+            "ingredientsName": "CETYLPYRIDINIUM CHLORIDE",
             "ingredientsDesc": "CETYLPYRIDINIUM CHLORIDE",
             "concentDesc": "0.15",
             "concent": "0.1500",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8420000210",
+            "ingredientsName": "DEQUALINIUM CHLORIDE",
             "ingredientsDesc": "DEQUALINIUM CHLORIDE",
             "concentDesc": "0.3",
             "concent": "0.3000",
@@ -86,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000100",
+            "ingredientsName": "ASCORBIC ACID (VIT C)",
             "ingredientsDesc": "ASCORBIC ACID (VIT C)",
             "concentDesc": "50",
             "concent": "50.0000",
@@ -97,49 +110,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EA26B70B-4808-4B03-B171-E048D77FF292",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "477D2B95-D711-4B0E-8B87-8127CDEF1D1F",
-            "approvedDocNo": "1110614611",
-            "approvedDate": "2023-03-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "589F97C1-D4D8-4FB9-A276-C62A55B7A23F",
-            "approvedDocNo": "1096614622",
-            "approvedDate": "2021-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C81CDE8C-EADF-466E-9FCE-DBC455B01026",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A01AB"
-        },
         {
             "isMain": "1",
             "atcCode": "A01AB11"

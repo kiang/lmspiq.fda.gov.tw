@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001147",
+    "licUnit": "1",
     "validDate": "2026-01-21 00:00:00.000",
     "issueDate": "2021-01-21 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000114701",
@@ -27,6 +31,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "B645AB6A-2974-4B1F-80F4-AC41A825A8EB",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "isatuximab"
     ],
@@ -47,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9D035996-B461-4FE0-9C23-DA1E115EA69C",
             "factoryCode": "1",
             "factoryName": "SANOFI-AVENTIS DEUTSCHLAND GMBH",
             "factoryAddr": "BRUNINGSTRASSE 50,D-65926 FRANKFURT AM (MAIN) GERMANY",
@@ -57,9 +67,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0273000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D83C9624-7C51-4E64-88B8-550C331D692A",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司高上倉",
             "factoryAddr": "桃園市楊梅區高上路1段150號",
@@ -75,12 +88,15 @@
             "factoryKind": "M",
             "factoryNo": "6132041444",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "EB43385D-4F85-4190-B044-4861803C115E",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
-            "factoryAddr": "桃園市楊梅區瑞坪里梅獅路二段629號",
+            "factoryAddr": "桃園市楊梅區瑞坪里梅獅路二段６２９號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [
@@ -93,9 +109,12 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2CAC348E-8C86-4F9B-B4BC-9D5ED123C387",
             "factoryCode": "2",
             "factoryName": "SANOFI CHIMIE",
             "factoryAddr": "9 QUAI JULES GUESDE, 94400 VITRY-SUR-SEINE, FRANCE",
@@ -111,16 +130,40 @@
             "factoryKind": "M",
             "factoryNo": "FFR0287000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "0C17F647-A42C-46D1-BC72-1B7710F689E1",
+            "factoryCode": "2",
+            "factoryName": "Lonza Biologics, Inc. ",
+            "factoryAddr": "101 International Drive, Portsmouth, New Hampshire, 03801, USA",
+            "factoryCompanyAddr": "",
+            "countryCode": "US",
+            "processCode": [
+                {
+                    "value": "1K",
+                    "name": "原料藥製造廠"
+                }
+            ],
+            "processCodeStr": "1K;原料藥製造廠",
+            "factoryKind": "M",
+            "factoryNo": "FUS1269000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013008600",
+            "ingredientsName": "isatuximab",
             "ingredientsDesc": "isatuximab",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -129,92 +172,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6AB6E9C4-3B48-49CF-8073-0F6B2B3A08E0",
-            "approvedDocNo": "1119066176",
-            "approvedDate": "2023-06-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EE694709-7975-4BFB-AA1E-A731245E6C6D",
-            "approvedDocNo": "1119066176",
-            "approvedDate": "2023-06-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E85D3ABA-0A26-4F69-A626-50A61D6514A9",
-            "approvedDocNo": "1119067903",
-            "approvedDate": "2023-05-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2DF58FAF-C965-46BF-92EE-7F2CE37E7856",
-            "approvedDocNo": "1119057775",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "29C163C2-E54B-490C-930B-F31980D15C96",
-            "approvedDocNo": "1101496781",
-            "approvedDate": "2022-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "13A3957D-1326-4F60-A344-02ED841B26CD",
-            "approvedDocNo": "1101497383",
-            "approvedDate": "2021-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7AEAF848-C46C-483B-954C-29793FCAF33F",
-            "approvedDocNo": "1101493713",
-            "approvedDate": "2021-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F7BBF3DF-9DE4-4E91-B951-217545F4715E",
-            "approvedDocNo": "1106012728",
-            "approvedDate": "2021-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "00DB9CE0-44CB-4067-987F-7D9F1EDB7940",
-            "approvedDocNo": "1106012728",
-            "approvedDate": "2021-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E298F6E3-98E0-4FFB-AAAC-AF401450A117",
-            "approvedDocNo": "1101491902",
-            "approvedDate": "2021-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L01XC38"
+            "atcCode": "L01FC02"
         }
     ],
     "licBaseId": "59320ED4-6324-4C32-A0C6-7D500E6FFFAD"

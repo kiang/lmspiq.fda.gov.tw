@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022849",
+    "licUnit": "1",
     "validDate": "2025-04-20 00:00:00.000",
     "issueDate": "2000-04-20 00:00:00.000",
+    "oriIssueDate": "2000-04-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202284902",
@@ -35,6 +39,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2036A4DF-CEC4-45BC-8499-423356D4E844",
+    "subCategory": [],
     "ingredientsDesc": [
         "POTASSIUM CHLORIDE",
         "SODIUM CITRATE (DIHYDRATE)",
@@ -58,6 +65,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FF11D971-E675-4CDD-B746-DBDA3E798A2B",
             "factoryCode": "1",
             "factoryName": "ALCON RESEARCH LLC",
             "factoryAddr": "6201, SOUTH FREEWAY, FORT WORTH, TEXAS 76134, U.S.A.",
@@ -68,12 +76,36 @@
             "factoryKind": "M",
             "factoryNo": "FUS0011100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4712FE04-35B0-4CDA-A6AD-CD3AD902505A",
+            "factoryCode": "2",
+            "factoryName": "台灣大昌華嘉股份有限公司高上倉",
+            "factoryAddr": "桃園市楊梅區高上路1段150號",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "1A",
+                    "name": "二級包裝廠"
+                }
+            ],
+            "processCodeStr": "1A;二級包裝廠",
+            "factoryKind": "M",
+            "factoryNo": "6132041444",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "0711D981-5A3C-44FE-996B-4948ED100B48",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
-            "factoryAddr": "桃園市楊梅區梅獅路二段629號",
+            "factoryAddr": "桃園市楊梅區瑞坪里梅獅路二段６２９號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [
@@ -86,12 +118,15 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "6D29CA84-31E4-4977-8280-34831CBB3E58",
             "factoryCode": "2",
             "factoryName": "ALCON LABORATORIES, INC.",
-            "factoryAddr": "6201 SOUTH FREEWAY, FORT WORTH, TEXAS 76134",
+            "factoryAddr": "6201, SOUTH FREEWAY, FORT WORTH, TEXAS 76134, U.S.A.",
             "factoryCompanyAddr": "",
             "countryCode": "US",
             "processCode": [
@@ -104,13 +139,16 @@
             "factoryKind": "M",
             "factoryNo": "FUS0011000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
             "concent": "6.4000",
@@ -122,6 +160,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "",
             "concent": "0.7500",
@@ -133,6 +172,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012007350",
+            "ingredientsName": "CALCIUM CHLORIDE (DIHYDRATE)",
             "ingredientsDesc": "CALCIUM CHLORIDE (DIHYDRATE)",
             "concentDesc": "",
             "concent": "0.4800",
@@ -144,6 +184,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001500",
+            "ingredientsName": "MAGNESIUM CHLORIDE",
             "ingredientsDesc": "MAGNESIUM CHLORIDE",
             "concentDesc": "",
             "concent": "0.3000",
@@ -155,6 +196,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008007670",
+            "ingredientsName": "SODIUM ACETATE (TRIHYDRATE)",
             "ingredientsDesc": "SODIUM ACETATE (TRIHYDRATE)",
             "concentDesc": "",
             "concent": "3.9000",
@@ -166,6 +208,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008008860",
+            "ingredientsName": "SODIUM CITRATE (DIHYDRATE)",
             "ingredientsDesc": "SODIUM CITRATE (DIHYDRATE)",
             "concentDesc": "",
             "concent": "1.7000",
@@ -177,56 +220,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D583EBBF-465C-4E87-9AAD-2C77D67E3B90",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0FCBB64D-3D75-40C6-88DA-A647255B38B6",
-            "approvedDocNo": "1096002295",
-            "approvedDate": "2020-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4AF8A770-26A0-4867-A893-E9255CE960C9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EA594CE0-37AF-488D-92FF-FFF56FF4ABAE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05CB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05CB01"
-        },
         {
             "isMain": "1",
             "atcCode": "B05CB10"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
         }
     ],
     "licBaseId": "590F2730-F49B-4061-A467-4B892ABAC706"

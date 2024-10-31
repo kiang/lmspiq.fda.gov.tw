@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000320",
+    "licUnit": "1",
     "validDate": "2025-12-10 00:00:00.000",
     "issueDate": "2015-12-10 00:00:00.000",
+    "oriIssueDate": "1990-12-10",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000032004",
@@ -23,6 +27,11 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "783DE15E-54D2-43E2-B6B7-E371FAA6D9AF",
+    "subCategory": [
+        "C06"
+    ],
     "ingredientsDesc": [
         "FACTOR VIII"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0151B707-9FB7-4DF4-B744-3F5B8FE1C739",
             "factoryCode": "1",
             "factoryName": "Grifols Therapeutics LLC",
             "factoryAddr": "8368 US 70 WEST, CLAYTON, NC 27520, U.S.A.",
@@ -51,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0255000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "9B6348D9-9DD6-43F9-97B9-E51E15BBF9DA",
             "factoryCode": "2",
             "factoryName": "LABORATORIOS GRIFOLS, S.A.",
             "factoryAddr": "POLIGONO INDUSTRIAL AUTOPISTA, PASSEIG FLUVIAL, 24, 08150 PARETS DEL VALLES, BARCELONA, SPAIN",
@@ -69,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "FES0028100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004003300",
+            "ingredientsName": "FACTOR VIII",
             "ingredientsDesc": "FACTOR VIII",
             "concentDesc": "Each mL of the reconstituted solution contains not less than 40 IU of coagulant factor VIII",
-            "concent": "250.000",
+            "concent": "250.0000",
             "concentUnit": "212",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,56 +103,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C9B300F3-9CD0-40B4-93A7-966BC66E3A18",
-            "approvedDocNo": "1096023530",
-            "approvedDate": "2021-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "79E28FD3-9C5C-4CB7-8A81-96E7E9B9476F",
-            "approvedDocNo": "1096023530",
-            "approvedDate": "2021-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "54211FD3-098F-4507-AE0B-B74063845F3E",
-            "approvedDocNo": "1096023530",
-            "approvedDate": "2021-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6FF2DF01-4643-42E7-842F-CAD28ABB571C",
-            "approvedDocNo": "1096023530",
-            "approvedDate": "2021-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BAE0D115-4E7C-41A4-A48E-B65C08F6FFB7",
-            "approvedDocNo": "1081492087",
-            "approvedDate": "2020-05-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED425F53-D2C3-4333-8DCC-61AFF57D4CB8",
-            "approvedDocNo": "1081491079",
-            "approvedDate": "2019-10-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

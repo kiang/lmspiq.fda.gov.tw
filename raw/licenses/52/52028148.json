@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028148",
+    "licUnit": "1",
     "validDate": "2026-10-07 00:00:00.000",
     "issueDate": "2021-10-07 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202814805",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": "A",
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "7E1342AF-3AA4-4B48-B3F6-6368F99A2863",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "INDOMETHACIN (eq to Indometacin)",
         "L-MENTHOL "
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "11541FD9-EAAA-4B61-83E5-C86AE510E5C6",
             "factoryCode": "1",
             "factoryName": "MAEDA PHARMACEUTICAL CO., LTD. TOYAMA PLANT",
             "factoryAddr": "18-47 MUKAISHINJO-MACHI 1-CHOME, TOYAMA, JAPAN",
@@ -52,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP1045000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000800",
+            "ingredientsName": "INDOMETHACIN (eq to Indometacin)",
             "ingredientsDesc": "INDOMETHACIN (eq to Indometacin)",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000302",
+            "ingredientsName": "L-MENTHOL ",
             "ingredientsDesc": "L-MENTHOL ",
             "concentDesc": "",
-            "concent": "60.000",
+            "concent": "60.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -89,28 +103,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FD4405F4-0D13-453F-978D-E8E901C51615",
-            "approvedDocNo": "1110801731",
-            "approvedDate": "2022-07-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "M02AA23"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "M02AA23"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
         }
     ],
     "licBaseId": "03CF957F-F4FD-4306-AD07-91F345A250D5"

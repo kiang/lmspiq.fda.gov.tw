@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01042080",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1998-04-03 00:00:00.000",
+    "oriIssueDate": "1998-04-03",
     "licKind": "02",
     "oldLicid": "12006887",
     "certNo": "DHY00104208008",
@@ -16,17 +20,20 @@
     "does": "3360",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "36"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "08"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "48FCE97F-FC5E-474A-9AAC-57114989E232",
+    "subCategory": [],
     "ingredientsDesc": [
         "PREDNISONE",
         "CROTAMITON"
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "32CB0298-F840-4540-B7E3-F8517440A7FE",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "1302820200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001800",
+            "ingredientsName": "PREDNISONE",
             "ingredientsDesc": "PREDNISONE",
             "concentDesc": "2.5",
             "concent": "2.5000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404200200",
+            "ingredientsName": "CROTAMITON",
             "ingredientsDesc": "CROTAMITON",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -89,14 +101,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D07AA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AX"
-        },
         {
             "isMain": "1",
             "atcCode": "D07XA"

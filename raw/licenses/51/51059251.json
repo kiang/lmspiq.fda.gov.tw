@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059251",
+    "licUnit": "1",
     "validDate": "2026-08-08 00:00:00.000",
     "issueDate": "2016-08-08 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105925104",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D958FEA6-94F6-43B6-86D0-CBAE035FEEC5",
+    "subCategory": [],
     "ingredientsDesc": [
         "EZETIMIBE",
         "SIMVASTATIN"
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "68F4248F-91EA-4BA9-870F-35E9DDBC7C00",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業一路６號",
@@ -53,16 +61,19 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200095600",
+            "ingredientsName": "EZETIMIBE",
             "ingredientsDesc": "EZETIMIBE",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +82,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406002900",
+            "ingredientsName": "SIMVASTATIN",
             "ingredientsDesc": "SIMVASTATIN",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,100 +94,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3A312A63-1601-426F-AF8A-ED138CC78D4E",
-            "approvedDocNo": "1120707715",
-            "approvedDate": "2023-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FD5C6786-60A7-4480-B829-EB69891E9396",
-            "approvedDocNo": "1110717282",
-            "approvedDate": "2023-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DD159C19-2160-40FD-9808-85D9BA869850",
-            "approvedDocNo": "1110717282",
-            "approvedDate": "2023-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "463EC4D2-5AEC-41AE-96CF-B9671FBDDF11",
-            "approvedDocNo": "1110717282",
-            "approvedDate": "2023-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9D8DA1E9-484F-4F7B-9568-BCF0D2CE2016",
-            "approvedDocNo": "1110717282",
-            "approvedDate": "2023-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C1A49D11-ACAF-4A1A-8D0A-063D484DE612",
-            "approvedDocNo": "1110717282",
-            "approvedDate": "2023-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E70CCD87-B60B-4E37-855C-D5D47503A58C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D739BAFD-15FB-420F-B5EB-C6C74A7EE07D",
-            "approvedDocNo": "1101499231",
-            "approvedDate": "2021-12-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5A431B20-A89A-4C79-960B-508620F8B44D",
-            "approvedDocNo": "1101499231",
-            "approvedDate": "2021-12-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "970CCBF3-B107-443B-B739-BDE084E90952",
-            "approvedDocNo": "1091491070",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C10BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C10AX09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C10AA01"
         }
     ],
     "licBaseId": "C58D2C2E-D5FB-41C2-ACBF-6EDD11DA3783"

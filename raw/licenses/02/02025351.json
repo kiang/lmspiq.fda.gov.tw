@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025351",
+    "licUnit": "1",
     "validDate": "2026-01-28 00:00:00.000",
     "issueDate": "2011-01-28 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202535107",
@@ -23,11 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6B810D6E-0908-4FE5-AA0F-7257EB07CD20",
+    "subCategory": [],
     "ingredientsDesc": [
         "MESALAZINE(MESALAMINE)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02",
+        "67"
     ],
     "applicantName": "台灣武田藥品工業股份有限公司",
     "applicantAddr": "台北市信義區松高路1號17樓",
@@ -41,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F5E3CAE7-5520-4798-90DC-44FBCBFBA89B",
             "factoryCode": "1",
             "factoryName": "COSMO SPA",
             "factoryAddr": "VIA C, COLOMBO,1,20045,LAINATE-MILAN, ITALY",
@@ -51,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "FIT0444000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640002800",
+            "ingredientsName": "MESALAZINE(MESALAMINE)",
             "ingredientsDesc": "MESALAZINE(MESALAMINE)",
             "concentDesc": null,
             "concent": "1200.0000",
@@ -69,61 +81,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "32A4DAA1-90D8-4C08-A571-B61DCEC63FD8",
-            "approvedDocNo": "1129059520",
-            "approvedDate": "2024-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5C1B98C9-5B11-4EDA-BB28-6F0613BFD3C7",
-            "approvedDocNo": "1106004023",
-            "approvedDate": "2021-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "840097B0-1960-417E-9044-5DD2E8860533",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "56174FA2-9D69-4791-A2D2-ACDCDFEAC4D6",
-            "approvedDocNo": "1091497452",
-            "approvedDate": "2021-05-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "424DF63F-6454-4506-A512-A945AFE397B9",
-            "approvedDocNo": "1096002429",
-            "approvedDate": "2020-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5220CCA2-AA37-46F0-B4A0-5B8DADAA4FA1",
-            "approvedDocNo": "1086025208",
-            "approvedDate": "2019-12-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A07EC02"
-        },
         {
             "isMain": "1",
             "atcCode": "A07EC02"

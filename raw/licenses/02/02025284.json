@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025284",
+    "licUnit": "1",
     "validDate": "2025-10-29 00:00:00.000",
     "issueDate": "2010-10-29 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202528405",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "643AB02E-D96F-41B0-8139-C52EDEBBFFFF",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "CAFFEINE",
@@ -44,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "ECC5955F-1556-45D9-8AC7-17FF9D6B01B0",
             "factoryCode": "1",
             "factoryName": "GSK Consumer Health, INC.",
             "factoryAddr": "10401 HIGHWAY 6, LINCOLN, NE 68517, USA",
@@ -54,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "FUS0687000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
             "concent": "250.0000",
@@ -72,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808691110",
+            "ingredientsName": "ACETYLSALICYLIC ACID",
             "ingredientsDesc": "ACETYLSALICYLIC ACID",
             "concentDesc": "",
             "concent": "250.0000",
@@ -83,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": "",
             "concent": "65.0000",
@@ -94,69 +109,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0560AE32-8B56-49A1-89E4-25214A554BB0",
-            "approvedDocNo": "1096034504",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C1A94810-8108-4152-ABEC-5842FB10E932",
-            "approvedDocNo": "1096034504",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "785B25F7-B529-46AD-9CFE-677C0E6C55AD",
-            "approvedDocNo": "1096034504",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "32088FA7-7B55-4EB7-8F79-82AB73719C7E",
-            "approvedDocNo": "1096034504",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7F77C9C5-9FE0-4B0A-BF20-E05BF381581B",
-            "approvedDocNo": "1096034504",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FF08B84A-2591-4562-8B0A-E8A7484434F3",
-            "approvedDocNo": "1096034504",
-            "approvedDate": "2021-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BA01"
-        },
         {
             "isMain": "1",
             "atcCode": "N02B"

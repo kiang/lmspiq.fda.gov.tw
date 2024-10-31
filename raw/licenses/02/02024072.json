@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024072",
-    "validDate": "2024-09-27 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-09-27 00:00:00.000",
     "issueDate": "2004-09-27 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202407201",
@@ -27,11 +30,16 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "845CF158-7EFD-4EE2-BC01-35AADA166684",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
-        "AMYLMETACRESOL",
         "VITAMIN C (ROSE HIPS EXTRACT)",
-        "DYBENAL (DICHLOROBENZYL 2,4- ALCOHOL)"
+        "DYBENAL (DICHLOROBENZYL 2,4- ALCOHOL)",
+        "AMYLMETACRESOL"
     ],
     "restraintItemsCode": [
         "02"
@@ -48,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "08741922-FFBF-4C85-8221-42D4D9FD1A1C",
             "factoryCode": "1",
             "factoryName": "RECKITT BENCKISER HEALTHCARE MANUFACTURING (THAILAND) LTD",
             "factoryAddr": "65 MOO 12 LARDKRABANG-BANGPLEE ROAD, BANGPLEE DISTRICT, SAMUT PRAKARN, 10540, THAILAND",
@@ -58,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "FTH0005000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600042900",
+            "ingredientsName": "DYBENAL (DICHLOROBENZYL 2,4- ALCOHOL)",
             "ingredientsDesc": "DYBENAL (DICHLOROBENZYL 2,4- ALCOHOL)",
             "concentDesc": null,
             "concent": "1.2000",
@@ -76,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200002640",
+            "ingredientsName": "AMYLMETACRESOL",
             "ingredientsDesc": "AMYLMETACRESOL",
             "concentDesc": null,
             "concent": "0.6000",
@@ -87,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816009700",
+            "ingredientsName": "VITAMIN C (ROSE HIPS EXTRACT)",
             "ingredientsDesc": "VITAMIN C (ROSE HIPS EXTRACT)",
             "concentDesc": null,
             "concent": "100.0000",
@@ -98,43 +112,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D0D3660A-B414-4F22-8D45-2DCB8D0B374C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "24A6C5C1-07F3-45A3-92DE-91E9B58F7030",
-            "approvedDocNo": "1106017231",
-            "approvedDate": "2021-09-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DC84A0E8-0FAD-46B6-B7CD-95DE1966589F",
-            "approvedDocNo": "1096028215",
-            "approvedDate": "2021-01-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A11GA01"
-        },
-        {
             "isMain": "1",
-            "atcCode": "A01AB"
-        },
-        {
-            "isMain": "2",
             "atcCode": "A01AB"
         }
     ],

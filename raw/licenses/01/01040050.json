@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040050",
+    "licUnit": "1",
     "validDate": "2026-06-03 00:00:00.000",
     "issueDate": "1996-06-03 00:00:00.000",
+    "oriIssueDate": "1996-06-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104005002",
@@ -27,28 +31,17 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8C0E6F5B-4B35-4DD7-A7BD-AB425FD314C2",
+    "subCategory": [],
     "ingredientsDesc": [
         "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
-        "PYRIDOXINE HYDROCHLORIDE",
-        "PANTOTHENATE CALCIUM",
-        "THIAMINE HYDROCHLORIDE",
         "NIACINAMIDE (NICOTINAMIDE)",
-        " CYANOCOBALAMIN",
         "RIBOFLAVIN (VIT B2)",
-        "NIACINAMIDE (NICOTINAMIDE)",
+        "CYANOCOBALAMIN",
         "THIAMINE HYDROCHLORIDE",
-        " CYANOCOBALAMIN",
-        "PANTOTHENATE CALCIUM",
-        "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
         "PYRIDOXINE HYDROCHLORIDE",
-        "RIBOFLAVIN (VIT B2)",
-        "NIACINAMIDE (NICOTINAMIDE)",
-        "THIAMINE HYDROCHLORIDE",
-        "RIBOFLAVIN (VIT B2)",
-        " CYANOCOBALAMIN",
-        "PYRIDOXINE HYDROCHLORIDE",
-        "PANTOTHENATE CALCIUM",
-        "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)"
+        "PANTOTHENATE CALCIUM"
     ],
     "restraintItemsCode": [
         "01"
@@ -65,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8F0EECA9-EC5F-434F-8469-307D2CBAC757",
             "factoryCode": "1",
             "factoryName": "壽元化學工業股份有限公司",
             "factoryAddr": "嘉義市西區新民路128號",
@@ -75,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "1421417300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656991100",
+            "ingredientsName": "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
             "ingredientsDesc": "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
             "concentDesc": "(eq to 70 mg of SILYMARIN calculated as Silybin)",
             "concent": "107.7000",
@@ -93,6 +90,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100900",
+            "ingredientsName": "THIAMINE HYDROCHLORIDE",
             "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
             "concentDesc": "",
             "concent": "4.0000",
@@ -104,6 +102,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "",
             "concent": "4.0000",
@@ -115,6 +114,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600330",
+            "ingredientsName": "PYRIDOXINE HYDROCHLORIDE",
             "ingredientsDesc": "PYRIDOXINE HYDROCHLORIDE",
             "concentDesc": "",
             "concent": "4.0000",
@@ -126,6 +126,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000300",
+            "ingredientsName": "NIACINAMIDE (NICOTINAMIDE)",
             "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
             "concentDesc": "",
             "concent": "12.0000",
@@ -137,6 +138,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300200",
+            "ingredientsName": "PANTOTHENATE CALCIUM",
             "ingredientsDesc": "PANTOTHENATE CALCIUM",
             "concentDesc": "",
             "concent": "8.0000",
@@ -148,253 +150,23 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200301",
+            "ingredientsName": "CYANOCOBALAMIN",
             "ingredientsDesc": " CYANOCOBALAMIN",
             "concentDesc": "",
             "concent": "1.2000",
             "concentUnit": "325",
             "seq": "7",
             "prescription_seq": "1",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "5656991100",
-            "ingredientsDesc": "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
-            "concentDesc": "(eq to 70 mg of SILYMARIN calculated as Silybin)",
-            "concent": "107.7000",
-            "concentUnit": "001",
-            "seq": "1",
-            "prescription_seq": "2",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8810100900",
-            "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
-            "concentDesc": "",
-            "concent": "4.0000",
-            "concentUnit": "001",
-            "seq": "2",
-            "prescription_seq": "2",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8810200400",
-            "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
-            "concentDesc": "",
-            "concent": "4.0000",
-            "concentUnit": "001",
-            "seq": "3",
-            "prescription_seq": "2",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8810600330",
-            "ingredientsDesc": "PYRIDOXINE HYDROCHLORIDE",
-            "concentDesc": "",
-            "concent": "4.0000",
-            "concentUnit": "001",
-            "seq": "4",
-            "prescription_seq": "2",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8810000300",
-            "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
-            "concentDesc": "",
-            "concent": "12.0000",
-            "concentUnit": "001",
-            "seq": "5",
-            "prescription_seq": "2",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8812300200",
-            "ingredientsDesc": "PANTOTHENATE CALCIUM",
-            "concentDesc": "",
-            "concent": "8.0000",
-            "concentUnit": "001",
-            "seq": "6",
-            "prescription_seq": "2",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8811200301",
-            "ingredientsDesc": " CYANOCOBALAMIN",
-            "concentDesc": "",
-            "concent": "1.2000",
-            "concentUnit": "325",
-            "seq": "7",
-            "prescription_seq": "2",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "5656991100",
-            "ingredientsDesc": "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
-            "concentDesc": "(eq to 70 mg of SILYMARIN calculated as Silybin)",
-            "concent": "107.7000",
-            "concentUnit": "001",
-            "seq": "1",
-            "prescription_seq": "3",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8810100900",
-            "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
-            "concentDesc": "",
-            "concent": "4.0000",
-            "concentUnit": "001",
-            "seq": "2",
-            "prescription_seq": "3",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8810200400",
-            "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
-            "concentDesc": "",
-            "concent": "4.0000",
-            "concentUnit": "001",
-            "seq": "3",
-            "prescription_seq": "3",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8810600330",
-            "ingredientsDesc": "PYRIDOXINE HYDROCHLORIDE",
-            "concentDesc": "",
-            "concent": "4.0000",
-            "concentUnit": "001",
-            "seq": "4",
-            "prescription_seq": "3",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8810000300",
-            "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
-            "concentDesc": "",
-            "concent": "12.0000",
-            "concentUnit": "001",
-            "seq": "5",
-            "prescription_seq": "3",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8812300200",
-            "ingredientsDesc": "PANTOTHENATE CALCIUM",
-            "concentDesc": "",
-            "concent": "8.0000",
-            "concentUnit": "001",
-            "seq": "6",
-            "prescription_seq": "3",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8811200301",
-            "ingredientsDesc": " CYANOCOBALAMIN",
-            "concentDesc": "",
-            "concent": "1.2000",
-            "concentUnit": "325",
-            "seq": "7",
-            "prescription_seq": "3",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9A719775-0D5B-4907-BAA1-36B3037FE816",
-            "approvedDocNo": "1110613436",
-            "approvedDate": "2023-02-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3F5C37C0-3242-4DC3-8311-8EFF44ADF5F9",
-            "approvedDocNo": "1110613436",
-            "approvedDate": "2023-02-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C71E426D-0E7D-4F92-8FF7-2785A7585274",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DAEB114E-1432-4BB3-BA9E-BBCB2386CCA9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BE9B5128-47D5-4A3D-8DC1-C5AE1D8BBBAB",
-            "approvedDocNo": "1096606610",
-            "approvedDate": "2020-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "886E93F4-945C-49F0-980E-90AE84A7EF3C",
-            "approvedDocNo": "1096606610",
-            "approvedDate": "2020-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA31"
-        },
         {
             "isMain": "1",
             "atcCode": "A05BA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A05BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
         }
     ],
     "licBaseId": "99505FF5-17B7-409C-B92B-B51EBDBB7A0D"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01023508",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1981-05-28 00:00:00.000",
+    "oriIssueDate": "1981-05-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102350800",
@@ -27,11 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "622A972C-7A42-4862-9ABC-3E50F51E82F3",
+    "subCategory": [],
     "ingredientsDesc": [
         "PIPEMIDIC ACID (TRIHYDRATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "67"
     ],
     "applicantName": "華興化學製藥廠股份有限公司",
     "applicantAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -45,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "AF339831-B0A3-4D57-9179-78312740483F",
             "factoryCode": "1",
             "factoryName": "華興化學製藥廠股份有限公司",
             "factoryAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -55,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "1203612300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812091150",
+            "ingredientsName": "PIPEMIDIC ACID (TRIHYDRATE)",
             "ingredientsDesc": "PIPEMIDIC ACID (TRIHYDRATE)",
             "concentDesc": "(294.8MG) 250",
             "concent": null,
@@ -73,48 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "10C8F336-80A6-4053-9762-511D06F9B089",
-            "approvedDocNo": "1110017857",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "93AAB5C2-0378-4BF0-B6AA-6E3F00A81B46",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6FE847A1-EB08-4A8E-862F-0425581D63FE",
-            "approvedDocNo": "1100032643",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8C5E0168-E0A8-4548-AD58-8500A6272E25",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "648BA10A-4C87-4D5E-B725-DB64731B5120",
-            "approvedDocNo": "1080014188",
-            "approvedDate": "2019-11-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

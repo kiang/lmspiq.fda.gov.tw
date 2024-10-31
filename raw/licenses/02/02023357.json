@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023357",
+    "licUnit": "1",
     "validDate": "2027-01-14 00:00:00.000",
     "issueDate": "2002-01-14 00:00:00.000",
+    "oriIssueDate": "2002-01-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202335709",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A96DD660-E658-4E81-972E-405F849C25F1",
+    "subCategory": [],
     "ingredientsDesc": [
         "SALBUTAMOL",
         "IPRATROPIUM BROMIDE"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "ED270678-FC5E-4B22-AD41-91F1D836C766",
             "factoryCode": "1",
             "factoryName": "LABORATOIRE UNITHER",
             "factoryAddr": "ESPACE INDUSTRIEL NORD, 151 RUE ANDRE DUROUCHEZ, CS 28028, 80084 AMIENS CEDEX 2, FRANCE",
@@ -52,9 +60,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0275000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "AAF3D5E2-DDAC-48DB-A3D7-F4AD816F1D6C",
             "factoryCode": "2",
             "factoryName": "BOEHRINGER INGELHEIM INTERNATIONAL GMBH",
             "factoryAddr": "INGELHEIM AM RHEIN GERMANY",
@@ -65,13 +76,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0299000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208002710",
+            "ingredientsName": "IPRATROPIUM BROMIDE",
             "ingredientsDesc": "IPRATROPIUM BROMIDE",
             "concentDesc": null,
             "concent": "0.5000",
@@ -83,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212009100",
+            "ingredientsName": "SALBUTAMOL",
             "ingredientsDesc": "SALBUTAMOL",
             "concentDesc": null,
             "concent": "2.5000",
@@ -94,36 +109,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A70468A4-8F75-4E47-A87B-136C685E5879",
-            "approvedDocNo": "1106015019",
-            "approvedDate": "2021-10-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "15C3124D-67B5-4B20-834F-D33CBD7A1125",
-            "approvedDocNo": "1086027440",
-            "approvedDate": "2020-01-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R03BB01"
-        },
         {
             "isMain": "1",
             "atcCode": "R03AL02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03AC02"
         }
     ],
     "licBaseId": "BD68EF4F-EBD1-4CD0-B00D-F9AD83665819"

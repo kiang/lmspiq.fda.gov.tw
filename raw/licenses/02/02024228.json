@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024228",
+    "licUnit": "1",
     "validDate": "2025-05-13 00:00:00.000",
     "issueDate": "2005-05-13 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,13 +31,17 @@
     "medMCode": "05",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BFE62A5F-A5F4-477D-AC73-B15E980EC1FE",
+    "subCategory": [],
     "ingredientsDesc": [
         "PROPOFOL"
     ],
     "restraintItemsCode": [
         "02",
         "07",
-        "34"
+        "34",
+        "68"
     ],
     "applicantName": "臺灣費森尤斯卡比股份有限公司",
     "applicantAddr": "臺北市大安區仁愛路3段30號5樓、32號5樓",
@@ -47,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9EB7D723-54C7-47B8-A245-26567854AA67",
             "factoryCode": "1",
             "factoryName": "FRESENIUS KABI AUSTRIA GMBH",
             "factoryAddr": "HAFNERSTA βE 36, A-8055 GRAZ, AUSTRIA",
@@ -57,9 +66,12 @@
             "factoryKind": "M",
             "factoryNo": "FAT0032000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "FA61C70F-CADA-4B92-87F2-1E34B4DC5302",
             "factoryCode": "2",
             "factoryName": "FRESENIUS KABI AUSTRIA GMBH",
             "factoryAddr": "AM GEWERBEPARK 6, 8402 WERNDORF, AUSTRIA",
@@ -75,13 +87,16 @@
             "factoryKind": "M",
             "factoryNo": "FAT0045000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2804001600",
+            "ingredientsName": "PROPOFOL",
             "ingredientsDesc": "PROPOFOL",
             "concentDesc": "",
             "concent": "20.0000",
@@ -93,32 +108,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D968D6CE-151D-4AF9-8584-A5A85CA55054",
-            "approvedDocNo": "1120720789",
-            "approvedDate": "2023-11-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E53AFDA4-9283-489B-93E7-D2B61D4A7AB1",
-            "approvedDocNo": "1106036041",
-            "approvedDate": "2022-03-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "17D7FD51-F4CE-4D75-8F2D-1B689200BA38",
-            "approvedDocNo": "1106812173",
-            "approvedDate": "2022-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

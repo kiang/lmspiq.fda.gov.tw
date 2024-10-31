@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02017873",
+    "licUnit": "1",
     "validDate": "2025-04-04 00:00:00.000",
     "issueDate": "2014-12-05 00:00:00.000",
+    "oriIssueDate": "1990-04-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201787302",
@@ -27,11 +31,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AA23E8B5-3B23-4D84-8B4D-AF2D358742A5",
+    "subCategory": [],
     "ingredientsDesc": [
         "OCTREOTIDE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02",
+        "67"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -45,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "AC12B91A-E20B-4180-A99A-0A344FF16B44",
             "factoryCode": "1",
             "factoryName": "Delpharm Dijon",
             "factoryAddr": "6, BLD DE L'EUROPE 21800 QUETIGNY FRANCE",
@@ -60,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0141100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6828001300",
+            "ingredientsName": "OCTREOTIDE",
             "ingredientsDesc": "OCTREOTIDE",
             "concentDesc": null,
             "concent": "0.0000",
@@ -78,95 +90,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4A0A9AB0-F5E1-4206-912C-96F0054E1F26",
-            "approvedDocNo": "1129047519",
-            "approvedDate": "2023-09-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8261F34D-AAD7-4FFD-9846-2C8090E7480F",
-            "approvedDocNo": "1119040280",
-            "approvedDate": "2022-11-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AA948BCE-2ED0-44A3-8113-1B15F057EA5D",
-            "approvedDocNo": "1110804620",
-            "approvedDate": "2022-04-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "54C52C8B-0C1D-458D-8633-BB76865AE799",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "05103E1A-2CBC-45D6-8B98-683DD713B578",
-            "approvedDocNo": "1091497069",
-            "approvedDate": "2021-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "60936F3D-F08D-4224-B291-FF5A392D0B0B",
-            "approvedDocNo": "1091492418",
-            "approvedDate": "2020-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED5361D7-06A7-4CF8-B447-8BC7996BD02B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7235F8EC-9CE5-4A59-A126-1E7DEF39009D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2AEF7E5C-73D3-4CEC-A3D0-DAB5E29A88AD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED41EBC9-A362-4BAE-8579-D2A69E6D935A",
-            "approvedDocNo": "1081490209",
-            "approvedDate": "2019-05-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "H01CB02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "H01CB02"
         }
     ],

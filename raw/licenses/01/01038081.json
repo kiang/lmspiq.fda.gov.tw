@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01038081",
-    "validDate": "2024-09-10 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-09-10 00:00:00.000",
     "issueDate": "1997-10-28 00:00:00.000",
+    "oriIssueDate": "1997-10-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103808108",
@@ -28,13 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AE7918C4-D48A-41FB-938B-9BF7DDD0BA35",
+    "subCategory": [],
     "ingredientsDesc": [
         "POTASSIUM CRESOLSULFONATE",
         "LYSOZYME CHLORIDE",
         "DEXTROMETHORPHAN HBR"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "福元化學製藥股份有限公司",
     "applicantAddr": "新北市瑞芳區大寮路95-1號1樓",
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "198B1553-4127-47CB-B0E8-BAC8C13867A4",
             "factoryCode": "1",
             "factoryName": "福元化學製藥股份有限公司",
             "factoryAddr": "新北市瑞芳區大寮路９５號之１",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "1419502300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": "",
             "concent": "20.0000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003700",
+            "ingredientsName": "POTASSIUM CRESOLSULFONATE",
             "ingredientsDesc": "POTASSIUM CRESOLSULFONATE",
             "concentDesc": "",
             "concent": "90.0000",
@@ -87,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400001310",
+            "ingredientsName": "LYSOZYME CHLORIDE",
             "ingredientsDesc": "LYSOZYME CHLORIDE",
             "concentDesc": "",
             "concent": "20.0000",
@@ -101,16 +114,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05DA20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA09"
         }
     ],
     "licBaseId": "8CE3DFBF-AF53-4E45-A790-3F5EBB659FA1"

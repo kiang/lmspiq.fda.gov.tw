@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01020820",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1980-03-11 00:00:00.000",
+    "oriIssueDate": "1980-03-11",
     "licKind": "02",
     "oldLicid": "12000974",
     "certNo": "DHY00102082000",
@@ -16,13 +20,16 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "31A71FB1-5286-492F-A2E2-8D3C9FADDF70",
+    "subCategory": [],
     "ingredientsDesc": [
         "METHYLMETHIONINE SULFONIUM BROMIDE",
         "DICYCLOMINE HCL",
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "683FD7EF-1220-481B-A607-DACEADFFAAF2",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8827000400",
+            "ingredientsName": "METHYLMETHIONINE SULFONIUM BROMIDE",
             "ingredientsDesc": "METHYLMETHIONINE SULFONIUM BROMIDE",
             "concentDesc": "25",
             "concent": "25.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208001810",
+            "ingredientsName": "DICYCLOMINE HCL",
             "ingredientsDesc": "DICYCLOMINE HCL",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -85,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000201",
+            "ingredientsName": "ALUMINUM HYDROXIDE GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE GEL",
             "concentDesc": "400",
             "concent": "400.0000",
@@ -96,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612001300",
+            "ingredientsName": "MAGNESIUM OXIDE",
             "ingredientsDesc": "MAGNESIUM OXIDE",
             "concentDesc": "200",
             "concent": "200.0000",
@@ -107,52 +121,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "834F6CF6-2366-48C7-8AA0-1284CFCC1CF7",
-            "approvedDocNo": "1086607694",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1A34B677-125A-4F4F-88E4-B13E1287E19D",
-            "approvedDocNo": "1086607694",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "01880692-9B54-4180-80DC-BBA295B05D80",
-            "approvedDocNo": "1086607694",
-            "approvedDate": "2019-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03AA07"
-        },
         {
             "isMain": "1",
             "atcCode": "A02X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BX04"
         }
     ],
     "licBaseId": "247425EB-0CF4-42D1-AA5A-BAC6FB772A02"
