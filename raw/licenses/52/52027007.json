@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027007",
+    "licUnit": "1",
     "validDate": "2026-12-01 00:00:00.000",
     "issueDate": "2016-12-01 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202700708",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EB0ABF8D-33B6-42C1-8E9A-CB063EF08F4A",
+    "subCategory": [],
     "ingredientsDesc": [
         "DROSPIRENONE",
         "Ethinyl estradiol"
@@ -43,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "224A52E7-C093-4009-A961-B99B4E597F6D",
             "factoryCode": "1",
             "factoryName": "LABORATORIOS LEON FARMA, S.A.",
-            "factoryAddr": "POLIGONO INDUSTRIAL DE NAVATEJERA, C\/LA VALLINA S\/N, 24008 NAVATEJERA, LEON, SPAIN",
-            "factoryCompanyAddr": "",
+            "factoryAddr": "POLIGONO INDUSTRIAL NAVATEJERA, C\/LA VALLINA S\/N, VILLAQUILAMBRE, LEON, 24193, SPAIN",
+            "factoryCompanyAddr": null,
             "countryCode": "ES",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FES0238000",
+            "factoryNo": "FES0238100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832003100",
+            "ingredientsName": "DROSPIRENONE",
             "ingredientsDesc": "DROSPIRENONE",
             "concentDesc": "",
-            "concent": "3.000",
+            "concent": "3.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +82,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816000602",
+            "ingredientsName": "Ethinyl estradiol",
             "ingredientsDesc": "Ethinyl estradiol",
             "concentDesc": "",
-            "concent": "0.030",
+            "concent": "0.0300",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,60 +94,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A3586F50-E55B-45CB-9DA9-CEE466D67D2B",
-            "approvedDocNo": "1106036696",
-            "approvedDate": "2022-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "65DCC92D-7F49-46AD-905F-072DE869B80A",
-            "approvedDocNo": "1106022818",
-            "approvedDate": "2022-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A879F9ED-AFEF-42F5-86A7-15CD3E772907",
-            "approvedDocNo": "1106022818",
-            "approvedDate": "2022-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9527412D-FC2A-47F1-905E-3E67273CC8EE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "386D0426-3FF8-4989-919D-2ABD4DB9C203",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G03AA12"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03AC10"
         }
     ],
     "licBaseId": "C3A86D94-E39A-4435-958C-E3461711020D"

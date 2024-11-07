@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025285",
+    "licUnit": "1",
     "validDate": "2025-10-29 00:00:00.000",
     "issueDate": "2010-10-29 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202528507",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7A0D3360-9B19-4EE4-BC7B-00B253264AA9",
+    "subCategory": [],
     "ingredientsDesc": [
         "OSELTAMIVIR"
     ],
@@ -31,7 +38,7 @@
         "24"
     ],
     "applicantName": "羅氏大藥廠股份有限公司",
-    "applicantAddr": "台北市信義區松仁路100號40樓、40樓之1、41樓之1",
+    "applicantAddr": "台北市南港區經貿一路170號10樓、10樓之1至之3、10樓之5至之8",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "987FC2B9-093D-4A68-8257-53467244D26A",
             "factoryCode": "1",
             "factoryName": "CENEXI SAS",
             "factoryAddr": "52, RUE MARCEL ET JACQUES GAUCHER 94120 FONTENAY-SOUS-BOIS FRANCE",
@@ -52,27 +60,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0203000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
-            "factoryCode": "2",
-            "factoryName": "F.HOFFMANN-LA ROCHE LTD.",
-            "factoryAddr": "GRENZACHERSTRASSE 124 CH-4070 BASEL,SWITZERLAND",
-            "factoryCompanyAddr": null,
-            "countryCode": "CH",
-            "processCode": [
-                {
-                    "value": "01",
-                    "name": "許可證持有者"
-                }
-            ],
-            "processCodeStr": "01;許可證持有者",
-            "factoryKind": "M",
-            "factoryNo": "FCH0093000",
-            "factoryInfo": null,
-            "qsd": null
-        },
-        {
+            "id": "892F2CA0-B6BB-4363-9F44-31EE57B004F6",
             "factoryCode": "2",
             "factoryName": "F.HOFFMANN-LA ROCHE LTD.",
             "factoryAddr": "WURMISWEG, CH-4303 KAISERAUGST, SWITZERLAND",
@@ -88,13 +81,16 @@
             "factoryKind": "M",
             "factoryNo": "FCH0208000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818001800",
+            "ingredientsName": "OSELTAMIVIR",
             "ingredientsDesc": "OSELTAMIVIR",
             "concentDesc": "in forms of oseltamivir phosphate 98.5mg",
             "concent": "75.0000",
@@ -106,79 +102,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8E45CEEF-8DAB-4EC9-85A3-B9EAD7A2A9E3",
-            "approvedDocNo": "1110723475",
-            "approvedDate": "2022-10-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "15545D28-54BA-4FC6-B215-044B91DFC6F6",
-            "approvedDocNo": "1096036417",
-            "approvedDate": "2021-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F7D1C99F-6928-45BA-AD35-76F0C1EEAB4A",
-            "approvedDocNo": "1096011442",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "99E4E6CD-8187-4F9B-84E9-E85FB7E54183",
-            "approvedDocNo": "1096011442",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "33E7CA69-7E7F-43A6-AACC-727A1634B44C",
-            "approvedDocNo": "1086015884",
-            "approvedDate": "2020-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "314AEDB7-E0E1-4280-8314-B4225A9AD632",
-            "approvedDocNo": "1086015884",
-            "approvedDate": "2020-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6C2C664D-ACC2-49DA-8BA0-41CFE405063E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CE47EF12-A0D8-418E-9800-5528DE5A7027",
-            "approvedDocNo": "1076043778",
-            "approvedDate": "2019-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J05AH02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J05AH02"
         }
     ],

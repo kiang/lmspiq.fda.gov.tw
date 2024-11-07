@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01021616",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1980-06-19 00:00:00.000",
+    "oriIssueDate": "1980-06-19",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00102161606",
@@ -16,13 +20,16 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9338EC3B-C8DE-48BB-8BB7-3ADD13274CE6",
+    "subCategory": [],
     "ingredientsDesc": [
         "PHENOBARBITAL",
         "HOMATROPINE METHYLBROMIDE",
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6B1642B9-8215-4752-8E8E-C20C6B485337",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824401200",
+            "ingredientsName": "PHENOBARBITAL",
             "ingredientsDesc": "PHENOBARBITAL",
             "concentDesc": null,
             "concent": "8.1000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5224000220",
+            "ingredientsName": "HOMATROPINE METHYLBROMIDE",
             "ingredientsDesc": "HOMATROPINE METHYLBROMIDE",
             "concentDesc": null,
             "concent": "1.8000",
@@ -85,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000202",
+            "ingredientsName": "ALUMINUM HYDROXIDE DRIED GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE DRIED GEL",
             "concentDesc": null,
             "concent": "243.0000",
@@ -96,40 +109,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "30260D5F-8CAE-4251-975B-363E48B39F6A",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "42AB1BE6-6EA0-40B4-8D38-AF1815A388DD",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
         {
             "isMain": "1",
             "atcCode": "A02AG"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N03AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03BA"
         }
     ],
     "licBaseId": "B47A0200-313E-481E-9CDB-7B621DABACD9"

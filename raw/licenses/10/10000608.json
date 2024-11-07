@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000608",
+    "licUnit": "1",
     "validDate": "2025-06-05 00:00:00.000",
     "issueDate": "2000-06-05 00:00:00.000",
+    "oriIssueDate": "2000-06-05",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000060800",
@@ -27,13 +31,19 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "AA205855-F9F8-4E49-8394-A2E5E5DAB567",
+    "subCategory": [
+        "C05"
+    ],
     "ingredientsDesc": [
         "rFIX(Nonacog alfa)",
         "rFIX(Nonacog alfa)",
         "rFIX(Nonacog alfa)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02",
+        "68"
     ],
     "applicantName": "美商惠氏藥廠（亞洲）股份有限公司台灣分公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -47,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5F8AB030-1743-4658-967F-DCB7B1E6D160",
             "factoryCode": "1",
             "factoryName": "WYETH FARMA, S.A.",
             "factoryAddr": "AUTOVIA DEL NORTE A1 KM 23 DESVIO ALGETE KM1 SAN SEBASTIAN DE LOS REYES 28700 MADRID, SPAIN",
@@ -57,9 +68,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0124100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "CFCBC098-0C80-475C-B262-112B3AFDD696",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司(委託包裝)",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
@@ -75,9 +89,12 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "9776FBC4-8A0D-4629-976B-C7E87E52EB85",
             "factoryCode": "2",
             "factoryName": "VETTER PHARMA-FERTIGUNG GMBH & CO. KG",
             "factoryAddr": "SCHUTZENSTRASSE 87,99-101, 88212 RAVENSBURG, GERMANY",
@@ -93,9 +110,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0267200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2FEF7446-B2D8-4798-A613-6C4CD5C92344",
             "factoryCode": "2",
             "factoryName": "VETTER PHARMA-FERTIGUNG GMBH & CO. KG",
             "factoryAddr": "EISENBAHNSTRASSE 2-4 88085 LANGENARGEN GERMANY",
@@ -111,9 +131,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE9056000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7E6AE260-2C77-4F15-8BC3-21C9AA9417D3",
             "factoryCode": "2",
             "factoryName": "WYETH PHARMACEUTICAL INC.",
             "factoryAddr": "P.O. BOX 8299, PHILADELPHIA, PA 19010-8299 U.S.A.",
@@ -129,9 +152,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0363000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "E5E253CB-36B1-439D-9ACF-7858B6AF029C",
             "factoryCode": "2",
             "factoryName": "WYETH BIOPHARMA DIVISION OF WYETH PHARMACEUTICALS LLC",
             "factoryAddr": "ONE BURTT ROAD, ANDOVER, MA 01810, USA",
@@ -147,16 +173,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0691000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9900070100",
+            "ingredientsName": "rFIX(Nonacog alfa)",
             "ingredientsDesc": "rFIX(Nonacog alfa)",
             "concentDesc": null,
-            "concent": "250.000",
+            "concent": "250.0000",
             "concentUnit": "212",
             "seq": "0",
             "prescription_seq": "0",
@@ -165,9 +194,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9900070100",
+            "ingredientsName": "rFIX(Nonacog alfa)",
             "ingredientsDesc": "rFIX(Nonacog alfa)",
             "concentDesc": null,
-            "concent": "500.000",
+            "concent": "500.0000",
             "concentUnit": "212",
             "seq": "0",
             "prescription_seq": "1",
@@ -176,9 +206,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9900070100",
+            "ingredientsName": "rFIX(Nonacog alfa)",
             "ingredientsDesc": "rFIX(Nonacog alfa)",
             "concentDesc": null,
-            "concent": "1000.000",
+            "concent": "1000.0000",
             "concentUnit": "212",
             "seq": "0",
             "prescription_seq": "2",
@@ -187,104 +218,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "79EA3759-D7B1-474D-8967-66CEFA098A71",
-            "approvedDocNo": "1129071343",
-            "approvedDate": "2024-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1C9A2B00-EA75-47C4-ACEA-505B20822BB5",
-            "approvedDocNo": "1119029580",
-            "approvedDate": "2022-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "99C7B206-B058-430B-A31D-24423B2FA68E",
-            "approvedDocNo": "1106020849",
-            "approvedDate": "2021-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A30EE86C-7678-40C1-9A35-ED1DFEB5411E",
-            "approvedDocNo": "1096030226",
-            "approvedDate": "2021-03-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "14E0B048-F26B-4D18-90EE-4AF582D1E5F2",
-            "approvedDocNo": "1096027191",
-            "approvedDate": "2021-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E3E6B5D8-C22C-409A-B0FF-9C48E4C4CC90",
-            "approvedDocNo": "1096027191",
-            "approvedDate": "2021-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF48EC89-8102-4607-9C12-605B67460FD2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2687A180-067D-4347-9C7B-2F6940ED1C74",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "85F86032-71F2-4E0E-977F-73755FC1A418",
-            "approvedDocNo": "1086023783",
-            "approvedDate": "2019-11-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E8EB1417-A2AE-4924-895C-8500A8C132EB",
-            "approvedDocNo": "1086023783",
-            "approvedDate": "2019-11-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B0B7AC1F-5785-4853-9A28-E0037C9009EC",
-            "approvedDocNo": "1081406752",
-            "approvedDate": "2019-07-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F626B730-1BE2-427D-BF06-8530FDDC5EE7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

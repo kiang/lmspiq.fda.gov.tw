@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028586",
+    "licUnit": "1",
     "validDate": "2028-09-25 00:00:00.000",
     "issueDate": "2023-09-25 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202858603",
@@ -23,6 +27,11 @@
     "medMCode": "17",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "1FF7FC5B-CD8E-42DB-AAB1-9C14BC5B1EF4",
+    "subCategory": [
+        "B"
+    ],
     "ingredientsDesc": [
         "ESCIN",
         "DIETHYLAMINE SALICYLATE"
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "61F56139-32EF-402C-8BC7-DFDF891C83E3",
             "factoryCode": "1",
             "factoryName": "MADAUS GMBH",
             "factoryAddr": "LUTTICHER, STRABE 5 53842 TROISDORF, GERMANY",
@@ -52,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0558000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412000800",
+            "ingredientsName": "ESCIN",
             "ingredientsDesc": "ESCIN",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,27 +83,28 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8436000600",
+            "ingredientsName": "DIETHYLAMINE SALICYLATE",
             "ingredientsDesc": "DIETHYLAMINE SALICYLATE",
             "concentDesc": "",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [],
+    "authDtoList": [
+        {
+            "applicantName": "暉致醫藥股份有限公司",
+            "certNo": "DHA05202858614",
+            "approveDocNo": "1130725320",
+            "authDate": "2024-10-04",
+            "validDate": "2028-09-25"
+        }
+    ],
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C05CX03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "M02AC"
-        },
         {
             "isMain": "1",
             "atcCode": "M02AC"

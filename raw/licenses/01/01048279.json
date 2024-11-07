@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048279",
+    "licUnit": "1",
     "validDate": "2026-10-03 00:00:00.000",
     "issueDate": "2006-10-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104827909",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "0EB614F1-BFF6-4D30-8864-004DAF8719F6",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "BISACODYL",
         "SENNOSIDE"
@@ -47,9 +56,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "EFE9FE6A-A42A-4094-B3E9-4F5210490BFC",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -57,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002500",
+            "ingredientsName": "SENNOSIDE",
             "ingredientsDesc": "SENNOSIDE",
             "concentDesc": "",
             "concent": "13.3300",
@@ -75,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612000400",
+            "ingredientsName": "BISACODYL",
             "ingredientsDesc": "BISACODYL",
             "concentDesc": "",
             "concent": "5.0000",
@@ -94,84 +108,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "67ABDF69-8C4B-4F1B-9814-8506DEC05B5D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1A4C1A85-30CF-4438-95E1-166229C4C8EF",
-            "approvedDocNo": "1106810078",
-            "approvedDate": "2022-01-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EC996A0E-72F6-4193-B140-1FCA3E252770",
-            "approvedDocNo": "1106811649",
-            "approvedDate": "2022-01-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C21C70B6-3602-4CFC-A616-34D35EA7A27C",
-            "approvedDocNo": "1106811649",
-            "approvedDate": "2022-01-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9DFEB13C-9F09-4FF0-BEA7-F7BBA6DD41D1",
-            "approvedDocNo": "1106811649",
-            "approvedDate": "2022-01-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "93418781-12BB-4221-A8BF-376C828AD773",
-            "approvedDocNo": "1106810078",
-            "approvedDate": "2021-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7F24F74D-01C6-4CFF-AA19-82A7051C5F60",
-            "approvedDocNo": "1106810078",
-            "approvedDate": "2021-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D3AFF508-3091-4BC0-BB9F-097C1FCDCE18",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A06AB52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A06AB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A06AB06"
         }
     ],
     "licBaseId": "4220E10A-1F4A-41DB-BEA6-BCEC89D4495E"

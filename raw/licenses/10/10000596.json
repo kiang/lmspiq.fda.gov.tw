@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-10-25",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "10000596",
+    "licUnit": "1",
     "validDate": "2025-04-05 00:00:00.000",
     "issueDate": "2000-04-05 00:00:00.000",
+    "oriIssueDate": "2000-04-05",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000059606",
@@ -29,6 +33,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6E2DF127-18B5-46E6-8E1A-5409B82EF0AE",
+    "subCategory": [],
     "ingredientsDesc": [
         "INSULIN LISPRO"
     ],
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F2465556-FE62-4394-9197-FA0F99AC46C8",
             "factoryCode": "1",
             "factoryName": "LILLY FRANCE",
             "factoryAddr": "2 RUE DU COLONEL LILLY 67640 FEGERSHEIM, FRANCE.",
@@ -57,9 +65,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0118000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "FBE4F1B5-882C-4757-BF13-3729DA5CD243",
             "factoryCode": "1",
             "factoryName": "ELI LILLY ITALIA S.P.A.",
             "factoryAddr": "VIA GRAMSCI 731-733 50019 SESTO FIORENTINO",
@@ -75,9 +86,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0058100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "98F477EE-0293-45F3-8137-1635C3274150",
             "factoryCode": "2",
             "factoryName": "LILLY DEL CARIBE INC.",
             "factoryAddr": "12.3 KM, 65TH INFANTRY ROAD, CAROLINA 00985, PUERTO RICO",
@@ -93,9 +107,12 @@
             "factoryKind": "M",
             "factoryNo": "FPR0051000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7F7DCA02-2F04-4416-93A3-6123242D2F75",
             "factoryCode": "2",
             "factoryName": "ELI LILLY AND COMPANY",
             "factoryAddr": "INDIANAPOLIS, INDIANA 46285, U.S.A.",
@@ -111,16 +128,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0073100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820801000",
+            "ingredientsName": "INSULIN LISPRO",
             "ingredientsDesc": "INSULIN LISPRO",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "200",
             "seq": "7",
             "prescription_seq": "1",
@@ -129,53 +149,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "857D0A7C-E7F2-4F29-9ADD-9B5D78977856",
-            "approvedDocNo": "1106007120",
-            "approvedDate": "2021-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2AD946B0-99B4-410C-9A73-C07EFE8BC637",
-            "approvedDocNo": "1106007120",
-            "approvedDate": "2021-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9D64A39B-E2FF-43F5-8D5F-D9C8B7969C8E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "852DE73F-8853-4A3F-9703-C9CF3CA2BA3D",
-            "approvedDocNo": "1096009139",
-            "approvedDate": "2020-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6D7F705E-B756-4ED0-80F1-5EDEB7016336",
-            "approvedDocNo": "1086023214",
-            "approvedDate": "2019-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A10AD04"
-        },
         {
             "isMain": "1",
             "atcCode": "A10AD04"

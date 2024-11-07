@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02014861",
+    "licUnit": "1",
     "validDate": "2028-03-03 00:00:00.000",
     "issueDate": "1986-03-03 00:00:00.000",
+    "oriIssueDate": "1986-03-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201486106",
@@ -16,13 +20,16 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "14"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AA3B57DA-A64D-4256-93AC-49E279660168",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMIODARONE HCL"
     ],
@@ -41,19 +48,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E03FF0B0-A88A-4C32-9538-2A8DA1AF43E0",
             "factoryCode": "1",
-            "factoryName": "SANOFI WINTHROP INDUSTRIE",
-            "factoryAddr": "1,RUE DE LA VIERGE,AMBARES&LAGRAVE 33565 CARBON BLANC CEDEX,FRANCE",
-            "factoryCompanyAddr": "82 AVENUE RASPAIL 94250 GENTILLY,FRANCE",
-            "countryCode": "FR",
+            "factoryName": "SANOFI S.R.L",
+            "factoryAddr": "Via Valcanello 4, 03012 Anagni (FR), Italy",
+            "factoryCompanyAddr": "",
+            "countryCode": "IT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FFR0047000",
+            "factoryNo": "FIT0450000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "961BE7D4-6CE2-407B-8E46-054A19AE88F4",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司高上倉",
             "factoryAddr": "桃園市楊梅區高上路1段150號",
@@ -69,12 +80,15 @@
             "factoryKind": "M",
             "factoryNo": "6132041444",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "E4DD2706-F46B-45D2-A167-97B44B798811",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
-            "factoryAddr": "桃園市楊梅區梅獅路二段629號",
+            "factoryAddr": "桃園市楊梅區瑞坪里梅獅路二段６２９號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [
@@ -87,13 +101,16 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412400110",
+            "ingredientsName": "AMIODARONE HCL",
             "ingredientsDesc": "AMIODARONE HCL",
             "concentDesc": "150",
             "concent": "150.0000",
@@ -105,48 +122,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "185974F0-3E97-4F79-8963-8EA94EA5F4CA",
-            "approvedDocNo": "1129028019",
-            "approvedDate": "2023-07-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FA1B3BFD-5C8E-4714-9452-8609E9AC18C9",
-            "approvedDocNo": "1119054663",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B08DD325-3A49-438A-BD62-0E6C7E5A4CFC",
-            "approvedDocNo": "1086020089",
-            "approvedDate": "2019-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "256CBCA4-D6B7-452F-86C2-B578960DD8E2",
-            "approvedDocNo": "1086011069",
-            "approvedDate": "2019-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "17ACA564-AED9-4230-A07D-C31BFDD6A359",
-            "approvedDocNo": "1086004268",
-            "approvedDate": "2019-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

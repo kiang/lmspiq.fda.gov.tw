@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01020865",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1980-03-13 00:00:00.000",
+    "oriIssueDate": "1980-03-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102086509",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F0106566-6B7E-48EF-A216-87DF512A965F",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLOSTRIDIUM BUTYRICUM MIYAIRI",
         "THIAMINE MONONITRATE"
@@ -32,7 +39,7 @@
         "1R"
     ],
     "applicantName": "中美兄弟製藥股份有限公司",
-    "applicantAddr": "彰化市東芳里彰鹿路１０６號",
+    "applicantAddr": "彰化縣彰化市彰鹿路106號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -43,9 +50,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BEFBB6CE-0F5F-46B6-9C83-2E76546FF939",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -53,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000800",
+            "ingredientsName": "CLOSTRIDIUM BUTYRICUM MIYAIRI",
             "ingredientsDesc": "CLOSTRIDIUM BUTYRICUM MIYAIRI",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -71,6 +82,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101001",
+            "ingredientsName": "THIAMINE MONONITRATE",
             "ingredientsDesc": "THIAMINE MONONITRATE",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -82,28 +94,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6ECFC9C2-6E4E-4A27-89D0-CF1C6454DB78",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A07FA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A07FA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
         }
     ],
     "licBaseId": "6F01ABE8-E392-4F85-A88C-0844256C66C9"

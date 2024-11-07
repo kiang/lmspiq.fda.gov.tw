@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027747",
-    "validDate": "2024-12-03 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-03 00:00:00.000",
     "issueDate": "2019-12-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202774709",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "AB83148C-EA3B-437A-BF43-D1BC9C4A4528",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Larotrectinib"
     ],
@@ -44,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "897E6B77-BA96-4F31-B8D3-A84BDB05A5E2",
             "factoryCode": "1",
             "factoryName": "PENN PHARMACEUTICAL SERVICES LIMITED",
             "factoryAddr": "UNITS 23-24, TAFARNAUBACH INDUSTRIAL ESTATE, TAFARNAUBACH, TREDEGAR NP22 3AA, U.K.",
@@ -54,9 +64,12 @@
             "factoryKind": "M",
             "factoryNo": "FGB0225000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "A330FC0D-06C1-4CAC-B6AA-6A7D601BBE11",
             "factoryCode": "2",
             "factoryName": "Orion Corporation",
             "factoryAddr": "Joensuunkatu 7, Salo 24100, Finland",
@@ -72,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "FFI0031000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013007500",
+            "ingredientsName": "Larotrectinib",
             "ingredientsDesc": "Larotrectinib",
             "concentDesc": "(Equivalent to Larotrectinib sulfate......30.7mg)",
-            "concent": "25.000",
+            "concent": "25.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,80 +106,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0A60A396-9667-4611-8666-6645B2CC55A5",
-            "approvedDocNo": "1110731685",
-            "approvedDate": "2023-03-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "96175D3C-64F9-4BF8-B3F1-CD87D864D847",
-            "approvedDocNo": "1110721396",
-            "approvedDate": "2022-09-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DED05D0F-43ED-44BF-8DCD-BE14C835EE54",
-            "approvedDocNo": "1110708623",
-            "approvedDate": "2022-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "179CB79B-A19B-46F4-965D-978068C41830",
-            "approvedDocNo": "1106004376",
-            "approvedDate": "2021-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BE7A5B11-E789-4B6E-AE50-009AC6962307",
-            "approvedDocNo": "1106004376",
-            "approvedDate": "2021-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B6F2444D-6B17-4A40-9A93-4F50F0126E5F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4618446F-5152-4496-A65B-915E769F42F5",
-            "approvedDocNo": "1096031915",
-            "approvedDate": "2020-12-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "270FFBD7-B49B-46C8-A8ED-4A7D2230D614",
-            "approvedDocNo": "1096025168",
-            "approvedDate": "2020-09-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EAFB3CE4-1A0F-4D18-8FEB-F260AD62E843",
-            "approvedDocNo": "1096008407",
-            "approvedDate": "2020-05-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026685",
+    "licUnit": "1",
     "validDate": "2026-02-16 00:00:00.000",
     "issueDate": "2016-02-16 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202668508",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "565F7C5C-E717-4518-B5B5-81068DA43B6F",
+    "subCategory": [],
     "ingredientsDesc": [
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
         "Alogliptin benzoate"
@@ -43,9 +50,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9FAB79AF-D217-4510-8C6F-B239A5701679",
             "factoryCode": "1",
-            "factoryName": "Takeda GmbH, Production site Oranienburg",
-            "factoryAddr": "Lehnitzstrasse 70-98, 16515 Oranienburg, Germany",
+            "factoryName": "Takeda GMBH,Production site Oranienburg",
+            "factoryAddr": "LEHNITZSTR. 70-98, 16515 ORANIENBURG, GERMANY",
             "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [],
@@ -53,34 +61,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0026200",
             "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "歐帕生技醫藥股份有限公司",
-            "factoryAddr": "新竹縣湖口鄉光復路1號",
-            "factoryCompanyAddr": "",
-            "countryCode": "TW",
-            "processCode": [
-                {
-                    "value": "1Q",
-                    "name": "分包裝廠"
-                }
-            ],
-            "processCodeStr": "1Q;分包裝廠",
-            "factoryKind": "M",
-            "factoryNo": "6133061413",
-            "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820602100",
+            "ingredientsName": "Alogliptin benzoate",
             "ingredientsDesc": "Alogliptin benzoate",
             "concentDesc": "(eq. to Alogliptin......12.5MG)",
-            "concent": "17.000",
+            "concent": "17.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,9 +82,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": "",
-            "concent": "1000.000",
+            "concent": "1000.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -100,60 +94,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "52915814-F8FE-48B1-B08B-6E8DE540527A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FB7C5BEB-5FA1-4B96-A211-DC99ECEF196A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-02-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7F9ABBF7-D1FC-44E8-863E-891B1BA7D974",
-            "approvedDocNo": "1101411923",
-            "approvedDate": "2021-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "71361778-02EF-46E8-B80F-C318E74CF4F6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "75D67698-64ED-4074-AD62-B0175B477DEA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A10BH04"
-        },
         {
             "isMain": "1",
             "atcCode": "A10BD13"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A10BA02"
         }
     ],
     "licBaseId": "6A07CF9F-9D78-4F33-89EB-81F4D0F3E707"

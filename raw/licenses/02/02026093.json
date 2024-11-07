@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02026093",
+    "licUnit": "1",
     "validDate": "2028-07-23 00:00:00.000",
     "issueDate": "2013-07-23 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202609303",
@@ -23,12 +27,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "97A11796-CFA1-4D2E-B3FF-63479317AFBC",
+    "subCategory": [],
     "ingredientsDesc": [
         "Pasireotide diaspartate"
     ],
     "restraintItemsCode": [
         "02",
-        "07"
+        "07",
+        "67"
     ],
     "applicantName": "禾利行股份有限公司",
     "applicantAddr": "台北市松山區敦化北路311號3樓",
@@ -42,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CD3D5E97-B3D5-40F8-99D6-DA48BF4CBA67",
             "factoryCode": "1",
             "factoryName": "Delpharm Dijon",
             "factoryAddr": "6, BLD DE L'EUROPE 21800 QUETIGNY FRANCE",
@@ -52,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0141100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "45DFBF74-A6FB-4383-BA24-43DD41286EAA",
             "factoryCode": "2",
             "factoryName": "STERLING PHARMA RINGASKIDDY LIMITED",
             "factoryAddr": "RINGASKIDDY CORK, P43 FR63, IRELAND",
@@ -70,13 +82,16 @@
             "factoryKind": "M",
             "factoryNo": "FIE0074100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6828001910",
+            "ingredientsName": "Pasireotide diaspartate",
             "ingredientsDesc": "Pasireotide diaspartate",
             "concentDesc": "",
             "concent": "0.3760",
@@ -88,80 +103,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A8737568-F53F-4B7D-9937-8746848241A2",
-            "approvedDocNo": "1120727393",
-            "approvedDate": "2023-11-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "70946B94-E9E8-4DDB-8A2A-BF8A56847F64",
-            "approvedDocNo": "1120727393",
-            "approvedDate": "2023-11-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F03CDB03-2CE6-4F01-9449-DB758EB1B8A4",
-            "approvedDocNo": "1120727393",
-            "approvedDate": "2023-11-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B2864670-224D-4DE2-8494-E99006C87236",
-            "approvedDocNo": "1129049421",
-            "approvedDate": "2023-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A6CB26D6-4BE1-4FB6-8FEB-02A91AB19F27",
-            "approvedDocNo": "1101494228",
-            "approvedDate": "2022-01-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1880BC7B-AA47-4214-9F14-0A576BF7C5CA",
-            "approvedDocNo": "1101495592",
-            "approvedDate": "2021-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F0E71EFC-AFC8-4E5A-BCAC-86E084596507",
-            "approvedDocNo": "1101491696",
-            "approvedDate": "2021-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "52E16D7F-A9B4-4382-9A13-C59F27FF2A8C",
-            "approvedDocNo": "1091491028",
-            "approvedDate": "2020-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AACEE795-3B7B-44DA-ADAA-B3350F3C2693",
-            "approvedDocNo": "1086027304",
-            "approvedDate": "2019-11-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

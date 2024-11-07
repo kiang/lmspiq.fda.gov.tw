@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058810",
+    "licUnit": "1",
     "validDate": "2025-08-05 00:00:00.000",
     "issueDate": "2015-08-05 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105881009",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A862D21C-C929-4DED-BA8B-B4E1926ACFC1",
+    "subCategory": [],
     "ingredientsDesc": [
         "PREGABALIN"
     ],
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3C419D55-46A5-4EFA-A4B2-8F24145D7284",
             "factoryCode": "1",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉光復路1號",
@@ -57,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "6133061413",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812009200",
+            "ingredientsName": "PREGABALIN",
             "ingredientsDesc": "PREGABALIN",
             "concentDesc": "",
-            "concent": "75.000",
+            "concent": "75.0000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -75,60 +86,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6C7E9D43-4776-47DC-9920-E1D62C8CBCDA",
-            "approvedDocNo": "1129047665",
-            "approvedDate": "2023-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B9D4D559-9E10-44C6-92E9-A5172B33D7F8",
-            "approvedDocNo": "1096027501",
-            "approvedDate": "2020-12-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8CCA8494-DD69-4BD6-8751-07958F971DE3",
-            "approvedDocNo": "1090028276",
-            "approvedDate": "2020-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "53B05F83-D636-400F-9BF5-6CACE7CAA6F6",
-            "approvedDocNo": "1096006877",
-            "approvedDate": "2020-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "04DB2D27-95E5-4034-BE78-190415F20311",
-            "approvedDocNo": "1096814253",
-            "approvedDate": "2020-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "47527DC1-9C7E-4CE4-A016-76A10C914861",
-            "approvedDocNo": "1096017161",
-            "approvedDate": "2020-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N03AX16"
+            "atcCode": "N02BF02"
         }
     ],
     "licBaseId": "D88E72D9-5D5B-436D-9ABA-280800977958"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01052619",
+    "licUnit": "1",
     "validDate": "2025-04-14 00:00:00.000",
     "issueDate": "2010-04-14 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105261909",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "DEBD82B0-FE12-4109-8994-02B18E50F5DE",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "MINOXIDIL"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "60E9FF35-E107-4E35-8408-CCF06B807715",
             "factoryCode": "1",
             "factoryName": "仙台藥品工業股份有限公司",
             "factoryAddr": "台南市新營區嘉芳里新工路35號A棟、35之1號",
@@ -51,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "0513320200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408002200",
+            "ingredientsName": "MINOXIDIL",
             "ingredientsDesc": "MINOXIDIL",
             "concentDesc": "",
             "concent": "50.0000",
@@ -69,47 +82,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C7507EE7-5F0E-4CF7-B774-CC5D03024A33",
-            "approvedDocNo": "1100005881",
-            "approvedDate": "2021-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DC212657-5C99-4942-8C40-C34CC23352F5",
-            "approvedDocNo": "1096600530",
-            "approvedDate": "2020-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CB3E03B2-908E-4840-AAB5-573DDAC8EBE1",
-            "approvedDocNo": "1076610490",
-            "approvedDate": "2019-01-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D439E0C2-C08A-43F7-826A-E7AE6AEAA8AC",
-            "approvedDocNo": "1076610490",
-            "approvedDate": "2019-01-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D11AX01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D11AX01"
         }
     ],

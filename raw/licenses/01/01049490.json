@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049490",
+    "licUnit": "1",
     "validDate": "2028-06-06 00:00:00.000",
     "issueDate": "2008-06-06 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104949000",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "45A61A03-E7F4-4F0C-B45D-6F457F8F5339",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "CALCIUM SENNOSIDES",
         "DOCUSATE SODIUM"
@@ -47,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A5BAE6FD-D42F-4047-8EEF-A50B83FC3E91",
             "factoryCode": "1",
             "factoryName": "寶齡富錦生技股份有限公司平鎮廠",
             "factoryAddr": "桃園市平鎮區興隆路２６６號",
@@ -57,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "2001304300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612004900",
+            "ingredientsName": "DOCUSATE SODIUM",
             "ingredientsDesc": "DOCUSATE SODIUM",
             "concentDesc": "",
             "concent": "100.0000",
@@ -75,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002530",
+            "ingredientsName": "CALCIUM SENNOSIDES",
             "ingredientsDesc": "CALCIUM SENNOSIDES",
             "concentDesc": "(equivalent to Sennodise A&B 20mg)",
             "concent": "33.3000",
@@ -86,68 +100,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7EE3911D-11DF-4FB9-9C70-0CE591491A54",
-            "approvedDocNo": "1129028389",
-            "approvedDate": "2023-06-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FD6CB8EF-D26B-4015-8FE4-4C55CECA3BA4",
-            "approvedDocNo": "1106808651",
-            "approvedDate": "2021-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0CF4798C-5F75-470D-8EA0-C2A691444393",
-            "approvedDocNo": "1106808651",
-            "approvedDate": "2021-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4D077D26-3279-4EA8-9260-CE0768DECA67",
-            "approvedDocNo": "1106808651",
-            "approvedDate": "2021-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "609705ED-CDA4-4D3F-8623-C93DD9DDDAA3",
-            "approvedDocNo": "1086023500",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "946F913C-D6E5-46EE-8936-98DAEE42DD7F",
-            "approvedDocNo": "1086023500",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A06AB06"
-        },
         {
             "isMain": "1",
             "atcCode": "A06AB56"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A06AA02"
         }
     ],
     "licBaseId": "1BECC2BF-0F66-4FE4-A086-69847898B714"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049226",
+    "licUnit": "1",
     "validDate": "2028-01-04 00:00:00.000",
     "issueDate": "2008-01-04 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104922606",
@@ -16,7 +20,7 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         },
         {
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0FC1BDEB-E369-4EDB-BC75-EB51DD890C3C",
+    "subCategory": [],
     "ingredientsDesc": [
         "ATORVASTATIN (CALCIUM)"
     ],
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1CF21241-E083-4FE0-98D1-69CE8BB25DCF",
             "factoryCode": "1",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉光復路1號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "6133061413",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406003120",
+            "ingredientsName": "ATORVASTATIN (CALCIUM)",
             "ingredientsDesc": "ATORVASTATIN (CALCIUM)",
             "concentDesc": "",
             "concent": "20.0000",
@@ -75,48 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "18F790F4-C756-4626-AB29-A9B2EE2F2918",
-            "approvedDocNo": "1129051881",
-            "approvedDate": "2023-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D48A4EB3-B8CB-42C6-90C4-A41691EF0DBF",
-            "approvedDocNo": "1110720862",
-            "approvedDate": "2022-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D21243A9-6CAB-4A51-AB0F-58065933FBCA",
-            "approvedDocNo": "1119052086",
-            "approvedDate": "2022-10-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "08B36430-5753-48AA-879B-9BEC9D8F825B",
-            "approvedDocNo": "1091497729",
-            "approvedDate": "2021-03-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BD9CA8F4-E1F8-4E15-A8BD-D3E3392878F1",
-            "approvedDocNo": "1091497729",
-            "approvedDate": "2021-03-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

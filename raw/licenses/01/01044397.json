@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044397",
+    "licUnit": "1",
     "validDate": "2026-04-04 00:00:00.000",
     "issueDate": "2001-12-10 00:00:00.000",
+    "oriIssueDate": "2001-12-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104439708",
@@ -27,9 +31,12 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2092A327-2BB6-4A9F-B9DC-741ADAAB1D59",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROCORTISONE ACETATE",
-        "ESCULIN",
+        null,
         "NEOMYCIN (SULFATE)",
         "DIBUCAINE HCL"
     ],
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2C1EAAC4-CE94-4384-ABB2-128BF4EFA8D4",
             "factoryCode": "1",
             "factoryName": "五洲製藥股份有限公司",
             "factoryAddr": "桃園市新屋區赤欄村二鄰１７號之１",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "0413004300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "",
             "concent": "7.1000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001120",
+            "ingredientsName": "HYDROCORTISONE ACETATE",
             "ingredientsDesc": "HYDROCORTISONE ACETATE",
             "concentDesc": "",
             "concent": "5.6000",
@@ -87,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200000510",
+            "ingredientsName": "DIBUCAINE HCL",
             "ingredientsDesc": "DIBUCAINE HCL",
             "concentDesc": "",
             "concent": "5.0000",
@@ -98,6 +111,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "Z102100539",
+            "ingredientsName": null,
             "ingredientsDesc": "ESCULIN",
             "concentDesc": "",
             "concent": "10.0000",
@@ -109,57 +123,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ECBA08A8-5B26-4142-8109-02C9945B295E",
-            "approvedDocNo": "1110718806",
-            "approvedDate": "2022-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "957DACEE-4305-4685-B0D7-C1CBCC4943A4",
-            "approvedDocNo": "1110607362",
-            "approvedDate": "2022-09-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2E4BBCB2-08D0-48B4-A294-BB0E419D9C72",
-            "approvedDocNo": "1096803322",
-            "approvedDate": "2020-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "41993581-983F-42FB-A19D-A53FD94CA1A7",
-            "approvedDocNo": "1091401553",
-            "approvedDate": "2020-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C05AD"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AB"
-        },
         {
             "isMain": "1",
             "atcCode": "C05AA01"

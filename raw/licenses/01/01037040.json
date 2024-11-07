@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01037040",
+    "licUnit": "1",
     "validDate": "2028-12-11 00:00:00.000",
     "issueDate": "1993-12-11 00:00:00.000",
+    "oriIssueDate": "1993-12-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -16,13 +20,16 @@
     "does": "1184",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "979DD534-0DCF-4D83-952D-BFC7A1FAFCFF",
+    "subCategory": [],
     "ingredientsDesc": [
         "CODEINE PHOSPHATE",
         "CARBETAPENTANE CITRATE (eq to Pentoxyverine Citrate)",
@@ -35,7 +42,7 @@
         "34"
     ],
     "applicantName": "中美兄弟製藥股份有限公司",
-    "applicantAddr": "彰化市東芳里彰鹿路１０６號",
+    "applicantAddr": "彰化縣彰化市彰鹿路106號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -46,9 +53,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CDE7D8F3-715D-4597-912A-72B73D3D2804",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": "2.0",
             "concent": "2.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800000510",
+            "ingredientsName": "CARBETAPENTANE CITRATE (eq to Pentoxyverine Citrate)",
             "ingredientsDesc": "CARBETAPENTANE CITRATE (eq to Pentoxyverine Citrate)",
             "concentDesc": "1.5",
             "concent": "1.5000",
@@ -85,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "0.4",
             "concent": "0.4000",
@@ -96,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001420",
+            "ingredientsName": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "concentDesc": "10.0",
             "concent": "10.0000",
@@ -107,41 +121,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ACEE86A9-4461-4E77-BE76-00A5FE220036",
-            "approvedDocNo": "1129040528",
-            "approvedDate": "2023-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "71FD1AAF-28C1-4D7B-9FB4-4F8FFB8CB764",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05DB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA03"
-        },
         {
             "isMain": "1",
             "atcCode": "R05FA02"

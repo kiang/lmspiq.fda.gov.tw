@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01054645",
+    "licUnit": "1",
     "validDate": "2025-04-20 00:00:00.000",
     "issueDate": "2010-04-20 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105464507",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "E6B3BABE-2929-4C09-8101-23F00C35397C",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "AMOROLFINE HYDROCHLORIDE"
     ],
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8D111707-DF71-444E-B159-F3C9090B46BC",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -52,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812203810",
+            "ingredientsName": "AMOROLFINE HYDROCHLORIDE",
             "ingredientsDesc": "AMOROLFINE HYDROCHLORIDE",
             "concentDesc": "(eq. to Amorolfine 50mg)",
             "concent": "55.7400",
@@ -70,47 +83,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "18BB30C3-1C78-483C-A9A1-FD4C5C7B14AA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AFBB0CA3-99F6-419F-B9C1-1A215F0F9D30",
-            "approvedDocNo": "1076047496",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1B2B44CA-F451-4DE9-A538-5425D98977FA",
-            "approvedDocNo": "1076047496",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "61EEB6C8-95E0-4EB7-8DA0-F658A1804B11",
-            "approvedDocNo": "1076047496",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D01AE16"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D01AE16"
         }
     ],

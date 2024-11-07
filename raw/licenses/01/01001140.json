@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01001140",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1972-06-09 00:00:00.000",
+    "oriIssueDate": "1972-06-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100114000",
@@ -16,13 +20,16 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "35ECEB90-026F-48DB-AB0D-500211446F9B",
+    "subCategory": [],
     "ingredientsDesc": [
         "DL-METHYLEPHEDRINE HCL"
     ],
@@ -31,7 +38,7 @@
         "1R"
     ],
     "applicantName": "中美兄弟製藥股份有限公司",
-    "applicantAddr": "彰化市東芳里彰鹿路１０６號",
+    "applicantAddr": "彰化縣彰化市彰鹿路106號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -42,9 +49,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "21F1CD43-6E08-4AE3-93B7-7072AE78406B",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "25",
             "concent": "25.0000",
@@ -70,31 +81,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FC278BC6-674C-423D-8728-C1D150DD2C27",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1CC5AD5E-5D75-49F8-B09A-59003E2B321B",
-            "approvedDocNo": "1129007635",
-            "approvedDate": "2023-03-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "R03CA"
-        },
-        {
-            "isMain": "2",
             "atcCode": "R03CA"
         }
     ],

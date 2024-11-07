@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027034",
+    "licUnit": "1",
     "validDate": "2027-02-02 00:00:00.000",
     "issueDate": "2017-02-02 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202703401",
@@ -27,6 +31,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "E79431D5-3444-48F4-86DC-4D18BF452807",
+    "subCategory": [
+        "A02"
+    ],
     "ingredientsDesc": [
         "Fluticasone furoate (micronised) ",
         "Vilanterol trifenatate (micronised)"
@@ -35,7 +44,7 @@
         "02"
     ],
     "applicantName": "荷商葛蘭素史克藥廠股份有限公司台灣分公司",
-    "applicantAddr": "臺北市中正區忠孝西路一段66號23、24樓",
+    "applicantAddr": "臺北市中正區忠孝西路1段66號23樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -46,19 +55,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DB78910D-5BF5-4A81-83B0-6D9CCDDB5626",
             "factoryCode": "1",
-            "factoryName": "GLAXO OPERATIONS UK LIMITED",
-            "factoryAddr": "PRIORY STREET, WARE, HERTFORDSHIRE, SG12 0DJ, UNITED KINGDOM.",
-            "factoryCompanyAddr": "",
-            "countryCode": "GB",
+            "factoryName": "GLAXOSMITHKLINE LLC.",
+            "factoryAddr": "1011 NORTH ARENDELL AVENUE,ZEBULON,NC 27597,USA",
+            "factoryCompanyAddr": null,
+            "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FGB0044400",
+            "factoryNo": "FUS0295100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "71371121-A8DF-4B68-8EEA-8BA241552D2D",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -74,16 +87,19 @@
             "factoryKind": "M",
             "factoryNo": "1225204000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406002240",
+            "ingredientsName": "Fluticasone furoate (micronised) ",
             "ingredientsDesc": "Fluticasone furoate (micronised) ",
             "concentDesc": "",
-            "concent": "200.000",
+            "concent": "200.0000",
             "concentUnit": "016",
             "seq": "1",
             "prescription_seq": "1",
@@ -92,9 +108,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212005510",
+            "ingredientsName": "Vilanterol trifenatate (micronised)",
             "ingredientsDesc": "Vilanterol trifenatate (micronised)",
             "concentDesc": "",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "016",
             "seq": "1",
             "prescription_seq": "2",
@@ -103,44 +120,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "34379237-B115-40C6-A755-EE679A9E97A6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9E4A569F-9266-4C7F-A571-C108BA0107FD",
-            "approvedDocNo": "1081491929",
-            "approvedDate": "2020-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D9B7C940-BECF-4809-B347-53F6AA4F75BC",
-            "approvedDocNo": "1086003694",
-            "approvedDate": "2019-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R03AK10"
-        },
         {
             "isMain": "1",
             "atcCode": "R03AK10"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03BA09"
         }
     ],
     "licBaseId": "5888F801-800B-4878-9783-0847A51AE111"

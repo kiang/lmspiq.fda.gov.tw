@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047154",
+    "licUnit": "1",
     "validDate": "2025-04-06 00:00:00.000",
     "issueDate": "2005-04-06 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104715400",
@@ -16,7 +20,7 @@
     "does": "3363",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "88"
         },
         {
@@ -24,13 +28,18 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "96"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "1884C005-3D3F-425A-B455-897A8CA5C97E",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "HYDROQUINONE"
     ],
@@ -49,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "EEDE681A-233C-494C-8CA0-5BEEAAC9A8B9",
             "factoryCode": "1",
             "factoryName": "黃氏製藥股份有限公司",
             "factoryAddr": "雲林縣斗南鎮小東里大同路４４４巷１１號",
@@ -59,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "1223216300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8450400100",
+            "ingredientsName": "HYDROQUINONE",
             "ingredientsDesc": "HYDROQUINONE",
             "concentDesc": "",
             "concent": "40.0000",
@@ -77,56 +90,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7EE8D046-F590-4E56-A414-CA40117C2A62",
-            "approvedDocNo": "1120801280",
-            "approvedDate": "2023-08-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "48FB227B-F14C-402B-852E-2EF4D539949D",
-            "approvedDocNo": "1106805153",
-            "approvedDate": "2021-07-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A981B414-99C5-4A14-B904-543EFC9313D4",
-            "approvedDocNo": "1106805153",
-            "approvedDate": "2021-07-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F83BD24-C661-40A0-BEF5-BE26579CF255",
-            "approvedDocNo": "1106805153",
-            "approvedDate": "2021-07-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "63C18476-54C3-4860-BB6E-BE53392D4307",
-            "approvedDocNo": "1106805153",
-            "approvedDate": "2021-07-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C8AA7056-A986-4B10-A484-187BEDF9915D",
-            "approvedDocNo": "1086603566",
-            "approvedDate": "2019-07-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

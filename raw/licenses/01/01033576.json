@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033576",
+    "licUnit": "1",
     "validDate": "2026-01-30 00:00:00.000",
     "issueDate": "1991-01-30 00:00:00.000",
+    "oriIssueDate": "1991-01-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103357600",
@@ -16,13 +20,16 @@
     "does": "1170",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6EA8B831-555D-4D20-8AF5-61C6C878C166",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "GLYCYRRHIZA EXTRACT",
@@ -35,7 +42,7 @@
         "01"
     ],
     "applicantName": "中美兄弟製藥股份有限公司",
-    "applicantAddr": "彰化市東芳里彰鹿路１０６號",
+    "applicantAddr": "彰化縣彰化市彰鹿路106號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -46,9 +53,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A8C20E42-7737-4A01-9005-531A71B4AD69",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "15",
             "concent": "15.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "1.5",
             "concent": "1.5000",
@@ -85,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001420",
+            "ingredientsName": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "concentDesc": "2.5",
             "concent": "2.5000",
@@ -96,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -107,6 +121,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "0.12",
             "concent": "0.1200",
@@ -118,6 +133,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004401",
+            "ingredientsName": "GLYCYRRHIZA EXTRACT",
             "ingredientsDesc": "GLYCYRRHIZA EXTRACT",
             "concentDesc": "6",
             "concent": "6.0000",
@@ -129,60 +145,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "307737B0-AF2F-453C-BC9A-4C8D69FF8C42",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1EB19474-FE14-44F0-A9DE-AEEBD5C3E2BE",
-            "approvedDocNo": "1106800034",
-            "approvedDate": "2021-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6ED07AEC-C40D-4EF5-A089-67470ADBC22F",
-            "approvedDocNo": "1106800034",
-            "approvedDate": "2021-07-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R05X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
         }
     ],
     "licBaseId": "F1BE9643-151C-4904-BA4D-437DB9A90724"

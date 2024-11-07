@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057894",
+    "licUnit": "1",
     "validDate": "2028-04-15 00:00:00.000",
     "issueDate": "2013-04-15 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105789404",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AB223197-7047-4A6A-9665-E54F6D51C78F",
+    "subCategory": [],
     "ingredientsDesc": [
         "BETAMETHASONE DIPROPIONATE",
         "CLOTRIMAZOLE",
@@ -47,9 +54,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4F5FAE32-3171-48E4-83CA-460A16F5A65B",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812100310",
+            "ingredientsName": "GENTAMICIN SULFATE",
             "ingredientsDesc": "GENTAMICIN SULFATE",
             "concentDesc": "(potency)",
             "concent": "1.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000220",
+            "ingredientsName": "BETAMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BETAMETHASONE DIPROPIONATE",
             "concentDesc": "(eq. to Betamethasone 0.5mg)",
             "concent": "0.6400",
@@ -86,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
             "ingredientsDesc": "CLOTRIMAZOLE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -105,64 +118,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "21461B58-0737-4BC2-AC40-809E30A82336",
-            "approvedDocNo": "1129013968",
-            "approvedDate": "2023-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "112F0A3B-455E-4043-878E-0BD34AC82956",
-            "approvedDocNo": "1110811172",
-            "approvedDate": "2022-11-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "090B12B0-1E00-43A3-984C-4A225CCDB5CC",
-            "approvedDocNo": "1110811172",
-            "approvedDate": "2022-11-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A75ADB56-8C91-4D1E-8CE5-8D613503F234",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "92616CAD-5F64-4E16-A511-7B911105D0CE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D01AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX07"
-        },
         {
             "isMain": "1",
             "atcCode": "D07BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
         }
     ],
     "licBaseId": "ABD21B5D-0702-4CAB-8E71-7C436A8BF667"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001121",
+    "licUnit": "1",
     "validDate": "2025-02-03 00:00:00.000",
     "issueDate": "2020-02-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000112109",
@@ -23,16 +27,22 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "83BA0941-F874-4E44-9658-29E49CEAA9CB",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "Damoctocog alfa pegol"
     ],
     "restraintItemsCode": [
         "02",
         "07",
-        "5F"
+        "5F",
+        "68"
     ],
     "applicantName": "台灣拜耳股份有限公司",
-    "applicantAddr": "台北市信義區信義路5段7號53樓",
+    "applicantAddr": "臺北市信義區信義路5段7號53樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -43,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E3E9DE23-B342-4280-9361-82245E6812D8",
             "factoryCode": "1",
             "factoryName": "BAYER HEALTHCARE LLC",
             "factoryAddr": "800 DWIGHT WAY, BERKELEY, CA 94710 USA",
@@ -58,9 +69,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0055000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "125B4DD7-C262-4493-AC55-A86B06D4A500",
             "factoryCode": "2",
             "factoryName": "VETTER PHARMA - FERTIGUNG GMBH & CO. KG",
             "factoryAddr": "SCHUTZENSTRABE 87 AND 99-101 88212 RAVENSBURG, GERMANY",
@@ -76,9 +90,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0267600",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "5B9D4CD2-EB48-4329-AE78-119E676AC79D",
             "factoryCode": "2",
             "factoryName": "VETTER PHARMA-FERTIGUNG GMBH & CO. KG",
             "factoryAddr": "EISENBAHNSTRASSE 2-4, 88085 LANGENARGEN GERMANY",
@@ -89,9 +106,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0292000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "122A7B25-EA92-42BA-B0F7-4947CF53E321",
             "factoryCode": "2",
             "factoryName": "BAYER AG",
             "factoryAddr": "MUELLERSTRASSE 178 13353 BERLIN GERMANY",
@@ -107,16 +127,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE9045000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012103600",
+            "ingredientsName": "Damoctocog alfa pegol",
             "ingredientsDesc": "Damoctocog alfa pegol",
             "concentDesc": "",
-            "concent": "1000.000",
+            "concent": "1000.0000",
             "concentUnit": "21A",
             "seq": "1",
             "prescription_seq": "1",
@@ -125,56 +148,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ABDF2EBA-CF88-430D-814A-18CA99C161C2",
-            "approvedDocNo": "1129002736",
-            "approvedDate": "2023-05-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6E3BF853-DD22-4072-B614-5F0889AF9552",
-            "approvedDocNo": "1110703731",
-            "approvedDate": "2022-06-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "56B0F7AF-B8A6-4EB8-846A-E48D273EC263",
-            "approvedDocNo": "1106031609",
-            "approvedDate": "2022-05-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "82C10EEA-B4DE-40AE-A26D-6FA687F8161C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "09BF44B8-031B-4075-84AF-E20B04E86C10",
-            "approvedDocNo": "1096025842",
-            "approvedDate": "2021-01-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C4226C19-EC50-4F57-ADB0-11A67E7775C0",
-            "approvedDocNo": "1096025842",
-            "approvedDate": "2021-01-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

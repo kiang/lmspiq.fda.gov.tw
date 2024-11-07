@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12015238",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1970-11-18 00:00:00.000",
+    "oriIssueDate": "1970-11-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01201523805",
@@ -16,17 +20,20 @@
     "does": "1119",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3CF79579-A7A0-459C-A5D2-C56E9460FFD5",
+    "subCategory": [],
     "ingredientsDesc": [
         "LIVER EXTRACT",
         "RIBOFLAVIN (VIT B2)",
@@ -40,7 +47,7 @@
         "1R"
     ],
     "applicantName": "中美兄弟製藥股份有限公司",
-    "applicantAddr": "彰化市東芳里彰鹿路１０６號",
+    "applicantAddr": "彰化縣彰化市彰鹿路106號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -51,9 +58,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A357C24D-AA46-4534-9EE4-20ADD84C8A02",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -61,16 +69,19 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2004401450",
+            "ingredientsName": "FERROUS SULFATE DEHYDRATE",
             "ingredientsDesc": "FERROUS SULFATE DEHYDRATE",
             "concentDesc": "50",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -79,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2004800100",
+            "ingredientsName": "LIVER EXTRACT",
             "ingredientsDesc": "LIVER EXTRACT",
             "concentDesc": "20",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -90,9 +102,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "2",
-            "concent": "2.000",
+            "concent": "2.0000",
             "concentUnit": "016",
             "seq": "3",
             "prescription_seq": "1",
@@ -101,9 +114,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101000",
+            "ingredientsName": "THIAMINE NITRATE",
             "ingredientsDesc": "THIAMINE NITRATE",
             "concentDesc": "1",
-            "concent": "1.000",
+            "concent": "1.0000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -112,9 +126,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "1",
-            "concent": "1.000",
+            "concent": "1.0000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -123,9 +138,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000100",
+            "ingredientsName": "ASCORBIC ACID (VIT C)",
             "ingredientsDesc": "ASCORBIC ACID (VIT C)",
             "concentDesc": "10",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -134,44 +150,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "13EF150D-E12A-4A2C-9168-2BD0F1EA7B50",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
-        },
         {
             "isMain": "1",
             "atcCode": "B03AE10"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03AA07"
         }
     ],
     "licBaseId": "F7D1894C-BE98-4F00-A214-962A38FB072E"

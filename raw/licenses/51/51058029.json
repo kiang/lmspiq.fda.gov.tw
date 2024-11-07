@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058029",
+    "licUnit": "1",
     "validDate": "2028-07-31 00:00:00.000",
     "issueDate": "2013-07-31 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105802901",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "19B6A376-48F4-4709-9F39-132678EF3468",
+    "subCategory": [],
     "ingredientsDesc": [
         "VALPROIC ACID",
         "SODIUM VALPROATE"
@@ -37,8 +44,8 @@
         "1R",
         "61"
     ],
-    "applicantName": "健喬信元醫藥生技股份有限公司",
-    "applicantAddr": "新竹縣湖口鄉工業一路6號",
+    "applicantName": "優良化學製藥股份有限公司",
+    "applicantAddr": "新竹縣湖口鄉中興村光復路10號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CA943E43-1E4E-4B2A-9D78-6DCB627F6A3E",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業一路６號",
@@ -59,16 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812001330",
+            "ingredientsName": "SODIUM VALPROATE",
             "ingredientsDesc": "SODIUM VALPROATE",
             "concentDesc": "",
-            "concent": "333.000",
+            "concent": "333.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812001300",
+            "ingredientsName": "VALPROIC ACID",
             "ingredientsDesc": "VALPROIC ACID",
             "concentDesc": "",
-            "concent": "145.000",
+            "concent": "145.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -88,49 +100,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "999CB159-FE84-44D3-BD9B-566F2444688B",
-            "approvedDocNo": "1129007665",
-            "approvedDate": "2023-03-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "08B7CAF9-487F-434C-8B6B-B608C5787441",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C70A66F3-5A90-4060-B9E8-4E1F40B71DDC",
-            "approvedDocNo": "1096810336",
-            "approvedDate": "2020-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "54345D5C-C964-4637-8DF0-7BDE22C9A3B6",
-            "approvedDocNo": "1086810474",
-            "approvedDate": "2019-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N03AG01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N03AG01"
-        },
         {
             "isMain": "1",
             "atcCode": "N03AG01"

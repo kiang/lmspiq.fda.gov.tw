@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01045805",
+    "licUnit": "1",
     "validDate": "2028-09-29 00:00:00.000",
     "issueDate": "2003-09-29 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104580502",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "03EA9BEB-D734-4271-A519-2FB3B1D7B71E",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROCORTISONE ACETATE",
         "ALLANTOIN",
@@ -44,9 +51,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5277B1E6-69B8-4550-A5CC-6C54CD3CEE51",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -54,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001000",
+            "ingredientsName": "LIDOCAINE",
             "ingredientsDesc": "LIDOCAINE",
             "concentDesc": null,
             "concent": "30.0000",
@@ -72,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001120",
+            "ingredientsName": "HYDROCORTISONE ACETATE",
             "ingredientsDesc": "HYDROCORTISONE ACETATE",
             "concentDesc": null,
             "concent": "2.5000",
@@ -83,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416000100",
+            "ingredientsName": "ALLANTOIN",
             "ingredientsDesc": "ALLANTOIN",
             "concentDesc": null,
             "concent": "5.0000",
@@ -94,6 +107,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200011500",
+            "ingredientsName": "ZINC OXIDE",
             "ingredientsDesc": "ZINC OXIDE",
             "concentDesc": null,
             "concent": "50.0000",
@@ -113,96 +127,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7AF64A2D-5D90-400D-B43F-2609917D0205",
-            "approvedDocNo": "1129050624",
-            "approvedDate": "2023-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "17E51932-34EE-4DD7-A912-5964C221775D",
-            "approvedDocNo": "1110810906",
-            "approvedDate": "2022-08-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "103980B2-1E22-4D53-AE64-742BA8206E4D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "28F8596C-2AAB-4F60-B688-73134CF9360C",
-            "approvedDocNo": "1096819117",
-            "approvedDate": "2021-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8D2C1C91-228A-4571-A809-F00FECC316E4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FC4E9E42-207B-4259-8A4F-1A604AE3F15C",
-            "approvedDocNo": "1086817214",
-            "approvedDate": "2020-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "70854B25-A460-450B-81A7-B284BBE085F0",
-            "approvedDocNo": "1086817214",
-            "approvedDate": "2020-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9DE4633F-D8E7-4F54-96FB-C187A65636CA",
-            "approvedDocNo": "1086817214",
-            "approvedDate": "2020-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "186A8B9E-585F-426E-B8A5-DEADA359DE0E",
-            "approvedDocNo": "1086817214",
-            "approvedDate": "2020-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C05AA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AD01"
         }
     ],
     "licBaseId": "39D64906-1F72-43E3-9FAC-7E2FEC9170E5"

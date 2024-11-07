@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057205",
+    "licUnit": "1",
     "validDate": "2027-05-08 00:00:00.000",
     "issueDate": "2012-05-08 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105720507",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "C5CF6DCE-8390-4951-ADDF-B23F85944805",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "ORLISTAT"
     ],
@@ -46,9 +55,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FB0EF0E3-86B0-4012-B0CB-421C2CB25501",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化縣彰化市彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -56,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212004500",
+            "ingredientsName": "ORLISTAT",
             "ingredientsDesc": "ORLISTAT",
             "concentDesc": "",
             "concent": "60.0000",
@@ -82,48 +95,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D5E2DB9C-83BA-4023-86F8-E8D36EDB71D6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A6003E5D-355E-402D-B666-D68CF985CB98",
-            "approvedDocNo": "1106811656",
-            "approvedDate": "2021-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E95E0D5B-93CA-4E16-9714-2D7ED06D54AD",
-            "approvedDocNo": "1106811656",
-            "approvedDate": "2021-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1DE10BD4-8B39-440A-9E01-378900DC4C27",
-            "approvedDocNo": "1106811656",
-            "approvedDate": "2021-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A620CDD4-5705-46A9-A502-48C49B3140CE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

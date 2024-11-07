@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01052621",
+    "licUnit": "1",
     "validDate": "2025-04-14 00:00:00.000",
     "issueDate": "2010-04-14 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105262109",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "1ADF3CFA-850E-4D9A-A25E-451EE6DE8CB2",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "TERBINAFINE HYDROCHLORIDE"
     ],
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "24358F3D-995C-466F-B017-FD96C1B45D2F",
             "factoryCode": "1",
             "factoryName": "旭能醫藥生技股份有限公司",
             "factoryAddr": "苗栗縣竹南鎮科研路25號",
@@ -52,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "6135041348",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "3632000108",
+            "ingredientsName": "TERBINAFINE HYDROCHLORIDE",
             "ingredientsDesc": "TERBINAFINE HYDROCHLORIDE",
             "concentDesc": null,
             "concent": "10.0000",
@@ -70,63 +83,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1CC2658F-4B83-439E-B204-61D361B713A4",
-            "approvedDocNo": "1086019755",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F3BBA400-D7C2-40E6-A84D-6C63DE75341E",
-            "approvedDocNo": "1086019755",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CCDBCB21-819C-495A-B292-712DB453B09D",
-            "approvedDocNo": "1086019755",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4107711F-3507-4716-B814-85BD45770C20",
-            "approvedDocNo": "1086012604",
-            "approvedDate": "2019-09-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F008C4FD-E716-4631-AFB0-90BAFD0ECF36",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ADB67669-863F-4DFA-B7EC-01D96A6FF475",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D01AE15"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D01AE15"
         }
     ],

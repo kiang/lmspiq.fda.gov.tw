@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055557",
+    "licUnit": "1",
     "validDate": "2025-11-25 00:00:00.000",
     "issueDate": "2010-11-25 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105555702",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1CE00F1F-4DB1-467D-8797-1913FE814E47",
+    "subCategory": [],
     "ingredientsDesc": [
         "VALSARTAN"
     ],
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FBA61246-89E8-461D-A113-B4C4307F02F8",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司二廠",
             "factoryAddr": "台南市新營區開元路154號",
@@ -53,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "6141010064",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005100",
+            "ingredientsName": "VALSARTAN",
             "ingredientsDesc": "VALSARTAN",
             "concentDesc": "",
             "concent": "160.0000",
@@ -71,47 +82,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FFD70E12-FECE-44FD-A700-225C49235DB3",
-            "approvedDocNo": "1120806435",
-            "approvedDate": "2023-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6CC3FE66-99C4-432B-9ED4-3AAF851E3541",
-            "approvedDocNo": "1106803206",
-            "approvedDate": "2021-07-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5E140DFD-A77F-40A9-8DAC-4E6B8D42B571",
-            "approvedDocNo": "1106803206",
-            "approvedDate": "2021-07-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "24B9F461-CEBD-4AF1-8122-A3F214BDBF02",
-            "approvedDocNo": "1096605775",
-            "approvedDate": "2020-09-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "C09CA03"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C09CA03"
         }
     ],

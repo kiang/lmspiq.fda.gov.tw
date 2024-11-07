@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026653",
+    "licUnit": "1",
     "validDate": "2026-03-07 00:00:00.000",
     "issueDate": "2016-03-07 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202665308",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9429B141-854D-4E1C-B30E-F6681785F714",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMLODIPINE BESILATE",
         "PERINDOPRIL ARGININE"
@@ -31,8 +38,8 @@
         "02",
         "07"
     ],
-    "applicantName": "新加坡商施維雅股份有限公司臺灣分公司",
-    "applicantAddr": "台北市中山區松江路168號3樓",
+    "applicantName": "新加坡商施維雅股份有限公司台灣分公司",
+    "applicantAddr": "台北市中山區松江路169號17樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C0D9D94E-612D-42D7-A97A-24DBB60BB628",
             "factoryCode": "1",
             "factoryName": "SERVIER (IRELAND) INDUSTRIES LTD.",
             "factoryAddr": "GOREY ROAD, ARKLOW, CO. WICKLOW, IRELAND",
@@ -53,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FIE0052000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "86723522-517D-4845-AD73-D5634B6BA60B",
             "factoryCode": "2",
             "factoryName": "LES LABORATOIRES SERVIER.",
             "factoryAddr": "50 RUE CARNOT, 92284 SURESNES CEDEX, FRANCE.",
@@ -71,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "FFR0075100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408004730",
+            "ingredientsName": "PERINDOPRIL ARGININE",
             "ingredientsDesc": "PERINDOPRIL ARGININE",
             "concentDesc": "(Corresponds to Perindopril......3.395 mg)",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,9 +103,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412402220",
+            "ingredientsName": "AMLODIPINE BESILATE",
             "ingredientsDesc": "AMLODIPINE BESILATE",
             "concentDesc": "(Corresponds to amlodipine......5.00 mg)",
-            "concent": "6.935",
+            "concent": "6.9350",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -100,65 +115,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EFE6ED4F-4D13-459F-A839-EA7BB5B1779B",
-            "approvedDocNo": "1110732617",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E253E249-B7F0-494E-928A-7A181F4E86C7",
-            "approvedDocNo": "1110712296",
-            "approvedDate": "2022-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2A0D5ED4-5E18-4D1F-8DD5-D287474099AF",
-            "approvedDocNo": "1106033553",
-            "approvedDate": "2022-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1779B46E-77B0-45E0-A880-7E958FF459D4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "27741028-75B6-42DC-88BB-4403635E944D",
-            "approvedDocNo": "1086039305",
-            "approvedDate": "2020-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A7C0B24C-E7D9-4EAA-8088-5D49B34427BD",
-            "approvedDocNo": "1086007429",
-            "approvedDate": "2019-06-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C08CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09AA04"
-        },
         {
             "isMain": "1",
             "atcCode": "C09BB04"

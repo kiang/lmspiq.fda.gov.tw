@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027094",
+    "licUnit": "1",
     "validDate": "2027-03-20 00:00:00.000",
     "issueDate": "2017-03-20 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA05202709403",
@@ -27,6 +31,9 @@
     "medMCode": "01",
     "maMedCode": "",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "A3D3DD7A-3A04-42FF-A100-D30FEB2AE9C4",
+    "subCategory": [],
     "ingredientsDesc": [
         "Urea............Assay (on dried substance) 99.0% - 101.0%"
     ],
@@ -45,19 +52,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3ABC73E9-A6CA-461A-B2D4-81519D69668B",
             "factoryCode": "1",
             "factoryName": "Merck KGaA",
-            "factoryAddr": "Frankfurter Strasse 250, A18, A19, A25, A32, D3, D39, E60, G20, I10, I29, L29, M22, M32, N2, N23, N26, N70, N79, N90, O21, O30, P11, P12, Q3, R48, V41, V42, V66, V67, Darmstadt, Hessen, 64293, Germany",
-            "factoryCompanyAddr": "",
+            "factoryAddr": "Frankfurter Strasse 250, A18, A19, A25, A32, D3, E60, F61, G20, I10, I29, K16, M22, M32, N2, N23, N26, N70, N79, N90, O21, O30, P11, P12, P40, Q3, ,Q20, R48, V41, V42, V66, V67, Darmstadt, Hessen, 64293, Germany",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FDE0076800",
+            "factoryNo": "FDE0076900",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "43F414A7-2635-4185-9CEC-A0678C04239D",
             "factoryCode": "2",
             "factoryName": "嘉里醫藥物流股份有限公司",
             "factoryAddr": "桃園市龜山區頂湖路５８號２樓",
@@ -73,9 +84,12 @@
             "factoryKind": "M",
             "factoryNo": "6132071675",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "16C33A72-F87E-492C-8769-6278BC986042",
             "factoryCode": "2",
             "factoryName": "MERCK KGAA",
             "factoryAddr": "64271 DARMSTADT, GERMANY",
@@ -91,13 +105,16 @@
             "factoryKind": "M",
             "factoryNo": "MDE0222100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Urea............Assay (on dried substance) 99.0% - 101.0%",
             "ingredientsDesc": "Urea............Assay (on dried substance) 99.0% - 101.0%",
             "concentDesc": null,
             "concent": null,
@@ -109,64 +126,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CC8347CB-F286-42B3-A1F2-DB63B9F5152F",
-            "approvedDocNo": "1129025089",
-            "approvedDate": "2023-10-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7FA88CBF-D17D-4403-B877-8E8D3669AB9A",
-            "approvedDocNo": "1101490623",
-            "approvedDate": "2021-08-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8366908F-51C7-4261-9501-B4E2651AFEC5",
-            "approvedDocNo": "1101490623",
-            "approvedDate": "2021-08-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8FB329B8-10CC-4192-8636-3587325EBB21",
-            "approvedDocNo": "1106013780",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "40C4C6A5-B0AF-44B8-935D-8AE2F958E595",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6FFCB6DE-CF97-4D9B-A489-BBD69EB61AFC",
-            "approvedDocNo": "1096819273",
-            "approvedDate": "2020-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3650A056-EDB2-4DAA-B1D6-D1DF17EF6464",
-            "approvedDocNo": "1086603367",
-            "approvedDate": "2019-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [],
     "licBaseId": "05B5ED09-D04C-4BE3-ABB9-8EC23347E401"
 }

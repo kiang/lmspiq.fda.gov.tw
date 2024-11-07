@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01032419",
+    "licUnit": "1",
     "validDate": "2025-04-21 00:00:00.000",
     "issueDate": "1990-04-21 00:00:00.000",
+    "oriIssueDate": "1990-04-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103241902",
@@ -31,6 +35,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5EFE9A4E-A136-444B-862D-1417F3328918",
+    "subCategory": [],
     "ingredientsDesc": [
         "GENTAMICIN (AS SULFATE)",
         "BETAMETHASONE (17-VALERATE)",
@@ -52,6 +59,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "98BD3C9B-5BBB-4490-9514-ADD4B3192F80",
             "factoryCode": "1",
             "factoryName": "杏輝藥品工業股份有限公司",
             "factoryAddr": "宜蘭縣冬山鄉中山村中山路８４號",
@@ -62,13 +70,16 @@
             "factoryKind": "M",
             "factoryNo": "0705330300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804009251",
+            "ingredientsName": "BETAMETHASONE (17-VALERATE)",
             "ingredientsDesc": "BETAMETHASONE (17-VALERATE)",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -80,6 +91,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -91,6 +103,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804009251",
+            "ingredientsName": "BETAMETHASONE (17-VALERATE)",
             "ingredientsDesc": "BETAMETHASONE (17-VALERATE)",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -102,6 +115,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -113,44 +127,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E55D270A-B3A9-46EF-8228-D7B1E702608C",
-            "approvedDocNo": "1110022550",
-            "approvedDate": "2022-11-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B427604-345D-40A9-84B7-D2BC735EDF3C",
-            "approvedDocNo": "1110811226",
-            "approvedDate": "2022-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9F384593-38B2-4632-8491-0747067C56AF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D07CC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
         }
     ],
     "licBaseId": "8482C62B-3A41-460E-8EA4-7874DE52AD25"

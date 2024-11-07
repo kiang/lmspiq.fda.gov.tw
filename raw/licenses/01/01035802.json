@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035802",
+    "licUnit": "1",
     "validDate": "2027-10-13 00:00:00.000",
     "issueDate": "1992-10-13 00:00:00.000",
+    "oriIssueDate": "1992-10-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103580203",
@@ -16,13 +20,16 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DB76FEBD-FC44-42DD-8FBF-115BC895D73F",
+    "subCategory": [],
     "ingredientsDesc": [
         "THIAMINE HYDROCHLORIDE",
         "CAFFEINE ANHYDROUS",
@@ -33,7 +40,7 @@
         "1R"
     ],
     "applicantName": "中美兄弟製藥股份有限公司",
-    "applicantAddr": "彰化市東芳里彰鹿路１０６號",
+    "applicantAddr": "彰化縣彰化市彰鹿路106號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -44,9 +51,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C3627D0B-EDD1-4691-B62B-234B5AEA7444",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -54,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -72,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100900",
+            "ingredientsName": "THIAMINE HYDROCHLORIDE",
             "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
             "concentDesc": "(11.21MG)10",
             "concent": null,
@@ -83,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000200",
+            "ingredientsName": "NIACIN (NICOTINIC ACID)",
             "ingredientsDesc": "NIACIN (NICOTINIC ACID)",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -94,40 +107,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BE4E36FD-58B2-4F13-98FF-310B7C7E40FB",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2E3EA061-287F-4EE5-88E5-5A7E8D8456A1",
-            "approvedDocNo": "1086816999",
-            "approvedDate": "2020-01-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A11JA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
         }
     ],
     "licBaseId": "96834758-ABD1-40D6-9143-06A4FB7CDAE1"

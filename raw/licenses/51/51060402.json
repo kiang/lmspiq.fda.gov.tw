@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060402",
+    "licUnit": "1",
     "validDate": "2024-12-03 00:00:00.000",
     "issueDate": "2019-12-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106040202",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "9CD63B4E-AF37-4B4E-A7CE-0B2DDC1D4118",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "EZETIMIBE",
         "SIMVASTATIN"
@@ -44,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F744FCE0-5555-4248-883F-E3F597EB6B36",
             "factoryCode": "1",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉光復路1號",
@@ -54,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "6133061413",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200095600",
+            "ingredientsName": "EZETIMIBE",
             "ingredientsDesc": "EZETIMIBE",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406002900",
+            "ingredientsName": "SIMVASTATIN",
             "ingredientsDesc": "SIMVASTATIN",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,28 +97,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "78971B07-7B1C-40F4-998C-D30E1F1B4ADE",
-            "approvedDocNo": "1110722123",
-            "approvedDate": "2022-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C10BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C10AA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C10AX09"
         }
     ],
     "licBaseId": "7AFCA07A-05EF-4FD4-AF9E-847990123F35"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01007361",
+    "licUnit": "1",
     "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1975-09-13 00:00:00.000",
+    "oriIssueDate": "1975-09-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100736104",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E6065082-CC32-49A6-8F8D-40C55A05ABAB",
+    "subCategory": [],
     "ingredientsDesc": [
         "HOMATROPINE METHYLBROMIDE",
         "ALUMINUM HYDROXIDE DRIED GEL"
@@ -36,7 +43,7 @@
         "1R"
     ],
     "applicantName": "中美兄弟製藥股份有限公司",
-    "applicantAddr": "彰化市東芳里彰鹿路１０６號",
+    "applicantAddr": "彰化縣彰化市彰鹿路106號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -47,9 +54,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A2B5989B-A902-4415-AE6E-E033115ABF0D",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5224000220",
+            "ingredientsName": "HOMATROPINE METHYLBROMIDE",
             "ingredientsDesc": "HOMATROPINE METHYLBROMIDE",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000202",
+            "ingredientsName": "ALUMINUM HYDROXIDE DRIED GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE DRIED GEL",
             "concentDesc": "230",
             "concent": "230.0000",
@@ -86,33 +98,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B3A57F6F-81F2-4118-986B-F292E5E5D523",
-            "approvedDocNo": "1139003063",
-            "approvedDate": "2024-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F661D882-A5F3-4806-8EBA-4E2A7DE20D3B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03BA"
-        },
         {
             "isMain": "1",
             "atcCode": "A02AG"

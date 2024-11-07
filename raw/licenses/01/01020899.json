@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01020899",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1980-03-14 00:00:00.000",
+    "oriIssueDate": "1980-03-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102089900",
@@ -16,13 +20,16 @@
     "does": "1170",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5D57FCF5-F32E-4CE2-952A-9E6DA804D8A1",
+    "subCategory": [],
     "ingredientsDesc": [
         "PYRIDOXINE HCL",
         "RIBOFLAVIN PHOSPHATE SODIUM",
@@ -35,7 +42,7 @@
         "1R"
     ],
     "applicantName": "中美兄弟製藥股份有限公司",
-    "applicantAddr": "彰化市東芳里彰鹿路１０６號",
+    "applicantAddr": "彰化縣彰化市彰鹿路106號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -46,9 +53,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7DB881C6-47AB-44BE-B708-B23D982EEEFF",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100442",
+            "ingredientsName": "ASPARTATE POTASSIUM L- (eq to POTASSIUM L-ASPARTATE)",
             "ingredientsDesc": "ASPARTATE POTASSIUM L- (eq to POTASSIUM L-ASPARTATE)",
             "concentDesc": "",
             "concent": "500.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100432",
+            "ingredientsName": "ASPARTATE MAGNESIUM L-",
             "ingredientsDesc": "ASPARTATE MAGNESIUM L-",
             "concentDesc": "",
             "concent": "500.0000",
@@ -85,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200700",
+            "ingredientsName": "RIBOFLAVIN PHOSPHATE SODIUM",
             "ingredientsDesc": "RIBOFLAVIN PHOSPHATE SODIUM",
             "concentDesc": "",
             "concent": "5.0000",
@@ -96,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "",
             "concent": "5.0000",
@@ -107,6 +121,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000100",
+            "ingredientsName": "ASCORBIC ACID (VIT C)",
             "ingredientsDesc": "ASCORBIC ACID (VIT C)",
             "concentDesc": "",
             "concent": "200.0000",
@@ -118,40 +133,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A171BB7D-2F67-4052-A5AE-D9D946C4E63D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12BA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
-        },
         {
             "isMain": "1",
             "atcCode": "A11JC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12CC05"
         }
     ],
     "licBaseId": "0393FD75-56F1-4EFB-BA8C-C1F7966D712C"

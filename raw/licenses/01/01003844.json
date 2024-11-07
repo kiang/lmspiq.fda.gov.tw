@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01003844",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1973-12-21 00:00:00.000",
+    "oriIssueDate": "1973-12-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100384404",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DFD31786-1F80-4ECC-9B92-3285087CB9BA",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEXTROMETHORPHAN HBR",
         "POTASSIUM CRESOLSULFONATE"
@@ -36,7 +43,7 @@
         "1R"
     ],
     "applicantName": "中美兄弟製藥股份有限公司",
-    "applicantAddr": "彰化市東芳里彰鹿路１０６號",
+    "applicantAddr": "彰化縣彰化市彰鹿路106號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -47,9 +54,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "283FCD49-C7D9-4A3D-916D-C2D0DEC0F6DF",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": "2.5",
             "concent": "2.5000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003700",
+            "ingredientsName": "POTASSIUM CRESOLSULFONATE",
             "ingredientsDesc": "POTASSIUM CRESOLSULFONATE",
             "concentDesc": "15",
             "concent": "15.0000",
@@ -86,36 +98,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9BB62DB2-39FE-4B94-8842-ED0CB10BB27A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "815E6FFE-901B-4547-AE45-D180DB9E2DAB",
-            "approvedDocNo": "1129011599",
-            "approvedDate": "2023-03-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R05FA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA09"
         }
     ],
     "licBaseId": "2911F8FA-08B5-489C-881C-84580D3572B9"

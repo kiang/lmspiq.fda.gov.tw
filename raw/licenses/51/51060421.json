@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060421",
+    "licUnit": "1",
     "validDate": "2024-12-27 00:00:00.000",
     "issueDate": "2019-12-27 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106042103",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "9C8A3104-DB54-4E59-8A7F-6E68B25A2451",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "CELECOXIB"
     ],
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "00D0159F-B8E9-4674-A591-D67CCBA41AE1",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
@@ -52,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808405200",
+            "ingredientsName": "CELECOXIB",
             "ingredientsDesc": "CELECOXIB",
             "concentDesc": "",
-            "concent": "200.000",
+            "concent": "200.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,40 +83,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9542B3E5-3A81-472D-9BC2-2BAA7BDADD4F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6D2DBEE9-FA69-44A1-8A24-9B7887E7BAD8",
-            "approvedDocNo": "1096821932",
-            "approvedDate": "2021-07-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F78A8D0-2626-49F1-8EC5-0C95CEB7D939",
-            "approvedDocNo": "1096821932",
-            "approvedDate": "2021-07-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B3CFAF57-03C0-4F46-B8F2-14083F718A06",
-            "approvedDocNo": "1096821932",
-            "approvedDate": "2021-07-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

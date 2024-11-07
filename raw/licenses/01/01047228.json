@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047228",
+    "licUnit": "1",
     "validDate": "2025-04-29 00:00:00.000",
     "issueDate": "2005-04-29 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104722800",
@@ -20,13 +24,16 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FC9A9C68-DD9A-4E88-B2B6-B0D104C693F9",
+    "subCategory": [],
     "ingredientsDesc": [
         "FENOFIBRATE MICRONIZED"
     ],
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0CE79F92-3544-407C-AE85-DDA56645EF37",
             "factoryCode": "1",
             "factoryName": "正和製藥股份有限公司新營廠",
             "factoryAddr": "台南市新營區嘉芳里新工路２３號",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "0505720300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406002410",
+            "ingredientsName": "FENOFIBRATE MICRONIZED",
             "ingredientsDesc": "FENOFIBRATE MICRONIZED",
             "concentDesc": "",
             "concent": "160.0000",
@@ -76,55 +87,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FF133380-E8D9-48F1-919C-FCA1D65E986B",
-            "approvedDocNo": "1129029300",
-            "approvedDate": "2023-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6D24C5E8-8657-49C3-A0DC-EC2B0FBCC7AA",
-            "approvedDocNo": "1110816076",
-            "approvedDate": "2022-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8183D6BF-6A1B-4A85-BB8F-2C1072FE7AC2",
-            "approvedDocNo": "1110816076",
-            "approvedDate": "2022-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6C00852C-FB1D-4C2E-961E-31FD6FE02032",
-            "approvedDocNo": "1110816076",
-            "approvedDate": "2022-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B5882194-468D-40B7-9DB7-8936DF3B6CC6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "C10AB05"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C10AB05"
         }
     ],

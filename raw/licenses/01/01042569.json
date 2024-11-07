@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01042569",
+    "licUnit": "1",
     "validDate": "2028-09-10 00:00:00.000",
     "issueDate": "1998-09-10 00:00:00.000",
+    "oriIssueDate": "1998-09-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104256901",
@@ -23,9 +27,12 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "79B28514-DD8E-43F5-9318-F9CF5842AA19",
+    "subCategory": [],
     "ingredientsDesc": [
-        "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
-        "DEXTROMETHORPHAN HBR"
+        "DEXTROMETHORPHAN HBR",
+        "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)"
     ],
     "restraintItemsCode": [
         "01"
@@ -42,60 +49,52 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4307B1BE-2136-430F-8420-9D344354D61E",
             "factoryCode": "1",
-            "factoryName": "新萬仁化學製藥股份有限公司",
-            "factoryAddr": "豐原市文賢街１５８號",
+            "factoryName": "新萬仁化學製藥股份有限公司一廠",
+            "factoryAddr": "臺中市后里區義里里圳寮路138之108號A、C棟",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "1303110300",
+            "factoryNo": "6103070066",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "4800001420",
-            "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
-            "concentDesc": "",
-            "concent": "200.0000",
-            "concentUnit": "001",
-            "seq": "1",
-            "prescription_seq": "1",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": "",
             "concent": "15.0000",
             "concentUnit": "001",
+            "seq": "1",
+            "prescription_seq": "0",
+            "prescription_Kind": "1"
+        },
+        {
+            "ingredientsKind": "1",
+            "ingredientsCode": "4800001420",
+            "ingredientsName": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
+            "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
+            "concentDesc": "",
+            "concent": "200.0000",
+            "concentUnit": "001",
             "seq": "2",
-            "prescription_seq": "1",
+            "prescription_seq": "0",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1C931AD7-89FC-46F6-87A4-3451453E5429",
-            "approvedDocNo": "1129009472",
-            "approvedDate": "2023-05-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05CA03"
-        },
         {
             "isMain": "1",
             "atcCode": "R05CA03"

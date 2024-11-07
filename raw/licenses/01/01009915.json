@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01009915",
+    "licUnit": "1",
     "validDate": "2024-12-31 00:00:00.000",
     "issueDate": "1976-05-28 00:00:00.000",
+    "oriIssueDate": "1976-05-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100991505",
@@ -31,11 +35,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "47C4B423-EEB0-497A-AAE4-B5DEEF0D820F",
+    "subCategory": [],
     "ingredientsDesc": [
         "BETAMETHASONE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "67"
     ],
     "applicantName": "華興化學製藥廠股份有限公司",
     "applicantAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -49,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B4FDEA25-534A-493F-9D62-1BC74A31BCE1",
             "factoryCode": "1",
             "factoryName": "華興化學製藥廠股份有限公司",
             "factoryAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -59,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "1203612300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000200",
+            "ingredientsName": "BETAMETHASONE",
             "ingredientsDesc": "BETAMETHASONE",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -77,40 +89,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AF2C1B9F-369E-43B6-AB39-F2B6718235EB",
-            "approvedDocNo": "1110017857",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9B577BF6-B529-4BF2-B35D-3348368C2687",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5D3A300F-11DB-4F35-8576-480121EEE1EF",
-            "approvedDocNo": "1100032643",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C3032A45-8C1F-4E23-9F75-F97DD5D149B4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

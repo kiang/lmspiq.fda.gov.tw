@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02020893",
+    "licUnit": "1",
     "validDate": "2025-04-28 00:00:00.000",
     "issueDate": "2020-06-11 00:00:00.000",
+    "oriIssueDate": "1995-04-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202089305",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B8DE0EEE-66DD-4BC4-8BD5-13E2396FD39C",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEXTROSE",
         "POTASSIUM CHLORIDE",
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6ED5682E-D9E0-408E-9423-17F26D474EEA",
             "factoryCode": "1",
             "factoryName": "Medivators Inc",
             "factoryAddr": "14605 28TH AVENUE NORTH MINNEAPOLIS, MINNESOTA 55447, U.S.A.",
@@ -59,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "MUS0656000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "174.3",
             "concent": "174.3000",
@@ -77,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000300",
+            "ingredientsName": "CALCIUM CHLORIDE",
             "ingredientsDesc": "CALCIUM CHLORIDE",
             "concentDesc": "8.1",
             "concent": "8.1000",
@@ -88,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "2.7",
             "concent": "2.7000",
@@ -99,6 +112,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001500",
+            "ingredientsName": "MAGNESIUM CHLORIDE",
             "ingredientsDesc": "MAGNESIUM CHLORIDE",
             "concentDesc": "3.7",
             "concent": "3.7000",
@@ -110,6 +124,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600000300",
+            "ingredientsName": "ACETIC ACID",
             "ingredientsDesc": "ACETIC ACID",
             "concentDesc": "8.8",
             "concent": "8.8000",
@@ -121,6 +136,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000500",
+            "ingredientsName": "DEXTROSE",
             "ingredientsDesc": "DEXTROSE",
             "concentDesc": "73.7",
             "concent": "73.7000",
@@ -132,6 +148,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "223",
             "concent": "223.0000",
@@ -143,6 +160,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": "624",
             "concent": "624.0000",
@@ -154,23 +172,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8ADC30F7-0C16-4523-9613-55A13C51EFC8",
-            "approvedDocNo": "1111403040",
-            "approvedDate": "2022-03-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "B05Z"
-        },
-        {
-            "isMain": "2",
             "atcCode": "B05Z"
         }
     ],

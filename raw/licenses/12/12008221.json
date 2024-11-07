@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12008221",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1970-08-19 00:00:00.000",
+    "oriIssueDate": "1970-08-19",
     "licKind": "02",
     "oldLicid": "17003254",
     "certNo": "DHY01200822100",
@@ -16,17 +20,20 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B23FDAAB-FDCC-4128-B8D2-B8128EEDF57D",
+    "subCategory": [],
     "ingredientsDesc": [
         "KAINIC ACID",
         "SANTONIN"
@@ -36,7 +43,7 @@
         "1R"
     ],
     "applicantName": "中美兄弟製藥股份有限公司",
-    "applicantAddr": "彰化市東芳里彰鹿路１０６號",
+    "applicantAddr": "彰化縣彰化市彰鹿路106號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -47,9 +54,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6AABBC68-4155-4D47-9774-D692E40EF252",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -57,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0808000800",
+            "ingredientsName": "KAINIC ACID",
             "ingredientsDesc": "KAINIC ACID",
             "concentDesc": "5",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0808001800",
+            "ingredientsName": "SANTONIN",
             "ingredientsDesc": "SANTONIN",
             "concentDesc": "50",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -86,23 +98,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5EBF36C9-BCD7-46E2-A8EB-6EE81C903FD5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "P02CX"
-        },
-        {
-            "isMain": "2",
             "atcCode": "P02CX"
         }
     ],

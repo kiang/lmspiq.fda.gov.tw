@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060913",
+    "licUnit": "1",
     "validDate": "2026-06-29 00:00:00.000",
     "issueDate": "2021-06-29 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106091301",
@@ -23,6 +27,11 @@
     "medMCode": "17",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "B4E8D9A3-23C7-43FF-8921-FAE8359416DC",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "CYANOCOBALAMIN (VIT B12)"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2E023527-2C1A-4A34-872E-393FA7B6EECA",
             "factoryCode": "1",
             "factoryName": "五福化學製藥股份有限公司",
             "factoryAddr": "宜蘭縣蘇澳鎮龍德工業區德興八路９號",
@@ -51,16 +61,19 @@
             "factoryKind": "M",
             "factoryNo": "0411130300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "",
-            "concent": "0.200",
+            "concent": "0.2000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -69,48 +82,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "302FD5D1-367A-4CFB-A9FB-3413B3F2EF6F",
-            "approvedDocNo": "1129008665",
-            "approvedDate": "2023-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BD174E2E-FD92-4B7E-AD67-89B6112202C5",
-            "approvedDocNo": "1129008665",
-            "approvedDate": "2023-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7A89852F-4A83-4DE0-B40E-918987669843",
-            "approvedDocNo": "1129008665",
-            "approvedDate": "2023-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "35E0EDCB-DBCA-496D-A1A4-E8EAB943B6A8",
-            "approvedDocNo": "1129008665",
-            "approvedDate": "2023-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6335D276-6E7C-44AC-930D-6C317D87535E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

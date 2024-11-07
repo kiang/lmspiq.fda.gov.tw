@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025173",
+    "licUnit": "1",
     "validDate": "2025-04-13 00:00:00.000",
     "issueDate": "2010-04-13 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202517309",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "43B3B2F2-8E31-458C-9645-C73C4E83EAA9",
+    "subCategory": [],
     "ingredientsDesc": [
         "SERINE",
         "ISOLEUCINE",
@@ -59,6 +66,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "70316B88-36B2-4B62-95AF-757E9A10B468",
             "factoryCode": "1",
             "factoryName": "B. BRAUN MELSUNGEN AG",
             "factoryAddr": "CARL-BRAUN-STRABE 1, 34212 MELSUNGEN, GERMANY",
@@ -69,13 +77,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0372000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101000",
+            "ingredientsName": "ISOLEUCINE",
             "ingredientsDesc": "ISOLEUCINE",
             "concentDesc": null,
             "concent": "5.0000",
@@ -87,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101200",
+            "ingredientsName": "LEUCINE",
             "ingredientsDesc": "LEUCINE",
             "concentDesc": null,
             "concent": "8.9000",
@@ -98,6 +110,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101320",
+            "ingredientsName": "LYSINE ACETATE",
             "ingredientsDesc": "LYSINE ACETATE",
             "concentDesc": "(eq. to lysine 4.07mg)",
             "concent": "5.7400",
@@ -109,6 +122,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101304",
+            "ingredientsName": "LYSINE MONOHYDRATE",
             "ingredientsDesc": "LYSINE MONOHYDRATE",
             "concentDesc": "(eq. to lysine 2.78mg)",
             "concent": "3.1200",
@@ -120,6 +134,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101500",
+            "ingredientsName": "METHIONINE",
             "ingredientsDesc": "METHIONINE",
             "concentDesc": null,
             "concent": "4.4000",
@@ -131,6 +146,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101700",
+            "ingredientsName": "PHENYLALANINE",
             "ingredientsDesc": "PHENYLALANINE",
             "concentDesc": null,
             "concent": "4.7000",
@@ -142,6 +158,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102000",
+            "ingredientsName": "THREONINE",
             "ingredientsDesc": "THREONINE",
             "concentDesc": null,
             "concent": "4.2000",
@@ -153,6 +170,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102100",
+            "ingredientsName": "TRYPTOPHAN",
             "ingredientsDesc": "TRYPTOPHAN",
             "concentDesc": null,
             "concent": "1.6000",
@@ -164,6 +182,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102300",
+            "ingredientsName": "VALINE",
             "ingredientsDesc": "VALINE",
             "concentDesc": null,
             "concent": "6.2000",
@@ -175,6 +194,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100300",
+            "ingredientsName": "ARGININE",
             "ingredientsDesc": "ARGININE",
             "concentDesc": null,
             "concent": "11.5000",
@@ -186,6 +206,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100900",
+            "ingredientsName": "HISTIDINE",
             "ingredientsDesc": "HISTIDINE",
             "concentDesc": null,
             "concent": "3.0000",
@@ -197,6 +218,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100200",
+            "ingredientsName": "ALANINE",
             "ingredientsDesc": "ALANINE",
             "concentDesc": null,
             "concent": "10.5000",
@@ -208,6 +230,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102400",
+            "ingredientsName": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "ingredientsDesc": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "concentDesc": null,
             "concent": "12.0000",
@@ -219,6 +242,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100400",
+            "ingredientsName": "ASPARTIC ACID",
             "ingredientsDesc": "ASPARTIC ACID",
             "concentDesc": null,
             "concent": "5.6000",
@@ -230,6 +254,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100700",
+            "ingredientsName": "GLUTAMIC ACID",
             "ingredientsDesc": "GLUTAMIC ACID",
             "concentDesc": null,
             "concent": "7.2000",
@@ -241,6 +266,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101800",
+            "ingredientsName": "PROLINE",
             "ingredientsDesc": "PROLINE",
             "concentDesc": null,
             "concent": "5.5000",
@@ -252,6 +278,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101900",
+            "ingredientsName": "SERINE",
             "ingredientsDesc": "SERINE",
             "concentDesc": null,
             "concent": "2.3000",
@@ -263,6 +290,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102200",
+            "ingredientsName": "TYROSINE",
             "ingredientsDesc": "TYROSINE",
             "concentDesc": null,
             "concent": "0.4000",
@@ -274,79 +302,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4519E297-3AD3-4EF7-A4AD-E22A04F11661",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E31AC6E9-9093-47EC-A3DD-2A90D349FCA9",
-            "approvedDocNo": "1106016019",
-            "approvedDate": "2021-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5E96769A-034A-4FD6-81BC-379E83E712C3",
-            "approvedDocNo": "1096028292",
-            "approvedDate": "2021-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C9A1A78B-FE2C-4D54-B603-9A87D8B86DBA",
-            "approvedDocNo": "1096028292",
-            "approvedDate": "2021-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "291DD260-1388-4B51-AC37-B2F06C49FA0D",
-            "approvedDocNo": "1096028292",
-            "approvedDate": "2021-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9F004978-7202-4115-AADC-0EADFA3A7036",
-            "approvedDocNo": "1096028292",
-            "approvedDate": "2021-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BB9B654B-D23A-4FE0-8F93-8FC484E45B8A",
-            "approvedDocNo": "1096029453",
-            "approvedDate": "2021-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4A307DE9-FEB2-46DC-8D63-F598CF801950",
-            "approvedDocNo": "1086001509",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "B05BA01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "B05BA01"
         }
     ],

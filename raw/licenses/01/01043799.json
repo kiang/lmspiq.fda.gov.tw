@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043799",
+    "licUnit": "1",
     "validDate": "2025-06-07 00:00:00.000",
     "issueDate": "2000-06-07 00:00:00.000",
+    "oriIssueDate": "2000-06-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104379900",
@@ -16,17 +20,20 @@
     "does": "3363",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "96"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A77C0E10-7CB7-4F21-A386-6FC9DB62DB5B",
+    "subCategory": [],
     "ingredientsDesc": [
         "ZINC OXIDE",
         "SULFADIAZINE",
@@ -47,9 +54,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "69D0C481-12DC-40C4-ABF8-61D60A02BCE1",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0824000700",
+            "ingredientsName": "SULFADIAZINE",
             "ingredientsDesc": "SULFADIAZINE",
             "concentDesc": "",
             "concent": "50.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200011500",
+            "ingredientsName": "ZINC OXIDE",
             "ingredientsDesc": "ZINC OXIDE",
             "concentDesc": "",
             "concent": "50.0000",
@@ -86,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": "",
             "concent": "10.0000",
@@ -105,40 +118,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3EB15DBF-2E1E-4FD7-B061-793AD251647D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "98609455-070A-4659-B363-CD808418AE54",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D04AA32"
-        },
         {
             "isMain": "1",
             "atcCode": "D06BA51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D02AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06BA01"
         }
     ],
     "licBaseId": "B761D008-8558-4A60-B778-7C90D086142D"

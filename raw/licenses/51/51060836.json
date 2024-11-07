@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060836",
+    "licUnit": "1",
     "validDate": "2026-03-08 00:00:00.000",
     "issueDate": "2021-03-08 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106083606",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "CBA8498B-620E-4021-A540-19072E439541",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "ATORVASTATIN CALCIUM TRIHYDRATE",
         "AMLODIPINE BESYLATE"
@@ -44,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C06524A6-0158-4123-A403-3B36C91EE6D9",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司二廠",
             "factoryAddr": "台南市新營區開元路154號",
@@ -54,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "6141010064",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412402210",
+            "ingredientsName": "AMLODIPINE BESYLATE",
             "ingredientsDesc": "AMLODIPINE BESYLATE",
             "concentDesc": "(equivalent to Amlodipine.....5mg)",
-            "concent": "6.940",
+            "concent": "6.9400",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406003150",
+            "ingredientsName": "ATORVASTATIN CALCIUM TRIHYDRATE",
             "ingredientsDesc": "ATORVASTATIN CALCIUM TRIHYDRATE",
             "concentDesc": "(equivalent to Atorvastatin.....20mg)",
-            "concent": "21.700",
+            "concent": "21.7000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,68 +97,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "96BF7107-8BDD-4BDA-962A-26F10131DFE3",
-            "approvedDocNo": "1110023833",
-            "approvedDate": "2023-03-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E5FA3926-E16E-4E37-9B2B-A96DBA909C96",
-            "approvedDocNo": "1110023833",
-            "approvedDate": "2023-03-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DD01CE4D-2C73-42A3-A152-D20EC695979B",
-            "approvedDocNo": "1110603710",
-            "approvedDate": "2022-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E2F892BC-35CB-487C-9234-979F68499DEF",
-            "approvedDocNo": "1110603710",
-            "approvedDate": "2022-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "254C4A57-A185-460B-A5A5-A4A22F808256",
-            "approvedDocNo": "1110603483",
-            "approvedDate": "2022-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8AE83135-9216-4C0E-BAD9-068C98CF3E7D",
-            "approvedDocNo": "1106607497",
-            "approvedDate": "2021-10-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C08CA01"
-        },
         {
             "isMain": "1",
             "atcCode": "C10BX03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C10AA05"
         }
     ],
     "licBaseId": "B758044A-3D8F-4497-AD97-BAF2912780F8"

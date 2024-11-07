@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12001055",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1969-09-01 00:00:00.000",
+    "oriIssueDate": "1969-09-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01200105500",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0BCF63CB-235D-44B9-980F-8328F1E78338",
+    "subCategory": [],
     "ingredientsDesc": [
         "ALUMINUM SILICATE",
         "MAGNESIUM OXIDE",
@@ -42,7 +49,7 @@
         "1R"
     ],
     "applicantName": "中美兄弟製藥股份有限公司",
-    "applicantAddr": "彰化市東芳里彰鹿路１０６號",
+    "applicantAddr": "彰化縣彰化市彰鹿路106號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -53,9 +60,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A40DE38A-913D-410F-8DA8-155766060143",
             "factoryCode": "1",
             "factoryName": "中美兄弟製藥股份有限公司",
-            "factoryAddr": "彰化市東芳里彰鹿路１０６號",
+            "factoryAddr": "彰化縣彰化市彰鹿路106號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -63,16 +71,19 @@
             "factoryKind": "M",
             "factoryNo": "0402211300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000200",
+            "ingredientsName": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "ingredientsDesc": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -81,9 +92,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208094503",
+            "ingredientsName": "SCOPOLIAE EXTRACT (POWDER)",
             "ingredientsDesc": "SCOPOLIAE EXTRACT (POWDER)",
             "concentDesc": "",
-            "concent": "120.000",
+            "concent": "120.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -92,9 +104,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5622001100",
+            "ingredientsName": "CERIUM OXALATE",
             "ingredientsDesc": "CERIUM OXALATE",
             "concentDesc": "",
-            "concent": "45.000",
+            "concent": "45.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -103,9 +116,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612001300",
+            "ingredientsName": "MAGNESIUM OXIDE",
             "ingredientsDesc": "MAGNESIUM OXIDE",
             "concentDesc": "",
-            "concent": "90.000",
+            "concent": "90.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -114,9 +128,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000300",
+            "ingredientsName": "MENTHOL",
             "ingredientsDesc": "MENTHOL",
             "concentDesc": "",
-            "concent": "2.000",
+            "concent": "2.0000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "0",
@@ -125,9 +140,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600002000",
+            "ingredientsName": "ALUMINUM SILICATE",
             "ingredientsDesc": "ALUMINUM SILICATE",
             "concentDesc": "(SYN.)",
-            "concent": "400.000",
+            "concent": "400.0000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "0",
@@ -136,9 +152,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5608000500",
+            "ingredientsName": "BISMUTH SUBNITRATE (BISMUTH NITRATE BASIC)",
             "ingredientsDesc": "BISMUTH SUBNITRATE (BISMUTH NITRATE BASIC)",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "0",
@@ -147,9 +164,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": "",
-            "concent": "210.000",
+            "concent": "210.0000",
             "concentUnit": "001",
             "seq": "15",
             "prescription_seq": "0",
@@ -158,48 +176,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "936E1D63-E668-43C9-8071-91EEE37053F6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BX12"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N01BA05"
-        },
         {
             "isMain": "1",
             "atcCode": "A02AG"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A04AD02"
         }
     ],
     "licBaseId": "79EE3251-41F4-4D17-A5C7-D7E0B60CF806"

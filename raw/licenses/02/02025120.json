@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025120",
-    "validDate": "2024-12-01 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-01 00:00:00.000",
     "issueDate": "2009-12-01 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202512001",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7B602F69-578A-4DB5-BE83-D123C00E1B16",
+    "subCategory": [],
     "ingredientsDesc": [
         "ROPINIROLE HYDROCHLORIDE"
     ],
@@ -30,7 +37,7 @@
         "02"
     ],
     "applicantName": "荷商葛蘭素史克藥廠股份有限公司台灣分公司",
-    "applicantAddr": "台北市中正區忠孝西路一段66號23-24樓",
+    "applicantAddr": "臺北市中正區忠孝西路1段66號23樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1460C05D-4809-4322-89C2-5E661A03757A",
             "factoryCode": "1",
             "factoryName": "GLAXO WELLCOME, S.A.",
             "factoryAddr": "AVDA. EXTREMADURA 3 09400 ARANDA DE DUERO BURGOS SPAIN",
@@ -51,9 +59,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0122000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8B6C8632-E646-4CB6-A847-D0440687CEA0",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -69,13 +80,16 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7600001410",
+            "ingredientsName": "ROPINIROLE HYDROCHLORIDE",
             "ingredientsDesc": "ROPINIROLE HYDROCHLORIDE",
             "concentDesc": "= Ropinirole 8 mg",
             "concent": "9.1200",
@@ -87,61 +101,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8405DEBE-56DA-4CC7-BD0F-E9A34D39CF47",
-            "approvedDocNo": "1091497235",
-            "approvedDate": "2021-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7C35E5DA-EF0C-4A7E-B9A3-D46DCD999FF5",
-            "approvedDocNo": "1096022517",
-            "approvedDate": "2020-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E3AEC073-2E05-4CF6-8481-F6790655452B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7EDF1FC7-0918-45A4-99BC-CFE4B8C1EE82",
-            "approvedDocNo": "1081491461",
-            "approvedDate": "2019-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "69563075-6864-4A8D-8F79-8A681BF40E87",
-            "approvedDocNo": "1086010666",
-            "approvedDate": "2019-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8B4BC4C4-D749-4C07-9F62-7DFF0CF6F552",
-            "approvedDocNo": "1076028378",
-            "approvedDate": "2019-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N04BC04"
-        },
         {
             "isMain": "1",
             "atcCode": "N04BC04"

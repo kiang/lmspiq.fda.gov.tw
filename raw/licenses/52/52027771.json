@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027771",
-    "validDate": "2024-12-05 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-05 00:00:00.000",
     "issueDate": "2019-12-05 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202777106",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "5E9DA361-E086-44CE-82F9-BFF4C052C1AB",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Dacomitinib monohydrate"
     ],
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4BEA4852-4DAA-443D-BE54-8332D0416309",
             "factoryCode": "1",
             "factoryName": "PFIZER MANUFACTURING DEUTSCHLAND GMBH",
             "factoryAddr": "BETRIEBSSTATTE FREIBURG, MOOSWALDALLEE 1, 79090 FREIBURG, GERMANY",
@@ -53,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0247000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "777D19F5-5F2D-4ABC-8C0A-9D3385C3C773",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2-1號4樓、3樓、1樓A區",
@@ -71,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013007600",
+            "ingredientsName": "Dacomitinib monohydrate",
             "ingredientsDesc": "Dacomitinib monohydrate",
             "concentDesc": "(Equivalent to dacomitinib......45mg)",
-            "concent": "46.729",
+            "concent": "46.7290",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,56 +105,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A77985CA-67CB-440A-8377-7B26CCBD7CDE",
-            "approvedDocNo": "1119029579",
-            "approvedDate": "2022-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2C039411-3B46-464A-B838-BFA5716F365B",
-            "approvedDocNo": "1101494813",
-            "approvedDate": "2022-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7A5145DD-C2D6-472C-8F9E-13C4FBD0ACDF",
-            "approvedDocNo": "1101494813",
-            "approvedDate": "2022-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B7E27689-D969-4A7F-BA1D-E9B25B92D256",
-            "approvedDocNo": "1106801191",
-            "approvedDate": "2021-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "497E2586-2FB3-424B-B162-50E43362DE4F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9D2A51D3-7387-49C3-ACAD-C0D2D0A60C42",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

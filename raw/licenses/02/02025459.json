@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025459",
+    "licUnit": "1",
     "validDate": "2026-07-13 00:00:00.000",
     "issueDate": "2011-07-13 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202545901",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9F56BF8C-AE4A-43DD-98CF-27CF7DD1A847",
+    "subCategory": [],
     "ingredientsDesc": [
         "DABIGATRAN ETEXILATE MESILATE"
     ],
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5432EE71-5B95-4D9E-9AFF-B0FF899B5AD7",
             "factoryCode": "1",
             "factoryName": "BOEHRINGER INGELHEIM PHARMA GMBH & CO. KG.",
             "factoryAddr": "BINGER STRASSE 173, 55216 INGELHEIM AM RHEIN GERMANY",
@@ -52,9 +60,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0021000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "E6A115E3-D01D-489E-868D-CAE614A54E7A",
             "factoryCode": "2",
             "factoryName": "BOEHRINGER INGELHEIM INTERNATIONAL GMBH",
             "factoryAddr": "BINGER STRASSE 173, 55216 INGELHEIM AM RHEIN, GERMANY",
@@ -70,13 +81,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0546000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200089010",
+            "ingredientsName": "DABIGATRAN ETEXILATE MESILATE",
             "ingredientsDesc": "DABIGATRAN ETEXILATE MESILATE",
             "concentDesc": "(eq. to 110mg dabigatran etexilate)",
             "concent": "126.8300",
@@ -88,79 +102,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3FA70D5E-B565-4388-BCE4-6BDC85AAC7E1",
-            "approvedDocNo": "1129013989",
-            "approvedDate": "2023-08-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F4713F9F-3FE0-44DC-93EB-67E248E0F464",
-            "approvedDocNo": "1119061971",
-            "approvedDate": "2023-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D4D1B853-4D83-4140-AB81-2EB1BCB174BD",
-            "approvedDocNo": "1109502370",
-            "approvedDate": "2022-06-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5AA22BDD-E200-4448-BBD0-524F83B67E0D",
-            "approvedDocNo": "1109502370",
-            "approvedDate": "2022-06-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CDB063DB-2672-4F1D-B23D-0D14EB3CEDAA",
-            "approvedDocNo": "1119004279",
-            "approvedDate": "2022-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4A967206-D1E6-48F4-AEE4-B5B3017BD30C",
-            "approvedDocNo": "1086038055",
-            "approvedDate": "2020-06-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5B49D249-6662-47E5-AD92-919F0EAD692A",
-            "approvedDocNo": "1096005020",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AADA57D8-C774-4B13-8A8A-0798605D7C2E",
-            "approvedDocNo": "1081411080",
-            "approvedDate": "2019-11-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "B01AE07"
-        },
-        {
-            "isMain": "2",
             "atcCode": "B01AE07"
         }
     ],

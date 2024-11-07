@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027338",
+    "licUnit": "1",
     "validDate": "2028-02-26 00:00:00.000",
     "issueDate": "2018-02-26 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202733805",
@@ -27,6 +31,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "D6F0846D-B355-462C-866F-69A8F099D83A",
+    "subCategory": [
+        "A05"
+    ],
     "ingredientsDesc": [
         "PROGESTERONE"
     ],
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A42A45E3-6F26-4B35-80D5-4A9C25197243",
             "factoryCode": "1",
             "factoryName": "IBSA Institut Biochimique SA",
             "factoryAddr": "Via Serta 12, 6814 Lamone Switzerland",
@@ -55,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0279200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832001100",
+            "ingredientsName": "PROGESTERONE",
             "ingredientsDesc": "PROGESTERONE",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,64 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1DABEB93-2294-47D3-BAEE-658C8E36B81A",
-            "approvedDocNo": "1129012982",
-            "approvedDate": "2023-05-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "844D5048-23FD-43A7-A620-A33470B1C9A5",
-            "approvedDocNo": "1106008015",
-            "approvedDate": "2021-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D400552C-3137-4B78-B0F0-818C9CD31FBA",
-            "approvedDocNo": "1086023166",
-            "approvedDate": "2019-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "349D087A-EC12-4F04-876D-C67F64EE8C1E",
-            "approvedDocNo": "1086008321",
-            "approvedDate": "2019-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "63A2CB80-39B2-4735-9731-6AC02F9DB9A1",
-            "approvedDocNo": "1086008321",
-            "approvedDate": "2019-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6A891139-0E21-4BEB-8CCF-114F4264AB97",
-            "approvedDocNo": "1086008321",
-            "approvedDate": "2019-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2DD500AF-6F2A-46B5-96F9-397EF4D71230",
-            "approvedDocNo": "1086008321",
-            "approvedDate": "2019-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

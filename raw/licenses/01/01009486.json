@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01009486",
+    "licUnit": "1",
     "validDate": "2025-04-19 00:00:00.000",
     "issueDate": "1976-04-19 00:00:00.000",
+    "oriIssueDate": "1976-04-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100948608",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "203CC254-4D36-4C7A-9F91-9D2058C2FEDF",
+    "subCategory": [],
     "ingredientsDesc": [
         "NEOMYCIN (SULFATE)",
         "BETAMETHASONE SODIUM PHOSPHATE"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0FE5B761-9748-4E88-A1A3-96F605078A59",
             "factoryCode": "1",
             "factoryName": "溫士頓醫藥股份有限公司",
             "factoryAddr": "台南市永康區鹽洲里仁愛街１１７號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "1217820200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000231",
+            "ingredientsName": "BETAMETHASONE SODIUM PHOSPHATE",
             "ingredientsDesc": "BETAMETHASONE SODIUM PHOSPHATE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "(Potency)",
             "concent": "3.5000",
@@ -85,36 +97,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1D1307FD-9775-4716-BD36-047BEC42594A",
-            "approvedDocNo": "1110023588",
-            "approvedDate": "2023-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A8A6B836-CAC9-41CD-8A29-8490BC3A839A",
-            "approvedDocNo": "1110023588",
-            "approvedDate": "2023-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01BA06"
-        },
         {
             "isMain": "1",
             "atcCode": "S01AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX04"
         }
     ],
     "licBaseId": "B4E11348-23AF-44EE-8FA6-71095D81C882"
