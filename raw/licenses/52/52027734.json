@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027734",
-    "validDate": "2024-08-26 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-08-26 00:00:00.000",
     "issueDate": "2019-08-26 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202773400",
@@ -27,6 +31,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "7D87BF0F-FC02-436E-A3AC-84B067C35155",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "RIVAROXABAN"
     ],
@@ -35,7 +44,7 @@
         "24"
     ],
     "applicantName": "台灣拜耳股份有限公司",
-    "applicantAddr": "台北市信義區信義路5段7號53樓",
+    "applicantAddr": "臺北市信義區信義路5段7號53樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -46,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2767168F-4D34-41A6-98C5-554DDD440DB9",
             "factoryCode": "1",
             "factoryName": "BAYER HEALTHCARE MANUFACTURING SRL.",
             "factoryAddr": "VIA DELLE GROANE, 126, 20024 GARBAGNATE MILANESE, ITALY",
@@ -56,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0527000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200099500",
+            "ingredientsName": "RIVAROXABAN",
             "ingredientsDesc": "RIVAROXABAN",
             "concentDesc": "Rivaroxaban Micronized",
-            "concent": "15.000",
+            "concent": "15.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,48 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0DE31126-FF28-4359-A8DC-49AB86E15F08",
-            "approvedDocNo": "1129030037",
-            "approvedDate": "2023-09-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "093E3512-2522-416A-A42D-6CCE83F86B1F",
-            "approvedDocNo": "1110706137",
-            "approvedDate": "2022-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A11133A6-EF59-4650-A5C1-2FAB43DB59C0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5120B602-8B7D-4D69-B97B-7198EC40B83A",
-            "approvedDocNo": "1106011564",
-            "approvedDate": "2021-05-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A674E72A-D54F-475A-8ECE-C1B0A2BC241E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

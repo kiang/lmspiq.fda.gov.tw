@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02019109",
+    "licUnit": "1",
     "validDate": "2028-08-28 00:00:00.000",
     "issueDate": "2013-04-19 00:00:00.000",
+    "oriIssueDate": "1992-05-15",
     "licKind": "02",
     "oldLicid": "02012971",
     "certNo": "DHA00201910901",
@@ -23,11 +27,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A8EE21BF-987E-4F2F-A82F-97BB075CADB5",
+    "subCategory": [],
     "ingredientsDesc": [
         "BUMETANIDE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02",
+        "68"
     ],
     "applicantName": "禾利行股份有限公司",
     "applicantAddr": "台北市松山區敦化北路311號3樓",
@@ -41,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5F80BBDF-407E-4A3E-A480-14CB396B38E5",
             "factoryCode": "1",
             "factoryName": "CENEXI",
             "factoryAddr": "52, RUE MARCEL ET JACQUES GAUCHER 94120 FONTENAY-SOUS-BOIS FRANCE",
@@ -51,9 +60,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0203100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "08680513-AED0-419D-9205-3DFE8D23F3A2",
             "factoryCode": "2",
             "factoryName": "Karo Pharma AB",
             "factoryAddr": "Box 16184, 103 24 Stockholm, Sweden",
@@ -69,13 +81,16 @@
             "factoryKind": "M",
             "factoryNo": "FSE0094000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028000400",
+            "ingredientsName": "BUMETANIDE",
             "ingredientsDesc": "BUMETANIDE",
             "concentDesc": "",
             "concent": "0.5000",
@@ -95,32 +110,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8B520A4E-5211-4588-A24E-F1E0D77C34F2",
-            "approvedDocNo": "1119027865",
-            "approvedDate": "2022-09-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B9CAA8F-677D-470D-ACF3-AAB1C53BF547",
-            "approvedDocNo": "1101493104",
-            "approvedDate": "2021-08-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B595F4E-DB7F-4168-A0EC-238CD42B854F",
-            "approvedDocNo": "1086011947",
-            "approvedDate": "2019-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

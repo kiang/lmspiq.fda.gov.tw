@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057185",
+    "licUnit": "1",
     "validDate": "2027-04-17 00:00:00.000",
     "issueDate": "2012-04-17 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105718501",
@@ -27,12 +31,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "ED8DA0B6-179F-4E8D-B574-AC014B7E58E4",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEVOFLOXACIN HEMIHYDRATE"
     ],
     "restraintItemsCode": [
         "01",
-        "24"
+        "24",
+        "68"
     ],
     "applicantName": "台灣第一三共股份有限公司",
     "applicantAddr": "台北市中山區松江路223號13樓",
@@ -46,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "69EC081D-3978-4072-A80E-37BC9C7DD8FA",
             "factoryCode": "1",
             "factoryName": "健亞生物科技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉新竹工業區工業一路１號",
@@ -56,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "1119206300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0836002310",
+            "ingredientsName": "LEVOFLOXACIN HEMIHYDRATE",
             "ingredientsDesc": "LEVOFLOXACIN HEMIHYDRATE",
             "concentDesc": "(eq. to Levofloxacin 5mg)",
             "concent": "5.1250",
@@ -74,39 +86,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7BD06D53-CF16-415D-AF1F-E18B333AA6A9",
-            "approvedDocNo": "1101498653",
-            "approvedDate": "2021-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0F353729-C5B4-4B73-A9A2-980A9B728BFF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "12D0779E-20B4-4C59-BFAB-EABEB97842B3",
-            "approvedDocNo": "1086014369",
-            "approvedDate": "2019-10-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J01MA12"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J01MA12"
         }
     ],

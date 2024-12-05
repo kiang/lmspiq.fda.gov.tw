@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01023101",
+    "licUnit": "1",
     "validDate": "2025-05-31 00:00:00.000",
     "issueDate": "1981-03-31 00:00:00.000",
+    "oriIssueDate": "1981-03-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102310109",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "964DC55C-79BD-457F-A59A-A5C5FD834BF8",
+    "subCategory": [],
     "ingredientsDesc": [
         "PREDNISOLONE",
         "TOCOPHEROL ACETATE",
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7332400E-91B5-430C-A946-05A60BDF6F84",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001000",
+            "ingredientsName": "LIDOCAINE",
             "ingredientsDesc": "LIDOCAINE",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001500",
+            "ingredientsName": "PREDNISOLONE",
             "ingredientsDesc": "PREDNISOLONE",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -87,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0840000700",
+            "ingredientsName": "FURAZOLIDONE",
             "ingredientsDesc": "FURAZOLIDONE",
             "concentDesc": "0.8",
             "concent": "0.8000",
@@ -98,6 +111,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000200",
+            "ingredientsName": "TOCOPHEROL ACETATE",
             "ingredientsDesc": "TOCOPHEROL ACETATE",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -109,6 +123,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5608000500",
+            "ingredientsName": "BISMUTH SUBNITRATE (BISMUTH NITRATE BASIC)",
             "ingredientsDesc": "BISMUTH SUBNITRATE (BISMUTH NITRATE BASIC)",
             "concentDesc": "25",
             "concent": "25.0000",
@@ -120,72 +135,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "79F4C5EF-22FE-4752-AE3F-0339961ABDD8",
-            "approvedDocNo": "1110016889",
-            "approvedDate": "2022-11-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7C3892E4-6205-4208-BD7A-87317EAB9FD1",
-            "approvedDocNo": "1110016889",
-            "approvedDate": "2022-11-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BD279C32-0641-4CD0-AC6F-AD8E31A75D69",
-            "approvedDocNo": "1110016889",
-            "approvedDate": "2022-11-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "19BC6C3B-3C48-4064-B3E8-FEDB35B7EEDA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3D645169-CE0B-4726-B25D-B137F2EDA7B5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C05AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AX02"
-        },
         {
             "isMain": "1",
             "atcCode": "C05AA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AD01"
         }
     ],
     "licBaseId": "5DC3916A-F065-4ECE-9E3B-56513FE2F72C"

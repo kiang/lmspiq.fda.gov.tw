@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01054998",
+    "licUnit": "1",
     "validDate": "2025-05-27 00:00:00.000",
     "issueDate": "2010-05-27 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105499801",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "4D05DD5C-0927-4D77-96D7-BA1DDAF11E14",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "本品所含氧氣oxygen (O2)不得少於99.0%(V\/V)"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "38E8229A-5703-4D96-8506-C65ED437DAF3",
             "factoryCode": "1",
             "factoryName": "臺北氧氣股份有限公司",
             "factoryAddr": "新北市板橋區三民路一段22號",
@@ -51,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "6131011111",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "本品所含氧氣oxygen (O2)不得少於99.0%(V\/V)",
             "ingredientsDesc": "本品所含氧氣oxygen (O2)不得少於99.0%(V\/V)",
             "concentDesc": null,
             "concent": null,
@@ -73,10 +86,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "V03AN01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "V03AN01"
         }
     ],

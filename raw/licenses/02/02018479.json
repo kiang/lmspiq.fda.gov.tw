@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02018479",
-    "validDate": "2024-12-21 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-21 00:00:00.000",
     "issueDate": "2009-12-14 00:00:00.000",
+    "oriIssueDate": "1991-02-23",
     "licKind": "02",
     "oldLicid": "02009613",
     "certNo": "DHA00201847903",
@@ -23,11 +27,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EB27418C-87DC-43FF-A0F0-F8D3CD7BACDB",
+    "subCategory": [],
     "ingredientsDesc": [
         "IFOSFAMIDE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02",
+        "67"
     ],
     "applicantName": "百特醫療產品股份有限公司",
     "applicantAddr": "臺北市大安區敦化南路2段95號28樓",
@@ -41,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B2A86385-41BB-40BB-8A7A-BD8A62030D5F",
             "factoryCode": "1",
             "factoryName": "BAXTER ONCOLOGY GMBH",
             "factoryAddr": "KANTSTRASSE 2, D-33790 HALLE, GERMANY",
@@ -51,9 +60,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0008000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "6FCF0116-4DDC-4160-AD9B-F3FB6884BA65",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -69,13 +81,16 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1004001300",
+            "ingredientsName": "IFOSFAMIDE",
             "ingredientsDesc": "IFOSFAMIDE",
             "concentDesc": null,
             "concent": "2.0000",
@@ -87,32 +102,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FAE8C298-161E-43C8-82B1-D4A7FA6177BB",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4DA08981-79ED-462A-AC47-DB0D9CFB58D4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4840355A-067C-4000-B607-9AF1554247CE",
-            "approvedDocNo": "1081490219",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

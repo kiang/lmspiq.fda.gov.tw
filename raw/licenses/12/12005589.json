@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12005589",
+    "licUnit": "1",
     "validDate": "2025-05-25 00:00:00.000",
     "issueDate": "1970-07-03 00:00:00.000",
+    "oriIssueDate": "1970-07-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01200558902",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0EF63C46-B892-4338-8E12-7D7613F2D587",
+    "subCategory": [],
     "ingredientsDesc": [
         "THIAMINE DISULFIDE",
         "VITAMIN A (ACETATE)",
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "566AC736-6338-42FA-8FE0-9E5D8F477D4A",
             "factoryCode": "1",
             "factoryName": "永吉製藥股份有限公司",
             "factoryAddr": "屏東縣萬丹鄉萬丹路三段91號",
@@ -56,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "0501024300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8804009200",
+            "ingredientsName": "VITAMIN A (ACETATE)",
             "ingredientsDesc": "VITAMIN A (ACETATE)",
             "concentDesc": "2000",
-            "concent": "2000.000",
+            "concent": "2000.0000",
             "concentUnit": "212",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100800",
+            "ingredientsName": "THIAMINE DISULFIDE",
             "ingredientsDesc": "THIAMINE DISULFIDE",
             "concentDesc": "50",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000213",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA DL-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA DL-",
             "concentDesc": "10",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -96,9 +109,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406000300",
+            "ingredientsName": "CHONDROITIN SULFATE",
             "ingredientsDesc": "CHONDROITIN SULFATE",
             "concentDesc": "20",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -107,68 +121,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "26A79885-32DF-4D1E-8FD8-31B85D5C3F4F",
-            "approvedDocNo": "1086809208",
-            "approvedDate": "2020-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "722CBAA0-7EC9-4A7B-8CE2-4DA9AAA61E09",
-            "approvedDocNo": "1086809208",
-            "approvedDate": "2020-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3012355B-C5CA-4653-81A9-747A2D08B293",
-            "approvedDocNo": "1086809208",
-            "approvedDate": "2020-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "049E8259-D6A5-4021-ABEA-DB21AC83E037",
-            "approvedDocNo": "1086809208",
-            "approvedDate": "2020-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1269F72F-2D0A-40E4-9029-E91A2A304B34",
-            "approvedDocNo": "1086809208",
-            "approvedDate": "2020-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
         {
             "isMain": "1",
             "atcCode": "A11JC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
         }
     ],
     "licBaseId": "7292B7AE-8584-4682-911B-CFB54D632F78"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039648",
+    "licUnit": "1",
     "validDate": "2025-05-01 00:00:00.000",
     "issueDate": "1995-12-28 00:00:00.000",
+    "oriIssueDate": "1995-12-28",
     "licKind": "02",
     "oldLicid": "01016249",
     "certNo": "DHY00103964800",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F1347B9D-D6BD-48FC-BEBE-EF757ADD8589",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROCORTISONE ACETATE",
         "NEOMYCIN (SULFATE)"
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "942F6C59-FDCE-4EB9-9D57-1C98A0372EA6",
             "factoryCode": "1",
             "factoryName": "人人化學製藥股份有限公司中壢廠",
             "factoryAddr": "桃園市中壢區南園二路３號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0201504300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001120",
+            "ingredientsName": "HYDROCORTISONE ACETATE",
             "ingredientsDesc": "HYDROCORTISONE ACETATE",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "*(5MG) 3.5",
             "concent": "0.0000",
@@ -86,44 +98,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A4F1C664-151D-428A-9163-31CB6765CCB6",
-            "approvedDocNo": "1110810737",
-            "approvedDate": "2022-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F8E96789-CE0D-4F91-B141-DF4317983597",
-            "approvedDocNo": "1110810737",
-            "approvedDate": "2022-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "361B6DE2-9F68-4648-A9B7-7BB9396CD64F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D07CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AA02"
         }
     ],
     "licBaseId": "71042293-725F-49A4-BFF8-A0B64DCDAC9B"

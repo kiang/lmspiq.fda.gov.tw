@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028116",
+    "licUnit": "1",
     "validDate": "2026-07-02 00:00:00.000",
     "issueDate": "2021-07-02 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202811605",
@@ -23,13 +27,19 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "764BAA59-56B3-47C6-99E3-85815CD4DF18",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "ERLOTINIB HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
         "02",
         "24",
-        "61"
+        "61",
+        "68"
     ],
     "applicantName": "毅有生技醫藥股份有限公司",
     "applicantAddr": "新北市中和區中山路２段332巷37號13樓",
@@ -43,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4DE94DF9-AC64-4997-8BF3-B095A788EE36",
             "factoryCode": "1",
             "factoryName": "ZYDUS LIFESCIENCES LIMITED",
             "factoryAddr": "PLOT NO. 1-A\/1 & 2, PHARMEZ, (SPECIAL ECONOMIC ZONE), MATODA, SARKHEJ-BAVIA N.H. NO.8A, TAL. SANAND DIST. AHMEDABAD, GUJARAT STATE, INDIA-382 213",
@@ -53,16 +64,44 @@
             "factoryKind": "M",
             "factoryNo": "FIN1097000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "C5DDC2C2-20DA-4391-936C-C4BDB7EAE423",
+            "factoryCode": "2",
+            "factoryName": "新昱物流股份有限公司",
+            "factoryAddr": "桃園市大園區大觀路207巷5號",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "3Q",
+                    "name": "二級包裝廠(置入仿單)"
+                },
+                {
+                    "value": "7O",
+                    "name": "二級包裝廠(置換外盒)"
+                }
+            ],
+            "processCodeStr": "3Q;二級包裝廠(置入仿單)#7O;二級包裝廠(置換外盒)",
+            "factoryKind": "M",
+            "factoryNo": "6132061231",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013001000",
+            "ingredientsName": "ERLOTINIB HYDROCHLORIDE",
             "ingredientsDesc": "ERLOTINIB HYDROCHLORIDE",
             "concentDesc": "(eq. to Erlotinib.....150mg)",
-            "concent": "163.900",
+            "concent": "163.9000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,24 +110,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9BF80950-8345-47E0-9E96-B3AD6FAD805D",
-            "approvedDocNo": "1119035734",
-            "approvedDate": "2022-10-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BB4607C7-C09D-4CC6-9E6E-E9DF883A4312",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

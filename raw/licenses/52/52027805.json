@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027805",
+    "licUnit": "1",
     "validDate": "2025-05-06 00:00:00.000",
     "issueDate": "2020-05-06 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202780500",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "FEAD8974-9E84-4921-8712-74F31000E7CF",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Mirogabalin besilate"
     ],
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5F42B5F4-8962-4CB8-BF96-2BF4F040D8DA",
             "factoryCode": "1",
             "factoryName": "TAIYO PHARMA TECH CO., LTD., TAKATSUKI PLANT",
             "factoryAddr": "4-38, AKETACHO, TAKATSUKI, OSAKA, JAPAN",
@@ -53,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP1015000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1E135EBE-0E60-4093-8226-C153B8799309",
             "factoryCode": "2",
             "factoryName": "DAIICHI SANKYO EUROPE GMBH",
             "factoryAddr": "LUITPOLDSTRABE 1, D-85276 PFAFFENHOFEN, GERMANY",
@@ -71,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0579000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808405500",
+            "ingredientsName": "Mirogabalin besilate",
             "ingredientsDesc": "Mirogabalin besilate",
             "concentDesc": "(equivalent to mirogabalin…….5 MG)",
-            "concent": "8.780",
+            "concent": "8.7800",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,68 +105,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "97B3C770-08B0-4DDE-82F6-D2B290E34EC2",
-            "approvedDocNo": "1129011588",
-            "approvedDate": "2023-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "05D2582F-EA62-48D2-9125-4F9CED5AC66E",
-            "approvedDocNo": "1101494715",
-            "approvedDate": "2021-12-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C7A31D85-C5D4-453A-84CF-8095FE499AA0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C8EBD9A8-AEB7-493A-8045-8DD8049EA84D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "87A5700F-D276-49EE-8B5C-10259F0BDC5D",
-            "approvedDocNo": "1096815774",
-            "approvedDate": "2021-01-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3FD4F2F6-CDCD-44C2-9BFF-E691077440C5",
-            "approvedDocNo": "1096815774",
-            "approvedDate": "2021-01-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8602DBFF-701A-47E9-A91D-D9AB6B944A0A",
-            "approvedDocNo": "1096816540",
-            "approvedDate": "2020-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N02BG11"
+            "atcCode": "N02BF03"
         }
     ],
     "licBaseId": "7535E9EF-8982-4C30-87FF-281750424302"

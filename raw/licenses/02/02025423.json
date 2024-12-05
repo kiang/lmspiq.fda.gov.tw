@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025423",
+    "licUnit": "1",
     "validDate": "2026-08-22 00:00:00.000",
     "issueDate": "2011-08-22 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202542306",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "81A6451C-2D37-4398-A538-8350650D13EB",
+    "subCategory": [],
     "ingredientsDesc": [
         "TAMSULOSIN HYDROCHLORIDE",
         "DUTASTERIDE"
@@ -32,7 +39,7 @@
         "07"
     ],
     "applicantName": "荷商葛蘭素史克藥廠股份有限公司台灣分公司",
-    "applicantAddr": "台北市中正區忠孝西路一段66號23-24樓",
+    "applicantAddr": "臺北市中正區忠孝西路1段66號23樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6820128B-FBB4-471B-9583-DBFFBDAEDF9A",
             "factoryCode": "1",
             "factoryName": "CATALENT GERMANY SCHORNDORF GMBH",
             "factoryAddr": "STEINBEISSTRASSE 1 AND 2, 73614 SCHORNDORF, GERMANY",
@@ -53,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0282000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "CABF03E2-CA4B-46CD-A409-E91C8E5DBC51",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -71,9 +82,12 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2BA79851-6877-4E6E-86AA-565B11A69756",
             "factoryCode": "2",
             "factoryName": "ROTTENDORF PHARMA GMBH",
             "factoryAddr": "OSTENFELDER STRESSE 51-61 59320 ENNIGERLOH, GERMANY",
@@ -89,9 +103,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0284100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8A60AFC8-F27A-4459-9C40-ED7DA77A9557",
             "factoryCode": "2",
             "factoryName": "CATALENT FRANCE BEINHEIM S.A.",
             "factoryAddr": "74, RUE PRINCIPALE F-67930 BEINHEIM, FRANCE",
@@ -107,13 +124,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0194000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200096700",
+            "ingredientsName": "DUTASTERIDE",
             "ingredientsDesc": "DUTASTERIDE",
             "concentDesc": "",
             "concent": "0.5000",
@@ -125,6 +145,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200036710",
+            "ingredientsName": "TAMSULOSIN HYDROCHLORIDE",
             "ingredientsDesc": "TAMSULOSIN HYDROCHLORIDE",
             "concentDesc": "",
             "concent": "0.4000",
@@ -136,44 +157,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5AF08A4D-758B-4090-8A04-6C39E1229980",
-            "approvedDocNo": "1119069248",
-            "approvedDate": "2023-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6442B31E-0545-4016-9A61-1C45AEFA4797",
-            "approvedDocNo": "1101491058",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "13A1FD00-2324-41D6-AF86-FDAB036F6001",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "G04CB02"
-        },
         {
             "isMain": "1",
             "atcCode": "G04CA52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G04CA02"
         }
     ],
     "licBaseId": "BC81D5E6-1CCF-4EE2-95EF-5A41E41846B0"

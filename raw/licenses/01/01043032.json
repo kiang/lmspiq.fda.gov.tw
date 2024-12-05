@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043032",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1999-06-21 00:00:00.000",
+    "oriIssueDate": "1999-06-21",
     "licKind": "02",
     "oldLicid": "03002726",
     "certNo": "DHY00104303202",
@@ -16,13 +20,16 @@
     "does": "3370",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "58"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A9072687-61AC-4E51-9148-A57427DDCEA8",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROGEN PEROXIDE"
     ],
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F4C3EB8E-A626-4231-88F7-8648D0EA20F8",
             "factoryCode": "1",
             "factoryName": "健康化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區幼獅工業區幼四路１２號",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900500",
+            "ingredientsName": "HYDROGEN PEROXIDE",
             "ingredientsDesc": "HYDROGEN PEROXIDE",
             "concentDesc": "",
             "concent": "30.0000",
@@ -70,52 +81,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D2069E80-00A3-4DD0-9074-D1F3CAF4DC56",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB36B92C-1D73-4DFA-AFF5-17EE8167853E",
-            "approvedDocNo": "1096600930",
-            "approvedDate": "2020-05-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C34C2379-F337-4E8B-A21B-3085376E8845",
-            "approvedDocNo": "1086014184",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FD1BC838-A079-449D-8973-0FA800CF9012",
-            "approvedDocNo": "1086014184",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D08AX01"
-        },
         {
             "isMain": "1",
             "atcCode": "D08AX01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE03"
         }
     ],
     "licBaseId": "F821CBEB-5436-42CC-8635-8071F23DF65D"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01015616",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1978-10-05 00:00:00.000",
+    "oriIssueDate": "1978-10-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101561607",
@@ -27,12 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9A66A402-61A0-4A4F-9BA7-11B170C85D47",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRIMETHOPRIM",
         "SULFAMETHOXAZOLE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "華興化學製藥廠股份有限公司",
     "applicantAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -46,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "83C655A9-F144-4399-B319-4625477E0511",
             "factoryCode": "1",
             "factoryName": "元宙化學製藥股份有限公司",
             "factoryAddr": "南投縣南投市南崗工業區南崗三路２７２號",
@@ -56,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0406914300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0824001500",
+            "ingredientsName": "SULFAMETHOXAZOLE",
             "ingredientsDesc": "SULFAMETHOXAZOLE",
             "concentDesc": "400",
             "concent": "400.0000",
@@ -74,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0840001700",
+            "ingredientsName": "TRIMETHOPRIM",
             "ingredientsDesc": "TRIMETHOPRIM",
             "concentDesc": "80",
             "concent": "80.0000",
@@ -85,52 +98,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B5EEB4F8-D97B-4DBC-8E4D-E0A4F06F6B01",
-            "approvedDocNo": "1110022857",
-            "approvedDate": "2023-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EAE30F33-1181-4894-B552-FCD17E6D598D",
-            "approvedDocNo": "1110022857",
-            "approvedDate": "2023-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ADBAE2B5-07DC-477E-BC6D-E288F2F0F8FE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D55723C0-DF05-4A79-9E2B-1E3348871E9C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01EA01"
-        },
         {
             "isMain": "1",
             "atcCode": "J01EE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01EC01"
         }
     ],
     "licBaseId": "A37281F8-7D3C-49D4-872F-842D0F2DD6A1"

@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-05-05",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "01038941",
+    "licUnit": "1",
     "validDate": "2025-05-30 00:00:00.000",
     "issueDate": "1995-05-30 00:00:00.000",
+    "oriIssueDate": "1995-05-30",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHY00103894106",
@@ -18,13 +22,16 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "63888CAB-31A5-43F5-A082-2AD6C1C572B2",
+    "subCategory": [],
     "ingredientsDesc": [
         "IODINE",
         "POVIDONE (EQ TO POLYVINYL PYRROLIDONE)( EQ TO PVP ) ( EQ TO POLYVIDONE)(EQ TO POLYVINYLPYRROLIDONE)"
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7CD2816F-B2F3-4A13-8D71-A30B1A43287E",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司二廠",
             "factoryAddr": "台南市新營區開元路１５４號",
@@ -55,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "6141010064",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600024500",
+            "ingredientsName": "POVIDONE (EQ TO POLYVINYL PYRROLIDONE)( EQ TO PVP ) ( EQ TO POLYVIDONE)(EQ TO POLYVINYLPYRROLIDONE)",
             "ingredientsDesc": "POVIDONE (EQ TO POLYVINYL PYRROLIDONE)( EQ TO PVP ) ( EQ TO POLYVIDONE)(EQ TO POLYVINYLPYRROLIDONE)",
             "concentDesc": "1.408",
             "concent": "1.4080",
@@ -73,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404602000",
+            "ingredientsName": "IODINE",
             "ingredientsDesc": "IODINE",
             "concentDesc": "0.592",
             "concent": "0.5920",
@@ -88,14 +100,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D08AG"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D08AG03"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D08AG"
         }
     ],

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055004",
+    "licUnit": "1",
     "validDate": "2025-05-28 00:00:00.000",
     "issueDate": "2010-05-28 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105500400",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "10E347FE-64FB-4B4C-8E77-461B00F12320",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "CLOTRIMAZOLE"
     ],
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "008142AF-06D1-4FE2-94C3-8A5339E6E23B",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨東路50號",
@@ -52,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "1427122200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
             "ingredientsDesc": "CLOTRIMAZOLE",
             "concentDesc": null,
             "concent": "10.0000",
@@ -74,10 +87,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D01AC01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D01AC01"
         }
     ],

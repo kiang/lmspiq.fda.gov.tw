@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033052",
+    "licUnit": "1",
     "validDate": "2025-09-19 00:00:00.000",
     "issueDate": "1990-09-19 00:00:00.000",
+    "oriIssueDate": "1990-09-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103305202",
@@ -23,11 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "62E25783-BDA2-4AFD-82D4-1B7D9CA07A1A",
+    "subCategory": [],
     "ingredientsDesc": [
         "OXOLAMINE CITRATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "67"
     ],
     "applicantName": "羅得化學製藥股份有限公司",
     "applicantAddr": "台中市大甲區東西七路一段65號",
@@ -41,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CFF8E1E4-83D6-4DEE-8FBD-7CAC747A4733",
             "factoryCode": "1",
             "factoryName": "羅得化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區東西七路一段65號",
@@ -51,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "1901510300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002610",
+            "ingredientsName": "OXOLAMINE CITRATE",
             "ingredientsDesc": "OXOLAMINE CITRATE",
             "concentDesc": "100",
             "concent": "100.0000",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022883",
+    "licUnit": "1",
     "validDate": "2025-05-15 00:00:00.000",
     "issueDate": "2000-05-15 00:00:00.000",
+    "oriIssueDate": "2000-05-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202288302",
@@ -27,14 +31,18 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "08443C0F-19CE-4473-8BEF-A09CBC361427",
+    "subCategory": [],
     "ingredientsDesc": [
         "ROPINIROLE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02",
+        "68"
     ],
     "applicantName": "荷商葛蘭素史克藥廠股份有限公司臺灣分公司",
-    "applicantAddr": "台北市中正區忠孝西路一段66號23-24樓",
+    "applicantAddr": "臺北市中正區忠孝西路1段66號23樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -45,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C786DC2B-D233-4795-B891-1959670AA153",
             "factoryCode": "1",
             "factoryName": "GLAXO WELLCOME, S.A.",
             "factoryAddr": "AVDA. EXTREMADURA 3 09400 ARANDA DE DUERO BURGOS SPAIN",
@@ -55,9 +64,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0122000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "E7D4B8EE-E050-40BA-BEC7-21C5A1852632",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -73,13 +85,16 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7600001410",
+            "ingredientsName": "ROPINIROLE HYDROCHLORIDE",
             "ingredientsDesc": "ROPINIROLE HYDROCHLORIDE",
             "concentDesc": "1.14",
             "concent": "1.1400",
@@ -91,56 +106,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5E6BA850-1612-45DF-94AF-FBF3261985F9",
-            "approvedDocNo": "1101497611",
-            "approvedDate": "2021-11-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BA09DD42-1181-4EA9-BED1-EC934E14F1C7",
-            "approvedDocNo": "1096022515",
-            "approvedDate": "2020-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9CEBB6A2-870B-4AC6-9378-1F53494EB9FF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E76EA70A-7F2A-462C-AF75-A6C533C1279E",
-            "approvedDocNo": "1081491458",
-            "approvedDate": "2019-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4AA57707-448B-4441-8E0B-EF19DB35E25F",
-            "approvedDocNo": "1086007587",
-            "approvedDate": "2019-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ACE41888-0B6C-4B98-803E-BA9F6948F8F3",
-            "approvedDocNo": "1076023416",
-            "approvedDate": "2019-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022882",
+    "licUnit": "1",
     "validDate": "2025-05-15 00:00:00.000",
     "issueDate": "2000-05-15 00:00:00.000",
+    "oriIssueDate": "2000-05-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202288200",
@@ -27,14 +31,18 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8274033F-EFEF-4CB7-802E-7675FC2B966F",
+    "subCategory": [],
     "ingredientsDesc": [
         "ROPINIROLE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02",
+        "68"
     ],
     "applicantName": "荷商葛蘭素史克藥廠股份有限公司臺灣分公司",
-    "applicantAddr": "台北市中正區忠孝西路一段66號23-24樓",
+    "applicantAddr": "臺北市中正區忠孝西路1段66號23樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -45,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A8AAADA5-B68D-49BF-A147-5FECFAED2B34",
             "factoryCode": "1",
             "factoryName": "GLAXO WELLCOME S.A.",
             "factoryAddr": "AVDA. de EXTREMADURA 3,09400 ARANDA DE DUERO,BURGOS,SPAIN",
@@ -55,9 +64,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0122000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "E241CE77-EA1A-4459-82CF-14E92A62F610",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -73,13 +85,16 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7600001410",
+            "ingredientsName": "ROPINIROLE HYDROCHLORIDE",
             "ingredientsDesc": "ROPINIROLE HYDROCHLORIDE",
             "concentDesc": "0.285",
             "concent": "0.2850",
@@ -91,56 +106,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D743635B-C0B1-495C-AF55-AD47A7232A37",
-            "approvedDocNo": "1101497617",
-            "approvedDate": "2021-11-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "128D98A4-95C1-44C0-9664-98D823E6B199",
-            "approvedDocNo": "1096022035",
-            "approvedDate": "2020-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "907CFBF5-E3C1-4211-92F5-3C39B0ACD340",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3C91507E-3BD0-4EAF-BF24-0253C286BE86",
-            "approvedDocNo": "1081491457",
-            "approvedDate": "2019-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "625D0B40-8949-4BDC-9FD1-7F83563ECC3F",
-            "approvedDocNo": "1086007586",
-            "approvedDate": "2019-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "145E4A10-520B-4D3F-B22F-589312100056",
-            "approvedDocNo": "1076023415",
-            "approvedDate": "2019-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

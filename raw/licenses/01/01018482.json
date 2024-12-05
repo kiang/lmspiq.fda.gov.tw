@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01018482",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1979-08-27 00:00:00.000",
+    "oriIssueDate": "1979-08-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101848201",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A8DED187-5C1B-4F0E-B743-C4D09992F8B2",
+    "subCategory": [],
     "ingredientsDesc": [
         "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
         "CALCIUM PHOSPHATE DIBASIC",
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DABB3DC3-6F22-4870-8CAE-B035E16CE2E0",
             "factoryCode": "1",
             "factoryName": "華興化學製藥廠股份有限公司",
             "factoryAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -59,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "1203612300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4024000200",
+            "ingredientsName": "CALCIUM PHOSPHATE DIBASIC",
             "ingredientsDesc": "CALCIUM PHOSPHATE DIBASIC",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -77,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6824000200",
+            "ingredientsName": "CALCIUM LACTATE",
             "ingredientsDesc": "CALCIUM LACTATE",
             "concentDesc": "25",
             "concent": "25.0000",
@@ -88,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8818000200",
+            "ingredientsName": "ERGOCALCIFEROL (VIT D2CALCIFEROL)",
             "ingredientsDesc": "ERGOCALCIFEROL (VIT D2CALCIFEROL)",
             "concentDesc": "40",
             "concent": "40.0000",
@@ -99,6 +112,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101000",
+            "ingredientsName": "THIAMINE NITRATE",
             "ingredientsDesc": "THIAMINE NITRATE",
             "concentDesc": "0.25",
             "concent": "0.2500",
@@ -110,6 +124,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "0.25",
             "concent": "0.2500",
@@ -121,6 +136,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "0.25",
             "concent": "0.2500",
@@ -132,6 +148,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101312",
+            "ingredientsName": "LYSINE L- HCL ( EQ TO L-LYSINE HCL)",
             "ingredientsDesc": "LYSINE L- HCL ( EQ TO L-LYSINE HCL)",
             "concentDesc": "12.5",
             "concent": "12.5000",
@@ -143,6 +160,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200000900",
+            "ingredientsName": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "ingredientsDesc": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "concentDesc": "7.5",
             "concent": "7.5000",
@@ -154,48 +172,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8393EEAF-875C-4CB6-B56E-A5FB4926DF10",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A11JC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V06DD"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12AA05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11CC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12AA01"
         }
     ],
     "licBaseId": "BDCDAF5C-AB50-4ED1-B578-67C7A2CB70BC"

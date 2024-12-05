@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01020021",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1979-12-28 00:00:00.000",
+    "oriIssueDate": "1979-12-28",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00102002109",
@@ -16,17 +20,20 @@
     "does": "3360",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "36"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C7E48387-EE3F-45E4-815F-83BF7DE131CD",
+    "subCategory": [],
     "ingredientsDesc": [
         "MESULPHEN",
         "SULFUR"
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C3512319-1DAC-4949-B0CE-C45DC5C95E3D",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000400",
+            "ingredientsName": "MESULPHEN",
             "ingredientsDesc": "MESULPHEN",
             "concentDesc": "640",
             "concent": "640.0000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8428000900",
+            "ingredientsName": "SULFUR",
             "ingredientsDesc": "SULFUR",
             "concentDesc": "200",
             "concent": "200.0000",
@@ -87,33 +99,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "38E73A91-197F-49F1-B4F2-8779595F376F",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C65D3041-59F5-4A4C-8E3D-C6184BAEBE86",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D10AB05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D10AB02"
-        },
         {
             "isMain": "1",
             "atcCode": "D10AB"

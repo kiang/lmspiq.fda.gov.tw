@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026639",
+    "licUnit": "1",
     "validDate": "2025-10-06 00:00:00.000",
     "issueDate": "2015-10-06 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202663901",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "719D6696-CF91-46AB-8A94-11D870FC2679",
+    "subCategory": [],
     "ingredientsDesc": [
         "ISONIAZID",
         "RIFAMPIN (EQ TO RIFAMPICIN) (EQ TO RIMACTAN)",
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "83BBD0A0-F311-4109-BE95-334BAE297B6C",
             "factoryCode": "1",
             "factoryName": "MACLEODS PHARMACEUTICALS LTD.",
             "factoryAddr": "PLOT NO.25-27, SR. NO.366, PREMIER IND. ESTATE, KACHIGAM, DAMAN 396 210 (U.T.), INDIA",
@@ -54,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "FIN0816000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812900100",
+            "ingredientsName": "RIFAMPIN (EQ TO RIFAMPICIN) (EQ TO RIMACTAN)",
             "ingredientsDesc": "RIFAMPIN (EQ TO RIFAMPICIN) (EQ TO RIMACTAN)",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0816000900",
+            "ingredientsName": "ISONIAZID",
             "ingredientsDesc": "ISONIAZID",
             "concentDesc": "",
-            "concent": "75.000",
+            "concent": "75.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,9 +95,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0816000611",
+            "ingredientsName": "ETHAMBUTOL HCL",
             "ingredientsDesc": "ETHAMBUTOL HCL",
             "concentDesc": "",
-            "concent": "275.000",
+            "concent": "275.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -94,40 +107,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B4D93AB5-05AB-4B2C-8934-902266AC371A",
-            "approvedDocNo": "1086807208",
-            "approvedDate": "2019-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9EEB0011-B03C-4F48-953C-691DD379F27E",
-            "approvedDocNo": "1086803695",
-            "approvedDate": "2019-03-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J04AK02"
-        },
         {
             "isMain": "1",
             "atcCode": "J04AC51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J04AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J04AB02"
         }
     ],
     "licBaseId": "25438D80-4C02-4D74-AB2F-91845226E1D0"

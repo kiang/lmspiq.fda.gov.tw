@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024390",
+    "licUnit": "1",
     "validDate": "2026-02-24 00:00:00.000",
     "issueDate": "2006-02-24 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202439002",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2CEB3BAE-C33F-4ED6-A641-7E3776B5FF21",
+    "subCategory": [],
     "ingredientsDesc": [
         "ATORVASTATIN CALCIUM",
         "AMLODIPINE BESYLATE"
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6DB64944-7109-4B26-9548-C26D86BB8B42",
             "factoryCode": "1",
             "factoryName": "PFIZER MANUFACTURING DEUTSCHLAND GMBH",
             "factoryAddr": "BETRIEBSSTATTE FREIBURG, MOOSWALDALLEE 1, 79090 FREIBURG, GERMANY",
@@ -59,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0247000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406003110",
+            "ingredientsName": "ATORVASTATIN CALCIUM",
             "ingredientsDesc": "ATORVASTATIN CALCIUM",
             "concentDesc": "",
             "concent": "10.8500",
@@ -77,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412402210",
+            "ingredientsName": "AMLODIPINE BESYLATE",
             "ingredientsDesc": "AMLODIPINE BESYLATE",
             "concentDesc": "",
             "concent": "13.8700",
@@ -88,97 +100,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9493035D-7033-4E2A-B656-891D98AF170E",
-            "approvedDocNo": "1110722002",
-            "approvedDate": "2023-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "521355E8-23D7-4D3E-A948-4017E01340B1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A0B95C69-EF1F-4AB4-B620-EE29FD177F67",
-            "approvedDocNo": "1101498221",
-            "approvedDate": "2021-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9409EBEE-0CEF-441E-8A13-423FC146A10C",
-            "approvedDocNo": "1106030238",
-            "approvedDate": "2021-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B2CB3B9-2012-4586-8547-B39D20F85E4A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A2803055-2298-452C-A163-DEF682FBF1ED",
-            "approvedDocNo": "1096015944",
-            "approvedDate": "2020-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9377AC94-FF81-465A-9183-A639BE5BCE9D",
-            "approvedDocNo": "1096015944",
-            "approvedDate": "2020-11-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C1222B10-1BB9-4842-B6D3-6049624E37A1",
-            "approvedDocNo": "1086039645",
-            "approvedDate": "2020-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6A442467-F9EB-415C-8494-920332E70C58",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FE9B2201-CD0D-4BB1-9E88-C7B90477A153",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C08CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C10AA05"
-        },
         {
             "isMain": "1",
             "atcCode": "C10BX03"

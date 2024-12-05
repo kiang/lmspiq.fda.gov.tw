@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02020912",
+    "licUnit": "1",
     "validDate": "2025-05-15 00:00:00.000",
     "issueDate": "1995-05-15 00:00:00.000",
+    "oriIssueDate": "1995-05-15",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00202091209",
@@ -16,13 +20,16 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "0BC7AA13-9AA9-4B85-A1F1-70AB72181E30",
+    "subCategory": [],
     "ingredientsDesc": [
         "LIDOCAINE"
     ],
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8D8F9CAE-C720-455E-9BC6-8D92B641B6FD",
             "factoryCode": "1",
             "factoryName": "GUFIC BIOSCIENCES LIMITED",
             "factoryAddr": "KABILPORE, NAVSARI-GUJARAT STATE, INDIA",
@@ -51,13 +59,16 @@
             "factoryKind": "M",
             "factoryNo": "FIN0031000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001000",
+            "ingredientsName": "LIDOCAINE",
             "ingredientsDesc": "LIDOCAINE",
             "concentDesc": "97.5-102.5",
             "concent": null,
@@ -69,59 +80,26 @@
     ],
     "authDtoList": [
         {
-            "applicantName": "川聖貿易股份有限公司",
-            "certNo": "DHA00202091232",
-            "approveDocNo": "1110733352",
-            "authDate": "2022-12-28",
-            "validDate": "2025-05-15"
-        },
-        {
             "applicantName": "恒亞貿易股份有限公司",
             "certNo": "DHA00202091240",
             "approveDocNo": "1139036867",
             "authDate": "2024-04-01",
             "validDate": "2025-05-15"
+        },
+        {
+            "applicantName": "川聖貿易股份有限公司",
+            "certNo": "DHA00202091232",
+            "approveDocNo": "1110733352",
+            "authDate": "2022-12-28",
+            "validDate": "2025-05-15"
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8B335421-38A3-483E-9A65-752FEBB1B072",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-02-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C05AD01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N01BB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R02AD02"
-        },
         {
             "isMain": "1",
             "atcCode": "C01BB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01HA07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S02DA01"
         }
     ],
     "licBaseId": "3F36F03D-77E5-4C62-8729-938C8334074D"

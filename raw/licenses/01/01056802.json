@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056802",
+    "licUnit": "1",
     "validDate": "2027-02-13 00:00:00.000",
     "issueDate": "2012-02-13 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00105680207",
@@ -16,12 +20,20 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": "1毫升、10毫升、20毫升",
-            "packageUnit": "D4"
+            "packageSpec": "500毫升、1000毫升",
+            "packageUnit": "55"
         },
         {
             "packageSpec": "100支以下",
             "packageUnit": "03"
+        },
+        {
+            "packageSpec": "500毫升",
+            "packageUnit": "C7"
+        },
+        {
+            "packageSpec": "1毫升、10毫升、20毫升",
+            "packageUnit": "D4"
         },
         {
             "packageSpec": "2毫升、5毫升、10毫升、20毫升",
@@ -30,15 +42,14 @@
         {
             "packageSpec": "500毫升、1000毫升",
             "packageUnit": "A3"
-        },
-        {
-            "packageSpec": "500毫升",
-            "packageUnit": "C7"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FDB7A195-D503-4039-B985-AE7F95E1999E",
+    "subCategory": [],
     "ingredientsDesc": [
         "WATER DISTILLED (EQ TO DISTILLED WATER)"
     ],
@@ -57,6 +68,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "EB996471-C942-4FB3-8368-97B88F3518B7",
             "factoryCode": "1",
             "factoryName": "濟生醫藥生技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉勝利村實踐路3號",
@@ -67,13 +79,16 @@
             "factoryKind": "M",
             "factoryNo": "6133060069",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9604001500",
+            "ingredientsName": "WATER DISTILLED (EQ TO DISTILLED WATER)",
             "ingredientsDesc": "WATER DISTILLED (EQ TO DISTILLED WATER)",
             "concentDesc": "LABELLED AMOUNT",
             "concent": null,
@@ -85,55 +100,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7D95053D-F5AE-40BE-ADB3-319E0D222B51",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1FB7BDF2-676B-4A41-B44F-1C42099B4A1C",
-            "approvedDocNo": "1096800185",
-            "approvedDate": "2020-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "626D6721-E0F7-402C-81C9-4798103B3A64",
-            "approvedDocNo": "1081491034",
-            "approvedDate": "2019-08-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "29618E9A-4501-4E5F-ACE4-6DF77A81A4F1",
-            "approvedDocNo": "1081491034",
-            "approvedDate": "2019-08-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6C231AA0-31FB-4D7A-877F-83D8DB0B7A2E",
-            "approvedDocNo": "1081491034",
-            "approvedDate": "2019-08-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "V07AB"
-        },
-        {
-            "isMain": "2",
             "atcCode": "V07AB"
         }
     ],

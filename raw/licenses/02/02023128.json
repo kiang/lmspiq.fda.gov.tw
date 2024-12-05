@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023128",
+    "licUnit": "1",
     "validDate": "2026-02-20 00:00:00.000",
     "issueDate": "2001-02-20 00:00:00.000",
+    "oriIssueDate": "2001-02-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202312807",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D185076A-8CCB-45DC-AFC8-8ADAAD8AB472",
+    "subCategory": [],
     "ingredientsDesc": [
         "CANDESARTAN CILEXETIL"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1E69A5D2-7F1D-49E9-BB23-711A37CBD994",
             "factoryCode": "1",
             "factoryName": "DELPHARM NOVARA S.R.L.",
             "factoryAddr": "VIA CROSA 86, 28065 CERANO (NOVARA), ITALY",
@@ -52,39 +60,24 @@
             "countryCode": "IT",
             "processCode": [
                 {
-                    "value": "1B",
-                    "name": "製造、分裝"
+                    "value": "2P",
+                    "name": "成品製造、一級包裝、二級包裝"
                 }
             ],
-            "processCodeStr": "1B;製造、分裝",
+            "processCodeStr": "2P;成品製造、一級包裝、二級包裝",
             "factoryKind": "M",
             "factoryNo": "FIT0344000",
             "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "歐帕生技醫藥股份有限公司",
-            "factoryAddr": "新竹縣湖口鄉光復路1號",
-            "factoryCompanyAddr": "",
-            "countryCode": "TW",
-            "processCode": [
-                {
-                    "value": "1A",
-                    "name": "二級包裝廠"
-                }
-            ],
-            "processCodeStr": "1A;二級包裝廠",
-            "factoryKind": "M",
-            "factoryNo": "6133061413",
-            "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005710",
+            "ingredientsName": "CANDESARTAN CILEXETIL",
             "ingredientsDesc": "CANDESARTAN CILEXETIL",
             "concentDesc": "",
             "concent": "8.0000",
@@ -104,55 +97,10 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "13456765-05BE-44AD-A8A7-BBF80801D4A3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1282209B-5CB1-4ED2-AF61-FC09F17727E1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-02-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "57B54945-34EA-4965-89A8-5B792F68F0BC",
-            "approvedDocNo": "1101493846",
-            "approvedDate": "2021-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D161E507-557B-4C67-A163-1640AC602F79",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF70FB3F-ABB0-49D5-9543-7214715C1D09",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "C09CA06"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C09CA06"
         }
     ],

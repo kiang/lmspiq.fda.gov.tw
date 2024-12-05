@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027855",
+    "licUnit": "1",
     "validDate": "2025-05-18 00:00:00.000",
     "issueDate": "2020-05-18 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202785502",
@@ -23,12 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "D44D0434-D6B8-40CF-BF07-6AEF3F4F9C2B",
+    "subCategory": [
+        "A03"
+    ],
     "ingredientsDesc": [
         "Bilastine"
     ],
     "restraintItemsCode": [
         "02",
-        "07"
+        "07",
+        "1Q"
     ],
     "applicantName": "新加坡商美納里尼醫藥有限公司台灣分公司",
     "applicantAddr": "臺北市中山區民生東路3段2號9樓之2",
@@ -42,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D0198F34-9E0B-46F5-AA7D-E37EC7BEDEBE",
             "factoryCode": "1",
             "factoryName": "BERLIN-CHEMIE AG",
             "factoryAddr": "GLIENICKER WEG 125, 12489 BERLIN, GERMANY",
@@ -52,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE9030000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400007100",
+            "ingredientsName": "Bilastine",
             "ingredientsDesc": "Bilastine",
             "concentDesc": "",
-            "concent": "2.500",
+            "concent": "2.5000",
             "concentUnit": "038",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,32 +84,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E0268D67-BF8B-4A91-95A4-8C16A95505A9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8B66C37B-46DF-4951-94D1-E4A221C4C399",
-            "approvedDocNo": "1129018715",
-            "approvedDate": "2023-10-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4873BAFB-E0CF-45C4-AEBE-451453419820",
-            "approvedDocNo": "1119028747",
-            "approvedDate": "2022-11-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01017877",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1979-06-19 00:00:00.000",
+    "oriIssueDate": "1979-06-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101787706",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": "X",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6B14D2C3-C898-42F5-879C-50D849CB6006",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "CODEINE PHOSPHATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "華興化學製藥廠股份有限公司",
     "applicantAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -42,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5D21708F-81DB-4432-A97C-F522F1054FBB",
             "factoryCode": "1",
             "factoryName": "華興化學製藥廠股份有限公司",
             "factoryAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -52,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "1203612300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "300",
             "concent": "300.0000",
@@ -70,6 +82,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": "6",
             "concent": "6.0000",
@@ -81,60 +94,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D8F597A4-3E59-45F8-89A4-6CE12D61978C",
-            "approvedDocNo": "1110017857",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9E525AA2-7DF1-42ED-A497-1DB3AB37A9D4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31D9C76F-DBCE-44B8-A0C2-945C5ADD58AB",
-            "approvedDocNo": "1100032643",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2BCCD460-9025-4B17-B419-6C4DCAE0709F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0C55A421-61FE-4178-8928-8670567FFF84",
-            "approvedDocNo": "1086608304",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05DA04"
-        },
         {
             "isMain": "1",
             "atcCode": "R05X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
         }
     ],
     "licBaseId": "DC56240C-C62E-4DA4-A382-3E132673412C"

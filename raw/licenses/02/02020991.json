@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02020991",
+    "licUnit": "1",
     "validDate": "2025-07-17 00:00:00.000",
     "issueDate": "2020-04-09 00:00:00.000",
+    "oriIssueDate": "1995-07-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202099105",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4B7E2C02-7811-4C7C-91E6-02402C66F612",
+    "subCategory": [],
     "ingredientsDesc": [
         "NICORANDIL"
     ],
     "restraintItemsCode": [
         "02",
-        "07"
+        "07",
+        "67"
     ],
     "applicantName": "台灣中外製藥股份有限公司",
     "applicantAddr": "台北市松山區敦化北路260號3樓",
@@ -42,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "64C5ABB5-A122-4A2C-842E-7467F43E4699",
             "factoryCode": "1",
             "factoryName": "NIPRO PHARMA CORPORATION KAGAMIISHI PLANT",
             "factoryAddr": "428, OKANOUCHI, KAGAMIISHI-MACHI, IWASE-GUN, FUKUSHIMA, JAPAN",
@@ -52,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP0526000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1B393F07-5A4F-4D7C-909C-C727C0C82D51",
             "factoryCode": "2",
             "factoryName": "CHUGAI PHARMACEUTICAL CO., LTD.",
             "factoryAddr": "5-1, UKIMA 5-CHOME, KITA-KU, TOKYO, JAPAN",
@@ -70,13 +82,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0533000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412003400",
+            "ingredientsName": "NICORANDIL",
             "ingredientsDesc": "NICORANDIL",
             "concentDesc": "",
             "concent": "5.0000",
@@ -88,32 +103,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1E699369-13F7-46C5-828C-90A0597246C3",
-            "approvedDocNo": "1091492435",
-            "approvedDate": "2021-01-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E7722870-D7B1-45F5-88BC-FA1EE98A3B2F",
-            "approvedDocNo": "1091492435",
-            "approvedDate": "2021-01-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DDF8833E-E8D8-434B-9FD9-C19D1AF4B21D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

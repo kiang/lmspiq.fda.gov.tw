@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2022-06-30",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "02025183",
+    "licUnit": "1",
     "validDate": "2025-05-11 00:00:00.000",
     "issueDate": "2010-05-11 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202518302",
@@ -37,6 +41,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "ACC8FCAD-65F4-428E-99D5-AD6CB2E6E5AB",
+    "subCategory": [],
     "ingredientsDesc": [
         "GEMCITABINE HYDROCHLORIDE",
         "GEMCITABINE HYDROCHLORIDE",
@@ -58,6 +65,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "813B75A2-F282-4A88-BD44-4A9756D517EE",
             "factoryCode": "1",
             "factoryName": "HOSPIRA AUSTRALIA PTY LTD.",
             "factoryAddr": "1-5, 7-23 AND 25-39 LEXIA PLACE, MULGRAVE, VICTORIA 3170, AUSTRALIA",
@@ -68,9 +76,12 @@
             "factoryKind": "M",
             "factoryNo": "FAU0031100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3E85F781-110D-43F7-A0FD-BD557047CCEC",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓，3樓B區，1樓A區",
@@ -86,13 +97,16 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1010000610",
+            "ingredientsName": "GEMCITABINE HYDROCHLORIDE",
             "ingredientsDesc": "GEMCITABINE HYDROCHLORIDE",
             "concentDesc": "(Equiva. Gemcitabine 200mg)",
             "concent": "228.0000",
@@ -104,6 +118,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1010000610",
+            "ingredientsName": "GEMCITABINE HYDROCHLORIDE",
             "ingredientsDesc": "GEMCITABINE HYDROCHLORIDE",
             "concentDesc": "(Equiva. Gemcitabine 1g)",
             "concent": "1.1400",
@@ -115,6 +130,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1010000610",
+            "ingredientsName": "GEMCITABINE HYDROCHLORIDE",
             "ingredientsDesc": "GEMCITABINE HYDROCHLORIDE",
             "concentDesc": "(Equiva. Gemcitabine 2g)",
             "concent": "2.2800",
@@ -126,39 +142,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E33BE175-0EE2-42AF-9556-0AEFF73E6BE1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C6F1A518-0EBC-4EB7-B9FA-E7460B2AD58D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E4A0CDB3-FCAF-4EBA-AC6C-05C674FEE76F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L01BC05"
-        },
-        {
-            "isMain": "2",
             "atcCode": "L01BC05"
         }
     ],

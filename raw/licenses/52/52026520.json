@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026520",
+    "licUnit": "1",
     "validDate": "2025-05-27 00:00:00.000",
     "issueDate": "2015-05-27 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202652002",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D81D4017-8AC9-4152-82FB-D4D881A3E20A",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMLODIPINE BESYLATE",
         "OLMESARTAN MEDOXOMIL"
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3F5C56DD-2E79-4A09-9CA2-5EBA63707A30",
             "factoryCode": "1",
             "factoryName": "DAIICHI SANKYO EUROPE GMBH",
             "factoryAddr": "LUITPOLDSTRABE 1, D-85276 PFAFFENHOFEN, GERMANY",
@@ -53,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0579000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "38C11C8D-FC8F-4202-95FE-C43E97A82725",
             "factoryCode": "2",
             "factoryName": "DAIICHI SANKYO EUROPE GMBH",
             "factoryAddr": "ZIELSTATTSTRABE 48, D-81379 MUNICH, GERMANY",
@@ -71,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0580000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412402210",
+            "ingredientsName": "AMLODIPINE BESYLATE",
             "ingredientsDesc": "AMLODIPINE BESYLATE",
             "concentDesc": "(Amlodipine......5.00mg)",
-            "concent": "6.940",
+            "concent": "6.9400",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,9 +103,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005910",
+            "ingredientsName": "OLMESARTAN MEDOXOMIL",
             "ingredientsDesc": "OLMESARTAN MEDOXOMIL",
             "concentDesc": "",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -100,52 +115,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B41AC340-FA1C-46B6-BA79-B04FBA9F4DAF",
-            "approvedDocNo": "1091497338",
-            "approvedDate": "2021-07-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0D653344-5F6C-4CB8-BD23-1AB35C7A2112",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2D6F76DA-0C3E-4AA8-90B8-914056BA586A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B36734BF-7AD7-4B16-BD1F-C1AECC7CF99E",
-            "approvedDocNo": "1086033261",
-            "approvedDate": "2020-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C09DB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09CA08"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C08CA01"
         }
     ],
     "licBaseId": "577FD7EA-9012-44CF-A1BB-432498087E50"

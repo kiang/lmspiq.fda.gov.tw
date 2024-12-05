@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059846",
+    "licUnit": "1",
     "validDate": "2024-12-25 00:00:00.000",
     "issueDate": "2018-01-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": "01022463",
     "certNo": "DHY05105984609",
@@ -27,11 +31,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "87F61616-2242-4740-8F29-BD420B83F144",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "CIMETIDINE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "67"
     ],
     "applicantName": "威勝生技有限公司",
     "applicantAddr": "臺中市北屯區瀋陽路三段133號1樓、2樓",
@@ -45,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0ED7FE79-F1F8-486C-9751-26D83029ADA4",
             "factoryCode": "1",
             "factoryName": "利達製藥股份有限公司",
             "factoryAddr": "台中市大甲區中山路一段９０６號",
@@ -55,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "0701010300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640000500",
+            "ingredientsName": "CIMETIDINE",
             "ingredientsDesc": "CIMETIDINE",
             "concentDesc": "",
-            "concent": "200.000",
+            "concent": "200.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,72 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A0E46A72-51A1-4CFF-9B17-B0C5EFD88096",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-02-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B7AD7014-85E1-4974-91C5-F23DF92D69CA",
-            "approvedDocNo": "1090012598",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0DD15836-7494-437D-8DBC-30A071CC41B7",
-            "approvedDocNo": "1090012598",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "08AA290C-923C-44BA-A2C0-327EA2392119",
-            "approvedDocNo": "1090012598",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8AED7ADA-DF38-421F-BFA3-44F41F85BBC2",
-            "approvedDocNo": "1090012598",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E707B1EE-6FA8-4698-BF95-56839B9758F5",
-            "approvedDocNo": "1090012598",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "651C6C15-4D59-41D7-8D01-7D112AED7EBA",
-            "approvedDocNo": "1090012598",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D358DADE-6854-4383-80FE-9BD5FAD3E4FB",
-            "approvedDocNo": "1090012598",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

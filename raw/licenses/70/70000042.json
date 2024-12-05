@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "70000042",
+    "licUnit": "1",
     "validDate": "2027-08-16 00:00:00.000",
     "issueDate": "2017-08-16 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA07000004204",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "A4C11527-C143-4536-8FF5-B67A472760F9",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Eliglustat tartrate"
     ],
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9B6C0FC0-3729-4582-84B5-97E66A8A2B34",
             "factoryCode": "1",
             "factoryName": "GENZYME IRELAND LIMITED",
             "factoryAddr": "IDA INDUSTRIAL PARK, OLD KILMEADEN ROAD, WATERFORD, IRELAND",
@@ -53,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FIE0035000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "0D2A4A38-2175-4542-A5EB-712662830F41",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司高上倉",
             "factoryAddr": "桃園市楊梅區高上路1段150號",
@@ -71,12 +84,15 @@
             "factoryKind": "M",
             "factoryNo": "6132041444",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "6F8B38C2-F3B7-4EEF-BB2D-03009723CA82",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
-            "factoryAddr": "桃園市楊梅區梅獅路二段629號",
+            "factoryAddr": "桃園市楊梅區瑞坪里梅獅路二段６２９號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [
@@ -89,16 +105,40 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "E0A90B5E-D015-4EB6-961B-54211B06E47B",
+            "factoryCode": "2",
+            "factoryName": "SANOFI WINTHROP INDUSTRIE",
+            "factoryAddr": "30-36 AVENUE GUSTAVE EIFFEL 37100 TOURS FRANCE",
+            "factoryCompanyAddr": "",
+            "countryCode": "FR",
+            "processCode": [
+                {
+                    "value": "1A",
+                    "name": "二級包裝廠"
+                }
+            ],
+            "processCodeStr": "1A;二級包裝廠",
+            "factoryKind": "M",
+            "factoryNo": "FFR0141000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0808000110",
+            "ingredientsName": "Eliglustat tartrate",
             "ingredientsDesc": "Eliglustat tartrate",
             "concentDesc": "(eq to eliglustate......84.4MG)",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -107,48 +147,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9421A2DC-61FC-4098-A18F-020CFC0B65A9",
-            "approvedDocNo": "1119054666",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B0673FFA-C1FD-4FB3-A204-828812485772",
-            "approvedDocNo": "1086001259",
-            "approvedDate": "2019-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "46D39C59-8987-42E7-A94C-91E12D0615A0",
-            "approvedDocNo": "1086001259",
-            "approvedDate": "2019-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "36C4CD79-3B54-460C-A579-E9D17578AC06",
-            "approvedDocNo": "1086001259",
-            "approvedDate": "2019-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E5C61A26-1AAA-401D-9B60-429C75298282",
-            "approvedDocNo": "1076036305",
-            "approvedDate": "2019-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

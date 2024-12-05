@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01005102",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "2002-12-16 00:00:00.000",
+    "oriIssueDate": "1974-11-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100510209",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8F86E161-F10A-438F-8818-7774F89690F8",
+    "subCategory": [],
     "ingredientsDesc": [
         "PREDNISOLONE",
         "DIPHENHYDRAMINE HCL"
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F70F44B9-D14D-4DAC-BEA9-515397C84ACB",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
@@ -59,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001500",
+            "ingredientsName": "PREDNISOLONE",
             "ingredientsDesc": "PREDNISOLONE",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -77,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -88,44 +100,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9587FA61-5790-45F5-8C6A-21513A29DD04",
-            "approvedDocNo": "1110020130",
-            "approvedDate": "2022-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2E70C9FA-FD2F-4091-BA4C-476FD66FD51A",
-            "approvedDocNo": "1110020130",
-            "approvedDate": "2022-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E9BC3C0B-1480-498F-909C-9DA4316EA281",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D07XA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AA32"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AA03"
         }
     ],
     "licBaseId": "96D7D02D-38A7-4257-BE71-810BE5A08469"

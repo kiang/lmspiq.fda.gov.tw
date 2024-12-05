@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001172",
+    "licUnit": "1",
     "validDate": "2026-09-22 00:00:00.000",
     "issueDate": "2021-09-22 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000117200",
@@ -23,6 +27,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "45E28069-11E4-4A77-ABF9-2C6E9712666D",
+    "subCategory": [
+        "C0502"
+    ],
     "ingredientsDesc": [
         "Pertuzumab ",
         "Trastuzumab"
@@ -32,7 +41,7 @@
         "07"
     ],
     "applicantName": "羅氏大藥廠股份有限公司",
-    "applicantAddr": "台北市信義區松仁路100號40樓、40樓之1、41樓之1",
+    "applicantAddr": "台北市南港區經貿一路170號10樓、10樓之1至之3、10樓之5至之8",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FB566631-92FE-4544-8C76-482DF4D1031E",
             "factoryCode": "1",
             "factoryName": "F. HOFFMANN-LA ROCHE LTD.",
             "factoryAddr": "WURMISWEG, CH-4303 KAISERAUGST, SWITZERLAND",
@@ -53,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0257000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B2BB09F3-97C1-48C5-9B38-80A0D26D89BE",
             "factoryCode": "2",
             "factoryName": "ROCHE DIAGNOSTICS GMBH",
             "factoryAddr": "NONNENWALD 2, D-82377 PENZBERG, GERMANY",
@@ -71,9 +84,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0343000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F9342F0B-A1B8-4A55-A1A9-7AEF5B3F617F",
             "factoryCode": "2",
             "factoryName": "Roche Singapore Technical Operations Pte.Ltd.",
             "factoryAddr": "10 Tuas Bay Link, 637394 Singapore",
@@ -89,9 +105,12 @@
             "factoryKind": "M",
             "factoryNo": "FSG0030000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8F03628A-378C-4F88-897E-16B7287ADE8D",
             "factoryCode": "2",
             "factoryName": "GENENTECH, INC.",
             "factoryAddr": "1000 NEW HORIZONS WAY, VACAVILLE, CA 95688, USA",
@@ -107,16 +126,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0767000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013003800",
+            "ingredientsName": "Pertuzumab ",
             "ingredientsDesc": "Pertuzumab ",
             "concentDesc": "",
-            "concent": "1200.000",
+            "concent": "1200.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -125,9 +147,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013004800",
+            "ingredientsName": "Trastuzumab",
             "ingredientsDesc": "Trastuzumab",
             "concentDesc": "",
-            "concent": "600.000",
+            "concent": "600.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -136,28 +159,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "051F9274-1DF7-468F-8030-83DFA2FE109A",
-            "approvedDocNo": "1120713069",
-            "approvedDate": "2023-09-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01FY01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "L01XC03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "L01XC13"
         }
     ],
     "licBaseId": "300BB9EF-5692-44FE-96E3-5D0019A1E9AF"

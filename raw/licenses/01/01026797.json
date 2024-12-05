@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01026797",
+    "licUnit": "1",
     "validDate": "2025-05-13 00:00:00.000",
     "issueDate": "1983-02-02 00:00:00.000",
+    "oriIssueDate": "1983-02-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102679709",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "57ECDB22-2513-48E1-9156-95156BF638EF",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORHEXIDINE HCL",
         "BENZOCAINE (ETHYL AMINOBENZOATE)"
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "466E8400-674E-42F3-878C-01815D528BC4",
             "factoryCode": "1",
             "factoryName": "人生製藥股份有限公司",
             "factoryAddr": "台中市西屯區工業區五路３號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0201709300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900211",
+            "ingredientsName": "CHLORHEXIDINE HCL",
             "ingredientsDesc": "CHLORHEXIDINE HCL",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000200",
+            "ingredientsName": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "ingredientsDesc": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -86,28 +98,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AEA4F356-A8ED-49D2-9E34-7926AF1CB568",
-            "approvedDocNo": "1080021119",
-            "approvedDate": "2019-11-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A01AD"
-        },
         {
             "isMain": "1",
             "atcCode": "A01AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A01AB03"
         }
     ],
     "licBaseId": "FA455688-102A-43F8-96BB-159E20A854E6"

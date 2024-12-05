@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001154",
+    "licUnit": "1",
     "validDate": "2026-05-27 00:00:00.000",
     "issueDate": "2021-05-27 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000115401",
@@ -26,7 +30,10 @@
     ],
     "medMCode": "05",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "D",
+    "mainCategory": "D",
+    "drBaseId": "D7D9870F-80AF-4A22-B252-CC157D25E503",
+    "subCategory": [],
     "ingredientsDesc": [
         "ADALIMUMAB"
     ],
@@ -37,7 +44,7 @@
         "91"
     ],
     "applicantName": "台灣費森尤斯卡比股份有限公司",
-    "applicantAddr": "台北市大安區仁愛路三段30號5樓32號5樓",
+    "applicantAddr": "臺北市大安區仁愛路3段30號5樓、32號5樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "32108EF5-4CF0-4288-9F9E-9969C9AAA7B6",
             "factoryCode": "1",
             "factoryName": "MERCK SERONO S.P.A.",
             "factoryAddr": "VIA DELLE MAGNOLIE 15, ZONA INDUSTRIALE DI MODUGNO, 70026 MODUGNO, ITALY",
@@ -58,9 +66,33 @@
             "factoryKind": "M",
             "factoryNo": "FIT0324000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "64A88AFC-5F0D-44C6-91D3-069AEB6225EA",
+            "factoryCode": "2",
+            "factoryName": "裕利股份有限公司",
+            "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "3P",
+                    "name": "二級包裝廠(委託貼標及置入仿單)"
+                }
+            ],
+            "processCodeStr": "3P;二級包裝廠(委託貼標及置入仿單)",
+            "factoryKind": "M",
+            "factoryNo": "1225204000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "0FC6AB72-BF12-4AB5-AD08-1EEED3DF1A5F",
             "factoryCode": "2",
             "factoryName": "FRESENIUS KABI AUSTRIA GMBH",
             "factoryAddr": "AM GEWERBEPARK 6, 8402 WERNDORF, AUSTRIA",
@@ -76,9 +108,12 @@
             "factoryKind": "M",
             "factoryNo": "FAT0045000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D0897728-5209-47F1-A2A1-B1D74702E1D9",
             "factoryCode": "2",
             "factoryName": "MERCK SERONO SA SUCCURSALE DE CORSIER-SUR-VEVEY ZONE INDUSTRIELLE B",
             "factoryAddr": "CHEMIN DU FENIL, CORSIER-SUR-VEVEY, 1804, SWITZERLAND",
@@ -94,16 +129,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0332000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200094700",
+            "ingredientsName": "ADALIMUMAB",
             "ingredientsDesc": "ADALIMUMAB",
             "concentDesc": "",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -112,77 +150,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ADF0E694-9B38-4BDE-8E0E-09197A1044AC",
-            "approvedDocNo": "1120714196",
-            "approvedDate": "2023-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EBF94E33-5EC7-4AA6-AA0E-801FA76D6BC2",
-            "approvedDocNo": "1119020363",
-            "approvedDate": "2022-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "88508872-D0FF-411C-B81C-CADD8C57EAB2",
-            "approvedDocNo": "1119026026",
-            "approvedDate": "2022-07-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A76E46D7-A89A-4452-A51A-F14CB50C472F",
-            "approvedDocNo": "1106029034",
-            "approvedDate": "2022-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A4158EEE-0281-48BC-8E81-B86E76A83FCD",
-            "approvedDocNo": "1106029034",
-            "approvedDate": "2022-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DFC743FC-3402-4353-B30E-C5020F5F0AC0",
-            "approvedDocNo": "1106029034",
-            "approvedDate": "2022-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "482D00F5-F7E4-4ABC-9249-089A68747884",
-            "approvedDocNo": "1106814890",
-            "approvedDate": "2022-05-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2926D146-F91C-4332-89F1-92974B32DB67",
-            "approvedDocNo": "1106810460",
-            "approvedDate": "2021-11-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "L04AB04"
-        },
         {
             "isMain": "1",
             "atcCode": "L04AB04"

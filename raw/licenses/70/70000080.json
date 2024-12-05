@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "70000080",
+    "licUnit": "1",
     "validDate": "2027-02-08 00:00:00.000",
     "issueDate": "2022-02-08 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA07000008002",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "8FFBFEAD-57F3-488B-AC3E-C991D97F752C",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "ANAGRELIDE HYDROCHLORIDE MONOHYDATE"
     ],
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "652817BB-46B9-4467-83E3-E270A95C4895",
             "factoryCode": "1",
             "factoryName": "Noucor Health, S.A. ",
             "factoryAddr": "AVDA. CAMI REIAL, 51-57, 08184 PALAU-SOLITA I PLEGAMANS, BARCELONA, SPAIN",
@@ -52,16 +62,40 @@
             "factoryKind": "M",
             "factoryNo": "FES0269000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "70DF39C3-D27B-4D85-B4F1-7E197FC3C16B",
+            "factoryCode": "2",
+            "factoryName": "皇佳化學製藥股份有限公司",
+            "factoryAddr": "高雄市鳥松區埔安街1號",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "3Q",
+                    "name": "二級包裝廠(置入仿單)"
+                }
+            ],
+            "processCodeStr": "3Q;二級包裝廠(置入仿單)",
+            "factoryKind": "M",
+            "factoryNo": "0920322200",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200096410",
+            "ingredientsName": "ANAGRELIDE HYDROCHLORIDE MONOHYDATE",
             "ingredientsDesc": "ANAGRELIDE HYDROCHLORIDE MONOHYDATE",
             "concentDesc": "(eq. to Anagrelide.....0.5mg)",
-            "concent": "0.610",
+            "concent": "0.6100",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -78,40 +112,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8F476211-733C-40AC-9717-34916B6B64A4",
-            "approvedDocNo": "1129023055",
-            "approvedDate": "2023-06-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "80CC7DA7-F95E-4A98-B4C1-400EA368AE66",
-            "approvedDocNo": "1129023055",
-            "approvedDate": "2023-06-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D33C4DB1-232E-48A7-ADE3-9E001B09827C",
-            "approvedDocNo": "1110614527",
-            "approvedDate": "2023-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C0CC49A1-D450-4680-B898-D054160CC436",
-            "approvedDocNo": "1110026525",
-            "approvedDate": "2022-10-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

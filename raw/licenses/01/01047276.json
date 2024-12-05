@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047276",
+    "licUnit": "1",
     "validDate": "2025-05-20 00:00:00.000",
     "issueDate": "2005-05-20 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104727601",
@@ -24,13 +28,16 @@
             "packageUnit": "C7"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "55"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F301D6FD-0DFA-48BB-B67E-85BA5EC0CC29",
+    "subCategory": [],
     "ingredientsDesc": [
         "L-SERINE",
         "L-ARGININE",
@@ -67,6 +74,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F16D1686-8F5C-48E0-8289-BF25936A52CA",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區全興里中山路1001號",
@@ -77,13 +85,16 @@
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101002",
+            "ingredientsName": "L-ISOLEUCINE",
             "ingredientsDesc": "L-ISOLEUCINE",
             "concentDesc": "",
             "concent": "4.8000",
@@ -95,6 +106,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101202",
+            "ingredientsName": "L-LEUCINE",
             "ingredientsDesc": "L-LEUCINE",
             "concentDesc": "",
             "concent": "7.8000",
@@ -106,6 +118,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101322",
+            "ingredientsName": "L-LYSINE ACETATE",
             "ingredientsDesc": "L-LYSINE ACETATE",
             "concentDesc": "(eq to L-Lysine 5.11 mg)",
             "concent": "7.2000",
@@ -117,6 +130,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101502",
+            "ingredientsName": "L-METHIONINE",
             "ingredientsDesc": "L-METHIONINE",
             "concentDesc": "",
             "concent": "1.8720",
@@ -128,6 +142,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101702",
+            "ingredientsName": "L-PHENYLALANINE",
             "ingredientsDesc": "L-PHENYLALANINE",
             "concentDesc": "",
             "concent": "2.2500",
@@ -139,6 +154,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102002",
+            "ingredientsName": "L-THREONINE",
             "ingredientsDesc": "L-THREONINE",
             "concentDesc": "",
             "concent": "2.6400",
@@ -150,6 +166,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102102",
+            "ingredientsName": "L-TRYPTOPHAN",
             "ingredientsDesc": "L-TRYPTOPHAN",
             "concentDesc": "",
             "concent": "1.2060",
@@ -161,6 +178,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102302",
+            "ingredientsName": "L-VALINE",
             "ingredientsDesc": "L-VALINE",
             "concentDesc": "",
             "concent": "5.4000",
@@ -172,6 +190,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100302",
+            "ingredientsName": "L-ARGININE",
             "ingredientsDesc": "L-ARGININE",
             "concentDesc": "",
             "concent": "4.5000",
@@ -183,6 +202,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100902",
+            "ingredientsName": "L-HISTIDINE",
             "ingredientsDesc": "L-HISTIDINE",
             "concentDesc": "",
             "concent": "2.8560",
@@ -194,6 +214,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102400",
+            "ingredientsName": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "ingredientsDesc": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "concentDesc": "",
             "concent": "2.4900",
@@ -205,6 +226,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200000900",
+            "ingredientsName": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "ingredientsDesc": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "concentDesc": "L-",
             "concent": "0.2400",
@@ -216,6 +238,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101902",
+            "ingredientsName": "L-SERINE",
             "ingredientsDesc": "L-SERINE",
             "concentDesc": "",
             "concent": "4.6020",
@@ -227,6 +250,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100202",
+            "ingredientsName": "L-ALANINE",
             "ingredientsDesc": "L-ALANINE",
             "concentDesc": "",
             "concent": "5.5800",
@@ -238,6 +262,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101802",
+            "ingredientsName": "L-PROLINE",
             "ingredientsDesc": "L-PROLINE",
             "concentDesc": "",
             "concent": "5.8260",
@@ -249,6 +274,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102212",
+            "ingredientsName": "N-ACETYL TYROSINE L-",
             "ingredientsDesc": "N-ACETYL TYROSINE L-",
             "concentDesc": "",
             "concent": "3.1060",
@@ -260,6 +286,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800000101",
+            "ingredientsName": "N-ACETYL-L-CYSTEINE",
             "ingredientsDesc": "N-ACETYL-L-CYSTEINE",
             "concentDesc": "",
             "concent": "0.4200",
@@ -271,6 +298,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600017802",
+            "ingredientsName": "MALIC ACID L-",
             "ingredientsDesc": "MALIC ACID L-",
             "concentDesc": "",
             "concent": "1.5720",
@@ -286,14 +314,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "B05BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07AY"
-        },
-        {
-            "isMain": "2",
             "atcCode": "B05BA01"
         }
     ],

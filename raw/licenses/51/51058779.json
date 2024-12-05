@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058779",
+    "licUnit": "1",
     "validDate": "2025-05-29 00:00:00.000",
     "issueDate": "2015-05-29 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105877902",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CC8076F6-F620-4A9E-A8E8-001CD2DA4D3B",
+    "subCategory": [],
     "ingredientsDesc": [
         "Tetryzoline Hydrochloride (eq to Tetrahydrozoline Hydrochloride)",
         "ANTAZOLINE HCL"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "926F5DD3-5DC1-4EFA-AF9E-AFF1F5243C54",
             "factoryCode": "1",
             "factoryName": "溫士頓醫藥股份有限公司",
             "factoryAddr": "臺南市永康區仁愛街一一七號",
@@ -52,16 +60,19 @@
             "factoryKind": "M",
             "factoryNo": "1217820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000240",
+            "ingredientsName": "ANTAZOLINE HCL",
             "ingredientsDesc": "ANTAZOLINE HCL",
             "concentDesc": "",
-            "concent": "0.500",
+            "concent": "0.5000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +81,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5232000330",
+            "ingredientsName": "Tetryzoline Hydrochloride (eq to Tetrahydrozoline Hydrochloride)",
             "ingredientsDesc": "Tetryzoline Hydrochloride (eq to Tetrahydrozoline Hydrochloride)",
             "concentDesc": "",
-            "concent": "0.400",
+            "concent": "0.4000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,49 +93,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F4312F20-354F-43DE-8B00-9C311BB64F82",
-            "approvedDocNo": "1120003372",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8FDAB2A2-6315-4CBD-B73D-BF67BE5A253F",
-            "approvedDocNo": "1120003372",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "55F56BB8-A5E3-49A3-8BB8-E011342F29E3",
-            "approvedDocNo": "1110611645",
-            "approvedDate": "2023-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "38D1CDE0-BD89-4678-88D2-9B567A070D25",
-            "approvedDocNo": "1096613607",
-            "approvedDate": "2021-06-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01GA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01AC04"
-        },
         {
             "isMain": "1",
             "atcCode": "S01GA52"

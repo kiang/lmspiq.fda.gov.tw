@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028240",
+    "licUnit": "1",
     "validDate": "2027-02-07 00:00:00.000",
     "issueDate": "2022-02-07 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202824006",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "7252E244-E319-4CCB-B16E-59F903DB3DBF",
+    "subCategory": [
+        "A03"
+    ],
     "ingredientsDesc": [
         "Vilanterol trifenatate (micronised)",
         "Umeclidinium bromide (micronised)",
@@ -33,7 +42,7 @@
         "07"
     ],
     "applicantName": "荷商葛蘭素史克藥廠股份有限公司台灣分公司",
-    "applicantAddr": "台北市中正區忠孝西路一段66號23-24樓",
+    "applicantAddr": "臺北市中正區忠孝西路1段66號23樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -44,22 +53,26 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9C58F811-5B48-47B2-A766-6677FD2E2793",
             "factoryCode": "1",
-            "factoryName": "GLAXO OPERATIONS UK LIMITED",
-            "factoryAddr": "PRIORY STREET,WARE,HERTFORDSHIRE SG12 0DJ,UNITED KINGDOM.",
-            "factoryCompanyAddr": "-",
-            "countryCode": "GB",
+            "factoryName": "GLAXOSMITHKLINE LLC.",
+            "factoryAddr": "1011 NORTH ARENDELL AVENUE,ZEBULON,NC 27597,USA",
+            "factoryCompanyAddr": null,
+            "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FGB0044000",
+            "factoryNo": "FUS0295100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "47D3F2B3-A725-454F-A820-31A5540D7D13",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
-            "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
+            "factoryAddr": "桃園市大園區和平里１鄰開和路91號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [
@@ -72,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406002240",
+            "ingredientsName": "Fluticasone furoate (micronised) ",
             "ingredientsDesc": "Fluticasone furoate (micronised) ",
             "concentDesc": "",
-            "concent": "200.000",
+            "concent": "200.0000",
             "concentUnit": "016",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,9 +106,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212005410",
+            "ingredientsName": "Umeclidinium bromide (micronised)",
             "ingredientsDesc": "Umeclidinium bromide (micronised)",
             "concentDesc": "",
-            "concent": "74.200",
+            "concent": "74.2000",
             "concentUnit": "016",
             "seq": "1",
             "prescription_seq": "2",
@@ -101,9 +118,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212005510",
+            "ingredientsName": "Vilanterol trifenatate (micronised)",
             "ingredientsDesc": "Vilanterol trifenatate (micronised)",
             "concentDesc": "",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "016",
             "seq": "2",
             "prescription_seq": "2",
@@ -112,56 +130,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7F600E4E-27BD-480A-AC5A-2068E6CD2D32",
-            "approvedDocNo": "1129060438",
-            "approvedDate": "2023-12-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BB1A7D10-4097-4610-B142-076A34024ECE",
-            "approvedDocNo": "1129055597",
-            "approvedDate": "2023-12-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3297DFAD-8203-424A-8937-2158B34230B8",
-            "approvedDocNo": "1129016211",
-            "approvedDate": "2023-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "29003514-AA50-48E9-A3E3-A11AC1FE0300",
-            "approvedDocNo": "1119032175",
-            "approvedDate": "2023-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R03AL08"
-        },
         {
             "isMain": "1",
             "atcCode": "R03AL08"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03BA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03BB07"
         }
     ],
     "licBaseId": "DC97C7AF-F70B-4BED-A034-6910A7479C4F"

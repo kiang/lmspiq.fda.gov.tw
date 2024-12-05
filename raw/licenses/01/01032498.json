@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01032498",
+    "licUnit": "1",
     "validDate": "2025-05-07 00:00:00.000",
     "issueDate": "1990-05-07 00:00:00.000",
+    "oriIssueDate": "1990-05-07",
     "licKind": "02",
     "oldLicid": "01029426",
     "certNo": "DHY00103249801",
@@ -16,13 +20,16 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "016D210D-5F7E-4D34-806E-2804DB41B489",
+    "subCategory": [],
     "ingredientsDesc": [
         "HISTIDINE L- HCL MONOHYDRATE",
         "L-ISOLEUCINE",
@@ -61,6 +68,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A415ECEF-E411-455D-AFDD-EAB99D519A07",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -71,13 +79,16 @@
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101002",
+            "ingredientsName": "L-ISOLEUCINE",
             "ingredientsDesc": "L-ISOLEUCINE",
             "concentDesc": "0.170",
             "concent": "0.1700",
@@ -89,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101202",
+            "ingredientsName": "L-LEUCINE",
             "ingredientsDesc": "L-LEUCINE",
             "concentDesc": "0.379",
             "concent": "0.3790",
@@ -100,6 +112,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101310",
+            "ingredientsName": "LYSINE HCL",
             "ingredientsDesc": "LYSINE HCL",
             "concentDesc": "0.333",
             "concent": "0.3330",
@@ -111,6 +124,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101502",
+            "ingredientsName": "L-METHIONINE",
             "ingredientsDesc": "L-METHIONINE",
             "concentDesc": "0.106",
             "concent": "0.1060",
@@ -122,6 +136,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101702",
+            "ingredientsName": "L-PHENYLALANINE",
             "ingredientsDesc": "L-PHENYLALANINE",
             "concentDesc": "0.283",
             "concent": "0.2830",
@@ -133,6 +148,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102002",
+            "ingredientsName": "L-THREONINE",
             "ingredientsDesc": "L-THREONINE",
             "concentDesc": "0.197",
             "concent": "0.1970",
@@ -144,6 +160,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102102",
+            "ingredientsName": "L-TRYPTOPHAN",
             "ingredientsDesc": "L-TRYPTOPHAN",
             "concentDesc": "0.039",
             "concent": "0.0390",
@@ -155,6 +172,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102302",
+            "ingredientsName": "L-VALINE",
             "ingredientsDesc": "L-VALINE",
             "concentDesc": "0.136",
             "concent": "0.1360",
@@ -166,6 +184,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100202",
+            "ingredientsName": "L-ALANINE",
             "ingredientsDesc": "L-ALANINE",
             "concentDesc": "0.188",
             "concent": "0.1880",
@@ -177,6 +196,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100312",
+            "ingredientsName": "ARGININE HCL L-",
             "ingredientsDesc": "ARGININE HCL L-",
             "concentDesc": "0.289",
             "concent": "0.2890",
@@ -188,6 +208,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020109412",
+            "ingredientsName": "ASPARTATE (SODIUM L-)",
             "ingredientsDesc": "ASPARTATE (SODIUM L-)",
             "concentDesc": "0.115",
             "concent": "0.1150",
@@ -199,6 +220,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100552",
+            "ingredientsName": "L-CYSTEINE HCL MONOHYDRATE",
             "ingredientsDesc": "L-CYSTEINE HCL MONOHYDRATE",
             "concentDesc": "0.044",
             "concent": "0.0440",
@@ -210,6 +232,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020109722",
+            "ingredientsName": "GLUTAMATE (L-SODIUM)",
             "ingredientsDesc": "GLUTAMATE (L-SODIUM)",
             "concentDesc": "0.197",
             "concent": "0.1970",
@@ -221,6 +244,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100922",
+            "ingredientsName": "HISTIDINE L- HCL MONOHYDRATE",
             "ingredientsDesc": "HISTIDINE L- HCL MONOHYDRATE",
             "concentDesc": "0.246",
             "concent": "0.2460",
@@ -232,6 +256,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101802",
+            "ingredientsName": "L-PROLINE",
             "ingredientsDesc": "L-PROLINE",
             "concentDesc": "0.100",
             "concent": "0.1000",
@@ -243,6 +268,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101902",
+            "ingredientsName": "L-SERINE",
             "ingredientsDesc": "L-SERINE",
             "concentDesc": "0.067",
             "concent": "0.0670",
@@ -254,6 +280,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102202",
+            "ingredientsName": "L-TYROSINE",
             "ingredientsDesc": "L-TYROSINE",
             "concentDesc": "0.011",
             "concent": "0.0110",
@@ -265,6 +292,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102400",
+            "ingredientsName": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "ingredientsDesc": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "concentDesc": "0.324",
             "concent": "0.3240",
@@ -276,6 +304,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020001900",
+            "ingredientsName": "XYLITOL",
             "ingredientsDesc": "XYLITOL",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -290,16 +319,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "B05BA03"
-        },
-        {
             "isMain": "1",
             "atcCode": "B05BA10"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA01"
         }
     ],
     "licBaseId": "5A00D1D5-A906-41AC-8465-5BB6D96F4C7D"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022319",
+    "licUnit": "1",
     "validDate": "2028-10-27 00:00:00.000",
     "issueDate": "1998-10-27 00:00:00.000",
+    "oriIssueDate": "1998-10-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202231909",
@@ -16,17 +20,20 @@
     "does": "2240",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "13"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CF633D55-9043-4075-92CE-024657BB19CF",
+    "subCategory": [],
     "ingredientsDesc": [
         "CEFOTAXIME SODIUM",
         "CEFOTAXIME SODIUM"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "026A5AE3-70DA-41F3-8C9B-6CDE80A0C047",
             "factoryCode": "1",
             "factoryName": "SANOFI ILAC SANAYI VE TICARET ANONIM SIRKETI",
             "factoryAddr": "Kucukkaristiran Mahallesi,Merkez Sokak,No:223\/A 39780 Buyukkaristiran Luleburgaz, Kirklareli, Turkey ",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "FTR0021000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812302210",
+            "ingredientsName": "CEFOTAXIME SODIUM",
             "ingredientsDesc": "CEFOTAXIME SODIUM",
             "concentDesc": "",
             "concent": "524.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812302210",
+            "ingredientsName": "CEFOTAXIME SODIUM",
             "ingredientsDesc": "CEFOTAXIME SODIUM",
             "concentDesc": "",
             "concent": "1.0480",
@@ -85,63 +97,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ED975F4B-F7EC-44EB-895E-8234ED34D608",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D4D83DFA-2852-4660-86D6-CC02F6EAEBEE",
-            "approvedDocNo": "1129049118",
-            "approvedDate": "2023-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7CF17B69-97AE-47DC-AAE8-F566E7F6BF16",
-            "approvedDocNo": "1119040914",
-            "approvedDate": "2022-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "984C6E6F-3C4E-423E-8796-BBD963C4438D",
-            "approvedDocNo": "1119010311",
-            "approvedDate": "2022-07-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EDF8CABC-F3AC-498F-9C66-1F4F6D3A798E",
-            "approvedDocNo": "1101491736",
-            "approvedDate": "2021-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "702965EA-10A4-4A6D-A902-BE0593FF693D",
-            "approvedDocNo": "1086027727",
-            "approvedDate": "2019-10-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J01DD01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J01DD01"
         }
     ],

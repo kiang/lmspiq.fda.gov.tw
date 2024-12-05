@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000932",
+    "licUnit": "1",
     "validDate": "2027-08-09 00:00:00.000",
     "issueDate": "2012-08-09 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000093209",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "300AF8EA-B119-4C6D-9CB7-088532CB6A35",
+    "subCategory": [],
     "ingredientsDesc": [
         "SOMATROPIN (BIOSYNTHETIC HUMAN GROWTH HORMONE)"
     ],
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B97656CB-7D19-4FF0-B872-6E292455D753",
             "factoryCode": "1",
             "factoryName": "MERCK SERONO S.P.A.",
             "factoryAddr": "VIA DELLE MAGNOLIE 15, ZONA INDUSTRIALE DI MODUGNO, 70026 MODUGNO, ITALY",
@@ -51,9 +59,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0324000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "EF1DA84E-EBC2-4982-9C32-0F041B198660",
             "factoryCode": "2",
             "factoryName": "MERCK SERONO SA, AUBONNE BRANCH",
             "factoryAddr": "ZONE INDUSTRIELLE DE L'OURIETTAZ, 1170 AUBONNE SWITZERLAND",
@@ -69,9 +80,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0252000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7945D4AC-8ABA-4C5D-9D6F-781D9E1CE894",
             "factoryCode": "2",
             "factoryName": "MERCK S.L.",
             "factoryAddr": "BATANES 1, 28760 TRES CANTOS, SPAIN",
@@ -87,16 +101,19 @@
             "factoryKind": "M",
             "factoryNo": "FES0175000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6828001030",
+            "ingredientsName": "SOMATROPIN (BIOSYNTHETIC HUMAN GROWTH HORMONE)",
             "ingredientsDesc": "SOMATROPIN (BIOSYNTHETIC HUMAN GROWTH HORMONE)",
             "concentDesc": "",
-            "concent": "12.000",
+            "concent": "12.0000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -105,48 +122,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F3DCB60A-1082-497F-929A-6FC7A25B6E37",
-            "approvedDocNo": "1110724358",
-            "approvedDate": "2023-01-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "58A34284-FD89-41D9-8F8B-E249A4AFE667",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3D1C82F2-E724-4DDF-B987-181CBEF6BC38",
-            "approvedDocNo": "1096011791",
-            "approvedDate": "2020-08-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B42F42C-E2A5-4DE7-8714-12925192F8A4",
-            "approvedDocNo": "1086009627",
-            "approvedDate": "2019-10-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C68C3C17-0716-4872-A98E-9BA7A8037B5B",
-            "approvedDocNo": "1086009627",
-            "approvedDate": "2019-10-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

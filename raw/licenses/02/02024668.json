@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024668",
+    "licUnit": "1",
     "validDate": "2027-07-13 00:00:00.000",
     "issueDate": "2007-07-13 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202466805",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A6CAFBFF-405B-4D34-9079-210716FD187E",
+    "subCategory": [],
     "ingredientsDesc": [
         "SITAGLIPTIN (AS MONOHYDRATE PHOSPHATE SALT)"
     ],
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5CD51368-4B79-40D5-BE1D-EFBB100ADCDF",
             "factoryCode": "1",
             "factoryName": "Organon Pharma (UK) Limited",
             "factoryAddr": "SHOTTON LANE, CRAMLINGTON, NORTHUMBERLAND, NE23 3JU, UNITED KINGDOM",
@@ -57,9 +65,12 @@
             "factoryKind": "M",
             "factoryNo": "FGB0070000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "DFF2B180-3754-4F9D-89BB-35B8B48F56AE",
             "factoryCode": "2",
             "factoryName": "PT. Organon Pharma Indonesia Tbk.",
             "factoryAddr": "JI. RAYA PANDAAN KM. 48, PANDAAN, PASURUAN,JAWA TIMUR , INDONESIA",
@@ -75,16 +86,19 @@
             "factoryKind": "M",
             "factoryNo": "FID0002000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200088510",
+            "ingredientsName": "SITAGLIPTIN (AS MONOHYDRATE PHOSPHATE SALT)",
             "ingredientsDesc": "SITAGLIPTIN (AS MONOHYDRATE PHOSPHATE SALT)",
             "concentDesc": "(eq. to sitagliptin 100 mg)",
-            "concent": "128.5000",
+            "concent": "128.9000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -93,80 +107,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5753F99F-F43E-4CE5-9C6D-BC1242B429CD",
-            "approvedDocNo": "1110706765",
-            "approvedDate": "2022-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8CD747EE-A67F-4885-8744-BFEA54EC3632",
-            "approvedDocNo": "1101499946",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "83520045-D0ED-4BB6-A123-4399D585F71F",
-            "approvedDocNo": "1101499946",
-            "approvedDate": "2022-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "65DE6797-E8C0-43F4-9D5C-4E2D757CBE54",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7521FADF-9CD4-4EA1-9F40-B705A1BF6C6C",
-            "approvedDocNo": "1091493797",
-            "approvedDate": "2021-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AF79F0B7-0B7F-4A7A-8ED7-F5F1432FF926",
-            "approvedDocNo": "1086023149",
-            "approvedDate": "2020-01-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D672F53C-F8FF-48B6-A415-5D286EB0A5EB",
-            "approvedDocNo": "1086023149",
-            "approvedDate": "2020-01-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BFBCEC71-CB15-4567-A4EF-AED1DCAC6E73",
-            "approvedDocNo": "1086023149",
-            "approvedDate": "2020-01-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F2B80735-52F6-4D44-A304-2AEA59391A7D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

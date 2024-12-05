@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02021245",
+    "licUnit": "1",
     "validDate": "2026-05-27 00:00:00.000",
     "issueDate": "2023-12-14 00:00:00.000",
+    "oriIssueDate": "1996-05-27",
     "licKind": "10",
     "oldLicid": null,
     "certNo": null,
@@ -16,13 +20,16 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": "D",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "CA96C5E1-83AE-4C50-95AC-D83F6A40F717",
+    "subCategory": [],
     "ingredientsDesc": [
         "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)"
     ],
@@ -43,23 +50,48 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2421DD7E-1222-4355-BB3E-D4C150EFEC60",
             "factoryCode": "1",
-            "factoryName": "MALLADI DRUGS & PHARMACEUTICALS LIMITED",
-            "factoryAddr": "PLOT NO.67, SIPCOT INDUSTRIAL COMPLEX RANIPET,VELLORE DISTRICT TAMIL NADU-632 403 INDIA",
-            "factoryCompanyAddr": "SKCL Tech Square, 7th Floor, Plot No. South Phase 14, Thiru Vi Ka Industrial Estate, Guindy, Chennai- 600032",
+            "factoryName": "MALLADI DRUGS & PHARMACEUTICALS LTD.",
+            "factoryAddr": "PLOT NO. 67, SIPCOT INDUSTRIAL COMPLEX. RANIPET, RANIPET DISTRICT, TAMILNADU - 632 403 INDIA",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FIN0038000",
+            "factoryNo": "FIN0447100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "A470B107-CC29-412F-A598-7F2F37351D5A",
+            "factoryCode": "2",
+            "factoryName": "MALLADI DRUGS & PHARMACEUTICALS LTD.",
+            "factoryAddr": "SKCL TECH SQUARE, 7th FLOOR, PLOT NO. SOUTH PHASE 14, THIRU VI KA INDUSTRIAL ESTATE, GUINDY, CHENNAI-600032",
+            "factoryCompanyAddr": "",
+            "countryCode": "IN",
+            "processCode": [
+                {
+                    "value": "6K",
+                    "name": "製造廠公司"
+                }
+            ],
+            "processCodeStr": "6K;製造廠公司",
+            "factoryKind": "M",
+            "factoryNo": "FIN1196000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212000510",
+            "ingredientsName": "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)",
             "ingredientsDesc": "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)",
             "concentDesc": "99-101",
             "concent": null,
@@ -71,36 +103,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8DFE324B-A2EA-4B73-8A9B-7701CD71C765",
-            "approvedDocNo": "1081492168",
-            "approvedDate": "2019-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R01AB05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01AA03"
-        },
         {
             "isMain": "1",
             "atcCode": "C01CA26"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01FB02"
         }
     ],
     "licBaseId": "1766D5D9-65D7-4119-AE6F-AB5E1DEDCFFF"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060501",
+    "licUnit": "1",
     "validDate": "2025-05-19 00:00:00.000",
     "issueDate": "2020-05-19 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106050101",
@@ -27,6 +31,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "C1CF3739-C97B-4EBF-ACBB-62A12423AB96",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "ALUMINUM MAGNESIUM SILICATE",
         "OXETHAZAINE"
@@ -46,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "374080B8-593E-4D0A-948A-20DFD9ADA16E",
             "factoryCode": "1",
             "factoryName": "大豐製藥股份有限公司",
             "factoryAddr": "彰化縣彰化市延平里岸頭巷11號",
@@ -56,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "0306811300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002900",
+            "ingredientsName": "OXETHAZAINE",
             "ingredientsDesc": "OXETHAZAINE",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000500",
+            "ingredientsName": "ALUMINUM MAGNESIUM SILICATE",
             "ingredientsDesc": "ALUMINUM MAGNESIUM SILICATE",
             "concentDesc": "",
-            "concent": "244.000",
+            "concent": "244.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,27 +99,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CD393FAD-E0D9-4058-924C-F2C686EE6690",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-02-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A02AD"
-        },
-        {
             "isMain": "1",
-            "atcCode": "A02AX"
-        },
-        {
-            "isMain": "2",
             "atcCode": "A02AX"
         }
     ],

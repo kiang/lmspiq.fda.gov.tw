@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027888",
+    "licUnit": "1",
     "validDate": "2025-06-11 00:00:00.000",
     "issueDate": "2020-06-11 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202788801",
@@ -23,15 +27,21 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "8B71F316-B528-46B4-90A3-065E15197A28",
+    "subCategory": [
+        "A03"
+    ],
     "ingredientsDesc": [
         "Perampanel"
     ],
     "restraintItemsCode": [
         "02",
-        "07"
+        "07",
+        "67"
     ],
     "applicantName": "衛采製藥股份有限公司",
-    "applicantAddr": "台北市長安東路一段十八號九樓",
+    "applicantAddr": "臺北市中山區松江路106號8樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -42,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7802047A-20E8-404A-8D08-356D960B5DC2",
             "factoryCode": "1",
             "factoryName": "DELPHARM HUNINGUE SAS",
             "factoryAddr": "26 RUE DE LA CHAPELLE, 68330 HUNINGUE, FRANCE",
@@ -52,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0299000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8EAEA65C-D809-4B2B-95DA-3525017E4DFC",
             "factoryCode": "2",
             "factoryName": "EISAI MANUFACTURING LTD.",
             "factoryAddr": "EUROPEAN KNOWLEDGE CENTRE, MOSQUITO WAY, HATFIELD, HERTFORDSHIRE, AL10 9SN UNITED KINGDOM",
@@ -70,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0304000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812002400",
+            "ingredientsName": "Perampanel",
             "ingredientsDesc": "Perampanel",
             "concentDesc": "(Anhydrous basis......0.50MG)(Containing 3\/4 H2O, eq to Perampanel anhydrous basis......0.5 MG)",
-            "concent": "0.520",
+            "concent": "0.5200",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,40 +105,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "727E7D11-1956-4F90-8D03-742A900D37F9",
-            "approvedDocNo": "1110727830",
-            "approvedDate": "2023-04-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "80CB147E-EA53-4DFA-8A48-1BEDB8C50BA4",
-            "approvedDocNo": "1096821752",
-            "approvedDate": "2021-06-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DEAAB68B-0638-48BD-AD22-C3665CA870A3",
-            "approvedDocNo": "1096821752",
-            "approvedDate": "2021-06-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B43A20F1-FAD6-4CEC-9B75-A5A532768A59",
-            "approvedDocNo": "1096027135",
-            "approvedDate": "2021-01-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

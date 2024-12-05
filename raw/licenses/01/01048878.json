@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048878",
+    "licUnit": "1",
     "validDate": "2027-07-04 00:00:00.000",
     "issueDate": "2007-07-04 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104887805",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "11DB7F64-A3A5-4AE9-90D1-4707D5628FA6",
+    "subCategory": [],
     "ingredientsDesc": [
         "VALPROIC ACID",
         "VALPROATE SODIUM"
@@ -34,8 +41,8 @@
     "restraintItemsCode": [
         "01"
     ],
-    "applicantName": "瑩碩生技醫藥股份有限公司",
-    "applicantAddr": "台北市中山區南京東路二段206號8樓之3",
+    "applicantName": "健喬信元醫藥生技股份有限公司",
+    "applicantAddr": "新竹縣湖口鄉工業一路6號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BEC8A478-B26B-4F2B-AB6E-6829D911D997",
             "factoryCode": "1",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉光復路1號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "6133061413",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812001300",
+            "ingredientsName": "VALPROIC ACID",
             "ingredientsDesc": "VALPROIC ACID",
             "concentDesc": "",
             "concent": "145.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812001310",
+            "ingredientsName": "VALPROATE SODIUM",
             "ingredientsDesc": "VALPROATE SODIUM",
             "concentDesc": "",
             "concent": "333.0000",
@@ -85,55 +97,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A264CE4C-1364-4794-92E5-F10764270870",
-            "approvedDocNo": "1119009913",
-            "approvedDate": "2022-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BF22CF56-D89A-4D06-9C04-A14903FCAD4C",
-            "approvedDocNo": "1096024189",
-            "approvedDate": "2020-08-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0FA12631-426C-4C7D-B6B1-A9291C5FB9F1",
-            "approvedDocNo": "1081491604",
-            "approvedDate": "2019-12-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D41B7691-FE3E-404C-9F97-3F9EBFF0C295",
-            "approvedDocNo": "1086022948",
-            "approvedDate": "2019-09-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C192AE0-AE98-4954-8787-A1051BF53B1E",
-            "approvedDocNo": "1086022948",
-            "approvedDate": "2019-09-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N03AG01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "N03AG01"
         }
     ],

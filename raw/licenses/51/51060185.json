@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060185",
+    "licUnit": "1",
     "validDate": "2028-10-16 00:00:00.000",
     "issueDate": "2018-10-16 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106018504",
@@ -23,13 +27,19 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "CE985BDE-C642-41DA-B812-BC64BD08DF09",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "CARISOPRODOL",
         "CAFFEINE",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "67"
     ],
     "applicantName": "應元化學製藥股份有限公司",
     "applicantAddr": "台南市南區新忠路２６號",
@@ -43,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2BA5DEC8-C7A3-4E83-BB0F-4D9F95244D45",
             "factoryCode": "1",
             "factoryName": "應元化學製藥股份有限公司",
             "factoryAddr": "台南市南區新忠路２６號",
@@ -53,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "1704519300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220000300",
+            "ingredientsName": "CARISOPRODOL",
             "ingredientsDesc": "CARISOPRODOL",
             "concentDesc": "",
-            "concent": "175.000",
+            "concent": "175.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
-            "concent": "350.000",
+            "concent": "350.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": "",
-            "concent": "32.000",
+            "concent": "32.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -93,32 +109,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D31CA807-DE29-4BA5-83C1-6513A8C6CC41",
-            "approvedDocNo": "1120812056",
-            "approvedDate": "2023-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4AFF7E87-DC7F-4586-909C-15F132953904",
-            "approvedDocNo": "1129020794",
-            "approvedDate": "2023-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0EC322AF-8D07-4F1A-9F7F-3A7CFD2EBA86",
-            "approvedDocNo": "1101490997",
-            "approvedDate": "2021-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

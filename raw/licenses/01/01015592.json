@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01015592",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1978-10-04 00:00:00.000",
+    "oriIssueDate": "1978-10-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101559206",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7EBCFA52-4087-4219-9860-AD1BA50FF630",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORHEXIDINE HCL",
         "TOLNAFTATE"
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E39352ED-0AA8-4CBF-A887-A35C0B9C76E2",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404801300",
+            "ingredientsName": "TOLNAFTATE",
             "ingredientsDesc": "TOLNAFTATE",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900211",
+            "ingredientsName": "CHLORHEXIDINE HCL",
             "ingredientsDesc": "CHLORHEXIDINE HCL",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -87,28 +99,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "84410D4E-4AFD-4A67-BE95-15A3540EFE99",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D01AE20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AE18"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D08AC02"
         }
     ],
     "licBaseId": "E7038C92-99AC-4E55-9284-EAD87DB73B65"

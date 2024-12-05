@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001076",
+    "licUnit": "1",
     "validDate": "2028-06-25 00:00:00.000",
     "issueDate": "2018-06-25 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000107604",
@@ -27,13 +31,17 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "F72AD7D5-A5C8-4BC1-AEBB-8E0A314C159F",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "brodalumab"
     ],
     "restraintItemsCode": [
         "02",
         "07",
-        "1D",
         "5F"
     ],
     "applicantName": "台灣協和麒麟股份有限公司",
@@ -48,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CAAC55F9-AE03-459E-857B-25871E437AA2",
             "factoryCode": "1",
             "factoryName": "PATHEON ITALIA S.P.A.",
             "factoryAddr": "VIALE G.B. STUCCHI, 110-20900 MONZA (MB), ITALY",
@@ -58,9 +67,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT9099000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "39B4FDC7-E82B-4BD1-BBB3-1478096EA647",
             "factoryCode": "2",
             "factoryName": "瑪里士實業有限公司",
             "factoryAddr": "臺北市內湖區舊宗路二段121巷30號2樓、32號2樓、2樓之1及36號4樓",
@@ -76,9 +88,33 @@
             "factoryKind": "M",
             "factoryNo": "6101111420",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "56D5B923-1307-4819-839A-9475F5911BFF",
+            "factoryCode": "2",
+            "factoryName": "BUSHU PHARMACEUTICALS LTD., MISATO FACTORY",
+            "factoryAddr": "950, HIROKI, MISATO, KODAMA-GUN, SAITAMA, 367-0198, JAPAN",
+            "factoryCompanyAddr": null,
+            "countryCode": "JP",
+            "processCode": [
+                {
+                    "value": "1A",
+                    "name": "二級包裝廠"
+                }
+            ],
+            "processCodeStr": "1A;二級包裝廠",
+            "factoryKind": "M",
+            "factoryNo": "FJP0826200",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "7E6567DC-55EB-44D7-9536-A141C63EFADE",
             "factoryCode": "2",
             "factoryName": "KYOWA KIRIN CO., LTD.",
             "factoryAddr": "1-9-2 OTEMACHI, CHIYODA-KU, TOKYO, JAPAN ",
@@ -91,15 +127,18 @@
                 }
             ],
             "processCodeStr": "23;委託製造者",
-            "factoryKind": "E",
+            "factoryKind": "M",
             "factoryNo": "FJP1009000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8D5FD651-4765-4BEB-86D4-2986688D7B0A",
             "factoryCode": "2",
             "factoryName": "KYOWA KIRIN CO., LTD. TAKASAKI PLANT",
-            "factoryAddr": "100-1 HAGIWARA-MACHI, TAKASAKISHI, GUNMAN, JAPAN",
+            "factoryAddr": "100-1 HAGIWARA-MACHI, TAKASAKI-SHI, GUNMA, JAPAN",
             "factoryCompanyAddr": "",
             "countryCode": "JP",
             "processCode": [
@@ -112,9 +151,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP9458900",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B4D0CC59-936F-46FF-AEC9-81CFD71D3D0B",
             "factoryCode": "2",
             "factoryName": "IMMUNEX RHODE ISLAND CORPORATION",
             "factoryAddr": "40 TECHNOLOGY WAY, WEST GREENWICH RHODE ISLAND 02817, USA",
@@ -130,138 +172,36 @@
             "factoryKind": "M",
             "factoryNo": "FUS0866000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200090200",
+            "ingredientsName": "brodalumab",
             "ingredientsDesc": "brodalumab",
             "concentDesc": "",
-            "concent": "210.000",
+            "concent": "210.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [],
-    "iomDtoList": [],
-    "changeDtoList": [
+    "authDtoList": [
         {
-            "licChgDocId": "4FA374F1-41E2-4C57-869D-3301084F9937",
-            "approvedDocNo": "1120711655",
-            "approvedDate": "2023-10-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5F5F5CF4-5D49-43A2-8E68-F5D232FBD150",
-            "approvedDocNo": "1120711655",
-            "approvedDate": "2023-10-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B283E42B-5CB0-4AE8-9BF3-80BE462463E7",
-            "approvedDocNo": "1106012701",
-            "approvedDate": "2022-03-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B33D4875-E78C-44BA-83B0-75CAD8E16B15",
-            "approvedDocNo": "1106012701",
-            "approvedDate": "2022-03-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E67E9236-D350-4F4F-A59E-0C08D0EE17C7",
-            "approvedDocNo": "1106012701",
-            "approvedDate": "2022-03-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "829C426D-0597-42AE-94BF-7B9A0D332F0C",
-            "approvedDocNo": "1096032599",
-            "approvedDate": "2021-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ADF1DB64-C76B-40AB-86F4-B88B05C16A19",
-            "approvedDocNo": "1096003565",
-            "approvedDate": "2020-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "905115A9-27DB-47ED-B005-095E13385CA6",
-            "approvedDocNo": "1096003565",
-            "approvedDate": "2020-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ECCCC642-918D-4666-A8DA-2A9C1A9A5695",
-            "approvedDocNo": "1096004426",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B7E0EA39-A8ED-4A33-B171-2EF5E72945C8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-03-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4DE4CE0B-0C79-4CB1-9191-D83842F14026",
-            "approvedDocNo": "1081492425",
-            "approvedDate": "2020-02-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A2C25466-0A97-4C15-A4FB-7CEB9ACE30F0",
-            "approvedDocNo": "1081492067",
-            "approvedDate": "2019-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "90F9B9B6-C604-4E04-B1BB-9A53E32BFDAB",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DEC18A4B-85D3-4058-84F3-1CE0FEFCD5A6",
-            "approvedDocNo": "1076038514",
-            "approvedDate": "2019-01-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
+            "applicantName": "台灣大昌華嘉股份有限公司",
+            "certNo": "DHA06000107615",
+            "approveDocNo": "1139068548",
+            "authDate": "2024-09-01",
+            "validDate": "2025-06-30"
         }
     ],
+    "iomDtoList": [],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

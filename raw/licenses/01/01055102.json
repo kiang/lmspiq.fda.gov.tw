@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055102",
+    "licUnit": "1",
     "validDate": "2025-07-09 00:00:00.000",
     "issueDate": "2010-07-09 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105510200",
@@ -30,7 +34,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "A59B4E54-AF61-4B50-90F6-7C63D34AC966",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "NEOMYCIN SULFATE",
         "BACITRACIN ZINC",
@@ -51,6 +60,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B37E98DC-AB33-40F0-AE57-D606ED281B4A",
             "factoryCode": "1",
             "factoryName": "壽元化學工業股份有限公司",
             "factoryAddr": "嘉義市新民路128號",
@@ -61,13 +71,16 @@
             "factoryKind": "M",
             "factoryNo": "1421417300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812100530",
+            "ingredientsName": "NEOMYCIN SULFATE",
             "ingredientsDesc": "NEOMYCIN SULFATE",
             "concentDesc": "(Eq. to Neomycin(potency) 3.5mg)",
             "concent": "5.8300",
@@ -79,6 +92,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812001212",
+            "ingredientsName": "POLYMYXIN B SULFATE",
             "ingredientsDesc": "POLYMYXIN B SULFATE",
             "concentDesc": "(Eq. to Polymyxin B(potency) 5000 Unit))",
             "concent": "0.8300",
@@ -90,6 +104,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812000110",
+            "ingredientsName": "BACITRACIN ZINC",
             "ingredientsDesc": "BACITRACIN ZINC",
             "concentDesc": "(Eq. to Bacitracin (potency) 400 Unit)",
             "concent": "10.0000",
@@ -101,72 +116,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "51E2BCEC-2A9E-49F0-9E3F-0B2338A12C8F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B0923A8C-2F84-4DBD-8AC0-1A3806EC56C3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AA32389A-9F1F-42F8-B1B4-3F1F25336BEC",
-            "approvedDocNo": "1076615579",
-            "approvedDate": "2019-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1E1DE10A-D444-4FD7-9115-55361C6E10D3",
-            "approvedDocNo": "1076615579",
-            "approvedDate": "2019-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3345DA3A-D754-4670-A37C-89B6C148FB5B",
-            "approvedDocNo": "1076615579",
-            "approvedDate": "2019-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CBD85DB1-6760-4EF4-9262-A7EDCA532F7D",
-            "approvedDocNo": "1076615579",
-            "approvedDate": "2019-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D06AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX05"
         }
     ],
     "licBaseId": "8E1F9654-F674-48F2-AF82-6D93083C3313"

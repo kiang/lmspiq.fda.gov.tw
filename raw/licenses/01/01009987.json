@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01009987",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1976-05-31 00:00:00.000",
+    "oriIssueDate": "1976-05-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100998704",
@@ -27,11 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7177D961-B09E-434B-977D-1047FFE56650",
+    "subCategory": [],
     "ingredientsDesc": [
         "COLCHICINE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "67"
     ],
     "applicantName": "華興化學製藥廠股份有限公司",
     "applicantAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -45,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E7BF5935-A547-495D-AE23-ED5F898BFA15",
             "factoryCode": "1",
             "factoryName": "華興化學製藥廠股份有限公司",
             "factoryAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -55,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "1203612300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200002100",
+            "ingredientsName": "COLCHICINE",
             "ingredientsDesc": "COLCHICINE",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -73,61 +85,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "95F7CFD4-2931-4A7F-AB0D-58B140A56FA4",
-            "approvedDocNo": "1110017857",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7FDE56F5-8851-46E1-A467-FB98958DECD0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E6974ADE-5508-4BEA-9046-1C4B41D91203",
-            "approvedDocNo": "1100032643",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "597121FF-279A-42B5-8093-1700C85C43D9",
-            "approvedDocNo": "1100000103",
-            "approvedDate": "2021-02-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FCD34A72-A940-4975-B5B9-58B317209BA7",
-            "approvedDocNo": "1100000103",
-            "approvedDate": "2021-02-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D441BA05-BEC2-491C-84D3-B6D94C0BAB6C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "M04AC01"
-        },
         {
             "isMain": "1",
             "atcCode": "M04AC01"

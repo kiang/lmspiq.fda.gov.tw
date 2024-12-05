@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028149",
+    "licUnit": "1",
     "validDate": "2026-08-27 00:00:00.000",
     "issueDate": "2021-08-27 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202814907",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": "A",
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "9FDD0DBD-C3C0-463B-AF6F-FC77D904521F",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "GLUCOSAMINE SULFATE SODIUM CHLORIDE"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BF9001C8-AC55-47B3-8180-DE822E494C66",
             "factoryCode": "1",
             "factoryName": "MADAUS GMBH",
             "factoryAddr": "LUTTICHER, STRABE 5 53842 TROISDORF, GERMANY",
@@ -56,9 +66,33 @@
             "factoryKind": "M",
             "factoryNo": "FDE0558000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "85FAC9A9-4AB5-4D4F-81AC-805272C8D835",
+            "factoryCode": "2",
+            "factoryName": "久裕企業股份有限公司",
+            "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "3Q",
+                    "name": "二級包裝廠(置入仿單)"
+                }
+            ],
+            "processCodeStr": "3Q;二級包裝廠(置入仿單)",
+            "factoryKind": "M",
+            "factoryNo": "6605071926",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "EECE197E-6FEB-434A-8E77-01AEC9613DEE",
             "factoryCode": "2",
             "factoryName": "MEDA PHARMA GMBH & CO. KG",
             "factoryAddr": "BENZSTRASSE 1, 61352 BAD HOMBURG, GERMANY",
@@ -74,9 +108,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE9042000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4D6D78A4-34AC-46AE-A486-71915976E87B",
             "factoryCode": "2",
             "factoryName": "ROTTAPHARM LTD.",
             "factoryAddr": "DAMASTOWN INDUSTRIAL PARK, MULHUDDART, DUBLIN 15, IRELAND",
@@ -92,16 +129,19 @@
             "factoryKind": "M",
             "factoryNo": "FIE0033000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600013331",
+            "ingredientsName": "GLUCOSAMINE SULFATE SODIUM CHLORIDE",
             "ingredientsDesc": "GLUCOSAMINE SULFATE SODIUM CHLORIDE",
             "concentDesc": "(eq. to Glucosamine Sulfate......750MG)",
-            "concent": "942.000",
+            "concent": "942.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -118,24 +158,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7BB0016E-3C2E-4B94-8561-07C515F6D479",
-            "approvedDocNo": "1119059933",
-            "approvedDate": "2023-01-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0461397B-F1B6-4D3E-BA3F-B76F321C877D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

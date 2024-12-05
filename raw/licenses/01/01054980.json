@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01054980",
+    "licUnit": "1",
     "validDate": "2025-05-13 00:00:00.000",
     "issueDate": "2010-05-13 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105498008",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "69538357-70B7-42E9-AB8E-99271694768E",
+    "subCategory": [],
     "ingredientsDesc": [
         "ESCITALOPRAM (AS OXALATE)"
     ],
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "896D2444-2A77-4B2A-9471-186EB6A0CAD8",
             "factoryCode": "1",
             "factoryName": "五洲製藥股份有限公司",
             "factoryAddr": "桃園市新屋區赤欄村17-1號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0413004300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200098920",
+            "ingredientsName": "ESCITALOPRAM (AS OXALATE)",
             "ingredientsDesc": "ESCITALOPRAM (AS OXALATE)",
             "concentDesc": "(12.77mg)",
             "concent": "10.0000",
@@ -75,47 +86,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6F193298-3670-4E02-A76E-AE2856FE0E2C",
-            "approvedDocNo": "1110713329",
-            "approvedDate": "2022-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "693C374D-056F-4166-B170-D75D22D37C17",
-            "approvedDocNo": "1086811001",
-            "approvedDate": "2020-02-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2C112B4A-93AB-421B-BD31-DB086709EEFA",
-            "approvedDocNo": "1086811001",
-            "approvedDate": "2020-02-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "88FA877F-9551-4797-A9D2-DF3D42363060",
-            "approvedDocNo": "1086811001",
-            "approvedDate": "2020-02-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N06AB10"
-        },
-        {
-            "isMain": "2",
             "atcCode": "N06AB10"
         }
     ],

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01032613",
+    "licUnit": "1",
     "validDate": "2025-05-22 00:00:00.000",
     "issueDate": "1990-05-22 00:00:00.000",
+    "oriIssueDate": "1990-05-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103261301",
@@ -16,13 +20,16 @@
     "does": "3370",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F9D78756-B374-44DD-9098-99F345631B34",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORHEXIDINE GLUCONATE",
         "CETRIMIDE"
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8FB3406E-6FC6-440D-B570-26CE7C50A2BA",
             "factoryCode": "1",
             "factoryName": "澳斯麗國際股份有限公司淡水廠",
             "factoryAddr": "新北市淡水區北新路三段一二三之一號",
@@ -53,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "6612935103",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404601080",
+            "ingredientsName": "CETRIMIDE",
             "ingredientsDesc": "CETRIMIDE",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -71,6 +82,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900231",
+            "ingredientsName": "CHLORHEXIDINE GLUCONATE",
             "ingredientsDesc": "CHLORHEXIDINE GLUCONATE",
             "concentDesc": "(20%) 3",
             "concent": null,
@@ -87,14 +99,6 @@
         {
             "isMain": "1",
             "atcCode": "D08AC52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D08AJ04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D08AC02"
         }
     ],
     "licBaseId": "665312AA-315E-4CFA-85B0-CEBA6891A803"

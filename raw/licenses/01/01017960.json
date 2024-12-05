@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01017960",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1979-06-27 00:00:00.000",
+    "oriIssueDate": "1979-06-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101796006",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D0B4B5C1-07EB-4A45-B08F-FE3FC1DF9E9E",
+    "subCategory": [],
     "ingredientsDesc": [
         "PHENOBARBITAL",
         "MEPENZOLATE BROMIDE"
     ],
     "restraintItemsCode": [
         "01",
+        "1R",
         "34"
     ],
     "applicantName": "華興化學製藥廠股份有限公司",
@@ -43,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8B96AA4D-4E95-4291-83B4-91725F357B0B",
             "factoryCode": "1",
             "factoryName": "華興化學製藥廠股份有限公司",
             "factoryAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -53,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "6137210029",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208003110",
+            "ingredientsName": "MEPENZOLATE BROMIDE",
             "ingredientsDesc": "MEPENZOLATE BROMIDE",
             "concentDesc": "7.5",
             "concent": "7.5000",
@@ -71,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824401200",
+            "ingredientsName": "PHENOBARBITAL",
             "ingredientsDesc": "PHENOBARBITAL",
             "concentDesc": "15",
             "concent": "15.0000",
@@ -82,60 +95,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0557FD07-3D35-4CFD-8B9D-1F56D3D01F79",
-            "approvedDocNo": "1120729341",
-            "approvedDate": "2023-12-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DC1916F8-9C2D-4C7A-9AE8-AD738BFB7F7D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3B10BB49-C192-40B9-9BB3-0B10612A1F38",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "61BE1CF9-1A9A-4570-802D-2F7725F9BAB9",
-            "approvedDocNo": "1080014183",
-            "approvedDate": "2019-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DE99804F-F44E-496A-8B71-48D380BE658F",
-            "approvedDocNo": "1080014183",
-            "approvedDate": "2019-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A03AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03AB12"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N03AA02"
         }
     ],
     "licBaseId": "83942AC3-A448-47DC-AED8-A67B3118671B"

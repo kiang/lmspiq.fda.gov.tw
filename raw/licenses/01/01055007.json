@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055007",
+    "licUnit": "1",
     "validDate": "2025-05-28 00:00:00.000",
     "issueDate": "2010-05-28 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105500706",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "93CB2C6E-7512-4B4D-966D-40609359DD71",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "Oxygen (O2) contains not less than 99.0%(v\/v)"
     ],
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "77E9C76B-109B-4075-A0DA-EF18D1814BD7",
             "factoryCode": "1",
             "factoryName": "聯華氣體工業股份有限公司高雄工廠",
             "factoryAddr": "高雄市大社區旗楠路62號",
@@ -55,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "6142090020",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Oxygen (O2) contains not less than 99.0%(v\/v)",
             "ingredientsDesc": "Oxygen (O2) contains not less than 99.0%(v\/v)",
             "concentDesc": null,
             "concent": null,
@@ -73,39 +86,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0A994380-87D4-4E04-A6E1-B3A328958B48",
-            "approvedDocNo": "1106604355",
-            "approvedDate": "2021-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9768DE88-A640-4C12-8450-A51FF5DE6F24",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-03-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3C82C5E1-2BF9-4561-A7D8-BE3C95F085F0",
-            "approvedDocNo": "1086802315",
-            "approvedDate": "2019-02-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "V03AN01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "V03AN01"
         }
     ],

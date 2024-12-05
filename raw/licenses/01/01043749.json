@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043749",
+    "licUnit": "1",
     "validDate": "2025-05-16 00:00:00.000",
     "issueDate": "2005-05-31 00:00:00.000",
+    "oriIssueDate": "2000-05-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104374908",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "DCC7C2C7-25A4-43D1-9EE3-B6407104B4D5",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "SODIUM ASCORBATE",
         "ASCORBIC ACID (VIT C)"
@@ -47,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B099B10E-9AE3-43B2-928D-631D11FDDE23",
             "factoryCode": "1",
             "factoryName": "優良化學製藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉中興村光復路10號 ",
@@ -57,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "6133061486",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000100",
+            "ingredientsName": "ASCORBIC ACID (VIT C)",
             "ingredientsDesc": "ASCORBIC ACID (VIT C)",
             "concentDesc": "",
             "concent": "200.0000",
@@ -75,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000400",
+            "ingredientsName": "SODIUM ASCORBATE",
             "ingredientsDesc": "SODIUM ASCORBATE",
             "concentDesc": "",
             "concent": "337.5000",
@@ -86,85 +100,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2BDA8B7C-D308-4798-8A7B-1558F8EE5865",
-            "approvedDocNo": "1086818749",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BAFE7786-9BB6-4578-ADAB-2E61EDF77828",
-            "approvedDocNo": "1086818749",
-            "approvedDate": "2020-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F1D28D8-B570-4A36-A96B-A27F4EB54EDB",
-            "approvedDocNo": "1096010035",
-            "approvedDate": "2020-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "489A5226-E00B-4AAF-A363-6A83B0F3A0B7",
-            "approvedDocNo": "1086027210",
-            "approvedDate": "2020-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B29C39AF-3805-4920-B5DA-3FB7748D07EB",
-            "approvedDocNo": "1086027210",
-            "approvedDate": "2020-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "35860EDB-D21B-41F5-B8A3-17BA7A0115F7",
-            "approvedDocNo": "1086027210",
-            "approvedDate": "2020-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FD54DBFD-2DA7-454B-8FA8-7EB93D3FFE65",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3C4E849C-DE50-468A-9518-4C64CE7BD2AF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C9CA8330-AFE9-4E35-BCE4-AD8D54314626",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
-        },
         {
             "isMain": "1",
             "atcCode": "A11GA01"

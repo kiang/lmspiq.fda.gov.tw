@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060442",
-    "validDate": "2025-03-04 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2030-03-04 00:00:00.000",
     "issueDate": "2020-03-04 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106044201",
@@ -23,6 +27,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "C2F832BD-A33F-4396-8DD5-30CF9FEB77A6",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
         "SODIUM CHLORIDE"
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B85AEB1E-EA10-4C4F-800C-81E647B228C3",
             "factoryCode": "1",
             "factoryName": "醫強科技股份有限公司",
             "factoryAddr": "屏東縣長治鄉德和村農園路27號",
@@ -52,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "6143060106",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": "",
-            "concent": "65.950",
+            "concent": "65.9500",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "23.530",
+            "concent": "23.5300",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,61 +95,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "98C8C1A8-993B-4E71-BE60-874AD49845DC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-08-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A6F6811-ED19-4DA8-8B7C-7D5519EC7A62",
-            "approvedDocNo": "1110606689",
-            "approvedDate": "2022-06-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "82AC4F75-9E2D-45D4-9090-FB7C7B15DBD6",
-            "approvedDocNo": "1110603225",
-            "approvedDate": "2022-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "59A5A6F1-A178-489D-A7EE-D3D4808A7E54",
-            "approvedDocNo": "1106609243",
-            "approvedDate": "2021-10-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "34EC6E15-28FA-4D11-BCBF-3274C2FD6D99",
-            "approvedDocNo": "1096607158",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0D8669D2-0E89-4F34-91D1-675DD11902CD",
-            "approvedDocNo": "1096607158",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05Z"
-        },
         {
             "isMain": "1",
             "atcCode": "B05ZA"

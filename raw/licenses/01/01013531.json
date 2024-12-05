@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01013531",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1977-10-14 00:00:00.000",
+    "oriIssueDate": "1977-10-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101353102",
@@ -16,7 +20,7 @@
     "does": "1119",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "K2"
         },
         {
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "80666E53-F65B-4ACF-96F4-B55787EA3E32",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORDIAZEPOXIDE",
         "CLIDINIUM BROMIDE"
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "328B3929-633C-4FFC-8735-A69956B6BCCA",
             "factoryCode": "1",
             "factoryName": "元宙化學製藥股份有限公司",
             "factoryAddr": "南投縣南投市南崗工業區南崗三路２７２號",
@@ -59,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "0406914300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208001610",
+            "ingredientsName": "CLIDINIUM BROMIDE",
             "ingredientsDesc": "CLIDINIUM BROMIDE",
             "concentDesc": "",
             "concent": "2.5000",
@@ -77,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824200200",
+            "ingredientsName": "CHLORDIAZEPOXIDE",
             "ingredientsDesc": "CHLORDIAZEPOXIDE",
             "concentDesc": "",
             "concent": "5.0000",
@@ -88,41 +100,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B8F3725F-FBFB-408E-B8BF-5EBBF835C4B8",
-            "approvedDocNo": "1120729340",
-            "approvedDate": "2023-12-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "785E74A3-20C8-4AA2-B53E-9A8EAE05F51A",
-            "approvedDocNo": "1110017857",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F50838BA-E144-4C91-AC95-37CAD97EF3BF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A03CA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N05BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "A03CA02"

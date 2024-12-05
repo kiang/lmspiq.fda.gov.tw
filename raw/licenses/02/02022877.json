@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022877",
+    "licUnit": "1",
     "validDate": "2025-05-09 00:00:00.000",
     "issueDate": "2000-05-09 00:00:00.000",
+    "oriIssueDate": "2000-05-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202287704",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BEA1FA8E-31A0-44F7-B951-AD558862EA41",
+    "subCategory": [],
     "ingredientsDesc": [
         "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
         "CYPROTERONE ACETATE"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B98B36A5-C1B0-44B4-A510-E461A4D83A79",
             "factoryCode": "1",
             "factoryName": "BAYER WEIMAR GMBH UND CO. KG",
             "factoryAddr": "DOEBEREINER STR.20 D-99427 WEIMAR GERMANY",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0256100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6808400110",
+            "ingredientsName": "CYPROTERONE ACETATE",
             "ingredientsDesc": "CYPROTERONE ACETATE",
             "concentDesc": "",
             "concent": "2.0000",
@@ -70,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816000600",
+            "ingredientsName": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "ingredientsDesc": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "concentDesc": "",
             "concent": "0.0350",
@@ -81,65 +93,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "81B5E59B-BF73-4588-829D-EE356CF9D0C6",
-            "approvedDocNo": "1120703370",
-            "approvedDate": "2023-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D60CAEBF-239D-4DBC-A8A0-7EE788A87DAC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F90A671B-24D3-4780-882A-4B87F12FD55C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D0C1A2D2-677B-47BA-B7FD-A13D96E1504C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F516431D-45EB-4209-A0C8-12335827D4EE",
-            "approvedDocNo": "1076045486",
-            "approvedDate": "2019-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "942E1DD1-F690-4FB3-83CB-91913EAA0474",
-            "approvedDocNo": "1076045486",
-            "approvedDate": "2019-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "G03HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03CA01"
-        },
         {
             "isMain": "1",
             "atcCode": "G03HB01"
