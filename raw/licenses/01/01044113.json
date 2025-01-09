@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044113",
+    "licUnit": "1",
     "validDate": "2025-11-15 00:00:00.000",
     "issueDate": "2000-11-15 00:00:00.000",
+    "oriIssueDate": "2000-11-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104411307",
@@ -16,17 +20,20 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0B091AB7-900D-48B6-821A-8495819C7D74",
+    "subCategory": [],
     "ingredientsDesc": [
         "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
         "CYPROTERONE ACETATE"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "81D98F7F-B036-4204-AF78-8128C1CA4AE6",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業一路６號",
@@ -56,89 +64,44 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816000600",
+            "ingredientsName": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "ingredientsDesc": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "concentDesc": "0.035",
             "concent": "0.0350",
             "concentUnit": "001",
-            "seq": "0",
+            "seq": "1",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         },
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6808400110",
+            "ingredientsName": "CYPROTERONE ACETATE",
             "ingredientsDesc": "CYPROTERONE ACETATE",
             "concentDesc": "2",
             "concent": "2.0000",
             "concentUnit": "001",
-            "seq": "1",
+            "seq": "2",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "47A3818D-5CA3-4469-8703-AC044393638A",
-            "approvedDocNo": "1110728744",
-            "approvedDate": "2022-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2B5D9BAB-EBBD-4133-8F20-22C13B239162",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2853714F-C478-4136-BAC4-4034EB9A4F8A",
-            "approvedDocNo": "1081409706",
-            "approvedDate": "2019-09-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1E05F777-F608-4832-821D-ABAFA49077DB",
-            "approvedDocNo": "1086807744",
-            "approvedDate": "2019-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F6F9211D-294B-466C-82A0-F52A0DEC1C51",
-            "approvedDocNo": "1081403150",
-            "approvedDate": "2019-03-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G03HB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03CA01"
         }
     ],
     "licBaseId": "76053E70-636E-4708-BA8F-FCFCC7FB8E78"

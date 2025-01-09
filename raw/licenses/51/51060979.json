@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2024-12-18",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "51060979",
+    "licUnit": "1",
     "validDate": "2026-08-26 00:00:00.000",
     "issueDate": "2021-08-26 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106097902",
@@ -27,6 +33,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "07500528-C323-4186-91F2-F07D2C643120",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "SULBACTAM (SODIUM)",
         "CEFOPERAZONE (SODIUM)",
@@ -51,6 +62,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "80871E65-7529-4577-8AA4-BEEFED26CFE5",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
@@ -61,16 +73,19 @@
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812392010",
+            "ingredientsName": "CEFOPERAZONE (SODIUM)",
             "ingredientsDesc": "CEFOPERAZONE (SODIUM)",
             "concentDesc": "Cefoperazone Sodium & Sulbactam Sodium 1:1 (eq. to Cefoperazone & Sulbactam.....1000mg) (eq. to Cefoperazone Sodium....500mg)",
-            "concent": "517.060",
+            "concent": "517.0600",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -79,9 +94,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410009510",
+            "ingredientsName": "SULBACTAM (SODIUM)",
             "ingredientsDesc": "SULBACTAM (SODIUM)",
             "concentDesc": "Cefoperazone Sodium & Sulbactam Sodium 1:1 (eq. to Cefoperazone & Sulbactam.....1000mg) (eq. to Sulbactam Sidum.....500mg)",
-            "concent": "547.140",
+            "concent": "547.1400",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -90,9 +106,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812392010",
+            "ingredientsName": "CEFOPERAZONE (SODIUM)",
             "ingredientsDesc": "CEFOPERAZONE (SODIUM)",
             "concentDesc": "Cefoperazone Sodium & Sulbactam Sodium 1:1 (eq. to Cefoperazone & Sulbactam.....2000mg) (eq. to Cefoperazone Sodium....1000mg)",
-            "concent": "1034.040",
+            "concent": "1034.0400",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -101,9 +118,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410009510",
+            "ingredientsName": "SULBACTAM (SODIUM)",
             "ingredientsDesc": "SULBACTAM (SODIUM)",
             "concentDesc": "Cefoperazone Sodium & Sulbactam Sodium 1:1 (eq. to Cefoperazone & Sulbactam.....2000mg) (eq. to Sulbactam Sidum.....1000mg)",
-            "concent": "1094.240",
+            "concent": "1094.2400",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "2",
@@ -112,9 +130,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812392010",
+            "ingredientsName": "CEFOPERAZONE (SODIUM)",
             "ingredientsDesc": "CEFOPERAZONE (SODIUM)",
             "concentDesc": "Cefoperazone Sodium & Sulbactam Sodium 1:1 (eq. to Cefoperazone & Sulbactam.....4000mg) (eq. to Cefoperazone Sodium....2000mg)",
-            "concent": "2068.080",
+            "concent": "2068.0800",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "3",
@@ -123,9 +142,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410009510",
+            "ingredientsName": "SULBACTAM (SODIUM)",
             "ingredientsDesc": "SULBACTAM (SODIUM)",
             "concentDesc": "Cefoperazone Sodium & Sulbactam Sodium 1:1 (eq. to Cefoperazone & Sulbactam.....4000mg) (eq. to Sulbactam Sidum.....2000mg)",
-            "concent": "2188.480",
+            "concent": "2188.4800",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "3",
@@ -134,57 +154,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "81E20D88-BC15-403B-94E4-0446FB82C926",
-            "approvedDocNo": "1110801496",
-            "approvedDate": "2022-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "970B7437-A8FC-49FC-AEAF-0AFF79BA3326",
-            "approvedDocNo": "1110801496",
-            "approvedDate": "2022-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "563B6133-2745-4FF5-A94B-1C192EE6F4A6",
-            "approvedDocNo": "1110801496",
-            "approvedDate": "2022-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "775C3A63-8E35-4DE8-B691-9934041BF17C",
-            "approvedDocNo": "1110801496",
-            "approvedDate": "2022-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F109C94D-6252-4C65-BC1B-F660A40795F6",
-            "approvedDocNo": "1110801496",
-            "approvedDate": "2022-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01CG01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01DD12"
-        },
         {
             "isMain": "1",
             "atcCode": "J01DD62"

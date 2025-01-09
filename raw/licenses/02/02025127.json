@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025127",
+    "licUnit": "1",
     "validDate": "2024-12-11 00:00:00.000",
     "issueDate": "2009-12-11 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202512702",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "D0EFE340-E6E8-46EB-93E5-DB99B89F5A5A",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "GLYCYRRHIZA EXTRACT",
         "POWDERED PLATYCODON ROOT",
@@ -46,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "12080938-5DA6-44E0-B4DF-B3CD7F173A23",
             "factoryCode": "1",
             "factoryName": "RYUKAKUSAN CO., LTD. CHIBA FACTORY",
             "factoryAddr": "1460-3, MITODAI, MITOAZA, TAKO-MACHI, KATORI-GUN, CHIBA, 289-2247, JAPAN",
@@ -56,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0527000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003620",
+            "ingredientsName": "POWDERED PLATYCODON ROOT",
             "ingredientsDesc": "POWDERED PLATYCODON ROOT",
             "concentDesc": "",
             "concent": "13.7000",
@@ -74,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5620000502",
+            "ingredientsName": "SENEGA POWDER",
             "ingredientsDesc": "SENEGA POWDER",
             "concentDesc": "",
             "concent": "0.7000",
@@ -85,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004401",
+            "ingredientsName": "GLYCYRRHIZA EXTRACT",
             "ingredientsDesc": "GLYCYRRHIZA EXTRACT",
             "concentDesc": "",
             "concent": "5.0000",
@@ -96,6 +111,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200018222",
+            "ingredientsName": "APRICOT KERNEL POWDER",
             "ingredientsDesc": "APRICOT KERNEL POWDER",
             "concentDesc": "",
             "concent": "1.0000",
@@ -107,6 +123,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004004",
+            "ingredientsName": "GINSENG POWDER",
             "ingredientsDesc": "GINSENG POWDER",
             "concentDesc": "",
             "concent": "14.0000",
@@ -121,20 +138,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA06"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05CA10"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
         }
     ],
     "licBaseId": "FFA3A974-D14C-4C18-9808-9435A7E7B85C"

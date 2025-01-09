@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01019585",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1979-12-03 00:00:00.000",
+    "oriIssueDate": "1979-12-03",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00101958503",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F7169767-A301-4DBD-8FDA-5DE5ED88643D",
+    "subCategory": [],
     "ingredientsDesc": [
         "NAPHAZOLINE HCL",
         "DIPHENHYDRAMINE HCL",
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BCBAA672-337C-459A-BA0C-359D22AF4D83",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -54,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001910",
+            "ingredientsName": "NAPHAZOLINE HCL",
             "ingredientsDesc": "NAPHAZOLINE HCL",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -72,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -83,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001310",
+            "ingredientsName": "PROCAINE HCL",
             "ingredientsDesc": "PROCAINE HCL",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -94,40 +107,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8C04111B-516B-4C72-B293-2A1553D38488",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D6D3F24C-3B87-4E78-B9CC-C8372E6776E8",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R01AC"
-        },
         {
             "isMain": "1",
             "atcCode": "R01AB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01AA08"
         }
     ],
     "licBaseId": "81F8147E-C9F7-480F-B8D8-FFB53915CAA0"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039001",
+    "licUnit": "1",
     "validDate": "2025-06-29 00:00:00.000",
     "issueDate": "1995-06-29 00:00:00.000",
+    "oriIssueDate": "1995-06-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103900102",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0549B8C8-2F6C-4FA6-B05E-0733CD03002C",
+    "subCategory": [],
     "ingredientsDesc": [
         "PREDNISOLONE",
         "NITROFURAZONE",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4C4AEC9F-0960-4370-B5E4-0EBF45121CCB",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404602700",
+            "ingredientsName": "NITROFURAZONE",
             "ingredientsDesc": "NITROFURAZONE",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001500",
+            "ingredientsName": "PREDNISOLONE",
             "ingredientsDesc": "PREDNISOLONE",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -86,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001000",
+            "ingredientsName": "LIDOCAINE",
             "ingredientsDesc": "LIDOCAINE",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -97,80 +110,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "329D1E05-E219-4701-A18D-762A08905540",
-            "approvedDocNo": "1110609004",
-            "approvedDate": "2022-08-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D89DB564-3205-4B9E-9C87-95EE61367B7B",
-            "approvedDocNo": "1110609004",
-            "approvedDate": "2022-08-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3C911D20-46B9-42D3-87DC-D544EAF1384F",
-            "approvedDocNo": "1096603991",
-            "approvedDate": "2020-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F24C3002-08CA-4525-9D3A-DEA4F82DA304",
-            "approvedDocNo": "1096603991",
-            "approvedDate": "2020-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F776E6D9-FA69-4375-943F-3B7D76B56907",
-            "approvedDocNo": "1096603991",
-            "approvedDate": "2020-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B8821DE3-F0B4-4A7F-A09D-47B32A01AFCC",
-            "approvedDocNo": "1096603991",
-            "approvedDate": "2020-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DA68F21F-6337-450F-AB08-8F20778A3BA2",
-            "approvedDocNo": "1080036344",
-            "approvedDate": "2020-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D08AF01"
-        },
         {
             "isMain": "1",
             "atcCode": "D07BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AB01"
         }
     ],
     "licBaseId": "ED9DEBCE-5907-4827-AB54-7855B6D51999"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058549",
+    "licUnit": "1",
     "validDate": "2024-12-08 00:00:00.000",
     "issueDate": "2014-12-08 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105854901",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7019A203-A7E2-4B5D-A6A5-6A3441C58A05",
+    "subCategory": [],
     "ingredientsDesc": [
         "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
         "BROMHEXINE HCL"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4804A1D4-468F-454C-BE26-9B2C9C3DADD8",
             "factoryCode": "1",
             "factoryName": "元宙化學製藥股份有限公司",
             "factoryAddr": "南投縣南投市南崗工業區南崗三路２７２號",
@@ -56,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "0406914300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800000310",
+            "ingredientsName": "BROMHEXINE HCL",
             "ingredientsDesc": "BROMHEXINE HCL",
             "concentDesc": "",
-            "concent": "8.000",
+            "concent": "8.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001410",
+            "ingredientsName": "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
             "ingredientsDesc": "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -88,16 +100,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "R03CB03"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05CB10"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CB02"
         }
     ],
     "licBaseId": "6B2CB8B7-BAD8-481D-9CEE-F8967A011335"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01032719",
+    "licUnit": "1",
     "validDate": "2025-06-13 00:00:00.000",
     "issueDate": "1990-06-13 00:00:00.000",
+    "oriIssueDate": "1990-06-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103271901",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9F7850D0-95E5-479B-8B2C-18B34DE6FE62",
+    "subCategory": [],
     "ingredientsDesc": [
         "SALICYLIC ACID",
         "IODINE",
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7F3AECEA-FC10-46E1-A47E-C56A446FC79D",
             "factoryCode": "1",
             "factoryName": "艾力特生技製藥股份有限公司將軍廠",
             "factoryAddr": "臺南市將軍區忠興里忠興132之35號A區",
@@ -54,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "6141180016",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8428000700",
+            "ingredientsName": "SALICYLIC ACID",
             "ingredientsDesc": "SALICYLIC ACID",
             "concentDesc": "",
             "concent": "60.0000",
@@ -72,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8428000500",
+            "ingredientsName": "RESORCINOL (RESORCIN)",
             "ingredientsDesc": "RESORCINOL (RESORCIN)",
             "concentDesc": "",
             "concent": "30.0000",
@@ -83,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404602000",
+            "ingredientsName": "IODINE",
             "ingredientsDesc": "IODINE",
             "concentDesc": "",
             "concent": "0.0400",
@@ -94,61 +107,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1A0BE55A-5B39-4D51-950A-0BCFB50EA1AE",
-            "approvedDocNo": "1110805877",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "15AD5B14-A8AB-4719-9EB4-3862471F26BB",
-            "approvedDocNo": "1110805877",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "65761EC1-3CC6-4EC1-B1B9-6B192FDC27C3",
-            "approvedDocNo": "1110805877",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BD545F11-F174-4929-83A7-AFEDCAAAB923",
-            "approvedDocNo": "1110805877",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "87125855-A80F-4CDA-ABA8-CA85E81167AE",
-            "approvedDocNo": "1110805877",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A12CX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D02AF"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D10AX02"
-        },
         {
             "isMain": "1",
             "atcCode": "D02AF"

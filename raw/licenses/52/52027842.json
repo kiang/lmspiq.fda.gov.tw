@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027842",
-    "validDate": "2025-03-11 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2030-03-11 00:00:00.000",
     "issueDate": "2020-03-11 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202784203",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "FEDD7E91-8E80-4B60-ACA4-ADB77B032A4D",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "SILDENAFIL CITRATE"
     ],
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0A7B3DA7-50B2-4D09-89D4-4CFA07472B6C",
             "factoryCode": "1",
             "factoryName": "ZYDUS LIFESCIENCES LIMITED",
             "factoryAddr": "SURVEY NO. 417, 419, 420, SARKHEJ-BAVLA NATIONAL HIGHWAY NO. 8A, VILLAGE-MORAIYA, TALUKA-SANAND, DIST.-AHMEDABAD - 382 210, GUJARAT STATE, INDIA",
@@ -52,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "FIN1161000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200091910",
+            "ingredientsName": "SILDENAFIL CITRATE",
             "ingredientsDesc": "SILDENAFIL CITRATE",
             "concentDesc": "(eq. to Sildenafil.....50mg)",
-            "concent": "70.240",
+            "concent": "70.2400",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,56 +83,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "060273D0-0F53-4B26-AD67-822977F2E744",
-            "approvedDocNo": "1119034883",
-            "approvedDate": "2022-11-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3BD84377-8EE7-4455-9542-F5D2025F6D60",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5FBA9753-E6FF-496E-B0F0-A8E0BCB401AC",
-            "approvedDocNo": "1096019901",
-            "approvedDate": "2020-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A4D934DD-178B-4E31-80B5-AF2603CD6C8D",
-            "approvedDocNo": "1096019901",
-            "approvedDate": "2020-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4AD5A3E1-31D2-4E89-9A13-C69E14EF9022",
-            "approvedDocNo": "1096019901",
-            "approvedDate": "2020-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "92204EF5-AD8C-4A23-B2E6-D3798290A6DF",
-            "approvedDocNo": "1096019901",
-            "approvedDate": "2020-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

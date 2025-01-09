@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12011133",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1970-10-05 00:00:00.000",
+    "oriIssueDate": "1970-10-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01201113300",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "253A1B21-7B45-47A2-BA4A-486371D6EE27",
+    "subCategory": [],
     "ingredientsDesc": [
         "BACITRACIN",
         "NEOMYCIN SULFATE"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2F7AC73D-C52E-435F-B68B-C9BF969613AA",
             "factoryCode": "1",
             "factoryName": "人人化學製藥股份有限公司中壢廠",
             "factoryAddr": "桃園市中壢區南園二路３號",
@@ -52,9 +60,12 @@
             "factoryKind": "M",
             "factoryNo": "0201504300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7794FCFC-2AE9-44AA-8C43-22E054E4613F",
             "factoryCode": "2",
             "factoryName": "中國生化科技股份有限公司",
             "factoryAddr": "台中市西屯區工業區三十三路10號",
@@ -70,16 +81,19 @@
             "factoryKind": "M",
             "factoryNo": "6103270084",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812000100",
+            "ingredientsName": "BACITRACIN",
             "ingredientsDesc": "BACITRACIN",
             "concentDesc": "",
-            "concent": "500.000",
+            "concent": "500.0000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,9 +102,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812100530",
+            "ingredientsName": "NEOMYCIN SULFATE",
             "ingredientsDesc": "NEOMYCIN SULFATE",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -99,68 +114,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4196890D-50E8-45A3-8E95-98D8D165275C",
-            "approvedDocNo": "1110814747",
-            "approvedDate": "2022-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "908C2CD2-C193-4B9B-9DB0-AF04FEC6C664",
-            "approvedDocNo": "1110814747",
-            "approvedDate": "2022-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8345D30D-39BF-4980-AF57-574A93D23589",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9F2EFB68-3DBF-44C1-93DA-37DF55D9915D",
-            "approvedDocNo": "1086807924",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A53152EF-9D69-402C-9D1B-994D417F28C2",
-            "approvedDocNo": "1086807924",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "56ED5FB7-FD1C-465F-A55D-AB7A879A302C",
-            "approvedDocNo": "1086807924",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "S01AA30"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AA"
         }
     ],
     "licBaseId": "75A490AA-E4E7-4289-BD59-AF59220177DC"

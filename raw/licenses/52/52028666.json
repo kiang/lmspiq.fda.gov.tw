@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028666",
+    "licUnit": "1",
     "validDate": "2029-02-07 00:00:00.000",
     "issueDate": "2024-02-07 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202866601",
     "prodNameC": "痰湧適發泡錠600毫克",
     "prodNameE": "NAC-Novelty 600 mg Effervescent Tablets",
     "indicationsName": [
-        "減少呼吸道黏膜分泌的黏稠性、蓄意或偶發之ACETAMINOPHEN中毒之解毒劑。"
+        "減少呼吸道黏膜分泌物的黏稠性。"
     ],
     "does": "1114",
     "packageUnit": [
@@ -20,9 +24,14 @@
             "packageUnit": "03"
         }
     ],
-    "medMCode": "06",
+    "medMCode": "17",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "88724D4D-4D0D-4247-AF03-5BDCA0E78F5A",
+    "subCategory": [
+        "B"
+    ],
     "ingredientsDesc": [
         "ACETYLCYSTEINE"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "558F4C54-8118-4255-AEB4-8373DE537E61",
             "factoryCode": "1",
             "factoryName": "Neutec Ilac San.Tic. A. S.",
             "factoryAddr": "1. Organize Sanayi Bolgesi 1. Yol No: 3 ve 2. Yol No: 2 Arifiye\/ Sakarya, Turkey",
@@ -51,16 +61,19 @@
             "factoryKind": "M",
             "factoryNo": "FTR0034000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800000100",
+            "ingredientsName": "ACETYLCYSTEINE",
             "ingredientsDesc": "ACETYLCYSTEINE",
             "concentDesc": "",
-            "concent": "600.000",
+            "concent": "600.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,6 +83,11 @@
     "authDtoList": [],
     "iomDtoList": [],
     "changeDtoList": [],
-    "atcList": [],
+    "atcList": [
+        {
+            "isMain": "1",
+            "atcCode": "R05CB01"
+        }
+    ],
     "licBaseId": "5EE355E0-017F-46E0-BE99-6DD2DF2ADF3E"
 }

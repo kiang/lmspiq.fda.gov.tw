@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01024714",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1982-02-04 00:00:00.000",
+    "oriIssueDate": "1982-02-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102471408",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "670DA850-A002-43FE-8715-5697E9CB3932",
+    "subCategory": [],
     "ingredientsDesc": [
         "NEWLASE",
         "DIASTASE BIO-",
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7960C1F3-696E-4E05-9C91-3262BFEF398A",
             "factoryCode": "1",
             "factoryName": "華興化學製藥廠股份有限公司",
             "factoryAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "6137210029",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616000780",
+            "ingredientsName": "DIASTASE BIO-",
             "ingredientsDesc": "DIASTASE BIO-",
             "concentDesc": "(1000)",
             "concent": "30.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616000920",
+            "ingredientsName": "LIPASE AP6",
             "ingredientsDesc": "LIPASE AP6",
             "concentDesc": "",
             "concent": "5.0000",
@@ -85,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400002700",
+            "ingredientsName": "NEWLASE",
             "ingredientsDesc": "NEWLASE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -96,52 +109,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8971D235-6A26-4623-B2E8-A74FF5F18822",
-            "approvedDocNo": "1110017857",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EB27C67A-4E3B-4DB6-8CED-C7BA1268ADC3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1CC32517-5F86-4935-98CE-07AB40558F84",
-            "approvedDocNo": "1100032643",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ABDBF2AB-723F-457C-AE7A-6CE3EB1920B6",
-            "approvedDocNo": "1080026484",
-            "approvedDate": "2019-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A09AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A09AA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A09AA01"
         }
     ],
     "licBaseId": "279B7DAF-EC16-41F8-9837-647ADC831E04"

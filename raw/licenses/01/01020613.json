@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01020613",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1980-02-26 00:00:00.000",
+    "oriIssueDate": "1980-02-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102061308",
@@ -23,11 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7CA8D265-1F06-48F3-B5D1-2B2858C9C219",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLONIDINE HCL (CLONIDINE HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "華興化學製藥廠股份有限公司",
     "applicantAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -41,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FAC832B4-4459-4B0C-95D7-62C230B3A64B",
             "factoryCode": "1",
             "factoryName": "華興化學製藥廠股份有限公司",
             "factoryAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -51,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "1203612300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408000510",
+            "ingredientsName": "CLONIDINE HCL (CLONIDINE HYDROCHLORIDE)",
             "ingredientsDesc": "CLONIDINE HCL (CLONIDINE HYDROCHLORIDE)",
             "concentDesc": "0.15",
             "concent": "0.1500",
@@ -69,32 +81,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E74B46C1-9E02-45B8-8604-160E5A3995CB",
-            "approvedDocNo": "1110017857",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68E4415C-D682-4811-AC75-1849AE4D840D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "04F52F69-8CC5-4349-8238-BEDA30083D86",
-            "approvedDocNo": "1100032643",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

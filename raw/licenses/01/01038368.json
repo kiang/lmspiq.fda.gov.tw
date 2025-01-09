@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01038368",
-    "validDate": "2024-12-16 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-16 00:00:00.000",
     "issueDate": "1994-12-16 00:00:00.000",
+    "oriIssueDate": "1994-12-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103836802",
@@ -16,7 +20,7 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         },
         {
@@ -27,11 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7848F4F7-D8A9-418A-B5DA-67EE0D75D3BC",
+    "subCategory": [],
     "ingredientsDesc": [
         "CIPROFLOXACIN (HCL)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "68"
     ],
     "applicantName": "衛達化學製藥股份有限公司",
     "applicantAddr": "台中市工業區２３路２１號",
@@ -45,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F8D989E7-91EA-4D1D-9BBA-DE3068E29DFE",
             "factoryCode": "1",
             "factoryName": "衛達化學製藥股份有限公司",
             "factoryAddr": "台中市工業區２３路２１號",
@@ -55,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "1605609300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812709710",
+            "ingredientsName": "CIPROFLOXACIN (HCL)",
             "ingredientsDesc": "CIPROFLOXACIN (HCL)",
             "concentDesc": "(POTENCY)500",
             "concent": null,
@@ -73,80 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "78198475-70B1-4C8E-8365-7949C40782C6",
-            "approvedDocNo": "1120608144",
-            "approvedDate": "2024-01-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2C7CC15E-4797-44F0-B6EC-C2676FC89E9F",
-            "approvedDocNo": "1120608144",
-            "approvedDate": "2024-01-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FAE8EBDF-879C-4F19-84B6-A0A12B73BB20",
-            "approvedDocNo": "1106603501",
-            "approvedDate": "2021-06-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E4B0CF93-4EB0-455E-AAA7-A2B1F0F2843B",
-            "approvedDocNo": "1086608867",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "47690D0D-651B-4068-97D9-A394B96C2CDE",
-            "approvedDocNo": "1086608867",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C5137A12-06D3-43B5-9093-C6D030DD9135",
-            "approvedDocNo": "1086608867",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "882DE3DB-8C49-4FEC-A34E-5989D3DD681D",
-            "approvedDocNo": "1086608867",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F3DF24FE-557C-4AF7-98F4-715DD3E2B84B",
-            "approvedDocNo": "1086608867",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B46CD2B-6A78-4B37-9069-7806FB1DBCFF",
-            "approvedDocNo": "1086608867",
-            "approvedDate": "2019-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

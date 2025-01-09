@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029106",
+    "licUnit": "1",
     "validDate": "2028-08-13 00:00:00.000",
     "issueDate": "1986-08-13 00:00:00.000",
+    "oriIssueDate": "1986-08-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102910600",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "79C13489-8922-4048-BE59-E1D99716168E",
+    "subCategory": [],
     "ingredientsDesc": [
         "RESERPINE",
         "BENZYLHYDROCHLOROTHIAZIDE"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D401572F-89FD-45D8-AC1A-ADFBA0E209B8",
             "factoryCode": "1",
             "factoryName": "杏林新生製藥股份有限公司",
             "factoryAddr": "桃園市龍潭區三和村店湖一路２３７號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "1405802300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100300",
+            "ingredientsName": "BENZYLHYDROCHLOROTHIAZIDE",
             "ingredientsDesc": "BENZYLHYDROCHLOROTHIAZIDE",
             "concentDesc": null,
             "concent": "4.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408003000",
+            "ingredientsName": "RESERPINE",
             "ingredientsDesc": "RESERPINE",
             "concentDesc": null,
             "concent": "0.1000",
@@ -85,44 +97,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A0680288-9126-498B-9785-166ED2C10880",
-            "approvedDocNo": "1120018889",
-            "approvedDate": "2023-10-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "36CCAB0C-8FD2-44C2-836B-9AD3D464CE0C",
-            "approvedDocNo": "1080021291",
-            "approvedDate": "2020-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "65E1CA04-BDF7-4627-BBD1-B71605A2DBE1",
-            "approvedDocNo": "1080021291",
-            "approvedDate": "2020-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C03AA"
-        },
         {
             "isMain": "1",
             "atcCode": "C02LA51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C02AA02"
         }
     ],
     "licBaseId": "0A40926F-03E5-460E-9A42-7478E66CD462"

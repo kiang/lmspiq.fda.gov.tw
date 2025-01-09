@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043951",
+    "licUnit": "1",
     "validDate": "2025-09-04 00:00:00.000",
     "issueDate": "2000-09-04 00:00:00.000",
+    "oriIssueDate": "2000-09-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104395103",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D25D38D8-30BF-4F80-A468-A2EE5848A805",
+    "subCategory": [],
     "ingredientsDesc": [
         "IMIDAPRIL HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
         "01",
-        "07"
+        "07",
+        "68"
     ],
     "applicantName": "台灣田邊製藥股份有限公司",
     "applicantAddr": "台北市南港區市民大道七段8號14樓之1",
@@ -42,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5F998D40-9637-41A7-8794-4C543E3D935D",
             "factoryCode": "1",
             "factoryName": "台灣田邊製藥股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉鳳凰村２２鄰光復北路９７號",
@@ -52,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "1404306300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005410",
+            "ingredientsName": "IMIDAPRIL HYDROCHLORIDE",
             "ingredientsDesc": "IMIDAPRIL HYDROCHLORIDE",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -70,48 +82,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F9601114-C882-4315-B5FE-B67420171DD0",
-            "approvedDocNo": "1119048119",
-            "approvedDate": "2022-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "48A57BA3-E2E3-4F12-987A-BBEDF5B19AFF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4E3734E3-BAC2-425A-8BB6-67A14D3590F9",
-            "approvedDocNo": "1096805451",
-            "approvedDate": "2020-04-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1C139DB7-2F7F-49A8-972C-91AD850B7EB5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-01-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "417F94C1-0502-4777-BBBA-F53A08917EC2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-01-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

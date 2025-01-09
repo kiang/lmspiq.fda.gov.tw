@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12002364",
+    "licUnit": "1",
     "validDate": "2024-12-31 00:00:00.000",
     "issueDate": "1970-03-14 00:00:00.000",
+    "oriIssueDate": "1970-03-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01200236402",
@@ -16,13 +20,16 @@
     "does": "1119",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "28056ACE-6B95-4B7F-92A6-CA8C136BFEC9",
+    "subCategory": [],
     "ingredientsDesc": [
         "PROSULTIAMINE (THIAMINE PROPYL DISULFIDE)",
         "RIBOFLAVIN (VIT B2)"
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BBBDC69E-3A17-4BDD-BF46-7077B2562C4D",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
@@ -54,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101500",
+            "ingredientsName": "PROSULTIAMINE (THIAMINE PROPYL DISULFIDE)",
             "ingredientsDesc": "PROSULTIAMINE (THIAMINE PROPYL DISULFIDE)",
             "concentDesc": "50",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "5",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -86,16 +98,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
             "isMain": "1",
             "atcCode": "A11JA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
         }
     ],
     "licBaseId": "5AC252B2-C8C7-4713-952E-DE22CD5A553D"

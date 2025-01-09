@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01031978",
+    "licUnit": "1",
     "validDate": "2024-12-11 00:00:00.000",
     "issueDate": "1989-12-11 00:00:00.000",
+    "oriIssueDate": "1989-12-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103197807",
@@ -20,7 +24,7 @@
             "packageUnit": "92"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "92"
         },
         {
@@ -31,6 +35,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C67913E4-AB02-433D-811D-B38B4923D09F",
+    "subCategory": [],
     "ingredientsDesc": [
         "ECONAZOLE NITRATE",
         "TRIAMCINOLONE ACETONIDE"
@@ -50,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7755228B-C6D2-473E-A89D-76F55DC53AA0",
             "factoryCode": "1",
             "factoryName": "永吉製藥股份有限公司",
             "factoryAddr": "屏東縣萬丹鄉萬丹路三段91號",
@@ -60,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "0501024300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812201410",
+            "ingredientsName": "ECONAZOLE NITRATE",
             "ingredientsDesc": "ECONAZOLE NITRATE",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -78,6 +89,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -91,14 +103,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D07AB09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AC03"
-        },
         {
             "isMain": "1",
             "atcCode": "D01AC20"

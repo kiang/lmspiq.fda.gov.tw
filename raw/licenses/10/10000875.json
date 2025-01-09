@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000875",
+    "licUnit": "1",
     "validDate": "2029-02-26 00:00:00.000",
     "issueDate": "2009-02-26 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000087500",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0FD0AB58-C502-4B6F-BC37-ECB824E88D37",
+    "subCategory": [],
     "ingredientsDesc": [
         "EPOETIN BETA"
     ],
@@ -34,7 +41,7 @@
         "02"
     ],
     "applicantName": "羅氏大藥廠股份有限公司",
-    "applicantAddr": "台北市信義區松仁路100號40樓、40樓之1、41樓之1",
+    "applicantAddr": "台北市南港區經貿一路170號10樓、10樓之1至之3、10樓之5至之8",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1AEFCF65-2F93-4044-A4E7-3531FD843709",
             "factoryCode": "1",
             "factoryName": "F.HOFFMANN-LA ROCHE LTD.",
             "factoryAddr": "WURMISWEG, CH-4303 KAISERAUGST, SWITZERLAND",
@@ -55,9 +63,28 @@
             "factoryKind": "M",
             "factoryNo": "FCH0208000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "AA574673-03FB-4C7B-986B-C974A9318E2C",
+            "factoryCode": "1",
+            "factoryName": "ROCHE DIAGNOSTICS GMBH",
+            "factoryAddr": "SANDHOFER STRASSE 116, 68305 MANNHEIM, GERMANY",
+            "factoryCompanyAddr": null,
+            "countryCode": "DE",
+            "processCode": [],
+            "processCodeStr": null,
+            "factoryKind": "M",
+            "factoryNo": "FDE0261000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "FA71BADC-45DB-4EF0-9BD9-DDCE55CDF271",
             "factoryCode": "1",
             "factoryName": "VETTER PHARMA-FERTIGUNG GMBH & CO. KG",
             "factoryAddr": "SCHUTZENSTRASSE 87 AND 99\/101, D-88212 RAVENSBURG, GERMANY",
@@ -68,22 +95,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0267200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
-            "factoryCode": "1",
-            "factoryName": "MADE FOR F. HOFFMANN-LA ROCHE LTD, BASEL, SWITZERLAND BY ROCHE DIAGNOSTICS GMBH, MANNHEIM, GERMANY",
-            "factoryAddr": "ROCHE DIAGNOSTICS GMBH, SANDHOFER STRASSE 116, D-68305 MANNHEIM, GERMANY",
-            "factoryCompanyAddr": null,
-            "countryCode": "DE",
-            "processCode": [],
-            "processCodeStr": null,
-            "factoryKind": "M",
-            "factoryNo": "FDE0286000",
-            "factoryInfo": null,
-            "qsd": null
-        },
-        {
+            "id": "6B9639FF-9D52-4010-AD79-DD867CC4CF10",
             "factoryCode": "2",
             "factoryName": "F. HOFFMANN-LA ROCHE LTD.",
             "factoryAddr": "GRENZACHERSTRASSE 124, CH-4070 BASEL, SWITZERLAND",
@@ -99,12 +116,15 @@
             "factoryKind": "M",
             "factoryNo": "FCH0258000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3E495633-5D47-48C1-B9AE-D5D233FE07E4",
             "factoryCode": "2",
             "factoryName": "ROCHE DIAGNOSTICS GMBH",
-            "factoryAddr": "SANDHOFER STRASSE 116 D-68305 MANNHEIM GERMANY",
+            "factoryAddr": "SANDHOFER STRASSE 116, 68305 MANNHEIM, GERMANY",
             "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
@@ -117,11 +137,14 @@
             "factoryKind": "M",
             "factoryNo": "FDE0261000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8FA137BF-77BE-4A61-B98F-E7CAC6F3A4FD",
             "factoryCode": "2",
-            "factoryName": "ROCHE DIAGNOSTICS GMBH, GERMANY (PENZBERG SITE)",
+            "factoryName": "ROCHE DIAGNOSTICS GMBH",
             "factoryAddr": "NONNENWALD 2, D-82377 PENZBERG, GERMANY",
             "factoryCompanyAddr": null,
             "countryCode": "DE",
@@ -135,16 +158,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0343000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600001500",
+            "ingredientsName": "EPOETIN BETA",
             "ingredientsDesc": "EPOETIN BETA",
             "concentDesc": null,
-            "concent": "5000.000",
+            "concent": "5000.0000",
             "concentUnit": "212",
             "seq": "0",
             "prescription_seq": "0",
@@ -153,37 +179,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FB5099A7-D5FF-4CC5-BEE5-59DA240DBFA4",
-            "approvedDocNo": "1110707052",
-            "approvedDate": "2022-08-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "22353B53-04FD-4CB1-AF62-36DEE0518BCA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "16CBC5F5-37C7-4516-8A7A-46AF3295E50B",
-            "approvedDocNo": "1076043773",
-            "approvedDate": "2019-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B03XA01"
-        },
         {
             "isMain": "1",
             "atcCode": "B03XA01"

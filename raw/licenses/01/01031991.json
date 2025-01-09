@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01031991",
-    "validDate": "2024-12-18 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-18 00:00:00.000",
     "issueDate": "1989-12-18 00:00:00.000",
+    "oriIssueDate": "1989-12-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103199102",
@@ -20,18 +24,22 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FAED2417-DBC2-4517-B382-9CB4316008DB",
+    "subCategory": [],
     "ingredientsDesc": [
         "RITODRINE HCL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "衛達化學製藥股份有限公司",
     "applicantAddr": "台中市工業區２３路２１號",
@@ -45,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E8BF7545-01D4-49BA-BFBE-ACDCF21CA1C1",
             "factoryCode": "1",
             "factoryName": "衛達化學製藥股份有限公司",
             "factoryAddr": "台中市工業區２３路２１號",
@@ -55,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "1605609300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002810",
+            "ingredientsName": "RITODRINE HCL",
             "ingredientsDesc": "RITODRINE HCL",
             "concentDesc": "10.0",
             "concent": "10.0000",
@@ -73,32 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "903F33AA-C194-4D75-839B-140CE515B307",
-            "approvedDocNo": "1110009941",
-            "approvedDate": "2022-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DAE271E5-22A8-4209-BE53-E9F27C4F7EC2",
-            "approvedDocNo": "1110009941",
-            "approvedDate": "2022-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "260F7338-D5AB-4D86-BA23-F85924774AE0",
-            "approvedDocNo": "1110009941",
-            "approvedDate": "2022-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

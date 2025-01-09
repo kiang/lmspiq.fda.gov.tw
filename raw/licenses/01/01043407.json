@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043407",
+    "licUnit": "1",
     "validDate": "2024-12-08 00:00:00.000",
     "issueDate": "1999-12-08 00:00:00.000",
+    "oriIssueDate": "1999-12-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104340706",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AB6F0294-074C-4C48-89D8-763E9AF55234",
+    "subCategory": [],
     "ingredientsDesc": [
         "GUAIPHENESIN",
         "PSEUDOEPHEDRINE HCL",
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "86AB7FB0-3BC9-4468-B585-6FF48DADACE4",
             "factoryCode": "1",
             "factoryName": "美西製藥有限公司",
             "factoryAddr": "高雄市仁武區仁武里工業一路９號",
@@ -54,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "0900822300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002400",
+            "ingredientsName": "NOSCAPINE",
             "ingredientsDesc": "NOSCAPINE",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -72,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002610",
+            "ingredientsName": "PSEUDOEPHEDRINE HCL",
             "ingredientsDesc": "PSEUDOEPHEDRINE HCL",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -83,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000813",
+            "ingredientsName": "DL-CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "DL-CHLORPHENIRAMINE MALEATE",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -94,6 +107,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001421",
+            "ingredientsName": "GUAIPHENESIN",
             "ingredientsDesc": "GUAIPHENESIN",
             "concentDesc": "",
             "concent": "12.0000",
@@ -103,49 +117,12 @@
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [
-        {
-            "applicantName": "大樹醫藥股份有限公司",
-            "certNo": "DHY00104340717",
-            "approveDocNo": "1120612064",
-            "authDate": "2023-10-20",
-            "validDate": "2024-12-08"
-        }
-    ],
+    "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F57A992B-3113-47BF-91F8-59AC0CA2931A",
-            "approvedDocNo": "1096613629",
-            "approvedDate": "2021-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7D5DF4BA-72F5-4743-8EB1-F362D4E8061D",
-            "approvedDocNo": "1096613629",
-            "approvedDate": "2021-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8A1DF2CE-DFF3-4161-ACEC-FC4553312105",
-            "approvedDocNo": "1096613629",
-            "approvedDate": "2021-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "A01AD"
-        },
-        {
-            "isMain": "2",
             "atcCode": "A01AD"
         }
     ],

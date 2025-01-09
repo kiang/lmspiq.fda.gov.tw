@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "03007853",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1989-03-10 00:00:00.000",
+    "oriIssueDate": "1989-03-10",
     "licKind": "02",
     "oldLicid": "14003242",
     "certNo": "DHY00300785302",
@@ -16,17 +20,20 @@
     "does": "1140",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "08"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "03",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2CC61DB6-C512-41B8-B9DB-492C099E6CB1",
+    "subCategory": [],
     "ingredientsDesc": [
         "BORNEOL",
         "GLYCYRRHIZA (LIQUORICE)",
@@ -54,6 +61,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "AF3CFDE7-258C-4048-9A0E-392D57EDAC74",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -64,13 +72,16 @@
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": "600",
             "concent": "600.0000",
@@ -82,6 +93,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004400",
+            "ingredientsName": "GLYCYRRHIZA (LIQUORICE)",
             "ingredientsDesc": "GLYCYRRHIZA (LIQUORICE)",
             "concentDesc": "(POWDERED) 60",
             "concent": null,
@@ -93,6 +105,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000103",
+            "ingredientsName": "CINNAMON POWDER (CINNAMON CORTEX POWDER)",
             "ingredientsDesc": "CINNAMON POWDER (CINNAMON CORTEX POWDER)",
             "concentDesc": "80",
             "concent": "80.0000",
@@ -104,6 +117,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000300",
+            "ingredientsName": "MENTHOL",
             "ingredientsDesc": "MENTHOL",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -115,6 +129,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616000400",
+            "ingredientsName": "BORNEOL",
             "ingredientsDesc": "BORNEOL",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -126,6 +141,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200000301",
+            "ingredientsName": "CLOVE POWDER",
             "ingredientsDesc": "CLOVE POWDER",
             "concentDesc": "50",
             "concent": "50.0000",
@@ -137,6 +153,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640001512",
+            "ingredientsName": "PHELLODENDRON BARK POWDER (EQ TO POWDERED PHELLODENDRON BARK)",
             "ingredientsDesc": "PHELLODENDRON BARK POWDER (EQ TO POWDERED PHELLODENDRON BARK)",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -148,6 +165,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002400",
+            "ingredientsName": "MAGNESIUM CARBONATE",
             "ingredientsDesc": "MAGNESIUM CARBONATE",
             "concentDesc": "155",
             "concent": "155.0000",
@@ -159,45 +177,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C44B46E7-EC56-457D-8C55-431089EFF825",
-            "approvedDocNo": "1091497659",
-            "approvedDate": "2021-04-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C9ED670A-5431-496C-BDC7-B16711E7A4E3",
-            "approvedDocNo": "1091497659",
-            "approvedDate": "2021-04-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02AA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BX"
-        },
         {
             "isMain": "1",
             "atcCode": "A02X"

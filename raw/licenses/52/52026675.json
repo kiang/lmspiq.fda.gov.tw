@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026675",
+    "licUnit": "1",
     "validDate": "2025-12-22 00:00:00.000",
     "issueDate": "2015-12-22 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202667505",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E16C48F1-7E06-404F-9266-213A71A1F53E",
+    "subCategory": [],
     "ingredientsDesc": [
         "Sofosbuvir",
         "Ledipasvir"
@@ -30,10 +37,11 @@
     "restraintItemsCode": [
         "02",
         "07",
-        "51"
+        "51",
+        "68"
     ],
     "applicantName": "香港商吉立亞醫藥有限公司台灣分公司",
-    "applicantAddr": "臺北市信義區松仁路32號10樓之1、36號10樓之1",
+    "applicantAddr": "臺北市信義區松高路77號48樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -44,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8244B147-7489-44BA-8691-71BDCBFAAEE8",
             "factoryCode": "1",
             "factoryName": "GILEAD SCIENCES IRELAND UC",
             "factoryAddr": "IDA BUSINESS & TECHNOLOGY PARK, CARRIGTOHILL COUNTY CORK, IRELAND",
@@ -54,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FIE0060000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "62893392-DE7C-4511-AAC0-9D57ADB227DF",
             "factoryCode": "2",
             "factoryName": "Hovione Ltd.",
             "factoryAddr": "Hovione, Loughbeg, Ringaskiddy, Co. Cork, Ireland",
@@ -72,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FIE0087000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818004800",
+            "ingredientsName": "Sofosbuvir",
             "ingredientsDesc": "Sofosbuvir",
             "concentDesc": "",
-            "concent": "400.000",
+            "concent": "400.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,9 +105,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818004900",
+            "ingredientsName": "Ledipasvir",
             "ingredientsDesc": "Ledipasvir",
             "concentDesc": "",
-            "concent": "90.000",
+            "concent": "90.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -101,57 +117,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D83796F6-4F51-436C-882C-49A80262F444",
-            "approvedDocNo": "1096029157",
-            "approvedDate": "2021-02-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AA7DB2E6-EADB-4C9B-AB46-DFBB66194A0E",
-            "approvedDocNo": "1096008084",
-            "approvedDate": "2020-08-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B75A3C21-37D6-4016-97F3-ED12D1B504F6",
-            "approvedDocNo": "1096008084",
-            "approvedDate": "2020-08-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ADA4E6A2-A0C2-4FEF-B609-097B07335601",
-            "approvedDocNo": "1096008084",
-            "approvedDate": "2020-08-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6D4FF484-2734-454E-A179-9A1DCF436A78",
-            "approvedDocNo": "1096019847",
-            "approvedDate": "2020-08-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J05AP08"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AP51"
-        },
         {
             "isMain": "1",
             "atcCode": "J05AP51"

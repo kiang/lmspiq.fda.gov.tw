@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01028254",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1985-08-29 00:00:00.000",
+    "oriIssueDate": "1985-08-29",
     "licKind": "02",
     "oldLicid": "01028004",
     "certNo": "DHY00102825407",
@@ -20,7 +24,7 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "87"
         },
         {
@@ -31,6 +35,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "90931140-7F50-40BA-8F0B-B8250E065D43",
+    "subCategory": [],
     "ingredientsDesc": [
         "NEOMYCIN (SULFATE)",
         "TRIAMCINOLONE ACETONIDE"
@@ -50,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "EF228478-C8E2-4625-B6CD-E8ED266199D9",
             "factoryCode": "1",
             "factoryName": "寶齡富錦生技股份有限公司平鎮廠",
             "factoryAddr": "桃園市平鎮區興隆路２６６號",
@@ -60,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "2001304300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "(5mg) 3.5mg(potency)",
             "concent": "3.5000",
@@ -78,6 +89,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -89,77 +101,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2AA4F5DE-66A4-4154-85F3-CBD82301008E",
-            "approvedDocNo": "1120709857",
-            "approvedDate": "2023-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8BAD8F31-4C77-406D-A0D0-BFD37C3E394F",
-            "approvedDocNo": "1110028275",
-            "approvedDate": "2022-11-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "17D0970F-8526-489A-9B7E-2D1DF896C540",
-            "approvedDocNo": "1110721585",
-            "approvedDate": "2022-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D9F31548-D29E-4B9C-9AB0-0508B98874DF",
-            "approvedDocNo": "1086023501",
-            "approvedDate": "2019-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2D9181F4-8E89-4524-B554-E43D68C7ABEE",
-            "approvedDocNo": "1086023501",
-            "approvedDate": "2019-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D7C10113-48C3-4C10-BA48-29DBD38CFC14",
-            "approvedDocNo": "1086007799",
-            "approvedDate": "2019-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "82A8CBA4-7D07-4D0C-A248-58D1ABEFC094",
-            "approvedDocNo": "1086007799",
-            "approvedDate": "2019-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0DAE2A99-1586-452F-9DC5-880281819562",
-            "approvedDocNo": "1086007799",
-            "approvedDate": "2019-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D07AB09"
-        },
         {
             "isMain": "1",
             "atcCode": "D07CB01"

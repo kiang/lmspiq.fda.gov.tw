@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026648",
+    "licUnit": "1",
     "validDate": "2025-10-08 00:00:00.000",
     "issueDate": "2015-10-08 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202664802",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B64E879E-DB52-4909-BD88-ED470A007BD0",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIFAMPIN (EQ TO RIFAMPICIN) (EQ TO RIMACTAN)",
         "ETHAMBUTOL HCL",
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1A7AF7D8-4F17-4D9A-AD6A-0A765B71B1B0",
             "factoryCode": "1",
             "factoryName": "MACLEODS PHARMACEUTICALS LTD.",
             "factoryAddr": "PLOT NO.25-27, SR. NO.366, PREMIER IND. ESTATE, KACHIGAM, DAMAN 396 210 (U.T.), INDIA",
@@ -55,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "FIN0816000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812900100",
+            "ingredientsName": "RIFAMPIN (EQ TO RIFAMPICIN) (EQ TO RIMACTAN)",
             "ingredientsDesc": "RIFAMPIN (EQ TO RIFAMPICIN) (EQ TO RIMACTAN)",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0816000900",
+            "ingredientsName": "ISONIAZID",
             "ingredientsDesc": "ISONIAZID",
             "concentDesc": "",
-            "concent": "75.000",
+            "concent": "75.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,9 +96,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0816001400",
+            "ingredientsName": "PYRAZINAMIDE",
             "ingredientsDesc": "PYRAZINAMIDE",
             "concentDesc": "",
-            "concent": "400.000",
+            "concent": "400.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -95,9 +108,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0816000611",
+            "ingredientsName": "ETHAMBUTOL HCL",
             "ingredientsDesc": "ETHAMBUTOL HCL",
             "concentDesc": "",
-            "concent": "275.000",
+            "concent": "275.0000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -106,68 +120,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D8281812-B477-40BB-867D-25162AAE0408",
-            "approvedDocNo": "1106804128",
-            "approvedDate": "2021-03-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0953A838-A1A9-4412-A603-6D5E2D8DBD38",
-            "approvedDocNo": "1106802207",
-            "approvedDate": "2021-02-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5EC4E886-4477-4694-9380-9C10896998DF",
-            "approvedDocNo": "1086807209",
-            "approvedDate": "2019-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D2BF3B99-D269-44F0-99F5-C5C3110BE2FB",
-            "approvedDocNo": "1086807209",
-            "approvedDate": "2019-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E99B20FD-58BD-4412-8654-837DE7DA2544",
-            "approvedDocNo": "1086803696",
-            "approvedDate": "2019-03-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J04AM06"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J04AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J04AB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J04AK01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J04AK02"
         }
     ],
     "licBaseId": "2AA78985-887C-4371-80D9-1C1AEFD7BDE5"

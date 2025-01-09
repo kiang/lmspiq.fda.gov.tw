@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058790",
+    "licUnit": "1",
     "validDate": "2025-06-10 00:00:00.000",
     "issueDate": "2015-06-10 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105879003",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "ECF60EA5-A1CB-40FC-9203-7488EDA92143",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "GINKGO BILOBA EXTRACT"
     ],
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "285A8058-8467-42FB-8540-2832B859B4E7",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -55,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412001101",
+            "ingredientsName": "GINKGO BILOBA EXTRACT",
             "ingredientsDesc": "GINKGO BILOBA EXTRACT",
             "concentDesc": "(eq. to 9.6mg Ginkgoflavonglycosides calculated as quercetin, kaempferol and isorhamnetin)",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,88 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D0911772-6F40-4443-A2A2-3EC3D94124D2",
-            "approvedDocNo": "1106817752",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0B01EE8E-730F-411E-806B-6DD71CF5B943",
-            "approvedDocNo": "1106817752",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "35C79AAB-EAAE-4EE3-9F39-E0B69912DF90",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BCF29FD7-0452-4322-AEA3-EDB23BBF964C",
-            "approvedDocNo": "1106817752",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "57ED16A3-9F2E-48EC-93C1-FA19D3E97720",
-            "approvedDocNo": "1106010774",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "463C0E42-05AE-4842-91E6-AF3C2665D01C",
-            "approvedDocNo": "1106010774",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B4821713-B7CA-41F1-97B5-D2378CF35D08",
-            "approvedDocNo": "1106010774",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0FD2B3BD-96C6-48C8-AC69-5312C937BE1F",
-            "approvedDocNo": "1106010774",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8269CAFA-1A75-4D15-B477-868D7714D2C9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-09-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5862D0EB-2683-4805-B005-3B53AB02920E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

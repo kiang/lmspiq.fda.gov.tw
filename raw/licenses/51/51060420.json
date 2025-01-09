@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060420",
-    "validDate": "2024-12-27 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-27 00:00:00.000",
     "issueDate": "2019-12-27 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106042001",
@@ -27,13 +31,17 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "820023C2-56F3-4FF4-980D-FC2C60B248E0",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "VANCOMYCIN HCL",
         "VANCOMYCIN HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "1R"
     ],
     "applicantName": "意欣國際有限公司",
     "applicantAddr": "高雄市三民區懷安街119號",
@@ -47,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9A74CB61-DBB2-4715-A423-DECD3D79078F",
             "factoryCode": "1",
             "factoryName": "霖揚生技製藥股份有限公司南科廠",
             "factoryAddr": "臺南市新市區南科二路5號3樓之2、4樓之1、4樓之2、9號4樓之1",
@@ -57,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "6105200259",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812001710",
+            "ingredientsName": "VANCOMYCIN HCL",
             "ingredientsDesc": "VANCOMYCIN HCL",
             "concentDesc": "(potency)",
-            "concent": "500.000",
+            "concent": "500.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812001710",
+            "ingredientsName": "VANCOMYCIN HCL",
             "ingredientsDesc": "VANCOMYCIN HCL",
             "concentDesc": "(potency)",
-            "concent": "1000.000",
+            "concent": "1000.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -86,56 +99,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CFBE1E67-FFDB-4D47-BC5C-CE218103E217",
-            "approvedDocNo": "1120601877",
-            "approvedDate": "2023-04-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D0E1BBD6-06C0-4674-98D9-4B1A715E8662",
-            "approvedDocNo": "1096603402",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C1B39C5F-9BC3-4331-8FF4-69E3474AB332",
-            "approvedDocNo": "1096603402",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "47AC1141-59A5-4466-AD96-6E717D86D289",
-            "approvedDocNo": "1096603402",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F8882C46-B91B-41CD-B4F9-A893E2B6D70F",
-            "approvedDocNo": "1096603402",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EE29100B-ECDB-4253-8F98-FFE1D06AB4CD",
-            "approvedDocNo": "1080036343",
-            "approvedDate": "2020-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

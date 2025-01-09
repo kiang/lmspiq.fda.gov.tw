@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025624",
+    "licUnit": "1",
     "validDate": "2028-02-10 00:00:00.000",
     "issueDate": "2012-02-10 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202562403",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A45FCC8C-6BDA-4516-8A96-1E256C2339E3",
+    "subCategory": [],
     "ingredientsDesc": [
         "CITALOPRAM HYDROBROMIDE"
     ],
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0630D509-93CA-4BBD-BF5F-85AD5D6322D5",
             "factoryCode": "1",
             "factoryName": "Apotex inc. - Etobicoke",
             "factoryAddr": "50 Steinway Boulevard,Etobicoke, Ontario, Canada M9W 6Y3 ",
@@ -49,16 +57,40 @@
             "countryCode": "CA",
             "processCode": [],
             "processCodeStr": null,
-            "factoryKind": "M",
+            "factoryKind": "E",
             "factoryNo": "FCA0064100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "AF3531BD-5C56-4594-BF2D-F50B38C7C4CE",
+            "factoryCode": "2",
+            "factoryName": "天義企業股份有限公司",
+            "factoryAddr": "新北市林口區工二工業區工五路8號",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "02",
+                    "name": "包裝"
+                }
+            ],
+            "processCodeStr": "02;包裝",
+            "factoryKind": "E",
+            "factoryNo": "6131171176",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200035510",
+            "ingredientsName": "CITALOPRAM HYDROBROMIDE",
             "ingredientsDesc": "CITALOPRAM HYDROBROMIDE",
             "concentDesc": "(eq. to Citalopram 20mg)",
             "concent": "25.0000",
@@ -70,40 +102,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3B72CFE4-9980-45FF-9EE0-7FA4EEE436C1",
-            "approvedDocNo": "1110607504",
-            "approvedDate": "2022-10-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BF47F0D4-35EF-47DD-8B34-09ADF7D9F731",
-            "approvedDocNo": "1110013703",
-            "approvedDate": "2022-08-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "67786B55-9712-4B7F-A234-2DB8F81D15F0",
-            "approvedDocNo": "1106612056",
-            "approvedDate": "2022-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2B48B75E-5F77-4155-8467-30359B98EEC7",
-            "approvedDocNo": "1106612056",
-            "approvedDate": "2022-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

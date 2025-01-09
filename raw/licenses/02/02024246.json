@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024246",
+    "licUnit": "1",
     "validDate": "2025-06-01 00:00:00.000",
     "issueDate": "2005-06-01 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202424605",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "011D9DE7-E8A7-42C0-B21D-CB5943BB4E80",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "ALUMINUM PHOSPHATE COLLOID (EQ TO COLLOIDAL ALUMINUM PHOSPHATE )",
         "MAGNESIUM HYDROXIDE",
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "844FE963-28FA-4154-823B-9B1559FF9988",
             "factoryCode": "1",
             "factoryName": "Boryung Corporation ",
             "factoryAddr": "107, 109 Neungan-ro, Danwon-gu, Ansan-si, Gyeonggi-do, Republic of Korea (15425)",
@@ -53,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "FKR0213000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000801",
+            "ingredientsName": "ALUMINUM PHOSPHATE COLLOID (EQ TO COLLOIDAL ALUMINUM PHOSPHATE )",
             "ingredientsDesc": "ALUMINUM PHOSPHATE COLLOID (EQ TO COLLOIDAL ALUMINUM PHOSPHATE )",
             "concentDesc": "",
             "concent": "619.0000",
@@ -71,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002500",
+            "ingredientsName": "MAGNESIUM HYDROXIDE",
             "ingredientsDesc": "MAGNESIUM HYDROXIDE",
             "concentDesc": "",
             "concent": "20.0000",
@@ -82,6 +96,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000600",
+            "ingredientsName": "SIMETHICONE (ACTIVE DIMETHICONE)",
             "ingredientsDesc": "SIMETHICONE (ACTIVE DIMETHICONE)",
             "concentDesc": "",
             "concent": "2.0000",
@@ -93,48 +108,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0E2370D6-8EDE-4779-9F1E-038845A0C4AA",
-            "approvedDocNo": "1129070164",
-            "approvedDate": "2024-01-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5A2ED75B-D480-49DE-B275-396BD1B702A1",
-            "approvedDocNo": "1119040302",
-            "approvedDate": "2022-09-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "48234D79-97D0-4FE8-8383-441F087962F5",
-            "approvedDocNo": "1086002690",
-            "approvedDate": "2019-02-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02AB03"
-        },
         {
             "isMain": "1",
             "atcCode": "A02AF02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03AX13"
         }
     ],
     "licBaseId": "00DFEEBB-F5FC-4F9C-91AD-AB5E8D05F875"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050090",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "2009-04-10 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105009007",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "X",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "46DCE2DE-3D39-4A82-AFEF-D17AFD0EF10A",
+    "subCategory": [],
     "ingredientsDesc": [
         "TERPIN HYDRATE",
         "CODEINE PHOSPHATE"
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C6705888-8D3F-480F-BBCF-E10EBAD9CB64",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司",
             "factoryAddr": "台南市新營區土庫里土庫6之20號",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "0510620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": "",
             "concent": "5.0000",
@@ -70,6 +81,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003250",
+            "ingredientsName": "TERPIN HYDRATE",
             "ingredientsDesc": "TERPIN HYDRATE",
             "concentDesc": "",
             "concent": "10.0000",
@@ -81,36 +93,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "848D6547-1367-42A4-837C-2011307A6F02",
-            "approvedDocNo": "1120807249",
-            "approvedDate": "2023-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1227525E-ED51-4FC7-9829-3CC498850F2F",
-            "approvedDocNo": "1096821442",
-            "approvedDate": "2021-04-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R05FA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA04"
         }
     ],
     "licBaseId": "997E862C-9390-4911-840A-18386DA7338B"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01024263",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1981-10-30 00:00:00.000",
+    "oriIssueDate": "1981-10-30",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00102426301",
@@ -23,11 +27,15 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "07E5D663-5E49-4EF8-A9A3-BE383B59C636",
+    "subCategory": [],
     "ingredientsDesc": [
         "MICONAZOLE NITRATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "長安化學工業股份有限公司",
     "applicantAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -41,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "82D92626-3789-4641-94FC-F3E43AE53C37",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -51,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200810",
+            "ingredientsName": "MICONAZOLE NITRATE",
             "ingredientsDesc": "MICONAZOLE NITRATE",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -69,88 +81,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9B93F25D-646C-478A-BDD5-7622A05382C4",
-            "approvedDocNo": "1101497740",
-            "approvedDate": "2022-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CEFD90B7-3913-4D69-BE8F-7A65E256D63A",
-            "approvedDocNo": "1101497740",
-            "approvedDate": "2022-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5F1DC31A-651D-410B-BEEB-894141FA8850",
-            "approvedDocNo": "1101497740",
-            "approvedDate": "2022-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F3254748-FA37-432F-BB3F-9188279CC1DB",
-            "approvedDocNo": "1101497740",
-            "approvedDate": "2022-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0EE2A2BB-9998-43F5-B631-D3500B2FAC38",
-            "approvedDocNo": "1101497740",
-            "approvedDate": "2022-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0C5D48BF-B63B-40D0-A66F-F7310CD907EC",
-            "approvedDocNo": "1101497740",
-            "approvedDate": "2022-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1DB1D253-2CE6-42AD-8F04-0FE2F4747EFF",
-            "approvedDocNo": "1101497740",
-            "approvedDate": "2022-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "960A2008-BF0D-4578-95D8-264D41042F95",
-            "approvedDocNo": "1101497740",
-            "approvedDate": "2022-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5DCB22B7-662C-4915-BBC7-72D8C26AE04A",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "01755256-8012-4EFC-9F5C-0D335BAA7A3E",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

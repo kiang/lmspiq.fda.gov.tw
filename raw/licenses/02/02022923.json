@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022923",
+    "licUnit": "1",
     "validDate": "2025-06-20 00:00:00.000",
     "issueDate": "2000-06-20 00:00:00.000",
+    "oriIssueDate": "2000-06-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202292301",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "097DF0DB-E9C6-4D2E-A0F8-DA5A79A61FF3",
+    "subCategory": [],
     "ingredientsDesc": [
         "SOYBEAN OIL ( EQ TO SOYA BEAN OIL)",
         "TRIGLYCERIDES MEDIUM CHAIN",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D1DA0E63-24C6-4E43-8D7C-5CEF3E3B0879",
             "factoryCode": null,
             "factoryName": "FRESENIUS KABI DEUTSCHLAND GMBH",
             "factoryAddr": "FESENIUSSTRABE 1,D-61169 FRIEDBERG GERMANYD-61346 BAD HOMBURG V.D.H. GERMANY",
@@ -62,9 +70,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0257000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "24F31676-1A6F-4602-869F-4336D7E3C828",
             "factoryCode": "1",
             "factoryName": "FRESENIUS KABI AUSTRIA GMBH",
             "factoryAddr": "HAFNERSTRABE 36 A-8055 GRAZ AUSTRIAD-61346 BAD HOMBURG V.D.H. GERMANY",
@@ -75,9 +86,12 @@
             "factoryKind": "M",
             "factoryNo": "FAT0014100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "73889115-A601-4DE2-9130-4CFEB4E1AE6D",
             "factoryCode": "2",
             "factoryName": "FRESENIUS KABI AUSTRIA GMBH",
             "factoryAddr": "AM GEWERBEPARK 6, 8402 WERNDORF, AUSTRIA",
@@ -93,13 +107,16 @@
             "factoryKind": "M",
             "factoryNo": "FAT0045000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020001600",
+            "ingredientsName": "SOYBEAN OIL ( EQ TO SOYA BEAN OIL)",
             "ingredientsDesc": "SOYBEAN OIL ( EQ TO SOYA BEAN OIL)",
             "concentDesc": "(BEAN)        50",
             "concent": "0.0000",
@@ -111,6 +128,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640001102",
+            "ingredientsName": "TRIGLYCERIDES MEDIUM CHAIN",
             "ingredientsDesc": "TRIGLYCERIDES MEDIUM CHAIN",
             "concentDesc": "(MCT)         50",
             "concent": "0.0000",
@@ -122,6 +140,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200003000",
+            "ingredientsName": "EGG PHOSPHATIDES",
             "ingredientsDesc": "EGG PHOSPHATIDES",
             "concentDesc": "6",
             "concent": "6.0000",
@@ -135,14 +154,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "B05BA02"

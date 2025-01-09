@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043438",
-    "validDate": "2024-12-21 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-21 00:00:00.000",
     "issueDate": "1999-12-21 00:00:00.000",
+    "oriIssueDate": "1999-12-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104343804",
@@ -16,7 +20,7 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         },
         {
@@ -27,13 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A6510E2A-A1CD-41EF-9011-273F5A647AC0",
+    "subCategory": [],
     "ingredientsDesc": [
         "LYSOZYME CHLORIDE",
         "CHLORHEXIDINE HCL",
         "DIPOTASSIUM GLYCYRRHIZINATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "永勝藥品工業股份有限公司",
     "applicantAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路6之3號",
@@ -47,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CA22513B-CCFF-42DC-A7C1-2821FB4B2DAE",
             "factoryCode": "1",
             "factoryName": "永勝藥品工業股份有限公司",
             "factoryAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路6之3號",
@@ -57,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "6140040022",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400001310",
+            "ingredientsName": "LYSOZYME CHLORIDE",
             "ingredientsDesc": "LYSOZYME CHLORIDE",
             "concentDesc": "",
             "concent": "7.5000",
@@ -75,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900211",
+            "ingredientsName": "CHLORHEXIDINE HCL",
             "ingredientsDesc": "CHLORHEXIDINE HCL",
             "concentDesc": "",
             "concent": "5.0000",
@@ -86,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004680",
+            "ingredientsName": "DIPOTASSIUM GLYCYRRHIZINATE",
             "ingredientsDesc": "DIPOTASSIUM GLYCYRRHIZINATE",
             "concentDesc": "",
             "concent": "2.5000",
@@ -97,35 +111,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "82157F36-632F-4AE3-B942-4138E487AF1B",
-            "approvedDocNo": "1096808285",
-            "approvedDate": "2020-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0A6BFE85-6674-4647-9CFB-CAE039C13FF0",
-            "approvedDocNo": "1096808285",
-            "approvedDate": "2020-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "R02AA05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
             "atcCode": "R02AA05"
         }
     ],

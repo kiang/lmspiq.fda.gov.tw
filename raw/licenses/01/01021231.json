@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01021231",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1980-04-11 00:00:00.000",
+    "oriIssueDate": "1980-04-11",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00102123102",
@@ -16,17 +20,20 @@
     "does": "1119",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EA8F4928-1962-4F93-8946-3A939477F3B4",
+    "subCategory": [],
     "ingredientsDesc": [
         "ERGOTAMINE TARTRATE",
         "CAFFEINE ANHYDROUS",
@@ -50,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1554EEFF-BABF-4018-B69F-781B0CE2BE42",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -60,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216000910",
+            "ingredientsName": "ERGOTAMINE TARTRATE",
             "ingredientsDesc": "ERGOTAMINE TARTRATE",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -78,6 +89,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -89,6 +101,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208004620",
+            "ingredientsName": "SCOPOLAMINE HBR",
             "ingredientsDesc": "SCOPOLAMINE HBR",
             "concentDesc": "0.1",
             "concent": "0.1000",
@@ -100,6 +113,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824401200",
+            "ingredientsName": "PHENOBARBITAL",
             "ingredientsDesc": "PHENOBARBITAL",
             "concentDesc": "30",
             "concent": "30.0000",
@@ -111,44 +125,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7C1D0DF6-49A0-4330-8866-4E52CA77C218",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A93F2907-068A-45FC-9279-DC32CAD35445",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N03AA02"
-        },
         {
             "isMain": "1",
             "atcCode": "N02CA52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A04AD01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02CA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
         }
     ],
     "licBaseId": "7664F112-493F-423B-8F1D-35349A330E13"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01024665",
+    "licUnit": "1",
     "validDate": "2024-12-31 00:00:00.000",
     "issueDate": "1982-01-28 00:00:00.000",
+    "oriIssueDate": "1982-01-28",
     "licKind": "02",
     "oldLicid": "01004693",
     "certNo": "DHY00102466508",
@@ -16,21 +20,24 @@
     "does": "1140",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "08"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DA617C36-530D-4853-8453-0A2BBDA03FA7",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMINOPHYLLINE (COROPHYLLIN)"
     ],
@@ -51,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0B44787B-F7CB-47EB-96C0-A355B315BD86",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
@@ -61,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8600000300",
+            "ingredientsName": "AMINOPHYLLINE (COROPHYLLIN)",
             "ingredientsDesc": "AMINOPHYLLINE (COROPHYLLIN)",
             "concentDesc": " ",
             "concent": "200.0000",
@@ -81,10 +92,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R03DA05"
-        },
         {
             "isMain": "1",
             "atcCode": "R03DA05"

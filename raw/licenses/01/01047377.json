@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047377",
+    "licUnit": "1",
     "validDate": "2025-06-20 00:00:00.000",
     "issueDate": "2005-06-20 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104737704",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "C0924236-63A0-415A-BCAB-B6C01F535B2D",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "MENTHOL",
         "CAMPHOR",
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "835859DA-BFEF-41CA-91E0-7F01F0B78785",
             "factoryCode": "1",
             "factoryName": "臺灣汎生製藥廠股份有限公司",
             "factoryAddr": "高雄市鳥松區&#22356;埔村大同路５號之１",
@@ -55,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "1405522300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424400200",
+            "ingredientsName": "METHYL SALICYLATE",
             "ingredientsDesc": "METHYL SALICYLATE",
             "concentDesc": null,
             "concent": "300.0000",
@@ -73,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000300",
+            "ingredientsName": "MENTHOL",
             "ingredientsDesc": "MENTHOL",
             "concentDesc": null,
             "concent": "100.0000",
@@ -84,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000100",
+            "ingredientsName": "CAMPHOR",
             "ingredientsDesc": "CAMPHOR",
             "concentDesc": null,
             "concent": "40.0000",
@@ -99,14 +114,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "M02AC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M02AC"
         }
     ],

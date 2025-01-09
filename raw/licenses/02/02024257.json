@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024257",
+    "licUnit": "1",
     "validDate": "2025-06-15 00:00:00.000",
     "issueDate": "2005-06-15 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202425700",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "1136DEF6-D576-4F9C-88AF-F90347995A5A",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "LACTOBACILLUS ACIDOPHILUS",
         "BIFIDOBACTERIUM BIFIDUM"
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3CC0852D-EEC3-41EC-85D6-A9ACF012B706",
             "factoryCode": "1",
             "factoryName": "LABORATORIO FARMACEUTICO S.I.T  S.R.L",
             "factoryAddr": "VIA CAVOUR 70, 27035 MEDE (PV), ITALY",
@@ -52,9 +62,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0353000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "DE04DD5F-5DE2-437A-999F-2D1B07572B2F",
             "factoryCode": "2",
             "factoryName": "瑪里士實業有限公司",
             "factoryAddr": "臺北市內湖區舊宗路二段121巷30號2樓、32號2樓及2樓之1",
@@ -70,13 +83,16 @@
             "factoryKind": "M",
             "factoryNo": "6101111420",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "560802800",
+            "ingredientsName": "BIFIDOBACTERIUM BIFIDUM",
             "ingredientsDesc": "BIFIDOBACTERIUM BIFIDUM",
             "concentDesc": "(EQ.TO )",
             "concent": "1000000000.0000",
@@ -88,6 +104,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5608000713",
+            "ingredientsName": "LACTOBACILLUS ACIDOPHILUS",
             "ingredientsDesc": "LACTOBACILLUS ACIDOPHILUS",
             "concentDesc": "(EQ.TO )",
             "concent": "0.0000",
@@ -99,44 +116,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BEA54D46-661F-47B9-8677-24772FE828F6",
-            "approvedDocNo": "1090001326",
-            "approvedDate": "2020-03-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7BF0B25D-7B32-4363-AA0E-275113E907EA",
-            "approvedDocNo": "1090001326",
-            "approvedDate": "2020-03-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6A087DD5-CC8C-4ED4-8E61-3F07F17DDDA7",
-            "approvedDocNo": "1090001326",
-            "approvedDate": "2020-03-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A07FA51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A07FA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A07FA01"
         }
     ],
     "licBaseId": "21E4E0A1-9287-436E-B4F4-4E21713C0917"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01038962",
+    "licUnit": "1",
     "validDate": "2025-06-20 00:00:00.000",
     "issueDate": "1995-06-20 00:00:00.000",
+    "oriIssueDate": "1995-06-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103896201",
@@ -16,13 +20,16 @@
     "does": "2240",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "13"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "657D8898-F2B7-4464-9785-61875B71A460",
+    "subCategory": [],
     "ingredientsDesc": [
         "FOSFOMYCIN (SODIUM)",
         "FOSFOMYCIN (SODIUM)",
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5D41E980-D3C4-43CE-B833-8B380625AED2",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812009410",
+            "ingredientsName": "FOSFOMYCIN (SODIUM)",
             "ingredientsDesc": "FOSFOMYCIN (SODIUM)",
             "concentDesc": "500",
             "concent": "500.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812009410",
+            "ingredientsName": "FOSFOMYCIN (SODIUM)",
             "ingredientsDesc": "FOSFOMYCIN (SODIUM)",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -85,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812009410",
+            "ingredientsName": "FOSFOMYCIN (SODIUM)",
             "ingredientsDesc": "FOSFOMYCIN (SODIUM)",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -96,55 +109,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D51271A8-7349-4E36-8F7F-1A8E1AF1984C",
-            "approvedDocNo": "1129053611",
-            "approvedDate": "2023-11-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "871171B4-034E-4161-9E17-BB8C526E67E7",
-            "approvedDocNo": "1129053611",
-            "approvedDate": "2023-11-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "44FF31E1-7AE6-49F8-BE3A-CA9FB9DED7D8",
-            "approvedDocNo": "1129053611",
-            "approvedDate": "2023-11-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A4981B3D-71CD-435D-9E57-D8E9598A97F7",
-            "approvedDocNo": "1129053611",
-            "approvedDate": "2023-11-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A7A33D74-128E-4C14-B41B-DE4A991977DA",
-            "approvedDocNo": "1129053611",
-            "approvedDate": "2023-11-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J01XX01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J01XX01"
         }
     ],

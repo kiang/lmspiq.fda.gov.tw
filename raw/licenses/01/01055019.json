@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055019",
+    "licUnit": "1",
     "validDate": "2025-06-09 00:00:00.000",
     "issueDate": "2010-06-09 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105501900",
@@ -30,7 +34,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "4A309E01-CFB8-4DAD-8BC3-9ED2EB45D0A0",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "DIPHENHYDRAMINE HCL"
     ],
@@ -50,6 +59,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "AB2344C6-1278-4E80-963D-5231E9BB650D",
             "factoryCode": "1",
             "factoryName": "正和製藥股份有限公司新營廠",
             "factoryAddr": "台南市新營區嘉芳里新工路２３號",
@@ -60,13 +70,16 @@
             "factoryKind": "M",
             "factoryNo": "0505720300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": "",
             "concent": "50.0000",
@@ -78,47 +91,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1EE15D48-9F5C-4A90-A0DE-38F681EC4871",
-            "approvedDocNo": "1129006790",
-            "approvedDate": "2023-04-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "09C3CF52-66D1-4A9D-9BE8-BCB54DFB39F6",
-            "approvedDocNo": "1129006790",
-            "approvedDate": "2023-04-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "81FABB7C-2E83-43F5-950F-D4C84FB468B8",
-            "approvedDocNo": "1129006790",
-            "approvedDate": "2023-04-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3F173A27-CEE4-4F41-95D4-668DF3293C4A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "R06AA02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "R06AA02"
         }
     ],

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01026827",
+    "licUnit": "1",
     "validDate": "2024-12-31 00:00:00.000",
     "issueDate": "1983-02-08 00:00:00.000",
+    "oriIssueDate": "1983-02-08",
     "licKind": "01",
     "oldLicid": null,
     "certNo": "DHY00102682705",
@@ -23,6 +27,9 @@
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "829BD5AA-49C0-44EC-B5B7-944898D806C2",
+    "subCategory": [],
     "ingredientsDesc": [
         "GELATIN"
     ],
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "73970E1F-427C-4F76-98E9-019B4CF6AAD2",
             "factoryCode": "1",
             "factoryName": "大豐膠囊工業股份有限公司",
             "factoryAddr": "台中市潭子區中山路三段201、203號",
@@ -51,13 +59,16 @@
             "factoryKind": "M",
             "factoryNo": "0306910300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600012700",
+            "ingredientsName": "GELATIN",
             "ingredientsDesc": "GELATIN",
             "concentDesc": "",
             "concent": "47.9900",
@@ -69,39 +80,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1778DEEE-5BFE-482A-9E0C-E3F6D0DB78BB",
-            "approvedDocNo": "1091492345",
-            "approvedDate": "2020-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F6EE266-DA20-41EC-A9CF-FA96DE26FB85",
-            "approvedDocNo": "1091492345",
-            "approvedDate": "2020-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CD0256A7-9BAE-44B9-B559-DC84CD3EDD95",
-            "approvedDocNo": "1080005098",
-            "approvedDate": "2019-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
             "atcCode": "V07"
         }
     ],

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024140",
+    "licUnit": "1",
     "validDate": "2024-12-16 00:00:00.000",
     "issueDate": "2004-12-16 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202414002",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "36EC3AF6-66B2-47F8-9FF5-F25B47F480E9",
+    "subCategory": [],
     "ingredientsDesc": [
         "CALCIUM CHLORIDE DIHYDRATE",
         "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "12124A30-6546-40D6-8958-01B5E59C2252",
             "factoryCode": "1",
             "factoryName": "BAXTER HEALTHCARE S.A.",
             "factoryAddr": "MONEEN ROAD CASTLEBAR CO. MAYO IRELAND",
@@ -58,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "FIE0027000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000760",
+            "ingredientsName": "GLUCOSE MONOHYDRATE",
             "ingredientsDesc": "GLUCOSE MONOHYDRATE",
             "concentDesc": null,
             "concent": "117.1400",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": null,
             "concent": "0.5070",
@@ -87,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": null,
             "concent": "0.1400",
@@ -98,6 +111,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": null,
             "concent": "8.4300",
@@ -109,6 +123,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": null,
             "concent": "3.2900",
@@ -120,6 +135,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000900",
+            "ingredientsName": "SODIUM LACTATE",
             "ingredientsDesc": "SODIUM LACTATE",
             "concentDesc": null,
             "concent": "2.6300",
@@ -129,24 +145,12 @@
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [
-        {
-            "applicantName": "萬益特醫療用品股份有限公司",
-            "certNo": "DHA00202414013",
-            "approveDocNo": "1139020220",
-            "authDate": "2024-03-11",
-            "validDate": "2024-12-16"
-        }
-    ],
+    "authDtoList": [],
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "B05DB"
-        },
-        {
-            "isMain": "2",
             "atcCode": "B05DB"
         }
     ],

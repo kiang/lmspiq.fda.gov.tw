@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01020697",
+    "licUnit": "1",
     "validDate": "2024-12-31 00:00:00.000",
     "issueDate": "1980-03-03 00:00:00.000",
+    "oriIssueDate": "1980-03-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102069701",
@@ -16,22 +20,26 @@
     "does": "1122",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B91F86EE-A066-4ECC-B147-43F70B308AFC",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEQUALINIUM CHLORIDE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01",
+        "1R"
     ],
     "applicantName": "長安化學工業股份有限公司",
     "applicantAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -45,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0DD4C7FA-2862-4D6F-8221-21C26A74A04E",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -55,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8420000210",
+            "ingredientsName": "DEQUALINIUM CHLORIDE",
             "ingredientsDesc": "DEQUALINIUM CHLORIDE",
             "concentDesc": "0.25",
             "concent": "0.2500",
@@ -73,56 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2737B318-72D4-4DEF-984C-8FC2610F4A02",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7A5E76A9-8DDF-4552-9C3A-92CBC848D295",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EFAC1E55-BAF4-4769-8E01-BBD9FAE55C06",
-            "approvedDocNo": "1086604238",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DEAD873C-4F0A-46B3-9451-DB5371F047D8",
-            "approvedDocNo": "1086604238",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1FF2023B-6F0E-4EA6-8629-06DEB37B5586",
-            "approvedDocNo": "1086604238",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "923D67A7-5377-4964-B95E-28B1D9840B44",
-            "approvedDocNo": "1086604238",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

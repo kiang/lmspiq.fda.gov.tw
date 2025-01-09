@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "72000024",
+    "licUnit": "1",
     "validDate": "2027-04-21 00:00:00.000",
     "issueDate": "2017-04-21 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA07200002405",
@@ -27,13 +31,17 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "922C51F7-BCDB-4E34-9E78-85658DB8B17A",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "rhASB (Galsulfase)"
     ],
     "restraintItemsCode": [
         "02",
-        "07",
-        "1Q"
+        "07"
     ],
     "applicantName": "美商百傲萬里生技股份有限公司台灣分公司",
     "applicantAddr": "臺北市大安區敦化南路2段97號2樓",
@@ -47,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6C02067D-55F8-44ED-A9FD-E48DAA16E014",
             "factoryCode": "1",
             "factoryName": "Vetter Pharma-Fertigung GmbH & Co. KG",
             "factoryAddr": "Eisenbahnstrasse 2-4, 88085 Langenargen, Germany",
@@ -57,9 +66,12 @@
             "factoryKind": "M",
             "factoryNo": "MDE1120100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "818F5A6B-CC17-477C-A53C-1C650C7EFF0B",
             "factoryCode": "2",
             "factoryName": "ANDERSONBRECON (UK) LTD.",
             "factoryAddr": "WYE VALLEY BUSINESS PARK, HAY-ON-WYE, HEREFORD, HR3 5PG, UNITED KINGDOM",
@@ -75,9 +87,12 @@
             "factoryKind": "M",
             "factoryNo": "FGB0219200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "131EB3F7-61CD-48BF-A036-86559CA91337",
             "factoryCode": "2",
             "factoryName": "BioMarin International Limited",
             "factoryAddr": "Shanbally, Ringaskiddy, County Cork, Ireland",
@@ -93,9 +108,12 @@
             "factoryKind": "M",
             "factoryNo": "FIE0085000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "BA1BE5E6-A65F-4449-A006-C61D0D0D4327",
             "factoryCode": "2",
             "factoryName": "BIOMARIN PHARMACEUTICAL INC.",
             "factoryAddr": "46 GALLI DRIVE, NOVATO, CA 94949, USA",
@@ -111,16 +129,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0377000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400008100",
+            "ingredientsName": "rhASB (Galsulfase)",
             "ingredientsDesc": "rhASB (Galsulfase)",
             "concentDesc": "",
-            "concent": "1.000",
+            "concent": "1.0000",
             "concentUnit": "038",
             "seq": "1",
             "prescription_seq": "1",
@@ -137,48 +158,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C91F9200-0C27-4437-9300-279EA2FBE693",
-            "approvedDocNo": "1110729992",
-            "approvedDate": "2022-12-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "35E7BA22-2C82-4FA3-8620-5E083373CAC1",
-            "approvedDocNo": "1086012827",
-            "approvedDate": "2020-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0944B76A-6143-4CBD-85CB-A89AEAE209FF",
-            "approvedDocNo": "1086012827",
-            "approvedDate": "2020-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D1F44CF1-92A8-42D0-93A0-F7051DDFC863",
-            "approvedDocNo": "1086012827",
-            "approvedDate": "2020-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B8A779F6-6314-4F41-9C9A-52D65B01DDF3",
-            "approvedDocNo": "1086008769",
-            "approvedDate": "2019-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

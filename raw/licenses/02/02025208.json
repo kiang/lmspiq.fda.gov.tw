@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2022-06-20",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "02025208",
+    "licUnit": "1",
     "validDate": "2025-06-09 00:00:00.000",
     "issueDate": "2010-06-09 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202520802",
@@ -25,6 +29,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "13DFA229-6622-4D0C-B51E-3CC3DA0A16E5",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
         "VALSARTAN"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B910B299-11BF-4EA3-A579-9BC79005B309",
             "factoryCode": "1",
             "factoryName": "NOVARTIS FARMA S.P.A.",
             "factoryAddr": "VIA PROVINCIALE SCHITO 131-80058 TORRE ANNUNZIATA, ITALY",
@@ -56,9 +64,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0320000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "CF67D0DB-142A-4E18-A678-A87C1C5BEA34",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA AG",
             "factoryAddr": "LICHTSTRASSE 35, CH-4056 BASEL, SWITZERLAND",
@@ -74,13 +85,16 @@
             "factoryKind": "M",
             "factoryNo": "FCH0253000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005100",
+            "ingredientsName": "VALSARTAN",
             "ingredientsDesc": "VALSARTAN",
             "concentDesc": "",
             "concent": "160.0000",
@@ -92,6 +106,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": "",
             "concent": "12.5000",
@@ -103,100 +118,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B843F309-7638-4093-9F8E-1DAE94E1B55D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DCF1FB97-69D7-4E3D-BB1F-1FF44A4C0C94",
-            "approvedDocNo": "1106021349",
-            "approvedDate": "2022-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4D8FC929-4F0A-4C84-9F0F-AFF255C5512D",
-            "approvedDocNo": "1106018656",
-            "approvedDate": "2022-03-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AD20066E-75F9-48F4-AC9D-A43EAF6004D5",
-            "approvedDocNo": "1106021343",
-            "approvedDate": "2022-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5CE02189-47BF-4B1E-B4DD-799EC076BA6E",
-            "approvedDocNo": "1106021345",
-            "approvedDate": "2021-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "62079704-3077-4343-8796-15CBA00208DB",
-            "approvedDocNo": "1101491641",
-            "approvedDate": "2021-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ABE06DB8-AB76-41AF-A676-5989B3D41ABC",
-            "approvedDocNo": "1096029679",
-            "approvedDate": "2021-01-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "666BCB15-6400-4DE1-8EE4-103AB879D555",
-            "approvedDocNo": "1086024103",
-            "approvedDate": "2020-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4C65F817-32D0-47A3-BDB6-CD7B8E670DAB",
-            "approvedDocNo": "1086024103",
-            "approvedDate": "2020-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FEA352DE-4567-4E0D-881B-1F8C79B4D696",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C09DA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09CA03"
         }
     ],
     "licBaseId": "64CA68ED-F86C-4FF7-B38C-A1FF600B2759"

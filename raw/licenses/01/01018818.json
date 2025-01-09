@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01018818",
-    "validDate": "2024-12-31 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-12-31 00:00:00.000",
     "issueDate": "1979-09-22 00:00:00.000",
+    "oriIssueDate": "1979-09-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101881808",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8E26D279-42DA-4DAD-ACB5-F8B8499E69D8",
+    "subCategory": [],
     "ingredientsDesc": [
         "MAGNESIUM CARBONATE",
         "ALUMINUM SILICATE",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BE5F3232-BED4-4619-B0E7-07E9B5835DB9",
             "factoryCode": "1",
             "factoryName": "美西製藥有限公司",
             "factoryAddr": "高雄市仁武區仁武里工業一路９號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0900822300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640001501",
+            "ingredientsName": "PHELLODENDRON EXTRACT",
             "ingredientsDesc": "PHELLODENDRON EXTRACT",
             "concentDesc": "8.25",
             "concent": "8.2500",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600002000",
+            "ingredientsName": "ALUMINUM SILICATE",
             "ingredientsDesc": "ALUMINUM SILICATE",
             "concentDesc": "239.22",
             "concent": "239.2200",
@@ -86,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002400",
+            "ingredientsName": "MAGNESIUM CARBONATE",
             "ingredientsDesc": "MAGNESIUM CARBONATE",
             "concentDesc": "41.25",
             "concent": "41.2500",
@@ -97,6 +110,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604001200",
+            "ingredientsName": "CALCIUM CARBONATE",
             "ingredientsDesc": "CALCIUM CARBONATE",
             "concentDesc": "(PPT) 24.75",
             "concent": null,
@@ -108,6 +122,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000300",
+            "ingredientsName": "MENTHOL",
             "ingredientsDesc": "MENTHOL",
             "concentDesc": "0.03",
             "concent": "0.0300",
@@ -121,26 +136,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA01"
-        },
         {
             "isMain": "1",
             "atcCode": "A02AD"

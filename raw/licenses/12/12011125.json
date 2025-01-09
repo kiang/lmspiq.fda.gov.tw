@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12011125",
+    "licUnit": "1",
     "validDate": "2024-12-31 00:00:00.000",
     "issueDate": "1970-10-05 00:00:00.000",
+    "oriIssueDate": "1970-10-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01201112501",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "13698501-6B79-4104-ACE8-5C115139238A",
+    "subCategory": [],
     "ingredientsDesc": [
         "TETRACYCLINE HCL (EQ TO TETRACYCLINE HYDROCHLORIDE)",
         "PROCAINE HCL"
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "26D4D087-5F8C-4CAC-9CF7-E544A4F1A845",
             "factoryCode": "1",
             "factoryName": "安星製藥股份有限公司",
             "factoryAddr": "新竹縣新豐鄉鳳坑村坑子口６７３號",
@@ -55,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "0603006300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812800910",
+            "ingredientsName": "TETRACYCLINE HCL (EQ TO TETRACYCLINE HYDROCHLORIDE)",
             "ingredientsDesc": "TETRACYCLINE HCL (EQ TO TETRACYCLINE HYDROCHLORIDE)",
             "concentDesc": "100",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001310",
+            "ingredientsName": "PROCAINE HCL",
             "ingredientsDesc": "PROCAINE HCL",
             "concentDesc": "40",
-            "concent": "40.000",
+            "concent": "40.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,33 +96,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "80772D64-D7FC-4590-BD39-3E949EA539DF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CA6CB7FA-2A57-4035-B9A3-9E7E08875A30",
-            "approvedDocNo": "1076809180",
-            "approvedDate": "2019-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01AA07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N01BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "J01AA07"

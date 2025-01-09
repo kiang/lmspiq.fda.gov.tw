@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000825",
+    "licUnit": "1",
     "validDate": "2026-08-31 00:00:00.000",
     "issueDate": "2006-08-31 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000082508",
@@ -16,7 +20,7 @@
     "does": "1170",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "88"
         },
         {
@@ -27,6 +31,11 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "46CDD44F-AE70-442B-BB27-F635DC99297E",
+    "subCategory": [
+        "C04"
+    ],
     "ingredientsDesc": [
         "P1 REASSORTANT",
         "G4 REASSORTANT",
@@ -50,6 +59,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "71B6DE23-E5C5-49EE-B89D-0D6B4EA5FE59",
             "factoryCode": "1",
             "factoryName": "MERCK SHARP & DOHME LLC",
             "factoryAddr": "770 SUMNEYTOWN PIKE, WEST POINT, PA 19486 U.S.A.",
@@ -65,16 +75,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS9468000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8012005100",
+            "ingredientsName": "G1 REASSORTANT",
             "ingredientsDesc": "G1 REASSORTANT",
             "concentDesc": "",
-            "concent": "2200000.000",
+            "concent": "2200000.0000",
             "concentUnit": "360",
             "seq": "1",
             "prescription_seq": "1",
@@ -83,9 +96,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8012005200",
+            "ingredientsName": "G2 REASSORTANT",
             "ingredientsDesc": "G2 REASSORTANT",
             "concentDesc": "",
-            "concent": "2800000.000",
+            "concent": "2800000.0000",
             "concentUnit": "360",
             "seq": "2",
             "prescription_seq": "1",
@@ -94,9 +108,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8012005300",
+            "ingredientsName": "G3 REASSORTANT",
             "ingredientsDesc": "G3 REASSORTANT",
             "concentDesc": "",
-            "concent": "2200000.000",
+            "concent": "2200000.0000",
             "concentUnit": "360",
             "seq": "3",
             "prescription_seq": "1",
@@ -105,9 +120,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8012005400",
+            "ingredientsName": "G4 REASSORTANT",
             "ingredientsDesc": "G4 REASSORTANT",
             "concentDesc": "",
-            "concent": "2000000.000",
+            "concent": "2000000.0000",
             "concentUnit": "360",
             "seq": "4",
             "prescription_seq": "1",
@@ -116,9 +132,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8012005500",
+            "ingredientsName": "P1 REASSORTANT",
             "ingredientsDesc": "P1 REASSORTANT",
             "concentDesc": "",
-            "concent": "2300000.000",
+            "concent": "2300000.0000",
             "concentUnit": "360",
             "seq": "5",
             "prescription_seq": "1",
@@ -127,77 +144,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6DA9F1AB-A8D6-4490-80BA-FBA0BCA0195E",
-            "approvedDocNo": "1129023059",
-            "approvedDate": "2023-06-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "53A0410E-087D-4759-96C4-3BDA927EF9E9",
-            "approvedDocNo": "1119053400",
-            "approvedDate": "2022-11-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EF344D44-669E-47A8-ADA8-C7134CD087AA",
-            "approvedDocNo": "1096036748",
-            "approvedDate": "2021-03-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5E115EF5-814F-4C06-8D52-6E7B1DA4F15B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2BE52DE4-7DCC-4374-BF5A-175BAAF9BB91",
-            "approvedDocNo": "1096030008",
-            "approvedDate": "2021-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E2F58670-8844-4A4F-8DD4-1DD7F1D8011E",
-            "approvedDocNo": "1096030008",
-            "approvedDate": "2021-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A64B8434-14AF-41DA-9CF9-3A6E3B9284CA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BA15CBEE-ECFB-48B4-BDC4-DFDCFD8E5EAA",
-            "approvedDocNo": "1086002386",
-            "approvedDate": "2019-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J07BH02"
-        },
         {
             "isMain": "1",
             "atcCode": "J07BH02"

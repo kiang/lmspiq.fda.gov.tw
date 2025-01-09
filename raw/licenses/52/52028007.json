@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028007",
+    "licUnit": "1",
     "validDate": "2026-01-14 00:00:00.000",
     "issueDate": "2021-01-14 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202800700",
@@ -23,6 +27,11 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "18A0E362-0A6D-49C0-9F2A-43EEC274AF71",
+    "subCategory": [
+        "A05"
+    ],
     "ingredientsDesc": [
         "palbociclib"
     ],
@@ -43,24 +52,28 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "ACDB6D4B-551B-49BB-A3DE-AC12F36BC998",
             "factoryCode": "1",
-            "factoryName": "PFIZER MANUFACTURING DEUTSCHLAND GMBH",
-            "factoryAddr": "BETRIEBSSTATTE FREIBURG, MOOSWALDALLEE 1, 79090 FREIBURG, GERMANY",
+            "factoryName": "Pfizer Manufacturing Deutschland GmbH",
+            "factoryAddr": "Mooswaldallee 1, 79108 Freiburg Im Breisgau, Germany",
             "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FDE0247000",
+            "factoryNo": "FDE0247200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "757122C4-F0C5-4DFC-BCF5-DFD021CE44D9",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
             "factoryCompanyAddr": "",
-            "countryCode": "",
+            "countryCode": "TW",
             "processCode": [
                 {
                     "value": "3P",
@@ -71,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013006000",
+            "ingredientsName": "palbociclib",
             "ingredientsDesc": "palbociclib",
             "concentDesc": "",
-            "concent": "125.000",
+            "concent": "125.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,40 +105,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CED2A4BB-423C-481F-A600-E9C78EACF649",
-            "approvedDocNo": "1119029578",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8BA180BD-FD2B-4FA9-A126-0BE26DAA868C",
-            "approvedDocNo": "1106026046",
-            "approvedDate": "2022-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8679C59B-FE0C-4EDC-A55A-39D52CE17327",
-            "approvedDocNo": "1106026046",
-            "approvedDate": "2022-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C01F2F5C-245A-4670-BF64-DC824486D0A7",
-            "approvedDocNo": "1106026046",
-            "approvedDate": "2022-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

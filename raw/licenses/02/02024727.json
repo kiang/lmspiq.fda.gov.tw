@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024727",
+    "licUnit": "1",
     "validDate": "2027-10-23 00:00:00.000",
     "issueDate": "2017-10-06 00:00:00.000",
+    "oriIssueDate": "2007-10-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202472708",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "154D28CE-8F3F-486F-9FB7-6A469627C63A",
+    "subCategory": [],
     "ingredientsDesc": [
         "SORAFENIB TOSYLATE, MICRONIZED"
     ],
@@ -44,23 +51,53 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3933E0AA-F020-461C-B6F4-F42892A0EF28",
             "factoryCode": "1",
+            "factoryName": "PATHEON FRANCE",
+            "factoryAddr": "40 BOULEVARD DE CHAMPARET, 38300 BOURGOIN JALLIEU, FRANCE.",
+            "factoryCompanyAddr": null,
+            "countryCode": "FR",
+            "processCode": [
+                {
+                    "value": "42",
+                    "name": "半成品(BULK MICROSPHERE)"
+                }
+            ],
+            "processCodeStr": "42;半成品(BULK MICROSPHERE)",
+            "factoryKind": "M",
+            "factoryNo": "FFR0109000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "AB5E8C6C-994D-4646-B08C-4B4CBE00626A",
+            "factoryCode": "2",
             "factoryName": "Bayer AG",
             "factoryAddr": "Kaiser-Wilhelm-Allee, 51368 Leverkusen, Germany",
             "factoryCompanyAddr": "",
             "countryCode": "DE",
-            "processCode": [],
-            "processCodeStr": null,
+            "processCode": [
+                {
+                    "value": "16",
+                    "name": "包裝及分裝"
+                }
+            ],
+            "processCodeStr": "16;包裝及分裝",
             "factoryKind": "M",
             "factoryNo": "FDE0438200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013001610",
+            "ingredientsName": "SORAFENIB TOSYLATE, MICRONIZED",
             "ingredientsDesc": "SORAFENIB TOSYLATE, MICRONIZED",
             "concentDesc": "(= sorafenib...200.0 mg )",
             "concent": "274.0000",
@@ -72,64 +109,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5CCEBD06-3A02-4F4F-AC1D-639E257B7AF9",
-            "approvedDocNo": "1106021713",
-            "approvedDate": "2021-12-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C85894D6-6C11-42CC-949E-8173EB1E8155",
-            "approvedDocNo": "1106021713",
-            "approvedDate": "2021-12-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A0C289DE-DDAB-43FE-85B2-9C44E9053ECF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "41FB16A0-7A1A-421F-BA9E-29C2626E93E0",
-            "approvedDocNo": "1096010081",
-            "approvedDate": "2020-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "852D2D21-BBFF-46A3-8180-45C3509487A3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BABF4B2C-B0F8-49A9-ACCD-986A2F98C459",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6BE69DBA-5CBA-49FD-B0FB-03B0D123B4A3",
-            "approvedDocNo": "1076046483",
-            "approvedDate": "2019-05-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

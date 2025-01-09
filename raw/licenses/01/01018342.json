@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01018342",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1979-08-15 00:00:00.000",
+    "oriIssueDate": "1979-08-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101834201",
@@ -16,7 +20,7 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         },
         {
@@ -27,13 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "243C718B-E010-4876-ACE1-7BBE724D0AB4",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "CHLORMEZANONE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01"
     ],
     "applicantName": "井田國際醫藥廠股份有限公司",
     "applicantAddr": "台中市大甲區幼獅路32號",
@@ -47,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "03A44290-263B-42F9-A848-D0E963E8D6D8",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
@@ -57,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "450",
             "concent": "450.0000",
@@ -75,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220000400",
+            "ingredientsName": "CHLORMEZANONE",
             "ingredientsDesc": "CHLORMEZANONE",
             "concentDesc": "100",
             "concent": "100.0000",
@@ -86,28 +97,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4EA3F5E5-7D7A-4075-9E33-3A56F608D439",
-            "approvedDocNo": "1120602606",
-            "approvedDate": "2023-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02BE51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "M03BB02"
         }
     ],
     "licBaseId": "C7FA1493-65AB-4FDC-8E0C-79C147E02477"

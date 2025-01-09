@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01024982",
+    "licUnit": "1",
     "validDate": "2024-12-31 00:00:00.000",
     "issueDate": "1982-03-02 00:00:00.000",
+    "oriIssueDate": "1982-03-02",
     "licKind": "02",
     "oldLicid": "01004559",
     "certNo": "DHY00102498207",
@@ -16,21 +20,24 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "08"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7807E2E8-2C91-461D-97B7-776254931003",
+    "subCategory": [],
     "ingredientsDesc": [
         "ALUMINUM HYDROXIDE GEL",
         "HOMATROPINE METHYLBROMIDE"
@@ -52,6 +59,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "059F19C4-32FB-4EE8-806E-B8F5E45EEA55",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
@@ -62,13 +70,16 @@
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000201",
+            "ingredientsName": "ALUMINUM HYDROXIDE GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE GEL",
             "concentDesc": "(DRIED) 230",
             "concent": null,
@@ -80,6 +91,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5224000220",
+            "ingredientsName": "HOMATROPINE METHYLBROMIDE",
             "ingredientsDesc": "HOMATROPINE METHYLBROMIDE",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -96,14 +108,6 @@
         {
             "isMain": "1",
             "atcCode": "A02AG"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03BA"
         }
     ],
     "licBaseId": "64DCE04C-FEC4-48B0-A128-4A6FC1A3DD96"
