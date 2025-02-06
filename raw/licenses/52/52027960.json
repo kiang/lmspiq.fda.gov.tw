@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027960",
+    "licUnit": "1",
     "validDate": "2025-09-15 00:00:00.000",
     "issueDate": "2020-09-15 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202796009",
@@ -23,6 +27,11 @@
     "medMCode": "17",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "CB895381-9ABD-49C9-8973-D0794231E748",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FD07D330-2120-40AA-A5E3-FA83E5A1F42C",
             "factoryCode": "1",
             "factoryName": "MADAUS GMBH",
             "factoryAddr": "LUTTICHER, STRABE 5 53842 TROISDORF, GERMANY",
@@ -51,16 +61,40 @@
             "factoryKind": "M",
             "factoryNo": "FDE0558000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "80DCAD40-C26B-4E8B-9433-22344B9151EB",
+            "factoryCode": "2",
+            "factoryName": "久裕企業股份有限公司",
+            "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "3Q",
+                    "name": "二級包裝廠(置入仿單)"
+                }
+            ],
+            "processCodeStr": "3Q;二級包裝廠(置入仿單)",
+            "factoryKind": "M",
+            "factoryNo": "6605071926",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656991100",
+            "ingredientsName": "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
             "ingredientsDesc": "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
             "concentDesc": "Exsiccated Fructus Cardui Mariae Extract 173~186.7mg (Equivalent to 140mg of Silymarin Calculated Silybin)",
-            "concent": "140.000",
+            "concent": "140.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -84,16 +118,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AEA82C56-13A2-4DD1-97BF-F508D7BDCBD5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

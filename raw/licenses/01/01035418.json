@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035418",
+    "licUnit": "1",
     "validDate": "2027-06-29 00:00:00.000",
     "issueDate": "1992-06-29 00:00:00.000",
+    "oriIssueDate": "1992-06-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103541802",
@@ -16,22 +20,25 @@
     "does": "1130",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8C00200A-88B3-44F4-9F32-03375A3970F1",
+    "subCategory": [],
     "ingredientsDesc": [
         "NIACINAMIDE (NICOTINAMIDE)",
-        "THIAMINE MONONITRATE",
         "CAFFEINE ANHYDROUS",
-        "RIBOFLAVIN (VIT B2)"
+        "RIBOFLAVIN (VIT B2)",
+        "THIAMINE MONONITRATE"
     ],
     "restraintItemsCode": [
         "01"
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "EB191CE2-5C7F-473B-9930-E8BC14A5C11F",
             "factoryCode": "1",
             "factoryName": "應元化學製藥股份有限公司",
             "factoryAddr": "台南市南區新忠路２６號",
@@ -58,27 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "1704519300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "150",
             "concent": "150.0000",
-            "concentUnit": "001",
-            "seq": "0",
-            "prescription_seq": "1",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8810101001",
-            "ingredientsDesc": "THIAMINE MONONITRATE",
-            "concentDesc": "10",
-            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -86,10 +86,11 @@
         },
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "8810200400",
-            "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
-            "concentDesc": "2",
-            "concent": "2.0000",
+            "ingredientsCode": "8810101001",
+            "ingredientsName": "THIAMINE MONONITRATE",
+            "ingredientsDesc": "THIAMINE MONONITRATE",
+            "concentDesc": "10",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -97,72 +98,36 @@
         },
         {
             "ingredientsKind": "1",
+            "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
+            "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
+            "concentDesc": "2",
+            "concent": "2.0000",
+            "concentUnit": "001",
+            "seq": "3",
+            "prescription_seq": "1",
+            "prescription_Kind": "1"
+        },
+        {
+            "ingredientsKind": "1",
             "ingredientsCode": "8810000300",
+            "ingredientsName": "NIACINAMIDE (NICOTINAMIDE)",
             "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
             "concentDesc": "10",
             "concent": "10.0000",
             "concentUnit": "001",
-            "seq": "3",
+            "seq": "4",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F6E8135A-8E95-4059-916D-96B0B9A0819F",
-            "approvedDocNo": "1119003984",
-            "approvedDate": "2022-05-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BCF0FFD9-4311-4964-BEFB-06D8397DF663",
-            "approvedDocNo": "1119002901",
-            "approvedDate": "2022-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "50434F37-358D-4492-A490-DD49A419684C",
-            "approvedDocNo": "1086607670",
-            "approvedDate": "2019-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "318688F9-183F-4916-9FC6-E3F05834F4BA",
-            "approvedDocNo": "1086607670",
-            "approvedDate": "2019-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A11JA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
         }
     ],
     "licBaseId": "06941C2D-FFDD-4311-BF5A-17E747BD7F40"

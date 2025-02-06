@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026570",
+    "licUnit": "1",
     "validDate": "2026-02-22 00:00:00.000",
     "issueDate": "2016-02-22 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202657004",
@@ -27,12 +31,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9C745C00-9F0F-4931-A4B5-305873C50E6B",
+    "subCategory": [],
     "ingredientsDesc": [
         "POSACONAZOLE, MICRONIZED"
     ],
     "restraintItemsCode": [
         "02",
-        "07"
+        "07",
+        "67"
     ],
     "applicantName": "美商默沙東藥廠股份有限公司台灣分公司",
     "applicantAddr": "台北市信義區信義路五段106號12樓",
@@ -46,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4E25B82A-AB47-4B55-883F-A623D9F50A49",
             "factoryCode": "1",
             "factoryName": "FAREVA Mirabel",
             "factoryAddr": "Route de Marsat, RIOM, 63963 Clermont-Ferrand, Cedex 9, France (Postal Box)",
@@ -61,9 +70,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0054500",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "9D34D10C-A8E8-4ECB-BFBB-89F8CBBD9B17",
             "factoryCode": "2",
             "factoryName": "Organon Heist bv",
             "factoryAddr": "Industriepark 30, 2220 Heist-op-den-Berg, Belgium",
@@ -79,16 +91,19 @@
             "factoryKind": "M",
             "factoryNo": "FBE0122000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812204720",
+            "ingredientsName": "POSACONAZOLE, MICRONIZED",
             "ingredientsDesc": "POSACONAZOLE, MICRONIZED",
             "concentDesc": "",
-            "concent": "18.000",
+            "concent": "18.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -97,64 +112,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "402020D8-2731-441D-8F09-5E9374D9F495",
-            "approvedDocNo": "1129025192",
-            "approvedDate": "2023-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DCA12268-5E3B-4C6B-8418-A05340AA8C3B",
-            "approvedDocNo": "1129025192",
-            "approvedDate": "2023-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7DF9C466-861B-48DD-BE84-B13AE49D8C13",
-            "approvedDocNo": "1119034046",
-            "approvedDate": "2022-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "294AD2B6-19EF-4977-A9B7-14B7CDAA3622",
-            "approvedDocNo": "1101499394",
-            "approvedDate": "2022-03-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D302220E-AFEF-4662-8CE3-2BA1915BBE73",
-            "approvedDocNo": "1101494999",
-            "approvedDate": "2021-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "99E3DC57-DFE8-4037-BEB5-5F810A2C7527",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "60410D37-82B1-43DB-81CD-47EC334A9497",
-            "approvedDocNo": "1086018700",
-            "approvedDate": "2020-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

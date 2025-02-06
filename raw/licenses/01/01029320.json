@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029320",
+    "licUnit": "1",
     "validDate": "2028-12-18 00:00:00.000",
     "issueDate": "1986-12-18 00:00:00.000",
+    "oriIssueDate": "1986-12-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102932002",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "14E03D7F-0531-4FB6-A94F-02F4976E0286",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMILORIDE HCL",
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)"
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8436764C-ED63-497E-A810-F1228959E5E2",
             "factoryCode": "1",
             "factoryName": "盈盈生技製藥股份有限公司三峽廠",
             "factoryAddr": "新北市三峽區紫新路２６巷６號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "1104602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028000110",
+            "ingredientsName": "AMILORIDE HCL",
             "ingredientsDesc": "AMILORIDE HCL",
             "concentDesc": "",
             "concent": "5.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": "",
             "concent": "50.0000",
@@ -85,44 +97,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0A4ABCDE-C397-4FBB-8BE2-F82BF7155C14",
-            "approvedDocNo": "1120811659",
-            "approvedDate": "2023-12-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3F73111E-EE1D-4603-B691-75F7CBAB7E9C",
-            "approvedDocNo": "1080019741",
-            "approvedDate": "2019-12-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "987584FD-7C5A-4436-B6B3-E29BD6F56451",
-            "approvedDocNo": "1080019741",
-            "approvedDate": "2019-12-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C03DB01"
-        },
         {
             "isMain": "1",
             "atcCode": "C03EA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
         }
     ],
     "licBaseId": "83945E69-A0FE-4831-A379-65C7C64C5281"

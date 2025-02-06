@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055117",
+    "licUnit": "1",
     "validDate": "2025-07-16 00:00:00.000",
     "issueDate": "2010-07-16 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHY00105511700",
@@ -23,6 +27,9 @@
     "medMCode": "26",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "2054C571-9438-4D00-B1C6-F5AB7DBB46CE",
+    "subCategory": [],
     "ingredientsDesc": [
         "Paricalcitol contains 97.0%~103.0% (dried basis)"
     ],
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B98BE176-0C68-49EB-9C97-4E7E3425855C",
             "factoryCode": "1",
             "factoryName": "台耀化學股份有限公司蘆竹廠",
             "factoryAddr": "桃園市蘆竹區和平街36、36-1號、油管路2段398號",
@@ -51,13 +59,16 @@
             "factoryKind": "M",
             "factoryNo": "6132051075",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Paricalcitol contains 97.0%~103.0% (dried basis)",
             "ingredientsDesc": "Paricalcitol contains 97.0%~103.0% (dried basis)",
             "concentDesc": null,
             "concent": null,
@@ -77,23 +88,10 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E0514F9D-750D-4AD6-8FCE-DBBF08C8B325",
-            "approvedDocNo": "1110809558",
-            "approvedDate": "2022-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "H05BX02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "H05BX02"
         }
     ],

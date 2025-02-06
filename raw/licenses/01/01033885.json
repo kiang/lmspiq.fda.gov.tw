@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033885",
+    "licUnit": "1",
     "validDate": "2025-07-23 00:00:00.000",
     "issueDate": "1991-04-03 00:00:00.000",
+    "oriIssueDate": "1991-04-03",
     "licKind": "02",
     "oldLicid": "01032802",
     "certNo": "DHY00103388500",
@@ -16,7 +20,7 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         },
         {
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6DEE7D29-A7B3-46E4-8C61-8923ED1F47DD",
+    "subCategory": [],
     "ingredientsDesc": [
         "CALCIUM CARBONATE"
     ],
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F1E1FCAB-975C-4178-B680-EA36E2121AF1",
             "factoryCode": "1",
             "factoryName": "羅得化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區東西七路一段65號",
@@ -55,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "1901510300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604001200",
+            "ingredientsName": "CALCIUM CARBONATE",
             "ingredientsDesc": "CALCIUM CARBONATE",
             "concentDesc": "500.0",
             "concent": "500.0000",
@@ -75,10 +86,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02AC01"
-        },
         {
             "isMain": "1",
             "atcCode": "A02AC01"

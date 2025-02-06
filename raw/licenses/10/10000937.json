@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000937",
+    "licUnit": "1",
     "validDate": "2028-01-03 00:00:00.000",
     "issueDate": "2013-01-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000093706",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "ECE8E3AC-96DD-4138-BBCC-418FA2F2B57C",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHORIOGONADOTROPIN ALFA"
     ],
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "30BDF339-3DBD-45FA-8CD7-C17EA5BB18A1",
             "factoryCode": "1",
             "factoryName": "MERCK SERONO S.P.A.",
             "factoryAddr": "VIA DELLE MAGNOLIE 15, ZONA INDUSTRIALE DI MODUGNO, 70026 MODUGNO, ITALY",
@@ -56,9 +64,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0324000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B232AEFA-E875-4D56-8C29-3A9B4EA13C39",
             "factoryCode": "2",
             "factoryName": "MERCK SERONO SA, AUBONNE BRANCH",
             "factoryAddr": "ZONE INDUSTRIELLE DE L'OURIETTAZ, 1170 AUBONNE SWITZERLAND",
@@ -74,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0252000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6818500500",
+            "ingredientsName": "CHORIOGONADOTROPIN ALFA",
             "ingredientsDesc": "CHORIOGONADOTROPIN ALFA",
             "concentDesc": null,
-            "concent": "250.000",
+            "concent": "250.0000",
             "concentUnit": "355",
             "seq": "1",
             "prescription_seq": "1",
@@ -92,48 +106,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "38B7E8F1-1143-4938-B5EF-039061C5A317",
-            "approvedDocNo": "1120707447",
-            "approvedDate": "2023-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EB036FB0-687B-4F39-A6ED-E93A10C6A79D",
-            "approvedDocNo": "1120707447",
-            "approvedDate": "2023-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "104ACD27-80DE-4421-BEF8-AC995DFD296C",
-            "approvedDocNo": "1110702455",
-            "approvedDate": "2022-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F581DD4E-147C-4FD4-8ADB-A209804A9F63",
-            "approvedDocNo": "1106017657",
-            "approvedDate": "2022-01-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E0CE465E-49CE-449D-88C0-14D801651359",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

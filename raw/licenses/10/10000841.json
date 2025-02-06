@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000841",
+    "licUnit": "1",
     "validDate": "2027-07-12 00:00:00.000",
     "issueDate": "2007-07-12 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000084106",
@@ -23,6 +27,11 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "B2193ECC-DD46-4563-B963-1B26B5ED9657",
+    "subCategory": [
+        "C06"
+    ],
     "ingredientsDesc": [
         "Human Immunoglobulin G"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D4B2A17F-6E2D-4E74-BB88-07598A0B3C0C",
             "factoryCode": "1",
             "factoryName": "CSL BEHRING (AUSTRALIA) PTY LTD",
             "factoryAddr": "189-209 CAMP ROAD BROADMEADOWS VICTORIA 3047 AUSTRALIA ",
@@ -51,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FAU0041000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "BD101D88-88EC-499B-9BB0-F9F9E6D23E93",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -67,18 +80,21 @@
             ],
             "processCodeStr": "1A;二級包裝廠",
             "factoryKind": "M",
-            "factoryNo": "1225204000",
+            "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004000650",
+            "ingredientsName": "Human Immunoglobulin G",
             "ingredientsDesc": "Human Immunoglobulin G",
             "concentDesc": "",
-            "concent": "60.000",
+            "concent": "60.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -95,65 +111,8 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "79F18F8D-D7D0-4BE9-AC76-D454E502D073",
-            "approvedDocNo": "1120708133",
-            "approvedDate": "2023-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C28844F1-614C-4447-835F-9C904542D945",
-            "approvedDocNo": "1110728253",
-            "approvedDate": "2023-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3AE2204A-150A-472D-9010-646734686A9D",
-            "approvedDocNo": "1110728090",
-            "approvedDate": "2023-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1DCE2359-CC09-47F7-B225-EF87A0AA05BA",
-            "approvedDocNo": "1096042045",
-            "approvedDate": "2021-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF7CED5B-CBEF-4A76-9126-06ECB653C5F6",
-            "approvedDocNo": "1096004868",
-            "approvedDate": "2020-06-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6E1C3648-4342-4EA3-B903-F4AB4C955C51",
-            "approvedDocNo": "1086011786",
-            "approvedDate": "2019-07-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J06BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "J06BA02"

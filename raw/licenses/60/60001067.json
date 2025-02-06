@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001067",
+    "licUnit": "1",
     "validDate": "2027-12-09 00:00:00.000",
     "issueDate": "2017-12-09 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000106703",
     "prodNameC": "易來力注射液150毫克\/毫升",
     "prodNameE": "Ilaris 150mg\/mL solution for injection",
     "indicationsName": [
-        "Ilaris適用於治療成人、青少年及2歲以上兒童（體重超過7.5 kg）的Cryopyrin相關週期性症候群 (Cryopyrin-Associated Periodic Syndrome；CAPS)，包括：\r\n-\tMuckle-Wells症候群 (MWS)，\r\n-\t新生兒多重系統發炎疾病 (Neonatal-Onset Multisystem Inflammatory Disease；NOMID) \/ 慢性嬰兒神經學、皮膚、關節症候群 (Chronic Infantile Neurological, Cutaneous, Articular Syndrome；CINCA)，\r\n-\t嚴重型的家族性冷因性自體發炎症候群 (Familial Cold Autoinflammatory Syndrome；FCAS)\/家族性冷因性蕁麻疹 (Familial Cold Urticaria；FCU)，即其徵兆與症狀表現較寒冷所誘發之蕁麻性皮疹更為嚴重。"
+        "1.適用於治療成人、青少年及2 歲以上兒童(體重超過7.5 kg)的Cryopyrin 相關週期性症候群(Cryopyrin-Associated Periodic Syndrome；CAPS)，包括：\n(1) Muckle-Wells 症候群(MWS)，\n(2) 新生兒多重系統發炎疾病(Neonatal-Onset Multisystem Inflammatory Disease；NOMID)\/慢性嬰兒神經學、皮膚、關節症候群(Chronic Infantile Neurological, Cutaneous, Articular Syndrome；CINCA)，\n(3) 嚴重型的家族性冷因性自體發炎症候群(Familial Cold Autoinflammatory Syndrome；FCAS)\/家族性冷因性蕁麻疹(Familial Cold Urticaria；FCU)，即其徵兆與症狀表現較寒冷所誘發之蕁麻性皮疹更為嚴重。\n2. 適用於治療 2 歲以上的活動性全身性幼年型原發性關節炎 (Systemic Juvenile Idiopathic Arthritis, SJIA) 病人。"
     ],
     "does": "2270",
     "packageUnit": [
@@ -27,6 +31,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "3D5A31E3-7FB1-4742-BCF5-01C6F95079B6",
+    "subCategory": [
+        "C0505"
+    ],
     "ingredientsDesc": [
         "Canakinumab"
     ],
@@ -46,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "840DED27-2B70-4288-AB09-9F48653DBEED",
             "factoryCode": "1",
             "factoryName": "NOVARTIS PHARMA STEIN AG",
             "factoryAddr": "SCHAFFHAUSERSTRASSE CH-4332 STEIN, SWITZERLAND",
@@ -56,9 +66,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0099000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1D48D946-DBBA-49C2-A39E-17C6565C13FE",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -74,9 +87,12 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "9FFABE50-E3E2-49B9-BDE8-4A12085EEAD0",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA S.A.S.",
             "factoryAddr": "8, RUE DE L'INDUSTRIE, F-68330 HUNINGUE, FRANCE",
@@ -92,16 +108,40 @@
             "factoryKind": "M",
             "factoryNo": "FFR0220000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "2E4079E2-5225-437C-BD9B-87046C200676",
+            "factoryCode": "2",
+            "factoryName": "LEK PHARMACEUTICALS D.D",
+            "factoryAddr": "VEROVSKOVA 57, SL-1526 LJUBLJANA, SLOVENIA",
+            "factoryCompanyAddr": null,
+            "countryCode": "SI",
+            "processCode": [
+                {
+                    "value": "1A",
+                    "name": "二級包裝廠"
+                }
+            ],
+            "processCodeStr": "1A;二級包裝廠",
+            "factoryKind": "M",
+            "factoryNo": "FSI0003000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013002300",
+            "ingredientsName": "Canakinumab",
             "ingredientsDesc": "Canakinumab",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -110,72 +150,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C8BA9CAE-CFEA-40D9-9B5E-EE1FBDBC7E53",
-            "approvedDocNo": "1129045041",
-            "approvedDate": "2023-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F101C8AA-0F77-4A3A-9BD1-D78530CA9658",
-            "approvedDocNo": "1110704926",
-            "approvedDate": "2022-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BFDD391D-425C-4016-BC6D-72D3C77E85CB",
-            "approvedDocNo": "1106022361",
-            "approvedDate": "2022-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A7A30A70-9146-4697-93CB-CDD9E12F4808",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F19A04B1-2542-417F-AD5B-BF2B893BC4F3",
-            "approvedDocNo": "1096020769",
-            "approvedDate": "2020-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "03C7B70D-AE29-4B96-B5F9-6FB16FFC046F",
-            "approvedDocNo": "1096015501",
-            "approvedDate": "2020-09-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "04DA5324-6305-4B75-B9FF-29E8096AA5E4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D976E622-331E-429E-A781-DDA54E1C5CA9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

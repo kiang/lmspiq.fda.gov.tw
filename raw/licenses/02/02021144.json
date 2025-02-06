@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2024-12-31",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "02021144",
+    "licUnit": "1",
     "validDate": "2026-02-01 00:00:00.000",
     "issueDate": "2020-12-24 00:00:00.000",
+    "oriIssueDate": "1996-02-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202114408",
@@ -27,6 +33,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "339DB1AA-0041-4FE8-B9DC-8AA1C6500A42",
+    "subCategory": [],
     "ingredientsDesc": [
         "SALBUTAMOL SULFATE(ALBUTEROL SULFATE)",
         "SALBUTAMOL",
@@ -47,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CF48D2D2-0E00-402B-A3EA-FC389A554447",
             "factoryCode": "1",
             "factoryName": "ORION CORPORATION ORION PHARMA ESPOO PLANT",
             "factoryAddr": "ORIONINTIE 1, FIN-02200 ESPOO, FINLAND",
@@ -57,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "FFI0009000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212000110",
+            "ingredientsName": "SALBUTAMOL SULFATE(ALBUTEROL SULFATE)",
             "ingredientsDesc": "SALBUTAMOL SULFATE(ALBUTEROL SULFATE)",
             "concentDesc": "27.11",
             "concent": "27.1100",
@@ -75,6 +88,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212000110",
+            "ingredientsName": "SALBUTAMOL SULFATE(ALBUTEROL SULFATE)",
             "ingredientsDesc": "SALBUTAMOL SULFATE(ALBUTEROL SULFATE)",
             "concentDesc": "241",
             "concent": "241.0000",
@@ -86,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212009100",
+            "ingredientsName": "SALBUTAMOL",
             "ingredientsDesc": "SALBUTAMOL",
             "concentDesc": "180",
             "concent": "180.0000",
@@ -97,53 +112,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "65641F02-2212-4555-875B-072A4021F858",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "012D4616-A77C-43B7-BF0C-E30ECA5C4CA5",
-            "approvedDocNo": "1101498173",
-            "approvedDate": "2022-02-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "45A88B55-0A62-445E-A1C6-F78EC22FDD0E",
-            "approvedDocNo": "1096808596",
-            "approvedDate": "2020-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E6AA32A2-9721-4720-B98D-5BEA6E39ED34",
-            "approvedDocNo": "1096808596",
-            "approvedDate": "2020-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BCF9D736-F0BD-4DAC-BE62-9A9A6E045DE2",
-            "approvedDocNo": "1096808596",
-            "approvedDate": "2020-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R03AC02"
-        },
         {
             "isMain": "1",
             "atcCode": "R03AC02"

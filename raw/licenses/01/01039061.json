@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039061",
+    "licUnit": "1",
     "validDate": "2025-07-20 00:00:00.000",
     "issueDate": "1995-07-20 00:00:00.000",
+    "oriIssueDate": "1995-07-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103906107",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EF84C3FA-7D81-428E-83CB-C1AA330623CF",
+    "subCategory": [],
     "ingredientsDesc": [
         "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
         "DEXTROMETHORPHAN HBR"
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1039C28F-F9B2-4BE7-89A6-5D146C48FA97",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": "3",
             "concent": "3.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001420",
+            "ingredientsName": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -86,36 +98,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DDCAB18B-234F-452E-A1A0-B8C81F179A05",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68D6F149-DC9F-4FE1-90D3-D9425ECBEB2D",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05CA03"
-        },
         {
             "isMain": "1",
             "atcCode": "R05FA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA09"
         }
     ],
     "licBaseId": "E0C7C8FC-070B-4B96-8AC2-47E447225F54"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049675",
+    "licUnit": "1",
     "validDate": "2028-09-22 00:00:00.000",
     "issueDate": "2008-09-22 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104967509",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "9CE24601-A77D-4F81-B30C-4F59DA433E76",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "METHYL SALICYLATE",
         "DL-CAMPHOR ",
@@ -44,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E74A087E-BACD-4EB1-B6EF-93207D3648E4",
             "factoryCode": "1",
             "factoryName": "得生製藥股份有限公司二廠",
             "factoryAddr": "台南市永康區環工路42-1號",
@@ -54,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "6141311164",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000330",
+            "ingredientsName": "L-MENTHOL",
             "ingredientsDesc": "L-MENTHOL",
             "concentDesc": "",
             "concent": "108.0000",
@@ -72,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000103",
+            "ingredientsName": "DL-CAMPHOR ",
             "ingredientsDesc": "DL-CAMPHOR ",
             "concentDesc": "",
             "concent": "135.0000",
@@ -83,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424400200",
+            "ingredientsName": "METHYL SALICYLATE",
             "ingredientsDesc": "METHYL SALICYLATE",
             "concentDesc": "",
             "concent": "162.0000",
@@ -94,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000213",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA DL-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA DL-",
             "concentDesc": "",
             "concent": "40.5000",
@@ -105,52 +121,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "27DA09E2-6C30-4508-9CB5-2D412EF58C92",
-            "approvedDocNo": "1120807817",
-            "approvedDate": "2023-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CE87D7AF-215F-4B71-8230-94FCEFDFB4A9",
-            "approvedDocNo": "1086602318",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "994F9691-B7BA-4CED-8816-966C66A4BA9D",
-            "approvedDocNo": "1076616690",
-            "approvedDate": "2019-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FC196A09-ADDD-411F-9687-9D7A67742A55",
-            "approvedDocNo": "1076616690",
-            "approvedDate": "2019-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "M02AC"
-        },
         {
             "isMain": "1",
             "atcCode": "M02AC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
         }
     ],
     "licBaseId": "F6C51F3A-050C-43D7-8742-95F3FABE8451"

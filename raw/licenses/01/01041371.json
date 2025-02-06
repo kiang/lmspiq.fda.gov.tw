@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01041371",
+    "licUnit": "1",
     "validDate": "2025-07-06 00:00:00.000",
     "issueDate": "1997-06-11 00:00:00.000",
+    "oriIssueDate": "1997-06-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104137101",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5202F2EE-D254-40A7-812A-1E065929FF38",
+    "subCategory": [],
     "ingredientsDesc": [
         "NAPHAZOLINE HCL",
         "CHLORPHENIRAMINE MALEATE"
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "350D2D79-EB40-416F-BAA5-8D904CFE83AE",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
@@ -53,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001910",
+            "ingredientsName": "NAPHAZOLINE HCL",
             "ingredientsDesc": "NAPHAZOLINE HCL",
             "concentDesc": "0.5",
             "concent": "0.5000",
@@ -71,6 +82,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "1",
             "concent": "1.0000",
@@ -87,14 +99,6 @@
         {
             "isMain": "1",
             "atcCode": "R01AB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01AA08"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01AC"
         }
     ],
     "licBaseId": "0E4C78B2-E35C-4378-9DEB-EA681BC343EE"

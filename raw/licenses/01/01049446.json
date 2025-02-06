@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049446",
+    "licUnit": "1",
     "validDate": "2028-05-20 00:00:00.000",
     "issueDate": "2008-05-20 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104944607",
@@ -20,13 +24,16 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6F61F17A-13B8-4A12-A9F5-598C72618C80",
+    "subCategory": [],
     "ingredientsDesc": [
         "GABAPENTIN"
     ],
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9E16EC6F-7504-4245-A0E1-6EE3950B6A23",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區全興里中山路1001號、1001-1號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812001700",
+            "ingredientsName": "GABAPENTIN",
             "ingredientsDesc": "GABAPENTIN",
             "concentDesc": "",
             "concent": "800.0000",
@@ -75,64 +86,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B0450EAA-18E0-4066-A96B-6F8A7B44D76C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-09-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CB64D643-13B2-4F53-9175-3F3BB8E73F84",
-            "approvedDocNo": "1120803979",
-            "approvedDate": "2023-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7246DECD-328A-4EC4-A082-602EC6E6FD78",
-            "approvedDocNo": "1120803979",
-            "approvedDate": "2023-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FE403BC1-8917-4E79-83EF-B921168C6AFA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "87EC2920-862F-43E6-84C1-E76CFFBA1F09",
-            "approvedDocNo": "1086812479",
-            "approvedDate": "2019-12-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F054B9E3-D642-4AE0-B647-0E516CA6D2E6",
-            "approvedDocNo": "1086812479",
-            "approvedDate": "2019-12-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "N03AX12"
-        },
-        {
             "isMain": "1",
-            "atcCode": "N03AX12"
+            "atcCode": "N02BF01"
         }
     ],
     "licBaseId": "A8287D42-5A86-4700-A100-55AB2D0C1494"

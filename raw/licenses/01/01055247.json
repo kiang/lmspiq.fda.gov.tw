@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055247",
+    "licUnit": "1",
     "validDate": "2025-08-06 00:00:00.000",
     "issueDate": "2010-08-06 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105524700",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "005DD725-3925-490C-973C-E55C3A821DB6",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "CINCHOCAINE HYDROCHLORIDE",
         "HYDROCORTISONE"
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BB98E5ED-8796-4B0E-A30F-A51E16D445A6",
             "factoryCode": "1",
             "factoryName": "西德有機化學藥品股份有限公司",
             "factoryAddr": "新北市三重區中正北路５６０巷３６號",
@@ -52,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "0608302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600085600",
+            "ingredientsName": "CINCHOCAINE HYDROCHLORIDE",
             "ingredientsDesc": "CINCHOCAINE HYDROCHLORIDE",
             "concentDesc": "",
             "concent": "5.0000",
@@ -70,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001100",
+            "ingredientsName": "HYDROCORTISONE",
             "ingredientsDesc": "HYDROCORTISONE",
             "concentDesc": "",
             "concent": "5.0000",
@@ -81,92 +95,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3CA313C4-C3FF-4F51-AE11-D98E76B97413",
-            "approvedDocNo": "1129068557",
-            "approvedDate": "2023-12-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B16F82F7-F66B-4101-AA95-5E42D21B34FC",
-            "approvedDocNo": "1119065510",
-            "approvedDate": "2023-06-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "914C9A80-168A-4073-B1CF-E5C4B573534E",
-            "approvedDocNo": "1110015937",
-            "approvedDate": "2022-08-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "11B15209-F41E-4354-B69F-863421D46DB7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C8590474-E396-4055-A789-57FA87ED2A4C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AD15638D-DCFA-48C8-B166-238A5BDE730A",
-            "approvedDocNo": "1076612968",
-            "approvedDate": "2019-05-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "25E7B457-ABE1-45D3-9D7C-92D7DFF81001",
-            "approvedDocNo": "1076612968",
-            "approvedDate": "2019-05-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9CC2C0D6-60A3-498C-9FCF-ECA3DFBA6C73",
-            "approvedDocNo": "1076612968",
-            "approvedDate": "2019-05-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0786F74F-79DC-4B01-906B-F519391B47AF",
-            "approvedDocNo": "1076612968",
-            "approvedDate": "2019-05-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C05AA01"
-        },
         {
             "isMain": "1",
             "atcCode": "C05A"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AD04"
         }
     ],
     "licBaseId": "8184480E-13BB-4B6A-B369-0D76B02E7084"

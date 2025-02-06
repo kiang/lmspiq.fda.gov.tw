@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "09000089",
+    "licUnit": "1",
     "validDate": "2029-01-24 00:00:00.000",
     "issueDate": "2018-08-09 00:00:00.000",
+    "oriIssueDate": "1994-01-24",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHY00900008904",
@@ -35,6 +39,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "296CB6D5-BF57-4021-B14C-A5249B39DD49",
+    "subCategory": [],
     "ingredientsDesc": [
         "TETANUS TOXOID"
     ],
@@ -53,6 +60,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "844D5F7F-D94A-4495-A9E2-21DEAD01916B",
             "factoryCode": "1",
             "factoryName": "國光生物科技股份有限公司",
             "factoryAddr": "台中市潭子區潭興路一段三號",
@@ -63,9 +71,12 @@
             "factoryKind": "M",
             "factoryNo": "1101110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "819E9B19-3D22-4456-B6FF-5E978CBB2803",
             "factoryCode": "2",
             "factoryName": "聯亞藥業股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉中興村光復北路45號",
@@ -76,16 +87,19 @@
             "factoryKind": "M",
             "factoryNo": "6133061495",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8008000200",
+            "ingredientsName": "TETANUS TOXOID",
             "ingredientsDesc": "TETANUS TOXOID",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "218",
             "seq": "0",
             "prescription_seq": "1",
@@ -94,37 +108,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6D9C86EC-9864-4594-A870-E8C25A91473D",
-            "approvedDocNo": "1129049128",
-            "approvedDate": "2023-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4803C75C-CCDB-496A-81AA-CC3126B6C433",
-            "approvedDocNo": "1129034192",
-            "approvedDate": "2023-08-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "77CD5EF5-04B9-4EC1-B4CA-3BA0488AAA9C",
-            "approvedDocNo": "1129010535",
-            "approvedDate": "2023-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J07AM01"
-        },
         {
             "isMain": "1",
             "atcCode": "J07AM01"

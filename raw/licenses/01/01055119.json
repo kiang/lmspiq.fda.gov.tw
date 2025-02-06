@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055119",
+    "licUnit": "1",
     "validDate": "2025-07-19 00:00:00.000",
     "issueDate": "2010-07-19 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105511904",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "AF96A0CA-3519-4D59-991B-09A4FDA41123",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "GLUCOSAMINE SULFATE SODIUM CHLORIDE"
     ],
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5B5D5349-F1C6-418C-8AF2-FE574AC379DB",
             "factoryCode": "1",
             "factoryName": "旭能醫藥生技股份有限公司",
             "factoryAddr": "苗栗縣竹南鎮科研路25號",
@@ -55,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "6135041348",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600013331",
+            "ingredientsName": "GLUCOSAMINE SULFATE SODIUM CHLORIDE",
             "ingredientsDesc": "GLUCOSAMINE SULFATE SODIUM CHLORIDE",
             "concentDesc": "eq. to Glucosamine Sulfate 500 mg",
             "concent": "628.0000",
@@ -73,63 +86,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "81738AB1-E738-4252-B7AF-5B8A32346780",
-            "approvedDocNo": "1086024018",
-            "approvedDate": "2019-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D3173493-5AEE-482E-A9C1-5BFAAEDD8970",
-            "approvedDocNo": "1086024018",
-            "approvedDate": "2019-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AC334061-D1CA-42E9-A7FB-75745E54875C",
-            "approvedDocNo": "1086024018",
-            "approvedDate": "2019-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F3BD451A-3A5B-482B-80A0-717F0A835F04",
-            "approvedDocNo": "1086012604",
-            "approvedDate": "2019-09-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BE688FF9-02EF-4A9F-B9D4-990D30A5D8BF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A8EB3790-5EBB-4CD2-ACE5-0ECB1BBC825C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "M01AX05"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M01AX05"
         }
     ],

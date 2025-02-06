@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000907",
+    "licUnit": "1",
     "validDate": "2026-07-01 00:00:00.000",
     "issueDate": "2011-07-01 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000090700",
@@ -35,12 +39,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "06A9E912-BE44-4084-B094-E4C86B58FFE0",
+    "subCategory": [],
     "ingredientsDesc": [
         "Tocilizumab"
     ],
     "restraintItemsCode": [
         "02",
-        "07"
+        "07",
+        "67"
     ],
     "applicantName": "台灣中外製藥股份有限公司",
     "applicantAddr": "台北市松山區敦化北路260號3樓",
@@ -54,6 +62,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A31B688D-CD6F-4C85-95DC-471237975568",
             "factoryCode": "1",
             "factoryName": "UTSUNOMIYA PLANT OF CHUGAI PHARMA MANUFACTURING CO., LTD.",
             "factoryAddr": "16-3 KIYOHARA KOGYODANCHI, UTSUNOMIYA-CITY, TOCHIGI, JAPAN",
@@ -69,9 +78,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP0724000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2A43FE1C-3445-4B81-A1E4-8988BF7A4BF5",
             "factoryCode": "2",
             "factoryName": "Nipro Pharma Corporation Ise Plant",
             "factoryAddr": "647-240, Ureshinotengeji-cho, Matsusaka-shi, Mie 515-2302, Japan",
@@ -87,9 +99,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP9444000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "FF7B689D-8E89-4592-B0FE-709BA1A03ADF",
             "factoryCode": "2",
             "factoryName": "Samsung Biologics Co. Ltd.",
             "factoryAddr": "300 Songdo bio-daero, Yeonsu-gu, Incheon City, Korea 21987, Korea Republic",
@@ -105,16 +120,19 @@
             "factoryKind": "M",
             "factoryNo": "FKR0186000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013002800",
+            "ingredientsName": "Tocilizumab",
             "ingredientsDesc": "Tocilizumab",
             "concentDesc": null,
-            "concent": "20.000",
+            "concent": "20.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -123,143 +141,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6A13352B-1E8A-442C-8CD4-2428600D26A3",
-            "approvedDocNo": "1110713610",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "925E8CEC-DBB8-417B-A6D3-C9823DADD655",
-            "approvedDocNo": "1110713610",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B2B6FB06-7882-479A-A732-E4E118E0775F",
-            "approvedDocNo": "1110713610",
-            "approvedDate": "2023-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "077904E6-9C57-4E6D-AD88-C19F255BE3EE",
-            "approvedDocNo": "1119052081",
-            "approvedDate": "2023-02-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B3EE7736-75D7-4C56-9393-80AC30C1A87C",
-            "approvedDocNo": "1110712336",
-            "approvedDate": "2022-10-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2A2F52B7-93B0-4BF3-A2DA-28BE6CED7C55",
-            "approvedDocNo": "1110712336",
-            "approvedDate": "2022-10-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1F3DD49C-DE36-4F33-8E76-E72E851A71F9",
-            "approvedDocNo": "1110712336",
-            "approvedDate": "2022-10-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68C8A678-B276-4C05-92AB-E37330E6F7EA",
-            "approvedDocNo": "1110712336",
-            "approvedDate": "2022-10-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EDD7A1CB-76B5-48AE-84E6-FA0CC949204C",
-            "approvedDocNo": "1101495967",
-            "approvedDate": "2022-03-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "91380F8A-500F-4B10-A046-CD031EBA25A3",
-            "approvedDocNo": "1101495967",
-            "approvedDate": "2022-03-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "291C1876-7A62-477D-A85A-6AFD8933BBED",
-            "approvedDocNo": "1101495967",
-            "approvedDate": "2022-03-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1BBEC287-478F-49DF-8756-930E56AD2CED",
-            "approvedDocNo": "1091496200",
-            "approvedDate": "2021-03-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4FF2FA11-95CD-412F-B2BB-4989A7F7877B",
-            "approvedDocNo": "1081491539",
-            "approvedDate": "2020-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "514205E5-0852-4F8E-9AA9-118A7A8E4A35",
-            "approvedDocNo": "1081490454",
-            "approvedDate": "2019-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "614544B7-3A1A-4F26-8C03-F08C9D3E9723",
-            "approvedDocNo": "1081490454",
-            "approvedDate": "2019-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BE9FA29E-5495-40E2-849C-29BA4CA4C1EA",
-            "approvedDocNo": "1081491031",
-            "approvedDate": "2019-10-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L04AC07"
-        },
-        {
-            "isMain": "2",
             "atcCode": "L04AC07"
         }
     ],

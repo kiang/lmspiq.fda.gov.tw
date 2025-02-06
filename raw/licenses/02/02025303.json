@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025303",
+    "licUnit": "1",
     "validDate": "2025-12-03 00:00:00.000",
     "issueDate": "2010-12-03 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202530309",
@@ -27,13 +31,17 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C250D9F8-230C-4B4E-9A57-69245A022C05",
+    "subCategory": [],
     "ingredientsDesc": [
         "PLERIXAFOR"
     ],
     "restraintItemsCode": [
         "02",
         "07",
-        "58"
+        "58",
+        "68"
     ],
     "applicantName": "賽諾菲股份有限公司",
     "applicantAddr": "台北市信義區松仁路3號7樓",
@@ -47,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E1543F0F-6682-4786-97E0-DCE1661079CA",
             "factoryCode": "1",
             "factoryName": "GENZYME CORPORATION",
             "factoryAddr": "1125 PLEASANTVIEW TERRACE RIDGEFIELD, NJ 07657, U.S.A.",
@@ -57,9 +66,12 @@
             "factoryKind": "M",
             "factoryNo": "MUS1010000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "FBD34163-BFB7-48F4-AB22-8E67ACF2EA87",
             "factoryCode": "2",
             "factoryName": "EUROAPI UK LIMITED",
             "factoryAddr": "37 HOLLANDS ROAD, HAVERHILL, SUFFOLK, CB9 8PU, UNITED KINGDOM",
@@ -75,9 +87,12 @@
             "factoryKind": "M",
             "factoryNo": "FGB0200100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "E769BF3C-5794-4744-BEC4-EAB85F888951",
             "factoryCode": "2",
             "factoryName": "GENZYME CORPORATION",
             "factoryAddr": "500 KENDALL STREET, CAMBRIDGE, MA 02142, U.S.A.",
@@ -93,13 +108,16 @@
             "factoryKind": "O",
             "factoryNo": "FUS0348100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200092800",
+            "ingredientsName": "PLERIXAFOR",
             "ingredientsDesc": "PLERIXAFOR",
             "concentDesc": null,
             "concent": "20.0000",
@@ -111,77 +129,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1BE78736-B4C9-4B63-9C39-D0ACBD2E7382",
-            "approvedDocNo": "1129043856",
-            "approvedDate": "2024-01-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BC9C4C8F-B55E-42D3-BBD8-0653B1519767",
-            "approvedDocNo": "1109501502",
-            "approvedDate": "2022-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AAF2BDCF-1266-411F-B56D-A9201ABE5A0C",
-            "approvedDocNo": "1086033910",
-            "approvedDate": "2020-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "916E08A5-8B04-4CDE-9B7A-2B47DC19A30F",
-            "approvedDocNo": "1086033910",
-            "approvedDate": "2020-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F22138E0-EDD3-4958-ABED-93121A70D591",
-            "approvedDocNo": "1086033910",
-            "approvedDate": "2020-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C839E0FB-93E2-406F-A178-9E33484A22E8",
-            "approvedDocNo": "1086033910",
-            "approvedDate": "2020-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F110137D-2CA4-40E7-B918-A30288BE1A9A",
-            "approvedDocNo": "1086024804",
-            "approvedDate": "2019-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8E79A6A4-C998-4221-A653-1265D4F91A2D",
-            "approvedDocNo": "1086024804",
-            "approvedDate": "2019-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "L03AX16"
-        },
         {
             "isMain": "1",
             "atcCode": "L03AX16"

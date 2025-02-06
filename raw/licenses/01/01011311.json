@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01011311",
+    "licUnit": "1",
     "validDate": "2025-07-03 00:00:00.000",
     "issueDate": "1976-12-13 00:00:00.000",
+    "oriIssueDate": "1976-12-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101131104",
@@ -20,13 +24,16 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "C7"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F0CE625E-ECC7-4BDE-8E8B-1928050FB8E8",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAFFEINE",
         "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
@@ -50,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CF3CC5CE-0191-4E51-9548-98AF987E51D8",
             "factoryCode": "1",
             "factoryName": "衛肯生技製藥股份有限公司",
             "factoryAddr": "桃園市平鎮區工業十路15號",
@@ -60,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "6132100028",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": null,
             "concent": "0.1200",
@@ -78,6 +89,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": null,
             "concent": "0.4950",
@@ -89,6 +101,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": null,
             "concent": "1.5000",
@@ -100,6 +113,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": null,
             "concent": "15.0000",
@@ -111,6 +125,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001420",
+            "ingredientsName": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "concentDesc": null,
             "concent": "2.4900",
@@ -122,88 +137,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7C5118C6-91BA-48EA-B496-0F4552028239",
-            "approvedDocNo": "1086601380",
-            "approvedDate": "2019-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "519FCC89-EB68-4DA1-9A69-640643BB1EE0",
-            "approvedDocNo": "1086601380",
-            "approvedDate": "2019-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0A2018D9-331C-46E9-9B2B-86A83F6BCA99",
-            "approvedDocNo": "1086601380",
-            "approvedDate": "2019-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1446A837-0359-4426-9B1B-A8EAF6C308A8",
-            "approvedDocNo": "1086601380",
-            "approvedDate": "2019-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "20D78417-7827-45FA-BD82-AA15010ACBF4",
-            "approvedDocNo": "1086601380",
-            "approvedDate": "2019-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E9755106-42EE-46C8-B072-ACFDBEA4D246",
-            "approvedDocNo": "1086601380",
-            "approvedDate": "2019-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4940ECE5-3088-4277-8FE3-EFA944F17206",
-            "approvedDocNo": "1086601380",
-            "approvedDate": "2019-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
-        },
         {
             "isMain": "1",
             "atcCode": "R05X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
         }
     ],
     "licBaseId": "5FAEFF26-0F6E-4E5E-983E-44C65C1975E1"

@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2024-12-31",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "02023793",
+    "licUnit": "1",
     "validDate": "2028-08-11 00:00:00.000",
     "issueDate": "2003-08-11 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202379303",
@@ -23,6 +29,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4978989D-E187-4C29-94A5-CC6F59F8E3AC",
+    "subCategory": [],
     "ingredientsDesc": [
         "KETOTIFEN"
     ],
@@ -41,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "131A0BF7-F056-4711-9532-BDCBBB31759A",
             "factoryCode": "1",
             "factoryName": "EXCELVISION",
             "factoryAddr": "27, RUE DE LA LOMBARDIERE, 07100 ANNONAY, FRANCE",
@@ -56,9 +66,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0154000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "CBF6E3D7-B8D2-4AE5-AA15-D777F513BDAB",
             "factoryCode": "2",
             "factoryName": "SERVIPAC",
             "factoryAddr": "COURS OFFENBACH, ROUTE DE MONTELIER 26000 VALENCE, FRANCE",
@@ -74,13 +87,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0395000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400002400",
+            "ingredientsName": "KETOTIFEN",
             "ingredientsDesc": "KETOTIFEN",
             "concentDesc": null,
             "concent": "0.2500",
@@ -92,56 +108,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CBC9B077-5C80-4232-8E09-29968B3C7F98",
-            "approvedDocNo": "1110717984",
-            "approvedDate": "2022-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DF08405C-9375-4F32-93DB-D67BC31C5A7B",
-            "approvedDocNo": "1110717984",
-            "approvedDate": "2022-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5725ED08-28C2-4E70-BBBF-91E97D224F17",
-            "approvedDocNo": "1106004648",
-            "approvedDate": "2021-08-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CB9FB87B-6AF2-490F-BCA5-180A9FA216B6",
-            "approvedDocNo": "1106004648",
-            "approvedDate": "2021-08-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B71DCDFC-BDC2-4DB9-9AAE-1C0BC757EA4C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5ADA5F41-5F31-4F49-BA75-5F5D0E60C3A6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

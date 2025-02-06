@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001011",
+    "licUnit": "1",
     "validDate": "2026-01-20 00:00:00.000",
     "issueDate": "2016-01-20 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000101102",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "72925037-79FC-425F-BA87-752D19C0A9F6",
+    "subCategory": [],
     "ingredientsDesc": [
         "INSULIN GLARGINE"
     ],
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8CFEC018-1862-48B3-BFD3-8B1FBB4D44D8",
             "factoryCode": "1",
             "factoryName": "SANOFI-AVENTIS DEUTSCHLAND GMBH",
             "factoryAddr": "BRUNINGSTRASSE 50,D-65926 FRANKFURT AM (MAIN) GERMANY",
@@ -52,9 +60,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0273000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7B682552-EB8C-4764-9B6A-04241BB26763",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
             "factoryAddr": "桃園市楊梅區梅獅路二段629號",
@@ -70,16 +81,19 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820801100",
+            "ingredientsName": "INSULIN GLARGINE",
             "ingredientsDesc": "INSULIN GLARGINE",
             "concentDesc": "",
-            "concent": "10.910",
+            "concent": "10.9100",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,48 +102,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "06E62489-3887-40CA-A1B6-043C003A1CB9",
-            "approvedDocNo": "1106001070",
-            "approvedDate": "2021-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB3624E9-9283-4F95-976B-8C5F0CFD3325",
-            "approvedDocNo": "1091497108",
-            "approvedDate": "2021-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CCFA5F3C-33A0-4B19-8062-B51EB922F2B9",
-            "approvedDocNo": "1086039449",
-            "approvedDate": "2020-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C338EE3-CED5-4C9B-B6EA-F14938EE461B",
-            "approvedDocNo": "1086039449",
-            "approvedDate": "2020-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CA4CCF0C-A86B-4056-99F8-0E9CBE1367FE",
-            "approvedDocNo": "1086039449",
-            "approvedDate": "2020-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

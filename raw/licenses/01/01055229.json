@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055229",
+    "licUnit": "1",
     "validDate": "2025-07-23 00:00:00.000",
     "issueDate": "2010-07-23 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105522901",
@@ -31,6 +35,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "725B36B5-CBC8-4669-A666-3AF5FB71B470",
+    "subCategory": [],
     "ingredientsDesc": [
         "Carbon Dioxide (CO2) contains not less than 99.0%(v\/v)"
     ],
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A5C8EC68-78F3-4C31-8F97-3B09C05C933A",
             "factoryCode": "1",
             "factoryName": "三鶯氣體有限公司鶯歌廠",
             "factoryAddr": "新北市鶯歌區二甲路360號",
@@ -59,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "6131081042",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Carbon Dioxide (CO2) contains not less than 99.0%(v\/v)",
             "ingredientsDesc": "Carbon Dioxide (CO2) contains not less than 99.0%(v\/v)",
             "concentDesc": null,
             "concent": null,
@@ -77,63 +88,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "45B61778-4A5F-4BE8-A17E-4587AA7EC321",
-            "approvedDocNo": "1106017563",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A7F15F41-397D-41D2-A827-C646394CE9B8",
-            "approvedDocNo": "1106017563",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CA5D7C5A-D7AD-4FD7-8475-2EC98100F2FA",
-            "approvedDocNo": "1106012587",
-            "approvedDate": "2021-05-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0AC7A370-491E-4C1B-9F00-529C76FEF4BE",
-            "approvedDocNo": "1096024919",
-            "approvedDate": "2020-10-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "64920DE1-64F1-4442-BDB8-63A1CCDAFD03",
-            "approvedDocNo": "1096024919",
-            "approvedDate": "2020-10-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "554E09D0-40EB-446F-AAB6-862CDDB395BA",
-            "approvedDocNo": "1096024919",
-            "approvedDate": "2020-10-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "V03AN02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "V03AN02"
         }
     ],

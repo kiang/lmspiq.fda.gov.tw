@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059809",
+    "licUnit": "1",
     "validDate": "2027-11-13 00:00:00.000",
     "issueDate": "2017-11-13 00:00:00.000",
+    "oriIssueDate": null,
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105980903",
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D36849B2-85D1-49C9-B19C-52BE2CDA085A",
+    "subCategory": [],
     "ingredientsDesc": [
         "VALSARTAN",
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)"
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "AFCC1A63-825B-4467-981C-8F55434E8C2D",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司二廠",
             "factoryAddr": "台南市新營區開元路１５４號",
@@ -54,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "6141010064",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005100",
+            "ingredientsName": "VALSARTAN",
             "ingredientsDesc": "VALSARTAN",
             "concentDesc": "",
-            "concent": "80.000",
+            "concent": "80.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": "",
-            "concent": "12.500",
+            "concent": "12.5000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,60 +95,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6282E987-049D-4C70-96FD-7C9A96B77710",
-            "approvedDocNo": "1110608764",
-            "approvedDate": "2022-11-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "432E4B8C-AF86-4041-82C7-80B30D7F5F7C",
-            "approvedDocNo": "1119028472",
-            "approvedDate": "2022-08-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F0C8C9D-3DB6-4FC9-B901-DD926B301CD0",
-            "approvedDocNo": "1096609855",
-            "approvedDate": "2020-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31DB596B-76C4-47A1-82D9-FCF960BFE84F",
-            "approvedDocNo": "1080019739",
-            "approvedDate": "2019-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "225E5525-6247-4B0E-9D58-9FD136F20845",
-            "approvedDocNo": "1080019739",
-            "approvedDate": "2019-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
-        },
         {
             "isMain": "1",
             "atcCode": "C09DA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09CA03"
         }
     ],
     "licBaseId": "87A3493D-6918-48E8-BE15-FB941EBB6005"
