@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060538",
+    "licUnit": "1",
     "validDate": "2025-08-13 00:00:00.000",
     "issueDate": "2020-08-13 00:00:00.000",
+    "oriIssueDate": "2020-08-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106053801",
@@ -27,13 +31,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "0E575A66-8BD9-4369-BC93-BBA638698337",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "TADALAFIL"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "62"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "62 完成溶離率試驗"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -47,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "24F9E5CF-55DB-4888-9C05-243D895DF3F6",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
@@ -57,16 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200043000",
+            "ingredientsName": "TADALAFIL",
             "ingredientsDesc": "TADALAFIL",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,32 +88,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1FC373A8-B042-4C79-85E5-15123A2FA19A",
-            "approvedDocNo": "1096818852",
-            "approvedDate": "2021-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FB2F5881-4F6C-41C3-8DFB-171AD3F6AF83",
-            "approvedDocNo": "1096818852",
-            "approvedDate": "2021-04-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "65B49462-3E51-4262-A392-673DB37FDA83",
-            "approvedDocNo": "1096805345",
-            "approvedDate": "2020-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

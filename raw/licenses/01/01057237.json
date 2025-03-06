@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057237",
+    "licUnit": "1",
     "validDate": "2027-05-30 00:00:00.000",
     "issueDate": "2012-05-30 00:00:00.000",
+    "oriIssueDate": "2012-05-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105723707",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "14172B3D-8096-4714-B0A0-93A08BFE63D7",
+    "subCategory": [],
     "ingredientsDesc": [
         "LOSARTAN POTASSIUM",
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "中化裕民健康事業股份有限公司",
     "applicantAddr": "台北市中正區襄陽路23號8樓",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0AC1A7CB-D039-4790-B91D-D1A12AF0E650",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005210",
+            "ingredientsName": "LOSARTAN POTASSIUM",
             "ingredientsDesc": "LOSARTAN POTASSIUM",
             "concentDesc": null,
             "concent": "50.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": null,
             "concent": "12.5000",
@@ -86,65 +98,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D688FB7F-C913-44EF-A569-B648B7934328",
-            "approvedDocNo": "1110709998",
-            "approvedDate": "2022-05-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "65147BC0-F9AB-44A8-AB40-9E912244FF55",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "45A2D0FD-1C7C-4CB2-B5B7-1DD63925B4B6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-09-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1E928406-37D0-4BF0-A6B1-59DF73426902",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "826DD612-3A2A-4C96-ADFB-388CE424153C",
-            "approvedDocNo": "1086026993",
-            "approvedDate": "2020-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "43635FD1-29A7-408A-915C-7935F4EB6FF0",
-            "approvedDocNo": "1086022816",
-            "approvedDate": "2019-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C09CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
-        },
         {
             "isMain": "1",
             "atcCode": "C09DA01"

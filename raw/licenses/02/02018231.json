@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02018231",
+    "licUnit": "1",
     "validDate": "2025-08-28 00:00:00.000",
     "issueDate": "2015-04-23 00:00:00.000",
+    "oriIssueDate": "1990-08-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201823106",
@@ -23,11 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A288DF04-0183-4B22-B685-36C813EFE812",
+    "subCategory": [],
     "ingredientsDesc": [
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "嘉德藥品企業股份有限公司",
     "applicantAddr": "台北市中山區民生東路二段176號5樓",
@@ -41,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9F2FA2CA-7EBC-41E3-A79F-642929E4A969",
             "factoryCode": "1",
             "factoryName": "MERCK SANTE S.A.S",
             "factoryAddr": "CENTRE DE PRODUCTION SEMOY, 2 RUE DU PRESSOIR VERT, 45400 SEMOY, FRANCE",
@@ -51,9 +60,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0150000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8A15AD28-66C7-42AC-A5AA-D3195ABE851E",
             "factoryCode": "2",
             "factoryName": "MERCK SANTE S.A.S.",
             "factoryAddr": "37, RUE SAINT-ROMAIN 69379 LYON CEDEX 08, FRANCE",
@@ -69,13 +81,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0190000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": "",
             "concent": "850.0000",
@@ -95,45 +110,8 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3B44DFD5-37EA-4508-A2A8-97F1A884F3A3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D6CE53A7-8F0A-4134-B818-09A45535068D",
-            "approvedDocNo": "1101491792",
-            "approvedDate": "2021-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "15847378-2F68-4684-A37C-B67594889311",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-04-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "15DA119B-EC26-4F0C-B1C8-14A7F933D4D2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A10BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "A10BA02"

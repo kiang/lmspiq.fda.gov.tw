@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027203",
+    "licUnit": "1",
     "validDate": "2027-07-28 00:00:00.000",
     "issueDate": "2017-07-28 00:00:00.000",
+    "oriIssueDate": "2017-07-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202720308",
@@ -23,13 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "FCD2F6F5-AF20-4560-9639-7BDB22915084",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Rifapentine"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "賽諾菲股份有限公司",
     "applicantAddr": "台北市信義區松仁路3號7樓",
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7CB83D27-1A67-43E1-B565-AE6838D02B8D",
             "factoryCode": "1",
             "factoryName": "SANOFI S.R.L",
             "factoryAddr": "Via Valcanello 4, 03012 Anagni (FR), Italy",
@@ -53,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0450000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "C11A4740-F72C-4238-9499-A70756B6FB3A",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司高上倉",
             "factoryAddr": "桃園市楊梅區高上路1段150號",
@@ -71,9 +84,12 @@
             "factoryKind": "M",
             "factoryNo": "6132041444",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "CFD16D4F-F0DF-4D85-81CB-1C6CABF1FFE9",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
             "factoryAddr": "桃園市楊梅區梅獅路二段629號",
@@ -89,16 +105,19 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812900400",
+            "ingredientsName": "Rifapentine",
             "ingredientsDesc": "Rifapentine",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -107,64 +126,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D343607A-78D6-4D1F-B043-46944C9FA68A",
-            "approvedDocNo": "1119054666",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "76271C82-AC6B-43E4-A6A9-89261C987F44",
-            "approvedDocNo": "1101500189",
-            "approvedDate": "2022-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9B0C5F97-91C8-4ACD-A263-234E37DA01D6",
-            "approvedDocNo": "1101496641",
-            "approvedDate": "2021-12-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "77FAA5B0-9E54-4BC9-9EFF-8743D5D03D70",
-            "approvedDocNo": "1091491579",
-            "approvedDate": "2020-06-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "244445B1-6E9A-40CC-B553-E1895AA3591E",
-            "approvedDocNo": "1086018759",
-            "approvedDate": "2020-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6E908D84-639E-4F03-937C-2CBA29C6A1EC",
-            "approvedDocNo": "1086026575",
-            "approvedDate": "2019-12-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1C64E0CF-E19C-4B47-8450-BC6429BE9E85",
-            "approvedDocNo": "1086027450",
-            "approvedDate": "2019-12-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

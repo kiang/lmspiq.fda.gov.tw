@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000927",
+    "licUnit": "1",
     "validDate": "2027-05-24 00:00:00.000",
     "issueDate": "2012-05-24 00:00:00.000",
+    "oriIssueDate": "2012-05-24",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000092703",
@@ -23,15 +27,18 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F9F3ED9B-481B-47F0-B36C-653773B88445",
+    "subCategory": [],
     "ingredientsDesc": [
         "ROMIPLOSTIM"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
-    "applicantName": "台灣協和麒麟股份有限公司",
-    "applicantAddr": "台北市中山區中山北路二段68號9樓",
+    "applicantName": "台灣大昌華嘉股份有限公司",
+    "applicantAddr": "臺北市內湖區堤頂大道2段407巷20弄1、3、5、7號10樓，及22、24、26號10樓及22號10樓之1",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D8D60A0B-10BC-4E0C-A26F-4CE0471478FC",
             "factoryCode": "1",
             "factoryName": "KYOWA KIRIN CO., LTD. TAKASAKI PLANT",
             "factoryAddr": "100-1 HAGIWARA-MACHI, TAKASAKI-SHI, GUNMA, JAPAN",
@@ -57,9 +65,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP9458900",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "6DB5A269-2850-4BBB-8C81-CE435402CDB1",
             "factoryCode": "2",
             "factoryName": "瑪里士實業有限公司",
             "factoryAddr": "臺北市內湖區舊宗路二段121巷30號2樓、32號2樓、2樓之1及36號4樓",
@@ -75,9 +86,12 @@
             "factoryKind": "M",
             "factoryNo": "6101111420",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "0EB6FDC1-14C2-42CD-8365-F546A670F6C6",
             "factoryCode": "2",
             "factoryName": "KYOWA KIRIN CO., LTD.",
             "factoryAddr": "1-9-2 OTEMACHI, CHIYODA-KU, TOKYO, JAPAN ",
@@ -93,9 +107,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP1009000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "87C798F9-F88C-4B00-A2EC-856256FCCF3F",
             "factoryCode": "2",
             "factoryName": "ZUELLIG PHARMA SPECIALTY SOLUTIONS GROUP PTE. LTD.",
             "factoryAddr": "15 CHANGI NORTH WAY #01-02, #02-02, #02-10, SINGAPORE 498770",
@@ -111,170 +128,36 @@
             "factoryKind": "M",
             "factoryNo": "FSG0021200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012103100",
+            "ingredientsName": "ROMIPLOSTIM",
             "ingredientsDesc": "ROMIPLOSTIM",
             "concentDesc": null,
-            "concent": "375.000",
+            "concent": "375.0000",
             "concentUnit": "016",
             "seq": "1",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
-    "authDtoList": [],
-    "iomDtoList": [],
-    "changeDtoList": [
+    "authDtoList": [
         {
-            "licChgDocId": "B88721F9-2E7E-4BC3-9010-255BB907C1A1",
-            "approvedDocNo": "1120717121",
-            "approvedDate": "2023-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "05674DEF-22D4-4194-9972-8837EF095510",
-            "approvedDocNo": "1110722885",
-            "approvedDate": "2023-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F657F441-FAA7-44E6-90C6-A574623AD012",
-            "approvedDocNo": "1110722885",
-            "approvedDate": "2023-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7E738BA4-BEC0-4AF1-A915-D236D979FB47",
-            "approvedDocNo": "1110722885",
-            "approvedDate": "2023-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C2A9874A-8E87-438A-9B83-850E4EF865CD",
-            "approvedDocNo": "1110808895",
-            "approvedDate": "2023-02-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C2E84E56-2E3E-4090-A58C-39F66D19882C",
-            "approvedDocNo": "1106031346",
-            "approvedDate": "2022-04-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FD9A7D7C-CC22-4894-8D98-659B2EB5D913",
-            "approvedDocNo": "1086039933",
-            "approvedDate": "2020-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D6961A5E-5145-4D3F-B0C9-A0F3F752587C",
-            "approvedDocNo": "1086039933",
-            "approvedDate": "2020-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "529E8DAA-0720-402F-8F2C-FADD94C20C30",
-            "approvedDocNo": "1086039933",
-            "approvedDate": "2020-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7618FA54-A8D3-4122-AB74-BFA856C8033A",
-            "approvedDocNo": "1096018563",
-            "approvedDate": "2020-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7CAA0DE6-1C55-4EA3-9381-A4DDA4A56DB0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-03-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AA64774F-A827-4B5C-AE7F-8F1D90FA8336",
-            "approvedDocNo": "1081492423",
-            "approvedDate": "2020-02-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CD4F9D7C-35A5-45B1-B929-96402360E9FF",
-            "approvedDocNo": "1081492070",
-            "approvedDate": "2019-12-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4EFC408C-F383-421F-8D90-722F34E640B4",
-            "approvedDocNo": "1081492073",
-            "approvedDate": "2019-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F5D4EE2E-E7D2-45F8-95A4-2AC5F1EFC95B",
-            "approvedDocNo": "1081492069",
-            "approvedDate": "2019-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "775A5A08-D198-4566-BF41-E0E5AC1470D2",
-            "approvedDocNo": "1086006769",
-            "approvedDate": "2019-10-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5202BA15-6188-475B-AF41-D9E2BAA2DEED",
-            "approvedDocNo": "1086025974",
-            "approvedDate": "2019-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F675926B-88E6-45AB-937D-C95FF5A0D09A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
+            "applicantName": "台灣大昌華嘉股份有限公司",
+            "certNo": "DHA01000092714",
+            "approveDocNo": "1139068548",
+            "authDate": "2024-09-01",
+            "validDate": "2025-06-30"
         }
     ],
+    "iomDtoList": [],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

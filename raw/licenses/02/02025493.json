@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025493",
+    "licUnit": "1",
     "validDate": "2026-08-04 00:00:00.000",
     "issueDate": "2011-08-04 00:00:00.000",
+    "oriIssueDate": "2011-08-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202549301",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "030F9A2E-ADCA-4146-B4AD-68869D279349",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMLODIPINE BESYLATE",
         "OLMESARTAN MEDOXOMIL",
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣第一三共股份有限公司",
     "applicantAddr": "台北市中山區松江路223號13樓",
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3C96F2C9-4059-43BD-B5E4-FA68C8891525",
             "factoryCode": "1",
             "factoryName": "DAIICHI SANKYO EUROPE GMBH",
             "factoryAddr": "LUITPOLDSTRABE 1, D-85276 PFAFFENHOFEN, GERMANY",
@@ -53,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0579000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005910",
+            "ingredientsName": "OLMESARTAN MEDOXOMIL",
             "ingredientsDesc": "OLMESARTAN MEDOXOMIL",
             "concentDesc": null,
             "concent": "40.0000",
@@ -71,6 +82,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412402210",
+            "ingredientsName": "AMLODIPINE BESYLATE",
             "ingredientsDesc": "AMLODIPINE BESYLATE",
             "concentDesc": "(=Amlodipine 5 mg)",
             "concent": "6.9440",
@@ -82,6 +94,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": null,
             "concent": "25.0000",
@@ -93,77 +106,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F374D641-7F31-4C9E-A5A3-707D830C29D3",
-            "approvedDocNo": "1129025297",
-            "approvedDate": "2023-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "218174A5-20A6-4051-97B6-E972762A8269",
-            "approvedDocNo": "1091497333",
-            "approvedDate": "2021-07-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "13D65BBF-2256-489C-A0DC-83404E0781B8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7E267CB3-EE6B-4B70-9B8D-3EA85A963055",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FFC83277-8B87-479C-96CC-F24C16FF51ED",
-            "approvedDocNo": "1091493117",
-            "approvedDate": "2020-11-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "37023005-6ECA-4A9B-BEC6-1D2B64552D18",
-            "approvedDocNo": "1086812253",
-            "approvedDate": "2020-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7D887E12-F199-40A4-8F1D-F275EB7C8A3D",
-            "approvedDocNo": "1086812253",
-            "approvedDate": "2020-01-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09CA08"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C08CA01"
-        },
         {
             "isMain": "1",
             "atcCode": "C09DX03"

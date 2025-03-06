@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058813",
+    "licUnit": "1",
     "validDate": "2025-08-18 00:00:00.000",
     "issueDate": "2015-08-18 00:00:00.000",
+    "oriIssueDate": "2015-08-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105881302",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DE4FBEB9-2A79-46FC-960B-FC4944A64D04",
+    "subCategory": [],
     "ingredientsDesc": [
         "ROSUVASTATIN CALCIUM"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "62"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "62 完成溶離率試驗"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "82B5196B-68A0-4412-8F02-39AD0D73EC6F",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
@@ -57,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406003210",
+            "ingredientsName": "ROSUVASTATIN CALCIUM",
             "ingredientsDesc": "ROSUVASTATIN CALCIUM",
             "concentDesc": "(eq. to Rosuvastatin 20mg)",
-            "concent": "20.800",
+            "concent": "20.8000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,40 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7E2EF56F-03A0-4B1D-AF26-5E79E12CD7D6",
-            "approvedDocNo": "1110812276",
-            "approvedDate": "2023-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5AE0FE93-8827-4FCC-B6F6-7BCDCFBC1E9D",
-            "approvedDocNo": "1110812276",
-            "approvedDate": "2023-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FCBE46A3-1691-43D2-B25E-C111BAD4BB91",
-            "approvedDocNo": "1110812276",
-            "approvedDate": "2023-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ABF7B67E-1EE5-4548-975F-D0A9CECC7103",
-            "approvedDocNo": "1096818645",
-            "approvedDate": "2021-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

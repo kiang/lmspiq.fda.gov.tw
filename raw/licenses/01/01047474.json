@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047474",
+    "licUnit": "1",
     "validDate": "2025-08-08 00:00:00.000",
     "issueDate": "2005-08-08 00:00:00.000",
+    "oriIssueDate": "2005-08-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104747402",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "346DFD13-1898-400A-832B-3D9A5C9AB9F9",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "THIAMINE HCL (BIOTAMINE)",
         "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT",
@@ -37,7 +46,7 @@
         "PANTOTHENATE CALCIUM"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "賢德藥品有限公司",
     "applicantAddr": "台南市新營區嘉芳里茄苳腳60之1號",
@@ -51,6 +60,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "14E68C33-4F2D-4480-81C9-18922228309A",
             "factoryCode": "1",
             "factoryName": "正和製藥股份有限公司新營廠",
             "factoryAddr": "台南市新營區嘉芳里新工路２３號",
@@ -61,13 +71,16 @@
             "factoryKind": "M",
             "factoryNo": "0505720300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656900902",
+            "ingredientsName": "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT",
             "ingredientsDesc": "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT",
             "concentDesc": "",
             "concent": "107.7000",
@@ -79,6 +92,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810181700",
+            "ingredientsName": "THIAMINE HCL (BIOTAMINE)",
             "ingredientsDesc": "THIAMINE HCL (BIOTAMINE)",
             "concentDesc": "",
             "concent": "4.0000",
@@ -90,6 +104,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "",
             "concent": "4.0000",
@@ -101,6 +116,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000330",
+            "ingredientsName": "NICOTINAMIDE",
             "ingredientsDesc": "NICOTINAMIDE",
             "concentDesc": "",
             "concent": "12.0000",
@@ -112,6 +128,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "",
             "concent": "4.0000",
@@ -123,6 +140,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300200",
+            "ingredientsName": "PANTOTHENATE CALCIUM",
             "ingredientsDesc": "PANTOTHENATE CALCIUM",
             "concentDesc": "",
             "concent": "8.0000",
@@ -134,6 +152,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "",
             "concent": "1.2000",
@@ -145,56 +164,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "28C31265-7FE7-4A35-92A4-6B970B721DDD",
-            "approvedDocNo": "1086810255",
-            "approvedDate": "2019-11-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F3B86465-896F-455D-918A-8FC74FCBAE82",
-            "approvedDocNo": "1086810255",
-            "approvedDate": "2019-11-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A11EA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA31"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
         }
     ],
     "licBaseId": "F85DD93F-55B1-4937-B431-91547DDF2F8F"

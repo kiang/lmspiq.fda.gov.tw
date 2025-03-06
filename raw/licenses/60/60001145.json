@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001145",
+    "licUnit": "1",
     "validDate": "2025-11-16 00:00:00.000",
     "issueDate": "2020-11-16 00:00:00.000",
+    "oriIssueDate": "2020-11-16",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000114500",
@@ -23,14 +27,19 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "18DCF125-9268-4F4A-9CB3-2A6BDE099CBD",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "teduglutide"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣武田藥品工業股份有限公司",
     "applicantAddr": "台北市信義區松高路1號17樓",
@@ -44,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CFCACC93-EC59-4F79-9730-C6AF2F155559",
             "factoryCode": "1",
             "factoryName": "PATHEON ITALIA S.P.A.",
             "factoryAddr": "VIALE G.B. STUCCHI, 110-20900 MONZA (MB), ITALY",
@@ -54,9 +64,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT9099000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B1FE1965-B7D1-438F-B34D-E594819E2369",
             "factoryCode": "2",
             "factoryName": "BOEHRINGER INGELHEIM RCV GMBH & CO. KG",
             "factoryAddr": "DR. BOEHRINGER GASSE 5-11, 1121 VIENNA, AUSTRIA",
@@ -72,9 +85,12 @@
             "factoryKind": "M",
             "factoryNo": "FAT0044000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7CC10A64-124F-4855-BCC2-223E963BBDF2",
             "factoryCode": "2",
             "factoryName": "VETTER PHARMA-FERTIGUNG GMBH & CO. KG",
             "factoryAddr": "EISENBAHNSTRASSE 2-4 88085 LANGENARGEN GERMANY",
@@ -90,9 +106,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE9056000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "FCF1C3B0-5464-4B55-82ED-F3332026D825",
             "factoryCode": "2",
             "factoryName": "ALMAC PHARMA SERVICES LIMITED",
             "factoryAddr": "SEAGOE INDUSTRIAL ESTATE, CRAIGAVON CO. ARMAGH, BT63 5UA, UNITED KINGDOM",
@@ -108,16 +127,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0226100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200070300",
+            "ingredientsName": "teduglutide",
             "ingredientsDesc": "teduglutide",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -126,24 +148,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "425F9F1A-B7F3-494B-BFA5-A03E1DBB9DAB",
-            "approvedDocNo": "1106012318",
-            "approvedDate": "2021-10-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A077A63-6A7D-4BBA-A0E1-D8942636D09D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

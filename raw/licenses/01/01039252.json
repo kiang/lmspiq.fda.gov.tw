@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-09-21",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "01039252",
+    "licUnit": "1",
     "validDate": "2025-08-31 00:00:00.000",
     "issueDate": "1995-08-31 00:00:00.000",
+    "oriIssueDate": "1995-08-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103925201",
@@ -22,7 +26,7 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "C7"
         },
         {
@@ -33,6 +37,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4B23FCCB-8384-4300-9E55-4A94BD415F4B",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM CHLORIDE",
         "GLUCOSE",
@@ -41,8 +48,8 @@
         "SODIUM ACETATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "永豐化學工業股份有限公司",
     "applicantAddr": "新北市新莊區新樹路２９２號",
@@ -56,6 +63,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F8060CE6-6DA3-4BF8-9B6D-6A54BE291888",
             "factoryCode": "1",
             "factoryName": "永豐化學工業股份有限公司新莊工廠",
             "factoryAddr": "新北市新莊區新樹路２９２號",
@@ -66,13 +74,16 @@
             "factoryKind": "M",
             "factoryNo": "0504302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "3.57",
             "concent": "3.5700",
@@ -84,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000100",
+            "ingredientsName": "POTASSIUM ACETATE",
             "ingredientsDesc": "POTASSIUM ACETATE",
             "concentDesc": "1.18",
             "concent": "1.1800",
@@ -95,6 +107,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000600",
+            "ingredientsName": "SODIUM ACETATE",
             "ingredientsDesc": "SODIUM ACETATE",
             "concentDesc": "0.66",
             "concent": "0.6600",
@@ -106,6 +119,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002617",
+            "ingredientsName": "SODIUM PHOSPHATE MONOBASIC MONOHYDRATE (SODIUM DIHYDROGEN PHOSPHATE MONOHYDRATE)",
             "ingredientsDesc": "SODIUM PHOSPHATE MONOBASIC MONOHYDRATE (SODIUM DIHYDROGEN PHOSPHATE MONOHYDRATE)",
             "concentDesc": "0.83",
             "concent": "0.8300",
@@ -117,6 +131,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000700",
+            "ingredientsName": "GLUCOSE",
             "ingredientsDesc": "GLUCOSE",
             "concentDesc": "20",
             "concent": "20.0000",
@@ -130,14 +145,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BB01"
-        },
         {
             "isMain": "1",
             "atcCode": "B05BB02"

@@ -1,19 +1,23 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-06-15",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "60000992",
+    "licUnit": "1",
     "validDate": "2025-08-26 00:00:00.000",
     "issueDate": "2015-08-26 00:00:00.000",
+    "oriIssueDate": "2015-08-26",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000099207",
     "prodNameC": "可善挺凍晶乾粉注射劑150毫克",
     "prodNameE": "Cosentyx 150 mg Powder for Solution for Injection",
     "indicationsName": [
-        "1. 斑塊性乾癬：治療適合接受全身性治療的中至重度斑塊性乾癬成人患者。\r\n2. 乾癬性關節炎：治療患有活動性乾癬性關節炎的成人病人。可單獨使用或與methotrexate併用。\r\n3. 中軸性脊椎關節炎 (Axial spondyloarthritis, axSpA)\r\n  (1) 僵直性脊椎炎(Ankylosing spondylitis, AS)：治療活動性僵直性脊椎炎成人病患。\r\n  (2) 無放射影像確認之中軸性脊椎關節炎(Non-radiographic axial spondyloarthritis，簡稱nr-axSpA) : 適用於治療嚴重活動性無放射影像確認之中軸性脊椎關節炎且符合下列所有條件的成人病人：\r\n   甲、對非類固醇抗發炎藥物(NSAID)治療反應不佳或無法耐受。\r\n   乙、其C反應蛋白(C-reactive protein，簡稱CRP)濃度升高。\r\n   丙、核磁共振造影(MRI)檢查證據顯示有發炎的客觀跡象。\r\n   丁、HLA-B27陽性。"
+        "1. 斑塊性乾癬：治療適合接受全身性治療的中至重度斑塊性乾癬成人患者。\r\n2. 乾癬性關節炎：治療患有活動性乾癬性關節炎的成人病人。可單獨使用或與methotrexate併用。\r\n3. 中軸性脊椎關節炎 (Axial spondyloarthritis, axSpA)\r\n   (1) 僵直性脊椎炎(Ankylosing spondylitis, AS)：治療活動性僵直性脊椎炎成\r\n        人病患。\r\n   (2) 無放射影像確認之中軸性脊椎關節炎(Non-無放射影像確認之中軸性脊椎關節炎(Non-radiographic axial spondyloarthritis，簡稱nr-axSpA) : 適用於治療嚴重活動性無放射影像確認之中軸性\r\n   甲、對非類固醇抗發炎藥物(NSAID)治療反應不佳或無法耐受。\r\n   乙、其C反應蛋白(C-reactive protein，簡稱CRP)濃度升高。\r\n   丙、核磁共振造影(MRI)檢查證據顯示有發炎的客觀跡象。\r\n   丁、HLA-B27陽性。\r\n\r\n"
     ],
     "does": "2247",
     "packageUnit": [
@@ -29,13 +33,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "7A4F5F1B-0484-443E-A1C0-561B505D01FD",
+    "subCategory": [],
     "ingredientsDesc": [
         "Secukinumab"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "51"
+        "02 輸 入",
+        "07 新藥監視",
+        "51 免除銜接性臨床試驗"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4093F968-2E5B-4E21-83E3-F7FC892FBF86",
             "factoryCode": "1",
             "factoryName": "NOVARTIS PHARMA STEIN AG",
             "factoryAddr": "SCHAFFHAUSERSTRASSE CH-4332 STEIN, SWITZERLAND",
@@ -59,9 +67,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "773172D0-3C60-4D0B-916E-050D711C035A",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA. AG",
             "factoryAddr": "LICHTSTRASSE 35, 4056 BASEL, SWITZERLAND",
@@ -77,9 +88,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088500",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F91DA156-A68D-46BB-98AD-AFFCB62C81E6",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA S.A.S.",
             "factoryAddr": "8, RUE DE L'INDUSTRIE, F-68330 HUNINGUE, FRANCE",
@@ -95,16 +109,19 @@
             "factoryKind": "M",
             "factoryNo": "FFR0220000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200090100",
+            "ingredientsName": "Secukinumab",
             "ingredientsDesc": "Secukinumab",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -113,120 +130,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EAF35298-A9DA-4B14-A4F8-82457539B2ED",
-            "approvedDocNo": "1110701698",
-            "approvedDate": "2022-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9FC77D49-60A9-4FD0-9413-E4FB9A569AF8",
-            "approvedDocNo": "1106015486",
-            "approvedDate": "2021-10-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2AD3B751-925F-4A15-B89B-D574E32D6BA5",
-            "approvedDocNo": "1106006653",
-            "approvedDate": "2021-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0C169BBE-BEB9-41B6-BB6C-390C2C3C6C99",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "62DEBD42-8186-4383-AA5F-17468CE736AF",
-            "approvedDocNo": "1096033468",
-            "approvedDate": "2021-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "321AC1DA-D044-43CC-A3E3-39C69D58A3F4",
-            "approvedDocNo": "1091412167",
-            "approvedDate": "2021-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C63DAE49-45A3-4B63-93DF-3BA66753EB23",
-            "approvedDocNo": "1091412167",
-            "approvedDate": "2021-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "25E66CED-0893-4B78-A104-3C91502A7DA8",
-            "approvedDocNo": "1086037938",
-            "approvedDate": "2020-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F58F85A9-FA5D-4F0C-A7E1-594FEC722139",
-            "approvedDocNo": "1086037938",
-            "approvedDate": "2020-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "248B6F0D-1EF3-4BA7-AA2E-A45A9B872C12",
-            "approvedDocNo": "1086024857",
-            "approvedDate": "2019-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5A2CAF23-118D-4847-8462-E4AB1FB7CD34",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "92C5EACC-4D5A-4299-BD57-619849B3D3DB",
-            "approvedDocNo": "1071491780",
-            "approvedDate": "2019-03-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9BF9A5BB-CBFF-4E7F-8F75-8ACCC5C49ED6",
-            "approvedDocNo": "1076025038",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FC8223A9-FA85-4B69-89F1-9C8BFC35751E",
-            "approvedDocNo": "1076025038",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

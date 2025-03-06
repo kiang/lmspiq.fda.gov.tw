@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027944",
+    "licUnit": "1",
     "validDate": "2025-08-18 00:00:00.000",
     "issueDate": "2020-08-18 00:00:00.000",
+    "oriIssueDate": "2020-08-18",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA05202794401",
@@ -23,11 +27,14 @@
     "medMCode": "01",
     "maMedCode": "",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "99DFF5A7-4830-4B89-B12D-75AC3C9D5FE7",
+    "subCategory": [],
     "ingredientsDesc": [
         "L-Cysteine contains not less than 98.5% and not more than 101.0% of C3H7NO2S, calculated on the dried basis."
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "日名國際藥品有限公司",
     "applicantAddr": "台北市大安區敦化南路一段１８３號６樓",
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "180D32E5-60F1-43FD-989B-064AB74128D5",
             "factoryCode": "1",
             "factoryName": "NIPPON RIKA CO., LTD. ASHIKAGA PLANT",
             "factoryAddr": "610, YANADA-CHO, ASHIKAGA-SHI, TOCHIGI 326-0321, JAPAN",
@@ -51,13 +59,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0564000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "L-Cysteine contains not less than 98.5% and not more than 101.0% of C3H7NO2S, calculated on the dried basis.",
             "ingredientsDesc": "L-Cysteine contains not less than 98.5% and not more than 101.0% of C3H7NO2S, calculated on the dried basis.",
             "concentDesc": null,
             "concent": null,
@@ -71,10 +82,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V06D"
-        },
         {
             "isMain": "1",
             "atcCode": "B05XB"

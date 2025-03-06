@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-02-17",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "02019190",
+    "licUnit": "1",
     "validDate": "2027-04-27 00:00:00.000",
     "issueDate": "2017-04-17 00:00:00.000",
+    "oriIssueDate": "1992-04-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201919000",
@@ -16,20 +22,23 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1429F0A8-140B-4596-8085-7E8A5BE7DB67",
+    "subCategory": [],
     "ingredientsDesc": [
         "ESTRADIOL VALERATE",
         "ESTRADIOL VALERATE",
         "MEDROXYPROGESTERONE ACETATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "EA950651-D58A-4990-9116-2C298F939884",
             "factoryCode": "1",
             "factoryName": "Delpharm Lille SAS",
             "factoryAddr": "Parc d'Activites Roubaix-Est 22 Rue de Toufflers - CS50070 59452 Lys-lez-Lannoy, France",
@@ -53,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0387000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816500600",
+            "ingredientsName": "ESTRADIOL VALERATE",
             "ingredientsDesc": "ESTRADIOL VALERATE",
             "concentDesc": "",
             "concent": "2.0000",
@@ -71,6 +84,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816500600",
+            "ingredientsName": "ESTRADIOL VALERATE",
             "ingredientsDesc": "ESTRADIOL VALERATE",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -82,6 +96,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832000710",
+            "ingredientsName": "MEDROXYPROGESTERONE ACETATE",
             "ingredientsDesc": "MEDROXYPROGESTERONE ACETATE",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -93,60 +108,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C8E2AC96-0257-46D1-823F-4C1CDD8163EE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "49657EC3-2C92-4912-A323-E6F25B2FFC5A",
-            "approvedDocNo": "1096029775",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E112B165-AC49-4D08-86A7-37ECBD37CF02",
-            "approvedDocNo": "1096029775",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F4BBF67E-76D5-461E-800D-FE3C6B152C7B",
-            "approvedDocNo": "1096040280",
-            "approvedDate": "2021-01-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8A81FB08-7A88-41B2-AAC3-02CE3C2BA927",
-            "approvedDocNo": "1086801846",
-            "approvedDate": "2019-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G03FB06"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03DA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03CA03"
         }
     ],
     "licBaseId": "CC872095-45E4-4515-9DE9-8492C5FC7FDA"

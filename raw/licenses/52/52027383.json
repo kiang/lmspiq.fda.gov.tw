@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027383",
+    "licUnit": "1",
     "validDate": "2028-02-05 00:00:00.000",
     "issueDate": "2018-02-05 00:00:00.000",
+    "oriIssueDate": "2018-02-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202738300",
@@ -23,6 +27,11 @@
     "medMCode": "17",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "BEC1484B-148E-4696-8914-E42F2D22B80A",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "TOCOPHEROL ACETATE",
         "CHLORPHENIRAMINE MALEATE",
@@ -32,7 +41,7 @@
         "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣小林藥業股份有限公司",
     "applicantAddr": "臺北市中正區衡陽路51號11樓之4",
@@ -46,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "ABE4F5D2-DF68-49F9-BF93-23D66F7EF345",
             "factoryCode": "1",
             "factoryName": "TOYAMAKOBAYASHI PHARMACEUTICAL CO., LTD.",
             "factoryAddr": "100-1, NAKAOOKUBO, TOYAMA-SHI, TOYAMA, JALAN",
@@ -56,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0825000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012100201",
+            "ingredientsName": "AMINOCAPROIC ACID EPSILON-",
             "ingredientsDesc": "AMINOCAPROIC ACID EPSILON-",
             "concentDesc": "",
-            "concent": "2.000",
+            "concent": "2.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004620",
+            "ingredientsName": "GLYCYRRHIZINATE DIPOTASSIUM (EQ TO DIPOTASSIUM GLYCYRRHIZINATE)",
             "ingredientsDesc": "GLYCYRRHIZINATE DIPOTASSIUM (EQ TO DIPOTASSIUM GLYCYRRHIZINATE)",
             "concentDesc": "",
-            "concent": "0.100",
+            "concent": "0.1000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
-            "concent": "0.030",
+            "concent": "0.0300",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -96,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406000310",
+            "ingredientsName": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "ingredientsDesc": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "concentDesc": "",
-            "concent": "0.400",
+            "concent": "0.4000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -107,9 +123,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "",
-            "concent": "0.100",
+            "concent": "0.1000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -118,9 +135,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000200",
+            "ingredientsName": "TOCOPHEROL ACETATE",
             "ingredientsDesc": "TOCOPHEROL ACETATE",
             "concentDesc": "",
-            "concent": "0.050",
+            "concent": "0.0500",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -129,37 +147,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0568FA42-A1A8-43D2-BC89-468D6674EB70",
-            "approvedDocNo": "1096019445",
-            "approvedDate": "2020-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6088F427-5144-483B-90B8-A29228DDA776",
-            "approvedDocNo": "1076035526",
-            "approvedDate": "2019-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01BC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01GX"
-        },
         {
             "isMain": "1",
             "atcCode": "S01XA"

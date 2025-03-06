@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028474",
+    "licUnit": "1",
     "validDate": "2028-05-18 00:00:00.000",
     "issueDate": "2023-05-18 00:00:00.000",
+    "oriIssueDate": "2023-05-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202847405",
@@ -23,15 +27,20 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "D684C89F-8173-4E06-ACFA-C7D4116A2FEA",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Nirmatrelvir",
         "RITONAVIR"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "輝瑞大藥廠股份有限公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4326DF6A-0865-4A24-B0BD-3861FA78A28D",
             "factoryCode": "1",
             "factoryName": "PFIZER MANUFACTURING DEUTSCHLAND GMBH",
             "factoryAddr": "BETRIEBSSTATTE FREIBURG, MOOSWALDALLEE 1, 79090 FREIBURG, GERMANY",
@@ -60,9 +70,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0247000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "C981948B-CE40-4891-9227-30F8554FF9F1",
             "factoryCode": "1",
             "factoryName": "HETERO LABS LIMITED, UNIT III",
             "factoryAddr": "22-110 INDUSTRIAL DEVELOPMENT AREA, JEEDIMETLA, HYDERABAD, TELANGANA, INDIA, 500055",
@@ -78,9 +91,12 @@
             "factoryKind": "M",
             "factoryNo": "FIN0796000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "9C0F15E1-99E3-44C7-9FFF-1C313363952C",
             "factoryCode": "1",
             "factoryName": "PFIZER ITALIA S.R.L.",
             "factoryAddr": "LOCALITA MARINO DEL TRONTO ,63100 ,ASCOLI PICENO ,ITALY",
@@ -96,9 +112,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0307100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F92FB0E5-A8E4-44C2-A669-3941646F923A",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司(委託包裝)",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
@@ -114,16 +133,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818006300",
+            "ingredientsName": "Nirmatrelvir",
             "ingredientsDesc": "Nirmatrelvir",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -132,9 +154,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818001100",
+            "ingredientsName": "RITONAVIR",
             "ingredientsDesc": "RITONAVIR",
             "concentDesc": "(Form-I)",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -143,27 +166,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C888E707-1003-4721-9381-4F0744F9D4CE",
-            "approvedDocNo": "1120718370",
-            "approvedDate": "2024-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J05AE30"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AE03"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J05AE30"
         }
     ],

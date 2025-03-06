@@ -1,11 +1,16 @@
 {
-    "cancelStatus": "0",
-    "licStatus": "1",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-02-06",
+    "cancelReason": [
+        "887"
+    ],
+    "otherCancelReason": "",
     "licid": "01049956",
+    "licUnit": "1",
     "validDate": "2024-02-05 00:00:00.000",
     "issueDate": "2011-10-26 00:00:00.000",
+    "oriIssueDate": "2009-02-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104995604",
@@ -24,13 +29,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FF87F736-B6D5-480D-A8D7-9FCEED2F52AF",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEVONORGESTREL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "25"
+        "01 國 產",
+        "1R 不得製造",
+        "25 監視中學名藥"
     ],
     "applicantName": "活力生化科技股份有限公司",
     "applicantAddr": "台北市文山區木柵路四段147號",
@@ -44,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B0DBCE60-223F-4418-AF07-2B14433B19BC",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
@@ -54,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832001004",
+            "ingredientsName": "LEVONORGESTREL",
             "ingredientsDesc": "LEVONORGESTREL",
             "concentDesc": "",
             "concent": "0.7500",
@@ -76,10 +88,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "G03AD01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "G03AD01"
         }
     ],

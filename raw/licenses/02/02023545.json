@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023545",
+    "licUnit": "1",
     "validDate": "2027-09-05 00:00:00.000",
     "issueDate": "2002-09-05 00:00:00.000",
+    "oriIssueDate": "2002-09-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202354500",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9F4E5754-ABE6-4C66-B9AF-57A89AABC39B",
+    "subCategory": [],
     "ingredientsDesc": [
         "L-MENTHOL ",
         "GLYCOL SALICYLATE",
@@ -34,7 +41,7 @@
         "TOCOPHEROL ACETATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "日商久光製藥股份有限公司台北分公司",
     "applicantAddr": "臺北市松山區復興北路369號4樓之3",
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9256036D-AE58-45FB-9B8C-46FC84F9254A",
             "factoryCode": "1",
             "factoryName": "HISAMITSU PHARMACEUTICAL CO., INC.",
             "factoryAddr": "408, TASHIRODAIKAN-MACHI, TOSU, SAGA, JAPAN",
@@ -56,15 +64,18 @@
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "MJP0347000",
+            "factoryNo": "FJP0610000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8400000200",
+            "ingredientsName": "GLYCOL SALICYLATE",
             "ingredientsDesc": "GLYCOL SALICYLATE",
             "concentDesc": "",
             "concent": "175.0000",
@@ -76,6 +87,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000302",
+            "ingredientsName": "L-MENTHOL ",
             "ingredientsDesc": "L-MENTHOL ",
             "concentDesc": "",
             "concent": "140.0000",
@@ -87,6 +99,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000200",
+            "ingredientsName": "TOCOPHEROL ACETATE",
             "ingredientsDesc": "TOCOPHEROL ACETATE",
             "concentDesc": "",
             "concent": "140.0000",
@@ -98,6 +111,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000103",
+            "ingredientsName": "DL-CAMPHOR ",
             "ingredientsDesc": "DL-CAMPHOR ",
             "concentDesc": "",
             "concent": "42.0000",
@@ -109,47 +123,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AF4C9B3E-9E26-4C98-9817-2C70920C8F56",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "874A0751-E4A4-430B-A13A-96F42AE8B9D4",
-            "approvedDocNo": "1076046184",
-            "approvedDate": "2019-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CE70387E-9D4F-4B8F-8EBC-1817F4B9C9C6",
-            "approvedDocNo": "1076046184",
-            "approvedDate": "2019-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "M02AC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D11AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M02AC"
         }
     ],

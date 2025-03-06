@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022981",
+    "licUnit": "1",
     "validDate": "2025-08-30 00:00:00.000",
     "issueDate": "2000-08-30 00:00:00.000",
+    "oriIssueDate": "2000-08-30",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00202298102",
@@ -16,18 +20,21 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "90FE2051-86D4-4822-B7A5-CF7D7C23DFA6",
+    "subCategory": [],
     "ingredientsDesc": [
         "ERYTHROMYCIN ETHYLSUCCINATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "仁友興業有限公司",
     "applicantAddr": "台北市信義路四段341號6樓之2",
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4778FA8D-39D1-4CC0-948B-5E9F14494C0D",
             "factoryCode": "1",
             "factoryName": "ERCROS, S.A.",
             "factoryAddr": "PASEO DEL DELEITE S\/N 28300 ARANJUEZ-MADRID SPAIN",
@@ -51,13 +59,16 @@
             "factoryKind": "M",
             "factoryNo": "FES0113000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812500220",
+            "ingredientsName": "ERYTHROMYCIN ETHYLSUCCINATE",
             "ingredientsDesc": "ERYTHROMYCIN ETHYLSUCCINATE",
             "concentDesc": "(NLE)       ",
             "concent": "780.0000",
@@ -71,14 +82,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01AA17"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01FA01"
-        },
         {
             "isMain": "1",
             "atcCode": "D10AF02"

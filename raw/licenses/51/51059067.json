@@ -1,14 +1,18 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059067",
+    "licUnit": "1",
     "validDate": "2026-04-11 00:00:00.000",
     "issueDate": "2016-04-11 00:00:00.000",
+    "oriIssueDate": "2016-04-11",
     "licKind": "02",
     "oldLicid": "12003566",
     "certNo": "DHY05105906701",
-    "prodNameC": "\"藥聯\"咳伏糖漿",
+    "prodNameC": "咳伏糖漿",
     "prodNameE": "Coughline Syrup",
     "indicationsName": [
         "鎮咳(過敏性咳、痰咳、感冒咳嗽)。"
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "F29ADB97-322F-4434-9ACA-9C68812F6C85",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)",
         "AMMONIUM CHLORIDE",
@@ -36,11 +45,11 @@
         "CODEINE PHOSPHATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
-    "applicantName": "藥聯生技股份有限公司",
-    "applicantAddr": "台中市北屯區軍福八路280號1、2、3樓",
+    "applicantName": "台灣陽生製藥工業股份有限公司",
+    "applicantAddr": "屏東縣屏東市龍華路３８１號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -51,6 +60,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6BDD68C5-AFAA-4F2D-A966-FB8DF1D5E8CF",
             "factoryCode": "1",
             "factoryName": "龍杏生技製藥股份有限公司",
             "factoryAddr": "台南市佳里區嘉福里１１５之１號",
@@ -61,16 +71,19 @@
             "factoryKind": "M",
             "factoryNo": "1703620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": "",
-            "concent": "0.670",
+            "concent": "0.6700",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -79,9 +92,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
-            "concent": "0.170",
+            "concent": "0.1700",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -90,9 +104,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -101,9 +116,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4004000200",
+            "ingredientsName": "AMMONIUM CHLORIDE",
             "ingredientsDesc": "AMMONIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "16.700",
+            "concent": "16.7000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -112,9 +128,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212000510",
+            "ingredientsName": "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)",
             "ingredientsDesc": "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)",
             "concentDesc": "",
-            "concent": "0.670",
+            "concent": "0.6700",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -123,9 +140,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003821",
+            "ingredientsName": "POLYGALA FLUIDEXTRACT",
             "ingredientsDesc": "POLYGALA FLUIDEXTRACT",
             "concentDesc": "",
-            "concent": "0.007",
+            "concent": "0.0070",
             "concentUnit": "003",
             "seq": "6",
             "prescription_seq": "1",
@@ -134,44 +152,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "671B018E-EF0E-4DF8-AA78-94409E86131D",
-            "approvedDocNo": "1070042967",
-            "approvedDate": "2019-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05CA06"
-        },
         {
             "isMain": "1",
             "atcCode": "R05DA20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
         }
     ],
     "licBaseId": "E5E7EF3C-2095-4E35-9FDE-D5C406F5C850"

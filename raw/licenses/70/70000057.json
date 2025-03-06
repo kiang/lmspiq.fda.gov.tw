@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "70000057",
+    "licUnit": "1",
     "validDate": "2029-01-22 00:00:00.000",
     "issueDate": "2019-01-22 00:00:00.000",
+    "oriIssueDate": "2019-01-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA07000005704",
@@ -27,13 +31,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "E9F9D31F-7083-4A50-9081-AB0748286106",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "nusinersen "
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣百健有限公司",
     "applicantAddr": "台北市信義區忠孝東路5段68號20樓(A2室)",
@@ -47,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "69E723CC-C018-408E-9351-1020C7DFAE4E",
             "factoryCode": "1",
             "factoryName": "PATHEON ITALIA S.P.A.",
             "factoryAddr": "2 TRAV. SX VIA MOROLENSE, 5-03013 FERENTINO (FR), ITALY",
@@ -57,9 +67,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0402000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "E5F998D2-EDA9-46F7-8D4F-452445B25528",
             "factoryCode": "2",
             "factoryName": "FUJIFILM DIOSYNTH BIOTECHNOLOGIES DENMARK APS",
             "factoryAddr": "BIOTEK ALLE 1, HILLEROD, 3400, DENMARK",
@@ -75,16 +88,19 @@
             "factoryKind": "M",
             "factoryNo": "FDK0070000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5236002000",
+            "ingredientsName": "nusinersen ",
             "ingredientsDesc": "nusinersen ",
             "concentDesc": "Nusinersen (as free acid)",
-            "concent": "2.400",
+            "concent": "2.4000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -93,64 +109,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E613F2BA-BA71-4B83-975F-C0CD99B263AD",
-            "approvedDocNo": "1120704994",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E1D4805C-97DA-4CB6-AEEA-BFC4C0C9E870",
-            "approvedDocNo": "1110713657",
-            "approvedDate": "2023-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ACF769EB-2E0E-4480-9612-8E0929512701",
-            "approvedDocNo": "1110713657",
-            "approvedDate": "2023-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31C8A37B-ABEA-45EE-8C6D-3CBCAD1DDC7C",
-            "approvedDocNo": "1101493255",
-            "approvedDate": "2021-06-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "07C6FF61-B5F3-4C96-97D6-AB14BBC62D3A",
-            "approvedDocNo": "1086033282",
-            "approvedDate": "2020-05-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "36EF38C4-7AD1-43BA-B375-29C15988968E",
-            "approvedDocNo": "1086033282",
-            "approvedDate": "2020-05-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D305CAD2-4278-4062-BC89-2307E57BA524",
-            "approvedDocNo": "1086014823",
-            "approvedDate": "2019-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

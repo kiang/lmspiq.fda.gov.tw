@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000844",
+    "licUnit": "1",
     "validDate": "2027-10-11 00:00:00.000",
     "issueDate": "2007-10-11 00:00:00.000",
+    "oriIssueDate": "2007-10-11",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000084402",
@@ -27,12 +31,17 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "6E4D4E56-CC62-457E-8953-E9029AE4B0C2",
+    "subCategory": [
+        "C06"
+    ],
     "ingredientsDesc": [
         "FACTOR VIII",
         "VWF: Rco"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "醫療財團法人台灣血液基金會",
     "applicantAddr": "台北市中正區南海路３號３樓",
@@ -46,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B1A5210F-DFAE-409C-92A0-0216309561D0",
             "factoryCode": "1",
             "factoryName": "CSL BEHRING (AUSTRALIA) PTY LTD",
             "factoryAddr": "189-209 CAMP ROAD BROADMEADOWS VICTORIA 3047 AUSTRALIA",
@@ -56,9 +66,12 @@
             "factoryKind": "M",
             "factoryNo": "FAU0041000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "5F3BECFE-12E6-465F-8121-3973169F8513",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -72,11 +85,14 @@
             ],
             "processCodeStr": "1A;二級包裝廠",
             "factoryKind": "M",
-            "factoryNo": "1225204000",
+            "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "45C92AED-606E-465A-9DF1-EBEDE1B5C62F",
             "factoryCode": "2",
             "factoryName": "CSL BEHRING GMBH",
             "factoryAddr": "EMIL-VON-BEHRING STRASSE 76,35041 MARBURG GERMANY",
@@ -92,16 +108,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0241000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004003300",
+            "ingredientsName": "FACTOR VIII",
             "ingredientsDesc": "FACTOR VIII",
             "concentDesc": "",
-            "concent": "50.000",
+            "concent": "50.0000",
             "concentUnit": "212",
             "seq": "0",
             "prescription_seq": "0",
@@ -110,9 +129,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012102600",
+            "ingredientsName": "VWF: Rco",
             "ingredientsDesc": "VWF: Rco",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "212",
             "seq": "1",
             "prescription_seq": "0",
@@ -129,127 +149,10 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B5D79CD2-0DFE-45F7-A2D5-D84C95127266",
-            "approvedDocNo": "1120716334",
-            "approvedDate": "2023-10-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F0766AB8-14AA-48DF-A564-D25220F7C578",
-            "approvedDocNo": "1120708136",
-            "approvedDate": "2023-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "137CDB36-688A-40C4-A500-8DDD217B82B1",
-            "approvedDocNo": "1110711160",
-            "approvedDate": "2022-10-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D10F9145-B900-4607-AEBC-BCB84E688B33",
-            "approvedDocNo": "1110708721",
-            "approvedDate": "2022-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8002B501-FA1E-46DD-9D45-61DDAB4777AB",
-            "approvedDocNo": "1086021170",
-            "approvedDate": "2020-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "11E5281D-3CAD-4BFF-94D5-D3ED5ED59E2C",
-            "approvedDocNo": "1086021170",
-            "approvedDate": "2020-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4E57E8D1-7F4E-4D0E-8307-2C6F4AA25004",
-            "approvedDocNo": "1086019070",
-            "approvedDate": "2019-12-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FC10428B-ED94-4323-83CF-713E6E076023",
-            "approvedDocNo": "1086019070",
-            "approvedDate": "2019-12-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EFE2EBCA-1351-4477-9A3E-7CA80CBC5BBA",
-            "approvedDocNo": "1086019070",
-            "approvedDate": "2019-12-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1D186C56-2CB4-4E93-AE49-A79D9388CE5B",
-            "approvedDocNo": "1086007725",
-            "approvedDate": "2019-09-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AECF7A95-0E3D-428D-BB2B-B386BA5E27E0",
-            "approvedDocNo": "1076043553",
-            "approvedDate": "2019-06-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1E991A23-953C-41B5-8785-CA54DA417980",
-            "approvedDocNo": "1076043553",
-            "approvedDate": "2019-06-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "39FF7008-7F50-4E3A-9624-894F7E1F6755",
-            "approvedDocNo": "1076043553",
-            "approvedDate": "2019-06-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7A1F730F-28DD-403D-8A44-70E5515F2A3C",
-            "approvedDocNo": "1076043553",
-            "approvedDate": "2019-06-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "B02BD02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "B02BD02"
         }
     ],

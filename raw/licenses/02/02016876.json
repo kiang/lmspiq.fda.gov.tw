@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02016876",
+    "licUnit": "1",
     "validDate": "2028-10-08 00:00:00.000",
     "issueDate": "2013-09-22 00:00:00.000",
+    "oriIssueDate": "1988-10-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201687603",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B5865189-C174-466C-8AE2-816A2058743C",
+    "subCategory": [],
     "ingredientsDesc": [
         "POLYMYXIN B SULFATE",
         "NEOMYCIN SULFATE",
         "DEXAMETHASONE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -43,23 +50,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8DC9F3C2-0675-4ECA-B6A2-CF17C43DEF92",
             "factoryCode": "1",
-            "factoryName": "S.A. ALCON-COUVREUR N.V.",
-            "factoryAddr": "RIJKSWEG 14, 2870 PUURS, BELGIUM",
-            "factoryCompanyAddr": "",
+            "factoryName": "NOVARTIS MANUFACTURING NV",
+            "factoryAddr": "RIJKSWEG 14, 2870 PUURS-SINT-AMANDS, BELGIUM",
+            "factoryCompanyAddr": null,
             "countryCode": "BE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FBE0037000",
+            "factoryNo": "FBE0037200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000600",
+            "ingredientsName": "DEXAMETHASONE",
             "ingredientsDesc": "DEXAMETHASONE",
             "concentDesc": "",
             "concent": "1.0000",
@@ -71,6 +82,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812100530",
+            "ingredientsName": "NEOMYCIN SULFATE",
             "ingredientsDesc": "NEOMYCIN SULFATE",
             "concentDesc": "",
             "concent": "3500.0000",
@@ -82,6 +94,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812001212",
+            "ingredientsName": "POLYMYXIN B SULFATE",
             "ingredientsDesc": "POLYMYXIN B SULFATE",
             "concentDesc": "",
             "concent": "6000.0000",
@@ -93,77 +106,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B7C753AE-A5C0-4A6A-A3AD-BB87DC3B7CA5",
-            "approvedDocNo": "1120719437",
-            "approvedDate": "2023-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "582212EA-087E-420C-AF1E-56AD35CBAC79",
-            "approvedDocNo": "1110709680",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "89621694-D922-4424-9292-139DCE134BCA",
-            "approvedDocNo": "1106034996",
-            "approvedDate": "2022-06-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E1666A63-57F9-45E1-8859-4DFC2E230DEF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DCE53BC1-820D-4261-9A9C-8BA8D7B20FA7",
-            "approvedDocNo": "1096013520",
-            "approvedDate": "2020-07-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6D5BA1EE-8F19-48DF-9C85-A754CEF8F340",
-            "approvedDocNo": "1081491585",
-            "approvedDate": "2019-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E97F9887-ED79-4816-8C10-0795D95BF0A4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01AA18"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AA03"
-        },
         {
             "isMain": "1",
             "atcCode": "S01CA01"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055273",
+    "licUnit": "1",
     "validDate": "2025-08-31 00:00:00.000",
     "issueDate": "2010-08-31 00:00:00.000",
+    "oriIssueDate": "2010-08-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105527301",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "4CC0586B-B5D4-429F-9BE8-B99C6CDD8D4F",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "PHOSPHOLIPID ESSENTIAL",
         "CYANOCOBALAMIN (VIT B12)",
@@ -37,8 +46,8 @@
         "PYRIDOXINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "歐舒邁克有限公司",
     "applicantAddr": "新北市新店區中正路487-4號8樓",
@@ -52,6 +61,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "53D8DA89-6E76-4362-A60F-5AC107513670",
             "factoryCode": "1",
             "factoryName": "杏輝藥品工業股份有限公司",
             "factoryAddr": "宜蘭縣冬山鄉中山村中山路８４號",
@@ -62,13 +72,16 @@
             "factoryKind": "M",
             "factoryNo": "0705330300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200006701",
+            "ingredientsName": "PHOSPHOLIPID ESSENTIAL",
             "ingredientsDesc": "PHOSPHOLIPID ESSENTIAL",
             "concentDesc": null,
             "concent": "175.0000",
@@ -80,6 +93,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000300",
+            "ingredientsName": "NIACINAMIDE (NICOTINAMIDE)",
             "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
             "concentDesc": null,
             "concent": "15.0000",
@@ -91,6 +105,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101001",
+            "ingredientsName": "THIAMINE MONONITRATE",
             "ingredientsDesc": "THIAMINE MONONITRATE",
             "concentDesc": null,
             "concent": "3.0000",
@@ -102,6 +117,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": null,
             "concent": "3.0000",
@@ -113,6 +129,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": null,
             "concent": "3.0000",
@@ -124,6 +141,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": null,
             "concent": "0.0030",
@@ -135,6 +153,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000213",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA DL-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA DL-",
             "concentDesc": null,
             "concent": "3.3000",
@@ -149,36 +168,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
-        },
-        {
             "isMain": "1",
             "atcCode": "A11A"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A05B"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
         }
     ],
     "licBaseId": "5E341F9C-7F0E-4003-8156-9404E6204B2E"

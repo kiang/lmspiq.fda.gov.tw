@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028220",
+    "licUnit": "1",
     "validDate": "2027-01-05 00:00:00.000",
     "issueDate": "2022-01-05 00:00:00.000",
+    "oriIssueDate": "2022-01-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202822000",
@@ -23,14 +27,19 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "A7A723A7-91B7-4374-A76E-23BA0DD2DFE1",
+    "subCategory": [
+        "A02"
+    ],
     "ingredientsDesc": [
         "NALTREXONE HYDROCHLORIDE",
         "BUPROPION HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫"
     ],
     "applicantName": "友華生技醫藥股份有限公司",
     "applicantAddr": "臺北市北投區承德路６段128號13樓",
@@ -44,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "84E7D914-7B10-4C30-82BB-EE31603173D5",
             "factoryCode": "1",
             "factoryName": "PATHEON INC.",
             "factoryAddr": "111 CONSUMERS DRIVE, WHITBY, ONTARIO, CANADA L1N 5Z5",
@@ -54,9 +64,12 @@
             "factoryKind": "M",
             "factoryNo": "FCA0050000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7ADE04EB-1A38-4FF8-AEC3-0614E9A3EB52",
             "factoryCode": "2",
             "factoryName": "友華生技醫藥股份有限公司桃園製藥廠",
             "factoryAddr": "桃園市桃園區大誠路11號",
@@ -72,9 +85,12 @@
             "factoryKind": "M",
             "factoryNo": "0416604300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2DCB9ADC-50C0-4083-A09A-080D36A415ED",
             "factoryCode": "2",
             "factoryName": "OREXIGEN THERAPEUTICS IRELAND LIMITED",
             "factoryAddr": "2ND FLOOR PALMERSTON HOUSE, FENIAN STREET, DUBLIN 2. IRELAND",
@@ -90,16 +106,19 @@
             "factoryKind": "M",
             "factoryNo": "FIE0136000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9250001110",
+            "ingredientsName": "BUPROPION HYDROCHLORIDE",
             "ingredientsDesc": "BUPROPION HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "90.000",
+            "concent": "90.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -108,9 +127,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2810000310",
+            "ingredientsName": "NALTREXONE HYDROCHLORIDE",
             "ingredientsDesc": "NALTREXONE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "8.000",
+            "concent": "8.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "3",
@@ -119,36 +139,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B561C9B8-06D6-4B2B-A495-06E6AD994A1C",
-            "approvedDocNo": "1119043567",
-            "approvedDate": "2022-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "097CB560-9284-470E-A495-128B17EDCCFC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A08AA62"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N07BB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06AX12"
         }
     ],
     "licBaseId": "7E952A7F-2A88-4165-991F-CA3F28D38463"

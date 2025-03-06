@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025386",
+    "licUnit": "1",
     "validDate": "2026-03-29 00:00:00.000",
     "issueDate": "2011-03-29 00:00:00.000",
+    "oriIssueDate": "2011-03-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202538600",
@@ -27,17 +31,20 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C192EA64-5F2A-4598-90FE-C68C7BC9392E",
+    "subCategory": [],
     "ingredientsDesc": [
-        "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
-        "GLUCOSE ANHYDROUS",
-        "CALCIUM CHLORIDE DIHYDRATE",
-        "LACTIC ACID",
         "SODIUM CHLORIDE",
         "POTASSIUM CHLORIDE",
-        "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)"
+        "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
+        "LACTIC ACID",
+        "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
+        "CALCIUM CHLORIDE DIHYDRATE",
+        "GLUCOSE ANHYDROUS"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "百特醫療產品股份有限公司",
     "applicantAddr": "臺北市大安區敦化南路2段95號28樓",
@@ -51,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FF1773D2-8AEC-4D06-BB45-B34CA4A0988F",
             "factoryCode": "1",
             "factoryName": "Bieffe Medital S.p.A.",
             "factoryAddr": "VIA STELVIO 94 IT-23035 SONDALO(SO), ITALY",
@@ -61,16 +69,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0442000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "4012000350",
-            "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
+            "ingredientsCode": "9200005300",
+            "ingredientsName": "LACTIC ACID",
+            "ingredientsDesc": "LACTIC ACID",
             "concentDesc": "",
-            "concent": "5.1450",
+            "concent": "5.4000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -78,10 +89,11 @@
         },
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "4012001550",
-            "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
+            "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
+            "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": "",
-            "concent": "2.0330",
+            "concent": "5.1450",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -90,6 +102,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000750",
+            "ingredientsName": "GLUCOSE ANHYDROUS",
             "ingredientsDesc": "GLUCOSE ANHYDROUS",
             "concentDesc": "",
             "concent": "22.0000",
@@ -100,10 +113,11 @@
         },
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "9200005300",
-            "ingredientsDesc": "LACTIC ACID",
+            "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
+            "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": "",
-            "concent": "5.4000",
+            "concent": "2.0330",
             "concentUnit": "002",
             "seq": "4",
             "prescription_seq": "1",
@@ -111,10 +125,11 @@
         },
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "4012002100",
-            "ingredientsDesc": "SODIUM CHLORIDE",
+            "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
+            "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": "",
-            "concent": "6.4500",
+            "concent": "3.0900",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "2",
@@ -122,10 +137,11 @@
         },
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "4008000700",
-            "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
+            "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
+            "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "3.0900",
+            "concent": "0.3140",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "2",
@@ -133,10 +149,11 @@
         },
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "4012001800",
-            "ingredientsDesc": "POTASSIUM CHLORIDE",
+            "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
+            "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "0.3140",
+            "concent": "6.4500",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "2",
@@ -147,59 +164,14 @@
         {
             "applicantName": "萬益特醫療用品股份有限公司",
             "certNo": "DHA00202538622",
-            "approveDocNo": "1139020219",
-            "authDate": "2024-03-11",
+            "approveDocNo": "1130732165",
+            "authDate": "2024-12-17",
             "validDate": "2026-03-29"
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C867F9F3-5D31-4752-A3D3-49E53D13B5BD",
-            "approvedDocNo": "1096018276",
-            "approvedDate": "2020-09-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8CBA628A-93D2-4E99-83C4-B25E3CCDDABC",
-            "approvedDocNo": "1096018276",
-            "approvedDate": "2020-09-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E69380FE-CEFE-430F-A2EF-8D6406AAAA98",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0544BFCC-8B5B-4706-992C-67E956F722FF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "53374032-41FE-4DDE-8024-D952746BD112",
-            "approvedDocNo": "1086003153",
-            "approvedDate": "2019-07-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05ZA"
-        },
         {
             "isMain": "1",
             "atcCode": "B05ZA"

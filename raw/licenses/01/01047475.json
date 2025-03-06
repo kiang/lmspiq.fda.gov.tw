@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2024-01-30",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "01047475",
+    "licUnit": "1",
     "validDate": "2025-08-08 00:00:00.000",
     "issueDate": "2005-08-08 00:00:00.000",
+    "oriIssueDate": "2005-08-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104747504",
@@ -28,7 +32,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "A73FD45B-82C7-44B9-AAC1-33D18C29AB64",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "CYANOCOBALAMIN (VIT B12)",
         "NICOTINAMIDE",
@@ -39,10 +48,10 @@
         "RIBOFLAVIN (VIT B2)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "大昭製藥生物科技股份有限公司",
     "applicantAddr": "臺南市官田區二鎮里建業路7號",
@@ -56,6 +65,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "ABEDA352-D239-4705-8287-DA8CFAD2CA3D",
             "factoryCode": "1",
             "factoryName": "正和製藥股份有限公司新營廠",
             "factoryAddr": "台南市新營區嘉芳里新工路２３號",
@@ -66,13 +76,16 @@
             "factoryKind": "M",
             "factoryNo": "0505720300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656900902",
+            "ingredientsName": "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT",
             "ingredientsDesc": "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT",
             "concentDesc": null,
             "concent": "107.7000",
@@ -84,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810181700",
+            "ingredientsName": "THIAMINE HCL (BIOTAMINE)",
             "ingredientsDesc": "THIAMINE HCL (BIOTAMINE)",
             "concentDesc": null,
             "concent": "4.0000",
@@ -95,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": null,
             "concent": "4.0000",
@@ -106,6 +121,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000330",
+            "ingredientsName": "NICOTINAMIDE",
             "ingredientsDesc": "NICOTINAMIDE",
             "concentDesc": null,
             "concent": "12.0000",
@@ -117,6 +133,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": null,
             "concent": "4.0000",
@@ -128,6 +145,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300200",
+            "ingredientsName": "PANTOTHENATE CALCIUM",
             "ingredientsDesc": "PANTOTHENATE CALCIUM",
             "concentDesc": null,
             "concent": "8.0000",
@@ -139,6 +157,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": null,
             "concent": "1.2000",
@@ -153,36 +172,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA31"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
             "isMain": "1",
             "atcCode": "A11EA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
         }
     ],
     "licBaseId": "929935CF-1838-4FBB-B098-A8C4B2BE866A"

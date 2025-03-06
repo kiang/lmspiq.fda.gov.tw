@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "22000002",
+    "licUnit": "1",
     "validDate": "2026-11-26 00:00:00.000",
     "issueDate": "2001-11-26 00:00:00.000",
+    "oriIssueDate": "2001-11-26",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA02200000202",
@@ -27,11 +31,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "24742BA2-0435-452B-B267-F83E79FFAD37",
+    "subCategory": [],
     "ingredientsDesc": [
         "INTERFERON BETA-1A"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "臺灣默克股份有限公司",
     "applicantAddr": "台北市內湖區堤頂大道2段89號6樓",
@@ -45,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "07900C1F-7CDC-48B4-8DE8-C25E6F275844",
             "factoryCode": "1",
             "factoryName": "MERCK SERONO S.P.A.",
             "factoryAddr": "VIA DELLE MAGNOLIE 15, ZONA INDUSTRIALE DI MODUGNO, 70026 MODUGNO, ITALY",
@@ -55,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0324000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "77982F04-68DD-46EB-B63F-CEB5B16DDF3F",
             "factoryCode": "2",
             "factoryName": "MERCK SERONO S.A.-CORSIER-SUR-VEVEY",
             "factoryAddr": "ROUTE DE FENIL, 25 ZONE INDUSTRIELLE B, 1804 CORSIER-SUR-VEVEY, SWITZERLAND",
@@ -73,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0283000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818000740",
+            "ingredientsName": "INTERFERON BETA-1A",
             "ingredientsDesc": "INTERFERON BETA-1A",
             "concentDesc": null,
-            "concent": "44.000",
+            "concent": "44.0000",
             "concentUnit": "016",
             "seq": "0",
             "prescription_seq": "0",
@@ -91,56 +105,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4D98B465-7B94-4470-865E-34F0FFCBA891",
-            "approvedDocNo": "1120712668",
-            "approvedDate": "2023-06-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "11307418-84CA-404E-942F-BF84C81715E9",
-            "approvedDocNo": "1120712668",
-            "approvedDate": "2023-06-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F22E835F-4CCD-4CA9-890D-E97DEB3940E9",
-            "approvedDocNo": "1120712668",
-            "approvedDate": "2023-06-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "39D83634-21F1-41BC-B957-5D8F36C485B2",
-            "approvedDocNo": "1106016212",
-            "approvedDate": "2021-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A2A36442-4D16-48D8-8C76-71DFE99734AE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "685D7180-F067-42AB-912E-068E68B9342B",
-            "approvedDocNo": "1086035839",
-            "approvedDate": "2020-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

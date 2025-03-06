@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023077",
+    "licUnit": "1",
     "validDate": "2025-12-11 00:00:00.000",
     "issueDate": "2000-12-11 00:00:00.000",
+    "oriIssueDate": "2000-12-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202307703",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B9C5D798-CD1A-4DBF-B23E-D5579A966932",
+    "subCategory": [],
     "ingredientsDesc": [
         "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
         "GESTODENE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "台灣拜耳股份有限公司",
     "applicantAddr": "臺北市信義區信義路5段7號53樓",
@@ -42,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3E037996-EA68-4809-B581-608E2B7F6E28",
             "factoryCode": "1",
             "factoryName": "BAYER WEIMAR GMBH UND CO KG",
             "factoryAddr": "DOEBEREINER STRASSE 20, D-99427 WEIMAR, GERMANY",
@@ -52,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0256100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8B89E943-5285-422D-86EF-522A39EE70B8",
             "factoryCode": "2",
             "factoryName": "BAYER AG",
             "factoryAddr": "MUELLERSTRASSE 178 13353 BERLIN GERMANY",
@@ -70,13 +82,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE9045000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832001900",
+            "ingredientsName": "GESTODENE",
             "ingredientsDesc": "GESTODENE",
             "concentDesc": "",
             "concent": "0.0750",
@@ -88,6 +103,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816000600",
+            "ingredientsName": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "ingredientsDesc": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "concentDesc": "",
             "concent": "0.0200",
@@ -99,84 +115,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ED75207C-0514-4169-AA55-FD0B2AEE901C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6DABA6A6-7551-44AC-8ACA-9B79871B0BBE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FACA8951-08CA-481F-8572-49FE22B89B85",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8D166F3E-8D06-4B56-89E9-7196023F367C",
-            "approvedDocNo": "1076031349",
-            "approvedDate": "2019-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D14F945B-7DAA-4314-84E6-B120B769AA31",
-            "approvedDocNo": "1076031349",
-            "approvedDate": "2019-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "81B32730-5B3C-43BC-A019-CC5680548246",
-            "approvedDocNo": "1076031349",
-            "approvedDate": "2019-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9DD72E24-57C5-4212-8226-DECF0EA76014",
-            "approvedDocNo": "1076031349",
-            "approvedDate": "2019-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB86EF75-CA90-461A-A9D7-F51C5D2F1405",
-            "approvedDocNo": "1076031349",
-            "approvedDate": "2019-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G03AA10"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03AC"
         }
     ],
     "licBaseId": "49DABC83-19BD-4338-8B55-143CA15004EF"

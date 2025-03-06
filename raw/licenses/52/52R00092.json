@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52R00092",
+    "licUnit": "1",
     "validDate": "2025-08-31 00:00:00.000",
     "issueDate": "2015-08-31 00:00:00.000",
+    "oriIssueDate": "2015-08-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA052R0009200",
@@ -27,13 +31,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "40BC9EA8-5886-4EA9-8668-F6D6E4FBA1AE",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM MOLYBDATE",
         "TC-99M SODIUM PERTECHNETATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "15"
+        "02 輸 入",
+        "15 輸入須附同意書（每批輸入應附核能安全委員會核准輸入證明書）"
     ],
     "applicantName": "泰歷藥品儀器股份有限公司",
     "applicantAddr": "台北市大同區承德路二段81號15樓",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E3C8FA8D-1436-4EBC-A7B9-7CC65265F17C",
             "factoryCode": "1",
             "factoryName": "ECZACIBASI MONROL NUCLEAR PRODUCTS CO.",
             "factoryAddr": "BARIS MAH., DR. ZEKIACAR CAD. NO:1 (TUBITAK MAM TEKNOPARKI), GEBZE KOCAELI TURKEY",
@@ -57,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "FTR0022000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200008800",
+            "ingredientsName": "SODIUM MOLYBDATE",
             "ingredientsDesc": "SODIUM MOLYBDATE",
             "concentDesc": "Sodium Molybdate (Na2 99MoO4), 5-50 GBq\/generator",
-            "concent": "0.000",
+            "concent": "0.0000",
             "concentUnit": "",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7804200210",
+            "ingredientsName": "TC-99M SODIUM PERTECHNETATE",
             "ingredientsDesc": "TC-99M SODIUM PERTECHNETATE",
             "concentDesc": "99m Technetium sodium pertechnetate (Na 99mTcO4)",
-            "concent": "0.000",
+            "concent": "0.0000",
             "concentUnit": "",
             "seq": "2",
             "prescription_seq": "1",

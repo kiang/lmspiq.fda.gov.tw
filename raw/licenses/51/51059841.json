@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059841",
+    "licUnit": "1",
     "validDate": "2028-01-02 00:00:00.000",
     "issueDate": "2018-01-02 00:00:00.000",
+    "oriIssueDate": "2018-01-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105984102",
@@ -27,14 +31,19 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "74D821F7-44D8-4239-81A8-033EE2D98087",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "VALSARTAN",
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "中國化學製藥股份有限公司新豐工廠",
     "applicantAddr": "新竹縣新豐鄉坑子口182之1號",
@@ -48,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DC2AD827-E854-4124-96CF-E7BBB42CBA61",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -58,16 +68,19 @@
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005100",
+            "ingredientsName": "VALSARTAN",
             "ingredientsDesc": "VALSARTAN",
             "concentDesc": "",
-            "concent": "80.000",
+            "concent": "80.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": "",
-            "concent": "12.500",
+            "concent": "12.5000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,52 +101,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "88B656C2-8794-4018-81C3-AC1665FF295B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "70892C60-E87C-4B8D-A7E6-B09127D3CA03",
-            "approvedDocNo": "1096036352",
-            "approvedDate": "2020-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C7F8B4F8-6FF7-4E83-B88C-91490A022BF8",
-            "approvedDocNo": "1086026987",
-            "approvedDate": "2019-12-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB186CBE-6741-43ED-B34B-496A4BC6AEE7",
-            "approvedDocNo": "1086033665",
-            "approvedDate": "2019-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C09DA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09CA03"
         }
     ],
     "licBaseId": "45A1F8C4-65F4-4FA5-80BC-69C7D16CA250"

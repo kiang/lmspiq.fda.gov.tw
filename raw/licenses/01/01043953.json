@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043953",
+    "licUnit": "1",
     "validDate": "2025-09-04 00:00:00.000",
     "issueDate": "2000-09-04 00:00:00.000",
+    "oriIssueDate": "2000-09-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104395307",
@@ -27,12 +31,15 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BB5C94A7-81DA-4A3B-9715-1C7FF6DFD620",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORHEXIDINE HCL",
         "BENZOCAINE (ETHYL AMINOBENZOATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "天下生物科技股份有限公司",
     "applicantAddr": "臺中市大甲區工九路9號",
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1B72AFD5-6DE4-4B8E-AC34-6A531BCA0D19",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900211",
+            "ingredientsName": "CHLORHEXIDINE HCL",
             "ingredientsDesc": "CHLORHEXIDINE HCL",
             "concentDesc": "5",
             "concent": "5.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000200",
+            "ingredientsName": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "ingredientsDesc": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "concentDesc": "2",
             "concent": "2.0000",
@@ -85,65 +97,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "92781FE1-C510-4A27-8862-360E8D842CD6",
-            "approvedDocNo": "1106610516",
-            "approvedDate": "2022-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AEEA38B8-B5F5-486E-9CF7-7C8F23EC80A7",
-            "approvedDocNo": "1106605091",
-            "approvedDate": "2021-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "57B6198E-74A6-4045-BFBB-0C45767B7B0F",
-            "approvedDocNo": "1080020493",
-            "approvedDate": "2019-12-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3F3DF8FD-FDE0-4F44-895A-26E15B3D898F",
-            "approvedDocNo": "1080020493",
-            "approvedDate": "2019-12-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "55BB16CD-7670-4D65-A13E-A32C21C01053",
-            "approvedDocNo": "1076616575",
-            "approvedDate": "2019-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "838171E7-1294-4923-997C-F784AA0F6729",
-            "approvedDocNo": "1076616575",
-            "approvedDate": "2019-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A01AB03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A01AD"
-        },
         {
             "isMain": "1",
             "atcCode": "A01AB"

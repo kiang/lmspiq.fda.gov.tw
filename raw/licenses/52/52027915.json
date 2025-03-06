@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027915",
+    "licUnit": "1",
     "validDate": "2025-08-31 00:00:00.000",
     "issueDate": "2020-08-31 00:00:00.000",
+    "oriIssueDate": "2020-08-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202791504",
@@ -23,18 +27,23 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "43AEED48-62EA-4AF5-861B-67D1F604CB75",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Velpatasvir",
         "Voxilaprevir",
         "Sofosbuvir"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1E"
+        "02 輸 入",
+        "07 新藥監視",
+        "1E 須執行Phase IV Study"
     ],
     "applicantName": "香港商吉立亞醫藥有限公司台灣分公司",
-    "applicantAddr": "臺北市信義區松仁路32號10樓之1、36號10樓之1",
+    "applicantAddr": "臺北市信義區松高路77號48樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4757301F-88CC-436D-9BB5-1C8DA630B9E4",
             "factoryCode": "1",
             "factoryName": "GILEAD SCIENCES IRELAND UC",
             "factoryAddr": "IDA BUSINESS & TECHNOLOGY PARK, CARRIGTOHILL COUNTY CORK, IRELAND",
@@ -60,9 +70,12 @@
             "factoryKind": "M",
             "factoryNo": "FIE0060000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8B50A135-A725-43A0-9B75-5DB005E9B037",
             "factoryCode": "2",
             "factoryName": "ESTEVE QUIMICA, S.A.",
             "factoryAddr": "C\/Ter, 94 Poligono Industrial Celra, Girona 17460, Spain",
@@ -78,9 +91,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0192200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "5C30F654-3C7C-44F1-985C-F4319477CE20",
             "factoryCode": "2",
             "factoryName": "Hovione Ltd.",
             "factoryAddr": "Hovione, Loughbeg, Ringaskiddy, Co. Cork, Ireland",
@@ -96,16 +112,19 @@
             "factoryKind": "M",
             "factoryNo": "FIE0087000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818004800",
+            "ingredientsName": "Sofosbuvir",
             "ingredientsDesc": "Sofosbuvir",
             "concentDesc": "",
-            "concent": "400.000",
+            "concent": "400.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -114,9 +133,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818008000",
+            "ingredientsName": "Velpatasvir",
             "ingredientsDesc": "Velpatasvir",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -125,9 +145,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818008100",
+            "ingredientsName": "Voxilaprevir",
             "ingredientsDesc": "Voxilaprevir",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.0000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -136,55 +157,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FC00F334-877E-4207-B1FA-62B79B1F5ED7",
-            "approvedDocNo": "1120709613",
-            "approvedDate": "2023-10-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EB14AAE1-BC50-4807-9E6C-B930BDD1D95E",
-            "approvedDocNo": "1106030948",
-            "approvedDate": "2021-11-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1CC77076-7037-4EDC-9466-563B549F11C9",
-            "approvedDocNo": "1106019263",
-            "approvedDate": "2021-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C8A5CF8E-C2A0-4D9F-BB48-15A54FFB1606",
-            "approvedDocNo": "1106003246",
-            "approvedDate": "2021-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "J05AP08"
-        },
-        {
             "isMain": "1",
-            "atcCode": "J05AP56"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AP56"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J05AP56"
         }
     ],

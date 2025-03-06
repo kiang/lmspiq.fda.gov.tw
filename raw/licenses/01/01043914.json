@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043914",
+    "licUnit": "1",
     "validDate": "2025-08-10 00:00:00.000",
     "issueDate": "2000-08-10 00:00:00.000",
+    "oriIssueDate": "2000-08-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104391400",
@@ -16,23 +20,26 @@
     "does": "3363",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "87"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "250AE066-EDD4-4234-9DD6-9876A40642B2",
+    "subCategory": [],
     "ingredientsDesc": [
         "ISOCONAZOLE NITRATE",
         "DIFLUCORTOLONE VALERATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "福元化學製藥股份有限公司",
     "applicantAddr": "新北市瑞芳區大寮路95-1號1樓",
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BB6A792E-7280-47BF-9CB6-BC783C504FF5",
             "factoryCode": "1",
             "factoryName": "福元化學製藥股份有限公司",
             "factoryAddr": "新北市瑞芳區大寮路９５號之１",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "1419502300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200610",
+            "ingredientsName": "ISOCONAZOLE NITRATE",
             "ingredientsDesc": "ISOCONAZOLE NITRATE",
             "concentDesc": "10",
             "concent": "10.0000",
@@ -74,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000810",
+            "ingredientsName": "DIFLUCORTOLONE VALERATE",
             "ingredientsDesc": "DIFLUCORTOLONE VALERATE",
             "concentDesc": "(MICRONIZED)   1",
             "concent": null,
@@ -85,36 +97,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A0AFE2D5-259E-4EEE-BC0F-B96C6D8B2917",
-            "approvedDocNo": "1110810968",
-            "approvedDate": "2022-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D3BFD78C-F138-48E0-AB1D-FD47BDC10549",
-            "approvedDocNo": "1110810968",
-            "approvedDate": "2022-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D01AC20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AC05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC06"
         }
     ],
     "licBaseId": "599A1962-1A0C-4E04-B04E-3B58E6E97C0D"

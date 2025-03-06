@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-09-11",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "01039251",
+    "licUnit": "1",
     "validDate": "2025-08-31 00:00:00.000",
     "issueDate": "1995-08-31 00:00:00.000",
+    "oriIssueDate": "1995-08-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103925102",
@@ -33,6 +37,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5B6E0F2D-9C25-4E45-976B-F16060923E59",
+    "subCategory": [],
     "ingredientsDesc": [
         "MAGNESIUM CHLORIDE",
         "SODIUM ACETATE",
@@ -42,8 +49,8 @@
         "GLUCOSE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "永豐化學工業股份有限公司",
     "applicantAddr": "新北市新莊區新樹路２９２號",
@@ -57,6 +64,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6942B1BC-A6E5-4A83-9B4D-958C783B2B90",
             "factoryCode": "1",
             "factoryName": "永豐化學工業股份有限公司新莊工廠",
             "factoryAddr": "新北市新莊區新樹路２９２號",
@@ -67,13 +75,16 @@
             "factoryKind": "M",
             "factoryNo": "0504302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "0.97",
             "concent": "0.9700",
@@ -85,6 +96,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000100",
+            "ingredientsName": "POTASSIUM ACETATE",
             "ingredientsDesc": "POTASSIUM ACETATE",
             "concentDesc": "1.18",
             "concent": "1.1800",
@@ -96,6 +108,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000600",
+            "ingredientsName": "SODIUM ACETATE",
             "ingredientsDesc": "SODIUM ACETATE",
             "concentDesc": "0.66",
             "concent": "0.6600",
@@ -107,6 +120,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001500",
+            "ingredientsName": "MAGNESIUM CHLORIDE",
             "ingredientsDesc": "MAGNESIUM CHLORIDE",
             "concentDesc": "0.3",
             "concent": "0.3000",
@@ -118,6 +132,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612001910",
+            "ingredientsName": "POTASSIUM PHOSPHATE MONOBASIC(EQ TO POTASSIUM BIPHOSPHATE)(EQ TO POTASSIUM DIHYDROGEN PHOSPHATE)",
             "ingredientsDesc": "POTASSIUM PHOSPHATE MONOBASIC(EQ TO POTASSIUM BIPHOSPHATE)(EQ TO POTASSIUM DIHYDROGEN PHOSPHATE)",
             "concentDesc": "0.83",
             "concent": "0.8300",
@@ -129,6 +144,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000700",
+            "ingredientsName": "GLUCOSE",
             "ingredientsDesc": "GLUCOSE",
             "concentDesc": "38",
             "concent": "38.0000",
@@ -143,20 +159,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "B05XA06"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BB01"
-        },
-        {
             "isMain": "1",
             "atcCode": "B05BB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA03"
         }
     ],
     "licBaseId": "9D6A5880-54FA-4BD2-8C42-6C9C08296DBE"

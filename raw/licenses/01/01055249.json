@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055249",
+    "licUnit": "1",
     "validDate": "2025-08-10 00:00:00.000",
     "issueDate": "2010-08-10 00:00:00.000",
+    "oriIssueDate": "2010-08-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105524904",
@@ -27,13 +31,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8C37077D-B43C-47AC-BC41-28DA7D85A994",
+    "subCategory": [],
     "ingredientsDesc": [
         "CEFOTIAM (AS HYDROCHLORIDE BUFFERED WITH SODIUM CARBONATE)",
         "CEFOTIAM (AS HYDROCHLORIDE BUFFERED WITH SODIUM CARBONATE)",
         "CEFOTIAM (AS HYDROCHLORIDE BUFFERED WITH SODIUM CARBONATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "政德製藥股份有限公司",
     "applicantAddr": "雲林縣大埤鄉嘉興村豐田路２號",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2CF9F418-6B52-4CC8-8527-63D186A19C4D",
             "factoryCode": "1",
             "factoryName": "政德製藥股份有限公司",
             "factoryAddr": "雲林縣大埤鄉嘉興村豐田路２號",
@@ -57,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "0922116300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812300720",
+            "ingredientsName": "CEFOTIAM (AS HYDROCHLORIDE BUFFERED WITH SODIUM CARBONATE)",
             "ingredientsDesc": "CEFOTIAM (AS HYDROCHLORIDE BUFFERED WITH SODIUM CARBONATE)",
             "concentDesc": null,
             "concent": "250.0000",
@@ -75,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812300720",
+            "ingredientsName": "CEFOTIAM (AS HYDROCHLORIDE BUFFERED WITH SODIUM CARBONATE)",
             "ingredientsDesc": "CEFOTIAM (AS HYDROCHLORIDE BUFFERED WITH SODIUM CARBONATE)",
             "concentDesc": null,
             "concent": "500.0000",
@@ -86,6 +98,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812300720",
+            "ingredientsName": "CEFOTIAM (AS HYDROCHLORIDE BUFFERED WITH SODIUM CARBONATE)",
             "ingredientsDesc": "CEFOTIAM (AS HYDROCHLORIDE BUFFERED WITH SODIUM CARBONATE)",
             "concentDesc": null,
             "concent": "1000.0000",
@@ -101,10 +114,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J01DC07"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J01DC07"
         }
     ],

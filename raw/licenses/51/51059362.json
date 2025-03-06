@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059362",
+    "licUnit": "1",
     "validDate": "2026-11-02 00:00:00.000",
     "issueDate": "2016-11-02 00:00:00.000",
+    "oriIssueDate": "2016-11-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105936200",
@@ -27,18 +31,21 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3B367353-8DB1-43B8-81BA-99D4841700C8",
+    "subCategory": [],
     "ingredientsDesc": [
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
         "PIOGLITAZONE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "24",
-        "61"
+        "01 國 產",
+        "1R 不得製造",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
-    "applicantName": "健喬信元醫藥生技股份有限公司",
-    "applicantAddr": "新竹縣湖口鄉工業一路6號",
+    "applicantName": "優良化學製藥股份有限公司",
+    "applicantAddr": "新竹縣湖口鄉中興村光復路10號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7B9C5E92-81DA-41EC-9242-33435A06122A",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業一路６號",
@@ -56,19 +64,22 @@
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
-            "factoryKind": "M",
+            "factoryKind": "E",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": "",
-            "concent": "850.000",
+            "concent": "850.0000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400910",
+            "ingredientsName": "PIOGLITAZONE HYDROCHLORIDE",
             "ingredientsDesc": "PIOGLITAZONE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "16.530",
+            "concent": "16.5300",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -88,44 +100,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FF9D99FC-2EE1-484B-B8F0-620CA3F3F0C2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "30ECED60-A89E-461C-856F-8935C2A67E42",
-            "approvedDocNo": "1086807740",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FB519E74-9DDB-4C32-B1C6-C564167B43E2",
-            "approvedDocNo": "1076026134",
-            "approvedDate": "2019-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A10BD05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A10BG03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A10BA02"
         }
     ],
     "licBaseId": "2A8F3E17-63F3-4022-9499-A6D0C7358307"

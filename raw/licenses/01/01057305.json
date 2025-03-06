@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-02-20",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "01057305",
+    "licUnit": "1",
     "validDate": "2027-07-20 00:00:00.000",
     "issueDate": "2012-07-20 00:00:00.000",
+    "oriIssueDate": "2012-07-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105730501",
@@ -27,6 +33,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2CCEE20D-1CA2-48B6-8EBE-D59277548561",
+    "subCategory": [],
     "ingredientsDesc": [
         "CILASTATIN (AS SODIUM)",
         "IMIPENEM",
@@ -34,11 +43,11 @@
         "CILASTATIN (AS SODIUM)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R",
-        "1U",
-        "24"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造",
+        "1U 未依本署規定完成變更中文仿單安全性資訊，不得輸入或製造",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "聯亞藥業股份有限公司 ",
     "applicantAddr": "新竹縣湖口鄉光復北路45號",
@@ -52,6 +61,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "93B74BA3-489D-446B-96C0-416545AFC7A1",
             "factoryCode": "1",
             "factoryName": "政德製藥股份有限公司",
             "factoryAddr": "雲林縣大埤鄉嘉興村豐田路２號",
@@ -62,13 +72,16 @@
             "factoryKind": "M",
             "factoryNo": "0922116300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812002300",
+            "ingredientsName": "IMIPENEM",
             "ingredientsDesc": "IMIPENEM",
             "concentDesc": null,
             "concent": "250.0000",
@@ -80,6 +93,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410000620",
+            "ingredientsName": "CILASTATIN (AS SODIUM)",
             "ingredientsDesc": "CILASTATIN (AS SODIUM)",
             "concentDesc": null,
             "concent": "250.0000",
@@ -91,6 +105,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812002300",
+            "ingredientsName": "IMIPENEM",
             "ingredientsDesc": "IMIPENEM",
             "concentDesc": null,
             "concent": "500.0000",
@@ -102,6 +117,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410000620",
+            "ingredientsName": "CILASTATIN (AS SODIUM)",
             "ingredientsDesc": "CILASTATIN (AS SODIUM)",
             "concentDesc": null,
             "concent": "500.0000",
@@ -118,22 +134,6 @@
         {
             "isMain": "1",
             "atcCode": "J01DH51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CG"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01DH"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01DH"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CG"
         }
     ],
     "licBaseId": "2EE87885-FAFE-4823-AF4A-3126E20FDCF1"

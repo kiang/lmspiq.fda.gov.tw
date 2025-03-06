@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024622",
+    "licUnit": "1",
     "validDate": "2027-03-06 00:00:00.000",
     "issueDate": "2007-03-06 00:00:00.000",
+    "oriIssueDate": "2007-03-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202462207",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FF2BE6A4-B0D8-4B26-A406-54DB6CC81757",
+    "subCategory": [],
     "ingredientsDesc": [
         "SILDENAFIL CITRATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "暉致醫藥股份有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1EB05C72-9CBE-47D0-8D92-26E726947B86",
             "factoryCode": "1",
             "factoryName": "Fareva Amboise",
             "factoryAddr": "ZONE INDUSTRIELLE, 29, ROUTE DES INDUSTRIES 37530 POCE-SIR-CISSE, FRANCE",
@@ -51,9 +59,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0080100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D34E296C-0E9F-4891-9BF7-8C9F8C46D63B",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司(委託包裝)",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
@@ -69,13 +80,16 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200091910",
+            "ingredientsName": "SILDENAFIL CITRATE",
             "ingredientsDesc": "SILDENAFIL CITRATE",
             "concentDesc": "20",
             "concent": "28.0900",
@@ -87,61 +101,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B442E6F1-F585-4D91-8D2B-B79F775690B2",
-            "approvedDocNo": "1119023561",
-            "approvedDate": "2022-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E1ECF81A-9A0B-4F53-B02B-F91F6408DB3C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "79EF44A6-3DBC-4622-943F-EBFBEA34A533",
-            "approvedDocNo": "1101497693",
-            "approvedDate": "2021-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E12D56E8-1B7B-45AC-AC45-49EC350A0AF9",
-            "approvedDocNo": "1091496436",
-            "approvedDate": "2021-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AD2E8135-2677-4F41-89A1-10A370593E90",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "23DA931E-4DD7-4DA1-B7CB-1B4882484CE4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "G04BE03"
-        },
         {
             "isMain": "1",
             "atcCode": "G04BE03"

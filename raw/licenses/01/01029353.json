@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029353",
+    "licUnit": "1",
     "validDate": "2029-01-08 00:00:00.000",
     "issueDate": "1987-01-08 00:00:00.000",
+    "oriIssueDate": "1987-01-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102935301",
@@ -16,6 +20,10 @@
     "does": "2270",
     "packageUnit": [
         {
+            "packageSpec": "100支以下",
+            "packageUnit": "03"
+        },
+        {
             "packageSpec": "1000公絲",
             "packageUnit": "13"
         }
@@ -23,11 +31,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E7A66C32-CB34-4316-9ECE-7986C7A82CA0",
+    "subCategory": [],
     "ingredientsDesc": [
         "CEFAZOLIN (SODIUM)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "政德製藥股份有限公司",
     "applicantAddr": "雲林縣大埤鄉嘉興村豐田路２號",
@@ -41,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "48867DA0-36F4-4728-85E6-7B3B551C762F",
             "factoryCode": "1",
             "factoryName": "政德製藥股份有限公司",
             "factoryAddr": "雲林縣大埤鄉嘉興村豐田路２號",
@@ -51,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "0922116300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812309510",
+            "ingredientsName": "CEFAZOLIN (SODIUM)",
             "ingredientsDesc": "CEFAZOLIN (SODIUM)",
             "concentDesc": null,
             "concent": "1000.0000",
@@ -69,16 +84,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4DE01AED-32E6-4C6D-B835-D9AB8426BA95",
-            "approvedDocNo": "1129063239",
-            "approvedDate": "2023-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
