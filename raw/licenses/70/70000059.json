@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-02-27",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "70000059",
+    "licUnit": "1",
     "validDate": "2029-08-29 00:00:00.000",
     "issueDate": "2019-08-29 00:00:00.000",
+    "oriIssueDate": "2019-08-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA07000005908",
@@ -23,13 +29,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "6B44AC95-8FF5-41FC-8F29-658BE6CD7442",
+    "subCategory": [
+        "A03"
+    ],
     "ingredientsDesc": [
         "FINGOLIMOD HCL"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -43,23 +54,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "03E049DA-E088-441A-90E6-435DA5416253",
             "factoryCode": "1",
             "factoryName": "Novartis Pharmaceutical Manufacturing LLC",
             "factoryAddr": "Verovskova ulica 57 1000 Ljubljana Slovenia",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "SI",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FSI0008000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3A330C3D-E2D6-41B0-A10F-5FDF7A565A04",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -69,11 +84,14 @@
             ],
             "processCodeStr": "3P;二級包裝廠(委託貼標及置入仿單)",
             "factoryKind": "M",
-            "factoryNo": "1225204000",
+            "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "AEF38CDA-B54F-4EF6-853E-48668FB14D3A",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA AG",
             "factoryAddr": "LICHTSTRASSE 35, CH-4056 BASEL, SWITZERLAND",
@@ -89,16 +107,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0253000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200096010",
+            "ingredientsName": "FINGOLIMOD HCL",
             "ingredientsDesc": "FINGOLIMOD HCL",
             "concentDesc": "Novartis Pharma AG (-C11) Lichtstrasse 35, CH-4056 Basel Switzerland Novartis Pharma Schweizerhalle AG (C11-C13) Rothausstrasse CH-4133 Pratteln, Switzerland Novartis Pharma Stein AG (C13-C14) Schaffhauserstrasse CH-4332, Stein, Switzerland",
-            "concent": "0.280",
+            "concent": "0.280000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -107,72 +128,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C92D3972-DC9C-4DA7-9926-15F077EF724D",
-            "approvedDocNo": "1129060794",
-            "approvedDate": "2024-01-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "22FEA206-CF4D-47D0-B0D0-64490C61AD67",
-            "approvedDocNo": "1129073770",
-            "approvedDate": "2024-01-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1B17FC72-9FE3-4B9B-B9B3-055A251A0C56",
-            "approvedDocNo": "1120707669",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8F6C5744-6F6D-48AD-84DD-7CCBD03A0060",
-            "approvedDocNo": "1106006212",
-            "approvedDate": "2021-09-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E9E34DF6-642A-43AA-81C7-67898B29335F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB164DD6-CBDD-46DE-967C-F0C8EF0CBCE5",
-            "approvedDocNo": "1096022356",
-            "approvedDate": "2021-01-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "54110BB2-961B-406E-A121-28DD4BFC7BD4",
-            "approvedDocNo": "1096016423",
-            "approvedDate": "2020-09-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AD98DD97-D126-4382-B83F-7BA0E4790885",
-            "approvedDocNo": "1096011150",
-            "approvedDate": "2020-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01002151",
+    "licUnit": "1",
     "validDate": "2025-09-30 00:00:00.000",
     "issueDate": "1972-11-17 00:00:00.000",
+    "oriIssueDate": "1972-11-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100215107",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CDC3FE52-574B-4D10-BC30-C0F1EE1A1A9C",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLOPERASTINE HCL",
         "CHLORPHENIRAMINE MALEATE",
@@ -30,9 +37,9 @@
         "DL-METHYLEPHEDRINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "理想藥品股份有限公司",
     "applicantAddr": "台北市中山區長安東路二段171號2樓之2",
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BED0C91A-A298-4C2F-8E39-9FBC4D68EC21",
             "factoryCode": "1",
             "factoryName": "科進製藥科技股份有限公司新竹廠",
             "factoryAddr": "新竹縣竹北市東海里生醫路2段22、26號4樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133050732",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800000810",
+            "ingredientsName": "CLOPERASTINE HCL",
             "ingredientsDesc": "CLOPERASTINE HCL",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "16.6",
-            "concent": "16.6000",
+            "concent": "16.600000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": "80",
-            "concent": "80.0000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -96,9 +109,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "2.5",
-            "concent": "2.5000",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -107,36 +121,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3D8C09CA-DB3D-4A68-8BEC-DE1F59B574C0",
-            "approvedDocNo": "1096812510",
-            "approvedDate": "2020-08-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05DB21"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
-        },
         {
             "isMain": "1",
             "atcCode": "R05FB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
         }
     ],
     "licBaseId": "FA5756FD-C16A-4FF9-A6ED-F3089420EC09"

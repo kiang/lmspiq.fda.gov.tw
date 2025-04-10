@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023000",
+    "licUnit": "1",
     "validDate": "2025-09-21 00:00:00.000",
     "issueDate": "2000-09-21 00:00:00.000",
+    "oriIssueDate": "2000-09-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202300007",
@@ -27,11 +31,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1FBD31DE-3BD6-4E66-B738-9F437FC4F636",
+    "subCategory": [],
     "ingredientsDesc": [
         "APOMORPHINE HCL"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣美強股份有限公司",
     "applicantAddr": "台北市中山區南京東路二段66號4樓",
@@ -45,23 +52,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0F9689C5-DBD1-4085-822D-5499238A01F9",
             "factoryCode": "1",
             "factoryName": "CP PHARMACEUTICALS LIMITED",
             "factoryAddr": "ASH ROAD NORTH WREXHAM INDUSTRIAL ESTATE WREXHAM, LL13 9UF UNITED KINGDOM",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GB",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FGB0269100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "0B42DD7E-67B4-4C69-B49C-391971BC976B",
             "factoryCode": "2",
             "factoryName": "台灣美強股份有限公司",
             "factoryAddr": "新北市深坑區北深路3段155巷5號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -73,13 +84,16 @@
             "factoryKind": "M",
             "factoryNo": "6131180602",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "C79F3A55-7B18-4CF8-BB0F-59E725FA11FA",
             "factoryCode": "2",
             "factoryName": "LABORATOIRE AGUETTANT",
             "factoryAddr": "1 RUE ALEXANDER FLEMING, 69007 LYON, FRANCE",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "FR",
             "processCode": [
                 {
@@ -91,9 +105,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0159100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "776E1A4A-3356-455D-A5BB-D4B44E22D9DB",
             "factoryCode": "2",
             "factoryName": "BRITANNIA PHARMACEUTICALS LTD.",
             "factoryAddr": "200 Longwater Avenue, Reading Berkshire,RG2 6GP ,UK",
@@ -109,16 +126,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0291000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5620000110",
+            "ingredientsName": "APOMORPHINE HCL",
             "ingredientsDesc": "APOMORPHINE HCL",
             "concentDesc": null,
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -127,40 +147,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "05817DD6-9999-42AB-9C17-6E9ABB1FEB63",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "911F0851-2084-4D67-BC0F-AF8199DD2EE8",
-            "approvedDocNo": "1086022943",
-            "approvedDate": "2020-02-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9DD4967E-A5D3-4BFB-AC6E-BDDAB5A06124",
-            "approvedDocNo": "1086022943",
-            "approvedDate": "2020-02-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1895570C-5950-4F9D-993C-33B0742765F0",
-            "approvedDocNo": "1086022943",
-            "approvedDate": "2020-02-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02017117",
+    "licUnit": "1",
     "validDate": "2023-07-15 00:00:00.000",
     "issueDate": "1989-03-21 00:00:00.000",
+    "oriIssueDate": "1989-03-21",
     "licKind": "02",
     "oldLicid": "02014583",
     "certNo": "DHA00201711703",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A2A8872B-16D2-44C8-A224-7DD9503E7813",
+    "subCategory": [],
     "ingredientsDesc": [
         "MAGNESIUM ALUMINUM HYDROXIDE",
         "CLOVE POWDER",
@@ -35,7 +42,7 @@
         "BIODIASTASE 1000"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "德佑藥品有限公司",
     "applicantAddr": "台北市松山區敦化南路一段3號2樓",
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FF1404F2-6C91-4E18-9A61-09628764E1BA",
             "factoryCode": "1",
             "factoryName": "DAISHO PHARM. CO. LTD.",
             "factoryAddr": "NO. 168, OHARAICHIBA, KOKA-CHO KOKA-SHI SHIGA JAPAN",
@@ -59,16 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0046000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600002020",
+            "ingredientsName": "SYNTHETIC ALUMINUM SILICATE",
             "ingredientsDesc": "SYNTHETIC ALUMINUM SILICATE",
             "concentDesc": "",
-            "concent": "66.6670",
+            "concent": "66.667000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -77,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002406",
+            "ingredientsName": "MAGNESIUM CARBONATE HEAVY",
             "ingredientsDesc": "MAGNESIUM CARBONATE HEAVY",
             "concentDesc": "",
-            "concent": "33.3330",
+            "concent": "33.333000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002300",
+            "ingredientsName": "MAGNESIUM ALUMINUM HYDROXIDE",
             "ingredientsDesc": "MAGNESIUM ALUMINUM HYDROXIDE",
             "concentDesc": "",
-            "concent": "116.6670",
+            "concent": "116.667000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -99,9 +112,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000100",
+            "ingredientsName": "CINNAMON (CINNAMON CORTEX ) (CINNAMON BARK)",
             "ingredientsDesc": "CINNAMON (CINNAMON CORTEX ) (CINNAMON BARK)",
             "concentDesc": "(POWDER)",
-            "concent": "33.3330",
+            "concent": "33.333000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -110,9 +124,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000401",
+            "ingredientsName": "GINGER POWDER",
             "ingredientsDesc": "GINGER POWDER",
             "concentDesc": "",
-            "concent": "11.1110",
+            "concent": "11.111000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -121,9 +136,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200000301",
+            "ingredientsName": "CLOVE POWDER",
             "ingredientsDesc": "CLOVE POWDER",
             "concentDesc": "",
-            "concent": "6.6670",
+            "concent": "6.667000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -132,9 +148,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400007130",
+            "ingredientsName": "BIODIASTASE 1000",
             "ingredientsDesc": "BIODIASTASE 1000",
             "concentDesc": "",
-            "concent": "5.5560",
+            "concent": "5.556000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -143,9 +160,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616001900",
+            "ingredientsName": "PROZYME 6",
             "ingredientsDesc": "PROZYME 6",
             "concentDesc": "",
-            "concent": "0.5560",
+            "concent": "0.556000",
             "concentUnit": "001",
             "seq": "7",
             "prescription_seq": "1",
@@ -154,9 +172,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616001800",
+            "ingredientsName": "URSODEOXYCHOLIC ACID",
             "ingredientsDesc": "URSODEOXYCHOLIC ACID",
             "concentDesc": "",
-            "concent": "2.2220",
+            "concent": "2.222000",
             "concentUnit": "001",
             "seq": "8",
             "prescription_seq": "1",
@@ -165,69 +184,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FD27F163-2E58-4A07-A9E9-07C3D5F6A2A3",
-            "approvedDocNo": "1086031960",
-            "approvedDate": "2020-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BBB49DFC-9605-4CD8-8C5E-0E123AF1FDF6",
-            "approvedDocNo": "1086031960",
-            "approvedDate": "2020-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "072D6082-D7ED-4892-9B88-41132AF58401",
-            "approvedDocNo": "1086031960",
-            "approvedDate": "2020-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4622A2DD-BE58-4D06-A68A-C326F6260E36",
-            "approvedDocNo": "1086031960",
-            "approvedDate": "2020-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02AA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A09AA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AD"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A05AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB"
-        },
         {
             "isMain": "1",
             "atcCode": "A02X"

@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "03015703",
+    "licUnit": "1",
     "validDate": "2025-09-28 00:00:00.000",
     "issueDate": "2010-09-28 00:00:00.000",
+    "oriIssueDate": "2010-09-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00301570305",
@@ -28,15 +31,18 @@
     "medMCode": "03",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F9F42716-7796-4AE2-B662-5E215E4D4707",
+    "subCategory": [],
     "ingredientsDesc": [
         "L-MENTHOL ",
         "METHYL SALICYLATE",
         "CAMPHOR"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "鼐成興業股份有限公司",
     "applicantAddr": "桃園市中壢區正光二街82號4樓",
@@ -50,26 +56,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FC5A6876-C905-4438-A0DB-1B2248A6AAD0",
             "factoryCode": "1",
             "factoryName": "人生製藥股份有限公司",
             "factoryAddr": "台中市工業區五路三號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0201709300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000100",
+            "ingredientsName": "CAMPHOR",
             "ingredientsDesc": "CAMPHOR",
             "concentDesc": null,
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -78,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000302",
+            "ingredientsName": "L-MENTHOL ",
             "ingredientsDesc": "L-MENTHOL ",
             "concentDesc": null,
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -89,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424400200",
+            "ingredientsName": "METHYL SALICYLATE",
             "ingredientsDesc": "METHYL SALICYLATE",
             "concentDesc": null,
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -100,44 +112,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7B58D874-082D-4845-87B3-4E07500AD4D3",
-            "approvedDocNo": "1129063264",
-            "approvedDate": "2024-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7D10E928-589A-4466-9530-91579DAA11BE",
-            "approvedDocNo": "1129063264",
-            "approvedDate": "2024-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7FFA1C04-1F78-4C9E-A20D-BE1C507FAE77",
-            "approvedDocNo": "1101494427",
-            "approvedDate": "2021-08-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D02AF"
-        },
         {
             "isMain": "1",
             "atcCode": "D04AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
         }
     ],
     "licBaseId": "D3DCF0BE-3749-4860-B3B5-B5D0705B2BB4"

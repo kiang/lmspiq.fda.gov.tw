@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024823",
+    "licUnit": "1",
     "validDate": "2028-04-24 00:00:00.000",
     "issueDate": "2008-04-24 00:00:00.000",
+    "oriIssueDate": "2008-04-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202482304",
@@ -23,13 +27,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "654EA736-54FF-4303-9FF1-7A9FF62BA745",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMLODIPINE BESYLATE",
         "VALSARTAN"
     ],
     "restraintItemsCode": [
-        "02",
-        "58"
+        "02 輸 入",
+        "58 依本署891212衛署藥字第0890035812號公告經本署認定得免除國內銜接性試驗且經本署核定之新藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -43,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C64CA95C-E2C0-4759-B0F0-C039EC3D8989",
             "factoryCode": "1",
             "factoryName": "NOVARTIS FARMA S.P.A.",
             "factoryAddr": "VIA PROVINCIALE SCHITO 131-80058 TORRE ANNUNZIATA, ITALY",
@@ -53,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "FIT0320000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "A0C692E3-9748-40E5-8C25-B8159E454DE1",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA AG",
             "factoryAddr": "LICHTSTRASSE 35 CH-4056 BASLE, SWITZERLAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CH",
             "processCode": [
                 {
@@ -71,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412402210",
+            "ingredientsName": "AMLODIPINE BESYLATE",
             "ingredientsDesc": "AMLODIPINE BESYLATE",
             "concentDesc": null,
-            "concent": "13.8700",
+            "concent": "13.870000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,9 +104,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005100",
+            "ingredientsName": "VALSARTAN",
             "ingredientsDesc": "VALSARTAN",
             "concentDesc": null,
-            "concent": "160.0000",
+            "concent": "160.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -100,81 +116,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "536BE45B-78F0-4DBC-805F-D93293328959",
-            "approvedDocNo": "1110713581",
-            "approvedDate": "2022-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "730355C0-8B35-4385-8C67-FC818F38A4FE",
-            "approvedDocNo": "1106812916",
-            "approvedDate": "2022-03-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B87F6BFD-35EB-43BC-B259-BD418EA2F0DF",
-            "approvedDocNo": "1106812916",
-            "approvedDate": "2022-03-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A4D6AEAD-B06B-4AB3-985B-C1D59DA48A00",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C1CF6E46-E93F-441B-B2E8-AB0394793444",
-            "approvedDocNo": "1096036972",
-            "approvedDate": "2021-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3D4B6EB9-1A92-4524-A016-D60049E75924",
-            "approvedDocNo": "1096022016",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "91CA4CD8-F853-4EB5-A57B-5B5378007063",
-            "approvedDocNo": "1081492302",
-            "approvedDate": "2020-06-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5A61A0C0-1EBD-4D58-AB1B-ECC3845834DE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C09CA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C08CA01"
-        },
         {
             "isMain": "1",
             "atcCode": "C09DB01"

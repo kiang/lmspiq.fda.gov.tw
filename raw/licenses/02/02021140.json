@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02021140",
+    "licUnit": "1",
     "validDate": "2026-01-22 00:00:00.000",
     "issueDate": "2020-10-29 00:00:00.000",
+    "oriIssueDate": "1996-01-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -23,13 +27,17 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "765C8B89-918C-461A-BA5B-769746E8DC5E",
+    "subCategory": [],
     "ingredientsDesc": [
         "ALPRAZOLAM"
     ],
     "restraintItemsCode": [
-        "02",
-        "06",
-        "34"
+        "02 輸 入",
+        "06 管制藥品",
+        "34 第四級管制藥品",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "暉致醫藥股份有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -43,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D49DB741-1783-45BC-9909-C9D6D5FF5DF0",
             "factoryCode": "1",
             "factoryName": "PFIZER ITALIA S.R.L.",
             "factoryAddr": "LOCALITA MARINO DEL TRONTO, 63100 ASCOLI PICENO, ITALY",
@@ -53,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "FIT0458000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D19F05CC-C7A7-4202-9DCA-9A879CE92804",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓，3樓，1樓A區",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "",
             "processCode": [
                 {
@@ -71,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824202000",
+            "ingredientsName": "ALPRAZOLAM",
             "ingredientsDesc": "ALPRAZOLAM",
             "concentDesc": null,
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -89,64 +104,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ACB1DAE6-BB3F-4290-AAAB-E92A8306640C",
-            "approvedDocNo": "1119025802",
-            "approvedDate": "2022-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8F205D37-B25A-4D6B-9647-F6B2D82A7C22",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E87A934B-B03A-4E1E-A93C-50E90DDB6B10",
-            "approvedDocNo": "1101497787",
-            "approvedDate": "2021-11-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E7F20268-1BF6-4246-B96F-181F8AB1FCC5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "55100DBD-A8D0-440A-8A2D-4E579D98CF97",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EC1F2DD2-2035-41D2-9421-CC7831E31108",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "99A32096-CC19-4C2E-A300-CE87782C8EF9",
-            "approvedDocNo": "1086030617",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

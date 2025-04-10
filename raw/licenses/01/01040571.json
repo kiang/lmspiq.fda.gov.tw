@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040571",
+    "licUnit": "1",
     "validDate": "2025-09-13 00:00:00.000",
     "issueDate": "1996-11-15 00:00:00.000",
+    "oriIssueDate": "1996-11-15",
     "licKind": "02",
     "oldLicid": "01038086",
     "certNo": "DHY00104057104",
@@ -16,17 +20,20 @@
     "does": "3325",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "59"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "114546D8-BD71-4DEA-AFCB-777E5BB5AEBF",
+    "subCategory": [],
     "ingredientsDesc": [
         "DL-CAMPHOR ",
         "GLYCOL SALICYLATE",
@@ -37,9 +44,9 @@
         "METHYL SALICYLATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "生春堂製藥工業股份有限公司",
     "applicantAddr": "台南市永康區王行里興工路６號",
@@ -53,26 +60,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "09A1CE42-F41E-4E1A-803D-BC33FC95970F",
             "factoryCode": "1",
             "factoryName": "立康生物科技股份有限公司工廠",
             "factoryAddr": "台南市永康區王行里環工路29、31、31之1、31之2、31之3、31之5號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6141311262",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000300",
+            "ingredientsName": "MENTHOL",
             "ingredientsDesc": "MENTHOL",
             "concentDesc": "11.8",
-            "concent": "11.8000",
+            "concent": "11.800000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,9 +92,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424400200",
+            "ingredientsName": "METHYL SALICYLATE",
             "ingredientsDesc": "METHYL SALICYLATE",
             "concentDesc": "12.5",
-            "concent": "12.5000",
+            "concent": "12.500000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -92,9 +104,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8400000200",
+            "ingredientsName": "GLYCOL SALICYLATE",
             "ingredientsDesc": "GLYCOL SALICYLATE",
             "concentDesc": "3.4",
-            "concent": "3.4000",
+            "concent": "3.400000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "1",
@@ -103,9 +116,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000103",
+            "ingredientsName": "DL-CAMPHOR ",
             "ingredientsDesc": "DL-CAMPHOR ",
             "concentDesc": "2.0",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "002",
             "seq": "4",
             "prescription_seq": "1",
@@ -114,9 +128,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404801200",
+            "ingredientsName": "THYMOL",
             "ingredientsDesc": "THYMOL",
             "concentDesc": "1.5",
-            "concent": "1.5000",
+            "concent": "1.500000",
             "concentUnit": "002",
             "seq": "5",
             "prescription_seq": "1",
@@ -125,9 +140,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000210",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA (EQ TO VIT E ACETATE) (EQ TO VITAMIN E ACETATE)",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA (EQ TO VIT E ACETATE) (EQ TO VITAMIN E ACETATE)",
             "concentDesc": "0.3",
-            "concent": "0.3000",
+            "concent": "0.300000",
             "concentUnit": "002",
             "seq": "6",
             "prescription_seq": "1",
@@ -136,9 +152,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000305",
+            "ingredientsName": "MENTHOL OIL",
             "ingredientsDesc": "MENTHOL OIL",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "002",
             "seq": "7",
             "prescription_seq": "1",
@@ -149,18 +166,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "M02AC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D02AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
         {
             "isMain": "1",
             "atcCode": "M02AC"

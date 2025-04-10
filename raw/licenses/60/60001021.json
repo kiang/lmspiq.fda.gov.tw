@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001021",
+    "licUnit": "1",
     "validDate": "2026-07-11 00:00:00.000",
     "issueDate": "2016-07-11 00:00:00.000",
+    "oriIssueDate": "2016-07-11",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000102105",
@@ -27,15 +31,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EBA24DA8-965A-434F-A038-92E957056C9E",
+    "subCategory": [],
     "ingredientsDesc": [
         "Elotuzumab",
         "Elotuzumab"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1E",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "1E 須執行Phase IV Study",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣必治妥施貴寶股份有限公司",
     "applicantAddr": "台北市松山區健康路156號4樓、5樓",
@@ -49,6 +56,28 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8C14A1E7-ED1E-4434-B896-1C1F21351661",
+            "factoryCode": "1",
+            "factoryName": "PATHEON ITALIA S.P.A. MONZA OPERATIONS",
+            "factoryAddr": "VIALE, G.B. STUCCHI 110, 20900 MONZA(MB), ITALY",
+            "factoryCompanyAddr": null,
+            "countryCode": "IT",
+            "processCode": [
+                {
+                    "value": "66",
+                    "name": "成品製造廠"
+                }
+            ],
+            "processCodeStr": "66;成品製造廠",
+            "factoryKind": "M",
+            "factoryNo": "FIT0350000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "11372CE0-0DE6-4146-919F-A2DC0EB42FA3",
             "factoryCode": "1",
             "factoryName": "Bristol-Myers Squibb Holdings Pharma Ltd. Liability Company",
             "factoryAddr": "BO TIERRAS NUEVAS, ROUTE 686, KM 2.3, MANATI, PUERTO RICO 00674, U.S.A.",
@@ -59,12 +88,15 @@
             "factoryKind": "M",
             "factoryNo": "FUS0121100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "24ECC914-4E3E-4A90-AF85-9BD66ACCF395",
             "factoryCode": "2",
             "factoryName": "CATALENT ANAGNI S.R.L. ",
-            "factoryAddr": "LOCALITA' FONTANA DEL CERASO SNC, STRADA PROVINCIALE CASILINA, 41, ANAGNI (FR), 03012, ITALY",
+            "factoryAddr": "Localita’Fontana del Ceraso snc, Strada Provinciale 12 Casilina, 41, Anagni (FR), 03012 Italy",
             "factoryCompanyAddr": "",
             "countryCode": "IT",
             "processCode": [
@@ -77,9 +109,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0404000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "95961DB1-63A0-4A76-B895-2313F61C389E",
             "factoryCode": "2",
             "factoryName": "Lotte Biologics USA, LLC",
             "factoryAddr": "6000 Thompson Road East Syracuse, New York 13057, USA",
@@ -95,9 +130,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0037200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D754DC2E-44F1-431C-BF7A-0543FC9EEBB8",
             "factoryCode": "2",
             "factoryName": "BRISTOL-MYERS SQUIBB COMPANY",
             "factoryAddr": "38 JACKSON ROAD, DEVENS,MASSACHUSETTS 01434 ,USA",
@@ -113,16 +151,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0885000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013005800",
+            "ingredientsName": "Elotuzumab",
             "ingredientsDesc": "Elotuzumab",
             "concentDesc": "Elotuzumab (BMS-901608)",
-            "concent": "440.000",
+            "concent": "440.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -131,9 +172,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013005800",
+            "ingredientsName": "Elotuzumab",
             "ingredientsDesc": "Elotuzumab",
             "concentDesc": "Elotuzumab (BMS-901608)",
-            "concent": "340.000",
+            "concent": "340.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -142,140 +184,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3D66C7F1-D541-412E-A25D-E71FB2718636",
-            "approvedDocNo": "1129028693",
-            "approvedDate": "2023-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4DC236E4-05FC-4D3A-B90D-1FB3012E106F",
-            "approvedDocNo": "1119047226",
-            "approvedDate": "2023-02-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F85B820-B195-4C45-A423-0C3D015C0BC3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "911C9AB9-047D-4313-9143-AABFACDDFB65",
-            "approvedDocNo": "1106009765",
-            "approvedDate": "2021-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8BFA4877-26D2-41B7-ABF4-2A438151233D",
-            "approvedDocNo": "1106009765",
-            "approvedDate": "2021-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "60D56D0F-B7BF-40D1-AA50-B0142D9F9BF4",
-            "approvedDocNo": "1106009765",
-            "approvedDate": "2021-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "80E3BC98-BDCB-4633-B889-D08A76E7DD32",
-            "approvedDocNo": "1106009765",
-            "approvedDate": "2021-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "85B2DEC2-F20D-4B6E-ABB7-2D19E8B9296D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A3D91E55-C3D4-465D-8B63-D1909BCDD33B",
-            "approvedDocNo": "1106014167",
-            "approvedDate": "2021-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A5E64A9C-63E2-44E5-A106-A90131F72144",
-            "approvedDocNo": "1106001922",
-            "approvedDate": "2021-02-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "024E042C-89B9-4460-BA8F-AD737DA3697E",
-            "approvedDocNo": "1091493417",
-            "approvedDate": "2020-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "06D3BBD1-23B9-4D7A-8C17-0CC4EB5A3726",
-            "approvedDocNo": "1091493417",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "03821422-F38D-48F8-842F-3D7F13FB5B03",
-            "approvedDocNo": "1091493417",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9D77E78C-C9BA-424E-BD55-FA33E7350927",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BE0DDA8F-CD44-496D-9CD6-EEF96CF74185",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "202DF89B-B808-4A7B-9CD2-C774EC61FA01",
-            "approvedDocNo": "1076042308",
-            "approvedDate": "2019-06-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L01XC23"
+            "atcCode": "L01FX08"
         }
     ],
     "licBaseId": "7BE02509-FF6D-4D36-852D-78717562DC43"

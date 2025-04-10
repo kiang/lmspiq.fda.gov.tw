@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "53017004",
+    "licUnit": "1",
     "validDate": "2028-07-31 00:00:00.000",
     "issueDate": "2018-07-31 00:00:00.000",
+    "oriIssueDate": "2018-07-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05301700408",
@@ -13,7 +17,7 @@
     "indicationsName": [
         "緩解便袐。"
     ],
-    "does": "5501",
+    "does": "3371",
     "packageUnit": [
         {
             "packageSpec": "2-25粒 (每粒20毫升)",
@@ -23,12 +27,17 @@
     "medMCode": "03",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "DB6EA433-5596-4EA1-ABF2-827C896B6577",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "SODIUM CHLORIDE",
         "GLYCERIN (eq to GLYCEROL)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "德山製藥股份有限公司",
     "applicantAddr": "嘉義縣民雄鄉民雄工業區中山路38號",
@@ -42,26 +51,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5E4A6149-6329-4F71-A28A-8EB00C301C11",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600013500",
+            "ingredientsName": "GLYCERIN (eq to GLYCEROL)",
             "ingredientsDesc": "GLYCERIN (eq to GLYCEROL)",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,40 +95,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DF895C70-C27B-4742-AD8A-8D85A644DE43",
-            "approvedDocNo": "1110816082",
-            "approvedDate": "2023-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2381515C-2DC6-4272-9A18-E9AC250C2375",
-            "approvedDocNo": "1110816082",
-            "approvedDate": "2023-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B2003043-E9B1-4996-A458-7178637B7D22",
-            "approvedDocNo": "1110807596",
-            "approvedDate": "2022-12-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0B5A7A92-CD7C-4899-B4D6-9D71A0FC96D0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

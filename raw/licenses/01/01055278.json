@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055278",
+    "licUnit": "1",
     "validDate": "2025-09-03 00:00:00.000",
     "issueDate": "2010-09-03 00:00:00.000",
+    "oriIssueDate": "2010-09-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105527801",
@@ -31,6 +35,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A1511B81-BBA1-486A-B3EF-4C7EDAECED58",
+    "subCategory": [],
     "ingredientsDesc": [
         "NICOTINAMIDE",
         "CYANOCOBALAMIN (VIT B12)",
@@ -38,9 +45,9 @@
         "ASCORBIC ACID"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "臺灣汎生製藥廠股份有限公司",
     "applicantAddr": "高雄市鳥松區坔埔里大同路5-1號及神農路330號",
@@ -54,26 +61,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D8B9C564-A0A0-40D6-88E1-65C396E7C108",
             "factoryCode": "1",
             "factoryName": "應元化學製藥股份有限公司",
             "factoryAddr": "台南市南區新忠路２６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1704519200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": null,
-            "concent": "2.5000",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -82,9 +93,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811600100",
+            "ingredientsName": "FOLIC ACID",
             "ingredientsDesc": "FOLIC ACID",
             "concentDesc": null,
-            "concent": "0.7000",
+            "concent": "0.700000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -93,9 +105,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000330",
+            "ingredientsName": "NICOTINAMIDE",
             "ingredientsDesc": "NICOTINAMIDE",
             "concentDesc": null,
-            "concent": "12.0000",
+            "concent": "12.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -104,9 +117,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000102",
+            "ingredientsName": "ASCORBIC ACID",
             "ingredientsDesc": "ASCORBIC ACID",
             "concentDesc": null,
-            "concent": "150.0000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -118,24 +132,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
             "isMain": "1",
             "atcCode": "B03BA51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BB01"
         }
     ],
     "licBaseId": "542C5461-1365-4274-AE67-C04906E462BB"

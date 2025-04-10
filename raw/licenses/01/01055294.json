@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055294",
+    "licUnit": "1",
     "validDate": "2025-09-16 00:00:00.000",
     "issueDate": "2010-09-16 00:00:00.000",
+    "oriIssueDate": "2010-09-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105529409",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6810FAC8-C437-4E62-8DC0-F4FF0B2CAF45",
+    "subCategory": [],
     "ingredientsDesc": [
         "DIBASIC SODIUM PHOSPHATE HEPTAHYDRATE",
         "SODIUM PHOSPHATE MONOBASIC MONOHYDRATE (SODIUM DIHYDROGEN PHOSPHATE MONOHYDRATE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "25"
+        "01 國 產",
+        "25 監視中學名藥"
     ],
     "applicantName": "中生生技製藥股份有限公司淡水廠",
     "applicantAddr": "新北市淡水區埤島里行忠路120號",
@@ -43,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "223316EA-A442-41EC-837A-7BB7ED376CE3",
             "factoryCode": "1",
             "factoryName": "中生生技製藥股份有限公司淡水廠",
             "factoryAddr": "新北市淡水區埤島里行忠路120號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1403902300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002617",
+            "ingredientsName": "SODIUM PHOSPHATE MONOBASIC MONOHYDRATE (SODIUM DIHYDROGEN PHOSPHATE MONOHYDRATE)",
             "ingredientsDesc": "SODIUM PHOSPHATE MONOBASIC MONOHYDRATE (SODIUM DIHYDROGEN PHOSPHATE MONOHYDRATE)",
             "concentDesc": "",
-            "concent": "480.0000",
+            "concent": "480.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -71,9 +82,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002694",
+            "ingredientsName": "DIBASIC SODIUM PHOSPHATE HEPTAHYDRATE",
             "ingredientsDesc": "DIBASIC SODIUM PHOSPHATE HEPTAHYDRATE",
             "concentDesc": "",
-            "concent": "180.0000",
+            "concent": "180.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -82,21 +94,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0F74A88D-759F-4632-B56E-08E71FB9B39A",
-            "approvedDocNo": "1119068730",
-            "approvedDate": "2023-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A06AD17"
-        },
         {
             "isMain": "1",
             "atcCode": "A06AD17"

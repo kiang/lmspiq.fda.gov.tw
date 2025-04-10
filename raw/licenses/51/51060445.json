@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060445",
-    "validDate": "2025-03-04 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2030-03-04 00:00:00.000",
     "issueDate": "2020-03-04 00:00:00.000",
+    "oriIssueDate": "2020-03-04",
     "licKind": "02",
     "oldLicid": "01049523",
     "certNo": "DHY05106044504",
@@ -27,12 +31,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "E697ADE8-6FAD-4912-820D-4CD30E7F3585",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "CEFPIROME (SULFATE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "1R 不得製造",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "正昌容生技有限公司",
     "applicantAddr": "雲林縣虎尾鎮平和里29鄰平和58-13號",
@@ -46,26 +56,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "AD0E72B7-7CA3-4AEB-BB32-3E1F90334FD1",
             "factoryCode": "1",
             "factoryName": "政德製藥股份有限公司",
             "factoryAddr": "雲林縣大埤鄉嘉興村豐田路２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0922116300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812393110",
+            "ingredientsName": "CEFPIROME (SULFATE)",
             "ingredientsDesc": "CEFPIROME (SULFATE)",
             "concentDesc": "Cefpirome (as Sulfate)....(potency) (With excipient Sodium Carbonate)",
-            "concent": "1000.000",
+            "concent": "1000.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,24 +88,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FBD2C690-64C8-41EF-A0B5-A8FD33042D7A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9244E4FA-B5FF-4D79-9D80-0517F9FE7BD4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

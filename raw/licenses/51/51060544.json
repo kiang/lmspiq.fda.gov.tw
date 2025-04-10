@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060544",
+    "licUnit": "1",
     "validDate": "2025-09-01 00:00:00.000",
     "issueDate": "2020-09-01 00:00:00.000",
+    "oriIssueDate": "2020-09-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106054406",
@@ -27,11 +31,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "7AF0B08B-0055-43E1-AB62-48D846AA2DAE",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "PROGESTERONE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "大豐製藥股份有限公司",
     "applicantAddr": "彰化縣彰化市延平里岸頭巷11號",
@@ -45,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1B1945FE-4196-4433-B31B-2A909A2371EA",
             "factoryCode": "1",
             "factoryName": "大豐製藥股份有限公司",
             "factoryAddr": "彰化縣彰化市延平里岸頭巷11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0306811300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832001100",
+            "ingredientsName": "PROGESTERONE",
             "ingredientsDesc": "PROGESTERONE",
             "concentDesc": "",
-            "concent": "50.000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,16 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0879D301-5D17-44DB-87B5-76DC7FCEF4B9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

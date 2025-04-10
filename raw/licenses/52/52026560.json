@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026560",
+    "licUnit": "1",
     "validDate": "2025-09-21 00:00:00.000",
     "issueDate": "2015-09-21 00:00:00.000",
+    "oriIssueDate": "2015-09-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -23,14 +27,19 @@
     "medMCode": "06",
     "maMedCode": "B",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "C8E49F6C-8D61-4893-A67E-0DBB733EA6A0",
+    "subCategory": [
+        "A05"
+    ],
     "ingredientsDesc": [
         "FENTANYL CITRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "06",
-        "1L",
-        "32"
+        "02 輸 入",
+        "06 管制藥品",
+        "1L 監視中新藥",
+        "32 第二級管制藥品"
     ],
     "applicantName": "衛生福利部食品藥物管理署管制藥品製藥工廠",
     "applicantAddr": "台北市南港區忠孝東路六段467號地下一層",
@@ -44,23 +53,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "70CD27EE-F86B-4D11-A20E-960EE9DEF9BC",
             "factoryCode": "1",
             "factoryName": "ANESTA LLC",
             "factoryAddr": "4745 WILEY POST WAY, SALT LAKE CITY, UT 84116 USA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FUS0950000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "95ACAF12-A1CC-4B12-B4B9-1B64E84336DD",
             "factoryCode": "2",
             "factoryName": "Teva Pharmaceuticals USA, Inc",
             "factoryAddr": "400 Interpace Parkway, Parsippany,NJ 07054 USA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [
                 {
@@ -72,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS1058000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800320",
+            "ingredientsName": "FENTANYL CITRATE",
             "ingredientsDesc": "FENTANYL CITRATE",
             "concentDesc": "(equivalent to 200mcg fentanyl base)",
-            "concent": "0.314",
+            "concent": "0.314000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,88 +106,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9E8092E2-7933-4691-9782-6318E1C4FCFA",
-            "approvedDocNo": "1121403187",
-            "approvedDate": "2023-04-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3A58C65F-5542-4B9F-B308-842232D2D580",
-            "approvedDocNo": "1121403187",
-            "approvedDate": "2023-04-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3A9E4750-95B6-4A60-8FD3-3C4C987F9B19",
-            "approvedDocNo": "1121403187",
-            "approvedDate": "2023-04-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2BB8C31F-33DB-46FB-9C39-989DE390723D",
-            "approvedDocNo": "1120800458",
-            "approvedDate": "2023-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "190B2FDE-807B-49E7-8078-AC5A483F63EC",
-            "approvedDocNo": "1111413837",
-            "approvedDate": "2023-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "37AA4604-770F-4F10-8EC1-C52FD816026D",
-            "approvedDocNo": "1111401913",
-            "approvedDate": "2022-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8CF1B70B-41AC-44CD-A4B8-AFF61F716FAA",
-            "approvedDocNo": "1111401427",
-            "approvedDate": "2022-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "47B70233-12A2-486B-AA0A-DFFB2EB9AB95",
-            "approvedDocNo": "1091409697",
-            "approvedDate": "2020-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3A90CFE7-E6D3-4615-84A5-62C59D272628",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "25815758-C0C4-422C-B470-4AB60C555A51",
-            "approvedDocNo": "1081408125",
-            "approvedDate": "2019-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025877",
+    "licUnit": "1",
     "validDate": "2027-12-20 00:00:00.000",
     "issueDate": "2012-12-20 00:00:00.000",
+    "oriIssueDate": "2012-12-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202587706",
@@ -23,13 +27,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FFAD489F-8CAF-42E3-B1EC-3D04428227E6",
+    "subCategory": [],
     "ingredientsDesc": [
         "VALSARTAN",
         "AMLODIPINE BESYLATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "25"
+        "02 輸 入",
+        "25 監視中學名藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "裕利股份有限公司",
     "applicantAddr": "台北市松山區南京東路四段126號10樓，10樓之1-3",
@@ -43,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2106E50B-05F0-43F2-94DB-8E2CE9C4B01A",
             "factoryCode": "1",
             "factoryName": "NOVARTIS FARMA S.P.A.",
             "factoryAddr": "VIA PROVINCIALE SCHITO 131-80058 TORRE ANNUNZIATA, ITALY",
@@ -53,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0320000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412402210",
+            "ingredientsName": "AMLODIPINE BESYLATE",
             "ingredientsDesc": "AMLODIPINE BESYLATE",
             "concentDesc": null,
-            "concent": "6.9400",
+            "concent": "6.940000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005100",
+            "ingredientsName": "VALSARTAN",
             "ingredientsDesc": "VALSARTAN",
             "concentDesc": null,
-            "concent": "160.0000",
+            "concent": "160.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -90,96 +103,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7618B80B-5D2B-4A54-AB36-22E05DB21CEC",
-            "approvedDocNo": "1110713604",
-            "approvedDate": "2022-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "44ABAE9C-4E30-4F8A-8191-9F110097FA48",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F3C71954-932B-4D02-A7BB-A356BF249447",
-            "approvedDocNo": "1106813393",
-            "approvedDate": "2022-01-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F1A333C-AA73-4DC0-9AD1-C34E5101AD7E",
-            "approvedDocNo": "1106009072",
-            "approvedDate": "2021-12-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "22DA3E82-C458-4391-ABD5-00BB5817A12C",
-            "approvedDocNo": "1101495033",
-            "approvedDate": "2021-08-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "167092DC-F70D-4951-92F2-1BE8D0BB99F5",
-            "approvedDocNo": "1101491641",
-            "approvedDate": "2021-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "96C18E8A-9C6F-497F-806B-FCBFF315B5BC",
-            "approvedDocNo": "1096036974",
-            "approvedDate": "2021-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A5EF3408-CEF5-4318-97E7-1333FF6621C1",
-            "approvedDocNo": "1096022028",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0F175D1F-D11D-4518-BC1E-7D13DC0852C5",
-            "approvedDocNo": "1081492370",
-            "approvedDate": "2020-06-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B5BFD07A-FE4F-4BC9-85C3-8DFA7B45A719",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CCA41479-5ACC-4AB6-A098-459240526ADD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

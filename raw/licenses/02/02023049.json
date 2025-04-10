@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-03-21",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "02023049",
+    "licUnit": "1",
     "validDate": "2025-11-06 00:00:00.000",
     "issueDate": "2000-11-06 00:00:00.000",
+    "oriIssueDate": "2000-11-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202304901",
@@ -23,12 +29,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B7156651-D418-4946-BC7C-FFDA73A3FA10",
+    "subCategory": [],
     "ingredientsDesc": [
         "NEVIRAPINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "台灣百靈佳殷格翰股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號12樓",
@@ -42,23 +51,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3DE573D8-D3D5-4F55-B5FC-D580400EE8F9",
             "factoryCode": "1",
             "factoryName": "WEST-WARD COLUMBUS INC. ",
             "factoryAddr": "1809, Wilson Road, Columbus, OH 43228, USA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FUS0575100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "722B5C02-70BF-459D-9746-C91746367B69",
             "factoryCode": "2",
             "factoryName": "BOEHRINGER INGELHEIM INTERNATIONAL GMBH",
             "factoryAddr": "INGELHEIM AM RHEIN GERMANY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -70,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0299000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818001500",
+            "ingredientsName": "NEVIRAPINE",
             "ingredientsDesc": "NEVIRAPINE",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,32 +104,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6F37E6ED-AB44-43D4-9E47-6B766E0EF2F8",
-            "approvedDocNo": "1119065218",
-            "approvedDate": "2023-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "624499D2-61BD-4FF4-9F7A-9D7343C96397",
-            "approvedDocNo": "1101495000",
-            "approvedDate": "2021-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "348907B2-A05F-41A1-AD79-5691121409BA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

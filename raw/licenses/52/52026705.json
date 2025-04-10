@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026705",
+    "licUnit": "1",
     "validDate": "2026-05-10 00:00:00.000",
     "issueDate": "2016-05-10 00:00:00.000",
+    "oriIssueDate": "2016-05-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202670501",
@@ -27,12 +31,15 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8DC66DC4-ADE7-4E27-A375-8A2B49632E8A",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRIPTORELIN PAMOATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "26"
+        "02 輸 入",
+        "26 監視期滿新藥"
     ],
     "applicantName": "友華生技醫藥股份有限公司",
     "applicantAddr": "臺北市北投區承德路６段128號13樓",
@@ -46,23 +53,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4FC315C1-0B10-4FF1-A856-CDD30CCCA167",
             "factoryCode": "1",
             "factoryName": "Debiopharm Research & Manufacturing SA",
             "factoryAddr": "Rue du Levant 146, 1920 Martigny, SWITZERLAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CH",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCH0311000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "CA95816B-5711-4430-9A26-AD04738984C6",
             "factoryCode": "2",
             "factoryName": "友華生技醫藥股份有限公司桃園製藥廠",
             "factoryAddr": "桃園市桃園區大誠路11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -74,13 +85,16 @@
             "factoryKind": "M",
             "factoryNo": "0416604300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3AE3641F-A616-43AE-8EF5-DA9728A3E72C",
             "factoryCode": "2",
             "factoryName": "SYNERGY HEALTH DANIKEN AG",
             "factoryAddr": "HOGENWEIDSTRASSE 6, CH-4658 DANIKEN, SWITZERLAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CH",
             "processCode": [
                 {
@@ -92,16 +106,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0309000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6818000530",
+            "ingredientsName": "TRIPTORELIN PAMOATE",
             "ingredientsDesc": "TRIPTORELIN PAMOATE",
             "concentDesc": "[corresponding to hydrous triptorelin pamoate...15.5MG]",
-            "concent": "11.250",
+            "concent": "11.250000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -110,56 +127,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CC3F2334-D596-4F69-A2F1-571899A944B2",
-            "approvedDocNo": "1120713421",
-            "approvedDate": "2024-02-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CC160E8E-94FE-4E31-870C-E2AF51BEB075",
-            "approvedDocNo": "1120713421",
-            "approvedDate": "2024-02-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1D07D2C9-C056-485A-B6B6-E74449F1DC71",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "65BBE76A-7707-4842-AE9B-A7C93C5B8F09",
-            "approvedDocNo": "1110705286",
-            "approvedDate": "2022-06-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2517DCAE-EA49-4DBD-AD25-3A6B3C727E9B",
-            "approvedDocNo": "1076021038",
-            "approvedDate": "2019-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2EEC5C89-5D77-483E-8F72-438BF95915BD",
-            "approvedDocNo": "1076021038",
-            "approvedDate": "2019-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

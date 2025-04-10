@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049095",
+    "licUnit": "1",
     "validDate": "2027-10-16 00:00:00.000",
     "issueDate": "2007-10-16 00:00:00.000",
+    "oriIssueDate": "2007-10-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104909504",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9D78EF8A-354A-4456-8A4B-F185ED926B4A",
+    "subCategory": [],
     "ingredientsDesc": [
         "FLUOROMETHOLONE",
         "TETRAHYDROZOLINE HCL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "臺灣派頓化學製藥股份有限公司",
     "applicantAddr": "高雄市岡山區為隨里1鄰為隨東路50號",
@@ -42,26 +49,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D66C1847-2577-4E36-8EF9-C2F5D1A9E14C",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨東路50號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406001200",
+            "ingredientsName": "FLUOROMETHOLONE",
             "ingredientsDesc": "FLUOROMETHOLONE",
             "concentDesc": "",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +81,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5232000310",
+            "ingredientsName": "TETRAHYDROZOLINE HCL",
             "ingredientsDesc": "TETRAHYDROZOLINE HCL",
             "concentDesc": "",
-            "concent": "0.2500",
+            "concent": "0.250000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,33 +93,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B399C355-690E-48E1-94C6-EF7EC35FD814",
-            "approvedDocNo": "1119027831",
-            "approvedDate": "2022-08-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E4EFE2B7-7EF6-4936-B0D1-380768E0A7D2",
-            "approvedDocNo": "1096600103",
-            "approvedDate": "2020-06-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01GA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01BA07"
-        },
         {
             "isMain": "1",
             "atcCode": "S01GA52"

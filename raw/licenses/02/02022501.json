@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022501",
+    "licUnit": "1",
     "validDate": "2029-06-01 00:00:00.000",
     "issueDate": "2024-01-22 00:00:00.000",
+    "oriIssueDate": "1999-06-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202250101",
@@ -23,12 +27,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0F834C07-E2F1-4FB0-862C-7C54B0A10C47",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEVONORGESTREL"
     ],
     "restraintItemsCode": [
-        "02",
-        "52"
+        "02 輸 入",
+        "52 依本署七七公告於國內進行臨床試驗且核定為新藥"
     ],
     "applicantName": "台灣拜耳股份有限公司",
     "applicantAddr": "臺北市信義區信義路5段7號53樓",
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0C753453-1E0A-40A6-B429-B9302B57D2C7",
             "factoryCode": "1",
             "factoryName": "BAYER OY",
             "factoryAddr": "(一)POSTAL ADDRESS：P.O. BOX 415,20101 TURKU, FINLAND(二)STREET ADDRESS：PANSIONTIE 47, 20210 TURKU, FINLAND",
@@ -52,16 +60,19 @@
             "factoryKind": "M",
             "factoryNo": "FFI0007000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832001004",
+            "ingredientsName": "LEVONORGESTREL",
             "ingredientsDesc": "LEVONORGESTREL",
             "concentDesc": null,
-            "concent": "52.0000",
+            "concent": "52.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -70,56 +81,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "67A05022-2934-433D-97E0-F9A415FD2FA6",
-            "approvedDocNo": "1120707850",
-            "approvedDate": "2023-11-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "51113D42-2FDF-4DA4-BFA4-A964E8114500",
-            "approvedDocNo": "1101492368",
-            "approvedDate": "2021-08-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EAA679F1-A58C-49A9-ACA7-6B7CEB6FD3C2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "35F4F72C-2058-407F-BE4F-7832B2A16AAA",
-            "approvedDocNo": "1096026582",
-            "approvedDate": "2020-12-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8B0DD324-4DDD-4A01-86B7-575AAC88DCFB",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FF4D3688-29F2-4ED0-A508-E3093150AF07",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

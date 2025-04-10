@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024398",
+    "licUnit": "1",
     "validDate": "2026-03-06 00:00:00.000",
     "issueDate": "2006-03-06 00:00:00.000",
+    "oriIssueDate": "2006-03-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202439802",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "62838607-092A-47C9-BAE3-DFF49367BA97",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEVOFLOXACIN"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "54"
+        "02 輸 入",
+        "07 新藥監視",
+        "54 依本署89、12、12衛署藥字第0890035812號公告事項九得免除國內進行臨床試驗之特殊醫療需要之新藥"
     ],
     "applicantName": "台灣參天製藥股份有限公司",
     "applicantAddr": "台北市中山區松江路126號9樓之1",
@@ -43,9 +50,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3FF4D42D-760A-4EBD-B9A2-3F0800B233E8",
             "factoryCode": "1",
             "factoryName": "SANTEN PHARMACEUTICAL CO. LTD.(NOTO PLANT)",
-            "factoryAddr": "2-14, SHIKINAMI, HODATSUSHIMIZU-CHO, HAKUI-GUN, ISHIKAWA,JAPAN",
+            "factoryAddr": "2-14, SHIKINAMI, HODATSUSHIMIZU-CHO,HAKUI-GUN, ISHIKAWA , JAPAN",
             "factoryCompanyAddr": "",
             "countryCode": "JP",
             "processCode": [],
@@ -53,34 +61,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0270000",
             "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "ZUELLIG PHARMA SPECIALTY SOLUTIONS GROUP PTE. LTD.",
-            "factoryAddr": "15 CHANGI NORTH WAY #01-02, #02-02, #02-10, SINGAPORE 498770",
-            "factoryCompanyAddr": "",
-            "countryCode": "SG",
-            "processCode": [
-                {
-                    "value": "1A",
-                    "name": "二級包裝廠"
-                }
-            ],
-            "processCodeStr": "1A;二級包裝廠",
-            "factoryKind": "M",
-            "factoryNo": "FSG0021200",
-            "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0836002300",
+            "ingredientsName": "LEVOFLOXACIN",
             "ingredientsDesc": "LEVOFLOXACIN",
             "concentDesc": "",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -89,48 +82,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D27E63DF-99DA-4449-BF69-96FFB6A1B284",
-            "approvedDocNo": "1129026867",
-            "approvedDate": "2023-09-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D99FFDE9-0AB3-4263-8FCA-B2F3ADA15C9E",
-            "approvedDocNo": "1119048711",
-            "approvedDate": "2022-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9E7B54CD-D660-474A-9061-01A02A197FA2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B380FB24-B539-4172-8409-F86988304C64",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A3ECDE0E-7C91-410C-9F11-B89D458C5715",
-            "approvedDocNo": "1086003096",
-            "approvedDate": "2019-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

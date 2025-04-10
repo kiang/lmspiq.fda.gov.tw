@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "03010389",
+    "licUnit": "1",
     "validDate": "2027-09-26 00:00:00.000",
     "issueDate": "2008-08-08 00:00:00.000",
+    "oriIssueDate": "1997-09-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00301038900",
@@ -39,6 +43,9 @@
     "medMCode": "03",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0F4CA82B-3435-44DF-9556-F53663EA96C4",
+    "subCategory": [],
     "ingredientsDesc": [
         "L-MENTHOL",
         "DL-CAMPHOR ",
@@ -46,7 +53,7 @@
         "MENTHOL OIL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "得生製藥股份有限公司二廠",
     "applicantAddr": "台南市永康區王行里環工路42之1號",
@@ -60,26 +67,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9A4B1BFB-A9F5-4C2E-A640-A29E023DCB8C",
             "factoryCode": "1",
             "factoryName": "得生製藥股份有限公司二廠",
             "factoryAddr": "台南市永康區王行里環工路42號之1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6141311164",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000330",
+            "ingredientsName": "L-MENTHOL",
             "ingredientsDesc": "L-MENTHOL",
             "concentDesc": "0.3",
-            "concent": "0.3000",
+            "concent": "0.300000",
             "concentUnit": "002",
             "seq": "0",
             "prescription_seq": "1",
@@ -88,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000305",
+            "ingredientsName": "MENTHOL OIL",
             "ingredientsDesc": "MENTHOL OIL",
             "concentDesc": "1.0",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -99,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000103",
+            "ingredientsName": "DL-CAMPHOR ",
             "ingredientsDesc": "DL-CAMPHOR ",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -110,9 +123,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600012200",
+            "ingredientsName": "EUCALYPTUS OIL (OLEUM EUCALYPTI)",
             "ingredientsDesc": "EUCALYPTUS OIL (OLEUM EUCALYPTI)",
             "concentDesc": "0.1",
-            "concent": "0.1000",
+            "concent": "0.100000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "1",
@@ -121,51 +135,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EEC544DC-487A-4BD7-8D4A-F1252ECDCD45",
-            "approvedDocNo": "1120804783",
-            "approvedDate": "2023-06-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "261EBC0C-D776-40B9-AC30-0273CBAD814F",
-            "approvedDocNo": "1119046597",
-            "approvedDate": "2022-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31E3DF49-739E-4075-A889-055F8B58B3E0",
-            "approvedDocNo": "1110802573",
-            "approvedDate": "2022-05-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E096BE5A-8C6C-4093-9FFB-776C60857162",
-            "approvedDocNo": "1110802573",
-            "approvedDate": "2022-05-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
             "atcCode": "V03AX"
         }
     ],

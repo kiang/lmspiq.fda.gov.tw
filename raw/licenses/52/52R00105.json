@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52R00105",
+    "licUnit": "1",
     "validDate": "2028-06-16 00:00:00.000",
     "issueDate": "2023-06-16 00:00:00.000",
+    "oriIssueDate": "2023-06-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA052R0010509",
@@ -16,6 +20,14 @@
     "does": "2210",
     "packageUnit": [
         {
+            "packageSpec": "洗脫溶液(無菌超純 0.1 mol\/l鹽酸)",
+            "packageUnit": "BE"
+        },
+        {
+            "packageSpec": "洗脫溶液(無菌超純 0.1 mol\/l鹽酸)",
+            "packageUnit": "9O"
+        },
+        {
             "packageSpec": "鉛筒裝附真空玻璃及洗脫液配件組",
             "packageUnit": "1H"
         }
@@ -23,18 +35,23 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "1B6599DA-C489-4ADB-B9DE-0388163318FD",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Germanium (68Ge) chloride",
         "Gallium (68Ga) chloride"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "15",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "15 輸入須附同意書（每批輸入應附核能安全委員會核准輸入證明書）",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "恩典科研股份有限公司",
-    "applicantAddr": "新北市中和區中山路2段332巷31號11樓",
+    "applicantAddr": "新北市中和區中山路2段332巷25號4樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -45,26 +62,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1AF72E94-FF4B-4E64-A952-E61B4D5D9883",
             "factoryCode": "1",
             "factoryName": "Eckert & Ziegler Radiopharma GmbH",
             "factoryAddr": "Robert-Rossle-Str. 10 13125 Berlin Germany",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FDE9051000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7804002000",
+            "ingredientsName": "Germanium (68Ge) chloride",
             "ingredientsDesc": "Germanium (68Ge) chloride",
             "concentDesc": "0.74-1.85GBq",
-            "concent": "1.850",
+            "concent": "1.850000",
             "concentUnit": "048",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +94,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7804001030",
+            "ingredientsName": "Gallium (68Ga) chloride",
             "ingredientsDesc": "Gallium (68Ga) chloride",
             "concentDesc": "variable",
-            "concent": "0.000",
+            "concent": "0.000000",
             "concentUnit": "",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,15 +109,7 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "V09X"
-        },
-        {
             "isMain": "1",
-            "atcCode": "V09X"
-        },
-        {
-            "isMain": "2",
             "atcCode": "V09X"
         }
     ],

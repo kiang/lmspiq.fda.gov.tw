@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-03-27",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "52026235",
+    "licUnit": "1",
     "validDate": "2024-01-09 00:00:00.000",
     "issueDate": "2014-01-09 00:00:00.000",
+    "oriIssueDate": "2014-01-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202623503",
@@ -26,14 +32,19 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "8B9C109F-7217-41DC-98F6-AC95C0640A7B",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "ASCORBIC ACID",
         "RIBOFLAVIN BUTYRATE",
         "ASCORBATE CALCIUM DIHYDRATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "優德貿易有限公司",
     "applicantAddr": "台北市大同區南京西路46號（實際營業地址：5樓）",
@@ -47,6 +58,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FEE4E4DD-C836-4E2B-AD71-1299E0A4E785",
             "factoryCode": "1",
             "factoryName": "SHISEIDO PHARMACEUTICAL INC.",
             "factoryAddr": "220-1 CHIHARA OAZA GOSE-CITY NARA JAPAN",
@@ -57,16 +69,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0529000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000102",
+            "ingredientsName": "ASCORBIC ACID",
             "ingredientsDesc": "ASCORBIC ACID",
             "concentDesc": "(JP Ascorbic Acid 233.33mg, JP Corn Starch 7.22mg)",
-            "concent": "240.550",
+            "concent": "240.550000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000250",
+            "ingredientsName": "ASCORBATE CALCIUM DIHYDRATE",
             "ingredientsDesc": "ASCORBATE CALCIUM DIHYDRATE",
             "concentDesc": "",
-            "concent": "121.000",
+            "concent": "121.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -86,9 +102,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200510",
+            "ingredientsName": "RIBOFLAVIN BUTYRATE",
             "ingredientsDesc": "RIBOFLAVIN BUTYRATE",
             "concentDesc": "",
-            "concent": "1.000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -97,36 +114,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AA0AF27A-EECA-4DAC-BCBC-F028B9B384A8",
-            "approvedDocNo": "1086012350",
-            "approvedDate": "2019-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5B1AF8F9-47E0-4171-AD8A-17CE3B77445F",
-            "approvedDocNo": "1086012350",
-            "approvedDate": "2019-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
         {
             "isMain": "1",
             "atcCode": "A11J"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
         }
     ],
     "licBaseId": "48206DE8-D33A-42FC-A83A-1C1C8F92396A"

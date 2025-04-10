@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52R00104",
+    "licUnit": "1",
     "validDate": "2026-04-07 00:00:00.000",
     "issueDate": "2021-04-07 00:00:00.000",
+    "oriIssueDate": "2021-04-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHAS52R0010402",
@@ -23,13 +27,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "2C6F75D7-46E0-4A12-8BC0-930DE392670E",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "177Lu-DOTA0-TYR3-Octreotate"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "15"
+        "02 輸 入",
+        "07 新藥監視",
+        "15 輸入須附同意書（每批輸入應附核能安全委員會核准輸入證明書）"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "臺北市中山區民生東路3段2號8樓",
@@ -43,39 +52,46 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E47CB209-EA19-4088-8277-F91F7AD9655D",
             "factoryCode": "1",
-            "factoryName": "Advanced Accelerator Applications Iberica, S.L.",
-            "factoryAddr": "Poligono Industrial la Cuesta - Sector 3 Parcelas 1 y 2 La Almunia de Dona Godina 50100 Zaragoza Spain",
-            "factoryCompanyAddr": "",
+            "factoryName": "ADVANCED ACCELERATOR APPLICATIONS IBERICA S.L.U. ",
+            "factoryAddr": "POLIGONO INDUSTRIAL LA CUESTA-SECTOR 3, PARCELAS 1 Y 2, LA AlMUNIA DE DONA GODINA, 50100 ZARAGOZA, SPAIN",
+            "factoryCompanyAddr": null,
             "countryCode": "ES",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FES0263000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "6432BBB9-8E95-4F37-A3F9-659CD47F3208",
             "factoryCode": "1",
-            "factoryName": "Advanced Accelerator Applications (Italy) s.r.l.",
-            "factoryAddr": "Via Ribcs 5, 10010 Colleretto Giacosa (TO), Italy",
-            "factoryCompanyAddr": "",
+            "factoryName": "ADVANCED ACCELERATOR APPLICATIONS (ITALY) S.R.L. ",
+            "factoryAddr": "VIA RIBES 5-10010 COLLERETTO GIACOSA (TO), ITALY",
+            "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIT0541000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9900008500",
+            "ingredientsName": "177Lu-DOTA0-TYR3-Octreotate",
             "ingredientsDesc": "177Lu-DOTA0-TYR3-Octreotate",
             "concentDesc": "",
-            "concent": "370.000",
+            "concent": "370.000000",
             "concentUnit": "046",
             "seq": "1",
             "prescription_seq": "1",
@@ -92,56 +108,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B26CE3FB-68DA-47B4-BEEC-00541AC13F90",
-            "approvedDocNo": "1120708766",
-            "approvedDate": "2023-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CC457B5B-BF9D-4AB6-BE53-3D1AE98E3DC1",
-            "approvedDocNo": "1120708766",
-            "approvedDate": "2023-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "30BEFA35-D621-485D-9CEE-F041D2CDBB79",
-            "approvedDocNo": "1119031388",
-            "approvedDate": "2022-12-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CD253749-322F-466A-AF0D-F11FA34587E8",
-            "approvedDocNo": "1101497737",
-            "approvedDate": "2022-04-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F01A5FC-E59B-4AAD-A119-7D7DD207D513",
-            "approvedDocNo": "1101499949",
-            "approvedDate": "2021-12-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F9248E51-AA97-4C5D-9087-E4660176751A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

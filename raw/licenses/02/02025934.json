@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025934",
+    "licUnit": "1",
     "validDate": "2028-02-23 00:00:00.000",
     "issueDate": "2013-02-23 00:00:00.000",
+    "oriIssueDate": "2013-02-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202593405",
@@ -23,12 +27,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "017D7ED6-162D-42BB-AE33-8830ECD95C3B",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEUPRORELIN ACETATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "台灣武田藥品工業股份有限公司",
     "applicantAddr": "台北市信義區松高路1號17樓",
@@ -42,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CE1C0EE8-3953-4164-AE61-80C6077189BE",
             "factoryCode": "1",
             "factoryName": "TAKEDA PHARMACEUTICAL COMPANY LIMITED (OSAKA PLANT)",
             "factoryAddr": "17-85, 2-CHOME JUSO HONMACHI, YODOGAWA KU, OSAKA, JAPAN",
@@ -52,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0328200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F8A6D440-587E-43CB-8642-41F65FF7000A",
             "factoryCode": "2",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉光復路1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -70,9 +82,12 @@
             "factoryKind": "M",
             "factoryNo": "6133061413",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1F8A46A9-3FC7-4AD9-8ECC-5214CD89EDDE",
             "factoryCode": "2",
             "factoryName": "TAKEDA PHARMACEUTICAL COMPANY LIMITED (HIKARI PLANT)",
             "factoryAddr": "4720 TAKEDA, MITSUI, HIKARI-CITY, YAMAGUCHI, JAPAN",
@@ -83,16 +98,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0328000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6818000810",
+            "ingredientsName": "LEUPRORELIN ACETATE",
             "ingredientsDesc": "LEUPRORELIN ACETATE",
             "concentDesc": null,
-            "concent": "3.7500",
+            "concent": "3.750000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -101,24 +119,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6490F7AB-BB9A-4FAE-8CA3-2B06713CB7D0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B50B230A-7225-4096-8BE1-9AC0769CCBB1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

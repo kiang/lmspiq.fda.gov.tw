@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02020053",
+    "licUnit": "1",
     "validDate": "2028-08-16 00:00:00.000",
     "issueDate": "2018-07-19 00:00:00.000",
+    "oriIssueDate": "1993-08-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202005300",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "03813C7A-A6F8-4AE0-92D3-8E1AF2CAB317",
+    "subCategory": [],
     "ingredientsDesc": [
         "FENTICONAZOLE NITRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "90A18C66-52FB-4F76-9FC3-9EDAF22784D8",
             "factoryCode": "1",
             "factoryName": "CATALENT ITALY S.P.A.",
             "factoryAddr": "VIA NETTUNENSE KM 20,100-04011 APRILIA (LT), ITALY",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "FIT0345000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "32BCE0EB-46FF-41EB-A905-FE4B25149CDA",
             "factoryCode": "2",
             "factoryName": "Recordati Industria Chimica e Farmaceutica S.p.A.",
             "factoryAddr": "Via Civitali 1- 20148 Milan, Italy",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [
                 {
@@ -70,16 +81,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0359100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812203610",
+            "ingredientsName": "FENTICONAZOLE NITRATE",
             "ingredientsDesc": "FENTICONAZOLE NITRATE",
             "concentDesc": "",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "8",
             "prescription_seq": "1",
@@ -88,32 +102,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "151FC0B1-1DC3-4476-AF4D-40866187D121",
-            "approvedDocNo": "1110733013",
-            "approvedDate": "2023-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "499A7112-2029-475B-B739-5B47D88C0053",
-            "approvedDocNo": "1120705765",
-            "approvedDate": "2023-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0DF1F26E-1F91-424F-9E1E-2462348BD89E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

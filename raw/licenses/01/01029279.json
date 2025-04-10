@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029279",
+    "licUnit": "1",
     "validDate": "2028-11-10 00:00:00.000",
     "issueDate": "1986-11-10 00:00:00.000",
+    "oriIssueDate": "1986-11-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102927902",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0F1B80DF-E149-4F22-8B0B-2A22BB565411",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLOBETASOL-17-PROPIONATE",
         "CLOBETASOL-17-PROPIONATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "寶齡富錦生技股份有限公司",
     "applicantAddr": "臺北市南港區園區街3號16樓",
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4A7D0228-4467-4368-9EED-44C9D6F021FA",
             "factoryCode": "1",
             "factoryName": "寶齡富錦生技股份有限公司平鎮廠",
             "factoryAddr": "桃園市平鎮區興隆路２６６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "2001304300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000611",
+            "ingredientsName": "CLOBETASOL-17-PROPIONATE",
             "ingredientsDesc": "CLOBETASOL-17-PROPIONATE",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000611",
+            "ingredientsName": "CLOBETASOL-17-PROPIONATE",
             "ingredientsDesc": "CLOBETASOL-17-PROPIONATE",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "3",
@@ -85,61 +97,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BF448E75-A75D-459F-8FE7-2E7143CCBF5D",
-            "approvedDocNo": "1120716886",
-            "approvedDate": "2023-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8260EF2F-4DDD-446A-AA5F-DEB0C5A88872",
-            "approvedDocNo": "1110721344",
-            "approvedDate": "2022-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DEC29530-93AE-4B61-9AF0-061870AF5A79",
-            "approvedDocNo": "1110721344",
-            "approvedDate": "2022-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5D8102E2-635F-441D-B200-F8FD8C2D7167",
-            "approvedDocNo": "1086008639",
-            "approvedDate": "2019-06-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1D791C5E-2A1B-4672-A5CF-4A6E027EE645",
-            "approvedDocNo": "1086008639",
-            "approvedDate": "2019-06-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "26185EB4-3EBB-4F5E-8938-9F735EC5B801",
-            "approvedDocNo": "1086008639",
-            "approvedDate": "2019-06-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D07AD01"
-        },
         {
             "isMain": "1",
             "atcCode": "D07AD01"

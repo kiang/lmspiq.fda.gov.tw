@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027946",
+    "licUnit": "1",
     "validDate": "2025-09-11 00:00:00.000",
     "issueDate": "2020-09-11 00:00:00.000",
+    "oriIssueDate": "2020-09-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202794602",
@@ -23,13 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "A6E8AE96-C235-4594-BFCA-3D02CBC80558",
+    "subCategory": [
+        "A06"
+    ],
     "ingredientsDesc": [
         "BECLOMETHASONE DIPROPIONATE",
         "FORMOTEROL FUMARATE DIHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "26"
+        "02 輸 入",
+        "26 監視期滿新藥"
     ],
     "applicantName": "友華生技醫藥股份有限公司",
     "applicantAddr": "臺北市北投區承德路６段128號13樓",
@@ -43,26 +52,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C131CEC5-265C-4942-88D2-BAFDB428535C",
             "factoryCode": "1",
             "factoryName": "CHIESI FARMACEUTICI S.P.A.",
             "factoryAddr": "VIA S. LEONARDO 96, 43122 PARMA, ITALY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIT0041200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000310",
+            "ingredientsName": "BECLOMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BECLOMETHASONE DIPROPIONATE",
             "concentDesc": "",
-            "concent": "0.200",
+            "concent": "0.200000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216003030",
+            "ingredientsName": "FORMOTEROL FUMARATE DIHYDRATE",
             "ingredientsDesc": "FORMOTEROL FUMARATE DIHYDRATE",
             "concentDesc": "",
-            "concent": "0.006",
+            "concent": "0.006000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,33 +96,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4C0F620B-DCFA-4254-B916-AC74B9398261",
-            "approvedDocNo": "1129017711",
-            "approvedDate": "2023-05-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DEB5C294-D192-40DC-B8A5-101486A2E0A6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R03AC13"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03BA01"
-        },
         {
             "isMain": "1",
             "atcCode": "R03AK08"

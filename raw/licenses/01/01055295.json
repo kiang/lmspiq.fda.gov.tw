@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055295",
+    "licUnit": "1",
     "validDate": "2025-09-20 00:00:00.000",
     "issueDate": "2010-09-20 00:00:00.000",
+    "oriIssueDate": "2010-09-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105529501",
@@ -27,12 +31,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C7A90CC5-E889-4E06-AD77-8FA8599940BE",
+    "subCategory": [],
     "ingredientsDesc": [
         "ZOLEDRONIC ACID MONOHYDRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "25"
+        "01 國 產",
+        "25 監視中學名藥"
     ],
     "applicantName": "南光化學製藥股份有限公司",
     "applicantAddr": "臺南市新化區全興里中山路1001號、1001-1號",
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6A4DB3C0-BC0E-4D72-B098-0E40C7126EE0",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區中山路1001號、1001之1號。",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6400001630",
+            "ingredientsName": "ZOLEDRONIC ACID MONOHYDRATE",
             "ingredientsDesc": "ZOLEDRONIC ACID MONOHYDRATE",
             "concentDesc": "(eq. to Zoledronic acid 0.8mg)",
-            "concent": "0.8530",
+            "concent": "0.853000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,45 +85,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E1F3591A-F647-4CFE-BDA9-9944DAF6FBA0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C8A3F790-0186-4586-A61A-A0205ACF1EFE",
-            "approvedDocNo": "1086807048",
-            "approvedDate": "2021-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "19514E23-CCFE-4DA4-8DB7-03D679900239",
-            "approvedDocNo": "1086807048",
-            "approvedDate": "2021-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F6ACD1D9-26B7-4BAC-99D6-F58CE6337D52",
-            "approvedDocNo": "1086807048",
-            "approvedDate": "2019-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "M05BA08"
-        },
         {
             "isMain": "1",
             "atcCode": "M05BA08"

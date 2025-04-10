@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-09-21",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "01039278",
+    "licUnit": "1",
     "validDate": "2025-09-08 00:00:00.000",
     "issueDate": "1995-09-08 00:00:00.000",
+    "oriIssueDate": "1995-09-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103927806",
@@ -33,6 +37,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "67C0CE99-75F2-4245-B1A2-8FA6618E5660",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM CHLORIDE",
         "SODIUM ACETATE",
@@ -42,8 +49,8 @@
         "MAGNESIUM CHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "永豐化學工業股份有限公司",
     "applicantAddr": "新北市新莊區新樹路２９２號",
@@ -57,26 +64,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "304133CA-2242-4771-931B-3944498A0BAA",
             "factoryCode": "1",
             "factoryName": "永豐化學工業股份有限公司新莊工廠",
             "factoryAddr": "新北市新莊區新樹路２９２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0504302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "0.82",
-            "concent": "0.8200",
+            "concent": "0.820000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -85,9 +96,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000100",
+            "ingredientsName": "POTASSIUM ACETATE",
             "ingredientsDesc": "POTASSIUM ACETATE",
             "concentDesc": "0.59",
-            "concent": "0.5900",
+            "concent": "0.590000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -96,9 +108,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000600",
+            "ingredientsName": "SODIUM ACETATE",
             "ingredientsDesc": "SODIUM ACETATE",
             "concentDesc": "1.80",
-            "concent": "1.8000",
+            "concent": "1.800000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -107,9 +120,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001500",
+            "ingredientsName": "MAGNESIUM CHLORIDE",
             "ingredientsDesc": "MAGNESIUM CHLORIDE",
             "concentDesc": "0.30",
-            "concent": "0.3000",
+            "concent": "0.300000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -118,9 +132,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612001910",
+            "ingredientsName": "POTASSIUM PHOSPHATE MONOBASIC(EQ TO POTASSIUM BIPHOSPHATE)(EQ TO POTASSIUM DIHYDROGEN PHOSPHATE)",
             "ingredientsDesc": "POTASSIUM PHOSPHATE MONOBASIC(EQ TO POTASSIUM BIPHOSPHATE)(EQ TO POTASSIUM DIHYDROGEN PHOSPHATE)",
             "concentDesc": "1.63",
-            "concent": "1.6300",
+            "concent": "1.630000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -129,9 +144,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000700",
+            "ingredientsName": "GLUCOSE",
             "ingredientsDesc": "GLUCOSE",
             "concentDesc": "100",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -145,18 +161,6 @@
         {
             "isMain": "1",
             "atcCode": "B05BB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05XA06"
         }
     ],
     "licBaseId": "2989424F-AF44-4256-8A63-8B09D91855C2"

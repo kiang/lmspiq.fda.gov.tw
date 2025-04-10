@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024305",
+    "licUnit": "1",
     "validDate": "2025-10-12 00:00:00.000",
     "issueDate": "2005-10-12 00:00:00.000",
+    "oriIssueDate": "2005-10-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202430508",
@@ -24,14 +27,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6D41C65A-05D2-48E7-B5F9-83AA8C8810A8",
+    "subCategory": [],
     "ingredientsDesc": [
         "EPLERENONE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1Q",
-        "52"
+        "02 輸 入",
+        "07 新藥監視",
+        "1Q 不得輸入",
+        "52 依本署七七公告於國內進行臨床試驗且核定為新藥"
     ],
     "applicantName": "暉致醫藥股份有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -45,19 +51,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D2E99EE7-E5FC-4C5F-A7C2-032C50091268",
             "factoryCode": "1",
             "factoryName": "VIATRIS PHARMACEUTICALS LLC",
             "factoryAddr": "KM. 1.9 ROAD 689, VEGA BAJA, PUERTO RICO 00693",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "PR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FPR0019100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B1503D49-B8AE-4794-9C0E-F4B679856650",
             "factoryCode": "2",
             "factoryName": "Fareva Amboise",
             "factoryAddr": "ZONE INDUSTRIELLE 29,ROUTE DES INDUSTRIES,37530 POCE-SUR-CISSE,FRANCE",
@@ -73,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "FFR0080000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2404000500",
+            "ingredientsName": "EPLERENONE",
             "ingredientsDesc": "EPLERENONE",
             "concentDesc": null,
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -91,64 +104,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "20B015E2-8A69-4963-9EE8-FF536795580B",
-            "approvedDocNo": "1129077774",
-            "approvedDate": "2024-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0E930B46-2392-4DF6-B025-B316C23DFEC8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F766211F-C1C2-45DB-AE39-2DAF634B9F2C",
-            "approvedDocNo": "1101498632",
-            "approvedDate": "2021-12-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EFEDC386-439E-4FA6-A6C4-CC6F6F51CC94",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9FCE6FDA-2D88-4939-9990-27EA0D52637F",
-            "approvedDocNo": "1096002843",
-            "approvedDate": "2020-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8349E08E-7240-4F2F-91CD-ACC54040DE52",
-            "approvedDocNo": "1096002843",
-            "approvedDate": "2020-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "11349104-6371-429C-9F69-7A587CEDBF13",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

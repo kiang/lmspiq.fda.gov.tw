@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01004692",
+    "licUnit": "1",
     "validDate": "2028-12-31 00:00:00.000",
     "issueDate": "1991-01-25 00:00:00.000",
+    "oriIssueDate": "1991-01-25",
     "licKind": "02",
     "oldLicid": "01004692",
     "certNo": "DHY00100469202",
@@ -16,19 +20,22 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B51ECBF6-5BAF-4EC6-A1AE-36E1B3F04144",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORMEZANONE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "明大化學製藥股份有限公司",
     "applicantAddr": "台中市外埔區水美村水美路５２號",
@@ -42,26 +49,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A9AA64D1-E634-489B-A28A-BE31A076E9F3",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220000400",
+            "ingredientsName": "CHLORMEZANONE",
             "ingredientsDesc": "CHLORMEZANONE",
             "concentDesc": "100",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -70,16 +81,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8ECC4C0A-F388-4E66-854D-46FD0E715357",
-            "approvedDocNo": "1129066093",
-            "approvedDate": "2023-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

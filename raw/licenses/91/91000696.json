@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "91000696",
+    "licUnit": "1",
     "validDate": "2025-09-03 00:00:00.000",
     "issueDate": "2015-09-03 00:00:00.000",
+    "oriIssueDate": "2015-09-03",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA09100069602",
@@ -23,12 +27,15 @@
     "medMCode": "01",
     "maMedCode": "",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "F4409217-C1C3-405B-9D47-16E5E1D5AFA5",
+    "subCategory": [],
     "ingredientsDesc": [
         "Terbinafine Hydrochloride contains not less than 99.0% and not more than 101.0% of C21H26ClN, calculated on anhydrous substance."
     ],
     "restraintItemsCode": [
-        "02",
-        "40"
+        "02 輸 入",
+        "40 大陸生產"
     ],
     "applicantName": "龍大生技股份有限公司",
     "applicantAddr": "台南市中西區民權路二段158號3樓",
@@ -42,23 +49,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "036F4073-D5E3-4723-B3C6-54764E49CF35",
             "factoryCode": "1",
             "factoryName": "SHANDONG ANHONG PHARMACEUTICAL CO., LTD.",
             "factoryAddr": "NO.29 HUAYUAN STREET LINYI COUNTY, DEZHOU, SHANDONG, CHINA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCN0993000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Terbinafine Hydrochloride contains not less than 99.0% and not more than 101.0% of C21H26ClN, calculated on anhydrous substance.",
             "ingredientsDesc": "Terbinafine Hydrochloride contains not less than 99.0% and not more than 101.0% of C21H26ClN, calculated on anhydrous substance.",
             "concentDesc": null,
             "concent": null,
@@ -78,48 +89,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1CFF58DE-CF1A-41B4-83FF-F5A1E4A6BA6F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A9ADBC04-F119-429A-9EC3-FC4B5069A60F",
-            "approvedDocNo": "1091493189",
-            "approvedDate": "2020-11-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B7DE2C1-6A4C-4904-9510-35B8339F14CB",
-            "approvedDocNo": "1091493189",
-            "approvedDate": "2020-11-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A10A42DD-75F0-4E40-BC44-A626B3E1EA94",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D01BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AE15"
         }
     ],
     "licBaseId": "C9A17E57-2873-4426-8C6C-EF79BB113CDC"

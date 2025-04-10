@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027961",
+    "licUnit": "1",
     "validDate": "2025-09-15 00:00:00.000",
     "issueDate": "2020-09-15 00:00:00.000",
+    "oriIssueDate": "2020-09-15",
     "licKind": "10",
     "oldLicid": null,
     "certNo": null,
@@ -23,12 +27,15 @@
     "medMCode": "01",
     "maMedCode": "C",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "E2964D1F-8E4F-4074-AED4-C64F8F4C08B3",
+    "subCategory": [],
     "ingredientsDesc": [
         "Ketamine Hydrochloride contains NLT 99.0% and NMT 101.0% of C13H17Cl2NO, calculated on the dried basis."
     ],
     "restraintItemsCode": [
-        "02",
-        "33"
+        "02 輸 入",
+        "33 第三級管制藥品"
     ],
     "applicantName": "恒亞貿易股份有限公司",
     "applicantAddr": "台北市士林區延平北路六段485號4樓",
@@ -42,19 +49,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D7106A32-3238-47B9-AD3B-AEDF6C7FB0EA",
             "factoryCode": "1",
             "factoryName": "SUPRIYA LIFESCIENCE LTD.",
             "factoryAddr": "A-5\/2 LOTE PARSHURAM INDUSTRIAL AREA MIDC TAL-KHED DIST-RATNAGIRI PIN CODE-415 722 MAHARASHTRA INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0037000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "DE742C2B-B38C-4132-B62B-496557703E2C",
             "factoryCode": "2",
             "factoryName": "SUPRIYA LIFESIEN LTD.",
             "factoryAddr": "207-208, UDYOG BHAVAN SONALWALA ROAD, GOREGAON 400063 MUMBAI INDIA",
@@ -70,13 +81,16 @@
             "factoryKind": "M",
             "factoryNo": "FIN0647000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Ketamine Hydrochloride contains NLT 99.0% and NMT 101.0% of C13H17Cl2NO, calculated on the dried basis.",
             "ingredientsDesc": "Ketamine Hydrochloride contains NLT 99.0% and NMT 101.0% of C13H17Cl2NO, calculated on the dried basis.",
             "concentDesc": null,
             "concent": null,
@@ -88,16 +102,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AAECF1AC-477D-432E-B8AA-0F80733BE4F5",
-            "approvedDocNo": "1091497712",
-            "approvedDate": "2021-02-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [],
     "licBaseId": "631688ED-917E-47D7-857A-3CB032731C94"
 }

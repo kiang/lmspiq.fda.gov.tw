@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02019493",
+    "licUnit": "1",
     "validDate": "2027-09-15 00:00:00.000",
     "issueDate": "2017-08-16 00:00:00.000",
+    "oriIssueDate": "1992-09-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201949302",
@@ -31,11 +35,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A8C4E42D-EFC0-4E04-B8B1-E9F902DBE55C",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEUPRORELIN ACETATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣武田藥品工業股份有限公司",
     "applicantAddr": "台北市信義區松高路1號17樓",
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "20FE6664-B028-49A5-8409-D6258A2C8EF4",
             "factoryCode": "1",
             "factoryName": "TAKEDA PHARMACEUTICAL COMPANY, LTD. (OSAKA PLANT)",
             "factoryAddr": "17-85 JUSOHONMACHI 2-CHOME, YODOGAWA-KU OSAKA, JAPAN",
@@ -64,13 +72,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0328200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "A4AF301A-3D23-4455-AEC8-4A5D284F9EFF",
             "factoryCode": "2",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉湖南村光復路１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -82,9 +93,12 @@
             "factoryKind": "M",
             "factoryNo": "1708106200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "A3048897-C9E2-414C-A056-E6433CAA8715",
             "factoryCode": "2",
             "factoryName": "TAKEDA PHARMACEUTICAL COMPANY LIMITED (HIKARI PLANT)",
             "factoryAddr": "4720 TAKEDA MITSUI,HIKARI CITY,YAMAGUCHI,JAPAN",
@@ -100,16 +114,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0328000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6818000810",
+            "ingredientsName": "LEUPRORELIN ACETATE",
             "ingredientsDesc": "LEUPRORELIN ACETATE",
             "concentDesc": "",
-            "concent": "3.7500",
+            "concent": "3.750000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -118,40 +135,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "65036001-898E-453E-85E8-691AA15F88AE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "63F08ECA-FDA5-41BB-B190-DB04D8882004",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2724934D-CA6A-4C9F-8484-E7C2EE50DB45",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E421A8D3-C340-4723-9FA2-C920DF75463C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

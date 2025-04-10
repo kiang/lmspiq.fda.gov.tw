@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040929",
+    "licUnit": "1",
     "validDate": "2026-01-31 00:00:00.000",
     "issueDate": "1997-03-11 00:00:00.000",
+    "oriIssueDate": "1997-03-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104092908",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1B9B3EAE-98AD-4E1A-9983-322B0746F890",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLYCOL SALICYLATE",
         "DL-CAMPHOR ",
@@ -30,7 +37,7 @@
         "TOCOPHEROL ALPHA DL- (EQ TO DL-ALPHA TOCOPHEROL)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "得生製藥股份有限公司二廠",
     "applicantAddr": "臺南市永康區環工路四十二之一號",
@@ -44,26 +51,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "12871021-B04C-4F80-8826-16514F77CB15",
             "factoryCode": "1",
             "factoryName": "得生製藥股份有限公司二廠",
             "factoryAddr": "台南市永康區王行里環工路42號之1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6141311164",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8400000200",
+            "ingredientsName": "GLYCOL SALICYLATE",
             "ingredientsDesc": "GLYCOL SALICYLATE",
             "concentDesc": "240",
-            "concent": "240.0000",
+            "concent": "240.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -72,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000330",
+            "ingredientsName": "L-MENTHOL",
             "ingredientsDesc": "L-MENTHOL",
             "concentDesc": "160",
-            "concent": "160.0000",
+            "concent": "160.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -83,9 +95,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000103",
+            "ingredientsName": "DL-CAMPHOR ",
             "ingredientsDesc": "DL-CAMPHOR ",
             "concentDesc": "80",
-            "concent": "80.0000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -94,9 +107,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000113",
+            "ingredientsName": "TOCOPHEROL ALPHA DL- (EQ TO DL-ALPHA TOCOPHEROL)",
             "ingredientsDesc": "TOCOPHEROL ALPHA DL- (EQ TO DL-ALPHA TOCOPHEROL)",
             "concentDesc": "48",
-            "concent": "48.0000",
+            "concent": "48.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -105,63 +119,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F30CE6D7-D4DF-47F9-92FC-B675800C0826",
-            "approvedDocNo": "1129063513",
-            "approvedDate": "2023-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2D82CE5A-7F5D-4EAD-BBE3-34712C719C42",
-            "approvedDocNo": "1120608718",
-            "approvedDate": "2023-08-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "85890492-AC78-4054-87D2-D201527E1725",
-            "approvedDocNo": "1106803530",
-            "approvedDate": "2021-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AA7ADF7F-97A5-4350-9249-D41EF0A546BE",
-            "approvedDocNo": "1096809968",
-            "approvedDate": "2020-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D36DB4A8-99ED-43AF-BE84-2D91F825C101",
-            "approvedDocNo": "1086809539",
-            "approvedDate": "2019-07-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "D02AX"
-        },
-        {
             "isMain": "1",
-            "atcCode": "M02AC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M02AC"
         }
     ],

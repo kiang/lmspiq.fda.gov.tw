@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026622",
+    "licUnit": "1",
     "validDate": "2025-09-08 00:00:00.000",
     "issueDate": "2015-09-08 00:00:00.000",
+    "oriIssueDate": "2015-09-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202662200",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2E633526-886E-4172-BD05-EB2445B0A604",
+    "subCategory": [],
     "ingredientsDesc": [
         "PANTOPRAZOLE SODIUM SESQUIHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "吉富貿易有限公司",
     "applicantAddr": "台北市內湖區行愛路77巷69號7樓",
@@ -42,19 +49,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2BF81E74-3B0F-4939-9425-60F4A320F57E",
             "factoryCode": "1",
             "factoryName": "BEXIMCO PHARMACEUTICALS LIMITED",
             "factoryAddr": "126, KATHALDIA, AUCHPARA, TONGI-1711, GAZIPUR, BANGLADESH",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "BD",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FBD0002000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3332FF91-E3AC-4BD8-86CE-CCDC47C94830",
             "factoryCode": "2",
             "factoryName": "LEE PHARMA LIMITED",
             "factoryAddr": "SY. NO. 10\/G-1, GADDA POTHARAM (VILLAGE), JINNARAM (MANDAL), MEDAK (DISTRICT), ANDHRA PRADESH, 502319, INDIA",
@@ -70,16 +81,19 @@
             "factoryKind": "M",
             "factoryNo": "FIN0517000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640002610",
+            "ingredientsName": "PANTOPRAZOLE SODIUM SESQUIHYDRATE",
             "ingredientsDesc": "PANTOPRAZOLE SODIUM SESQUIHYDRATE",
             "concentDesc": "(equivalent to Pantoprazole 40mg)",
-            "concent": "45.120",
+            "concent": "45.120000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,80 +102,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4194767A-16E5-4E46-9477-6DA18E05B469",
-            "approvedDocNo": "1129021539",
-            "approvedDate": "2023-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E81F33DD-B2E8-4432-A973-0B5DCCB6CC9E",
-            "approvedDocNo": "1119032744",
-            "approvedDate": "2022-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "814AD09B-5DD5-4742-AD4B-1700DE863FE4",
-            "approvedDocNo": "1091496785",
-            "approvedDate": "2021-04-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8CCFCDD1-06C9-415E-8185-AEB7E21C7DCB",
-            "approvedDocNo": "1086023130",
-            "approvedDate": "2019-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CEB7E829-FB71-40A0-82DC-C9E56C9B0F91",
-            "approvedDocNo": "1086005503",
-            "approvedDate": "2019-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "07A8EB3C-E56B-4ABB-AF71-D17E879D61B3",
-            "approvedDocNo": "1086005503",
-            "approvedDate": "2019-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DBC7A54F-E309-401F-A455-ED2F0925A5FA",
-            "approvedDocNo": "1086005503",
-            "approvedDate": "2019-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "15AA3DF6-358E-4090-BF31-21FA2DBE79CC",
-            "approvedDocNo": "1086005503",
-            "approvedDate": "2019-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "14F17C3D-5188-458A-B31F-094A97CBCA9F",
-            "approvedDocNo": "1086005503",
-            "approvedDate": "2019-05-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

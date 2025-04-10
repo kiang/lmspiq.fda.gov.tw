@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024896",
+    "licUnit": "1",
     "validDate": "2028-10-02 00:00:00.000",
     "issueDate": "2008-10-02 00:00:00.000",
+    "oriIssueDate": "2008-10-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202489605",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "41D4D022-EF55-4BB4-835B-06C2F58002E5",
+    "subCategory": [],
     "ingredientsDesc": [
         "TACROLIMUS"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣安斯泰來製藥股份有限公司",
     "applicantAddr": "台北市中山區民生東路３段１０號５樓",
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C824F504-35E8-4FB7-A0D4-F7405320FE8C",
             "factoryCode": "1",
             "factoryName": "ASTELLAS IRELAND CO., LTD.",
             "factoryAddr": "KILLORGLIN CO., KERRY, V93 FC86, IRELAND",
@@ -51,13 +59,16 @@
             "factoryKind": "M",
             "factoryNo": "FIE0023000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D2824BA8-2F4B-4494-BA21-6BD006E4CD01",
             "factoryCode": "2",
             "factoryName": "ASTELLAS PHARMA INC. TOYAMA TECHNOLOGY CENTER",
             "factoryAddr": "2-178 KOJIN-MACHI, TOYAMA 930-0809 JAPAN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [
                 {
@@ -69,16 +80,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP1066000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9250000800",
+            "ingredientsName": "TACROLIMUS",
             "ingredientsDesc": "TACROLIMUS",
             "concentDesc": "",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,103 +101,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DB0C1D6D-DF60-4F13-9B84-87D59B20C30A",
-            "approvedDocNo": "1129009718",
-            "approvedDate": "2023-07-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7DE21D34-3FC9-4600-964E-4F6B83E6297F",
-            "approvedDocNo": "1119044726",
-            "approvedDate": "2022-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9090E9BB-09AC-460A-A179-2E1D3F9A6589",
-            "approvedDocNo": "1110707422",
-            "approvedDate": "2022-10-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "19621B7A-D05A-4AC1-A08C-5AFAED5866DA",
-            "approvedDocNo": "1110704782",
-            "approvedDate": "2022-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F76F2250-1164-4F8B-BBE0-B5AE1E927ED6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7A8B35EA-BDCE-431E-A85C-BEE5C5D9E976",
-            "approvedDocNo": "1086036588",
-            "approvedDate": "2020-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9D4EC2F4-BDC4-48D7-B867-63F7C38C4F83",
-            "approvedDocNo": "1086024558",
-            "approvedDate": "2020-01-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "17DE6673-D701-4E8A-9C2A-687901B6128C",
-            "approvedDocNo": "1086019149",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A01A7942-3BCA-455B-A275-AA3C08C73E28",
-            "approvedDocNo": "1086019149",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "488E1F1D-6424-4ECB-945B-E3DD4E4CB174",
-            "approvedDocNo": "1086019149",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "47A192CF-84EC-4532-ABA0-8A5BBDD0E1E7",
-            "approvedDocNo": "1076042755",
-            "approvedDate": "2019-03-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L04AD02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "L04AD02"
         }
     ],

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024646",
+    "licUnit": "1",
     "validDate": "2027-06-05 00:00:00.000",
     "issueDate": "2007-06-05 00:00:00.000",
+    "oriIssueDate": "2007-06-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202464608",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1FC1DC58-4D51-45A0-A8A9-0D0913CFD13B",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
         "CANDESARTAN CILEXETIL"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "台灣賽特瑞恩有限公司",
     "applicantAddr": "臺北市信義區松仁路97號3樓之1",
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2DAD0BB9-408B-4C94-BDFD-A38D291B8824",
             "factoryCode": "1",
             "factoryName": "DELPHARM NOVARA S.R.L.",
             "factoryAddr": "VIA CROSA 86, 28065 CERANO (NOVARA), ITALY",
@@ -53,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "FIT0344000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "E43C29B2-F33A-4273-A34C-A7576C4F51C5",
             "factoryCode": "2",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉光復路1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -71,9 +82,12 @@
             "factoryKind": "M",
             "factoryNo": "6133061413",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1A328E29-CF08-435F-ABF0-6125ECA95AA9",
             "factoryCode": "2",
             "factoryName": "TAKEDA PHARMA GMBH.",
             "factoryAddr": "VIKTORIAALLEE 3-5 D-52066 AACHEN GERMANY",
@@ -84,16 +98,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0264000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005710",
+            "ingredientsName": "CANDESARTAN CILEXETIL",
             "ingredientsDesc": "CANDESARTAN CILEXETIL",
             "concentDesc": null,
-            "concent": "8.0000",
+            "concent": "8.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -102,9 +119,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": null,
-            "concent": "12.5000",
+            "concent": "12.500000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -121,65 +139,8 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D8F480B6-DE6C-49F3-B0A7-53B5A7FE0BE1",
-            "approvedDocNo": "1119041195",
-            "approvedDate": "2022-11-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A8BB26C-23B9-4CE8-A46D-D33A3A233A6C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "596406A7-E7C4-4F34-BC55-043B75DC6620",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-02-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1A86DDC8-DC5C-41D5-999C-F8B01E04C3C1",
-            "approvedDocNo": "1101493846",
-            "approvedDate": "2021-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "26F3E642-9113-4887-86DC-CD83D408E1D9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3A12CE1C-AAAA-4705-A663-E3B8606B5A30",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09CA06"
-        },
         {
             "isMain": "1",
             "atcCode": "C09DA06"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027086",
+    "licUnit": "1",
     "validDate": "2027-04-19 00:00:00.000",
     "issueDate": "2017-04-19 00:00:00.000",
+    "oriIssueDate": "2017-04-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202708604",
@@ -23,16 +27,21 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "DC881020-FE82-49D1-AD49-7E4FB678481D",
+    "subCategory": [
+        "A03"
+    ],
     "ingredientsDesc": [
         "tenofovir alafenamide "
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "香港商吉立亞醫藥有限公司台灣分公司",
-    "applicantAddr": "臺北市信義區松仁路32號10樓之1、36號10樓之1",
+    "applicantAddr": "臺北市信義區松高路77號48樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E9000781-00D6-46A1-8664-1B960E944C91",
             "factoryCode": "1",
             "factoryName": "PATHEON INC.",
             "factoryAddr": "2100 SYNTEX COURT MISSISSAUGA, ONTARIO, CANADA L5N 7K9",
@@ -53,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "FCA0024100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F61BEE09-7BEE-480A-9755-6521B3304C26",
             "factoryCode": "2",
             "factoryName": "GILEAD SCIENCES IRELAND UC",
             "factoryAddr": "IDA BUSINESS & TECHNOLOGY PARK, CARRIGTOHILL COUNTY CORK, IRELAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IE",
             "processCode": [
                 {
@@ -71,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FIE0060000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818003500",
+            "ingredientsName": "tenofovir alafenamide ",
             "ingredientsDesc": "tenofovir alafenamide ",
             "concentDesc": "(eq to tenofovir alafenamide hemifumarate)(eq to tenofovir alafenamide fumarate......28MG)",
-            "concent": "25.000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,72 +105,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A0073F56-1800-4E92-B3CA-8A4BAE20DCA5",
-            "approvedDocNo": "1120806963",
-            "approvedDate": "2023-06-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1AB1082E-9F81-4DBB-851D-B5552BC4AC34",
-            "approvedDocNo": "1106000141",
-            "approvedDate": "2021-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "29AE2DB6-02A0-45FF-AB10-E6F0C23477DC",
-            "approvedDocNo": "1096805086",
-            "approvedDate": "2020-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B28C6850-4EB4-41FD-9890-3181DF3809C3",
-            "approvedDocNo": "1096805086",
-            "approvedDate": "2020-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6D16D377-7DD0-4EBF-9D3A-4A44A2E3D1BE",
-            "approvedDocNo": "1096805086",
-            "approvedDate": "2020-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CBF73451-450C-4354-A380-93AEB622B576",
-            "approvedDocNo": "1096027596",
-            "approvedDate": "2020-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DA63BB17-4773-4D70-812F-9D91F086FE6A",
-            "approvedDocNo": "1086013073",
-            "approvedDate": "2019-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BCA10A46-206E-4178-BA17-EA923FA96233",
-            "approvedDocNo": "1086013073",
-            "approvedDate": "2019-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

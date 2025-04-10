@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001069",
+    "licUnit": "1",
     "validDate": "2028-03-19 00:00:00.000",
     "issueDate": "2018-03-19 00:00:00.000",
+    "oriIssueDate": "2018-03-19",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000106907",
@@ -23,13 +27,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "D8402FD0-3BC4-4429-AF9E-3B9775FC9072",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "Simoctocog alfa"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "艾科索股份有限公司",
     "applicantAddr": "臺北市大安區敦化南路2段59號3樓之3、3樓之4",
@@ -43,10 +52,11 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8657FE9E-646B-41B9-BE9B-F1E9EEDCDB02",
             "factoryCode": "1",
             "factoryName": "OCTAPHARMA AB",
             "factoryAddr": "LARS FORSSELLS GATA 23, 112 75 STOCKHOLM, SWEDEN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "SE",
             "processCode": [
                 {
@@ -58,9 +68,12 @@
             "factoryKind": "M",
             "factoryNo": "FSE0091000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D369A05D-73B4-483E-B62A-D23ECBB0CD3A",
             "factoryCode": "2",
             "factoryName": "VETTER PHARMA-FERTIGUNG GMBH & CO. KG",
             "factoryAddr": "EISENBAHNSTRASSE 2-4, 88085 LANGENARGEN GERMANY",
@@ -76,13 +89,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0292000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "554F3F10-0514-454F-B893-522CA3152340",
             "factoryCode": "2",
             "factoryName": "OCTAPHARMA DESSAU GMBH",
             "factoryAddr": "OTTO-REUTER-STRASSE 3, 06847 DESSAU – ROβLAU, GERMANY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -94,16 +110,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0466000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012103400",
+            "ingredientsName": "Simoctocog alfa",
             "ingredientsDesc": "Simoctocog alfa",
             "concentDesc": "(Human-cl rhFVIII)",
-            "concent": "500.000",
+            "concent": "500.000000",
             "concentUnit": "21A",
             "seq": "1",
             "prescription_seq": "1",
@@ -112,24 +131,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D9F9849E-490A-4A66-8EA3-77FBCB90FC4C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-01-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C7A12793-ED87-4125-BD0F-27DCC2199B80",
-            "approvedDocNo": "1086014399",
-            "approvedDate": "2019-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

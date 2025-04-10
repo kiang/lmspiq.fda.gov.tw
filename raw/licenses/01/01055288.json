@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055288",
+    "licUnit": "1",
     "validDate": "2025-09-09 00:00:00.000",
     "issueDate": "2010-09-09 00:00:00.000",
+    "oriIssueDate": "2010-09-09",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHY00105528801",
@@ -23,11 +27,14 @@
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "480ED8E9-1720-475A-8C27-BA44604E7D7B",
+    "subCategory": [],
     "ingredientsDesc": [
         "Mycophenolate Mofetil contains 98.0%~102.0% (on dried basis)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "台耀化學股份有限公司",
     "applicantAddr": "桃園市蘆竹區和平街36號",
@@ -41,23 +48,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "730CD36C-6BC1-437D-9488-69584216BDDE",
             "factoryCode": "1",
             "factoryName": "台耀化學股份有限公司蘆竹廠",
             "factoryAddr": "桃園市蘆竹區和平街36、36-1號、油管路2段398號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6132051075",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Mycophenolate Mofetil contains 98.0%~102.0% (on dried basis)",
             "ingredientsDesc": "Mycophenolate Mofetil contains 98.0%~102.0% (on dried basis)",
             "concentDesc": null,
             "concent": null,
@@ -77,23 +88,10 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "74446411-1820-4274-ACF3-116FA12DCDBF",
-            "approvedDocNo": "1110808493",
-            "approvedDate": "2022-06-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L04AA06"
-        },
-        {
-            "isMain": "2",
             "atcCode": "L04AA06"
         }
     ],

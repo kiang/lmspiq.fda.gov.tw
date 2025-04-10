@@ -8,6 +8,7 @@
     "licUnit": "1",
     "validDate": "2027-01-06 00:00:00.000",
     "issueDate": "2022-01-06 00:00:00.000",
+    "oriIssueDate": "2022-01-06",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000118305",
@@ -37,11 +38,11 @@
         "Pegfilgrastim"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D",
-        "1Q",
-        "91"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫",
+        "1Q 不得輸入",
+        "91 生物相似性藥品"
     ],
     "applicantName": "台灣山德士藥業股份有限公司",
     "applicantAddr": "臺北市中山區民生東路3段2號8樓",
@@ -55,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DC6132E7-9825-4E68-9929-E5BCA02F46D9",
             "factoryCode": "1",
             "factoryName": "Novartis Pharmaceutical Manufacturing GmbH",
             "factoryAddr": "Biochemiestraße 10, 6336 Langkampfen, Austria",
@@ -75,6 +77,32 @@
             "factoryMadeIn": null
         },
         {
+            "id": "3C4CA81A-C1B6-4B01-A45E-2B06E38BB31D",
+            "factoryCode": "2",
+            "factoryName": "NOVARTIS PHARMACEUTICAL MANUFACTURING GMBH",
+            "factoryAddr": "BIOCHEMIESTRASSE 10, 6250 KUNDL, AUSTRIA",
+            "factoryCompanyAddr": "",
+            "countryCode": "AT",
+            "processCode": [
+                {
+                    "value": "1K",
+                    "name": "原料藥製造廠"
+                },
+                {
+                    "value": "49",
+                    "name": "檢驗廠"
+                }
+            ],
+            "processCodeStr": "1K;原料藥製造廠#49;檢驗廠",
+            "factoryKind": "M",
+            "factoryNo": "FAT0007100",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "6F801D95-4F64-4208-8261-2F5E35BFBE63",
             "factoryCode": "2",
             "factoryName": "LEK PHARMACEUTICALS D.D",
             "factoryAddr": "KOLODVORSKA 27, 1234 MENGES, SLOVENIA",
@@ -102,7 +130,7 @@
             "ingredientsName": "Pegfilgrastim",
             "ingredientsDesc": "Pegfilgrastim",
             "concentDesc": "",
-            "concent": "6.0000",
+            "concent": "6.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

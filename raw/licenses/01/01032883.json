@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01032883",
-    "validDate": "2025-08-09 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2030-08-09 00:00:00.000",
     "issueDate": "1990-08-09 00:00:00.000",
+    "oriIssueDate": "1990-08-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103288301",
@@ -23,13 +27,16 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A082C564-D30D-4C9D-A96A-B158831680F0",
+    "subCategory": [],
     "ingredientsDesc": [
         "20% CHLORHEXIDINE GLUCONATE SOLUTION",
         "CETRIMIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "護民企業股份有限公司",
     "applicantAddr": "高雄市左營區民族一路707號",
@@ -43,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E66AEB3B-7D15-482B-8E69-FD8A7BBACB19",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900234",
+            "ingredientsName": "20% CHLORHEXIDINE GLUCONATE SOLUTION",
             "ingredientsDesc": "20% CHLORHEXIDINE GLUCONATE SOLUTION",
             "concentDesc": "",
-            "concent": "0.0150",
+            "concent": "0.015000",
             "concentUnit": "003",
             "seq": "0",
             "prescription_seq": "1",
@@ -71,9 +82,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404601080",
+            "ingredientsName": "CETRIMIDE",
             "ingredientsDesc": "CETRIMIDE",
             "concentDesc": "",
-            "concent": "0.0300",
+            "concent": "0.030000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -82,28 +94,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "382E408E-6ADF-4577-A473-89AC4539F6CA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D08AC02"
-        },
         {
             "isMain": "1",
             "atcCode": "D08AC52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D08AJ04"
         }
     ],
     "licBaseId": "12E73192-CFC9-4D2B-A6D8-D7D6C138578F"

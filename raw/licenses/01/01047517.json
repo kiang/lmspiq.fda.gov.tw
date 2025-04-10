@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047517",
-    "validDate": "2025-09-08 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2030-09-08 00:00:00.000",
     "issueDate": "2005-09-08 00:00:00.000",
+    "oriIssueDate": "2005-09-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104751707",
@@ -27,14 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D0C73C40-D55B-482C-A8E7-1B1C56FBC0CB",
+    "subCategory": [],
     "ingredientsDesc": [
         "LAMOTRIGINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "24",
-        "61"
+        "01 國 產",
+        "1R 不得製造",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7FFB1175-2C88-43B2-98DC-ACED86BB0257",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業一路６號",
@@ -58,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812001600",
+            "ingredientsName": "LAMOTRIGINE",
             "ingredientsDesc": "LAMOTRIGINE",
             "concentDesc": null,
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,56 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C8236924-2094-4E69-88E6-CA235E1F22B1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF97EAC0-0C1E-4A39-8299-E739961D1EB1",
-            "approvedDocNo": "1076808406",
-            "approvedDate": "2019-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "680E4322-4FB6-4E14-B503-FDDE0B8DB5CD",
-            "approvedDocNo": "1076808406",
-            "approvedDate": "2019-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "94E3C563-274E-462E-B1EE-810B01D7505D",
-            "approvedDocNo": "1076808406",
-            "approvedDate": "2019-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "80E322F3-D0D3-4630-A6DC-A2B4F195C8B7",
-            "approvedDocNo": "1076808406",
-            "approvedDate": "2019-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "038C76BC-FD58-4013-A34D-A644D5E53F99",
-            "approvedDocNo": "1076808406",
-            "approvedDate": "2019-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

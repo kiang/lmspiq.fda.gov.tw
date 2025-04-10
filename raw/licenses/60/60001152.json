@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001152",
+    "licUnit": "1",
     "validDate": "2026-04-29 00:00:00.000",
     "issueDate": "2021-04-29 00:00:00.000",
+    "oriIssueDate": "2021-04-29",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000115207",
@@ -27,18 +31,23 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "3123D487-4276-4826-8E82-698FD2370D29",
+    "subCategory": [
+        "C0201"
+    ],
     "ingredientsDesc": [
         "Clostridium Botulinum Toxin Type A Complex",
         "Clostridium Botulinum Toxin Type A Complex"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D",
-        "5E"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫",
+        "5E 已執行國內臨床試驗"
     ],
     "applicantName": "台灣美德妥股份有限公司",
-    "applicantAddr": "新北市中和區中正路872號4樓之1",
+    "applicantAddr": "新北市中和區中正路880號14樓之3",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -49,24 +58,28 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0FEE3021-D98D-4FA5-BD13-E68B4314904A",
             "factoryCode": "1",
-            "factoryName": "MEDYTOX INC.",
-            "factoryAddr": "78, GANGNI 1-GIL, OCHANG-EUP, CHEONGWON-GU, CHEONGIU-SI, CHUNGCHEONGBUK, REPUBLIC OF KOREA",
+            "factoryName": "Medytox Inc.",
+            "factoryAddr": "102, Osongsaengmyeong 4-ro, Osong-eup, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, Republic of Korea",
             "factoryCompanyAddr": "",
             "countryCode": "KR",
             "processCode": [
                 {
-                    "value": "2I",
-                    "name": "原料藥及成品製造廠"
+                    "value": "66",
+                    "name": "成品製造廠"
                 }
             ],
-            "processCodeStr": "2I;原料藥及成品製造廠",
+            "processCodeStr": "66;成品製造廠",
             "factoryKind": "M",
-            "factoryNo": "FKR0662000",
+            "factoryNo": "FKR0218000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "0EB74C70-34BD-41A6-ADFA-3FFD370E7813",
             "factoryCode": "2",
             "factoryName": "MEDYTOX INC.",
             "factoryAddr": "9F, 626, TEHERAN-RO, GANGNAM GU, SEOUL, REPUBLIC OF KOREA",
@@ -82,16 +95,40 @@
             "factoryKind": "M",
             "factoryNo": "FKR0205000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "7DA75EA4-40C0-4E56-9820-22DC4B10F44E",
+            "factoryCode": "2",
+            "factoryName": "MEDYTOX INC.",
+            "factoryAddr": "78, GANGNI 1-GIL, OCHANG-EUP, CHEONGWON-GU, CHEONGIU-SI, CHUNGCHEONGBUK, REPUBLIC OF KOREA",
+            "factoryCompanyAddr": "",
+            "countryCode": "KR",
+            "processCode": [
+                {
+                    "value": "1K",
+                    "name": "原料藥製造廠"
+                }
+            ],
+            "processCodeStr": "1K;原料藥製造廠",
+            "factoryKind": "M",
+            "factoryNo": "FKR0662000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220003100",
+            "ingredientsName": "Clostridium Botulinum Toxin Type A Complex",
             "ingredientsDesc": "Clostridium Botulinum Toxin Type A Complex",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "1",
@@ -100,9 +137,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220003100",
+            "ingredientsName": "Clostridium Botulinum Toxin Type A Complex",
             "ingredientsDesc": "Clostridium Botulinum Toxin Type A Complex",
             "concentDesc": "",
-            "concent": "200.000",
+            "concent": "200.000000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "2",

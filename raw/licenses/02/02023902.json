@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-03-27",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "02023902",
+    "licUnit": "1",
     "validDate": "2023-12-29 00:00:00.000",
     "issueDate": "2003-12-29 00:00:00.000",
+    "oriIssueDate": "2003-12-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202390208",
@@ -27,6 +33,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8A38236A-13BC-4D94-8D9E-DF1E700CDE40",
+    "subCategory": [],
     "ingredientsDesc": [
         "SWERTIAE HERBA POWDER ( POWDERED SWERTIA HERB)",
         "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
@@ -34,7 +43,7 @@
         "URSODEOXYCHOLIC ACID"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "優德貿易有限公司",
     "applicantAddr": "台北市大同區南京西路46號（實際營業地址：5樓）",
@@ -48,26 +57,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0D185F05-F7C9-41DF-B364-1CB0F2C2A376",
             "factoryCode": "1",
             "factoryName": "Matsumoto Pharmaceutical Industries Co., Ltd. Takatori Factory",
             "factoryAddr": "323-1 KURUMAKI TAKATORI-CHO, TAKAICHI-GUN NARA JAPAN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP0176100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200014911",
+            "ingredientsName": "SWERTIAE HERBA POWDER ( POWDERED SWERTIA HERB)",
             "ingredientsDesc": "SWERTIAE HERBA POWDER ( POWDERED SWERTIA HERB)",
             "concentDesc": null,
-            "concent": "4.1670",
+            "concent": "4.167000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -76,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616001800",
+            "ingredientsName": "URSODEOXYCHOLIC ACID",
             "ingredientsDesc": "URSODEOXYCHOLIC ACID",
             "concentDesc": null,
-            "concent": "1.2500",
+            "concent": "1.250000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -87,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": null,
-            "concent": "87.5000",
+            "concent": "87.500000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -98,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000512",
+            "ingredientsName": "MAGNESIUM ALUMINOMETASILICATE",
             "ingredientsDesc": "MAGNESIUM ALUMINOMETASILICATE",
             "concentDesc": null,
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -109,36 +125,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D341193F-1277-4CAB-ABFB-7694B9AB7704",
-            "approvedDocNo": "1086009387",
-            "approvedDate": "2019-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A05AA02"
-        },
         {
             "isMain": "1",
             "atcCode": "A02AH"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AD"
         }
     ],
     "licBaseId": "98C11AA8-D625-4BF3-82EE-0C97C5EA3ADD"

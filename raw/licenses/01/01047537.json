@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047537",
+    "licUnit": "1",
     "validDate": "2025-09-20 00:00:00.000",
     "issueDate": "2005-09-20 00:00:00.000",
+    "oriIssueDate": "2005-09-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104753700",
@@ -27,13 +31,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0A6E8EC7-0F2E-4C71-B662-21D3D5C00097",
+    "subCategory": [],
     "ingredientsDesc": [
         "METHYLPREDNISOLONE",
         "METHYLPREDNISOLONE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "舜興醫藥企業有限公司",
     "applicantAddr": "台北市松山區復興北路333號10樓之3",
@@ -47,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "771F4788-F508-4F3C-A8D0-C2E18F02BD90",
             "factoryCode": "1",
             "factoryName": "政德製藥股份有限公司",
             "factoryAddr": "雲林縣大埤鄉嘉興村豐田路２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0922116300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001300",
+            "ingredientsName": "METHYLPREDNISOLONE",
             "ingredientsDesc": "METHYLPREDNISOLONE",
             "concentDesc": "(POTENCY)",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001300",
+            "ingredientsName": "METHYLPREDNISOLONE",
             "ingredientsDesc": "METHYLPREDNISOLONE",
             "concentDesc": "(POTENCY)",
-            "concent": "125.0000",
+            "concent": "125.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -88,10 +100,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "H02AB04"
-        },
         {
             "isMain": "1",
             "atcCode": "H02AB04"

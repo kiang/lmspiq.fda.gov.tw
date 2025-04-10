@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024561",
+    "licUnit": "1",
     "validDate": "2026-11-13 00:00:00.000",
     "issueDate": "2006-11-13 00:00:00.000",
+    "oriIssueDate": "2006-11-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202456100",
@@ -23,13 +27,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B674414A-2BC3-47BE-9C48-0037217D265E",
+    "subCategory": [],
     "ingredientsDesc": [
         "ATOSIBAN ACETATE CORRESPONDING TO ATOSIBAN"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "52"
+        "02 輸 入",
+        "07 新藥監視",
+        "52 依本署七七公告於國內進行臨床試驗且核定為新藥"
     ],
     "applicantName": "輝凌藥品股份有限公司",
     "applicantAddr": "台北市中山區松江路111號11樓",
@@ -43,9 +50,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8E4AC330-1DC4-4FC3-8EF0-FF2717B7C67F",
             "factoryCode": "1",
             "factoryName": "FERRING  GMBH",
-            "factoryAddr": "WITTLAND 11, D-24109 KIEL, GERMANY",
+            "factoryAddr": "WITTLAND 11, D-24109 KIEL  GERMANY",
             "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [],
@@ -53,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0233000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "221F57AB-49D4-4400-966E-7AC3711D5295",
             "factoryCode": "2",
             "factoryName": "FERRING INTERNATIONAL CENTER SA",
             "factoryAddr": "CHEMIN DE LA VERGOGNAUSAZ 50, CH-1162 SAINT-PREX, SWITZERLAND",
@@ -71,12 +82,15 @@
             "factoryKind": "M",
             "factoryNo": "FCH0116000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "079BD70E-E02F-4918-A859-1F17E54C5D98",
             "factoryCode": "2",
-            "factoryName": "Ferring-Leciva, a.s.",
-            "factoryAddr": "Ke Skale 455, 252 42 Vestec u Prahy, Czech Republic",
+            "factoryName": "FERRING-LECIVA, A.S",
+            "factoryAddr": "KE SKALE 455, 252 50 VESTEC (AREAL SPOLECNOSTI ECP, A.S.), CZECH REPUBLIC",
             "factoryCompanyAddr": "",
             "countryCode": "CZ",
             "processCode": [
@@ -87,18 +101,21 @@
             ],
             "processCodeStr": "1A;二級包裝廠",
             "factoryKind": "M",
-            "factoryNo": "FCZ0008100",
+            "factoryNo": "FCZ0008200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7600001820",
+            "ingredientsName": "ATOSIBAN ACETATE CORRESPONDING TO ATOSIBAN",
             "ingredientsDesc": "ATOSIBAN ACETATE CORRESPONDING TO ATOSIBAN",
             "concentDesc": null,
-            "concent": "7.5000",
+            "concent": "7.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -107,16 +124,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CAFB53C5-1DE9-4D7F-86E0-FCB5AA2BC500",
-            "approvedDocNo": "1081490403",
-            "approvedDate": "2019-07-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

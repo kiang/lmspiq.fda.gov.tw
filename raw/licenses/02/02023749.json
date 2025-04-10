@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023749",
+    "licUnit": "1",
     "validDate": "2028-06-16 00:00:00.000",
     "issueDate": "2003-06-16 00:00:00.000",
+    "oriIssueDate": "2003-06-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202374900",
@@ -27,13 +31,17 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "662B1F12-75CC-4DA8-A816-7EBAB2D9E194",
+    "subCategory": [],
     "ingredientsDesc": [
         "ERTAPENEM SODIUM"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "54"
+        "02 輸 入",
+        "07 新藥監視",
+        "54 依本署89、12、12衛署藥字第0890035812號公告事項九得免除國內進行臨床試驗之特殊醫療需要之新藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "美商默沙東藥廠股份有限公司台灣分公司",
     "applicantAddr": "台北市信義區信義路五段106號12樓",
@@ -47,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E16F813A-1207-41F3-9FA4-28D4F6B00474",
             "factoryCode": "1",
             "factoryName": "FAREVA Mirabel",
             "factoryAddr": "ROUTE DE MARSAT 63203 RIOM,FRANCE(ACTUAL ADDRESS) ROUTE DE MARSAT RIOM 63963 CLERMONT-FERRAND CEDEX 9,FRANCE(POSTAL-BOX)",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "FR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FFR0414000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812002610",
+            "ingredientsName": "ERTAPENEM SODIUM",
             "ingredientsDesc": "ERTAPENEM SODIUM",
             "concentDesc": null,
-            "concent": "1046.0000",
+            "concent": "1046.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -75,80 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FFD7D491-01C7-47DF-8B5D-45041FE59DAD",
-            "approvedDocNo": "1101500279",
-            "approvedDate": "2022-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2CE03AF0-5389-46B8-AC0A-5F2FE1DFB67E",
-            "approvedDocNo": "1106028013",
-            "approvedDate": "2022-03-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BA94A40B-6A17-40EB-BAE0-498E51083ED2",
-            "approvedDocNo": "1106028013",
-            "approvedDate": "2022-03-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9AFB7AB5-7436-41A8-A463-0336BF8F5B34",
-            "approvedDocNo": "1101493250",
-            "approvedDate": "2021-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F9D16739-43A2-402F-BBB1-AAC7EC34E38C",
-            "approvedDocNo": "1101493250",
-            "approvedDate": "2021-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "835F6D5D-D697-4492-9D32-7B38B918607A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7F79BD9E-0D77-4540-A881-06C18442DF68",
-            "approvedDocNo": "1096031810",
-            "approvedDate": "2021-04-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "133D567C-709D-4023-8C50-A7AFF68C6015",
-            "approvedDocNo": "1086023346",
-            "approvedDate": "2020-01-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3838DD70-B039-4DD1-9A15-E5A36FA64B44",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

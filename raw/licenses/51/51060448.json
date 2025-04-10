@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060448",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "2020-03-05 00:00:00.000",
+    "oriIssueDate": "2020-03-05",
     "licKind": "02",
     "oldLicid": "01012966",
     "certNo": "DHY05106044800",
@@ -23,11 +27,16 @@
     "medMCode": "22",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "219D1433-2C14-4CB9-A936-619DC9AA6C5D",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "GELATIN"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "新歷芳企業股份有限公司",
     "applicantAddr": "台中市霧峰區吉峰路３１號",
@@ -41,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "82CC1F96-801F-4414-9A3E-F0A41FF6B419",
             "factoryCode": "1",
             "factoryName": "新歷芳企業股份有限公司",
             "factoryAddr": "台中市霧峰區吉峰路３１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1303910300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600012700",
+            "ingredientsName": "GELATIN",
             "ingredientsDesc": "GELATIN",
             "concentDesc": "",
-            "concent": "131.987",
+            "concent": "131.987000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -69,32 +82,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6356D065-5EA8-4B94-AC4A-DF3B231F584A",
-            "approvedDocNo": "1120804071",
-            "approvedDate": "2023-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B0784179-1060-4AE3-9165-CAA7BD8CD54A",
-            "approvedDocNo": "1120601359",
-            "approvedDate": "2023-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1A6741FB-ED28-4E0B-9738-338DB1091511",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [],
     "licBaseId": "01D6A220-8984-43B5-8496-DA68CD8736CB"
 }

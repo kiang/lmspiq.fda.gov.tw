@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026550",
+    "licUnit": "1",
     "validDate": "2025-09-23 00:00:00.000",
     "issueDate": "2015-09-23 00:00:00.000",
+    "oriIssueDate": "2015-09-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202655001",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "59565863-89E4-4540-9C3F-CA1FBE113ABC",
+    "subCategory": [],
     "ingredientsDesc": [
         "BRIMONIDINE TARTRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "香港商高德美有限公司台灣分公司",
     "applicantAddr": "台北市大同區承德路一段17號9樓之4、17號9樓之5、17號9樓之6",
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6088F6E7-7370-4EE9-A9CD-A101DFBB27BF",
             "factoryCode": "1",
             "factoryName": "LABORATOIRES GALDERMA.",
             "factoryAddr": "ZONE INDUSTRIELLE-MONTDESIR 74540 ALBY SUR CHERAN FRANCE",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0143100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "709920F7-9887-419E-8AC3-EC97A25D9862",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司高上倉",
             "factoryAddr": "桃園市楊梅區高上路1段150號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -74,13 +85,16 @@
             "factoryKind": "M",
             "factoryNo": "6132041444",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "36DB18FE-C5C3-4E7D-96E3-228EC42F5A5B",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
             "factoryAddr": "桃園市楊梅區梅獅路二段629號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -92,16 +106,19 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005310",
+            "ingredientsName": "BRIMONIDINE TARTRATE",
             "ingredientsDesc": "BRIMONIDINE TARTRATE",
             "concentDesc": "(equivalent to Brimonidine tartrate......5MG)",
-            "concent": "3.300",
+            "concent": "3.300000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -110,48 +127,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "96F1322F-B9B0-46AF-8C17-006625BD40E5",
-            "approvedDocNo": "1120719772",
-            "approvedDate": "2023-12-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E4612F2A-3A32-40EC-9A8D-629C719DA5D5",
-            "approvedDocNo": "1129060699",
-            "approvedDate": "2023-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9CA4B482-5C34-4BBA-B043-BEC0FC4A12F9",
-            "approvedDocNo": "1110722900",
-            "approvedDate": "2023-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1AA8F547-3944-4ADF-B443-90E6512915C4",
-            "approvedDocNo": "1110003302",
-            "approvedDate": "2022-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "217DDCD0-6E1D-4757-86C4-FF936E89BE89",
-            "approvedDocNo": "1086003029",
-            "approvedDate": "2019-03-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

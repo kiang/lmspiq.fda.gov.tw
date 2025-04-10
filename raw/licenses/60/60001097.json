@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001097",
+    "licUnit": "1",
     "validDate": "2028-12-26 00:00:00.000",
     "issueDate": "2018-12-26 00:00:00.000",
+    "oriIssueDate": "2018-12-26",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000109702",
@@ -27,14 +31,19 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "5E8006D3-24B9-4C49-B36C-04B1040A904F",
+    "subCategory": [
+        "C0601"
+    ],
     "ingredientsDesc": [
         "FIBRINOGEN HUMAN",
         "HUMAN THROMBIN"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "頤安國際有限公司 ",
     "applicantAddr": "臺北市大同區華陰街91號11樓之5",
@@ -48,19 +57,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "91814DAE-E8F3-4278-89C7-FCDFB752137F",
             "factoryCode": "1",
-            "factoryName": "TAKEDA AUSTRIA GMBH",
+            "factoryName": "CORZA MEDICAL DISTRIBUTION GMBH, AUSTRIA BRANCH",
             "factoryAddr": "ST. PETER-STRASSE 25 A-4020 LINZ, AUSTRIA",
-            "factoryCompanyAddr": null,
+            "factoryCompanyAddr": "",
             "countryCode": "AT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FAT0008000",
+            "factoryNo": "FAT0008100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "569A2054-5128-416F-B0C9-7168ACF31183",
             "factoryCode": "2",
             "factoryName": "CSL BEHRING GMBH",
             "factoryAddr": "EMIL-VON-BEHRING STRASSE 76,35041 MARBURG GERMANY",
@@ -76,9 +89,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0241000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D8BDD2BF-736F-4BC3-B8BA-4B5B35B0F7EF",
             "factoryCode": "2",
             "factoryName": "BBF STERILISATIONSSERVICE GMBH",
             "factoryAddr": "WILLY RUSCH STR. 10 \/ 1, 71394 KERNEN, GERMANY",
@@ -94,16 +110,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0622000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004000810",
+            "ingredientsName": "FIBRINOGEN HUMAN",
             "ingredientsDesc": "FIBRINOGEN HUMAN",
             "concentDesc": "",
-            "concent": "5.500",
+            "concent": "5.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -112,9 +131,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012101103",
+            "ingredientsName": "HUMAN THROMBIN",
             "ingredientsDesc": "HUMAN THROMBIN",
             "concentDesc": "",
-            "concent": "2.000",
+            "concent": "2.000000",
             "concentUnit": "21A",
             "seq": "2",
             "prescription_seq": "1",
@@ -123,44 +143,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E11BB29C-9F62-49A2-865D-2D176A55B24F",
-            "approvedDocNo": "1120706534",
-            "approvedDate": "2023-06-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FDBF4040-C3C7-462B-A55A-D1FBC1BFC0F3",
-            "approvedDocNo": "1119031705",
-            "approvedDate": "2022-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F2C03AFC-1E02-4E07-AC39-A0C7C97277F1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "B02BD"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B02BD30"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B02BB01"
         }
     ],
     "licBaseId": "D31FD72D-268F-4EA6-B8BA-6D49859E3691"

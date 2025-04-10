@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060554",
+    "licUnit": "1",
     "validDate": "2025-09-15 00:00:00.000",
     "issueDate": "2020-09-15 00:00:00.000",
+    "oriIssueDate": "2020-09-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106055409",
@@ -27,12 +31,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "EDF4B8D5-B077-4175-B0F8-4F6509F63B8C",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "SUNITINIB MALATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "美時化學製藥股份有限公司",
     "applicantAddr": "台北市信義區松仁路277號17樓",
@@ -46,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8904F3ED-F9CB-4B51-84C5-D290D73CDB0C",
             "factoryCode": "1",
             "factoryName": "美時化學製藥股份有限公司南投廠",
             "factoryAddr": "南投縣南投市新興里成功一路３０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0901314300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000131",
+            "ingredientsName": "SUNITINIB MALATE",
             "ingredientsDesc": "SUNITINIB MALATE",
             "concentDesc": "(eq. to Sunitinib.....50mg)",
-            "concent": "66.800",
+            "concent": "66.800000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,56 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ACC6BF7D-176A-4108-BD1B-4D2B7F1C7E5A",
-            "approvedDocNo": "1129012641",
-            "approvedDate": "2023-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4D09E110-1437-45CA-A4DF-BA0CCA324FBA",
-            "approvedDocNo": "1129012641",
-            "approvedDate": "2023-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "24AA2D80-4250-4BC5-867A-F55DDEB5044B",
-            "approvedDocNo": "1129012641",
-            "approvedDate": "2023-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FD859BC2-2645-4B59-9058-262F9EE793E9",
-            "approvedDocNo": "1106021153",
-            "approvedDate": "2021-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31AD94DD-2BFB-454A-8492-2DC58F90859D",
-            "approvedDocNo": "1091413795",
-            "approvedDate": "2020-12-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2135A511-D0A1-4EAB-A859-BC4218BBE953",
-            "approvedDocNo": "1091411138",
-            "approvedDate": "2020-10-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

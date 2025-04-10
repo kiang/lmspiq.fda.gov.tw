@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044140",
+    "licUnit": "1",
     "validDate": "2025-12-11 00:00:00.000",
     "issueDate": "2000-12-11 00:00:00.000",
+    "oriIssueDate": "2000-12-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104414000",
@@ -23,11 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "41628491-FE3B-46A2-9724-B328850ADB48",
+    "subCategory": [],
     "ingredientsDesc": [
         "BENZBROMARONE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "大豐製藥股份有限公司",
     "applicantAddr": "彰化縣彰化市延平里岸頭巷11號",
@@ -41,26 +49,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "928A1B5F-88C4-4626-85B2-F7E988A47B5F",
             "factoryCode": "1",
             "factoryName": "大豐製藥股份有限公司",
             "factoryAddr": "彰化縣彰化市延平里岸頭巷11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0306811300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4040000300",
+            "ingredientsName": "BENZBROMARONE",
             "ingredientsDesc": "BENZBROMARONE",
             "concentDesc": "100",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -69,64 +81,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AC75D691-90AA-404D-824D-84AC0343FBC4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EB34CA5F-0BFC-43B5-809D-9AE133D36E35",
-            "approvedDocNo": "1096614617",
-            "approvedDate": "2021-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "142C6363-4BC9-4969-B455-A2813E436117",
-            "approvedDocNo": "1096614617",
-            "approvedDate": "2021-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "962A7952-F1BE-4EB4-A1DD-1F375CAC161A",
-            "approvedDocNo": "1096614617",
-            "approvedDate": "2021-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BBB74BA6-0EE7-446A-9254-6CF62F29D528",
-            "approvedDocNo": "1096614617",
-            "approvedDate": "2021-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7E44D028-78D2-4FDB-AE72-FAC3BDC9B50C",
-            "approvedDocNo": "1096614617",
-            "approvedDate": "2021-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "02CA0672-D9B3-4A40-A33D-A55FBFCE2611",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

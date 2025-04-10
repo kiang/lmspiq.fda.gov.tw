@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027054",
+    "licUnit": "1",
     "validDate": "2027-02-06 00:00:00.000",
     "issueDate": "2017-02-06 00:00:00.000",
+    "oriIssueDate": "2017-02-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202705404",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A754D102-D24F-4654-82D4-3DC11CE3C3F2",
+    "subCategory": [],
     "ingredientsDesc": [
         "PREGABALIN"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "旌宇藥業股份有限公司",
     "applicantAddr": "臺南市南區喜樹路67號1樓",
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3178A1C3-21B5-4C5D-A073-FDA1BF8CDCAA",
             "factoryCode": "1",
             "factoryName": "KERN PHARMA, S.L.",
             "factoryAddr": "POLIGON INDUSTRIAL COLON II, VENUS 72, 08228 TERRASSA (BARCELONA), SPAIN",
@@ -52,9 +60,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0165000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "9355B4B0-6F14-4E37-8E7D-1BD136676C83",
             "factoryCode": "2",
             "factoryName": "皇佳化學製藥股份有限公司",
             "factoryAddr": "高雄市鳥松區?埔里埔安街1號",
@@ -70,16 +81,19 @@
             "factoryKind": "M",
             "factoryNo": "0920322300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812009200",
+            "ingredientsName": "PREGABALIN",
             "ingredientsDesc": "PREGABALIN",
             "concentDesc": "",
-            "concent": "75.000",
+            "concent": "75.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,51 +102,26 @@
     ],
     "authDtoList": [
         {
-            "applicantName": "蒼達藥品有限公司",
-            "certNo": "DHA05202705426",
-            "approveDocNo": "1110607122",
-            "authDate": "2022-06-21",
-            "validDate": "2027-02-06"
-        },
-        {
             "applicantName": "邦譽藥品有限公司",
             "certNo": "DHA05202705415",
             "approveDocNo": "1110604685",
             "authDate": "2022-04-25",
             "validDate": "2027-02-06"
+        },
+        {
+            "applicantName": "蒼達藥品有限公司",
+            "certNo": "DHA05202705426",
+            "approveDocNo": "1110607122",
+            "authDate": "2022-06-21",
+            "validDate": "2027-02-06"
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BCAF3A10-50B6-465E-B47F-602F37CCAAA1",
-            "approvedDocNo": "1110704882",
-            "approvedDate": "2022-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D7D42A95-FA52-40D1-A0D8-D8BCFBB06B4F",
-            "approvedDocNo": "1096615114",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "12944E0F-E731-4E92-B0AA-ED3E7CBCFF47",
-            "approvedDocNo": "1086007155",
-            "approvedDate": "2019-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N03AX16"
+            "atcCode": "N02BF02"
         }
     ],
     "licBaseId": "20A840D9-F1ED-4EB1-AAF9-F4AB892768B7"

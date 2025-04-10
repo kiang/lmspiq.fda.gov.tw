@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-03-21",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "60001148",
+    "licUnit": "1",
     "validDate": "2026-03-09 00:00:00.000",
     "issueDate": "2021-03-09 00:00:00.000",
+    "oriIssueDate": "2021-03-09",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000114803",
@@ -23,15 +29,20 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "4FF7A22B-597E-495C-A58C-96A5F938E38B",
+    "subCategory": [
+        "C0503"
+    ],
     "ingredientsDesc": [
         "INSULIN LISPRO"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "台灣禮來股份有限公司",
-    "applicantAddr": "台北市復興北路３６５號１１樓",
+    "applicantAddr": "臺北市信義區松高路9號14樓、11號14樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -42,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "23C85168-C6DC-469D-85EC-1297EA20F745",
             "factoryCode": "1",
             "factoryName": "ELI LILLY AND COMPANY",
             "factoryAddr": "INDIANAPOLIS, INDIANA 46285, U.S.A.",
@@ -52,9 +64,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0073100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "AC087D9C-DE54-4557-BB72-696F9299258B",
             "factoryCode": "2",
             "factoryName": "LILLY DEL CARIBE INC.",
             "factoryAddr": "12.3 KM, 65TH INFANTRY ROAD, CAROLINA 00985, PUERTO RICO",
@@ -70,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "FPR0051000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820801000",
+            "ingredientsName": "INSULIN LISPRO",
             "ingredientsDesc": "INSULIN LISPRO",
             "concentDesc": "(Insulin Lispro zinc Crystals)(3.5 MG)",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,40 +106,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8B636D1C-0446-4F60-8355-1DF4A6C1C62E",
-            "approvedDocNo": "1120704503",
-            "approvedDate": "2023-12-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B2F38694-100E-448B-B7CE-9C31D791087C",
-            "approvedDocNo": "1120704503",
-            "approvedDate": "2023-12-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F478802-812A-4C8F-8D0A-C7298F3670B6",
-            "approvedDocNo": "1120704503",
-            "approvedDate": "2023-12-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C97C3633-41A7-428B-9559-58C7293BADFD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

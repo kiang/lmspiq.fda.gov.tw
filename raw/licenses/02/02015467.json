@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02015467",
+    "licUnit": "1",
     "validDate": "2028-07-17 00:00:00.000",
     "issueDate": "1998-09-11 00:00:00.000",
+    "oriIssueDate": "1998-09-11",
     "licKind": "02",
     "oldLicid": "02013855",
     "certNo": "DHA00201546707",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FAD85F84-07B6-40D7-BF58-B048B8788DC9",
+    "subCategory": [],
     "ingredientsDesc": [
         "TESTOSTERONE DECANOATE",
         "TESTOSTERONE PHENYLPROPIONATE",
@@ -30,7 +37,7 @@
         "TESTOSTERONE ISOCAPROATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "安沛國際有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號20樓",
@@ -44,49 +51,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6F1336A4-5B49-45D4-A816-AFC7A0BE60A3",
             "factoryCode": "1",
-            "factoryName": "Ever Pharma Jena GmbH",
-            "factoryAddr": "Otto-Schott-Strasse 15, 07745 Jena, Germany",
-            "factoryCompanyAddr": null,
-            "countryCode": "DE",
-            "processCode": [
-                {
-                    "value": "17",
-                    "name": "製造、包裝"
-                }
-            ],
-            "processCodeStr": "17;製造、包裝",
-            "factoryKind": "M",
-            "factoryNo": "FDE0256000",
-            "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
             "factoryName": "Ever Pharma Jena GmbH",
             "factoryAddr": "Brusseler Str. 18, 07747 Jena, Germany",
             "factoryCompanyAddr": "",
             "countryCode": "DE",
-            "processCode": [
-                {
-                    "value": "1A",
-                    "name": "二級包裝廠"
-                }
-            ],
-            "processCodeStr": "1A;二級包裝廠",
+            "processCode": [],
+            "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FDE0471000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6808501000",
+            "ingredientsName": "TESTOSTERONE PROPIONATE",
             "ingredientsDesc": "TESTOSTERONE PROPIONATE",
             "concentDesc": null,
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -95,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6808500900",
+            "ingredientsName": "TESTOSTERONE PHENYLPROPIONATE",
             "ingredientsDesc": "TESTOSTERONE PHENYLPROPIONATE",
             "concentDesc": null,
-            "concent": "60.0000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -106,9 +95,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6808500500",
+            "ingredientsName": "TESTOSTERONE ISOCAPROATE",
             "ingredientsDesc": "TESTOSTERONE ISOCAPROATE",
             "concentDesc": null,
-            "concent": "60.0000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -117,9 +107,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6808501500",
+            "ingredientsName": "TESTOSTERONE DECANOATE",
             "ingredientsDesc": "TESTOSTERONE DECANOATE",
             "concentDesc": null,
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -128,39 +119,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "881299A6-99E5-41B3-B2B5-33DA473097F7",
-            "approvedDocNo": "1106002538",
-            "approvedDate": "2021-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B884FC47-78E8-4B54-8111-807B89657B4C",
-            "approvedDocNo": "1106002538",
-            "approvedDate": "2021-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A60814D0-31C2-4E2B-B6DE-3C6EB0079B6F",
-            "approvedDocNo": "1101490760",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "G03BA03"
-        },
-        {
-            "isMain": "2",
             "atcCode": "G03BA03"
         }
     ],

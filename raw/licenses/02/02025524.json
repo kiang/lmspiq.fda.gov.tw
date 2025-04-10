@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025524",
+    "licUnit": "1",
     "validDate": "2027-04-20 00:00:00.000",
     "issueDate": "2012-04-20 00:00:00.000",
+    "oriIssueDate": "2012-04-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202552402",
@@ -16,23 +20,27 @@
     "does": "114B",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "13"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "38D08295-F53C-463B-B34C-E400E1885941",
+    "subCategory": [],
     "ingredientsDesc": [
         "5-aminolevulinic acid"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "百博生技有限公司",
     "applicantAddr": "台北市大安區信義路4段6號15樓之4",
@@ -46,26 +54,51 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CE0C226B-3268-40C8-8857-8736033D4FA7",
             "factoryCode": "1",
             "factoryName": "Lyocontract GmbH",
             "factoryAddr": "Pulverwiese 1, 38871 ILSENBURG, Germany",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FDE0885000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "35BE0B1F-D75A-41E6-BB12-CDB83BEBAE5C",
+            "factoryCode": "2",
+            "factoryName": "Photonamic GmbH & Co. KG",
+            "factoryAddr": "Eggerstedter Weg 12, 25421 Pinneberg, Germany",
+            "factoryCompanyAddr": null,
+            "countryCode": "DE",
+            "processCode": [
+                {
+                    "value": "01",
+                    "name": "許可證持有者"
+                }
+            ],
+            "processCodeStr": "01;許可證持有者",
+            "factoryKind": "M",
+            "factoryNo": "FDE0508000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200089100",
+            "ingredientsName": "5-aminolevulinic acid",
             "ingredientsDesc": "5-aminolevulinic acid",
             "concentDesc": null,
-            "concent": "1.1700",
+            "concent": "1.170000",
             "concentUnit": "010",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,80 +107,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ACD7E122-4029-4D1C-9C93-76628560FB6E",
-            "approvedDocNo": "1120707233",
-            "approvedDate": "2023-07-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F23A7A09-A183-4C77-BBD9-F4843BC83C3F",
-            "approvedDocNo": "1120707233",
-            "approvedDate": "2023-07-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0D7C9178-BA62-4941-9B88-94906529CA5E",
-            "approvedDocNo": "1120706850",
-            "approvedDate": "2023-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "96F63A3F-8893-4F0A-B522-17EA17E82E5C",
-            "approvedDocNo": "1110705868",
-            "approvedDate": "2022-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F51C1334-4448-4509-8378-66618EBAB384",
-            "approvedDocNo": "1096030915",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3D77B0DC-8B59-46A6-A62D-87D6B510CEC7",
-            "approvedDocNo": "1096030915",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0AE2154B-D34F-440E-8782-A0A108879408",
-            "approvedDocNo": "1096030915",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F0A717B-E03C-4694-AC98-E9613290979B",
-            "approvedDocNo": "1096030915",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3B0F1D1B-DB14-49EE-8003-0D735DBE6A0C",
-            "approvedDocNo": "1096030915",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

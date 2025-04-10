@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058822",
+    "licUnit": "1",
     "validDate": "2025-09-03 00:00:00.000",
     "issueDate": "2015-09-03 00:00:00.000",
+    "oriIssueDate": "2015-09-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105882203",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7B31B16C-ED2B-4AFE-A94B-A03E3BE7A213",
+    "subCategory": [],
     "ingredientsDesc": [
         "ROSUVASTATIN CALCIUM"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "62"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "62 完成溶離率試驗"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -47,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A014B35E-B663-4453-984B-0AC939D21D7F",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406003210",
+            "ingredientsName": "ROSUVASTATIN CALCIUM",
             "ingredientsDesc": "ROSUVASTATIN CALCIUM",
             "concentDesc": "(eq. to Rosuvastatin 5mg)",
-            "concent": "5.200",
+            "concent": "5.200000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,40 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7CB398F0-2299-450B-97BB-420642DD07A0",
-            "approvedDocNo": "1110812277",
-            "approvedDate": "2023-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CB36D2D0-914A-44D2-9C2E-5FEF2B6B33A9",
-            "approvedDocNo": "1110812277",
-            "approvedDate": "2023-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5BAAEAF4-E61B-4779-8FDE-BE57B97A9D4B",
-            "approvedDocNo": "1110812277",
-            "approvedDate": "2023-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E75BB7AC-3CEA-4813-9949-077075AEC49B",
-            "approvedDocNo": "1096820549",
-            "approvedDate": "2021-02-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

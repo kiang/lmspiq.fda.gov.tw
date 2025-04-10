@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048092",
+    "licUnit": "1",
     "validDate": "2026-07-05 00:00:00.000",
     "issueDate": "2006-07-05 00:00:00.000",
+    "oriIssueDate": "2006-07-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,13 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C4F2605C-A8BE-460F-8E64-0E3EDC6CC66B",
+    "subCategory": [],
     "ingredientsDesc": [
         "PAROXETINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -47,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "427787D3-0121-41C4-82DA-32765F765F88",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816401610",
+            "ingredientsName": "PAROXETINE HYDROCHLORIDE",
             "ingredientsDesc": "PAROXETINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "22.2100",
+            "concent": "22.210000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -75,24 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B132DE95-A988-4759-BE22-7B1488C7A578",
-            "approvedDocNo": "1110809041",
-            "approvedDate": "2022-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5ECC5200-719E-453D-B806-B1B43372DC54",
-            "approvedDocNo": "1110809041",
-            "approvedDate": "2022-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

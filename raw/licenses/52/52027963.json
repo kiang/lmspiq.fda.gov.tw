@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027963",
+    "licUnit": "1",
     "validDate": "2025-09-17 00:00:00.000",
     "issueDate": "2020-09-17 00:00:00.000",
+    "oriIssueDate": "2020-09-17",
     "licKind": "10",
     "oldLicid": null,
     "certNo": null,
@@ -23,12 +27,15 @@
     "medMCode": "01",
     "maMedCode": "B",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "B36FEE7B-6A3B-41E1-9F68-A9F0EAD44FCB",
+    "subCategory": [],
     "ingredientsDesc": [
         "Methadone Hydrochloride contains not less than 99.0% and not more than 101.0% of C21H27NO‧HCl, calculated on the dried substance."
     ],
     "restraintItemsCode": [
-        "02",
-        "32"
+        "02 輸 入",
+        "32 第二級管制藥品"
     ],
     "applicantName": "衛生福利部食品藥物管理署管制藥品製藥工廠",
     "applicantAddr": "台北市南港區忠孝東路六段467號地下一層",
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1F1F458A-97D8-41BE-9081-12DD5E7BEACE",
             "factoryCode": "1",
             "factoryName": "RUSAN PHARMA LTD.",
             "factoryAddr": "PLOT NO.6406, NEAR HOECHST CHOKDI, G.I.D.C., ANKLESHWAR, DIST. BHARUCH, GUJARAT-393 002, INDIA",
@@ -52,13 +60,16 @@
             "factoryKind": "M",
             "factoryNo": "FIN0353000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Methadone Hydrochloride contains not less than 99.0% and not more than 101.0% of C21H27NO‧HCl, calculated on the dried substance.",
             "ingredientsDesc": "Methadone Hydrochloride contains not less than 99.0% and not more than 101.0% of C21H27NO‧HCl, calculated on the dried substance.",
             "concentDesc": null,
             "concent": null,
@@ -75,10 +86,6 @@
         {
             "isMain": "1",
             "atcCode": "N07BC02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02AC52"
         }
     ],
     "licBaseId": "9B4C58DE-8B46-44A6-8DCF-CE2EEA454EF9"

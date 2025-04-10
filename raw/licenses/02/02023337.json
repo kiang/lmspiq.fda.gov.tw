@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023337",
+    "licUnit": "1",
     "validDate": "2026-12-24 00:00:00.000",
     "issueDate": "2001-12-24 00:00:00.000",
+    "oriIssueDate": "2001-12-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202333703",
@@ -23,14 +27,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E324EFC5-83B3-4AE0-BD10-15E3925342A6",
+    "subCategory": [],
     "ingredientsDesc": [
         "TIMOLOL MALEATE",
         "DORZOLAMIDE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "53"
+        "02 輸 入",
+        "07 新藥監視",
+        "53 依本署七七公告事項八得免除國內進行臨床試驗之特殊醫療需要之新藥"
     ],
     "applicantName": "台灣參天製藥股份有限公司",
     "applicantAddr": "台北市中山區松江路126號9樓之1",
@@ -44,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B03A045D-1A27-4C31-9850-2329A2BCF117",
             "factoryCode": "1",
             "factoryName": "SANTEN PHARMACEUTICAL CO. LTD.(NOTO PLANT)",
             "factoryAddr": "2-14, SHIKINAMI, HODATSUSHIMIZU-CHO,HAKUI-GUN, ISHIKAWA , JAPAN",
@@ -54,34 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0270000",
             "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "ZUELLIG PHARMA SPECIALTY SOLUTIONS GROUP PTE. LTD.",
-            "factoryAddr": "15 CHANGI NORTH WAY #01-02, #02-02, #02-10, SINGAPORE 498770",
-            "factoryCompanyAddr": "",
-            "countryCode": "SG",
-            "processCode": [
-                {
-                    "value": "1A",
-                    "name": "二級包裝廠"
-                }
-            ],
-            "processCodeStr": "1A;二級包裝廠",
-            "factoryKind": "M",
-            "factoryNo": "FSG0021200",
-            "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200036410",
+            "ingredientsName": "DORZOLAMIDE HYDROCHLORIDE",
             "ingredientsDesc": "DORZOLAMIDE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "22.2600",
+            "concent": "22.260000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -90,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216001910",
+            "ingredientsName": "TIMOLOL MALEATE",
             "ingredientsDesc": "TIMOLOL MALEATE",
             "concentDesc": "",
-            "concent": "6.8300",
+            "concent": "6.830000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -101,81 +95,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7CAEB8FA-F159-447B-8D23-64DE8B75A81A",
-            "approvedDocNo": "1129026866",
-            "approvedDate": "2023-10-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4FA7AD0F-1354-4438-B22B-A3FD1A5CF3B4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "67025CAC-9AC2-4B73-8429-88C8C920DCC8",
-            "approvedDocNo": "1096817285",
-            "approvedDate": "2021-04-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FFE2EE38-4DAB-4850-A2F1-6C11E255AB50",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6AB327D1-FA3A-456C-A09B-94042CCDF0E8",
-            "approvedDocNo": "1076039122",
-            "approvedDate": "2019-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B847E006-89A2-4ED6-A4D2-BA11BF94B610",
-            "approvedDocNo": "1076039122",
-            "approvedDate": "2019-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9FACA215-B046-41DE-B888-FD6FC6E6905A",
-            "approvedDocNo": "1076039122",
-            "approvedDate": "2019-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "265FE0FD-0A8B-4360-9617-225BECB84BCE",
-            "approvedDocNo": "1076039122",
-            "approvedDate": "2019-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01ED01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01EC03"
-        },
         {
             "isMain": "1",
             "atcCode": "S01ED51"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039302",
+    "licUnit": "1",
     "validDate": "2025-09-16 00:00:00.000",
     "issueDate": "1995-09-16 00:00:00.000",
+    "oriIssueDate": "1995-09-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103930203",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "451DD57C-F5FB-4CBB-9485-E894FAB69ED3",
+    "subCategory": [],
     "ingredientsDesc": [
         "BROMHEXINE HCL",
         "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
@@ -39,8 +46,8 @@
         "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "井田國際醫藥廠股份有限公司",
     "applicantAddr": "台中市大甲區幼獅路32號",
@@ -54,26 +61,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B7EBCAB1-0E5F-4066-87D5-AF518BD5853B",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001410",
+            "ingredientsName": "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
             "ingredientsDesc": "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -82,9 +93,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001810",
+            "ingredientsName": "DOXYLAMINE SUCCINATE",
             "ingredientsDesc": "DOXYLAMINE SUCCINATE",
             "concentDesc": "0.75",
-            "concent": "0.7500",
+            "concent": "0.750000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -93,9 +105,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800000310",
+            "ingredientsName": "BROMHEXINE HCL",
             "ingredientsDesc": "BROMHEXINE HCL",
             "concentDesc": "0.8",
-            "concent": "0.8000",
+            "concent": "0.800000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -104,9 +117,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001410",
+            "ingredientsName": "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
             "ingredientsDesc": "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -115,9 +129,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001810",
+            "ingredientsName": "DOXYLAMINE SUCCINATE",
             "ingredientsDesc": "DOXYLAMINE SUCCINATE",
             "concentDesc": "0.75",
-            "concent": "0.7500",
+            "concent": "0.750000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -126,9 +141,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800000310",
+            "ingredientsName": "BROMHEXINE HCL",
             "ingredientsDesc": "BROMHEXINE HCL",
             "concentDesc": "0.8",
-            "concent": "0.8000",
+            "concent": "0.800000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -137,9 +153,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001410",
+            "ingredientsName": "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
             "ingredientsDesc": "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -148,9 +165,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001810",
+            "ingredientsName": "DOXYLAMINE SUCCINATE",
             "ingredientsDesc": "DOXYLAMINE SUCCINATE",
             "concentDesc": "0.75",
-            "concent": "0.7500",
+            "concent": "0.750000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -159,9 +177,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800000310",
+            "ingredientsName": "BROMHEXINE HCL",
             "ingredientsDesc": "BROMHEXINE HCL",
             "concentDesc": "0.8",
-            "concent": "0.8000",
+            "concent": "0.800000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "2",
@@ -172,18 +191,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R06AA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CB03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CB02"
-        },
         {
             "isMain": "1",
             "atcCode": "R05X"

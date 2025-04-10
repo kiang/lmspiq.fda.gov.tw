@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-09-21",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "01039279",
+    "licUnit": "1",
     "validDate": "2025-09-08 00:00:00.000",
     "issueDate": "1995-09-08 00:00:00.000",
+    "oriIssueDate": "1995-09-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103927908",
@@ -22,7 +26,7 @@
             "packageUnit": "C7"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "55"
         },
         {
@@ -33,6 +37,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "465D2D85-2BE8-4104-871B-FCFC6EF16A51",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLUCOSE",
         "POTASSIUM PHOSPHATE MONOBASIC(EQ TO POTASSIUM BIPHOSPHATE)(EQ TO POTASSIUM DIHYDROGEN PHOSPHATE)",
@@ -41,8 +48,8 @@
         "POTASSIUM ACETATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "永豐化學工業股份有限公司",
     "applicantAddr": "新北市新莊區新樹路２９２號",
@@ -56,26 +63,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "150544DF-5834-4C91-A62B-C263868BA3C1",
             "factoryCode": "1",
             "factoryName": "永豐化學工業股份有限公司新莊工廠",
             "factoryAddr": "新北市新莊區新樹路２９２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0504302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "5.96",
-            "concent": "5.9600",
+            "concent": "5.960000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -84,9 +95,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000100",
+            "ingredientsName": "POTASSIUM ACETATE",
             "ingredientsDesc": "POTASSIUM ACETATE",
             "concentDesc": "0.79",
-            "concent": "0.7900",
+            "concent": "0.790000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -95,9 +107,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000600",
+            "ingredientsName": "SODIUM ACETATE",
             "ingredientsDesc": "SODIUM ACETATE",
             "concentDesc": "0.66",
-            "concent": "0.6600",
+            "concent": "0.660000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -106,9 +119,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612001910",
+            "ingredientsName": "POTASSIUM PHOSPHATE MONOBASIC(EQ TO POTASSIUM BIPHOSPHATE)(EQ TO POTASSIUM DIHYDROGEN PHOSPHATE)",
             "ingredientsDesc": "POTASSIUM PHOSPHATE MONOBASIC(EQ TO POTASSIUM BIPHOSPHATE)(EQ TO POTASSIUM DIHYDROGEN PHOSPHATE)",
             "concentDesc": "1.64",
-            "concent": "1.6400",
+            "concent": "1.640000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -117,9 +131,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000700",
+            "ingredientsName": "GLUCOSE",
             "ingredientsDesc": "GLUCOSE",
             "concentDesc": "8",
-            "concent": "8.0000",
+            "concent": "8.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -131,16 +146,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "B05BA03"
-        },
-        {
             "isMain": "1",
             "atcCode": "B05BB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BB01"
         }
     ],
     "licBaseId": "5231ECA9-5A11-4A3E-A2F8-34354A07BABF"

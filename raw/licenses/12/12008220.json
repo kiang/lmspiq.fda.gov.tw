@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12008220",
+    "licUnit": "1",
     "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1970-08-19 00:00:00.000",
+    "oriIssueDate": "1970-08-19",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY01200822008",
@@ -16,13 +20,16 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "08"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C46B82FE-EB9B-47E4-AC19-63B0D19F9756",
+    "subCategory": [],
     "ingredientsDesc": [
         "CYANOCOBALAMIN (VIT B12)",
         "CALCIUM PHOSPHATE TRIBASIC (CALCIUM PHOSPHATE)",
@@ -31,9 +38,9 @@
         "ERGOCALCIFEROL (VIT D2CALCIFEROL)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FDCE39C3-E563-4BBF-A577-A3C199A41E8D",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業一路６號",
@@ -57,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604001300",
+            "ingredientsName": "CALCIUM PHOSPHATE TRIBASIC (CALCIUM PHOSPHATE)",
             "ingredientsDesc": "CALCIUM PHOSPHATE TRIBASIC (CALCIUM PHOSPHATE)",
             "concentDesc": "80",
-            "concent": "80.000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6824000100",
+            "ingredientsName": "CALCIUM GLUCONATE",
             "ingredientsDesc": "CALCIUM GLUCONATE",
             "concentDesc": "70",
-            "concent": "70.000",
+            "concent": "70.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -86,9 +98,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012003100",
+            "ingredientsName": "CALCIUM FLUORIDE",
             "ingredientsDesc": "CALCIUM FLUORIDE",
             "concentDesc": "0.035",
-            "concent": "0.035",
+            "concent": "0.035000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -97,9 +110,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8818000200",
+            "ingredientsName": "ERGOCALCIFEROL (VIT D2CALCIFEROL)",
             "ingredientsDesc": "ERGOCALCIFEROL (VIT D2CALCIFEROL)",
             "concentDesc": "120",
-            "concent": "120.000",
+            "concent": "120.000000",
             "concentUnit": "200",
             "seq": "4",
             "prescription_seq": "1",
@@ -108,9 +122,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "1",
-            "concent": "1.000",
+            "concent": "1.000000",
             "concentUnit": "016",
             "seq": "5",
             "prescription_seq": "1",
@@ -119,56 +134,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9955E6E2-2017-4ED4-B6B1-A654FAAA89DE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "73ECBE21-616F-4A62-B897-031597FA3A66",
-            "approvedDocNo": "1076806667",
-            "approvedDate": "2019-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "02B05796-E03B-4F2C-881A-0DD67BA84DBB",
-            "approvedDocNo": "1076806667",
-            "approvedDate": "2019-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A12AA03"
-        },
         {
             "isMain": "1",
             "atcCode": "A12AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11CC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12AA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A12AA"
         }
     ],
     "licBaseId": "E678B426-12E2-4817-872F-36561AF55CC2"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02018485",
+    "licUnit": "1",
     "validDate": "2029-05-11 00:00:00.000",
     "issueDate": "2009-06-23 00:00:00.000",
+    "oriIssueDate": "1991-02-23",
     "licKind": "02",
     "oldLicid": "02013499",
     "certNo": "DHA00201848501",
@@ -23,11 +27,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FD5A8120-7B6E-4D3A-955C-DE8B41A6D763",
+    "subCategory": [],
     "ingredientsDesc": [
         "MESNA (SOD. 2-MERCAPTOETHANESULPHONATE)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "百特醫療產品股份有限公司",
     "applicantAddr": "臺北市大安區敦化南路2段95號28樓",
@@ -41,19 +48,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A1651ADC-6D76-4788-BB76-AD85BE4D755B",
             "factoryCode": "1",
             "factoryName": "BAXTER ONCOLOGY GMBH",
             "factoryAddr": "KANTSTRASSE 2, D-33790 HALLE, GERMANY",
-            "factoryCompanyAddr": "KANTSTRASSE 2, D-33790 HALLE, GERMANY",
+            "factoryCompanyAddr": "",
             "countryCode": "DE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FDE0008000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "457E7EEB-0CE8-46B5-AEF5-5048D2DE8B47",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -69,16 +80,40 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "6B94AABB-8D8E-40A8-A386-4EAF2316C93F",
+            "factoryCode": "2",
+            "factoryName": "BAXTER DEUTSCHLAND GMBH",
+            "factoryAddr": "EDISONSTRABE 4, 85716 UNTERSCHLEIBHEIM, GERMANY",
+            "factoryCompanyAddr": null,
+            "countryCode": "DE",
+            "processCode": [
+                {
+                    "value": "01",
+                    "name": "許可證持有者"
+                }
+            ],
+            "processCodeStr": "01;許可證持有者",
+            "factoryKind": "M",
+            "factoryNo": "FDE0552000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002300",
+            "ingredientsName": "MESNA (SOD. 2-MERCAPTOETHANESULPHONATE)",
             "ingredientsDesc": "MESNA (SOD. 2-MERCAPTOETHANESULPHONATE)",
             "concentDesc": null,
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -87,24 +122,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E642EBC8-325F-47B3-BE8E-F54DB995CD6A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F4BB5F2-5AB1-4790-912D-CC6FFF90E955",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

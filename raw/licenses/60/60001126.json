@@ -6,8 +6,9 @@
     "otherCancelReason": "",
     "licid": "60001126",
     "licUnit": "1",
-    "validDate": "2025-03-20 00:00:00.000",
+    "validDate": "2030-03-20 00:00:00.000",
     "issueDate": "2020-03-20 00:00:00.000",
+    "oriIssueDate": "2020-03-20",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000112606",
@@ -36,15 +37,15 @@
         "C0401"
     ],
     "ingredientsDesc": [
-        "A\/DARWIN\/6\/2021 (H3N2) - LIKE VIRUS (A\/DARWIN\/11\/2021)",
-        "B\/Singapore\/INFTT-16-0610\/2016 (a B\/Phuket\/3073\/2013-like virus)",
         "B\/AUSTRIA\/1359417\/2021 - LIKE VIRUS (B\/SINGAPORE\/WUH4618\/2021)",
-        "A\/WISCONSIN\/67\/2022 (H1N1) PDM09 - LIKE VIRUS (A\/GEORGIA\/12\/2022 CVR-167)"
+        "A\/Massachusetts\/18\/2022 (H3N2)-like virus (A\/Sydney\/1304\/2022)",
+        "A\/WISCONSIN\/67\/2022 (H1N1) PDM09 - LIKE VIRUS (A\/GEORGIA\/12\/2022 CVR-167)",
+        "B\/Singapore\/INFTT-16-0610\/2016 (a B\/Phuket\/3073\/2013-like virus)"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣東洋藥品工業股份有限公司",
     "applicantAddr": "台北市南港區園區街3之1號3樓",
@@ -58,6 +59,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C9731DC8-2E9E-418E-B5B5-A5A9F1615C0D",
             "factoryCode": "1",
             "factoryName": "CSL BEHRING GMBH",
             "factoryAddr": "EMIL-VON-BEHRING STRASSE 76,35041 MARBURG GERMANY",
@@ -73,10 +75,11 @@
             "factoryMadeIn": null
         },
         {
+            "id": "429E6CB5-6059-4B49-A582-022D7A1C03BB",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -93,10 +96,11 @@
             "factoryMadeIn": null
         },
         {
+            "id": "8A152F22-E63D-407D-B7B6-8D60A08A043E",
             "factoryCode": "2",
             "factoryName": "SEQIRUS INC.",
             "factoryAddr": "475 GREEN OAKS PARKWAY, HOLLY SPRINGS, NC 27540, UNITED STATES",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [
                 {
@@ -120,21 +124,9 @@
             "ingredientsName": "A\/WISCONSIN\/67\/2022 (H1N1) PDM09 - LIKE VIRUS (A\/GEORGIA\/12\/2022 CVR-167)",
             "ingredientsDesc": "A\/WISCONSIN\/67\/2022 (H1N1) PDM09 - LIKE VIRUS (A\/GEORGIA\/12\/2022 CVR-167)",
             "concentDesc": "",
-            "concent": "15.0000",
+            "concent": "15.000000",
             "concentUnit": "263",
-            "seq": "3",
-            "prescription_seq": "1",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "8012018051",
-            "ingredientsName": "A\/DARWIN\/6\/2021 (H3N2) - LIKE VIRUS (A\/DARWIN\/11\/2021)",
-            "ingredientsDesc": "A\/Darwin\/6\/2021 (H3N2)-like virus",
-            "concentDesc": "",
-            "concent": "15.0000",
-            "concentUnit": "263",
-            "seq": "4",
+            "seq": "1",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         },
@@ -144,9 +136,9 @@
             "ingredientsName": "B\/AUSTRIA\/1359417\/2021 - LIKE VIRUS (B\/SINGAPORE\/WUH4618\/2021)",
             "ingredientsDesc": "B\/AUSTRIA\/1359417\/2021 - LIKE VIRUS (B\/SINGAPORE\/WUH4618\/2021)",
             "concentDesc": "",
-            "concent": "15.0000",
+            "concent": "15.000000",
             "concentUnit": "263",
-            "seq": "11",
+            "seq": "2",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         },
@@ -156,9 +148,21 @@
             "ingredientsName": "B\/Singapore\/INFTT-16-0610\/2016 (a B\/Phuket\/3073\/2013-like virus)",
             "ingredientsDesc": "B\/Singapore\/INFTT-16-0610\/2016 (a B\/Phuket\/3073\/2013-like virus)",
             "concentDesc": "",
-            "concent": "15.0000",
+            "concent": "15.000000",
             "concentUnit": "263",
-            "seq": "12",
+            "seq": "3",
+            "prescription_seq": "1",
+            "prescription_Kind": "1"
+        },
+        {
+            "ingredientsKind": "1",
+            "ingredientsCode": "8012002550",
+            "ingredientsName": "A\/Massachusetts\/18\/2022 (H3N2)-like virus (A\/Sydney\/1304\/2022)",
+            "ingredientsDesc": "A\/Massachusetts\/18\/2022 (H3N2)-like virus (A\/Sydney\/1304\/2022)",
+            "concentDesc": "",
+            "concent": "15.000000",
+            "concentUnit": "263",
+            "seq": "4",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         }
@@ -168,23 +172,7 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "J07BB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J07BB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J07BB02"
-        },
-        {
             "isMain": "1",
-            "atcCode": "J07BB02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J07BB02"
         }
     ],

@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060849",
+    "licUnit": "1",
     "validDate": "2026-04-29 00:00:00.000",
     "issueDate": "2021-04-29 00:00:00.000",
+    "oriIssueDate": "2021-04-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106084902",
@@ -24,12 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "6390245F-51BF-4B7E-A4A5-22884322D4FC",
+    "subCategory": [
+        "A07"
+    ],
     "ingredientsDesc": [
         "VINORELBINE TARTRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "26"
+        "01 國 產",
+        "26 監視期滿新藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "美時化學製藥股份有限公司",
     "applicantAddr": "台北市信義區松仁路277號17樓",
@@ -43,26 +52,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DCCAB7DF-23D9-4E09-9541-9BE563DD679E",
             "factoryCode": "1",
             "factoryName": "美時化學製藥股份有限公司南投廠",
             "factoryAddr": "南投縣南投市新興里成功一路３０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0901314300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1002000610",
+            "ingredientsName": "VINORELBINE TARTRATE",
             "ingredientsDesc": "VINORELBINE TARTRATE",
             "concentDesc": "(eq to Vinorelbine......80.00mg)",
-            "concent": "110.8000",
+            "concent": "110.800000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,48 +84,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B946621F-9BD0-47EC-A547-137116605723",
-            "approvedDocNo": "1131402025",
-            "approvedDate": "2024-02-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B21DA044-8721-45D3-AC35-CA4D0B6218D4",
-            "approvedDocNo": "1121409104",
-            "approvedDate": "2023-08-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1FEE1728-91BC-434E-8061-35539BF8DF37",
-            "approvedDocNo": "1110723123",
-            "approvedDate": "2023-02-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8FF35728-0044-4F27-9A51-C110222F527B",
-            "approvedDocNo": "1110700790",
-            "approvedDate": "2022-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B176BDF6-AA89-4726-9546-0E8E50C1816B",
-            "approvedDocNo": "1106016633",
-            "approvedDate": "2021-06-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

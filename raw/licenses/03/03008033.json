@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "03008033",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1989-08-15 00:00:00.000",
+    "oriIssueDate": "1989-08-15",
     "licKind": "02",
     "oldLicid": "03004095",
     "certNo": "DHY00300803308",
@@ -13,7 +17,7 @@
     "indicationsName": [
         "緩解便祕"
     ],
-    "does": "5501",
+    "does": "3371",
     "packageUnit": [
         {
             "packageSpec": "10毫升、20毫升、30毫升",
@@ -27,13 +31,16 @@
     "medMCode": "03",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "19D5130B-9197-4237-8E75-87B766000A3E",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLYCERIN (eq to GLYCEROL)",
         "SODIUM CHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "健康化學製藥股份有限公司",
     "applicantAddr": "台中市大甲區幼獅工業區幼四路１２號",
@@ -47,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A5443DC2-DA78-44CD-8194-5D5F6EE33647",
             "factoryCode": "1",
             "factoryName": "健康化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區幼獅工業區幼四路１２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "0.1500",
+            "concent": "0.150000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600013500",
+            "ingredientsName": "GLYCERIN (eq to GLYCEROL)",
             "ingredientsDesc": "GLYCERIN (eq to GLYCEROL)",
             "concentDesc": "",
-            "concent": "0.1500",
+            "concent": "0.150000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -94,92 +106,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8C795A9C-2FFC-44F5-AC2A-A419E49BC685",
-            "approvedDocNo": "1120806239",
-            "approvedDate": "2023-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5145BA7B-6438-4B98-9F79-E6090B51C705",
-            "approvedDocNo": "1120600582",
-            "approvedDate": "2023-03-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "04FE374E-D723-4AA1-BD82-2B7A7DBE289B",
-            "approvedDocNo": "1119046838",
-            "approvedDate": "2022-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B3B8939D-7374-45B2-A194-C0CA2E66D729",
-            "approvedDocNo": "1110718756",
-            "approvedDate": "2022-08-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9323EF1B-EE81-41A3-A9D8-FC8D5181D58E",
-            "approvedDocNo": "1096609028",
-            "approvedDate": "2020-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "54449B4E-19E1-43BA-9690-A249CBDB156D",
-            "approvedDocNo": "1086614988",
-            "approvedDate": "2019-12-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0D8C2CF4-7632-44C9-BA8D-1C9248322205",
-            "approvedDocNo": "1086607428",
-            "approvedDate": "2019-09-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "45F87028-C2CF-4304-8363-A6447A1DF6EC",
-            "approvedDocNo": "1086607428",
-            "approvedDate": "2019-09-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A36E8F48-D1D1-487F-A143-563E66B3C17D",
-            "approvedDocNo": "1081401684",
-            "approvedDate": "2019-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A06AG"
-        },
         {
             "isMain": "1",
             "atcCode": "A06AG20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A06AG04"
         }
     ],
     "licBaseId": "F09A3779-C152-4C41-92B1-5A117130CC3F"

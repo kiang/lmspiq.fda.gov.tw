@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01041226",
+    "licUnit": "1",
     "validDate": "2027-05-09 00:00:00.000",
     "issueDate": "1997-05-09 00:00:00.000",
+    "oriIssueDate": "1997-05-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104122605",
@@ -27,11 +31,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D109F3D4-282F-431D-9330-3764A7ED0951",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRANEXAMIC ACID"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "生達化學製藥股份有限公司",
     "applicantAddr": "臺南市新營區土庫里土庫6之20號",
@@ -45,26 +52,55 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1039D28A-1726-4847-AB77-B953DF96AC10",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司",
-            "factoryAddr": "台南市新營區土庫里土庫６之２０號",
+            "factoryAddr": "台南市新營區土庫里土庫6之20號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
-            "factoryKind": "M",
+            "factoryKind": "E",
             "factoryNo": "0510620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "A9D7E88B-AFD3-4131-8998-D7C18CBC139E",
+            "factoryCode": "2",
+            "factoryName": "生達化學製藥股份有限公司二廠",
+            "factoryAddr": "台南市新營區開元路154號",
+            "factoryCompanyAddr": "",
+            "countryCode": "TW",
+            "processCode": [
+                {
+                    "value": "03",
+                    "name": "分裝"
+                },
+                {
+                    "value": "02",
+                    "name": "包裝"
+                }
+            ],
+            "processCodeStr": "03;分裝#02;包裝",
+            "factoryKind": "E",
+            "factoryNo": "6141010064",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012101300",
+            "ingredientsName": "TRANEXAMIC ACID",
             "ingredientsDesc": "TRANEXAMIC ACID",
             "concentDesc": "",
-            "concent": "250.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -73,40 +109,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E64269D9-7FB5-44AA-A845-68A672281395",
-            "approvedDocNo": "1120806283",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "72CD0C19-2444-4A5E-9CF8-7464B2AA606F",
-            "approvedDocNo": "1110611600",
-            "approvedDate": "2022-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "354B0162-E9B4-406E-B507-A0B5FDAE9FB6",
-            "approvedDocNo": "1101500014",
-            "approvedDate": "2022-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0CA6DF73-C22E-43B0-A1DF-DDC3F6265F1B",
-            "approvedDocNo": "1086600665",
-            "approvedDate": "2019-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

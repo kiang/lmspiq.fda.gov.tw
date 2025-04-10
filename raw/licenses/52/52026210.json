@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026210",
-    "validDate": "2023-12-07 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2028-12-07 00:00:00.000",
     "issueDate": "2013-12-07 00:00:00.000",
+    "oriIssueDate": "2013-12-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202621000",
@@ -23,14 +27,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "41E039CE-A973-49B1-8319-98234507BD36",
+    "subCategory": [],
     "ingredientsDesc": [
         "TAK-491 (AZILSARTAN MEDOXOMIL (AS POTASSIUM SALT))",
         "CHLORTHALIDONE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1Q"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "台灣賽特瑞恩有限公司",
     "applicantAddr": "臺北市信義區松仁路97號3樓之1",
@@ -44,62 +50,35 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CBE4B120-80C1-4785-91ED-D97387C9ECAF",
             "factoryCode": "1",
-            "factoryName": "TAKEDA PHARMACEUTICAL COMPANY, LTD. (OSAKA PLANT)",
-            "factoryAddr": "17-85 JUSOHONMACHI 2-CHOME, YODOGAWA-KU OSAKA, JAPAN",
-            "factoryCompanyAddr": "1-1 DOCHOMACHI 4-CHOME, CHUO-KU, OSAKA , JAPAN",
-            "countryCode": "JP",
-            "processCode": [],
-            "processCodeStr": null,
-            "factoryKind": "M",
-            "factoryNo": "FJP0328200",
-            "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "歐帕生技醫藥股份有限公司",
-            "factoryAddr": "新竹縣湖口鄉光復路1號",
+            "factoryName": "Celltrion Pharm, Inc",
+            "factoryAddr": "82, 2 Sandan-ro, Ochang-eup, Cheongwon-gu, Cheongju-si, Chungcheongbuk-do, 28117, Republic of Korea",
             "factoryCompanyAddr": "",
-            "countryCode": "TW",
+            "countryCode": "KR",
             "processCode": [
                 {
-                    "value": "6D",
-                    "name": "次包裝廠"
+                    "value": "2P",
+                    "name": "成品製造、一級包裝、二級包裝"
                 }
             ],
-            "processCodeStr": "6D;次包裝廠",
+            "processCodeStr": "2P;成品製造、一級包裝、二級包裝",
             "factoryKind": "M",
-            "factoryNo": "6133061413",
+            "factoryNo": "FKR0209000",
             "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "AndersonBrecon Inc ",
-            "factoryAddr": "4545 ASSEMBLY DRIVE, ROCKFORD, IL 61109 USA",
-            "factoryCompanyAddr": "",
-            "countryCode": "US",
-            "processCode": [
-                {
-                    "value": "02",
-                    "name": "包裝"
-                }
-            ],
-            "processCodeStr": "02;包裝",
-            "factoryKind": "M",
-            "factoryNo": "FUS2401000",
-            "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408007110",
+            "ingredientsName": "TAK-491 (AZILSARTAN MEDOXOMIL (AS POTASSIUM SALT))",
             "ingredientsDesc": "TAK-491 (AZILSARTAN MEDOXOMIL (AS POTASSIUM SALT))",
             "concentDesc": "[eq to Free Base form of TAK-491 (without potassium salt)  40 MG]",
-            "concent": "42.680",
+            "concent": "42.680000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -108,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028000600",
+            "ingredientsName": "CHLORTHALIDONE",
             "ingredientsDesc": "CHLORTHALIDONE",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -119,48 +99,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "501430BD-82D6-4670-8C09-F3E62C4D8263",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8D6DE850-BE27-40FD-80E2-9F6FDB338C76",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-02-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C6FCA984-8C90-4410-82C3-EA74A8095C56",
-            "approvedDocNo": "1101493844",
-            "approvedDate": "2021-09-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E985D67C-4494-4D93-9A07-861538DA8D6E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FB3499AD-18EE-40BB-A67E-AA50BC2A2190",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

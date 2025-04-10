@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028016",
+    "licUnit": "1",
     "validDate": "2026-01-18 00:00:00.000",
     "issueDate": "2021-01-18 00:00:00.000",
+    "oriIssueDate": "2021-01-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202801601",
@@ -27,12 +31,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "6BEB3653-84AC-4103-BE66-F22DF45E67B2",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "LATANOPROST"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "光亨企業有限公司",
     "applicantAddr": "新北市汐止區新台五路一段97號26樓之1",
@@ -46,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "877C3F8D-3A56-45B5-AF92-50A854554C5A",
             "factoryCode": "1",
             "factoryName": "KYORIN Pharmaceutical Group Facilities Co., Ltd. Inami Factory",
             "factoryAddr": "885, INAMI, NANTO-CITY, TOYAMA, JAPAN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP0383200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037500",
+            "ingredientsName": "LATANOPROST",
             "ingredientsDesc": "LATANOPROST",
             "concentDesc": "",
-            "concent": "0.050",
+            "concent": "0.050000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,16 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "767867A3-7FDC-4951-9DE2-2FFC7EF4CAF1",
-            "approvedDocNo": "1129039865",
-            "approvedDate": "2023-12-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

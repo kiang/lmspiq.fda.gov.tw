@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039318",
+    "licUnit": "1",
     "validDate": "2025-09-20 00:00:00.000",
     "issueDate": "1995-09-20 00:00:00.000",
+    "oriIssueDate": "1995-09-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103931805",
@@ -16,23 +20,26 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "14"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "52"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F5DBAA71-B822-455F-BD34-198379BC6F4F",
+    "subCategory": [],
     "ingredientsDesc": [
         "ONDANSETRON (HYDROCHLORIDE DIHYDRATE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "中國化學製藥股份有限公司新豐工廠",
     "applicantAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "095FC29C-BB56-41B0-9110-1F5205F5FA2B",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5622091213",
+            "ingredientsName": "ONDANSETRON (HYDROCHLORIDE DIHYDRATE)",
             "ingredientsDesc": "ONDANSETRON (HYDROCHLORIDE DIHYDRATE)",
             "concentDesc": "2",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,48 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8816D800-FE0C-4738-A28B-3EE4F76D75EC",
-            "approvedDocNo": "1110730650",
-            "approvedDate": "2022-12-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "25AB5500-876A-4F9A-8B2A-1F5763A3B083",
-            "approvedDocNo": "1096033728",
-            "approvedDate": "2020-11-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5AFEDE4B-CEB9-4466-A459-003356AE412A",
-            "approvedDocNo": "1096025683",
-            "approvedDate": "2020-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5303E4C9-4925-4F47-9240-43F5A5063E7E",
-            "approvedDocNo": "1096025683",
-            "approvedDate": "2020-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F2B02D35-4302-4DB7-B9DF-64D3D6BA28B1",
-            "approvedDocNo": "1096025683",
-            "approvedDate": "2020-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02021037",
+    "licUnit": "1",
     "validDate": "2025-09-05 00:00:00.000",
     "issueDate": "2020-09-02 00:00:00.000",
+    "oriIssueDate": "1995-09-05",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00202103707",
@@ -16,18 +20,21 @@
     "does": "0054",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "5DAB4020-D438-429B-AC25-F9226767643E",
+    "subCategory": [],
     "ingredientsDesc": [
         "VITAMIN A (ACETATE)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "帝斯曼營養品股份有限公司",
     "applicantAddr": "台北市士林區中山北路六段90號3樓",
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0DCE4161-9AB3-4459-AF96-D40D873FA53B",
             "factoryCode": "1",
             "factoryName": "DSM NUTRITIONAL PRODUCTS LTD BRANCH SITE SISSELN",
             "factoryAddr": "HAUPTSTRASSE 4 CH-4334 SISSELN SWITZERLAND",
@@ -51,16 +59,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0100000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8804009200",
+            "ingredientsName": "VITAMIN A (ACETATE)",
             "ingredientsDesc": "VITAMIN A (ACETATE)",
             "concentDesc": "(325000IU\/g of vitamin A",
-            "concent": "115.0000",
+            "concent": "115.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -77,40 +88,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "461E9DC8-C508-4E2A-8C52-27C535BF364A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F375BF70-84A0-4DEE-BD5C-5F87F87ECE2E",
-            "approvedDocNo": "1096018527",
-            "approvedDate": "2020-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1DBE9C49-3283-4039-B4D3-A461DA7EAB75",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "V04CB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11C"
         }
     ],
     "licBaseId": "E49D3EC0-D02C-4DEF-BBF2-18EC61C72F8E"

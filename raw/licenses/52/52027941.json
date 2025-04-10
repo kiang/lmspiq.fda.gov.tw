@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027941",
+    "licUnit": "1",
     "validDate": "2025-09-11 00:00:00.000",
     "issueDate": "2020-09-11 00:00:00.000",
+    "oriIssueDate": "2020-09-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202794105",
@@ -23,14 +27,19 @@
     "medMCode": "17",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "F5DFDD13-C612-42E8-BCFA-D5B511BACFAE",
+    "subCategory": [
+        "A02"
+    ],
     "ingredientsDesc": [
         "POTASSIUM CRESOLSULFONATE",
         "PLATYCODON EXTRACT",
         "TIPEPIDINE HIBENZATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "德佑藥品有限公司",
     "applicantAddr": "台北市大同區南京西路46號（實際營業地址：5樓）",
@@ -44,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D02A29A6-7140-47B9-9DEF-C63358B10198",
             "factoryCode": "1",
             "factoryName": "SHISEIDO PHARMACEUTICAL INC.",
             "factoryAddr": "220-1 CHIHARA OAZA GOSE-CITY NARA JAPAN",
@@ -54,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0529000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003320",
+            "ingredientsName": "TIPEPIDINE HIBENZATE",
             "ingredientsDesc": "TIPEPIDINE HIBENZATE",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003700",
+            "ingredientsName": "POTASSIUM CRESOLSULFONATE",
             "ingredientsDesc": "POTASSIUM CRESOLSULFONATE",
             "concentDesc": "",
-            "concent": "50.000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003601",
+            "ingredientsName": "PLATYCODON EXTRACT",
             "ingredientsDesc": "PLATYCODON EXTRACT",
             "concentDesc": "(Platycodon Root......315 MG)",
-            "concent": "70.000",
+            "concent": "70.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -104,18 +119,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DB24"
-        },
         {
             "isMain": "1",
             "atcCode": "R05FB02"

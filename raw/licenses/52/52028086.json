@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028086",
+    "licUnit": "1",
     "validDate": "2026-05-10 00:00:00.000",
     "issueDate": "2021-05-10 00:00:00.000",
+    "oriIssueDate": "2021-05-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202808609",
@@ -27,12 +31,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "AEFFF428-787B-4482-A23A-44F7FA2C8A1E",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "DULOXETINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "鴻汶醫藥實業有限公司",
     "applicantAddr": "台中市西屯區文心路三段236號3樓、238號3樓",
@@ -46,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1C5151FD-9154-4BB5-9D7D-B7D20792CE30",
             "factoryCode": "1",
             "factoryName": "PHARMASCIENCE INC.",
             "factoryAddr": "6111 ROYALMOUNT AVENUE SUITE 100 MONTREAL, QUEBEC CANADA H4P 2T4",
@@ -56,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "FCA0049000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "548C3E9E-CCCC-435B-A471-5B9E98B7FF3A",
             "factoryCode": "2",
             "factoryName": "天義企業股份有限公司",
             "factoryAddr": "新北市林口區工二工業區工五路8號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -74,16 +88,19 @@
             "factoryKind": "M",
             "factoryNo": "6131171176",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816402110",
+            "ingredientsName": "DULOXETINE HYDROCHLORIDE",
             "ingredientsDesc": "DULOXETINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "67.220",
+            "concent": "67.220000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -92,56 +109,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8ECEAB86-8703-40CF-9CEB-89EF78D8EA00",
-            "approvedDocNo": "1120608644",
-            "approvedDate": "2023-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "17F80B3A-DB85-4F05-8495-4662F4FDACCA",
-            "approvedDocNo": "1120602699",
-            "approvedDate": "2023-08-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C820B22F-A624-4D86-BBF0-ED85E1843BDF",
-            "approvedDocNo": "1120808030",
-            "approvedDate": "2023-08-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D350F671-006E-46FE-B9C0-51221D01BD19",
-            "approvedDocNo": "1129007397",
-            "approvedDate": "2023-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C2D26ACE-FA5B-4B16-93FF-1BBDC6EBE1CB",
-            "approvedDocNo": "1110024595",
-            "approvedDate": "2023-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AE8DEDBA-7A69-4415-8DA7-BF52CD7526BF",
-            "approvedDocNo": "1110014069",
-            "approvedDate": "2022-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

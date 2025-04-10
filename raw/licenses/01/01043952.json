@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043952",
+    "licUnit": "1",
     "validDate": "2025-09-04 00:00:00.000",
     "issueDate": "2000-09-04 00:00:00.000",
+    "oriIssueDate": "2000-09-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104395205",
@@ -27,14 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FFF585EC-EA6F-410C-9D91-27A885147A28",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMOXICILLIN TRIHYDRATE",
         "CLAVULANATE POTASSIUM"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "中國化學製藥股份有限公司台中工廠",
     "applicantAddr": "台中市西屯區工業區１５路１０號",
@@ -48,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "503C266A-B8DC-476B-836D-8E5A1378B14F",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司台中工廠",
             "factoryAddr": "台中市西屯區工業區１５路１０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402609300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812600250",
+            "ingredientsName": "AMOXICILLIN TRIHYDRATE",
             "ingredientsDesc": "AMOXICILLIN TRIHYDRATE",
             "concentDesc": "(POTENCY)    ",
-            "concent": "250.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -76,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410000410",
+            "ingredientsName": "CLAVULANATE POTASSIUM",
             "ingredientsDesc": "CLAVULANATE POTASSIUM",
             "concentDesc": "(POTENCY)    ",
-            "concent": "125.0000",
+            "concent": "125.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -87,33 +99,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "421F6D89-8425-465C-BFC9-61FD1B7F88A3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-12-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7BDE195D-7E12-46D5-8648-AD9728A6BA7B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-12-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01CG"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CA04"
-        },
         {
             "isMain": "1",
             "atcCode": "J01CR02"

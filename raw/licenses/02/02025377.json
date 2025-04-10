@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025377",
+    "licUnit": "1",
     "validDate": "2026-06-09 00:00:00.000",
     "issueDate": "2011-06-09 00:00:00.000",
+    "oriIssueDate": "2011-06-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202537702",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FF56DFA1-B66D-4082-ADBC-C91EDAD3D4FB",
+    "subCategory": [],
     "ingredientsDesc": [
         "TAFLUPROST"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣參天製藥股份有限公司",
     "applicantAddr": "台北市中山區松江路126號9樓之1",
@@ -41,9 +48,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1C5B0C88-C2F8-4982-AA2D-FF4BE892E84E",
             "factoryCode": "1",
             "factoryName": "SANTEN PHARMACEUTICAL CO., LTD. SHIGA PLANT",
-            "factoryAddr": "348-3, AZA-SUWA, OAZA-SHIDE, TAGACHO INUKAMI-GUN, SHIGA, JAPAN",
+            "factoryAddr": "348-3, AZA-SUWA, OAZA-SHIDE, TAGACHO INUKAMIGUN, SHIGA, JAPAN",
             "factoryCompanyAddr": "",
             "countryCode": "JP",
             "processCode": [],
@@ -51,9 +59,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP0270200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "5C247A7B-5368-4A7A-BC92-9650DA08FEA0",
             "factoryCode": "2",
             "factoryName": "SANTEN PHARMACEUTICAL CO. LTD.(NOTO PLANT)",
             "factoryAddr": "2-14, SHIKINAMI, HODATSUSHIMIZU-CHO,HAKUI-GUN, ISHIKAWA , JAPAN",
@@ -69,34 +80,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0270000",
             "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "ZUELLIG PHARMA SPECIALTY SOLUTIONS GROUP PTE. LTD.",
-            "factoryAddr": "15 CHANGI NORTH WAY #01-02, #02-02, #02-10, SINGAPORE 498770",
-            "factoryCompanyAddr": "",
-            "countryCode": "SG",
-            "processCode": [
-                {
-                    "value": "1A",
-                    "name": "二級包裝廠"
-                }
-            ],
-            "processCodeStr": "1A;二級包裝廠",
-            "factoryKind": "M",
-            "factoryNo": "FSG0021200",
-            "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5240000100",
+            "ingredientsName": "TAFLUPROST",
             "ingredientsDesc": "TAFLUPROST",
             "concentDesc": null,
-            "concent": "0.0150",
+            "concent": "0.015000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -105,55 +101,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D31BEA58-6B0F-4074-94DE-2F875DF06076",
-            "approvedDocNo": "1129026869",
-            "approvedDate": "2023-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DB073B49-94F7-40F4-BEA5-FC0F6F8E3C4B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2BDE6CC2-2592-456F-B514-ADA8393B056F",
-            "approvedDocNo": "1096031023",
-            "approvedDate": "2021-03-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DEF1223F-E4D7-4042-9C82-D31A593C00C4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F5AF5465-97C8-433A-8329-8667E37C091F",
-            "approvedDocNo": "1086003095",
-            "approvedDate": "2019-03-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "S01EE05"
-        },
-        {
-            "isMain": "2",
             "atcCode": "S01EE05"
         }
     ],

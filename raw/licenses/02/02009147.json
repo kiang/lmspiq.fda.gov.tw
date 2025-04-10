@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02009147",
+    "licUnit": "1",
     "validDate": "2028-09-08 00:00:00.000",
     "issueDate": "2013-04-29 00:00:00.000",
+    "oriIssueDate": "1981-08-31",
     "licKind": "02",
     "oldLicid": "02007567",
     "certNo": "DHA00200914703",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A29BD7B5-4B23-4782-BFA8-D9FA22085CB4",
+    "subCategory": [],
     "ingredientsDesc": [
         "AZATHIOPRINE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "安沛國際有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號20樓",
@@ -41,23 +48,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "433178D8-6CAC-4606-8E53-AA6CFFB71A10",
             "factoryCode": "1",
             "factoryName": "Aspen SA Operations (Pty) Ltd",
             "factoryAddr": "CORNER OF FAIRCLOUGH ROAD AND GIBAUD ROAD, KORSTEN, GQEBERHA 6020, REPUBLIC OF SOUTH AFRICA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "ZA",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FZA0026000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "AAFD3374-AAF8-42F2-B18D-4D2E7B39ED59",
             "factoryCode": "2",
             "factoryName": "ASPEN GLOBAL INCORPORATED",
             "factoryAddr": "GBS PLAZA, CNR LA SALETTE AND ROYAL ROADS, GRAND BAY, MAURITIUS",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "MU",
             "processCode": [
                 {
@@ -69,16 +80,19 @@
             "factoryKind": "M",
             "factoryNo": "FMU0001000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1008800100",
+            "ingredientsName": "AZATHIOPRINE",
             "ingredientsDesc": "AZATHIOPRINE",
             "concentDesc": null,
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -87,72 +101,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "79E52149-3C81-4B8C-9E4F-83027402677F",
-            "approvedDocNo": "1129011632",
-            "approvedDate": "2023-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C2DF1B48-FC30-49C8-8968-28C4E4EAEB34",
-            "approvedDocNo": "1106030647",
-            "approvedDate": "2022-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7475D463-16EA-4419-BCF5-719B7F9DAF4B",
-            "approvedDocNo": "1101499316",
-            "approvedDate": "2022-04-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "53749F2F-EF31-43E3-8375-A5AB3E284E66",
-            "approvedDocNo": "1101498785",
-            "approvedDate": "2021-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9BD87C8F-4409-46EB-ACF9-E55EA7212C52",
-            "approvedDocNo": "1101496346",
-            "approvedDate": "2021-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AD0E3737-1C4F-4A6B-A78E-F694F6898905",
-            "approvedDocNo": "1101490596",
-            "approvedDate": "2021-03-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "503565AC-645F-441D-BA43-6881662D6B05",
-            "approvedDocNo": "1081492454",
-            "approvedDate": "2020-02-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "71D3575F-BC87-4188-9585-B1BF179A932D",
-            "approvedDocNo": "1086005158",
-            "approvedDate": "2019-06-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

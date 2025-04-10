@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "03009979",
+    "licUnit": "1",
     "validDate": "2025-09-12 00:00:00.000",
     "issueDate": "1995-09-12 00:00:00.000",
+    "oriIssueDate": "1995-09-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00300997908",
@@ -16,21 +20,24 @@
     "does": "3372",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "03",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FB340629-EB3E-437F-9B53-C248BEBDA260",
+    "subCategory": [],
     "ingredientsDesc": [
         "L-MENTHOL ",
         "METHYL SALICYLATE",
         "THYMOL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "先智生物科技股份有限公司",
     "applicantAddr": "新北市瑞芳區頂坪路瑞芳工業區14號",
@@ -44,26 +51,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4D2E56F7-BC93-4A0D-9238-86AC2A81A101",
             "factoryCode": "1",
             "factoryName": "先智生物科技股份有限公司",
             "factoryAddr": "新北市瑞芳區頂坪路瑞芳工業區14號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6131120035",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404801200",
+            "ingredientsName": "THYMOL",
             "ingredientsDesc": "THYMOL",
             "concentDesc": "",
-            "concent": "0.6300",
+            "concent": "0.630000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -72,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000302",
+            "ingredientsName": "L-MENTHOL ",
             "ingredientsDesc": "L-MENTHOL ",
             "concentDesc": "",
-            "concent": "0.4200",
+            "concent": "0.420000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -83,9 +95,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424400200",
+            "ingredientsName": "METHYL SALICYLATE",
             "ingredientsDesc": "METHYL SALICYLATE",
             "concentDesc": "",
-            "concent": "0.5500",
+            "concent": "0.550000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -94,28 +107,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "55130842-873B-49E8-930E-B0AF8F8C3630",
-            "approvedDocNo": "1080028608",
-            "approvedDate": "2019-12-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A01AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A01AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
         }
     ],
     "licBaseId": "FC134D7C-CEED-451A-89BF-516DA1A5E05E"

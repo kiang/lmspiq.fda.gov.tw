@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044850",
+    "licUnit": "1",
     "validDate": "2027-03-04 00:00:00.000",
     "issueDate": "2002-03-04 00:00:00.000",
+    "oriIssueDate": "2002-03-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104485002",
@@ -20,22 +24,25 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "21C647AF-2751-4EB8-A829-AD7F6B7E4D79",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
         "AMILORIDE HCL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "元宙化學製藥股份有限公司",
-    "applicantAddr": "南投縣南投市南崗工業區南崗三路２７２號",
+    "applicantAddr": "南投縣南投市南崗三路272號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "21A2C8E0-CFE1-4731-B3AF-40EAE601EF2B",
             "factoryCode": "1",
             "factoryName": "元宙化學製藥股份有限公司",
             "factoryAddr": "南投縣南投市南崗工業區南崗三路２７２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0406914300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028000110",
+            "ingredientsName": "AMILORIDE HCL",
             "ingredientsDesc": "AMILORIDE HCL",
             "concentDesc": "",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": "",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -85,41 +97,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CE196352-3001-4F93-ADE5-7DDDEDCA14A6",
-            "approvedDocNo": "1110600939",
-            "approvedDate": "2022-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A44F4C25-EDDD-4862-B102-8ED6AB4B99C1",
-            "approvedDocNo": "1080019435",
-            "approvedDate": "2019-09-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "733D0AD4-1D7B-4C6E-968A-14794722B23F",
-            "approvedDocNo": "1080019435",
-            "approvedDate": "2019-09-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03DB01"
-        },
         {
             "isMain": "1",
             "atcCode": "C03EA01"

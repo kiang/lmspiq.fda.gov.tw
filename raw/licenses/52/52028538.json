@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028538",
+    "licUnit": "1",
     "validDate": "2028-08-14 00:00:00.000",
     "issueDate": "2023-08-14 00:00:00.000",
+    "oriIssueDate": "2023-08-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202853805",
@@ -23,10 +27,19 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "CF2B7E7C-1048-4800-91E4-808ECCFD152D",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "PRAMIPEXOLE ( PRAMIPEXOLE DIHYDROCHLORIDE MONOHYDRATE)"
     ],
-    "restraintItemsCode": null,
+    "restraintItemsCode": [
+        "02 輸 入",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
+    ],
     "applicantName": "美時化學製藥股份有限公司",
     "applicantAddr": "臺北市信義區松仁路277號17樓",
     "medClass": null,
@@ -39,26 +52,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0F6055B9-15C3-41EE-B781-5B4A9E7809CE",
             "factoryCode": "1",
             "factoryName": "MACLEODS PHARMACEUTICALS LTD.",
             "factoryAddr": "BLOCK N-2, VILLAGE THEDA, P.O.LODHIMAJRA, TEHSIL BADDI, DISTRICT SOLAN, HIMACHAL PRADESH, INDIA ",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0868000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7600001520",
+            "ingredientsName": "PRAMIPEXOLE ( PRAMIPEXOLE DIHYDROCHLORIDE MONOHYDRATE)",
             "ingredientsDesc": "PRAMIPEXOLE ( PRAMIPEXOLE DIHYDROCHLORIDE MONOHYDRATE)",
             "concentDesc": "",
-            "concent": "0.375",
+            "concent": "0.375000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
