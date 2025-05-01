@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043947",
-    "validDate": "2025-09-02 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2030-09-02 00:00:00.000",
     "issueDate": "2000-09-02 00:00:00.000",
+    "oriIssueDate": "2000-09-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104394702",
@@ -16,20 +20,23 @@
     "does": "1156",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1AA8D551-FB29-4028-B5EA-ABDE76F9835A",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRIMETHOPRIM",
         "SULFAMETHOXAZOLE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "應元化學製藥股份有限公司",
     "applicantAddr": "台南市南區新忠路２６號",
@@ -43,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0C40BDBA-324F-4ACD-BC5E-84A5DDB811B3",
             "factoryCode": "1",
             "factoryName": "應元化學製藥股份有限公司",
             "factoryAddr": "台南市南區新忠路２６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1704519300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0840001700",
+            "ingredientsName": "TRIMETHOPRIM",
             "ingredientsDesc": "TRIMETHOPRIM",
             "concentDesc": "80",
-            "concent": "80.0000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -71,9 +82,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0824001500",
+            "ingredientsName": "SULFAMETHOXAZOLE",
             "ingredientsDesc": "SULFAMETHOXAZOLE",
             "concentDesc": "400",
-            "concent": "400.0000",
+            "concent": "400.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -85,16 +97,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "J01EC01"
-        },
-        {
             "isMain": "1",
             "atcCode": "J01EE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01EA01"
         }
     ],
     "licBaseId": "3504334B-EEA2-49B7-9120-BA9B65AD1797"
