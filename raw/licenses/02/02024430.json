@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024430",
+    "licUnit": "1",
     "validDate": "2026-04-11 00:00:00.000",
     "issueDate": "2006-04-11 00:00:00.000",
+    "oriIssueDate": "2006-04-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202443001",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A897D4BB-08FE-4788-83C2-C6C8AABEBEEB",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIVASTIGMINE HYDROGEN TARTRATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "臺北市中山區民生東路3段2號8樓",
@@ -41,23 +48,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "37CAAC77-2A2F-47D9-9292-C62B27BCA77C",
             "factoryCode": "1",
             "factoryName": "DELPHARM HUNINGUE SAS",
             "factoryAddr": "26 RUE DE LA CHAPELLE, 68330 HUNUNGUE, FRANCE",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "FR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FFR0299000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "47D6E95A-162A-465B-AE31-42B74D2EC792",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -69,9 +80,12 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3E75401D-68E3-431C-AFA8-296A184323F0",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA AG",
             "factoryAddr": "LICHTSTRASSE 35, CH-4056 BASEL, SWITZERLAND",
@@ -87,16 +101,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0253000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1204001410",
+            "ingredientsName": "RIVASTIGMINE HYDROGEN TARTRATE",
             "ingredientsDesc": "RIVASTIGMINE HYDROGEN TARTRATE",
             "concentDesc": "",
-            "concent": "3.2000",
+            "concent": "3.200000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -105,64 +122,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "506DAB9C-F12F-4CA9-AE4D-0184F46EF7C1",
-            "approvedDocNo": "1120703062",
-            "approvedDate": "2023-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1FC3A18A-8723-4E77-8506-D6D847412E17",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9807E1FB-C8AF-46B1-8C70-CF50F8DF2690",
-            "approvedDocNo": "1106012104",
-            "approvedDate": "2021-10-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FBFA2836-7C5F-4DD5-90BE-E40F5717F4FB",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D0DD696A-6B98-4073-87A7-9F8B1690F9E2",
-            "approvedDocNo": "1086024472",
-            "approvedDate": "2019-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ADE1F63E-6627-4DF7-A7EC-231DC5C12918",
-            "approvedDocNo": "1086024472",
-            "approvedDate": "2019-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6B2FC587-E7C2-424F-892D-26BB5F9BBDA6",
-            "approvedDocNo": "1081491394",
-            "approvedDate": "2019-10-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

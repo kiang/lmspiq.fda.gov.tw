@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025853",
+    "licUnit": "1",
     "validDate": "2027-11-13 00:00:00.000",
     "issueDate": "2012-11-13 00:00:00.000",
+    "oriIssueDate": "2012-11-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202585305",
@@ -16,7 +20,7 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         },
         {
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D19002D7-7800-488A-A7E6-1970D5AA32B8",
+    "subCategory": [],
     "ingredientsDesc": [
         "AXITINIB"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1E"
+        "02 輸 入",
+        "07 新藥監視",
+        "1E 須執行Phase IV Study"
     ],
     "applicantName": "輝瑞大藥廠股份有限公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -47,24 +54,28 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6A31C981-4C66-4486-856D-818C7C6DB38F",
             "factoryCode": "1",
-            "factoryName": "PFIZER MANUFACTURING DEUTSCHLAND GMBH",
-            "factoryAddr": "BETRIEBSSTATTE FREIBURG, MOOSWALDALLEE 1, 79090 FREIBURG, GERMANY",
-            "factoryCompanyAddr": null,
+            "factoryName": "Pfizer Manufacturing Deutschland GmbH",
+            "factoryAddr": "Mooswaldallee 1, 79108 Freiburg Im Breisgau, Germany",
+            "factoryCompanyAddr": "",
             "countryCode": "DE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FDE0247000",
+            "factoryNo": "FDE0247200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F3C243B8-B0AE-4689-8429-9DAE0CACFADC",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
-            "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓，3樓，1樓A區",
+            "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
             "factoryCompanyAddr": "",
-            "countryCode": "",
+            "countryCode": "TW",
             "processCode": [
                 {
                     "value": "3P",
@@ -75,16 +86,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013003200",
+            "ingredientsName": "AXITINIB",
             "ingredientsDesc": "AXITINIB",
             "concentDesc": null,
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -93,64 +107,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "886D61F7-51C1-4052-A20C-ACF000614051",
-            "approvedDocNo": "1119061668",
-            "approvedDate": "2023-06-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "04FDF2EE-14EC-4F81-9749-CFAFB6E9BB84",
-            "approvedDocNo": "1119061668",
-            "approvedDate": "2023-06-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BCDC0527-9EE9-4E54-A4CF-5C9F32F8BB86",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "40380B1E-9757-427A-BE7C-341351ECF105",
-            "approvedDocNo": "1110709404",
-            "approvedDate": "2022-07-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "27A6ABBB-52AF-4A70-867E-09B1B4B124CA",
-            "approvedDocNo": "1106020085",
-            "approvedDate": "2021-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "32017952-94CD-4E2D-90E6-81F2710F9D0F",
-            "approvedDocNo": "1096033830",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3EA31720-D5DD-49FD-A883-C2472FD9A09F",
-            "approvedDocNo": "1096017173",
-            "approvedDate": "2020-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

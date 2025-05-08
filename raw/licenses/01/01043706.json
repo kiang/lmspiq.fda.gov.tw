@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01043706",
+    "licUnit": "1",
     "validDate": "2029-04-29 00:00:00.000",
     "issueDate": "2000-04-29 00:00:00.000",
+    "oriIssueDate": "2000-04-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104370603",
@@ -27,11 +31,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8A7689B8-0EA7-4B5B-8B31-6D1ABB7C9AD9",
+    "subCategory": [],
     "ingredientsDesc": [
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "生達化學製藥股份有限公司",
     "applicantAddr": "臺南市新營區土庫里土庫6之20號",
@@ -45,26 +52,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B3AA5F2D-A504-4FC6-9062-43F6D45961F9",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司",
             "factoryAddr": "台南市新營區土庫里土庫6之20號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0510620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": "",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -73,88 +84,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CC4B0477-1957-4FAF-A8DA-B648AEB7CDDA",
-            "approvedDocNo": "1120808001",
-            "approvedDate": "2023-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BA236AB1-2049-4411-8C1A-75D34DD3E07E",
-            "approvedDocNo": "1106818011",
-            "approvedDate": "2021-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F638E2D9-39C3-4403-83E2-9EF83EBEBFFD",
-            "approvedDocNo": "1096817692",
-            "approvedDate": "2020-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F4133037-43F0-450D-AEB8-891E73030E0A",
-            "approvedDocNo": "1096601543",
-            "approvedDate": "2020-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AD500D27-B8A1-4C2A-988F-919C9F6BEE0F",
-            "approvedDocNo": "1096601543",
-            "approvedDate": "2020-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6673BFEB-3154-4664-82C3-932CAAFC141D",
-            "approvedDocNo": "1096601543",
-            "approvedDate": "2020-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A497ED70-D51D-4038-A639-D2CA9A5A7DDE",
-            "approvedDocNo": "1096601543",
-            "approvedDate": "2020-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "05020C90-7F51-411D-9012-DF624FD6372B",
-            "approvedDocNo": "1096601543",
-            "approvedDate": "2020-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "25DFE0FE-B1A0-4028-AE8C-E5029C884C90",
-            "approvedDocNo": "1096601543",
-            "approvedDate": "2020-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3AD6F7A1-C70B-41D6-A105-F365D59496A0",
-            "approvedDocNo": "1096601543",
-            "approvedDate": "2020-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

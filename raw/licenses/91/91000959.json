@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "91000959",
-    "validDate": "2025-10-07 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2030-10-07 00:00:00.000",
     "issueDate": "2020-10-07 00:00:00.000",
+    "oriIssueDate": "2020-10-07",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA09100095905",
@@ -23,12 +27,15 @@
     "medMCode": "01",
     "maMedCode": "",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "1C2D464C-20CF-47DC-A7F3-56A36EB8D180",
+    "subCategory": [],
     "ingredientsDesc": [
         "Flavonoids, (Dried Extract) 22.0%-27.0% (Calculated as Flavone Glycosides)\r\nTerpene Lactones(Dried Extract) 5.0-7.0% (Sum of Ginkgolides A, B, C and bilobalide)\r\nBilobalide(Dried Extract) 2.6%-3.2%\r\nGinkgolides A, B and C(Dried Extract) 2.8%-3.4%\r\nGingkolic Acids (Dried Extract) Not more than 5ppm"
     ],
     "restraintItemsCode": [
-        "02",
-        "40"
+        "02 輸 入",
+        "40 大陸生產"
     ],
     "applicantName": "台灣荃新股份有限公司",
     "applicantAddr": "台北市中正區羅斯福路二段11號3樓",
@@ -42,23 +49,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "827378D4-4403-4162-85E5-D3A960F8DDD8",
             "factoryCode": "1",
             "factoryName": "Ningbo Green-Health Pharmaceutical Co., Ltd.",
             "factoryAddr": "Fenghua Xiwu Town Foreign Technological Garden 315505 Ningbo, Zhejiang Province, CHINA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCN1121100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Flavonoids, (Dried Extract) 22.0%-27.0% (Calculated as Flavone Glycosides)\r\nTerpene Lactones(Dried Extract) 5.0-7.0% (Sum of Ginkgolides A, B, C and bilobalide)\r\nBilobalide(Dried Extract) 2.6%-3.2%\r\nGinkgolides A, B and C(Dried Extract) 2.8%-3.4%\r\nGingkolic Acids (Dried Extract) Not more than 5ppm",
             "ingredientsDesc": "Flavonoids, (Dried Extract) 22.0%-27.0% (Calculated as Flavone Glycosides)\r\nTerpene Lactones(Dried Extract) 5.0-7.0% (Sum of Ginkgolides A, B, C and bilobalide)\r\nBilobalide(Dried Extract) 2.6%-3.2%\r\nGinkgolides A, B and C(Dried Extract) 2.8%-3.4%\r\nGingkolic Acids (Dried Extract) Not more than 5ppm",
             "concentDesc": null,
             "concent": null,
@@ -72,10 +83,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N06DX02"
-        },
         {
             "isMain": "1",
             "atcCode": "N06DA53"

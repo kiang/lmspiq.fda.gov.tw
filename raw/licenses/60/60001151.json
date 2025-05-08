@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001151",
+    "licUnit": "1",
     "validDate": "2026-05-28 00:00:00.000",
     "issueDate": "2021-05-28 00:00:00.000",
+    "oriIssueDate": "2021-05-28",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000115105",
@@ -22,15 +26,19 @@
     ],
     "medMCode": "05",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "D",
+    "mainCategory": "D",
+    "drBaseId": "3594677B-F77E-41AF-BBB6-2A2D8F705D69",
+    "subCategory": [],
     "ingredientsDesc": [
         "TERIPARATIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D",
-        "91"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫",
+        "68 成品已完成元素不純物評估(Option 3)",
+        "91 生物相似性藥品"
     ],
     "applicantName": "美時化學製藥股份有限公司",
     "applicantAddr": "台北市信義區松仁路277號17樓",
@@ -44,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4A35C56A-84D6-4893-A47E-E0DA3B163717",
             "factoryCode": "1",
             "factoryName": "GEDEON RICHTER PLC.",
             "factoryAddr": "H-1103 BUDAPEST GYOMROI UT 19-21 HUNGARY",
@@ -59,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "FHU0001000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "034CC57F-1C8B-49A8-AB09-1DF7AA899423",
             "factoryCode": "1",
             "factoryName": "GEDEON RICHTER PLC.",
             "factoryAddr": "RICHTER GEDEON UTCA 20., DEBRECEN, 4031, HUNGARY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "HU",
             "processCode": [
                 {
@@ -77,13 +89,16 @@
             "factoryKind": "M",
             "factoryNo": "FHU0035000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "DFCB71C0-F1D0-4655-AE10-C39A3872D83D",
             "factoryCode": "2",
             "factoryName": "RICHTER-HELM BIOLOGICS GMBH&CO. KG",
             "factoryAddr": "DENGELSBERG, 24796 BOVENAU, GERMANY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -95,16 +110,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE9047000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200097000",
+            "ingredientsName": "TERIPARATIDE",
             "ingredientsDesc": "TERIPARATIDE",
             "concentDesc": "",
-            "concent": "0.020",
+            "concent": "0.020000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -113,32 +131,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9808FB1E-F947-4300-AC7F-057C46B5E972",
-            "approvedDocNo": "1110712287",
-            "approvedDate": "2022-11-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CE6BB249-FBAE-48F6-B445-D0F5436DE716",
-            "approvedDocNo": "1110712287",
-            "approvedDate": "2022-11-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BDE7461A-C8F8-4258-B22A-8BA0F6A4819E",
-            "approvedDocNo": "1110712286",
-            "approvedDate": "2022-09-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

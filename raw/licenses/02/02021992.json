@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02021992",
+    "licUnit": "1",
     "validDate": "2027-12-03 00:00:00.000",
     "issueDate": "2022-09-28 00:00:00.000",
+    "oriIssueDate": "1997-12-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202199202",
@@ -27,13 +31,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "316FDED2-E107-4AF1-AD60-F045324F8753",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLADRIBINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "53"
+        "02 輸 入",
+        "07 新藥監視",
+        "53 依本署七七公告事項八得免除國內進行臨床試驗之特殊醫療需要之新藥"
     ],
     "applicantName": "裕利股份有限公司",
     "applicantAddr": "台北市松山區南京東路四段126號10樓，10樓之1-3",
@@ -47,19 +54,28 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D3D61727-1ABB-4131-AE96-9C24A0D185BA",
             "factoryCode": "1",
-            "factoryName": "GLAXOSMITHKLINE MANUFACTURING S.P.A.",
-            "factoryAddr": "STRADA PROVINCIALE ASOLANA,90 SAN POLO DI TORRILE 43056 PARMA, ITALY",
-            "factoryCompanyAddr": "VIA FLEMING 2 37135 VERONA",
-            "countryCode": "IT",
-            "processCode": [],
-            "processCodeStr": null,
+            "factoryName": "ZYDUS HOSPIRA ONCOLOGY PRIVATE LIMITED",
+            "factoryAddr": "PHARMEZ SPECIAL ECONOMIC ZONE, PLOT NO.3, SARKHEJ-BAVLA ROAD, N.H. NO. 8A, VILLAGE: MATODA, TALUKA: SANAND, DISTRICT-AHMEDABAD-382 213 (GUJARAT), INDIA",
+            "factoryCompanyAddr": null,
+            "countryCode": "IN",
+            "processCode": [
+                {
+                    "value": "2P",
+                    "name": "成品製造、一級包裝、二級包裝"
+                }
+            ],
+            "processCodeStr": "2P;成品製造、一級包裝、二級包裝",
             "factoryKind": "M",
-            "factoryNo": "FIT0339000",
+            "factoryNo": "FIN0567000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B29EA3C6-897C-48A3-81B1-8EF54A0E3E14",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
@@ -75,34 +91,19 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "CILAG AG.",
-            "factoryAddr": "HOCHSTRASSE 201 CH-8200 SCHAFFHAUSEN SWITZERLAND",
-            "factoryCompanyAddr": "VIA M. BUONARROTI 23 20093 COLOGNO MONZESE,ITALY",
-            "countryCode": "CH",
-            "processCode": [
-                {
-                    "value": "02",
-                    "name": "包裝"
-                }
-            ],
-            "processCodeStr": "02;包裝",
-            "factoryKind": "M",
-            "factoryNo": "FCH0015000",
-            "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1004001700",
+            "ingredientsName": "CLADRIBINE",
             "ingredientsDesc": "CLADRIBINE",
             "concentDesc": null,
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -111,80 +112,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6819239D-5A17-4414-9F17-9F5298AB5B82",
-            "approvedDocNo": "1106035688",
-            "approvedDate": "2022-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C8CD2E15-B170-475F-A35C-ECED5C2D497A",
-            "approvedDocNo": "1109502200",
-            "approvedDate": "2022-04-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BFFC7FA1-05C0-4ADF-B43E-3AE70CAF91AA",
-            "approvedDocNo": "1101493208",
-            "approvedDate": "2021-07-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6DD5C327-004E-4ED3-876E-9D0E58A208E6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E4EA7943-70E7-401D-9C99-2A2A25FF3A58",
-            "approvedDocNo": "1086035386",
-            "approvedDate": "2020-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2B74378F-5A25-4D37-B4B0-3930266F519C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9899287B-2877-40CE-BBF2-F3B668568110",
-            "approvedDocNo": "1081490985",
-            "approvedDate": "2019-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "999FA693-82B8-42A4-8989-A80077E3CFB9",
-            "approvedDocNo": "1086015855",
-            "approvedDate": "2019-07-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8F3C3725-C615-4F2A-97A6-38475E7A0D99",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

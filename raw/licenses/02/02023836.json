@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-04-29",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "02023836",
+    "licUnit": "1",
     "validDate": "2023-09-24 00:00:00.000",
     "issueDate": "2003-09-24 00:00:00.000",
+    "oriIssueDate": "2003-09-24",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00202383608",
@@ -16,18 +22,21 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "61DC639D-89B3-4447-BAF7-8FD992F27DCA",
+    "subCategory": [],
     "ingredientsDesc": [
         "Tazobactam (eq to Tazobactam acid)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "輝瑞大藥廠股份有限公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -41,19 +50,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0354A989-020E-4BA2-B3C3-7983C30616D3",
             "factoryCode": "1",
             "factoryName": "Otsuka Chemical Co., Ltd. Tokushima Factory",
             "factoryAddr": "463 Kagasuno, Kawauchi-cho, Tokushima, 771-0193, Japan",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP0829000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B35E5753-0A42-4742-A367-E9EA6D1E580F",
             "factoryCode": "2",
             "factoryName": "TAIHO PHARMACEUTICAL CO., LTD.",
             "factoryAddr": "1-27 KANDANISHIKI-CHO, CHIYODA-KU, TOKYO, 101, JAPAN",
@@ -69,16 +82,19 @@
             "factoryKind": "O",
             "factoryNo": "FJP0317500",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410000700",
+            "ingredientsName": "Tazobactam (eq to Tazobactam acid)",
             "ingredientsDesc": "Tazobactam (eq to Tazobactam acid)",
             "concentDesc": "(98-102)",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "005",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,56 +103,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "352D7FA8-07D4-4A21-8752-E9B78C852350",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AD18C031-1D13-4FB9-8E22-A7551AA6857E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2808E9C5-AC17-4E37-A932-12BD64C87CED",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FDB97A2F-A666-480A-85BC-6AEB606ED701",
-            "approvedDocNo": "1096010159",
-            "approvedDate": "2020-05-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "24B6E193-7ECD-4D5D-94F0-F306F013F67F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DD1BD8BA-624B-4A25-9E7F-B87956123CFC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

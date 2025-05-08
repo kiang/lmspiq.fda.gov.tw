@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060106",
+    "licUnit": "1",
     "validDate": "2028-05-17 00:00:00.000",
     "issueDate": "2018-05-17 00:00:00.000",
+    "oriIssueDate": "2018-05-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106010608",
@@ -27,13 +31,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "45451328-FCAB-418C-9100-28ECCD8DFF09",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "SOLIFENACIN SUCCINATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -47,26 +56,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "AE556752-92D2-49DE-998E-62EB975D8A9D",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200098510",
+            "ingredientsName": "SOLIFENACIN SUCCINATE",
             "ingredientsDesc": "SOLIFENACIN SUCCINATE",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,56 +88,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A6FBFBD6-5D56-4839-92AC-709263C5C159",
-            "approvedDocNo": "1106819652",
-            "approvedDate": "2022-01-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5F998062-BCAC-4C59-BE5E-EDCFB9BF8DDA",
-            "approvedDocNo": "1096800184",
-            "approvedDate": "2020-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "00BDB94B-7D66-4998-9BB4-5FD19D69055D",
-            "approvedDocNo": "1096800184",
-            "approvedDate": "2020-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "62BC3514-BB72-43D4-9D22-FDAD5ADF7BF7",
-            "approvedDocNo": "1096800184",
-            "approvedDate": "2020-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "97FB13B2-9505-4844-8F6C-EF9442D6D30D",
-            "approvedDocNo": "1086810538",
-            "approvedDate": "2019-09-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6191D3CA-32DE-4453-8490-8082E93F563C",
-            "approvedDocNo": "1086810538",
-            "approvedDate": "2019-09-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

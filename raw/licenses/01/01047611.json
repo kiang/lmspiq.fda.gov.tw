@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047611",
+    "licUnit": "1",
     "validDate": "2025-10-31 00:00:00.000",
     "issueDate": "2005-10-31 00:00:00.000",
+    "oriIssueDate": "2005-10-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -23,15 +27,18 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E17BB9CE-D0FB-4DF8-8CFB-C93E48DCC1C0",
+    "subCategory": [],
     "ingredientsDesc": [
         "CINCHOCAINE HYDROCHLORIDE",
         "POLYCRESOLSULFONATE (POLICRESULEN)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "東竹藥品股份有限公司",
-    "applicantAddr": "台北市大同區承德路1段44號7樓",
+    "applicantAddr": "臺北市大同區承德路1段17號16樓之5",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -42,26 +49,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A5EA51A9-FE7D-44B1-AC5C-A5B99D7573CA",
             "factoryCode": "1",
             "factoryName": "明德製藥股份有限公司",
             "factoryAddr": "桃園市楊梅區瑞原里7鄰民富路二段３６０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0806804300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200011000",
+            "ingredientsName": "POLYCRESOLSULFONATE (POLICRESULEN)",
             "ingredientsDesc": "POLYCRESOLSULFONATE (POLICRESULEN)",
             "concentDesc": "",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -70,9 +81,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600085600",
+            "ingredientsName": "CINCHOCAINE HYDROCHLORIDE",
             "ingredientsDesc": "CINCHOCAINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "2.5000",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,49 +93,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "84CDE3A2-60E5-4245-BED9-61BD3F8D8F0E",
-            "approvedDocNo": "1110614830",
-            "approvedDate": "2023-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2ECBE901-D994-4FDE-B0DB-6F35A062810D",
-            "approvedDocNo": "1110614830",
-            "approvedDate": "2023-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FA8CA607-47BF-42F7-A999-BBDFF712B311",
-            "approvedDocNo": "1090009836",
-            "approvedDate": "2020-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9B56F741-368F-4CA3-A0B1-4D0500013D30",
-            "approvedDocNo": "1090009836",
-            "approvedDate": "2020-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C05AD04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D08AE02"
-        },
         {
             "isMain": "1",
             "atcCode": "C05AX"

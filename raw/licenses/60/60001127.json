@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-11-28",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "60001127",
+    "licUnit": "1",
     "validDate": "2025-04-24 00:00:00.000",
     "issueDate": "2020-04-24 00:00:00.000",
+    "oriIssueDate": "2020-04-24",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000112708",
@@ -25,13 +29,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "972043A8-C6FD-44FA-924A-22887C3756CC",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "Erenumab"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -45,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4864CE77-51D3-4EAF-9A26-EC5BA694636E",
             "factoryCode": "1",
             "factoryName": "AMGEN MANUFACTURING,LIMITED",
             "factoryAddr": "STATE ROAD 31,KM 24.6 JUNCOS,PUERTO RICO 00777-4060",
@@ -60,13 +70,16 @@
             "factoryKind": "M",
             "factoryNo": "FPR0034000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8D3E7769-55FC-44A1-9961-CD6FB02A146E",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -78,13 +91,16 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D22311CC-B665-42A4-A80F-7D6EF3601C75",
             "factoryCode": "2",
             "factoryName": "SANDOZ GMBH,  SCHAFTENAU PLANT",
             "factoryAddr": "BIOCHEMIESTRASSE 10, 6336 SCHAFTENAU\/LANGKAMPFEN, AUSTRIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "AT",
             "processCode": [
                 {
@@ -96,13 +112,16 @@
             "factoryKind": "M",
             "factoryNo": "FAT0030000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "30681940-F8FF-4C77-84EF-878FD3CAA844",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA AG",
             "factoryAddr": "LICHTSTRASSE 35 CH-4056 BASEL SWITZERLAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CH",
             "processCode": [
                 {
@@ -114,13 +133,16 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "924DA263-ED4C-443B-94E9-6D37E7926549",
             "factoryCode": "2",
             "factoryName": "Amgen Technology (Ireland) Unlimited Company",
             "factoryAddr": "Pottery Road, Dun Laoghaire, Co., Dublin, Ireland",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IE",
             "processCode": [
                 {
@@ -132,13 +154,16 @@
             "factoryKind": "M",
             "factoryNo": "FIE0040100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "57F5B145-4D63-435D-93B4-C7DA66036206",
             "factoryCode": "2",
             "factoryName": "AMGEN SINGAPORE MANUFACTURING PTE. LTD.",
             "factoryAddr": "1 TUAS VIEW DRIVE, SINGAPORE 637026",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "SG",
             "processCode": [
                 {
@@ -150,16 +175,19 @@
             "factoryKind": "M",
             "factoryNo": "FSG0046000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200090800",
+            "ingredientsName": "Erenumab",
             "ingredientsDesc": "Erenumab",
             "concentDesc": "",
-            "concent": "70.000",
+            "concent": "70.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -168,40 +196,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "26131ADF-DC28-4B8D-AF5D-427FAD477854",
-            "approvedDocNo": "1119027386",
-            "approvedDate": "2022-10-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "229CFE85-FD7B-49A5-9F6F-7FFBE7B1F340",
-            "approvedDocNo": "1119027387",
-            "approvedDate": "2022-09-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A01B0533-111E-4C92-A85F-42156685DAF3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DA5C5E9F-4AE0-47D3-8C04-0FEC2DA546A5",
-            "approvedDocNo": "1096037694",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

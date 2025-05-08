@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-04-29",
+    "cancelReason": [
+        "85A"
+    ],
+    "otherCancelReason": "",
     "licid": "01026511",
+    "licUnit": "1",
     "validDate": "2023-05-25 00:00:00.000",
     "issueDate": "1982-11-11 00:00:00.000",
+    "oriIssueDate": "1982-11-11",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00102651104",
@@ -23,12 +29,15 @@
     "medMCode": "06",
     "maMedCode": "X",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9DE81551-FF14-4555-99E3-732AE03661D9",
+    "subCategory": [],
     "ingredientsDesc": [
         "TERPIN HYDRATE",
         "CODEINE PHOSPHATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "壽元化學工業股份有限公司",
     "applicantAddr": "嘉義市西區新民路128號",
@@ -42,26 +51,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "AC04A88C-CF14-4A3F-9B73-29E71E85FB4D",
             "factoryCode": "1",
             "factoryName": "壽元化學工業股份有限公司",
             "factoryAddr": "嘉義市新民路１２８號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1421417300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": "",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003250",
+            "ingredientsName": "TERPIN HYDRATE",
             "ingredientsDesc": "TERPIN HYDRATE",
             "concentDesc": "",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,36 +95,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "00637E92-2613-4090-BB72-C34E0AC6EBCD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "12FCCCA8-155C-4876-B5E5-315262FCC182",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05DA04"
-        },
         {
             "isMain": "1",
             "atcCode": "R05FA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
         }
     ],
     "licBaseId": "A5AE66A5-090D-4CFA-8BA5-78D2D02261A8"

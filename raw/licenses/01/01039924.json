@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039924",
+    "licUnit": "1",
     "validDate": "2026-04-16 00:00:00.000",
     "issueDate": "1996-04-16 00:00:00.000",
+    "oriIssueDate": "1996-04-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103992401",
@@ -20,20 +24,24 @@
             "packageUnit": "K2"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7412269B-FB46-4FB1-B953-41E4A6577E8F",
+    "subCategory": [],
     "ingredientsDesc": [
         "MAGNESIUM CARBONATE",
         "ALUMINUM HYDROXIDE (DRIED GEL)",
         "OXETHAZAINE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "瑞安大藥廠股份有限公司",
     "applicantAddr": "臺北市內湖區內湖路1段392號11樓之1",
@@ -47,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5FB64C2F-81E0-432A-AB61-0C2F3C049C25",
             "factoryCode": "1",
             "factoryName": "優良化學製藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉中興村光復路10號 ",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133061486",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002900",
+            "ingredientsName": "OXETHAZAINE",
             "ingredientsDesc": "OXETHAZAINE",
             "concentDesc": "",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -75,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604009202",
+            "ingredientsName": "ALUMINUM HYDROXIDE (DRIED GEL)",
             "ingredientsDesc": "ALUMINUM HYDROXIDE (DRIED GEL)",
             "concentDesc": "",
-            "concent": "124.9000",
+            "concent": "124.900000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -86,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002400",
+            "ingredientsName": "MAGNESIUM CARBONATE",
             "ingredientsDesc": "MAGNESIUM CARBONATE",
             "concentDesc": "",
-            "concent": "83.8000",
+            "concent": "83.800000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -97,56 +111,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0662F9F9-8D01-4320-ADCF-0B1991CE6DB2",
-            "approvedDocNo": "1106806922",
-            "approvedDate": "2021-05-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E8155227-4CA6-44DB-933B-8BC7844DA331",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "18D4B1AB-0615-4BD5-B7F4-58BB28A7B59A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "175079DA-C420-4CA5-B711-62611F709BBA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A02X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA01"
         }
     ],
     "licBaseId": "99940138-2158-4084-A391-1D019C43FDC5"

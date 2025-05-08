@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025364",
+    "licUnit": "1",
     "validDate": "2026-02-23 00:00:00.000",
     "issueDate": "2011-02-23 00:00:00.000",
+    "oriIssueDate": "2011-02-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202536403",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "826BBE54-CD98-400E-BF0D-63530B88CD1C",
+    "subCategory": [],
     "ingredientsDesc": [
         "ALENDRONATE SODIUM TRIHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "鴻汶醫藥實業有限公司",
     "applicantAddr": "台中市西屯區文心路三段236號3樓、238號3樓",
@@ -42,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A666B59C-EE91-48DA-894B-B1F7C7248261",
             "factoryCode": "1",
             "factoryName": "APOTEX INC.",
             "factoryAddr": "150 SIGNET DRIVE, TORONTO (WESTON), ONTARIO, CANADA, M9L 1T9",
@@ -52,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "FCA0025000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "679F8B6E-1296-4AF1-8492-65B86EB5CA72",
             "factoryCode": "2",
             "factoryName": "天義企業股份有限公司",
             "factoryAddr": "新北市林口區工二工業區工五路8號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -70,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "6131171176",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200036530",
+            "ingredientsName": "ALENDRONATE SODIUM TRIHYDRATE",
             "ingredientsDesc": "ALENDRONATE SODIUM TRIHYDRATE",
             "concentDesc": "(equals 70mg Alendronate)",
-            "concent": "91.3500",
+            "concent": "91.350000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,29 +103,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B0AEEDD7-621D-428B-AA21-9E263543150A",
-            "approvedDocNo": "1120709681",
-            "approvedDate": "2023-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C6AE15ED-9894-4F00-8D78-7668C3DA8BEF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "M05BA04"
-        },
         {
             "isMain": "1",
             "atcCode": "M05BA04"

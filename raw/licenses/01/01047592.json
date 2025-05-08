@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047592",
+    "licUnit": "1",
     "validDate": "2025-10-24 00:00:00.000",
     "issueDate": "2005-10-24 00:00:00.000",
+    "oriIssueDate": "2005-10-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -30,15 +34,20 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "09CA5AB1-C740-43CB-BEB0-6634000927F7",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "ACETAMINOPHEN MICRONIZED",
         "ASCORBIC ACID (SILICONE COATED)",
         "PHENYLEPHRINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "優良化學製藥股份有限公司",
     "applicantAddr": "新竹縣湖口鄉中興村光復路10號",
@@ -52,26 +61,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B8B5A653-2927-47D2-AD00-3D7909BF488E",
             "factoryCode": "1",
             "factoryName": "優良化學製藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉中興村光復路10號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1702804200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000140",
+            "ingredientsName": "ACETAMINOPHEN MICRONIZED",
             "ingredientsDesc": "ACETAMINOPHEN MICRONIZED",
             "concentDesc": null,
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -80,9 +93,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002310",
+            "ingredientsName": "PHENYLEPHRINE HCL",
             "ingredientsDesc": "PHENYLEPHRINE HCL",
             "concentDesc": null,
-            "concent": "1.6600",
+            "concent": "1.660000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -91,9 +105,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816009600",
+            "ingredientsName": "ASCORBIC ACID (SILICONE COATED)",
             "ingredientsDesc": "ASCORBIC ACID (SILICONE COATED)",
             "concentDesc": null,
-            "concent": "7.0000",
+            "concent": "7.000000",
             "concentUnit": "001",
             "seq": "11",
             "prescription_seq": "1",
@@ -102,40 +117,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8AA2FE43-3E91-416A-8B64-0F674C92A926",
-            "approvedDocNo": "1076805395",
-            "approvedDate": "2019-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7B7F86A0-CCAA-4663-9F87-3F627CE1DCF7",
-            "approvedDocNo": "1076805395",
-            "approvedDate": "2019-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
-        },
         {
             "isMain": "1",
             "atcCode": "N02BE51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA03"
         }
     ],
     "licBaseId": "2D0A22DD-5CD9-42C8-B5E2-3409BDE082AD"

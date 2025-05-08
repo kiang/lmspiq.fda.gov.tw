@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025289",
+    "licUnit": "1",
     "validDate": "2025-11-17 00:00:00.000",
     "issueDate": "2010-11-17 00:00:00.000",
+    "oriIssueDate": "2010-11-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202528902",
@@ -27,11 +31,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DD89E42E-5DF8-4E32-94DE-66DE908E9C4F",
+    "subCategory": [],
     "ingredientsDesc": [
         "DOCETAXEL"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "賽諾菲股份有限公司",
     "applicantAddr": "台北市信義區松仁路3號7樓",
@@ -45,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "1DA6D6C4-C5ED-4137-9A7C-2ED6E8610204",
             "factoryCode": "1",
             "factoryName": "SANOFI-AVENTIS DEUTSCHLAND GMBH",
             "factoryAddr": "BRUNINGSTRASSE 50,D-65926 FRANKFURT AM (MAIN) GERMANY",
@@ -55,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0273000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "619587BF-36CC-4DB5-B3FD-6CC21894CEA2",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司高上倉",
             "factoryAddr": "桃園市楊梅區高上路1段150號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -73,13 +85,16 @@
             "factoryKind": "M",
             "factoryNo": "6132041444",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "928FA771-8AAC-4B3B-8B21-B62EFC9FD176",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
             "factoryAddr": "桃園市楊梅區梅獅路二段629號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -91,13 +106,16 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D1F8535C-AE84-4C8A-B2C0-5F9036904C17",
             "factoryCode": "2",
             "factoryName": "BOLLORE LOGISTICS SINGAPORE PTE. LTD.",
             "factoryAddr": "101 ALPS AVENUE #03-01 SINGAPORE 498793",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "SG",
             "processCode": [
                 {
@@ -109,16 +127,19 @@
             "factoryKind": "M",
             "factoryNo": "FSG0036000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000200",
+            "ingredientsName": "DOCETAXEL",
             "ingredientsDesc": "DOCETAXEL",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -127,151 +148,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0408856A-A9C0-4DDD-B505-30A84E478B8B",
-            "approvedDocNo": "1110731654",
-            "approvedDate": "2023-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "81658DAE-07D2-4EED-97E9-7A68F965AE14",
-            "approvedDocNo": "1110731654",
-            "approvedDate": "2023-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "790EEDFC-6E1E-43F3-B994-9A19223BA234",
-            "approvedDocNo": "1110731654",
-            "approvedDate": "2023-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "929EB6F1-C69F-40C3-8B80-82F3653E8557",
-            "approvedDocNo": "1110729914",
-            "approvedDate": "2023-11-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C7A1BF19-DB32-4971-8D6E-5096CB3F49D2",
-            "approvedDocNo": "1110729914",
-            "approvedDate": "2023-11-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED055D39-76F7-4125-BB89-0CA4745404A6",
-            "approvedDocNo": "1110729914",
-            "approvedDate": "2023-11-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "44C9EB26-5DB5-4518-BE74-518074FBD8AA",
-            "approvedDocNo": "1119054664",
-            "approvedDate": "2023-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E96456F6-574F-4649-A856-2CCDD2967CDF",
-            "approvedDocNo": "1119047230",
-            "approvedDate": "2023-03-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5BFB856B-0286-4186-9045-46437D0E342D",
-            "approvedDocNo": "1119049751",
-            "approvedDate": "2023-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7A08E082-3393-4690-957D-B3CA6013B589",
-            "approvedDocNo": "1119017589",
-            "approvedDate": "2022-04-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FA51065A-4EA4-45EE-8C4B-28D203CB6CDC",
-            "approvedDocNo": "1106008042",
-            "approvedDate": "2021-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B4BA4F3C-89E9-41D7-AF01-6A385BE670FA",
-            "approvedDocNo": "1106008042",
-            "approvedDate": "2021-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A05E3C4F-EBA7-4D08-9EA0-C85336F7ACD9",
-            "approvedDocNo": "1091491567",
-            "approvedDate": "2020-11-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68FDF66F-4EB2-45E3-B187-34C66B6BDE50",
-            "approvedDocNo": "1091490455",
-            "approvedDate": "2020-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "05BC6511-9B12-4318-8E38-9DEFE2C716E5",
-            "approvedDocNo": "1091492341",
-            "approvedDate": "2020-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B6EC6532-6F18-4E4D-A8B2-F3A9852161A1",
-            "approvedDocNo": "1086021586",
-            "approvedDate": "2019-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E0FAE659-88D3-4672-B4B9-08563B88585B",
-            "approvedDocNo": "1076045328",
-            "approvedDate": "2019-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L01CD02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "L01CD02"
         }
     ],

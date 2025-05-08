@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049218",
+    "licUnit": "1",
     "validDate": "2027-12-27 00:00:00.000",
     "issueDate": "2007-12-27 00:00:00.000",
+    "oriIssueDate": "2007-12-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104921807",
@@ -27,12 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8E5D6572-56A9-453A-890A-2642714FABD6",
+    "subCategory": [],
     "ingredientsDesc": [
         "POTASSIUM CITRATE MONOHYDRATE",
         "CITRIC ACID MONOHYDRATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "臺灣派頓化學製藥股份有限公司",
     "applicantAddr": "高雄市岡山區為隨里1鄰為隨東路50號",
@@ -46,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C6605B7D-3250-426F-985E-8968E64C4A7B",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨東路50號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000360",
+            "ingredientsName": "POTASSIUM CITRATE MONOHYDRATE",
             "ingredientsDesc": "POTASSIUM CITRATE MONOHYDRATE",
             "concentDesc": "",
-            "concent": "660.0000",
+            "concent": "660.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200001760",
+            "ingredientsName": "CITRIC ACID MONOHYDRATE",
             "ingredientsDesc": "CITRIC ACID MONOHYDRATE",
             "concentDesc": "",
-            "concent": "200.4000",
+            "concent": "200.400000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -85,21 +98,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FF836F39-9609-4C52-A43D-972D24E8938B",
-            "approvedDocNo": "1119009644",
-            "approvedDate": "2022-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "G04BC"
-        },
         {
             "isMain": "1",
             "atcCode": "G04BC"

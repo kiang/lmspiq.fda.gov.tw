@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047599",
+    "licUnit": "1",
     "validDate": "2025-10-27 00:00:00.000",
     "issueDate": "2005-10-27 00:00:00.000",
+    "oriIssueDate": "2005-10-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -16,7 +20,7 @@
     "does": "1166",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         },
         {
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "30FA7A3B-3124-4266-9656-F13A3D377DD6",
+    "subCategory": [],
     "ingredientsDesc": [
         "TAMSULOSIN HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "中國化學製藥股份有限公司新豐工廠",
     "applicantAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -47,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7A387985-9143-48C5-82D1-AB799342F902",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200036710",
+            "ingredientsName": "TAMSULOSIN HYDROCHLORIDE",
             "ingredientsDesc": "TAMSULOSIN HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "0.2000",
+            "concent": "0.200000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,32 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D5B6FD46-495B-4274-9A08-EF4A830C8361",
-            "approvedDocNo": "1106027958",
-            "approvedDate": "2022-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5A066DB0-3C33-4290-B153-CEA613B56EF1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0953B73A-178B-411D-809D-63E2843271BB",
-            "approvedDocNo": "1096017668",
-            "approvedDate": "2020-06-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025912",
+    "licUnit": "1",
     "validDate": "2028-01-24 00:00:00.000",
     "issueDate": "2013-01-24 00:00:00.000",
+    "oriIssueDate": "2013-01-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202591208",
@@ -27,12 +31,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4EA6D6CC-794E-4E6E-91D1-76B06E88A92F",
+    "subCategory": [],
     "ingredientsDesc": [
         "EPINEPHRINE BITARTRATE",
         "LIDOCAINE HCL"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "憶生堂生化科技股份有限公司",
     "applicantAddr": "新北市淡水區中正東路二段29之5號21樓",
@@ -46,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F7F09448-20B3-4F4E-BE5A-48F9EB7C7321",
             "factoryCode": "1",
             "factoryName": "NOVOCOL PHARMACEUTICAL OF CANADA, INC.",
             "factoryAddr": "25 WOLSELEY COURT CAMBRIDGE, ONTARIO CANADA ,N1R 6X3",
@@ -56,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "FCA0033000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "87A63448-A21B-4B0A-85F7-9576CB3F447A",
             "factoryCode": "2",
             "factoryName": " 集康國際股份有限公司文化倉",
             "factoryAddr": "新北市林口區文化二路二段383號1樓及369號3樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -74,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "6131171103",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001010",
+            "ingredientsName": "LIDOCAINE HCL",
             "ingredientsDesc": "LIDOCAINE HCL",
             "concentDesc": null,
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -92,9 +106,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212000620",
+            "ingredientsName": "EPINEPHRINE BITARTRATE",
             "ingredientsDesc": "EPINEPHRINE BITARTRATE",
             "concentDesc": null,
-            "concent": "0.0180",
+            "concent": "0.018000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -103,44 +118,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B23E9FB8-8586-465D-901F-247CBA25DD6B",
-            "approvedDocNo": "1129032069",
-            "approvedDate": "2023-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C54CF2E3-260B-4655-A901-384E528EE329",
-            "approvedDocNo": "1129021305",
-            "approvedDate": "2023-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A99FE9B0-2F5E-433C-808E-881002FD0664",
-            "approvedDocNo": "1110031417",
-            "approvedDate": "2023-01-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N01BB52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B02BC09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N01BB02"
         }
     ],
     "licBaseId": "B4856521-6DEA-4147-A856-565EC9276755"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024769",
+    "licUnit": "1",
     "validDate": "2028-01-04 00:00:00.000",
     "issueDate": "2008-01-04 00:00:00.000",
+    "oriIssueDate": "2008-01-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202476901",
@@ -23,17 +27,21 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0059B4E6-8BF8-4AC6-A975-D49D52EB10F8",
+    "subCategory": [],
     "ingredientsDesc": [
         "TENOFOVIR DISOPROXIL FUMARATE",
         "EMTRICITABINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5A"
+        "02 輸 入",
+        "07 新藥監視",
+        "5A 本品係依本署93年05月05日衛署藥字第0930309777號公告經本署認定得免除銜接性試驗，且經本署核定之新藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "香港商吉立亞醫藥有限公司台灣分公司",
-    "applicantAddr": "臺北市信義區松仁路32號10樓之1、36號10樓之1",
+    "applicantAddr": "臺北市信義區松高路77號48樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -44,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C213A75D-26BF-4F6C-9725-FF8241792F71",
             "factoryCode": "1",
             "factoryName": "PATHEON, INC.",
             "factoryAddr": "2100 SYNTEX COURT, MISSISSAUGA, ONTARIO L5N 7K9, CANADA ",
@@ -54,9 +63,12 @@
             "factoryKind": "M",
             "factoryNo": "FCA0024100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1D0E4A0D-CE7D-4EEB-8D1C-95F6076C6307",
             "factoryCode": "2",
             "factoryName": "GILEAD SCIENCES INC.",
             "factoryAddr": "333 LAKESIDE DRIVE, FOSTER CITY, CALIFORNIA(CA) 94404, USA",
@@ -72,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0480000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818003510",
+            "ingredientsName": "TENOFOVIR DISOPROXIL FUMARATE",
             "ingredientsDesc": "TENOFOVIR DISOPROXIL FUMARATE",
             "concentDesc": "(eq. to tenofovir disoproxil 245 mg)",
-            "concent": "300.0000",
+            "concent": "300.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,9 +105,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818003700",
+            "ingredientsName": "EMTRICITABINE",
             "ingredientsDesc": "EMTRICITABINE",
             "concentDesc": null,
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -101,52 +117,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8FCAC66B-1341-4D7E-B531-8C544E1AF465",
-            "approvedDocNo": "1096014823",
-            "approvedDate": "2020-09-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "99571C6D-4482-4137-A47B-1681422E81FC",
-            "approvedDocNo": "1076041331",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "29CF1798-CA8E-4BBE-AB39-176EABB0EAD4",
-            "approvedDocNo": "1076041331",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB6FB606-CBD7-4076-B757-1F6A1A5CA76E",
-            "approvedDocNo": "1076041331",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J05AR03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AF09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AF07"
         }
     ],
     "licBaseId": "5067D976-F2F6-4F86-8EC3-9F0AEA3D806E"

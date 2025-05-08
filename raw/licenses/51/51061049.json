@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51061049",
+    "licUnit": "1",
     "validDate": "2026-12-28 00:00:00.000",
     "issueDate": "2021-12-28 00:00:00.000",
+    "oriIssueDate": "2021-12-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106104901",
@@ -27,13 +31,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "76290904-6FFA-4F5A-90CF-26FBF3F2E8AB",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "AZACITIDINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "霖揚生技製藥股份有限公司",
     "applicantAddr": "苗栗縣竹南鎮頂埔里科研路50-3號4樓、50-5號4樓、50-8號3樓、50-8號4樓、50-8號5樓、50-9號5樓",
@@ -47,26 +56,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A02F181A-2EAD-4A0E-BEAA-DD6135B3E3AC",
             "factoryCode": "1",
             "factoryName": "霖揚生技製藥股份有限公司",
             "factoryAddr": "苗栗縣竹南鎮頂埔里科研路50-3號4樓、50-5號4樓、50-8號3樓、50-8號4樓、50-8號5樓、50-9號5樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6135041295",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1008400500",
+            "ingredientsName": "AZACITIDINE",
             "ingredientsDesc": "AZACITIDINE",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

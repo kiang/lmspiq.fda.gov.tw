@@ -1,11 +1,15 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "72000047",
+    "licUnit": "1",
     "validDate": "2033-11-21 00:00:00.000",
     "issueDate": "2023-11-21 00:00:00.000",
-    "licKind": "02",
+    "oriIssueDate": "2023-11-21",
+    "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA07200004704",
     "prodNameC": "櫻普立皮下注射劑120毫克",
@@ -27,14 +31,19 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "8B17AA5A-F906-44E4-8CA7-48B52979ADB9",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "satralizumab"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣中外製藥股份有限公司",
     "applicantAddr": "台北市松山區敦化北路260號3樓",
@@ -48,19 +57,28 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B041B5C0-25D4-42B5-9736-602D2C602A1D",
             "factoryCode": "1",
             "factoryName": "UTSUNOMIYA PLANT OF CHUGAI PHARMA MANUFACTURING CO., LTD.",
             "factoryAddr": "16-3 KIYOHARA KOGYODANCHI, UTSUNOMIYA-CITY, TOCHIGI, JAPAN",
-            "factoryCompanyAddr": "5-1 UKIMA 5-CHOME,KITA-KU,TOKYO,JAPAN",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
-            "processCode": [],
-            "processCodeStr": null,
+            "processCode": [
+                {
+                    "value": "66",
+                    "name": "成品製造廠"
+                }
+            ],
+            "processCodeStr": "66;成品製造廠",
             "factoryKind": "M",
             "factoryNo": "FJP0526100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2BF724EE-48E1-44D5-8BAF-39CCEDE1DFEB",
             "factoryCode": "2",
             "factoryName": "UKIMA PLANT OF CHUGAI PHARMA MANUFACTURING CO., LTD.",
             "factoryAddr": "5-1, UKIMA 5-CHOME, KITA-KU, TOKYO JAPAN",
@@ -76,13 +94,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0533100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "DD8C1474-66FF-406D-AE9C-6EB9EA632F3F",
             "factoryCode": "2",
             "factoryName": "Bushu Pharmaceuticals Ltd. Kawagoe Factory",
             "factoryAddr": "1 Takeno, Kawagoe, Saitama, 350-0801, Japan",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [
                 {
@@ -94,16 +115,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0621100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013008400",
+            "ingredientsName": "satralizumab",
             "ingredientsDesc": "satralizumab",
             "concentDesc": "",
-            "concent": "120.000",
+            "concent": "120.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

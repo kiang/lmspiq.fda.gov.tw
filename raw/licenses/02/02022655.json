@@ -38,8 +38,8 @@
         "OCTREOTIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -53,28 +53,32 @@
     "licidOld": null,
     "factoryDtoList": [
         {
-            "id": "FEDE265C-1A4C-4F85-8425-19D9D69F2620",
+            "id": "F5BEE530-13BB-454C-87ED-10386C8D6DF5",
             "factoryCode": "1",
             "factoryName": "Novartis Pharmaceutical Manufacturing GmbH",
-            "factoryAddr": "BIOCHEMIESTRASSE 10, 6336 LANGKAMPFEN, AUSTRIA",
+            "factoryAddr": "Biochemiestraße 10, 6336 Langkampfen, Austria",
             "factoryCompanyAddr": "",
             "countryCode": "AT",
             "processCode": [
                 {
-                    "value": "42",
-                    "name": "半成品(BULK MICROSPHERE)"
+                    "value": "66",
+                    "name": "成品製造廠"
+                },
+                {
+                    "value": "0C",
+                    "name": "一級包裝廠"
                 }
             ],
-            "processCodeStr": "42;半成品(BULK MICROSPHERE)",
+            "processCodeStr": "66;成品製造廠#0C;一級包裝廠",
             "factoryKind": "M",
-            "factoryNo": "FAT0030000",
+            "factoryNo": "FAT0071000",
             "factoryInfo": null,
             "qsd": null,
             "qsdList": [],
             "factoryMadeIn": null
         },
         {
-            "id": "FDB3481D-D94D-44F3-94CF-783FE343F10C",
+            "id": "85ED4338-4817-4EFE-9656-4424DF442A18",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA STEIN AG",
             "factoryAddr": "SCHAFFHAUSERSTRASSE CH-4332 STEIN, SWITZERLAND",
@@ -82,11 +86,11 @@
             "countryCode": "CH",
             "processCode": [
                 {
-                    "value": "43",
-                    "name": "FINAL ASSEMBLY"
+                    "value": "1A",
+                    "name": "二級包裝廠"
                 }
             ],
-            "processCodeStr": "43;FINAL ASSEMBLY",
+            "processCodeStr": "1A;二級包裝廠",
             "factoryKind": "M",
             "factoryNo": "FCH0088000",
             "factoryInfo": null,
@@ -95,28 +99,7 @@
             "factoryMadeIn": null
         },
         {
-            "id": "42844108-DBEA-4774-BC72-A6DC8F4FBA97",
-            "factoryCode": "2",
-            "factoryName": "Abbott BIOLOGICALS B.V.",
-            "factoryAddr": "VEERWEG 12, NL-8121 AA OLST, THE NETHERLANDS",
-            "factoryCompanyAddr": "C.J.VAN HOUTENLAAN 36,1381 CP WEESP,THE NETHERLAND",
-            "countryCode": "NL",
-            "processCode": [
-                {
-                    "value": "44",
-                    "name": "2.5ml PREFILLED SYRINGE"
-                }
-            ],
-            "processCodeStr": "44;2.5ml PREFILLED SYRINGE",
-            "factoryKind": "M",
-            "factoryNo": "FNL0023000",
-            "factoryInfo": null,
-            "qsd": null,
-            "qsdList": [],
-            "factoryMadeIn": null
-        },
-        {
-            "id": "D5C05891-46FB-448F-A79D-6B4C0F0783BC",
+            "id": "56FEAEAB-B851-4B7F-A1BE-4AD0BA4DC491",
             "factoryCode": "2",
             "factoryName": "ABBOTT BIOLOGICALS B.V.",
             "factoryAddr": "VEERWEG 12, 8121 AA OLST, THE NETHERLANDS",
@@ -126,9 +109,13 @@
                 {
                     "value": "1A",
                     "name": "二級包裝廠"
+                },
+                {
+                    "value": "44",
+                    "name": "2.5ml PREFILLED SYRINGE"
                 }
             ],
-            "processCodeStr": "1A;二級包裝廠",
+            "processCodeStr": "1A;二級包裝廠#44;2.5ml PREFILLED SYRINGE",
             "factoryKind": "M",
             "factoryNo": "FNL0058000",
             "factoryInfo": null,
@@ -144,7 +131,7 @@
             "ingredientsName": "OCTREOTIDE",
             "ingredientsDesc": "OCTREOTIDE",
             "concentDesc": "",
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",

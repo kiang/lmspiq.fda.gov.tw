@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023790",
+    "licUnit": "1",
     "validDate": "2028-08-04 00:00:00.000",
     "issueDate": "2003-08-04 00:00:00.000",
+    "oriIssueDate": "2003-08-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202379000",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B31F5CE1-0654-4A35-B075-63B15D7B3405",
+    "subCategory": [],
     "ingredientsDesc": [
         "IMIQUIMOD"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "53"
+        "02 輸 入",
+        "07 新藥監視",
+        "53 依本署七七公告事項八得免除國內進行臨床試驗之特殊醫療需要之新藥"
     ],
     "applicantName": "裕利股份有限公司",
     "applicantAddr": "台北市松山區南京東路四段126號10樓，10樓之1-3",
@@ -47,23 +54,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5BE295B5-2ADB-48AC-874E-C3E3472F4B3B",
             "factoryCode": "1",
             "factoryName": "ENSIGN LABORATORIES PTY LTD.",
             "factoryAddr": "490-500 WELLINGTON ROAD MULGRAVE VIC 3170, AUSTRALIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "AU",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FAU0120000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7508B190-21A9-4805-9CD7-70EEA84CFDD7",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -75,16 +86,19 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200095100",
+            "ingredientsName": "IMIQUIMOD",
             "ingredientsDesc": "IMIQUIMOD",
             "concentDesc": "",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -93,64 +107,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0E7FA94C-E722-4ABA-A752-CEB5D1B45150",
-            "approvedDocNo": "1129030029",
-            "approvedDate": "2023-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "17ACE6EC-4B7E-478F-AF7A-2664E06C02EF",
-            "approvedDocNo": "1120708350",
-            "approvedDate": "2023-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "26367DC2-CCFF-4EE3-BF0D-4AAD039B4636",
-            "approvedDocNo": "1110726578",
-            "approvedDate": "2023-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B76B776E-B475-4118-BDB9-80D2A4E41905",
-            "approvedDocNo": "1119026792",
-            "approvedDate": "2022-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "45F4E6E7-38AE-4CF9-B289-B3E1AB720AEE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2BEE706C-859E-4BFB-ADCD-E1ACB95A3098",
-            "approvedDocNo": "1106028059",
-            "approvedDate": "2021-10-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5398EABE-D36E-4E25-AF2E-8DFD4CD7E5DC",
-            "approvedDocNo": "1076042360",
-            "approvedDate": "2019-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

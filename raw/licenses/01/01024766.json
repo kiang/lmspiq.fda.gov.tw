@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01024766",
+    "licUnit": "1",
     "validDate": "2028-12-31 00:00:00.000",
     "issueDate": "1991-01-25 00:00:00.000",
+    "oriIssueDate": "1991-01-25",
     "licKind": "02",
     "oldLicid": "01024766",
     "certNo": "DHY00102476601",
@@ -16,23 +20,26 @@
     "does": "1130",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "188527AE-4601-4B1B-B6D9-848BCEAFB6F4",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLOMIPHENE CITRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "明大化學製藥股份有限公司",
     "applicantAddr": "台中市外埔區水美村水美路５２號",
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "AE85702A-0026-4F2E-B617-247DBD468276",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816000110",
+            "ingredientsName": "CLOMIPHENE CITRATE",
             "ingredientsDesc": "CLOMIPHENE CITRATE",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,16 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2FB9F7C9-7378-4F47-A53E-DC311071114D",
-            "approvedDocNo": "1129050905",
-            "approvedDate": "2023-10-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

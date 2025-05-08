@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025522",
+    "licUnit": "1",
     "validDate": "2026-09-15 00:00:00.000",
     "issueDate": "2011-09-15 00:00:00.000",
+    "oriIssueDate": "2011-09-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202552208",
@@ -27,12 +31,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9DABD9BB-348D-4770-ABB0-B5E78F6F5309",
+    "subCategory": [],
     "ingredientsDesc": [
         "FOSAPREPITANT DIMEGLUMINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "51"
+        "02 輸 入",
+        "51 免除銜接性臨床試驗",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "美商默沙東藥廠股份有限公司台灣分公司",
     "applicantAddr": "台北市信義區信義路五段106號12樓",
@@ -46,23 +54,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "25C80C3C-CF48-4046-8178-055D5CDD46FC",
             "factoryCode": "1",
             "factoryName": "Patheon Manufacturing Services LLC",
             "factoryAddr": "5900 MARTIN LUTHER KING JR HIGHWAY, GREENVILLE, NORTH CAROLINA 27834, USA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FUS0353000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4EE9C3D6-22D7-485A-8F92-A23771DDAF42",
             "factoryCode": "2",
             "factoryName": "MERCK SHARP & DOHME B.V.",
             "factoryAddr": "WAARDERWEG 39,2031 BN,HAARLEM,THE NETHERLANDS",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "NL",
             "processCode": [
                 {
@@ -74,16 +86,19 @@
             "factoryKind": "M",
             "factoryNo": "FNL0016000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200097910",
+            "ingredientsName": "FOSAPREPITANT DIMEGLUMINE",
             "ingredientsDesc": "FOSAPREPITANT DIMEGLUMINE",
             "concentDesc": "equivalent to fosaprepitant 157.5mg)",
-            "concent": "257.6000",
+            "concent": "257.600000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -92,61 +107,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "110CAEB6-DFF7-4CA4-A334-9B6D3C4770A6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "921D516B-D6D2-45BA-A986-B3CEE8DAA792",
-            "approvedDocNo": "1096014506",
-            "approvedDate": "2020-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5570ED48-BEB0-4881-9F16-D3C48EDB70A5",
-            "approvedDocNo": "1096014506",
-            "approvedDate": "2020-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "24A68963-2D99-4838-9F22-479CCF850C50",
-            "approvedDocNo": "1096014506",
-            "approvedDate": "2020-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B09FC9A9-1403-46C8-A903-814DA64FE0AD",
-            "approvedDocNo": "1096014506",
-            "approvedDate": "2020-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E844AB98-B4FD-4245-A8D3-402BC8E885ED",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A04AD12"
-        },
         {
             "isMain": "1",
             "atcCode": "A04AD12"

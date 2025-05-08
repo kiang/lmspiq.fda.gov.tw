@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "91000924",
+    "licUnit": "1",
     "validDate": "2025-04-09 00:00:00.000",
     "issueDate": "2020-04-09 00:00:00.000",
+    "oriIssueDate": "2020-04-09",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA09100092402",
@@ -23,12 +27,15 @@
     "medMCode": "01",
     "maMedCode": "",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "3C8EFBCE-3652-409E-BDD0-EADA6B05A637",
+    "subCategory": [],
     "ingredientsDesc": [
         "Amoxicillin (Amoxicillin Trihydrate) contains NLT 900ug and NMT 1050ug of C16H19N3O5S per mg, calculated on the anhydrous basis."
     ],
     "restraintItemsCode": [
-        "02",
-        "40"
+        "02 輸 入",
+        "40 大陸生產"
     ],
     "applicantName": "龍大生技股份有限公司",
     "applicantAddr": "台南市中西區民權路二段158號3樓",
@@ -42,23 +49,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2EBE99CD-C439-4284-A260-0DC3CB036A94",
             "factoryCode": "1",
             "factoryName": "SINOPHARM WEIQIDA PHARMACEUTICAL CO., LTD.",
             "factoryAddr": "ECONOMY & TECHNOLOGICAL DEVELOPMENT ZONE, SECOND MEDICAL ZONE, DATONG, SHANXI, CHINA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCN1051000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Amoxicillin (Amoxicillin Trihydrate) contains NLT 900ug and NMT 1050ug of C16H19N3O5S per mg, calculated on the anhydrous basis.",
             "ingredientsDesc": "Amoxicillin (Amoxicillin Trihydrate) contains NLT 900ug and NMT 1050ug of C16H19N3O5S per mg, calculated on the anhydrous basis.",
             "concentDesc": null,
             "concent": null,
@@ -70,72 +81,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9899E11B-ABE8-4A9A-9124-61E0F755B254",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02BD06"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BD05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BD10"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CR02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BD04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BD14"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BD01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BD12"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BD15"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BD11"
-        },
         {
             "isMain": "1",
             "atcCode": "J01CA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BD03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BD13"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BD07"
         }
     ],
     "licBaseId": "E3727553-CA75-4ED6-9208-938ADDDE0881"

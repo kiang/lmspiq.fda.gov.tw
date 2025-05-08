@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000902",
+    "licUnit": "1",
     "validDate": "2025-10-19 00:00:00.000",
     "issueDate": "2010-10-19 00:00:00.000",
+    "oriIssueDate": "2010-10-19",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000090200",
@@ -23,6 +27,11 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "54506425-5F97-4095-9D6B-0D32207BB5ED",
+    "subCategory": [
+        "C06"
+    ],
     "ingredientsDesc": [
         "CALCIUM CHLORIDE",
         "HUMAN THROMBIN",
@@ -30,7 +39,7 @@
         "APROTININ"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "百特醫療產品股份有限公司",
     "applicantAddr": "臺北市大安區敦化南路2段95號28樓",
@@ -44,23 +53,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "72033BD7-744F-4033-AF43-1D0CA767148E",
             "factoryCode": "1",
             "factoryName": "TAKEDA  MANUFACTURING AUSTRIA  AG",
             "factoryAddr": "INDUSTRIESTRASSE 67, A-1220 VIENNA, AUSTRIA.",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "AT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FAT0018000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004000810",
+            "ingredientsName": "FIBRINOGEN HUMAN",
             "ingredientsDesc": "FIBRINOGEN HUMAN",
             "concentDesc": "72-110",
             "concent": null,
@@ -72,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410000100",
+            "ingredientsName": "APROTININ",
             "ingredientsDesc": "APROTININ",
             "concentDesc": "2250-3750",
             "concent": null,
@@ -83,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012101103",
+            "ingredientsName": "HUMAN THROMBIN",
             "ingredientsDesc": "HUMAN THROMBIN",
             "concentDesc": "3.2-5.0",
             "concent": null,
@@ -94,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000300",
+            "ingredientsName": "CALCIUM CHLORIDE",
             "ingredientsDesc": "CALCIUM CHLORIDE",
             "concentDesc": "36-44",
             "concent": null,
@@ -105,73 +121,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C0187C77-71B8-4EC0-80EA-1B5964FCFF99",
-            "approvedDocNo": "1119019483",
-            "approvedDate": "2022-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6FC8090B-75C8-4542-A28B-5ADCE539506D",
-            "approvedDocNo": "1106014111",
-            "approvedDate": "2021-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "65006612-3C48-458F-B752-066DEEDF606C",
-            "approvedDocNo": "1106014111",
-            "approvedDate": "2021-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B2AD59DB-910D-4DF5-B5DA-CE67C6C3DDA9",
-            "approvedDocNo": "1106014111",
-            "approvedDate": "2021-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0A0C2723-4A8B-4391-AB9B-CFB693FA9CF6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F72CE4F6-FF41-45D0-A409-A4114BB01645",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6237F612-BAB5-4BA8-A7E7-A2D48CE59180",
-            "approvedDocNo": "1086804570",
-            "approvedDate": "2019-09-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B02AB01"
-        },
         {
             "isMain": "1",
             "atcCode": "B02AB01"

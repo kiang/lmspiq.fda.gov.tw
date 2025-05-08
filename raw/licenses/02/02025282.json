@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025282",
+    "licUnit": "1",
     "validDate": "2025-10-19 00:00:00.000",
     "issueDate": "2010-10-19 00:00:00.000",
+    "oriIssueDate": "2010-10-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202528201",
@@ -20,20 +24,24 @@
             "packageUnit": "89"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "27"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B602380B-4947-4737-8819-A355519A6019",
+    "subCategory": [],
     "ingredientsDesc": [
         "INDACATEROL MALEATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "59"
+        "02 輸 入",
+        "07 新藥監視",
+        "59 依本署891212衛署藥字第0890035812號公告於國內進行臨床試驗且經核定為新藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -47,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6A6E9116-4A54-4BFE-A3AA-BDAFE374CF91",
             "factoryCode": "1",
             "factoryName": "Siegfried Barbera S.L",
             "factoryAddr": "RONDA SANTA MARIA, 158, 08210 BARBERA DEL VALLES BARCELONA, SPAIN",
@@ -62,13 +71,16 @@
             "factoryKind": "M",
             "factoryNo": "FES0106000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7DDD4E21-A1E1-4C57-8597-A51732102942",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA AG",
             "factoryAddr": "LICHTSTRASSE 35 CH-4056 BASLE, SWITZERLAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CH",
             "processCode": [
                 {
@@ -80,16 +92,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212009710",
+            "ingredientsName": "INDACATEROL MALEATE",
             "ingredientsDesc": "INDACATEROL MALEATE",
             "concentDesc": "(EQ TO INDACATEROL )",
-            "concent": "0.1940",
+            "concent": "0.194000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -98,71 +113,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "04DC02EC-DE2C-4785-B78F-3EEFD0F9E573",
-            "approvedDocNo": "1101494731",
-            "approvedDate": "2021-08-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8C725B3A-6E1F-4D9F-A203-8F20FDB5F891",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7A9AF849-E628-4160-8EBF-95D78E517D62",
-            "approvedDocNo": "1096025743",
-            "approvedDate": "2021-02-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FAE1C5A5-27B8-4ED3-A476-F9BCE25A9F1B",
-            "approvedDocNo": "1096025743",
-            "approvedDate": "2021-02-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0B117D8B-C650-4F41-9E51-B2D0615F2753",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C72C810F-F0F9-48A8-839D-DB2480B9DC88",
-            "approvedDocNo": "1086804084",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E6BC5008-E69D-4599-9819-4C1CAA80558D",
-            "approvedDocNo": "1086804084",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "R03AC18"
-        },
-        {
-            "isMain": "2",
             "atcCode": "R03AC18"
         }
     ],

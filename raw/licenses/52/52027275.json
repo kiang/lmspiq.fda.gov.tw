@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027275",
+    "licUnit": "1",
     "validDate": "2027-11-13 00:00:00.000",
     "issueDate": "2017-11-13 00:00:00.000",
+    "oriIssueDate": "2017-11-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202727507",
@@ -23,17 +27,22 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "78C54C15-ADEB-4F7F-A529-509550E18B9A",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "tenofovir alafenamide fumarate",
         "EMTRICITABINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "香港商吉立亞醫藥有限公司台灣分公司",
-    "applicantAddr": "臺北市信義區松仁路32號10樓之1、36號10樓之1",
+    "applicantAddr": "臺北市信義區松高路77號48樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -44,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F5652C1D-4D2C-4B9B-B72D-3BE8DFEBC46C",
             "factoryCode": "1",
             "factoryName": "PATHEON INC.",
             "factoryAddr": "2100 SYNTEX COURT MISSISSAUGA, ONTARIO, CANADA L5N 7K9",
@@ -54,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "FCA0024100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818003700",
+            "ingredientsName": "EMTRICITABINE",
             "ingredientsDesc": "EMTRICITABINE",
             "concentDesc": "",
-            "concent": "200.000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818003520",
+            "ingredientsName": "tenofovir alafenamide fumarate",
             "ingredientsDesc": "tenofovir alafenamide fumarate",
             "concentDesc": "(tenofovir alafenamide fumarate  eq to tenofovir alafenamide hemifumarate)(eq to tenofovir alafenamide......10MG)",
-            "concent": "11.200",
+            "concent": "11.200000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,60 +97,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3829F3FC-9911-4EDE-A43B-82E585622C87",
-            "approvedDocNo": "1120806965",
-            "approvedDate": "2023-06-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6FA9D594-D70D-4C80-874E-CAC2EE023F6D",
-            "approvedDocNo": "1096027597",
-            "approvedDate": "2020-10-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "37C3163E-68EB-4E17-B315-326667F8DC88",
-            "approvedDocNo": "1086023229",
-            "approvedDate": "2020-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "51E485EB-3E01-4F2D-8748-36CEB8FFFC3F",
-            "approvedDocNo": "1086023229",
-            "approvedDate": "2020-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7321821A-A6D9-49CA-8AD8-57F8D9096D1D",
-            "approvedDocNo": "1086023229",
-            "approvedDate": "2020-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J05AR17"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AF13"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AF09"
         }
     ],
     "licBaseId": "19E01E0E-304E-4F1B-B22F-615675655131"

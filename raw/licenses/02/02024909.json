@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-04-29",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "02024909",
+    "licUnit": "1",
     "validDate": "2023-10-23 00:00:00.000",
     "issueDate": "2008-10-23 00:00:00.000",
+    "oriIssueDate": "2008-10-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -23,13 +29,16 @@
     "medMCode": "05",
     "maMedCode": "B",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FE97E2F6-0BA4-4200-91F1-F7FA18A07CCE",
+    "subCategory": [],
     "ingredientsDesc": [
         "METHADONE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q",
-        "32"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "32 第二級管制藥品"
     ],
     "applicantName": "衛生福利部食品藥物管理署管制藥品製藥工廠",
     "applicantAddr": "台北市南港區忠孝東路六段467號地下一層",
@@ -43,6 +52,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E6DF50A0-7AEE-429B-8A6D-375FECE89D6D",
             "factoryCode": "1",
             "factoryName": "L. MOLTENI & C. DEI F. LLI ALITTI SOCIETA DI ESERCIZIO S.P.A.",
             "factoryAddr": "STRADA STATALE 67, TOSCO ROMAGNOLA 50018, FRAZ. GRANATIERI, SCANDICCI (FIRENZE), ITALY",
@@ -53,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0415000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808801910",
+            "ingredientsName": "METHADONE HYDROCHLORIDE",
             "ingredientsDesc": "METHADONE HYDROCHLORIDE",
             "concentDesc": null,
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,31 +84,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6DD01E86-1FFF-41D2-B015-434B271F5248",
-            "approvedDocNo": "1121403560",
-            "approvedDate": "2023-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7F036EED-E8D0-4849-85E0-B2A4649B12AD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N07BC02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "N07BC02"
         }
     ],

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047554",
+    "licUnit": "1",
     "validDate": "2025-10-04 00:00:00.000",
     "issueDate": "2005-10-04 00:00:00.000",
+    "oriIssueDate": "2005-10-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104755400",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "C91B5A68-66DA-4D48-BB57-3016A2EFD275",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "PANTHENOL",
         "DL-CHLORPHENIRAMINE MALEATE",
@@ -30,8 +39,8 @@
         "ASPARTATE POTASSIUM MAGNESIUM L- ( EQ TO MAGNESIUM POTASSIUM L-ASPARTATE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "臺灣派頓化學製藥股份有限公司",
     "applicantAddr": "高雄市岡山區為隨東路50號",
@@ -45,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6B2D17D6-2803-45A8-A5CF-24F7BD46F7C2",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416000700",
+            "ingredientsName": "PANTHENOL",
             "ingredientsDesc": "PANTHENOL",
             "concentDesc": "",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212000510",
+            "ingredientsName": "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)",
             "ingredientsDesc": "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)",
             "concentDesc": "",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,9 +98,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000813",
+            "ingredientsName": "DL-CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "DL-CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
-            "concent": "0.3000",
+            "concent": "0.300000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -95,9 +110,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100452",
+            "ingredientsName": "ASPARTATE POTASSIUM MAGNESIUM L- ( EQ TO MAGNESIUM POTASSIUM L-ASPARTATE)",
             "ingredientsDesc": "ASPARTATE POTASSIUM MAGNESIUM L- ( EQ TO MAGNESIUM POTASSIUM L-ASPARTATE)",
             "concentDesc": "",
-            "concent": "15.0000",
+            "concent": "15.000000",
             "concentUnit": "001",
             "seq": "9",
             "prescription_seq": "1",
@@ -106,69 +122,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "53A88B3F-E8FC-40BD-BA2A-276F7E2CECD2",
-            "approvedDocNo": "1106812192",
-            "approvedDate": "2021-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F24D8168-29C6-4F50-8508-441D8EB1839E",
-            "approvedDocNo": "1106812192",
-            "approvedDate": "2021-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0D8F1467-7C87-4E8B-AF3F-4D7C3F64DD4F",
-            "approvedDocNo": "1106812192",
-            "approvedDate": "2021-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2D4DFCBD-5CFF-453A-8D23-5116DB42434D",
-            "approvedDocNo": "1106812192",
-            "approvedDate": "2021-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3D7B3ED4-4323-4D34-A235-8E209094D0AD",
-            "approvedDocNo": "1106812192",
-            "approvedDate": "2021-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D1C4B07F-FC15-4597-82F8-C5E3F9FD0833",
-            "approvedDocNo": "1106812192",
-            "approvedDate": "2021-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01GX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA12"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01FB02"
-        },
         {
             "isMain": "1",
             "atcCode": "S01GX"

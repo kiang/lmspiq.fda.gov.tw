@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2022-10-27",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "52026658",
+    "licUnit": "1",
     "validDate": "2025-10-26 00:00:00.000",
     "issueDate": "2015-10-26 00:00:00.000",
+    "oriIssueDate": "2015-10-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202665805",
@@ -25,12 +29,15 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1D7F8E02-648B-4F13-B4B2-CD140A80C9F0",
+    "subCategory": [],
     "ingredientsDesc": [
         "AZITHROMYCIN"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -44,26 +51,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B3B08B9E-DFDB-4B79-99F0-0D35737A4B63",
             "factoryCode": "1",
             "factoryName": "S.C. SANDOZ S.R.L.",
             "factoryAddr": "STR. LIVEZENI NR. 7A, 540472, TARGU MURES, JUD. MURES, ROMANIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "RO",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FRO0011000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812500400",
+            "ingredientsName": "AZITHROMYCIN",
             "ingredientsDesc": "AZITHROMYCIN",
             "concentDesc": "(equivalent to Azithromycin Monohydrate....256mg)",
-            "concent": "250.000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,48 +83,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CB2BA9B1-4B84-49B7-BDB2-01B202E49DA4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7A42920E-D3B2-4387-86D4-95C4103B2CE7",
-            "approvedDocNo": "1096036354",
-            "approvedDate": "2021-03-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FCF68E18-0C83-4464-9C64-22065ABC9E8C",
-            "approvedDocNo": "1096002220",
-            "approvedDate": "2020-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D53606BA-6C1A-40E0-BB75-437E9B6FFD6F",
-            "approvedDocNo": "1096002220",
-            "approvedDate": "2020-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0C1E3692-0767-4F10-9BE4-47521698C820",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

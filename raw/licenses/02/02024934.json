@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024934",
+    "licUnit": "1",
     "validDate": "2028-12-09 00:00:00.000",
     "issueDate": "2008-12-09 00:00:00.000",
+    "oriIssueDate": "2008-12-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202493400",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E01521C1-7F23-4462-AFE6-FDFA43BB374D",
+    "subCategory": [],
     "ingredientsDesc": [
         "ROTIGOTINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "58"
+        "02 輸 入",
+        "07 新藥監視",
+        "58 依本署891212衛署藥字第0890035812號公告經本署認定得免除國內銜接性試驗且經本署核定之新藥"
     ],
     "applicantName": "台灣優時比貿易有限公司",
     "applicantAddr": "台北市松山區敦化北路88號12樓之2",
@@ -43,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B8884F8A-190C-4570-B6B2-DE797A779109",
             "factoryCode": "1",
             "factoryName": "LTS LOHMANN THERAPIE-SYSTEME AG",
             "factoryAddr": "LOHMANN STRASSE 2, D-56626 ANDERNACH GERMANY",
@@ -53,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0242000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "60A09632-8E28-424A-954B-FD325645961F",
             "factoryCode": "2",
             "factoryName": "AESICA PHARMACEUTICALS Gmb",
             "factoryAddr": "MITTELSTRASSE 15, D-40789 MONHEIM AM RHEIN, GERMANY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -71,9 +82,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0550100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "6D2AA3EC-DAEC-4B9F-85C2-0804AFCBBCAB",
             "factoryCode": "2",
             "factoryName": "UCB Manufacturing Ireland Limited",
             "factoryAddr": "SHANNON INDUSTRIAL ESTATE, CO. CLARE, IRELAND",
@@ -89,16 +103,19 @@
             "factoryKind": "M",
             "factoryNo": "FIE0044000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9602093400",
+            "ingredientsName": "ROTIGOTINE",
             "ingredientsDesc": "ROTIGOTINE",
             "concentDesc": "",
-            "concent": "9.0000",
+            "concent": "9.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -107,61 +124,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "53AA99E3-3277-41D8-8B8B-8E51BCC0F3D1",
-            "approvedDocNo": "1106007585",
-            "approvedDate": "2021-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ADD3485A-F15C-4685-B9BF-4418526C54AF",
-            "approvedDocNo": "1106019853",
-            "approvedDate": "2021-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B5C37055-DDFD-4FFA-A084-01FF57B96258",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "04546F7E-08DA-4C5B-ADAF-DFF31DBBD414",
-            "approvedDocNo": "1096011132",
-            "approvedDate": "2020-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E3526A98-C271-40F8-8523-53AB4592457D",
-            "approvedDocNo": "1086033128",
-            "approvedDate": "2020-04-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1B334E9F-47B5-488C-986C-58522A7A35D8",
-            "approvedDocNo": "1076039814",
-            "approvedDate": "2019-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N04BC09"
-        },
         {
             "isMain": "1",
             "atcCode": "N04BC09"

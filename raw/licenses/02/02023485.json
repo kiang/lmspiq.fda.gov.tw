@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023485",
+    "licUnit": "1",
     "validDate": "2027-07-01 00:00:00.000",
     "issueDate": "2002-07-01 00:00:00.000",
+    "oriIssueDate": "2002-07-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202348505",
@@ -27,13 +31,17 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "07315F69-76CA-4FC3-8493-A7DE75CC6D17",
+    "subCategory": [],
     "ingredientsDesc": [
         "CASPOFUNGIN ( AS ACETATE)"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "53"
+        "02 輸 入",
+        "07 新藥監視",
+        "53 依本署七七公告事項八得免除國內進行臨床試驗之特殊醫療需要之新藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "美商默沙東藥廠股份有限公司台灣分公司",
     "applicantAddr": "台北市信義區信義路五段106號12樓",
@@ -47,10 +55,11 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "05899B3A-012E-4571-B0D0-0AA4843B59EF",
             "factoryCode": "1",
             "factoryName": "FAREVA Mirabel",
             "factoryAddr": "ROUTE DE MARSAT 63203 RIOM,FRANCE(ACTUAL ADDRESS) ROUTE DE MARSAT RIOM 63963 CLERMONT-FERRAND CEDEX 9,FRANCE(POSTAL-BOX)",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "FR",
             "processCode": [
                 {
@@ -62,16 +71,19 @@
             "factoryKind": "M",
             "factoryNo": "FFR0414000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812204210",
+            "ingredientsName": "CASPOFUNGIN ( AS ACETATE)",
             "ingredientsDesc": "CASPOFUNGIN ( AS ACETATE)",
             "concentDesc": "(55.5MG)",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -80,48 +92,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BF98F809-8B7A-4D5B-B1A4-F204F556CF8C",
-            "approvedDocNo": "1110710352",
-            "approvedDate": "2022-06-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "52842756-C056-47A2-ABC0-0E041E6689E8",
-            "approvedDocNo": "1101494663",
-            "approvedDate": "2021-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "42F36A26-44E5-4FC8-82A9-66A4DAC2C8F0",
-            "approvedDocNo": "1101494663",
-            "approvedDate": "2021-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "130D3F06-4410-4856-A310-B389C6B2A1E2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "11964922-7B4A-4BD3-87EE-9CA7BD6A3A08",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

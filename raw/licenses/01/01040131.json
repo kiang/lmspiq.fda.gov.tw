@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040131",
+    "licUnit": "1",
     "validDate": "2026-07-22 00:00:00.000",
     "issueDate": "1996-07-22 00:00:00.000",
+    "oriIssueDate": "1996-07-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104013102",
@@ -27,11 +31,15 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "09817223-20EE-4D9B-BB36-312D942C4998",
+    "subCategory": [],
     "ingredientsDesc": [
+        "ACETYLCYSTEINE",
         "ACETYLCYSTEINE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "優良生技醫藥股份有限公司",
     "applicantAddr": "臺北市內湖區內湖路１段396號11樓之1 ",
@@ -45,108 +53,51 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "58661053-80C1-4702-B572-2461E52F0CF0",
             "factoryCode": "1",
             "factoryName": "優良化學製藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉中興村光復路10號 ",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133061486",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800000100",
+            "ingredientsName": "ACETYLCYSTEINE",
             "ingredientsDesc": "ACETYLCYSTEINE",
             "concentDesc": "66.67",
-            "concent": "66.6700",
+            "concent": "66.670000",
             "concentUnit": "001",
-            "seq": "0",
+            "seq": "1",
             "prescription_seq": "1",
+            "prescription_Kind": "1"
+        },
+        {
+            "ingredientsKind": "1",
+            "ingredientsCode": "4800000100",
+            "ingredientsName": "ACETYLCYSTEINE",
+            "ingredientsDesc": "ACETYLCYSTEINE",
+            "concentDesc": "66.67MG",
+            "concent": "66.670000",
+            "concentUnit": "001",
+            "seq": "1",
+            "prescription_seq": "2",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A66935D2-0BAF-4BB5-996F-62CAD05070D9",
-            "approvedDocNo": "1120707019",
-            "approvedDate": "2023-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8F7464AF-8E9E-41C6-993F-74F8570170AD",
-            "approvedDocNo": "1120707019",
-            "approvedDate": "2023-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8EC86B15-BF27-408F-8FDE-AA2E3D2C8C64",
-            "approvedDocNo": "1120707019",
-            "approvedDate": "2023-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "40BF05BB-E193-4630-9573-F803FFD4762F",
-            "approvedDocNo": "1120707019",
-            "approvedDate": "2023-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "908AF712-C3F2-46F2-9DC5-F8EF777E234E",
-            "approvedDocNo": "1120707019",
-            "approvedDate": "2023-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A3F2CDB8-9FE3-4403-9499-BA99B3B611F0",
-            "approvedDocNo": "1110720744",
-            "approvedDate": "2022-10-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9CDBF007-A654-4CAB-A164-81CD9517F057",
-            "approvedDocNo": "1110720744",
-            "approvedDate": "2022-10-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CC925D66-04B5-4B73-8F48-74DC68AB73F8",
-            "approvedDocNo": "1110720744",
-            "approvedDate": "2022-10-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "39E01AB5-A4DE-4ECE-9AE5-44360F6F7637",
-            "approvedDocNo": "1110720744",
-            "approvedDate": "2022-10-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033074",
+    "licUnit": "1",
     "validDate": "2025-10-02 00:00:00.000",
     "issueDate": "1990-10-02 00:00:00.000",
+    "oriIssueDate": "1990-10-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103307402",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CF79D0E3-689F-4ECA-9BCD-1D1D5F6FB5AB",
+    "subCategory": [],
     "ingredientsDesc": [
         "GRAMICIDIN",
         "TRIAMCINOLONE ACETONIDE",
@@ -34,7 +41,7 @@
         "NEOMYCIN (SULFATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "大豐製藥股份有限公司",
     "applicantAddr": "彰化縣彰化市延平里岸頭巷11號",
@@ -48,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "78352AA4-DFF2-43D8-9C4F-23FAE97D94CB",
             "factoryCode": "1",
             "factoryName": "大豐製藥股份有限公司",
             "factoryAddr": "彰化縣彰化市延平里岸頭巷11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0306811300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200900",
+            "ingredientsName": "NYSTATIN",
             "ingredientsDesc": "NYSTATIN",
             "concentDesc": "POTENCY ",
-            "concent": "100000.0000",
+            "concent": "100000.000000",
             "concentUnit": "200",
             "seq": "0",
             "prescription_seq": "1",
@@ -76,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "",
-            "concent": "2.5000",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404400200",
+            "ingredientsName": "GRAMICIDIN",
             "ingredientsDesc": "GRAMICIDIN",
             "concentDesc": "(POTENCY)",
-            "concent": "0.2500",
+            "concent": "0.250000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -98,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -109,57 +123,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5F875DE4-B638-424F-96FC-5AB19DE77124",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "56BE3F7D-AF8C-4B6B-B446-66748EC66D21",
-            "approvedDocNo": "1110023464",
-            "approvedDate": "2023-03-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "91D9F5D0-DB7C-4A5F-98CC-1C239905AE88",
-            "approvedDocNo": "1110023464",
-            "approvedDate": "2023-03-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31667DD8-D4F2-4072-B1E4-3914C98957FD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D07AB09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AA01"
-        },
         {
             "isMain": "1",
             "atcCode": "D07CB01"

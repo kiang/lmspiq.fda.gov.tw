@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "59000154",
+    "licUnit": "1",
     "validDate": "2028-05-24 00:00:00.000",
     "issueDate": "2023-05-24 00:00:00.000",
+    "oriIssueDate": "2023-05-24",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHY05900015408",
@@ -27,13 +31,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "D",
+    "mainCategory": "D",
+    "drBaseId": "F45479F3-CFD0-4704-8C1E-BCAA25B89017",
+    "subCategory": [
+        "D"
+    ],
     "ingredientsDesc": [
         "Trastuzumab"
     ],
     "restraintItemsCode": [
-        "01",
-        "1D",
-        "91"
+        "01 國 產",
+        "1D 須執行風險管理計畫",
+        "91 生物相似性藥品"
     ],
     "applicantName": "台康生技股份有限公司",
     "applicantAddr": "新北市汐止區康寧街169巷101號1~6樓",
@@ -47,10 +56,11 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0A70EE50-C144-44A4-8C2E-4AD00555C66A",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區全興里中山路1001號、1001-1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -62,13 +72,16 @@
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "FDE2D614-BD3E-4B03-A607-4BBA100C6E21",
             "factoryCode": "2",
             "factoryName": "台耀化學股份有限公司蘆竹廠",
             "factoryAddr": "桃園市蘆竹區和平街36、36-1號、油管路2段398號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -80,13 +93,16 @@
             "factoryKind": "M",
             "factoryNo": "6132051075",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D07C3AFC-5EEC-4635-A763-8E6720E70483",
             "factoryCode": "2",
             "factoryName": "台康生技股份有限公司竹北廠",
             "factoryAddr": "新竹縣竹北市生醫路一段168號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -98,16 +114,19 @@
             "factoryKind": "M",
             "factoryNo": "6133051006",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013004800",
+            "ingredientsName": "Trastuzumab",
             "ingredientsDesc": "Trastuzumab",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -116,16 +135,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "12067742-BC1B-4A30-9FDF-7700E683F58D",
-            "approvedDocNo": "1129044278",
-            "approvedDate": "2023-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

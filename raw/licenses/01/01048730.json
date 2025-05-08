@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048730",
+    "licUnit": "1",
     "validDate": "2027-05-14 00:00:00.000",
     "issueDate": "2007-05-14 00:00:00.000",
+    "oriIssueDate": "2007-05-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104873002",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6DAEAFD8-D259-4B94-A79B-48F5621D48F0",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLOPIDOGREL HYDROGEN SULFATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "25"
+        "01 國 產",
+        "09 委託製造",
+        "25 監視中學名藥"
     ],
     "applicantName": "健維生技有限公司",
     "applicantAddr": "台北市中正區新生南路一段160巷6號",
@@ -47,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "36C2BA41-5B90-454D-B0CB-3677FDB23D6B",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012600210",
+            "ingredientsName": "CLOPIDOGREL HYDROGEN SULFATE",
             "ingredientsDesc": "CLOPIDOGREL HYDROGEN SULFATE",
             "concentDesc": "(as equivalent to Clopidogrel...75.00MG)",
-            "concent": "98.0000",
+            "concent": "98.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,96 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F4A16FD2-F017-46D8-AFC7-0090C1AFA955",
-            "approvedDocNo": "1120711282",
-            "approvedDate": "2023-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4F642803-552B-4335-93D1-A7AC2EA87B32",
-            "approvedDocNo": "1120711282",
-            "approvedDate": "2023-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D6C3122A-129D-4DFC-AADF-ED08C39D8A8F",
-            "approvedDocNo": "1120711282",
-            "approvedDate": "2023-08-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6989A205-6720-4F6E-B568-BBD274403D3A",
-            "approvedDocNo": "1119032229",
-            "approvedDate": "2022-07-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8B7B316B-8071-434A-81AC-CA8BFC923D89",
-            "approvedDocNo": "1106036063",
-            "approvedDate": "2022-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "434E0229-B851-4A1E-A9E8-86F1D11AD3EA",
-            "approvedDocNo": "1086031360",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B3B87A1B-1867-48AF-9984-8E5B4E7D5C28",
-            "approvedDocNo": "1086031360",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5864F67D-FC35-47B9-8E4B-942EA86DBD24",
-            "approvedDocNo": "1086031360",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BF831C2F-048A-4E23-8ECD-673183EAF620",
-            "approvedDocNo": "1086039292",
-            "approvedDate": "2020-01-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B54C12FE-4302-499A-930D-BE37860FDBDF",
-            "approvedDocNo": "1086039292",
-            "approvedDate": "2020-01-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E4AF9529-AA86-4C50-B3D6-BE97107B3D40",
-            "approvedDocNo": "1086039292",
-            "approvedDate": "2020-01-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

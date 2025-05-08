@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027993",
+    "licUnit": "1",
     "validDate": "2025-11-30 00:00:00.000",
     "issueDate": "2020-11-30 00:00:00.000",
+    "oriIssueDate": "2020-11-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202799301",
@@ -23,12 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "C48256D9-3A3D-45BC-8A00-C543C9978AC1",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "IMATINIB MESYLATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "毅有生技醫藥股份有限公司",
     "applicantAddr": "新北市中和區中山路２段332巷37號13樓",
@@ -42,26 +52,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DE01CC15-DE96-40C4-B3AF-5D3E00210935",
             "factoryCode": "1",
             "factoryName": "ZYDUS LIFESCIENCES LIMITED",
             "factoryAddr": "PLOT NO. 1-A\/1 & 2, PHARMEZ, (SPECIAL ECONOMIC ZONE), MATODA, SARKHEJ-BAVIA N.H. NO.8A, TAL. SANAND DIST. AHMEDABAD, GUJARAT STATE, INDIA-382 213",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN1097000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000710",
+            "ingredientsName": "IMATINIB MESYLATE",
             "ingredientsDesc": "IMATINIB MESYLATE",
             "concentDesc": "(eq. to Imatinib.....100mg)",
-            "concent": "119.500",
+            "concent": "119.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,32 +84,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F8F10948-8E0D-4AFD-A7D6-D5AA80BA65FC",
-            "approvedDocNo": "1119058297",
-            "approvedDate": "2023-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B965635A-C93D-4207-89E0-FC166B439503",
-            "approvedDocNo": "1119035734",
-            "approvedDate": "2022-10-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C022DB6F-CF61-4423-9473-FFBA7DDC367C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

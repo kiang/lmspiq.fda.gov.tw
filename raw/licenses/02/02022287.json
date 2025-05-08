@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-04-22",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "02022287",
+    "licUnit": "1",
     "validDate": "2023-09-11 00:00:00.000",
     "issueDate": "1998-09-11 00:00:00.000",
+    "oriIssueDate": "1998-09-11",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00202228709",
@@ -16,18 +22,21 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "74AEBB54-D6A6-466A-9475-120CE01D9CE0",
+    "subCategory": [],
     "ingredientsDesc": [
         "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "東信化學藥品有限公司",
     "applicantAddr": "台北市吉林路４５號６樓",
@@ -41,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B00C3121-A58C-496B-8C0E-0BAF43F319EA",
             "factoryCode": "1",
             "factoryName": "CAMBREX PROFARMACO MILANO S.R.L.",
             "factoryAddr": "PAULLO (MI), VIA CURIEL 34, ITLAY",
-            "factoryCompanyAddr": "VIA CURIEL 34, 20067 PAULLO (MI), ITALY",
+            "factoryCompanyAddr": "PAULLO (MI), VIA CURIEL 34, ITLAY",
             "countryCode": "IT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIT0107000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001410",
+            "ingredientsName": "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
             "ingredientsDesc": "METAPROTERENOL SULFATE (ORCIPRENALINE SULFATE)",
             "concentDesc": "METAPROTERENOL SULFATE (ORCIPRENALINE SULPHATE) contains not less than 98.0% and not more than 102.0% of (C11H17NO3)2˙H2SO4, calculated with reference to the anhydrous, methanol-free substance.",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "005",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,10 +84,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R03CB03"
-        },
         {
             "isMain": "1",
             "atcCode": "R03AB03"

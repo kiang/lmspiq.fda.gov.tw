@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
-    "cancelDate": "2005-10-26",
+    "licStatus": "1",
+    "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039094",
+    "licUnit": "1",
     "validDate": "2025-10-27 00:00:00.000",
     "issueDate": "2005-10-27 00:00:00.000",
+    "oriIssueDate": "2005-10-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,15 +31,18 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "29286EDF-AD41-477E-88AA-6C097A0841F4",
+    "subCategory": [],
     "ingredientsDesc": [
         "CEFOPERAZONE(AS SODIUM)STERILE",
         "CEFOPERAZONE(AS SODIUM)STERILE",
         "CEFOPERAZONE(AS SODIUM)STERILE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "1U"
+        "01 國 產",
+        "1R 不得製造",
+        "1U 未依本署規定完成變更中文仿單安全性資訊，不得輸入或製造"
     ],
     "applicantName": "榮民製藥股份有限公司",
     "applicantAddr": "桃園市中壢區中山東路３段４４７號",
@@ -49,6 +56,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CC6BE2A9-B9CC-4171-BFEB-F94CD4FFA001",
             "factoryCode": "1",
             "factoryName": "信東生技股份有限公司觀音廠",
             "factoryAddr": "桃園市觀音區樹林村國建一路1號",
@@ -59,16 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "6132121125",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812392011",
+            "ingredientsName": "CEFOPERAZONE(AS SODIUM)STERILE",
             "ingredientsDesc": "CEFOPERAZONE(AS SODIUM)STERILE",
             "concentDesc": "",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812392011",
+            "ingredientsName": "CEFOPERAZONE(AS SODIUM)STERILE",
             "ingredientsDesc": "CEFOPERAZONE(AS SODIUM)STERILE",
             "concentDesc": "",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -88,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812392011",
+            "ingredientsName": "CEFOPERAZONE(AS SODIUM)STERILE",
             "ingredientsDesc": "CEFOPERAZONE(AS SODIUM)STERILE",
             "concentDesc": "",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "1",
@@ -99,31 +112,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DD810930-C8DF-481E-9542-1E7ED05DB9A6",
-            "approvedDocNo": "1106812950",
-            "approvedDate": "2021-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7AFDCB01-2CA5-4A48-ACAB-D7A69720BC56",
-            "approvedDocNo": "1106812950",
-            "approvedDate": "2021-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J01DD12"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J01DD12"
         }
     ],

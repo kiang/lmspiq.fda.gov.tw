@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027667",
+    "licUnit": "1",
     "validDate": "2029-05-20 00:00:00.000",
     "issueDate": "2019-05-20 00:00:00.000",
+    "oriIssueDate": "2019-05-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202766701",
@@ -23,14 +27,20 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "F3F19FC9-C133-495C-BDF5-4CECAAF68A2C",
+    "subCategory": [
+        "A06"
+    ],
     "ingredientsDesc": [
         "Micronized purified flavonoid fraction"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
-    "applicantName": "新加坡商施維雅股份有限公司臺灣分公司",
-    "applicantAddr": "台北市中山區松江路168號3樓",
+    "applicantName": "新加坡商施維雅股份有限公司台灣分公司",
+    "applicantAddr": "台北市中山區松江路169號17樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -41,23 +51,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "34369462-25AA-41B1-A4C7-B61B7F047314",
             "factoryCode": "1",
             "factoryName": "LES LABORATOIRES SERVIER INDUSTRIE",
             "factoryAddr": "905 ROUTE DE SARAN 45520 GIDY-FRANCE",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "FR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FFR0075000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "55E85A6D-FD3E-4B0D-A75A-732729B93832",
             "factoryCode": "2",
             "factoryName": "LES LABORATOIRES SERVIER.",
             "factoryAddr": "50 RUE CARNOT, 92284 SURESNES CEDEX, FRANCE.",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "FR",
             "processCode": [
                 {
@@ -69,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "FFR0075100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8834000000",
+            "ingredientsName": "Micronized purified flavonoid fraction",
             "ingredientsDesc": "Micronized purified flavonoid fraction",
             "concentDesc": "(Corresponding to diosmin 90% and flavonoids expressed in hesperidin 10%) Average humidity......40.000 mg",
-            "concent": "1000.000",
+            "concent": "1000.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,43 +104,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C077D35E-B56C-4197-A574-90B83592965B",
-            "approvedDocNo": "1129047533",
-            "approvedDate": "2023-11-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4F28230C-20C1-445E-879B-3420F5844007",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "20B1D72B-D6D3-4FC5-9B68-60E0AB2D1321",
-            "approvedDocNo": "1086040095",
-            "approvedDate": "2020-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "C05CA03"
-        },
-        {
             "isMain": "1",
-            "atcCode": "C05CA53"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C05CA53"
         }
     ],

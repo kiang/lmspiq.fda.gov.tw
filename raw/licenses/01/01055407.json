@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055407",
+    "licUnit": "1",
     "validDate": "2025-10-05 00:00:00.000",
     "issueDate": "2010-10-05 00:00:00.000",
+    "oriIssueDate": "2010-10-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105540709",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9C214E8C-0105-4D8C-8355-530605163662",
+    "subCategory": [],
     "ingredientsDesc": [
         "KETOCONAZOLE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "科華生技醫藥股份有限公司",
     "applicantAddr": "台北市內湖區民權東路６段１８０巷６號８樓之１１",
@@ -41,26 +48,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3461D7DC-BDF0-4C76-952F-CCE4A8AAC652",
             "factoryCode": "1",
             "factoryName": "仙台藥品工業股份有限公司",
             "factoryAddr": "台南市新營區新工路35號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6141010037",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200700",
+            "ingredientsName": "KETOCONAZOLE",
             "ingredientsDesc": "KETOCONAZOLE",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -69,23 +80,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CC0FEF8B-3299-4ADE-BA1C-D27C8B6D9F2C",
-            "approvedDocNo": "1100005704",
-            "approvedDate": "2021-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D01AC08"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D01AC08"
         }
     ],

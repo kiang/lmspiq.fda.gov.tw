@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033098",
+    "licUnit": "1",
     "validDate": "2025-10-11 00:00:00.000",
     "issueDate": "1990-10-11 00:00:00.000",
+    "oriIssueDate": "1990-10-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103309800",
@@ -16,19 +20,22 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2A2493D2-32F0-4B90-B32C-309E238551E8",
+    "subCategory": [],
     "ingredientsDesc": [
         "CIMETIDINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "聯邦化學製藥股份有限公司",
     "applicantAddr": "台北市內湖區瑞光路26巷36弄2號5樓",
@@ -42,26 +49,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "485C513B-AE66-45B2-9AE1-07E1A65EC3F2",
             "factoryCode": "1",
             "factoryName": "保瑞藥業股份有限公司",
             "factoryAddr": "台南市官田區二鎮里工業西路54號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105140025",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640000500",
+            "ingredientsName": "CIMETIDINE",
             "ingredientsDesc": "CIMETIDINE",
             "concentDesc": "400",
-            "concent": "400.0000",
+            "concent": "400.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -70,16 +81,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AE494E2C-5326-49AD-94C3-87F4E18A5090",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

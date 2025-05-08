@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-04-07",
+    "cancelReason": [
+        "85A"
+    ],
+    "otherCancelReason": "",
     "licid": "52026137",
+    "licUnit": "1",
     "validDate": "2023-08-28 00:00:00.000",
     "issueDate": "2013-08-28 00:00:00.000",
+    "oriIssueDate": "2013-08-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202613703",
@@ -23,13 +29,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6233225B-0FDB-4BD9-8204-77D7C5720C6C",
+    "subCategory": [],
     "ingredientsDesc": [
         "XYLOMETAZOLINE HCL",
         "Ipratropium bromide (monohydrate)"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "英商葛蘭素史克消費保健用品股份有限公司台灣分公司",
     "applicantAddr": "臺北市中正區忠孝西路一段66號24樓",
@@ -43,26 +52,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DFBE2626-45A1-464E-B249-A142F3629EA2",
             "factoryCode": "1",
             "factoryName": "NOVARTIS CONSUMER HEALTH SA",
             "factoryAddr": "ROUTE DE 1'ETRAZ, 1260 NYON, SWITZERLAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CH",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCH0094000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208002740",
+            "ingredientsName": "Ipratropium bromide (monohydrate)",
             "ingredientsDesc": "Ipratropium bromide (monohydrate)",
             "concentDesc": "",
-            "concent": "0.600",
+            "concent": "0.600000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5232000410",
+            "ingredientsName": "XYLOMETAZOLINE HCL",
             "ingredientsDesc": "XYLOMETAZOLINE HCL",
             "concentDesc": "",
-            "concent": "0.500",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,28 +96,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D49F7E75-F376-4EB8-AC64-DB8141095AC8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R01AA07"
-        },
         {
             "isMain": "1",
             "atcCode": "R01AB06"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03BB01"
         }
     ],
     "licBaseId": "90A51E5B-CC18-40CF-8EBB-E831A81001E1"

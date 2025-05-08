@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058948",
+    "licUnit": "1",
     "validDate": "2025-10-19 00:00:00.000",
     "issueDate": "2015-10-19 00:00:00.000",
+    "oriIssueDate": "2015-10-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105894802",
@@ -26,13 +30,18 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "4ECC771B-EC25-44D7-85AA-69217AF3CC5E",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "TRIAMCINOLONE ACETONIDE",
         "ECONAZOLE NITRATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "光南製藥股份有限公司宜蘭廠",
     "applicantAddr": "宜蘭縣宜蘭市黎明二路240號",
@@ -46,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B6FE3C6C-C6E6-4FE7-AEC5-29BCA19B1037",
             "factoryCode": "1",
             "factoryName": "光南製藥股份有限公司宜蘭廠",
             "factoryAddr": "宜蘭縣宜蘭市黎明二路240號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0606029300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812201410",
+            "ingredientsName": "ECONAZOLE NITRATE",
             "ingredientsDesc": "ECONAZOLE NITRATE",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "",
-            "concent": "1.000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,60 +99,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CD31DBDA-8ACB-4031-B3F9-13AD181739B2",
-            "approvedDocNo": "1120606586",
-            "approvedDate": "2023-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "394D434A-6656-4F9C-A181-35990706826A",
-            "approvedDocNo": "1120606586",
-            "approvedDate": "2023-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8B130636-5F81-4191-98CE-CC680A77D8B1",
-            "approvedDocNo": "1120606586",
-            "approvedDate": "2023-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68E142F9-C6C0-4815-9F29-E902E0A8887C",
-            "approvedDocNo": "1120606586",
-            "approvedDate": "2023-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "37294036-DF0C-4E6D-A621-A9FAE075B5AF",
-            "approvedDocNo": "1080021293",
-            "approvedDate": "2019-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D01AC03"
-        },
         {
             "isMain": "1",
             "atcCode": "D01AC03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AB09"
         }
     ],
     "licBaseId": "BBF36239-F8E3-4CF7-820A-196E34D85FBC"

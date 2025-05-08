@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-04-28",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "52027351",
+    "licUnit": "1",
     "validDate": "2027-12-20 00:00:00.000",
     "issueDate": "2017-12-20 00:00:00.000",
+    "oriIssueDate": "2017-12-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202735100",
@@ -27,13 +33,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "C787C779-C947-4091-9492-723D6CA93658",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "IMATINIB MESYLATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "香港商梯瓦藥業有限公司台灣分公司",
     "applicantAddr": "台北市中正區忠孝東路二段116號10樓",
@@ -47,26 +58,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0B1E161E-1A6F-4101-9232-00D84AE042A3",
             "factoryCode": "1",
             "factoryName": "PLIVA CROATIA LTD.",
             "factoryAddr": "PRILAZ BARUNA FILIPOVICA 25, 10000 ZAGREB, CROATIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "HR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FHR0002100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000710",
+            "ingredientsName": "IMATINIB MESYLATE",
             "ingredientsDesc": "IMATINIB MESYLATE",
             "concentDesc": "(eq. to Imatinib.....100mg)",
-            "concent": "121.858",
+            "concent": "121.858000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,72 +90,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AC1292F8-3E50-4ABA-96AF-BE341D581BE9",
-            "approvedDocNo": "1119050747",
-            "approvedDate": "2022-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "53A73223-0AD5-48DD-AC46-CED120DB19E2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DC8AF8B8-F51C-4265-8FB3-A777538A5E58",
-            "approvedDocNo": "1110706113",
-            "approvedDate": "2022-04-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0FC08ABF-4315-4875-B99C-8410F39692CF",
-            "approvedDocNo": "1101497660",
-            "approvedDate": "2022-03-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "654E166F-B63D-459E-9705-06F7E1135068",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8C401D9F-C971-43E3-8179-179BA16E8789",
-            "approvedDocNo": "1086014000",
-            "approvedDate": "2019-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7A146E36-2C85-479C-895D-89A37AF3A147",
-            "approvedDocNo": "1086014000",
-            "approvedDate": "2019-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BAF669F2-B10D-4755-B068-43F34805A610",
-            "approvedDocNo": "1086014000",
-            "approvedDate": "2019-09-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-04-07",
+    "cancelReason": [
+        "85A"
+    ],
+    "otherCancelReason": "",
     "licid": "02016784",
+    "licUnit": "1",
     "validDate": "2023-08-06 00:00:00.000",
     "issueDate": "2013-06-27 00:00:00.000",
+    "oriIssueDate": "1988-08-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201678401",
@@ -23,14 +29,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6F22E2B2-85C4-460A-BD67-BB73D37B2684",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMILORIDE HCL",
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q",
-        "1U"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "1U 未依本署規定完成變更中文仿單安全性資訊，不得輸入或製造"
     ],
     "applicantName": "海喬國際股份有限公司",
     "applicantAddr": "台北市大同區伊寧街7之1號",
@@ -44,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F0D0B724-4DAE-4728-AA11-35C453651763",
             "factoryCode": "1",
             "factoryName": "GAP S.A.",
             "factoryAddr": "46 Agissilaou Street, Agios Dimitrios Attiki,17341 Greece",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FGR0043000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028000110",
+            "ingredientsName": "AMILORIDE HCL",
             "ingredientsDesc": "AMILORIDE HCL",
             "concentDesc": "",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": "",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,28 +97,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "957A4DCA-6822-4ED3-B0BD-20B72711020B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C03EA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C03DB01"
         }
     ],
     "licBaseId": "94A0AAD4-CDCA-4849-9F8A-53E8AC25E332"

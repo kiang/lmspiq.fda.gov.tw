@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025452",
+    "licUnit": "1",
     "validDate": "2027-07-07 00:00:00.000",
     "issueDate": "2011-07-07 00:00:00.000",
+    "oriIssueDate": "2011-07-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -23,15 +27,18 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9DB74A18-2788-4F17-B23D-0EBE4E549837",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "TRAMADOL HCL"
     ],
     "restraintItemsCode": [
-        "02",
-        "06",
-        "24",
-        "34"
+        "02 輸 入",
+        "06 管制藥品",
+        "24 監視期滿學名藥",
+        "34 第四級管制藥品"
     ],
     "applicantName": "鴻汶醫藥實業有限公司",
     "applicantAddr": "台中市西屯區文心路三段236號3樓、238號3樓",
@@ -45,23 +52,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "77BBC2E1-18D8-465D-8856-506BBB1841FE",
             "factoryCode": "1",
             "factoryName": "Apotex inc. - Etobicoke",
             "factoryAddr": "50 Steinway Boulevard,Etobicoke, Ontario, Canada M9W 6Y3 ",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CA",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCA0064100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3A3ABB98-2B2E-419E-819B-69F490CD7201",
             "factoryCode": "2",
             "factoryName": "天義企業股份有限公司",
             "factoryAddr": "新北市林口區工二工業區工五路8號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -73,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "6131171176",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808202510",
+            "ingredientsName": "TRAMADOL HCL",
             "ingredientsDesc": "TRAMADOL HCL",
             "concentDesc": null,
-            "concent": "37.5000",
+            "concent": "37.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -91,9 +105,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": null,
-            "concent": "325.0000",
+            "concent": "325.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -102,76 +117,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2219A262-33F2-4B17-8293-EED7E6297533",
-            "approvedDocNo": "1120808557",
-            "approvedDate": "2023-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "93C0ACE3-0E9C-4880-AADA-044DBA98057B",
-            "approvedDocNo": "1110023829",
-            "approvedDate": "2023-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "781E7D83-B6D8-4F10-98C7-9CAA2C8B6183",
-            "approvedDocNo": "1106611568",
-            "approvedDate": "2022-03-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "24139275-812A-4A60-9641-83E77A60B4F2",
-            "approvedDocNo": "1106607520",
-            "approvedDate": "2021-11-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2E254105-6E1D-4BEF-A0C0-AE591FACE246",
-            "approvedDocNo": "1096034651",
-            "approvedDate": "2021-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "874E0C44-DA5B-4C64-99F8-F65538B8C300",
-            "approvedDocNo": "1096025452",
-            "approvedDate": "2020-11-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CEF6AE7E-F56A-4FD8-B799-629E3AD9B454",
-            "approvedDocNo": "1081404522",
-            "approvedDate": "2019-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02AJ13"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02AX02 "
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
         }
     ],
     "licBaseId": "F53BB003-D6EA-4B97-982C-8DDE452B2494"

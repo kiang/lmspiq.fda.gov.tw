@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022462",
+    "licUnit": "1",
     "validDate": "2029-04-20 00:00:00.000",
     "issueDate": "2023-12-06 00:00:00.000",
+    "oriIssueDate": "1999-04-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202246201",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "071C1136-68C1-4794-9329-A05BA3A6C4EE",
+    "subCategory": [],
     "ingredientsDesc": [
         "LETROZOLE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -42,6 +49,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "9B503F6E-D420-472E-B974-BAFA3A160F4A",
             "factoryCode": "1",
             "factoryName": "NOVARTIS PHARMA STEIN AG",
             "factoryAddr": "SCHAFFHAUSERSTRASSE CH-4332 STEIN, SWITZERLAND",
@@ -52,9 +60,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F4730C64-853F-4C42-B736-BA0697E94588",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA. AG",
             "factoryAddr": "LICHTSTRASSE 35, 4056 BASEL, SWITZERLAND",
@@ -70,9 +81,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088500",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F4F6639A-10D4-4C71-8533-5B15D6C14183",
             "factoryCode": "2",
             "factoryName": "NOVARTIS FARMA S.P.A.",
             "factoryAddr": "VIA PROVINCIALE SCHITO 131-80058 TORRE ANNUNZIATA, ITALY",
@@ -88,16 +102,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0320000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000400",
+            "ingredientsName": "LETROZOLE",
             "ingredientsDesc": "LETROZOLE",
             "concentDesc": "",
-            "concent": "2.5000",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -106,64 +123,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "36B9250A-B47F-4A36-8884-4C8BB9607A0E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "53BDB55F-215C-439A-8C83-C46AA50B3096",
-            "approvedDocNo": "1096003066",
-            "approvedDate": "2020-07-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6B8FA736-B817-42A8-B18C-F1A82900074A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "36AFB3C4-3EF1-4043-A822-75E0F5AAE892",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "55F0B0A9-DCFD-4F72-A761-08B524E182E0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1DF9EA25-716B-4DDA-A149-2E0D837D2B67",
-            "approvedDocNo": "1071491827",
-            "approvedDate": "2019-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5EFFC45A-A201-441E-9689-9AD8B5E7C9CB",
-            "approvedDocNo": "1071491827",
-            "approvedDate": "2019-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

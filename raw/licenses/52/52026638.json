@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026638",
+    "licUnit": "1",
     "validDate": "2025-10-06 00:00:00.000",
     "issueDate": "2015-10-06 00:00:00.000",
+    "oriIssueDate": "2015-10-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202663802",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "51C25F96-8892-4242-98F5-4B4791A2644A",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIFAMPIN (EQ TO RIFAMPICIN) (EQ TO RIMACTAN)",
         "ISONIAZID"
     ],
     "restraintItemsCode": [
-        "02",
-        "61"
+        "02 輸 入",
+        "61 完成BE試驗"
     ],
     "applicantName": "必拓客有限公司",
     "applicantAddr": "基隆市信義區仁一路3號底層",
@@ -43,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4D5636B9-37E6-4FFD-93F2-DE0DB2C622B9",
             "factoryCode": "1",
             "factoryName": "MACLEODS PHARMACEUTICALS LTD.",
             "factoryAddr": "PLOT NO.25-27, SR. NO.366, PREMIER IND. ESTATE, KACHIGAM, DAMAN 396 210 (U.T.), INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0816000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812900100",
+            "ingredientsName": "RIFAMPIN (EQ TO RIFAMPICIN) (EQ TO RIMACTAN)",
             "ingredientsDesc": "RIFAMPIN (EQ TO RIFAMPICIN) (EQ TO RIMACTAN)",
             "concentDesc": "",
-            "concent": "300.000",
+            "concent": "300.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +82,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0816000900",
+            "ingredientsName": "ISONIAZID",
             "ingredientsDesc": "ISONIAZID",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,57 +94,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D64F6B7C-3970-4320-A241-1ED1D13AE851",
-            "approvedDocNo": "1119030528",
-            "approvedDate": "2022-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E1C5694C-DE4D-40BA-AFC4-768171F9CC93",
-            "approvedDocNo": "1119030528",
-            "approvedDate": "2022-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A7EEAF6-538F-4DCE-B94C-D411F2097315",
-            "approvedDocNo": "1106802206",
-            "approvedDate": "2021-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "54C969FA-5F1F-4AD0-843D-522CC3FD1473",
-            "approvedDocNo": "1106802206",
-            "approvedDate": "2021-02-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ECFD531A-D502-429D-91CC-52FDF9B84921",
-            "approvedDocNo": "1086007919",
-            "approvedDate": "2019-03-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J04AB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J04AC01"
-        },
         {
             "isMain": "1",
             "atcCode": "J04AM02"

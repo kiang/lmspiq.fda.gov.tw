@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-04-07",
+    "cancelReason": [
+        "85A"
+    ],
+    "otherCancelReason": "",
     "licid": "52026212",
+    "licUnit": "1",
     "validDate": "2023-12-10 00:00:00.000",
     "issueDate": "2013-12-10 00:00:00.000",
+    "oriIssueDate": "2013-12-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202621204",
@@ -23,14 +29,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C534E8DD-422A-415C-8748-3F9AABE7CF59",
+    "subCategory": [],
     "ingredientsDesc": [
         "LAMIVUDINE",
         "ZIDOVUDINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "香港商梯瓦藥業有限公司台灣分公司",
     "applicantAddr": "台北市中正區忠孝東路二段116號10樓",
@@ -44,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B315943C-E209-4198-B8A7-68366B029C19",
             "factoryCode": "1",
             "factoryName": "TEVA PHARMACEUTICAL WORKS PRIVATE LIMITED COMPANY",
             "factoryAddr": "PALLAGI UT 13 HUNGARY – 4042 DEBRECEN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "HU",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FHU0010100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818001400",
+            "ingredientsName": "LAMIVUDINE",
             "ingredientsDesc": "LAMIVUDINE",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818000600",
+            "ingredientsName": "ZIDOVUDINE",
             "ingredientsDesc": "ZIDOVUDINE",
             "concentDesc": "",
-            "concent": "300.000",
+            "concent": "300.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,41 +97,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0ED01354-E9DC-49CA-8EC2-CA5AA5DBF3CA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3DC78A67-FD0A-412A-A2BC-611A32BE0C2D",
-            "approvedDocNo": "1110706113",
-            "approvedDate": "2022-04-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C03F3E41-1333-41D4-A960-4E8107FF08D5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J05AF01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AF05"
-        },
         {
             "isMain": "1",
             "atcCode": "J05AR01"

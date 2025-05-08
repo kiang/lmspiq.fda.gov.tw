@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2021-08-11",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "02025273",
+    "licUnit": "1",
     "validDate": "2025-10-05 00:00:00.000",
     "issueDate": "2010-10-05 00:00:00.000",
+    "oriIssueDate": "2010-10-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202527300",
@@ -25,12 +29,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CEEFD7E3-43D7-4341-9ABE-575ECADB7189",
+    "subCategory": [],
     "ingredientsDesc": [
         "ELTROMBOPAG OLAMINE, MILLED"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -44,23 +51,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "99A49443-D983-4635-861C-34EA16D90249",
             "factoryCode": "1",
             "factoryName": "GLAXO OPERATIONS UK LIMITED",
             "factoryAddr": "PRIORY STREET, WARE, HERTFORDSHIRE SG12 0DJ, UNITED KINGDOM",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GB",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FGB0044400",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "057FB6F0-10E6-4369-B1E9-E3F8FE4CA3C7",
             "factoryCode": "2",
             "factoryName": "GLAXO WELLCOME, S.A.",
             "factoryAddr": "AVDA. EXTREMADURA 3 09400 ARANDA DE DUERO BURGOS SPAIN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "ES",
             "processCode": [
                 {
@@ -72,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "FES0122000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200090610",
+            "ingredientsName": "ELTROMBOPAG OLAMINE, MILLED",
             "ingredientsDesc": "ELTROMBOPAG OLAMINE, MILLED",
             "concentDesc": null,
-            "concent": "63.8000",
+            "concent": "63.800000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,71 +104,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "11928537-EDFB-4120-BAEA-6DB9A7F024A9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4CF86111-3160-40F1-9CBB-E46B9F38ECE5",
-            "approvedDocNo": "1096002866",
-            "approvedDate": "2020-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A9C2E13D-7070-4F46-9FF4-04B140FEB474",
-            "approvedDocNo": "1096002866",
-            "approvedDate": "2020-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FE9DA6AF-0465-48EB-BB8D-E59232EE59E5",
-            "approvedDocNo": "1076047442",
-            "approvedDate": "2019-11-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8A19F54D-9231-44DA-853D-E69F42AE1B92",
-            "approvedDocNo": "1076047442",
-            "approvedDate": "2019-11-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3695B052-E930-48F2-A91C-7326554E11E9",
-            "approvedDocNo": "1076047442",
-            "approvedDate": "2019-11-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5B6C78C6-5485-4C9C-B26F-CA89003C3B7A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "B02BX05"
-        },
-        {
-            "isMain": "2",
             "atcCode": "B02BX05"
         }
     ],

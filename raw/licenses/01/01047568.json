@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047568",
+    "licUnit": "1",
     "validDate": "2025-10-11 00:00:00.000",
     "issueDate": "2005-10-11 00:00:00.000",
+    "oriIssueDate": "2005-10-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104756801",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "13304ECD-F771-4E2C-AA82-7CE3E52BF3B9",
+    "subCategory": [],
     "ingredientsDesc": [
         "LAMOTRIGINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "61"
+        "01 國 產",
+        "09 委託製造",
+        "61 完成BE試驗"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -47,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "FA7B2E96-4CE4-4623-8F23-25EC9D5DD52B",
             "factoryCode": "1",
             "factoryName": "衛達化學製藥股份有限公司",
             "factoryAddr": "台中市南屯區寶山里工業區２３路２１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1605609300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812001600",
+            "ingredientsName": "LAMOTRIGINE",
             "ingredientsDesc": "LAMOTRIGINE",
             "concentDesc": null,
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,72 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8BDC0174-C161-4917-8640-9D994B3CA5E7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "66B06B56-1271-46F8-9EB6-23DC0B767561",
-            "approvedDocNo": "1096821785",
-            "approvedDate": "2021-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BC8017E4-ED5D-4CFF-94F2-52C6A258DD43",
-            "approvedDocNo": "1096821785",
-            "approvedDate": "2021-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0EB4D39A-771C-475C-B3FA-ED015DB3754C",
-            "approvedDocNo": "1096815390",
-            "approvedDate": "2020-12-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DFAA2BFD-27F5-4C15-A890-912377B2D97B",
-            "approvedDocNo": "1076807522",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "46DBE103-23C1-4820-B432-0E1C8804280D",
-            "approvedDocNo": "1076807522",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DC4BE939-6E63-4D53-AAAC-0F40726A688C",
-            "approvedDocNo": "1076807522",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "222683EC-A424-49D3-A888-20E9765A7EB1",
-            "approvedDocNo": "1076807522",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

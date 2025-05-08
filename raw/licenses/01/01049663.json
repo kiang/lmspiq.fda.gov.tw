@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049663",
+    "licUnit": "1",
     "validDate": "2028-09-15 00:00:00.000",
     "issueDate": "2008-09-15 00:00:00.000",
+    "oriIssueDate": "2008-09-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104966302",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4E9B2699-3782-4AEF-B7AD-D61584935362",
+    "subCategory": [],
     "ingredientsDesc": [
         "PSEUDOEPHEDRINE HCL",
         "TRIPROLIDINE HCL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "臺灣派頓化學製藥股份有限公司",
     "applicantAddr": "高雄市岡山區為隨東路50號",
@@ -42,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "338CFAF1-106F-448E-8F83-DA439813A0A7",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨東路50號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1427122200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400004110",
+            "ingredientsName": "TRIPROLIDINE HCL",
             "ingredientsDesc": "TRIPROLIDINE HCL",
             "concentDesc": "",
-            "concent": "2.5000",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +82,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002610",
+            "ingredientsName": "PSEUDOEPHEDRINE HCL",
             "ingredientsDesc": "PSEUDOEPHEDRINE HCL",
             "concentDesc": "",
-            "concent": "60.0000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,65 +94,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B69FF6FF-5634-48DE-8196-13AF0E4DD3B8",
-            "approvedDocNo": "1120808429",
-            "approvedDate": "2024-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7C669CB1-932A-458E-AB5C-1FA63E973471",
-            "approvedDocNo": "1120808429",
-            "approvedDate": "2024-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D8BB7293-CE55-4B02-98F8-3D39E2778D4E",
-            "approvedDocNo": "1120808429",
-            "approvedDate": "2024-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "465A5532-E894-41CC-91DD-4FAFEC88E1C7",
-            "approvedDocNo": "1120808429",
-            "approvedDate": "2024-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3416365D-4CF0-4C44-B54C-8D95F1842F5D",
-            "approvedDocNo": "1120808429",
-            "approvedDate": "2024-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9E98A395-1C22-4ED9-8B74-5E8A3012C7F0",
-            "approvedDocNo": "1129028039",
-            "approvedDate": "2023-06-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R06AX07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "R01BA52"

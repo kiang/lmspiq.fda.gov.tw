@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025283",
+    "licUnit": "1",
     "validDate": "2025-10-22 00:00:00.000",
     "issueDate": "2010-10-22 00:00:00.000",
+    "oriIssueDate": "2010-10-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202528303",
@@ -23,12 +27,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A7652D39-78EC-4221-B712-9E8B0CC95F31",
+    "subCategory": [],
     "ingredientsDesc": [
         "SEVOFLURANE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "百特醫療產品股份有限公司",
     "applicantAddr": "臺北市大安區敦化南路2段95號28樓",
@@ -42,6 +50,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "439487FC-AD3D-400A-9C7C-118E19C20CA3",
             "factoryCode": "1",
             "factoryName": "BAXTER HEALTHCARE CORPORATION",
             "factoryAddr": "ROUTE 3, KM. 144.2 GUAYAMA, PUERTO RICO 00784",
@@ -52,16 +61,19 @@
             "factoryKind": "M",
             "factoryNo": "FPR0018000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2804001700",
+            "ingredientsName": "SEVOFLURANE",
             "ingredientsDesc": "SEVOFLURANE",
             "concentDesc": null,
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "003",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,47 +82,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CAABE36F-9E3E-4FBD-823D-E3817B4456B3",
-            "approvedDocNo": "1119066478",
-            "approvedDate": "2023-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "563DB33D-58E3-4911-B87B-B308DF5C6091",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B79DE159-6E67-41CB-BCB5-C7BF440034AF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2E2378AF-A663-4782-857D-EA974CAB6529",
-            "approvedDocNo": "1076040024",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N01AB08"
-        },
-        {
-            "isMain": "2",
             "atcCode": "N01AB08"
         }
     ],

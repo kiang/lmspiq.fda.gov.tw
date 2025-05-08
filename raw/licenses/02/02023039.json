@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023039",
+    "licUnit": "1",
     "validDate": "2025-10-27 00:00:00.000",
     "issueDate": "2000-10-27 00:00:00.000",
+    "oriIssueDate": "2000-10-27",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00202303908",
@@ -16,13 +20,16 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "3625A0DB-B076-4AD8-A669-192ED2C9D56D",
+    "subCategory": [],
     "ingredientsDesc": [
         "CORN STARCH (EQ TO STARCH MAYDIS)(EQ TO MAIZE STARCH)",
         "TOCOPHEROL ALPHA DL- (EQ TO DL-ALPHA TOCOPHEROL)",
@@ -33,7 +40,7 @@
         "BOVINE GELATIN HYDROLYZED"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "帝斯曼營養品股份有限公司",
     "applicantAddr": "台北市士林區中山北路六段90號3樓",
@@ -47,6 +54,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "15F81610-D994-4FA9-97C6-45C661EE1218",
             "factoryCode": "1",
             "factoryName": "DSM NUTRITIONAL PRODUCTS LTD BRANCH SITE SISSELN",
             "factoryAddr": "HAUPTSTRASSE 4 CH-4334 SISSELN SWITZERLAND",
@@ -57,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0100000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000113",
+            "ingredientsName": "TOCOPHEROL ALPHA DL- (EQ TO DL-ALPHA TOCOPHEROL)",
             "ingredientsDesc": "TOCOPHEROL ALPHA DL- (EQ TO DL-ALPHA TOCOPHEROL)",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -75,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000330",
+            "ingredientsName": "ASCORBYL PALMITATE",
             "ingredientsDesc": "ASCORBYL PALMITATE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -86,9 +98,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600009000",
+            "ingredientsName": "CORN STARCH (EQ TO STARCH MAYDIS)(EQ TO MAIZE STARCH)",
             "ingredientsDesc": "CORN STARCH (EQ TO STARCH MAYDIS)(EQ TO MAIZE STARCH)",
             "concentDesc": "215",
-            "concent": "215.0000",
+            "concent": "215.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -97,9 +110,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8804000420",
+            "ingredientsName": "BETA-CAROTENE CRYSTALLINE",
             "ingredientsDesc": "BETA-CAROTENE CRYSTALLINE",
             "concentDesc": null,
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -108,9 +122,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000420",
+            "ingredientsName": "SODIUM ASCORBATE CRYST.",
             "ingredientsDesc": "SODIUM ASCORBATE CRYST.",
             "concentDesc": null,
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "0",
@@ -119,9 +134,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600012753",
+            "ingredientsName": "BOVINE GELATIN HYDROLYZED",
             "ingredientsDesc": "BOVINE GELATIN HYDROLYZED",
             "concentDesc": null,
-            "concent": "215.0000",
+            "concent": "215.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "0",
@@ -130,9 +146,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020001050",
+            "ingredientsName": "ISOMALT",
             "ingredientsDesc": "ISOMALT",
             "concentDesc": null,
-            "concent": "430.0000",
+            "concent": "430.000000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "0",
@@ -141,44 +158,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5BB535B2-5AFE-4A7D-9512-23DF89A2AE84",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0527AECB-E4CF-4073-9F9A-51E17E95AE7E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
         {
             "isMain": "1",
             "atcCode": "A11JA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
         }
     ],
     "licBaseId": "8C94E7A3-7A5C-4BD6-BDB9-9E80025279EF"
