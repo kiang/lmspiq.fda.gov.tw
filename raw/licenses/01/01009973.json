@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-15",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01009973",
+    "licUnit": "1",
     "validDate": "2022-04-01 00:00:00.000",
     "issueDate": "1976-05-31 00:00:00.000",
+    "oriIssueDate": "1976-05-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100997306",
@@ -16,17 +22,20 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "494AA5E9-4D6A-4DD9-B3DB-E6BE7B99E859",
+    "subCategory": [],
     "ingredientsDesc": [
         "BUTYLSCOPOLAMINE BROMIDE (EQ TO HYOSCINE-N-BUTYLBROMIDE)",
         "CHLOROPHYLL SODIUM COPPER",
@@ -36,9 +45,9 @@
         "CHLORDIAZEPOXIDE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "川田藥品有限公司",
     "applicantAddr": "台中市西屯區大有二街７號１樓",
@@ -52,26 +61,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "77291E3A-78E7-454D-9532-6DCC5DCB0D0E",
             "factoryCode": "1",
             "factoryName": "台裕化學製藥廠股份有限公司",
             "factoryAddr": "新竹縣竹東鎮員山路11巷13弄1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133030016",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208001210",
+            "ingredientsName": "BUTYLSCOPOLAMINE BROMIDE (EQ TO HYOSCINE-N-BUTYLBROMIDE)",
             "ingredientsDesc": "BUTYLSCOPOLAMINE BROMIDE (EQ TO HYOSCINE-N-BUTYLBROMIDE)",
             "concentDesc": null,
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -80,9 +93,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208001810",
+            "ingredientsName": "DICYCLOMINE HCL",
             "ingredientsDesc": "DICYCLOMINE HCL",
             "concentDesc": null,
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -91,9 +105,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824200210",
+            "ingredientsName": "CHLORDIAZEPOXIDE HCL",
             "ingredientsDesc": "CHLORDIAZEPOXIDE HCL",
             "concentDesc": null,
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -102,9 +117,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416000640",
+            "ingredientsName": "CHLOROPHYLL SODIUM COPPER",
             "ingredientsDesc": "CHLOROPHYLL SODIUM COPPER",
             "concentDesc": null,
-            "concent": "3.0000",
+            "concent": "3.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -113,9 +129,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000301",
+            "ingredientsName": "ALUMINUM HYDROXIDE MAGNESIUM CARBONATE CO-DRIDE GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE MAGNESIUM CARBONATE CO-DRIDE GEL",
             "concentDesc": null,
-            "concent": "350.0000",
+            "concent": "350.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "0",
@@ -124,9 +141,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612001300",
+            "ingredientsName": "MAGNESIUM OXIDE",
             "ingredientsDesc": "MAGNESIUM OXIDE",
             "concentDesc": null,
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "0",
@@ -138,32 +156,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A02AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03AA07"
-        },
-        {
             "isMain": "1",
             "atcCode": "A02X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03BB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N05BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
         }
     ],
     "licBaseId": "63277994-C791-4556-A492-7AC825B5CBCF"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060878",
+    "licUnit": "1",
     "validDate": "2026-05-10 00:00:00.000",
     "issueDate": "2021-05-10 00:00:00.000",
+    "oriIssueDate": "2021-05-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106087809",
@@ -23,6 +27,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "7040D496-FE56-4529-B6D2-8E2482463EE9",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "ACETIC ACID GLACIAL( eq to  GLACIAL ACETIC ACID)",
         "DEXTROSE MONOHYDRATE",
@@ -32,7 +41,7 @@
         "CALCIUM CHLORIDE DIHYDRATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "佳醫健康事業股份有限公司",
     "applicantAddr": "新北市中和區中正路880號17樓",
@@ -46,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A8C6F71E-0159-40C9-9D50-C75BDA209CD7",
             "factoryCode": "1",
             "factoryName": "濟生醫藥生技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉勝利村實踐路3號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133060069",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": "(Calcium Chloride 2H2O)",
-            "concent": "9.000",
+            "concent": "9.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": "",
-            "concent": "3.560",
+            "concent": "3.560000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "5.220",
+            "concent": "5.220000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -96,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "210.700",
+            "concent": "210.700000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -107,9 +123,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000570",
+            "ingredientsName": "DEXTROSE MONOHYDRATE",
             "ingredientsDesc": "DEXTROSE MONOHYDRATE",
             "concentDesc": "",
-            "concent": "77.000",
+            "concent": "77.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -118,9 +135,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600000302",
+            "ingredientsName": "ACETIC ACID GLACIAL( eq to  GLACIAL ACETIC ACID)",
             "ingredientsDesc": "ACETIC ACID GLACIAL( eq to  GLACIAL ACETIC ACID)",
             "concentDesc": "",
-            "concent": "6.310",
+            "concent": "6.310000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -129,24 +147,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BD31437C-B72C-4808-8E98-025BA0EFB98F",
-            "approvedDocNo": "1129059337",
-            "approvedDate": "2023-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "B05ZA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05Z"
         }
     ],
     "licBaseId": "BDC56D0E-30CF-4183-8CF5-18BB21F27CF7"

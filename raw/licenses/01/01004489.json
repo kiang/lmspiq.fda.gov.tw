@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-06",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "01004489",
+    "licUnit": "1",
     "validDate": "2023-05-24 00:00:00.000",
     "issueDate": "1974-07-22 00:00:00.000",
+    "oriIssueDate": "1974-07-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100448902",
@@ -16,25 +22,28 @@
     "does": "4461",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "36"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3939F44C-0AFF-4507-BD0F-F7380A03E7FF",
+    "subCategory": [],
     "ingredientsDesc": [
         "TETRACYCLINE (HCL)",
         "COLISTIN (METHASULFANATE SODIUM)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "綠洲化學工業有限公司",
     "applicantAddr": "宜蘭縣蘇澳鎮德興八路11號",
@@ -48,26 +57,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BDF26182-B480-4380-9ECD-69ABB826BB9D",
             "factoryCode": "1",
             "factoryName": "綠洲化學工業有限公司",
             "factoryAddr": "宜蘭縣蘇澳鎮德興八路11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6134031142",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812009321",
+            "ingredientsName": "COLISTIN (METHASULFANATE SODIUM)",
             "ingredientsDesc": "COLISTIN (METHASULFANATE SODIUM)",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812809910",
+            "ingredientsName": "TETRACYCLINE (HCL)",
             "ingredientsDesc": "TETRACYCLINE (HCL)",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,36 +101,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "76A35260-FF8C-4FD0-BAD1-361A31C90C4C",
-            "approvedDocNo": "1100016769",
-            "approvedDate": "2021-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "88C16568-CFED-4841-9EC9-7CBF3320A2D5",
-            "approvedDocNo": "1096817825",
-            "approvedDate": "2020-10-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "S01AA30"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AA09"
         }
     ],
     "licBaseId": "7104ACF3-943F-4FA7-A63C-47F4C576FC9B"

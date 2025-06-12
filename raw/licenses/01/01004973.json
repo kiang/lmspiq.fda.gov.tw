@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01004973",
+    "licUnit": "1",
     "validDate": "2028-09-25 00:00:00.000",
     "issueDate": "1974-09-25 00:00:00.000",
+    "oriIssueDate": "1974-09-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100497307",
@@ -23,15 +27,18 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E802203B-3E5F-4D32-BD49-E647804CF310",
+    "subCategory": [],
     "ingredientsDesc": [
         "FRADIOMYCIN (AS SULFATE)",
         "BETAMETHASONE VALERATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "台灣塩野義製藥股份有限公司",
-    "applicantAddr": "台北市中山區南京東路二段２號４樓",
+    "applicantAddr": "臺北市中山區松江路106號4樓(B戶)",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -42,26 +49,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BED943B7-521D-429D-A78E-7E32D359A8C6",
             "factoryCode": "1",
             "factoryName": "杏輝藥品工業股份有限公司",
             "factoryAddr": "宜蘭縣冬山鄉中山村中山路８４號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0705330300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000250",
+            "ingredientsName": "BETAMETHASONE VALERATE",
             "ingredientsDesc": "BETAMETHASONE VALERATE",
             "concentDesc": "(eq to betamethasone   0.494mg)",
-            "concent": "0.6000",
+            "concent": "0.600000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +81,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812100550",
+            "ingredientsName": "FRADIOMYCIN (AS SULFATE)",
             "ingredientsDesc": "FRADIOMYCIN (AS SULFATE)",
             "concentDesc": "",
-            "concent": "3.5000",
+            "concent": "3.500000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,44 +93,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1120756D-D356-4237-AB4F-626180AB929C",
-            "approvedDocNo": "1129051607",
-            "approvedDate": "2023-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DE7B6A0C-F940-4A99-91F2-19D197A9CEB8",
-            "approvedDocNo": "1110720430",
-            "approvedDate": "2022-11-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EFDAD58F-A7B4-491A-BE26-5C8B176150AC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D07CC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX04"
         }
     ],
     "licBaseId": "F462D7FC-AACD-448A-BA79-18D2BA4919F4"

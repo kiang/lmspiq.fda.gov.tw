@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-06",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "01022745",
+    "licUnit": "1",
     "validDate": "2023-05-24 00:00:00.000",
     "issueDate": "1981-01-09 00:00:00.000",
+    "oriIssueDate": "1981-01-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102274509",
@@ -16,19 +22,22 @@
     "does": "4472",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1817B663-AA12-4FE7-93AE-1B575D8FA7E0",
+    "subCategory": [],
     "ingredientsDesc": [
         "NEOMYCIN (SULFATE)",
         "PREDNISOLONE (PHOSPHATE SODIUM)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "綠洲化學工業有限公司",
     "applicantAddr": "宜蘭縣蘇澳鎮德興八路11號",
@@ -42,26 +51,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CE75F7E0-C6DD-40E2-AF45-906487E6E72A",
             "factoryCode": "1",
             "factoryName": "綠洲化學工業有限公司",
             "factoryAddr": "宜蘭縣蘇澳鎮德興八路11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6134031142",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "3.5",
-            "concent": "3.5000",
+            "concent": "3.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804091540",
+            "ingredientsName": "PREDNISOLONE (PHOSPHATE SODIUM)",
             "ingredientsDesc": "PREDNISOLONE (PHOSPHATE SODIUM)",
             "concentDesc": "(5) 3.72",
             "concent": null,
@@ -81,36 +95,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "611FBBBC-75AC-4C68-932E-521094C20E18",
-            "approvedDocNo": "1100016769",
-            "approvedDate": "2021-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "89929543-3923-471B-BF39-D519DB64BFF3",
-            "approvedDocNo": "1096817825",
-            "approvedDate": "2020-10-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "S01CA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01BA04"
         }
     ],
     "licBaseId": "940554F2-4F0F-48B4-B40B-C6B95EF59F1E"

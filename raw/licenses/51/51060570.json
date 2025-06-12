@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060570",
+    "licUnit": "1",
     "validDate": "2025-11-02 00:00:00.000",
     "issueDate": "2020-11-02 00:00:00.000",
+    "oriIssueDate": "2020-11-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106057007",
@@ -23,12 +27,17 @@
     "medMCode": "17",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "64265030-4E8E-45E6-A6F8-C75040095C3C",
+    "subCategory": [
+        "A05"
+    ],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "ACETAMINOPHEN MICRONIZED"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -42,6 +51,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "E9C223ED-1163-4189-892B-DEE12A905B24",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業一路６號",
@@ -52,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000140",
+            "ingredientsName": "ACETAMINOPHEN MICRONIZED",
             "ingredientsDesc": "ACETAMINOPHEN MICRONIZED",
             "concentDesc": "",
-            "concent": "500.000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "65.000",
+            "concent": "65.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,57 +95,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5DFDCB9C-9FAA-410D-86D9-203BBB3E682F",
-            "approvedDocNo": "1120703785",
-            "approvedDate": "2023-03-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "79F41385-11FB-4342-A242-92BE7C458822",
-            "approvedDocNo": "1120703785",
-            "approvedDate": "2023-03-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A8C380CA-E4EF-47D4-A34A-F3DAE46C5F5E",
-            "approvedDocNo": "1120703785",
-            "approvedDate": "2023-03-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0141100E-07BC-476E-8F8B-FA2E7FD10FD5",
-            "approvedDocNo": "1120703785",
-            "approvedDate": "2023-03-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B6B61207-4A35-4496-A62F-064EADAB08BF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
         {
             "isMain": "1",
             "atcCode": "N02BE51"

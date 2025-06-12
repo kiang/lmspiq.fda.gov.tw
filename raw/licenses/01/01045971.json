@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01045971",
+    "licUnit": "1",
     "validDate": "2028-12-05 00:00:00.000",
     "issueDate": "2003-12-05 00:00:00.000",
+    "oriIssueDate": "2003-12-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104597106",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4DC6F6CF-2C57-4522-80A9-99103ACCAD84",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEFLUNOMIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "07"
+        "01 國 產",
+        "07 新藥監視"
     ],
     "applicantName": "美時化學製藥股份有限公司",
     "applicantAddr": "台北市信義區松仁路277號17樓",
@@ -42,26 +49,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DF22099D-9724-4D17-8BA7-59386708BBB9",
             "factoryCode": "1",
             "factoryName": "美時化學製藥股份有限公司南投廠",
             "factoryAddr": "南投縣南投市新興里成功一路３０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0901314300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200042500",
+            "ingredientsName": "LEFLUNOMIDE",
             "ingredientsDesc": "LEFLUNOMIDE",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -70,88 +81,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0D5AA62E-8360-4227-AD10-2B023FF8CA8E",
-            "approvedDocNo": "1120717449",
-            "approvedDate": "2024-01-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B3441636-44FD-438E-A9B4-DFE71A80B4E1",
-            "approvedDocNo": "1120717532",
-            "approvedDate": "2023-08-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "227DABA4-9F36-4B24-B454-696159F72368",
-            "approvedDocNo": "1110800085",
-            "approvedDate": "2022-03-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7928305F-66FD-45F1-A77A-6DF82ADBA62B",
-            "approvedDocNo": "1110800085",
-            "approvedDate": "2022-03-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9D266510-6690-45C4-B4A4-D4FBF21BD6D1",
-            "approvedDocNo": "1086031152",
-            "approvedDate": "2020-03-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F223E903-DF20-44AD-90F0-4F94D7F92A2F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB52D9F0-82E3-47E2-B944-6C7362E80F17",
-            "approvedDocNo": "1076038135",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6BEBCAD4-92F1-4905-B12E-07E4C29372AC",
-            "approvedDocNo": "1076038135",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8DAC7E5D-90A8-49F3-82BB-E0143B279B64",
-            "approvedDocNo": "1076038135",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "653C72FE-9832-4497-B487-AEA5678B7D19",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

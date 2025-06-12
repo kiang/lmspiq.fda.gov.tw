@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-06",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "01008645",
+    "licUnit": "1",
     "validDate": "2023-05-24 00:00:00.000",
     "issueDate": "1975-12-29 00:00:00.000",
+    "oriIssueDate": "1975-12-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100864500",
@@ -16,24 +22,27 @@
     "does": "4461",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "36"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "50D13B20-EF60-4827-8D2F-A2972D2B44AF",
+    "subCategory": [],
     "ingredientsDesc": [
         "PREDNISOLONE",
         "AZULENE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "綠洲化學工業有限公司",
     "applicantAddr": "宜蘭縣蘇澳鎮德興八路11號",
@@ -47,26 +56,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "92136703-0833-47BE-AC47-D3998439743B",
             "factoryCode": "1",
             "factoryName": "綠洲化學工業有限公司",
             "factoryAddr": "宜蘭縣蘇澳鎮德興八路11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6134031142",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001500",
+            "ingredientsName": "PREDNISOLONE",
             "ingredientsDesc": "PREDNISOLONE",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000200",
+            "ingredientsName": "AZULENE",
             "ingredientsDesc": "AZULENE",
             "concentDesc": "0.1",
-            "concent": "0.1000",
+            "concent": "0.100000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -86,35 +100,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "868ED366-DB1F-4C53-9202-507E1671C821",
-            "approvedDocNo": "1100016769",
-            "approvedDate": "2021-05-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5BCCF050-155E-4699-8A8B-CE9A183AFDB4",
-            "approvedDocNo": "1096817825",
-            "approvedDate": "2020-10-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "S01BA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
             "atcCode": "S01BA04"
         }
     ],

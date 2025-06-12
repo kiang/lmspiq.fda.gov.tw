@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055549",
+    "licUnit": "1",
     "validDate": "2025-11-19 00:00:00.000",
     "issueDate": "2010-11-19 00:00:00.000",
+    "oriIssueDate": "2010-11-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105554903",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1C07A1E5-5806-4E67-A77F-F5C1EDB210DE",
+    "subCategory": [],
     "ingredientsDesc": [
         "DOXYCYCLINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "西德有機化學藥品股份有限公司",
     "applicantAddr": "新北市三重中正北路560巷36號",
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B7BF2E4F-E576-4862-A0C6-BFF66D1092D4",
             "factoryCode": "1",
             "factoryName": "西德有機化學藥品股份有限公司",
             "factoryAddr": "新北市三重區中正北路５６０巷３６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0608302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812800310",
+            "ingredientsName": "DOXYCYCLINE HCL",
             "ingredientsDesc": "DOXYCYCLINE HCL",
             "concentDesc": "(potency)",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,29 +85,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "03E081CC-EFF0-47C2-B9A2-BF7D52C8710D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "727022B3-646B-468E-90AA-71ED598CE300",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01AA02"
-        },
         {
             "isMain": "1",
             "atcCode": "J01AA02"

@@ -1,10 +1,14 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-13",
+    "cancelReason": null,
+    "otherCancelReason": null,
     "licid": "01002663",
+    "licUnit": "1",
     "validDate": "2023-03-21 00:00:00.000",
     "issueDate": "1991-03-21 00:00:00.000",
+    "oriIssueDate": "1991-03-21",
     "licKind": "02",
     "oldLicid": "01002663",
     "certNo": "DHY00100266308",
@@ -16,20 +20,23 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "92BD74E7-6D6E-4A07-B3A4-3FDC3F5F4FF7",
+    "subCategory": [],
     "ingredientsDesc": [
         "METHANDROSTENOLONE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "聯輝藥品有限公司",
     "applicantAddr": "高雄市燕巢區安招村安林四街17號2樓",
@@ -43,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0BFC153D-F197-4DFC-B37F-99074B7A34D3",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6808001100",
+            "ingredientsName": "METHANDROSTENOLONE",
             "ingredientsDesc": "METHANDROSTENOLONE",
             "concentDesc": "2",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,21 +82,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "53FB250E-9376-45DD-9B14-941E57B75147",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-12-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A14AA03"
-        },
         {
             "isMain": "1",
             "atcCode": "A14AA03"

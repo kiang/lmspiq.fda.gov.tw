@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057861",
+    "licUnit": "1",
     "validDate": "2028-03-18 00:00:00.000",
     "issueDate": "2013-03-18 00:00:00.000",
+    "oriIssueDate": "2013-03-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105786102",
@@ -27,15 +31,18 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7BF83CA0-BC93-40B9-86B9-9FA509886AAF",
+    "subCategory": [],
     "ingredientsDesc": [
         "REPAGLINIDE",
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "07",
-        "09",
-        "1R"
+        "01 國 產",
+        "07 新藥監視",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "泰和碩藥品科技股份有限公司",
     "applicantAddr": "臺北市中山區南京東路二段206號7樓",
@@ -49,62 +56,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3D32D0A5-8CCF-438D-A8BD-8F9A3658DEE0",
             "factoryCode": "1",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉光復路1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133061413",
             "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "SUN PHARMACEUTICAL INDUSTRIES LTD.",
-            "factoryAddr": "PLOT NO.24\/2 & 25, PHASE-IV, G.I.D.C., PANOLI-394 116, DIST. BHARUCH, GUJARAT, INDIA",
-            "factoryCompanyAddr": "",
-            "countryCode": "IN",
-            "processCode": [
-                {
-                    "value": "1K",
-                    "name": "原料藥製造廠"
-                }
-            ],
-            "processCodeStr": "1K;原料藥製造廠",
-            "factoryKind": "M",
-            "factoryNo": "FIN0024100",
-            "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "IPCA LABORATORIES LTD.",
-            "factoryAddr": "H-4 MIDC WALUJ, AURANGABAD-431 136, INDIA",
-            "factoryCompanyAddr": null,
-            "countryCode": "IN",
-            "processCode": [
-                {
-                    "value": "1K",
-                    "name": "原料藥製造廠"
-                }
-            ],
-            "processCodeStr": "1K;原料藥製造廠",
-            "factoryKind": "M",
-            "factoryNo": "FIN0601000",
-            "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": "",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -113,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820601100",
+            "ingredientsName": "REPAGLINIDE",
             "ingredientsDesc": "REPAGLINIDE",
             "concentDesc": "",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -124,44 +100,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B5C20A69-3A00-4616-9FF0-2997F3A9FF82",
-            "approvedDocNo": "1119061954",
-            "approvedDate": "2022-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E6F32D6E-F221-4F8E-8677-4FA12675FAB5",
-            "approvedDocNo": "1086033208",
-            "approvedDate": "2020-03-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "93884B30-109B-4760-8CBE-134B9BEE6653",
-            "approvedDocNo": "1086033208",
-            "approvedDate": "2020-03-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A10BX02"
-        },
         {
             "isMain": "1",
             "atcCode": "A10BD14"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A10BA02"
         }
     ],
     "licBaseId": "AB292A3F-F3E9-487A-B08E-88AD4034BF86"

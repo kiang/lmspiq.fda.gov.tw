@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039546",
+    "licUnit": "1",
     "validDate": "2025-11-16 00:00:00.000",
     "issueDate": "1995-11-16 00:00:00.000",
+    "oriIssueDate": "1995-11-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103954605",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "76D28243-A5F8-4CB2-B10F-3A2E3EE993B1",
+    "subCategory": [],
     "ingredientsDesc": [
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "華盛頓製藥廠股份有限公司",
     "applicantAddr": "高雄市仁武區仁武里工業二路12號",
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7C376332-A829-46F8-B239-0E24C6DA9805",
             "factoryCode": "1",
             "factoryName": "華盛頓製藥廠股份有限公司",
             "factoryAddr": "高雄市仁武區仁武里工業二路12號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1202822300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": "500",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

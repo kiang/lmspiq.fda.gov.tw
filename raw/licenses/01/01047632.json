@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047632",
+    "licUnit": "1",
     "validDate": "2025-11-11 00:00:00.000",
     "issueDate": "2005-11-11 00:00:00.000",
+    "oriIssueDate": "2005-11-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5B95B3F2-4580-4C8B-ADB3-789ECE932F40",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMLODIPINE (BESYLATE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "華興化學製藥廠股份有限公司",
     "applicantAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -47,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6E1F47A4-0512-4CB2-8223-21264F6480B4",
             "factoryCode": "1",
             "factoryName": "華興化學製藥廠股份有限公司",
             "factoryAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6137210029",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412492210",
+            "ingredientsName": "AMLODIPINE (BESYLATE)",
             "ingredientsDesc": "AMLODIPINE (BESYLATE)",
             "concentDesc": null,
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,40 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E8164747-FA90-494F-99C6-117B5A4BA2A2",
-            "approvedDocNo": "1110017857",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F570A64-6F4A-4D9F-A8E9-C41E8FA634FE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "484D4C7E-355D-4153-AA03-C3A32666EB40",
-            "approvedDocNo": "1100032643",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F17AFAD4-CE16-4A66-8350-DE5FE0DCBA8B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

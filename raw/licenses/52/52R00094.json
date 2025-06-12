@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52R00094",
+    "licUnit": "1",
     "validDate": "2025-11-02 00:00:00.000",
     "issueDate": "2015-11-02 00:00:00.000",
+    "oriIssueDate": "2015-11-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA052R0009404",
@@ -27,15 +31,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CC86F320-D736-4208-ACAA-A318231A27B9",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM IODIDE I-131"
     ],
     "restraintItemsCode": [
-        "02",
-        "15"
+        "02 輸 入",
+        "15 輸入須附同意書（每批輸入應附核能安全委員會核准輸入證明書）"
     ],
     "applicantName": "臺灣新吉美碩股份有限公司",
-    "applicantAddr": "台北市大安區復興南路一段237號11樓",
+    "applicantAddr": "臺北市信義區忠孝東路5段510號10樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "73B53406-0B5C-4BE7-9E2B-628FE78F0FAA",
             "factoryCode": "1",
             "factoryName": "Australian Nuclear Science and Technology Organisation T\/A ANSTO",
             "factoryAddr": "BUILDING 23, NEW ILLAWARRA ROAD, LUCAS HEIGHTS, NSW, 2234",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "AU",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FAU0038000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "3668001610",
+            "ingredientsName": "SODIUM IODIDE I-131",
             "ingredientsDesc": "SODIUM IODIDE I-131",
             "concentDesc": "",
-            "concent": "2000.000",
+            "concent": "2000.000000",
             "concentUnit": "046",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,32 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4305C8AE-233A-4285-9683-FFBCE9AE552F",
-            "approvedDocNo": "1101493315",
-            "approvedDate": "2021-06-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4582923E-9BBF-4C40-9B3C-68190AAE5A64",
-            "approvedDocNo": "1101491523",
-            "approvedDate": "2021-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EB56452A-19BA-482A-8FB2-63BC08052BA6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

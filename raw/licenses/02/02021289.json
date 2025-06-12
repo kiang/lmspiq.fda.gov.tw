@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02021289",
-    "validDate": "2023-09-20 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2028-09-20 00:00:00.000",
     "issueDate": "2018-05-15 00:00:00.000",
+    "oriIssueDate": "1996-07-10",
     "licKind": "02",
     "oldLicid": "02006361",
     "certNo": "DHA00202128908",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "235DE58F-69FB-4619-8178-C9934E6AC883",
+    "subCategory": [],
     "ingredientsDesc": [
         "HEPARIN SODIUM"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "杏林新生製藥股份有限公司",
     "applicantAddr": "桃園市龍潭區三和里店湖一路237號",
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "51B9CAB1-3B48-4132-B0E3-69E276CAFA0F",
             "factoryCode": "1",
             "factoryName": "ZERIA PHARMACEUTICAL CO., LTD. SAITAMA PLANT",
             "factoryAddr": "1212 AZA KAPPAYAMA, NARISAWA, KUMAGAYA-SHI, SAITAMA 360-0115 JAPAN",
@@ -51,13 +59,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0416000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3F82226D-B364-4AB6-9560-411E1A55540F",
             "factoryCode": "2",
             "factoryName": "杏林新生製藥股份有限公司",
             "factoryAddr": "桃園市龍潭區三和里店湖一路２３７號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -69,34 +80,28 @@
             "factoryKind": "M",
             "factoryNo": "1405802300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012400520",
+            "ingredientsName": "HEPARIN SODIUM",
             "ingredientsDesc": "HEPARIN SODIUM",
             "concentDesc": null,
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "212",
-            "seq": "0",
-            "prescription_seq": "0",
+            "seq": "1",
+            "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9D3E39E5-F80E-4A92-BC73-455BBABDEC2F",
-            "approvedDocNo": "1120703330",
-            "approvedDate": "2023-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

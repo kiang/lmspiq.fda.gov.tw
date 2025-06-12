@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059632",
+    "licUnit": "1",
     "validDate": "2025-11-02 00:00:00.000",
     "issueDate": "2017-02-22 00:00:00.000",
+    "oriIssueDate": "2017-02-22",
     "licKind": "02",
     "oldLicid": "01039482",
     "certNo": "DHY05105963203",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "9679F3DF-984F-4714-8CE9-8AB8D3B884EC",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "DL-METHYLEPHEDRINE HCL",
         "CAFFEINE ANHYDROUS",
@@ -50,7 +59,7 @@
         "CAFFEINE ANHYDROUS"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "長安化學工業股份有限公司",
     "applicantAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -64,26 +73,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "04A6A2A3-D8DB-47C7-B0FA-43342BAFE25B",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": "",
-            "concent": "0.480",
+            "concent": "0.480000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -92,9 +105,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "",
-            "concent": "1.250",
+            "concent": "1.250000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -103,9 +117,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
-            "concent": "0.200",
+            "concent": "0.200000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -114,9 +129,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003630",
+            "ingredientsName": "PLATYCODON FLUID EXTRACT",
             "ingredientsDesc": "PLATYCODON FLUID EXTRACT",
             "concentDesc": "",
-            "concent": "0.033",
+            "concent": "0.033000",
             "concentUnit": "003",
             "seq": "4",
             "prescription_seq": "1",
@@ -125,9 +141,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "2.500",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -136,9 +153,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": "",
-            "concent": "0.480",
+            "concent": "0.480000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -147,9 +165,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "",
-            "concent": "1.250",
+            "concent": "1.250000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "2",
@@ -158,9 +177,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
-            "concent": "0.200",
+            "concent": "0.200000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "2",
@@ -169,9 +189,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003630",
+            "ingredientsName": "PLATYCODON FLUID EXTRACT",
             "ingredientsDesc": "PLATYCODON FLUID EXTRACT",
             "concentDesc": "",
-            "concent": "0.033",
+            "concent": "0.033000",
             "concentUnit": "003",
             "seq": "4",
             "prescription_seq": "2",
@@ -180,9 +201,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "2.500",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "2",
@@ -191,9 +213,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": "",
-            "concent": "0.480",
+            "concent": "0.480000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "3",
@@ -202,9 +225,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "",
-            "concent": "1.250",
+            "concent": "1.250000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "3",
@@ -213,9 +237,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
-            "concent": "0.200",
+            "concent": "0.200000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "3",
@@ -224,9 +249,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003630",
+            "ingredientsName": "PLATYCODON FLUID EXTRACT",
             "ingredientsDesc": "PLATYCODON FLUID EXTRACT",
             "concentDesc": "",
-            "concent": "0.033",
+            "concent": "0.033000",
             "concentUnit": "003",
             "seq": "4",
             "prescription_seq": "3",
@@ -235,9 +261,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "2.500",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "3",
@@ -246,9 +273,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": "",
-            "concent": "0.480",
+            "concent": "0.480000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "4",
@@ -257,9 +285,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "",
-            "concent": "1.250",
+            "concent": "1.250000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "4",
@@ -268,9 +297,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
-            "concent": "0.200",
+            "concent": "0.200000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "4",
@@ -279,9 +309,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003630",
+            "ingredientsName": "PLATYCODON FLUID EXTRACT",
             "ingredientsDesc": "PLATYCODON FLUID EXTRACT",
             "concentDesc": "",
-            "concent": "0.033",
+            "concent": "0.033000",
             "concentUnit": "003",
             "seq": "4",
             "prescription_seq": "4",
@@ -290,9 +321,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "2.500",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "4",
@@ -301,45 +333,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E909765F-7719-4296-BE7D-68A1C466D0DF",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "43056C53-4581-47E1-BBCB-CA52BDDECF95",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05DA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03A"
-        },
         {
             "isMain": "1",
             "atcCode": "R05X"

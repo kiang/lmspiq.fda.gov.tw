@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047653",
+    "licUnit": "1",
     "validDate": "2025-11-24 00:00:00.000",
     "issueDate": "2005-11-24 00:00:00.000",
+    "oriIssueDate": "2005-11-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BEB26AB6-B87D-4FCF-B487-4D9E615076E9",
+    "subCategory": [],
     "ingredientsDesc": [
         "LYSOZYME CHLORIDE",
         "DEXTROMETHORPHAN HBR",
         "POTASSIUM CRESOLSULFONATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "利達製藥股份有限公司",
     "applicantAddr": "臺中市大甲區中山路一段906號",
@@ -47,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C26238B3-CEF7-43B9-9FED-5236FFD4CDA7",
             "factoryCode": "1",
             "factoryName": "利達製藥股份有限公司",
             "factoryAddr": "台中市大甲區中山路一段９０６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0701010200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003700",
+            "ingredientsName": "POTASSIUM CRESOLSULFONATE",
             "ingredientsDesc": "POTASSIUM CRESOLSULFONATE",
             "concentDesc": "",
-            "concent": "90.0000",
+            "concent": "90.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -75,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400001310",
+            "ingredientsName": "LYSOZYME CHLORIDE",
             "ingredientsDesc": "LYSOZYME CHLORIDE",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -86,9 +98,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -102,14 +115,6 @@
         {
             "isMain": "1",
             "atcCode": "R05DA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
         }
     ],
     "licBaseId": "42C268C2-3D25-4BBA-8391-47E6CF25CDBB"

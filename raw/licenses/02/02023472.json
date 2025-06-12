@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023472",
+    "licUnit": "1",
     "validDate": "2027-06-18 00:00:00.000",
     "issueDate": "2002-06-18 00:00:00.000",
+    "oriIssueDate": "2002-06-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202347209",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "575A130D-FE5D-492E-9492-F75FD87CDA7C",
+    "subCategory": [],
     "ingredientsDesc": [
-        "ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE"
+        null
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "暉致醫藥股份有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -42,23 +49,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "50E2888E-C4D3-4A93-9514-8C4AE62CBE6C",
             "factoryCode": "1",
-            "factoryName": "Pfizer Ireland Pharmaceuticals",
-            "factoryAddr": "LITTLE CONNELL NEWBRIDGE CO. KILDARE, IRELAND",
-            "factoryCompanyAddr": null,
+            "factoryName": "PFIZER IRELAND PHARMACEUTICALS UNLIMITED COMPANY",
+            "factoryAddr": "LITTLE CONNELL NEWBRIDGE, W12 HX57, IRELAND",
+            "factoryCompanyAddr": "",
             "countryCode": "IE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FIE0024000",
+            "factoryNo": "FIE0024100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "92D98F63-1BB0-4EED-B9B0-7DF5F24897C3",
             "factoryCode": "2",
-            "factoryName": "PFIZER MANUFACTURING DEUTSCHLAND GMBH",
-            "factoryAddr": "BETRIEBSSTATTE FREIBURG, MOOSWALDALLEE 1, 79090 FREIBURG, GERMANY",
-            "factoryCompanyAddr": null,
+            "factoryName": "Pfizer Manufacturing Deutschland GmbH",
+            "factoryAddr": "Mooswaldallee 1, 79108 Freiburg Im Breisgau, Germany",
+            "factoryCompanyAddr": "",
             "countryCode": "DE",
             "processCode": [
                 {
@@ -68,18 +79,21 @@
             ],
             "processCodeStr": "1Q;分包裝廠",
             "factoryKind": "M",
-            "factoryNo": "FDE0247000",
+            "factoryNo": "FDE0247200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "Z102100909",
+            "ingredientsName": null,
             "ingredientsDesc": "ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE",
             "concentDesc": "",
-            "concent": "90.6000",
+            "concent": "90.600000",
             "concentUnit": "",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,56 +102,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B00B895F-463E-48E1-9DB0-F94D048E29DC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E3084CCA-9FBF-4CB3-B91E-CBF40BE9F4B1",
-            "approvedDocNo": "1101497693",
-            "approvedDate": "2021-10-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "38BD8B0B-AF1A-4334-8664-15023531D257",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "98B19654-6604-4BAF-B95A-70042B233EEB",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "595A11A8-C77D-4D67-8074-7166E6777893",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "125D48CE-BD57-48FE-A7EF-0B0C892A1806",
-            "approvedDocNo": "1076025077",
-            "approvedDate": "2019-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

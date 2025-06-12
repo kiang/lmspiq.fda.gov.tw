@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055545",
+    "licUnit": "1",
     "validDate": "2025-11-17 00:00:00.000",
     "issueDate": "2010-11-17 00:00:00.000",
+    "oriIssueDate": "2010-11-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105554508",
@@ -27,12 +31,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "621C801B-EF8B-454B-9673-E405B98412DA",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEVOFLOXACIN HEMIHYDRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "25"
+        "01 國 產",
+        "25 監視中學名藥",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "濟生醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉勝利村實踐路3號",
@@ -46,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5F124648-D89D-4ACF-B7A2-7324DD72D871",
             "factoryCode": "1",
             "factoryName": "濟生醫藥生技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉勝利村實踐路3號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133060069",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0836002310",
+            "ingredientsName": "LEVOFLOXACIN HEMIHYDRATE",
             "ingredientsDesc": "LEVOFLOXACIN HEMIHYDRATE",
             "concentDesc": null,
-            "concent": "5.1250",
+            "concent": "5.125000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,69 +86,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EEA62738-532E-4DA7-B60F-D12D5F413A4B",
-            "approvedDocNo": "1109502704",
-            "approvedDate": "2022-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EF672C84-DC71-4D5B-BD54-65F7702A5F14",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B0400C79-AA01-4E49-A772-03892F410F26",
-            "approvedDocNo": "1081491785",
-            "approvedDate": "2020-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "531F7A40-13B6-4F7E-8F49-1F004A64CE27",
-            "approvedDocNo": "1070042537",
-            "approvedDate": "2019-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "25BD1E83-72DF-4AF3-89C8-3383E5A7595B",
-            "approvedDocNo": "1070042537",
-            "approvedDate": "2019-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "78D581CF-5C0C-4ADF-B049-19422C5C7BB8",
-            "approvedDocNo": "1086806498",
-            "approvedDate": "2019-06-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68D30E5E-E313-4186-A7F3-E640AB615CDC",
-            "approvedDocNo": "1086806498",
-            "approvedDate": "2019-06-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01MA12"
-        },
         {
             "isMain": "1",
             "atcCode": "J01MA12"

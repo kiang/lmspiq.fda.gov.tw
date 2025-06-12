@@ -8,7 +8,7 @@
     "licUnit": "1",
     "validDate": "2026-08-13 00:00:00.000",
     "issueDate": "2021-08-13 00:00:00.000",
-    "oriIssueDate": null,
+    "oriIssueDate": "2021-08-13",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000117101",
@@ -36,9 +36,9 @@
         "Semaglutide"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣諾和諾德藥品股份有限公司",
     "applicantAddr": "台北市大安區敦化南路2段207號10樓",
@@ -52,10 +52,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
-            "id": "A7F3DAEF-BA00-4E03-B4D9-1F988E0B1EC8",
+            "id": "8A71B8AE-9635-44D3-A530-3FF1E25106E5",
             "factoryCode": "1",
             "factoryName": "NOVO NORDISK A\/S",
-            "factoryAddr": "NOVO NORDISK PARK 1, DK-2760 MAALOEV, DENMARK",
+            "factoryAddr": "NOVO NORDISK PARK DK-2760 MAALOEV, DENMARK",
             "factoryCompanyAddr": "",
             "countryCode": "DK",
             "processCode": [],
@@ -68,10 +68,10 @@
             "factoryMadeIn": null
         },
         {
-            "id": "E96C77FB-C4B0-4F7D-B254-917BB15A1AC9",
+            "id": "352F5118-AF90-400F-8570-8646C5153ADB",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
-            "factoryAddr": "桃園市楊梅區梅獅路二段629號",
+            "factoryAddr": "桃園市楊梅區瑞坪里梅獅路二段６２９號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
@@ -84,7 +84,7 @@
             "factoryMadeIn": null
         },
         {
-            "id": "CEC04DC1-B015-439E-B4D6-1A1ED8A275BF",
+            "id": "09BDB787-216E-4A35-B39D-B1EAF8D34E8F",
             "factoryCode": "2",
             "factoryName": "NOVO NORDISK A\/S",
             "factoryAddr": "HALLAS ALLE 1, DK-4400 KALUNDBORG, DENMARK",
@@ -105,7 +105,7 @@
             "factoryMadeIn": null
         },
         {
-            "id": "2E2D605D-BBA0-4B42-9687-598634B1D3AA",
+            "id": "33B52204-B1DE-4C3B-A26F-6E5087648C1B",
             "factoryCode": "2",
             "factoryName": "HOVIONE FARMACIENCIA SA",
             "factoryAddr": "SETE CASAS 2674-506 LOURES PORTUGAL",
@@ -124,6 +124,64 @@
             "qsd": null,
             "qsdList": [],
             "factoryMadeIn": null
+        },
+        {
+            "id": "7B1478FE-EA24-4F08-AB49-C41F9374CDB9",
+            "factoryCode": "2",
+            "factoryName": "Novo Nordisk Pharmaceutical Industries, LP.",
+            "factoryAddr": "3612 Powhatan Road Clayton, North Carollina 27527, USA",
+            "factoryCompanyAddr": "",
+            "countryCode": "US",
+            "processCode": [
+                {
+                    "value": "8T",
+                    "name": "半成品(SPRAY DRIED DISPERSION, SDD)"
+                },
+                {
+                    "value": "1K",
+                    "name": "原料藥製造廠"
+                },
+                {
+                    "value": "0B",
+                    "name": "純化"
+                }
+            ],
+            "processCodeStr": "8T;半成品(SPRAY DRIED DISPERSION, SDD)#1K;原料藥製造廠#0B;純化",
+            "factoryKind": "M",
+            "factoryNo": "FUS1164000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "E510C0A0-5645-43DE-A380-170C9F6E53E9",
+            "factoryCode": "2",
+            "factoryName": "Novo Nordisk Pharmaceutical Industries, LP.",
+            "factoryAddr": "3612 Powhatan Road Clayton, North Carollina 27527, USA",
+            "factoryCompanyAddr": "",
+            "countryCode": "US",
+            "processCode": [
+                {
+                    "value": "1K",
+                    "name": "原料藥製造廠"
+                },
+                {
+                    "value": "0A",
+                    "name": "發酵"
+                },
+                {
+                    "value": "30",
+                    "name": "中間體製造"
+                }
+            ],
+            "processCodeStr": "1K;原料藥製造廠#0A;發酵#30;中間體製造",
+            "factoryKind": "M",
+            "factoryNo": "FUS1164000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
@@ -133,7 +191,7 @@
             "ingredientsName": "Semaglutide",
             "ingredientsDesc": "Semaglutide",
             "concentDesc": "",
-            "concent": "14.0000",
+            "concent": "14.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

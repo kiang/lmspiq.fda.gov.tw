@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-15",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01024585",
+    "licUnit": "1",
     "validDate": "2022-04-01 00:00:00.000",
     "issueDate": "1982-01-19 00:00:00.000",
+    "oriIssueDate": "1982-01-19",
     "licKind": "02",
     "oldLicid": "01010678",
     "certNo": "DHY00102458500",
@@ -23,6 +29,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "80B8E8A7-FB06-4C85-8E91-3395290D4A68",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLOVE POWDER",
         "RHUBARB POWDER (EQ TO POWDERED RHUBARB)",
@@ -34,8 +43,8 @@
         "GLYCYRRHIZA POWDER"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "川田藥品有限公司",
     "applicantAddr": "台中市西屯區大有二街７號１樓",
@@ -49,23 +58,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F011BCA8-8552-4826-8E15-4C322E876456",
             "factoryCode": "1",
             "factoryName": "台裕化學製藥廠股份有限公司",
             "factoryAddr": "新竹縣竹東鎮員山路11巷13弄1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133030016",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600002000",
+            "ingredientsName": "ALUMINUM SILICATE",
             "ingredientsDesc": "ALUMINUM SILICATE",
             "concentDesc": "(SYN.) 166.6",
             "concent": null,
@@ -77,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208004503",
+            "ingredientsName": "SCOPOLIA EXTRACT POWDER",
             "ingredientsDesc": "SCOPOLIA EXTRACT POWDER",
             "concentDesc": "55.5",
-            "concent": "55.5000",
+            "concent": "55.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -88,9 +102,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004402",
+            "ingredientsName": "GLYCYRRHIZA POWDER",
             "ingredientsDesc": "GLYCYRRHIZA POWDER",
             "concentDesc": "33.3",
-            "concent": "33.3000",
+            "concent": "33.300000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -99,9 +114,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000200",
+            "ingredientsName": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "ingredientsDesc": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "concentDesc": "55.5",
-            "concent": "55.5000",
+            "concent": "55.500000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -110,9 +126,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": "111.1",
-            "concent": "111.1000",
+            "concent": "111.100000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "0",
@@ -121,9 +138,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002302",
+            "ingredientsName": "RHUBARB POWDER (EQ TO POWDERED RHUBARB)",
             "ingredientsDesc": "RHUBARB POWDER (EQ TO POWDERED RHUBARB)",
             "concentDesc": "33.3",
-            "concent": "33.3000",
+            "concent": "33.300000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "0",
@@ -132,9 +150,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200000301",
+            "ingredientsName": "CLOVE POWDER",
             "ingredientsDesc": "CLOVE POWDER",
             "concentDesc": "22.2",
-            "concent": "22.2000",
+            "concent": "22.200000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "0",
@@ -143,9 +162,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200014901",
+            "ingredientsName": "SWERTIA POWDER",
             "ingredientsDesc": "SWERTIA POWDER",
             "concentDesc": "22.2",
-            "concent": "22.2000",
+            "concent": "22.200000",
             "concentUnit": "001",
             "seq": "7",
             "prescription_seq": "0",
@@ -154,68 +174,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DA1E3DB2-8A3A-4AAD-BF9E-55DAA857BD6B",
-            "approvedDocNo": "1096818468",
-            "approvedDate": "2021-03-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A260905-7145-4C22-BD45-6433D3BF0C2F",
-            "approvedDocNo": "1096818468",
-            "approvedDate": "2021-03-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F3D670EE-019B-45AA-9604-9D24D6736627",
-            "approvedDocNo": "1080015362",
-            "approvedDate": "2019-09-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "77B96FA0-06F9-404E-BC18-A6867FFF270A",
-            "approvedDocNo": "1080015362",
-            "approvedDate": "2019-09-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02BX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
         {
             "isMain": "1",
             "atcCode": "A02X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N01BA05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB"
         }
     ],
     "licBaseId": "FDD9AB03-2C77-4015-828C-0B4AA6B0A463"

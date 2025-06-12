@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055534",
+    "licUnit": "1",
     "validDate": "2025-11-03 00:00:00.000",
     "issueDate": "2010-11-03 00:00:00.000",
+    "oriIssueDate": "2010-11-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105553403",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E54FABC4-D48F-417F-90AC-B93F2C0A5962",
+    "subCategory": [],
     "ingredientsDesc": [
         "BUPROPION HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -47,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2DEF9879-BB52-4F24-A9C0-76559AA078A3",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9250001110",
+            "ingredientsName": "BUPROPION HYDROCHLORIDE",
             "ingredientsDesc": "BUPROPION HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "150.0000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,31 +86,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DF1DBED8-2550-41F7-8C5E-7E19AA0EC22A",
-            "approvedDocNo": "1086809183",
-            "approvedDate": "2019-12-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4C750DBF-4041-4067-9B89-8FF351CCD7DA",
-            "approvedDocNo": "1086809183",
-            "approvedDate": "2019-12-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N06AX12"
-        },
-        {
-            "isMain": "2",
             "atcCode": "N06AX12"
         }
     ],

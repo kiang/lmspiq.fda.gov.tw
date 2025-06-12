@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039588",
+    "licUnit": "1",
     "validDate": "2025-11-30 00:00:00.000",
     "issueDate": "1995-11-30 00:00:00.000",
+    "oriIssueDate": "1995-11-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103958808",
@@ -31,13 +35,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0FE2CF4E-EBCB-4685-9C04-0455590BA760",
+    "subCategory": [],
     "ingredientsDesc": [
         "SULFAMETHOXAZOLE",
         "TRIMETHOPRIM"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "井田國際醫藥廠股份有限公司",
     "applicantAddr": "台中市大甲區幼獅路32號",
@@ -51,26 +58,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "75788381-1C66-4AC0-A295-AEA480C7931E",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0824001500",
+            "ingredientsName": "SULFAMETHOXAZOLE",
             "ingredientsDesc": "SULFAMETHOXAZOLE",
             "concentDesc": null,
-            "concent": "400.0000",
+            "concent": "400.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -79,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0840001700",
+            "ingredientsName": "TRIMETHOPRIM",
             "ingredientsDesc": "TRIMETHOPRIM",
             "concentDesc": null,
-            "concent": "80.0000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -90,36 +102,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "36635AAF-6582-4FE9-ACD1-156EE1DA18A6",
-            "approvedDocNo": "1110022072",
-            "approvedDate": "2023-02-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BA2938A0-59BE-41F0-873C-B909EDBD1C73",
-            "approvedDocNo": "1110022072",
-            "approvedDate": "2023-02-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A11EX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01EA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01EC01"
         }
     ],
     "licBaseId": "A0A3FE46-E601-4725-9E51-A8C67F79F2D8"

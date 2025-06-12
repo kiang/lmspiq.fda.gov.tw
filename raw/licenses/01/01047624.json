@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047624",
+    "licUnit": "1",
     "validDate": "2025-11-04 00:00:00.000",
     "issueDate": "2005-11-04 00:00:00.000",
+    "oriIssueDate": "2005-11-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A171F858-C3C1-4921-9209-D0EA1DC5DD22",
+    "subCategory": [],
     "ingredientsDesc": [
         "EBASTINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "友華生技醫藥股份有限公司",
     "applicantAddr": "臺北市北投區承德路６段128號13樓",
@@ -43,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6D3802E9-C146-401F-9314-8C554E2B5434",
             "factoryCode": "1",
             "factoryName": "友霖生技醫藥股份有限公司",
             "factoryAddr": "雲林縣虎尾鎮墾地里科虎一路8號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6139031071",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400006400",
+            "ingredientsName": "EBASTINE",
             "ingredientsDesc": "EBASTINE",
             "concentDesc": null,
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,16 +82,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "108E0FE5-CCD4-4F74-8906-093897079E24",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

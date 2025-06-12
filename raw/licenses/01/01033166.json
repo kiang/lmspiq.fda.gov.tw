@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-29",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01033166",
+    "licUnit": "1",
     "validDate": "2023-05-25 00:00:00.000",
     "issueDate": "1990-11-13 00:00:00.000",
+    "oriIssueDate": "1990-11-13",
     "licKind": "02",
     "oldLicid": "01013434",
     "certNo": "DHY00103316604",
@@ -23,15 +29,18 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B4CC9F1A-3DF3-47EA-A297-B3D457409747",
+    "subCategory": [],
     "ingredientsDesc": [
         "BROMPHENIRAMINE MALEATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "元宙化學製藥股份有限公司",
-    "applicantAddr": "南投縣南投市南崗工業區南崗三路２７２號",
+    "applicantAddr": "南投縣南投市南崗三路272號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -42,26 +51,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CE19B40E-BC9C-4E32-8F27-83FA33279CAB",
             "factoryCode": "1",
             "factoryName": "元宙化學製藥股份有限公司",
             "factoryAddr": "南投縣南投市南崗工業區南崗三路２７２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0406914300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000510",
+            "ingredientsName": "BROMPHENIRAMINE MALEATE",
             "ingredientsDesc": "BROMPHENIRAMINE MALEATE",
             "concentDesc": "4",
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,10 +85,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R06AB01"
-        },
         {
             "isMain": "1",
             "atcCode": "R06AB01"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048067",
+    "licUnit": "1",
     "validDate": "2026-06-29 00:00:00.000",
     "issueDate": "2006-06-29 00:00:00.000",
+    "oriIssueDate": "2006-06-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104806707",
@@ -31,13 +35,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B216D1CD-3D8C-4223-B24B-707AA91C45BE",
+    "subCategory": [],
     "ingredientsDesc": [
         "LIDOCAINE",
         "PRILOCAINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "寶齡富錦生技股份有限公司",
     "applicantAddr": "臺北市南港區園區街3號16樓",
@@ -51,26 +58,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7B564AEB-D4A3-433D-8B5F-DBB8A53D49C5",
             "factoryCode": "1",
             "factoryName": "寶齡富錦生技股份有限公司平鎮廠",
             "factoryAddr": "桃園市平鎮區興隆路２６６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "2001304300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001000",
+            "ingredientsName": "LIDOCAINE",
             "ingredientsDesc": "LIDOCAINE",
             "concentDesc": "",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -79,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200009200",
+            "ingredientsName": "PRILOCAINE",
             "ingredientsDesc": "PRILOCAINE",
             "concentDesc": "",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,28 +102,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "653CB167-4E74-4398-A0CD-7991316B3779",
-            "approvedDocNo": "1086011207",
-            "approvedDate": "2019-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D04AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AB01"
         }
     ],
     "licBaseId": "448ACB28-0C47-47D4-A7CC-D49BF24D11BF"

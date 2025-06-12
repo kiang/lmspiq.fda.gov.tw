@@ -1,10 +1,14 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-13",
+    "cancelReason": null,
+    "otherCancelReason": null,
     "licid": "01001964",
+    "licUnit": "1",
     "validDate": "2023-03-21 00:00:00.000",
     "issueDate": "1991-03-25 00:00:00.000",
+    "oriIssueDate": "1991-03-25",
     "licKind": "02",
     "oldLicid": "01001964",
     "certNo": "DHY00100196404",
@@ -23,13 +27,16 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0A2D6C9C-7C14-4E75-BC07-9768B67CD319",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "聯輝藥品有限公司",
     "applicantAddr": "高雄市燕巢區安招村安林四街17號2樓",
@@ -43,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B630C260-529B-4AB7-86E4-317D544721E2",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "300",
-            "concent": "300.0000",
+            "concent": "300.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,23 +82,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B32C8224-4055-42DC-BC21-DF5C1D01E38B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-12-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "N02BE01"
         }
     ],

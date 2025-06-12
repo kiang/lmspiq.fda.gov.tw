@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033207",
+    "licUnit": "1",
     "validDate": "2025-11-15 00:00:00.000",
     "issueDate": "1990-11-15 00:00:00.000",
+    "oriIssueDate": "1990-11-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103320705",
@@ -18,16 +22,23 @@
         {
             "packageSpec": "2-1000錠、2000錠",
             "packageUnit": "A3"
+        },
+        {
+            "packageSpec": "2-1000錠",
+            "packageUnit": "K2"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "05DE54F9-5FF3-46BD-AB26-F88C54FDDBD0",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "羅得化學製藥股份有限公司",
     "applicantAddr": "台中市大甲區東西七路一段65號",
@@ -41,26 +52,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "47FC4BBD-FC91-4A92-8CAE-119F591DB0A5",
             "factoryCode": "1",
             "factoryName": "羅得化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區東西七路一段65號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1901510300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "500",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -69,24 +84,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1A361895-5D35-4ACC-A802-74C0C0BEED00",
-            "approvedDocNo": "1086818570",
-            "approvedDate": "2020-01-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4058E54B-842F-45CC-8D79-9567CF71A260",
-            "approvedDocNo": "1086818570",
-            "approvedDate": "2020-01-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

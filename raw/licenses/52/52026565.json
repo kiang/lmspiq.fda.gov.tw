@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026565",
+    "licUnit": "1",
     "validDate": "2025-11-02 00:00:00.000",
     "issueDate": "2015-11-02 00:00:00.000",
+    "oriIssueDate": "2015-11-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202656501",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "12630263-4A27-440C-A1EC-CDB176BE6C13",
+    "subCategory": [],
     "ingredientsDesc": [
         "ALENDRONATE SODIUM TRIHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "26"
+        "02 輸 入",
+        "26 監視期滿新藥"
     ],
     "applicantName": "亞博實業股份有限公司",
     "applicantAddr": "臺北市信義區永吉路168號12樓之2",
@@ -42,26 +49,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "7B23B694-C8B7-4768-A133-EF192A7B6E84",
             "factoryCode": "1",
             "factoryName": "SWISSCO SERVICES AG",
             "factoryAddr": "BAHNHOFSTRASSE 14, 4334 SISSELN, SWITZERLAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CH",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCH0303000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200036530",
+            "ingredientsName": "ALENDRONATE SODIUM TRIHYDRATE",
             "ingredientsDesc": "ALENDRONATE SODIUM TRIHYDRATE",
             "concentDesc": "Sodium alendronate trihydrate (micronised) (equivalent to 70mg of alendronate acid)",
-            "concent": "91.370",
+            "concent": "91.370000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,16 +81,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EB50BF76-D566-4FBB-B73D-5E60B4A901FC",
-            "approvedDocNo": "1110724681",
-            "approvedDate": "2022-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

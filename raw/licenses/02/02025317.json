@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025317",
+    "licUnit": "1",
     "validDate": "2026-01-11 00:00:00.000",
     "issueDate": "2011-01-11 00:00:00.000",
+    "oriIssueDate": "2011-01-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202531707",
@@ -23,11 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D6E49AA8-7278-47D8-9A66-3FD9B243BEA6",
+    "subCategory": [],
     "ingredientsDesc": [
         "NILOTINIB HYDROCHLORIDE MONOHYDRATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -41,9 +49,10 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "47EB4933-0E3E-41EC-A037-1A52DC6C3BA7",
             "factoryCode": "1",
             "factoryName": "NOVARTIS PHARMA STEIN AG",
-            "factoryAddr": "SCHAFFHAUSERSTRASSE, CH-4332 STEIN, SWITZERLAND",
+            "factoryAddr": "SCHAFFHAUSERSTRASSE CH-4332 STEIN, SWITZERLAND",
             "factoryCompanyAddr": "CH-4002,BASEL,SWITZERLAND",
             "countryCode": "CH",
             "processCode": [],
@@ -51,12 +60,15 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2F45B6BB-CDF4-4F9E-B6DA-5495F252C164",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA AG",
-            "factoryAddr": "LICHTSTRASSE 35 CH-4056 BASLE, SWITZERLAND",
+            "factoryAddr": "LICHTSTRASSE 35 CH-4056 BASEL SWITZERLAND",
             "factoryCompanyAddr": "",
             "countryCode": "CH",
             "processCode": [
@@ -69,12 +81,36 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "16BF5AD2-F0E0-4BCA-B4EB-5FE2D6AE3731",
             "factoryCode": "2",
             "factoryName": "LEK PHARMACEUTICALS D.D.",
             "factoryAddr": "TRIMLINI 2D, LENDAVA, 9220, SLOVENIA",
+            "factoryCompanyAddr": "",
+            "countryCode": "SI",
+            "processCode": [
+                {
+                    "value": "02",
+                    "name": "包裝"
+                }
+            ],
+            "processCodeStr": "02;包裝",
+            "factoryKind": "M",
+            "factoryNo": "FSI0005100",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "2E95F11C-BC67-4324-8050-D5A74ECF9CD3",
+            "factoryCode": "2",
+            "factoryName": "Novartis Pharmaceutical Manufacturing LLC",
+            "factoryAddr": "Verovskova ulica 57 1000 Ljubljana Slovenia",
             "factoryCompanyAddr": "",
             "countryCode": "SI",
             "processCode": [
@@ -85,18 +121,21 @@
             ],
             "processCodeStr": "16;包裝及分裝",
             "factoryKind": "M",
-            "factoryNo": "FSI0005100",
+            "factoryNo": "FSI0008000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013001920",
+            "ingredientsName": "NILOTINIB HYDROCHLORIDE MONOHYDRATE",
             "ingredientsDesc": "NILOTINIB HYDROCHLORIDE MONOHYDRATE",
             "concentDesc": "(as nilotinib 150mg)",
-            "concent": "165.4500",
+            "concent": "165.450000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -105,72 +144,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5DEEDA1E-9078-41C8-B87B-0C83DB4A05E1",
-            "approvedDocNo": "1129047519",
-            "approvedDate": "2023-09-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "57EAC389-A104-4C56-A600-8F7C0150EEB0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "44BE8B2B-9870-4494-BA8D-0D972A221963",
-            "approvedDocNo": "1096039086",
-            "approvedDate": "2021-06-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5686978D-9C12-4879-B283-47948198DC3B",
-            "approvedDocNo": "1096039086",
-            "approvedDate": "2021-06-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "658EC3C4-BE98-4975-8FFC-D8216C596682",
-            "approvedDocNo": "1096039086",
-            "approvedDate": "2021-06-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "811BE3CD-8543-4824-9256-B990365346D0",
-            "approvedDocNo": "1096018716",
-            "approvedDate": "2020-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "23865427-D4A8-4289-B56F-02B6F8878E29",
-            "approvedDocNo": "1081490862",
-            "approvedDate": "2019-12-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F794CF8B-E83C-4433-A05E-DF2E545759BE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

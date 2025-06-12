@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044093",
+    "licUnit": "1",
     "validDate": "2025-11-08 00:00:00.000",
     "issueDate": "2000-11-08 00:00:00.000",
+    "oriIssueDate": "2000-11-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104409301",
@@ -16,27 +20,30 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "52"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "14"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EB0EEF4E-B480-4B72-A8B1-76931280C1FF",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAMYLOFINE 2HCL(ACAMYLOPHENINE HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "杏林新生製藥股份有限公司",
     "applicantAddr": "桃園市龍潭區三和村店湖一路２３７號",
@@ -50,26 +57,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "398109E6-AFC2-4D1C-B221-B4F154F8DECB",
             "factoryCode": "1",
             "factoryName": "杏林新生製藥股份有限公司",
             "factoryAddr": "桃園市龍潭區三和村店湖一路２３７號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1405802300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208001310",
+            "ingredientsName": "CAMYLOFINE 2HCL(ACAMYLOPHENINE HYDROCHLORIDE)",
             "ingredientsDesc": "CAMYLOFINE 2HCL(ACAMYLOPHENINE HYDROCHLORIDE)",
             "concentDesc": "25",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -80,10 +91,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A03AA03"
-        },
         {
             "isMain": "1",
             "atcCode": "A03AA03"

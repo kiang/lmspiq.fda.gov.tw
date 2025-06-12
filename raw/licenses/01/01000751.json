@@ -1,10 +1,14 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-13",
+    "cancelReason": null,
+    "otherCancelReason": null,
     "licid": "01000751",
+    "licUnit": "1",
     "validDate": "2023-03-21 00:00:00.000",
     "issueDate": "1991-03-23 00:00:00.000",
+    "oriIssueDate": "1991-03-23",
     "licKind": "02",
     "oldLicid": "01000751",
     "certNo": "DHY00100075108",
@@ -23,13 +27,16 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E00749DC-3B01-4576-8BAF-FF6FE0C3FF0A",
+    "subCategory": [],
     "ingredientsDesc": [
         "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "聯輝藥品有限公司",
     "applicantAddr": "高雄市燕巢區安招村安林四街17號2樓",
@@ -43,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A48075B1-BBFC-40BE-B615-9EFBB68CA828",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001420",
+            "ingredientsName": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,16 +82,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DCCE0A4E-FE7C-4B55-A4AC-684B7EADC89A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-12-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

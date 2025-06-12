@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01027500",
+    "licUnit": "1",
     "validDate": "2028-04-30 00:00:00.000",
     "issueDate": "1983-12-12 00:00:00.000",
+    "oriIssueDate": "1983-12-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102750004",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6B4C7850-D3B1-4C60-8748-10F0CADED57E",
+    "subCategory": [],
     "ingredientsDesc": [
         "NIACINAMIDE (NICOTINAMIDE)",
         "PYRIDOXINE HCL",
@@ -33,8 +40,8 @@
         "CYANOCOBALAMIN (VIT B12)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "合成藥品股份有限公司",
     "applicantAddr": "高雄市新興區洛陽街１１號５樓之６",
@@ -48,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CCA2A7D9-1A5F-4FC0-9293-138A65961F68",
             "factoryCode": "1",
             "factoryName": "美西製藥有限公司",
             "factoryAddr": "高雄市仁武區仁武里工業一路９號",
@@ -58,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "0900822300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100900",
+            "ingredientsName": "THIAMINE HYDROCHLORIDE",
             "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -76,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "",
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -87,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "",
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -98,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000300",
+            "ingredientsName": "NIACINAMIDE (NICOTINAMIDE)",
             "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
             "concentDesc": "",
-            "concent": "12.0000",
+            "concent": "12.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -109,9 +123,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300200",
+            "ingredientsName": "PANTOTHENATE CALCIUM",
             "ingredientsDesc": "PANTOTHENATE CALCIUM",
             "concentDesc": "",
-            "concent": "8.0000",
+            "concent": "8.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "0",
@@ -120,9 +135,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "",
-            "concent": "1.2000",
+            "concent": "1.200000",
             "concentUnit": "016",
             "seq": "5",
             "prescription_seq": "0",
@@ -131,9 +147,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656991100",
+            "ingredientsName": "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
             "ingredientsDesc": "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
             "concentDesc": "",
-            "concent": "107.7000",
+            "concent": "107.700000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "0",
@@ -142,168 +159,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "85D98720-B7AF-4269-95A8-AC70A75C4D91",
-            "approvedDocNo": "1129030612",
-            "approvedDate": "2023-09-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F15E9553-9351-4E3E-AE26-AA036C511881",
-            "approvedDocNo": "1096609334",
-            "approvedDate": "2020-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "273D92FE-6113-4F5B-87F7-3D80F5FFA206",
-            "approvedDocNo": "1096609334",
-            "approvedDate": "2020-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E8039FBB-19E8-4F49-A4BE-41524D8883A8",
-            "approvedDocNo": "1070035852",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FF07478C-19A9-4768-B642-47AFB672418D",
-            "approvedDocNo": "1070035852",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CD86E3C3-40ED-4E10-A8CB-5D5C1437FBA4",
-            "approvedDocNo": "1070035852",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EE66EAF9-4D7B-42E7-906F-901F4D0E870D",
-            "approvedDocNo": "1070035852",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "38A32BAD-3736-485F-84BF-A6A4AB7362F8",
-            "approvedDocNo": "1070035852",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "610D9A7F-25F7-4760-B3F9-B4782A6CBED7",
-            "approvedDocNo": "1070035852",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E2E749AD-3155-4B5D-80F4-C3DB46C5CD46",
-            "approvedDocNo": "1070035852",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BAF2E459-084B-4D66-8AAD-D436E3665B83",
-            "approvedDocNo": "1070035852",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6CFC67D7-CE26-4E83-B771-E2EEFF41B793",
-            "approvedDocNo": "1070035852",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0B7DE2C6-B39C-4C5A-B186-FF1A52719177",
-            "approvedDocNo": "1070035852",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C14553EC-1C65-4497-B44B-144F9303EEA7",
-            "approvedDocNo": "1070035852",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A6EC6F4-09C4-4B66-82F9-2504B4116933",
-            "approvedDocNo": "1070035852",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0EC85B5A-6DA8-4991-97B4-329AE160A06C",
-            "approvedDocNo": "1070035852",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA31"
-        },
         {
             "isMain": "1",
             "atcCode": "A05BA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A05BA03"
         }
     ],
     "licBaseId": "6C639733-0484-4512-A1F5-304C097AECA7"

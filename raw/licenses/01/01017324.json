@@ -1,15 +1,19 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01017324",
+    "licUnit": "1",
     "validDate": "2027-05-25 00:00:00.000",
     "issueDate": "1979-04-27 00:00:00.000",
+    "oriIssueDate": "1979-04-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101732404",
-    "prodNameC": "\"美\"賜胃康錠",
-    "prodNameE": "SIMECON TABLETS",
+    "prodNameC": "“長安” 治酸解脹雙效胃藥錠",
+    "prodNameE": "Gastroxia & bloating Tablet ”C.A.”",
     "indicationsName": [
         "緩解胃部不適或灼熱感、或經診斷為胃及十二指腸潰瘍、胃炎、食道炎所伴隨之胃酸過多,解除脹氣、緩解氣脹相關症狀"
     ],
@@ -23,16 +27,18 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2C496117-7A6D-4DED-B442-5CF9A008180E",
+    "subCategory": [],
     "ingredientsDesc": [
         "DIMETHICONE (EQ TO DIMETHYLPOLYSILOXANE OR POLYDIMETHYL SILOXANE)",
-        "ALUMINUM SILICATE",
         "ALUMINUM HYDROXIDE DRIED GEL"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "長安化學工業股份有限公司",
     "applicantAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -46,87 +52,52 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3C4123C9-1474-4579-AB10-AAF68FB0A5C6",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000500",
+            "ingredientsName": "DIMETHICONE (EQ TO DIMETHYLPOLYSILOXANE OR POLYDIMETHYL SILOXANE)",
             "ingredientsDesc": "DIMETHICONE (EQ TO DIMETHYLPOLYSILOXANE OR POLYDIMETHYL SILOXANE)",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
-            "seq": "0",
-            "prescription_seq": "0",
+            "seq": "1",
+            "prescription_seq": "1",
             "prescription_Kind": "1"
         },
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000202",
+            "ingredientsName": "ALUMINUM HYDROXIDE DRIED GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE DRIED GEL",
             "concentDesc": "250",
-            "concent": "250.0000",
-            "concentUnit": "001",
-            "seq": "1",
-            "prescription_seq": "0",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "9600002000",
-            "ingredientsDesc": "ALUMINUM SILICATE",
-            "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "2",
-            "prescription_seq": "0",
+            "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5535BE61-3483-484E-80A9-521CC1772CC4",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5F6CA5B6-3191-48D2-AB6D-E09FA928A26C",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03AX13"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
         {
             "isMain": "1",
             "atcCode": "A02AF02"

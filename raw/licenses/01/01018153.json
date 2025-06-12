@@ -1,10 +1,14 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-13",
+    "cancelReason": null,
+    "otherCancelReason": null,
     "licid": "01018153",
+    "licUnit": "1",
     "validDate": "2023-03-21 00:00:00.000",
     "issueDate": "1991-03-23 00:00:00.000",
+    "oriIssueDate": "1991-03-23",
     "licKind": "02",
     "oldLicid": "01018153",
     "certNo": "DHY00101815308",
@@ -16,20 +20,23 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "884C1463-84C9-4507-BF84-F0E28CF2C0C9",
+    "subCategory": [],
     "ingredientsDesc": [
         "BETAMETHASONE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "聯輝藥品有限公司",
     "applicantAddr": "高雄市燕巢區安招村安林四街17號2樓",
@@ -43,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "AD854BE2-63DA-40F6-A9EB-5542B9B97528",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000200",
+            "ingredientsName": "BETAMETHASONE",
             "ingredientsDesc": "BETAMETHASONE",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,16 +82,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "85AC2F7D-DA03-4E62-B54B-709AE11EB011",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-12-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

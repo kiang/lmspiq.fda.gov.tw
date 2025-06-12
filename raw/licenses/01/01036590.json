@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-14",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01036590",
+    "licUnit": "1",
     "validDate": "2023-07-26 00:00:00.000",
     "issueDate": "1993-07-26 00:00:00.000",
+    "oriIssueDate": "1993-07-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103659006",
@@ -23,6 +29,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4032ADB6-FA9B-4CC6-A6C7-495B1189FFA8",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEXTROMETHORPHAN HBR",
         "AMMONIUM CHLORIDE",
@@ -31,8 +40,8 @@
         "POTASSIUM GUAIACOLSULFONATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "杏輝藥品工業股份有限公司",
     "applicantAddr": "宜蘭縣冬山鄉中山村中山路84、84之4、84之6、84之7號、冬山鄉中山村新寮路95、95之1、100之7、100之13、100之15、100之16、103、136號",
@@ -46,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F8E26EF6-3574-4584-836A-692BBC85973F",
             "factoryCode": "1",
             "factoryName": "杏輝藥品工業股份有限公司",
             "factoryAddr": "宜蘭縣冬山鄉中山村中山路８４號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0705330300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "0.15",
-            "concent": "0.1500",
+            "concent": "0.150000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -85,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "0.4",
-            "concent": "0.4000",
+            "concent": "0.400000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -96,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": "6",
-            "concent": "6.0000",
+            "concent": "6.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -107,9 +123,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4004000200",
+            "ingredientsName": "AMMONIUM CHLORIDE",
             "ingredientsDesc": "AMMONIUM CHLORIDE",
             "concentDesc": "2",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "0",
@@ -118,40 +135,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CB66FCCA-0764-466D-9B62-4FF4C50CC0B2",
-            "approvedDocNo": "1110810483",
-            "approvedDate": "2022-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R05FA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA09"
         }
     ],
     "licBaseId": "E14CE334-E713-40EB-93FE-C9F2578317BF"

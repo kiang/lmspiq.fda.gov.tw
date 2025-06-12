@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047812",
+    "licUnit": "1",
     "validDate": "2026-02-14 00:00:00.000",
     "issueDate": "2006-02-14 00:00:00.000",
+    "oriIssueDate": "2006-02-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104781209",
     "prodNameC": "\"南光\" 康可明靜脈注射劑",
     "prodNameE": "Tecopin for IV Injection \"N.K.\"",
     "indicationsName": [
-        "葡萄球菌感染所導致之心內膜炎、骨髓炎、肺炎、敗血病、軟組織感染、腸炎、梭狀桿菌感染所致之假膜性結腸炎。"
+        "葡萄球菌感染所致之心內膜炎、骨髓炎、肺炎、敗血病、軟組織感染、腸炎、梭狀桿菌感染所致之假膜性結腸炎。"
     ],
     "does": "2240",
     "packageUnit": [
@@ -27,13 +31,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BA66F35D-EB9D-4F40-8E10-357408686AED",
+    "subCategory": [],
     "ingredientsDesc": [
         "TEICOPLANIN",
         "TEICOPLANIN"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "南光化學製藥股份有限公司",
     "applicantAddr": "臺南市新化區全興里中山路1001號、1001-1號",
@@ -47,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "BF73E072-F996-4088-956D-CDA53E729B5A",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區中山路1001號、1001之1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812010000",
+            "ingredientsName": "TEICOPLANIN",
             "ingredientsDesc": "TEICOPLANIN",
             "concentDesc": "(Potency)",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812010000",
+            "ingredientsName": "TEICOPLANIN",
             "ingredientsDesc": "TEICOPLANIN",
             "concentDesc": "(Potency)",
-            "concent": "400.0000",
+            "concent": "400.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -86,31 +98,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "53B3FB94-5C56-4D86-B047-6CDAD9C72B29",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "58C7C10E-5D3E-4837-8C05-2132ADE0904A",
-            "approvedDocNo": "1101490511",
-            "approvedDate": "2021-03-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J01XA02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J01XA02"
         }
     ],

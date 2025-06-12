@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-15",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "14000716",
+    "licUnit": "1",
     "validDate": "2022-04-01 00:00:00.000",
     "issueDate": "1970-08-21 00:00:00.000",
+    "oriIssueDate": "1970-08-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01400071600",
@@ -23,6 +29,9 @@
     "medMCode": "03",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B05413B7-D15E-4181-921E-CE4ADE4ED8D0",
+    "subCategory": [],
     "ingredientsDesc": [
         "HEXACHLOROPHENE",
         "DIPHENHYDRAMINE",
@@ -35,9 +44,9 @@
         "CALAMINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "川田藥品有限公司",
     "applicantAddr": "台中市西屯區大有二街７號１樓",
@@ -51,26 +60,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "D8F35B2E-CD28-4B08-94A5-1837246EB915",
             "factoryCode": "1",
             "factoryName": "利達製藥股份有限公司",
             "factoryAddr": "台中市大甲區中山路一段９０６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0701010300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001600",
+            "ingredientsName": "DIPHENHYDRAMINE",
             "ingredientsDesc": "DIPHENHYDRAMINE",
             "concentDesc": "1",
-            "concent": "1.000",
+            "concent": "1.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -79,9 +92,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200014300",
+            "ingredientsName": "CALAMINE",
             "ingredientsDesc": "CALAMINE",
             "concentDesc": "5",
-            "concent": "5.000",
+            "concent": "5.000000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -90,9 +104,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200011500",
+            "ingredientsName": "ZINC OXIDE",
             "ingredientsDesc": "ZINC OXIDE",
             "concentDesc": "3",
-            "concent": "3.000",
+            "concent": "3.000000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "1",
@@ -101,9 +116,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404601800",
+            "ingredientsName": "HEXACHLOROPHENE",
             "ingredientsDesc": "HEXACHLOROPHENE",
             "concentDesc": "0.5",
-            "concent": "0.500",
+            "concent": "0.500000",
             "concentUnit": "002",
             "seq": "4",
             "prescription_seq": "1",
@@ -112,9 +128,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424400200",
+            "ingredientsName": "METHYL SALICYLATE",
             "ingredientsDesc": "METHYL SALICYLATE",
             "concentDesc": "2",
-            "concent": "2.000",
+            "concent": "2.000000",
             "concentUnit": "002",
             "seq": "5",
             "prescription_seq": "1",
@@ -123,9 +140,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000600",
+            "ingredientsName": "PHENOL (CARBOLIC ACID)",
             "ingredientsDesc": "PHENOL (CARBOLIC ACID)",
             "concentDesc": "1",
-            "concent": "1.000",
+            "concent": "1.000000",
             "concentUnit": "002",
             "seq": "6",
             "prescription_seq": "1",
@@ -134,9 +152,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000100",
+            "ingredientsName": "CAMPHOR",
             "ingredientsDesc": "CAMPHOR",
             "concentDesc": "2",
-            "concent": "2.000",
+            "concent": "2.000000",
             "concentUnit": "002",
             "seq": "7",
             "prescription_seq": "1",
@@ -145,9 +164,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000300",
+            "ingredientsName": "MENTHOL",
             "ingredientsDesc": "MENTHOL",
             "concentDesc": "1",
-            "concent": "1.000",
+            "concent": "1.000000",
             "concentUnit": "002",
             "seq": "8",
             "prescription_seq": "1",
@@ -156,9 +176,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000200",
+            "ingredientsName": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "ingredientsDesc": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "concentDesc": "2",
-            "concent": "2.000",
+            "concent": "2.000000",
             "concentUnit": "002",
             "seq": "9",
             "prescription_seq": "1",
@@ -170,40 +191,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "D08AE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D02AF"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D02AB"
-        },
-        {
             "isMain": "1",
             "atcCode": "D11AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AA32"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D08AE03"
         }
     ],
     "licBaseId": "433BAC0A-B0F4-4318-BDB2-6440607C1C3B"

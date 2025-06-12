@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-14",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01037082",
+    "licUnit": "1",
     "validDate": "2023-12-20 00:00:00.000",
     "issueDate": "1993-12-20 00:00:00.000",
+    "oriIssueDate": "1993-12-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103708205",
@@ -27,11 +33,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5427B5CB-11F3-46EE-B774-06A74BA710CB",
+    "subCategory": [],
     "ingredientsDesc": [
         "LOPERAMIDE HCL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "杏輝藥品工業股份有限公司",
     "applicantAddr": "宜蘭縣冬山鄉中山村中山路84、84之4、84之6、84之7號、冬山鄉中山村新寮路95、95之1、100之7、100之13、100之15、100之16、103、136號",
@@ -45,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DCC8568D-B9F6-4516-A42D-1555F49F8F4A",
             "factoryCode": "1",
             "factoryName": "杏輝藥品工業股份有限公司",
             "factoryAddr": "宜蘭縣冬山鄉中山村中山路８４號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0705330300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5608000810",
+            "ingredientsName": "LOPERAMIDE HCL",
             "ingredientsDesc": "LOPERAMIDE HCL",
             "concentDesc": "2",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -73,32 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C99A94C8-1204-4556-9BFE-9A97FA2C706F",
-            "approvedDocNo": "1110810483",
-            "approvedDate": "2022-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BF9B0420-F7C0-404E-A17D-C58044F80D26",
-            "approvedDocNo": "1090013040",
-            "approvedDate": "2020-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B5DFBDE0-B24E-4FFC-A727-C2C1A37434DE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

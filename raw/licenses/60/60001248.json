@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001248",
+    "licUnit": "1",
     "validDate": "2029-01-09 00:00:00.000",
     "issueDate": "2024-01-09 00:00:00.000",
+    "oriIssueDate": "2024-01-09",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000124807",
@@ -27,13 +31,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "480BFC14-5725-4A43-8511-ECD34F2FEBB9",
+    "subCategory": [
+        "C0903"
+    ],
     "ingredientsDesc": [
         "ravulizumab"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫"
     ],
     "applicantName": "臺灣阿斯特捷利康股份有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號21樓",
@@ -47,19 +56,49 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "43D244EA-9C81-461F-BD90-8532BF9D2774",
             "factoryCode": "1",
             "factoryName": "Alexion Pharma International Operations Limited",
             "factoryAddr": "Monksland Industrial Estate, Monksland, Athlone, N37 DH79, Ireland",
             "factoryCompanyAddr": "",
             "countryCode": "IE",
-            "processCode": [],
-            "processCodeStr": null,
+            "processCode": [
+                {
+                    "value": "66",
+                    "name": "成品製造廠"
+                }
+            ],
+            "processCodeStr": "66;成品製造廠",
             "factoryKind": "M",
             "factoryNo": "FIE0101200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "6D19C885-D3F7-438F-BCC9-D14D305241D2",
+            "factoryCode": "1",
+            "factoryName": "Catalent Indiana LLC",
+            "factoryAddr": "1300 South Patterson Drive, Bloomington, IN 47403, United States",
+            "factoryCompanyAddr": "",
+            "countryCode": "US",
+            "processCode": [
+                {
+                    "value": "66",
+                    "name": "成品製造廠"
+                }
+            ],
+            "processCodeStr": "66;成品製造廠",
+            "factoryKind": "M",
+            "factoryNo": "FUS1148000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "CCD737A6-31F1-4759-8278-1A93A1447A78",
             "factoryCode": "2",
             "factoryName": "Lonza Biologics Porrino, S.L.",
             "factoryAddr": "A Relva s\/n 36400 O Porrino Pontevedra, Spain",
@@ -75,9 +114,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0214000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7B376777-3B53-4DDC-9C13-BC86F2E809F8",
             "factoryCode": "2",
             "factoryName": "Alexion Pharma International Operations Limited (APIOL)",
             "factoryAddr": "College Business and Technology Park, Blanchardstown Road North, Dublin15, D15 R925, Ireland",
@@ -93,16 +135,19 @@
             "factoryKind": "M",
             "factoryNo": "FIE0107000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1004003100",
+            "ingredientsName": "ravulizumab",
             "ingredientsDesc": "ravulizumab",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -112,6 +157,11 @@
     "authDtoList": [],
     "iomDtoList": [],
     "changeDtoList": [],
-    "atcList": [],
+    "atcList": [
+        {
+            "isMain": "1",
+            "atcCode": "L04AJ02"
+        }
+    ],
     "licBaseId": "E06ECCC7-3AE6-4C22-9C02-83B6EE7D6467"
 }

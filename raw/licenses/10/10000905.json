@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2022-03-01",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "10000905",
+    "licUnit": "1",
     "validDate": "2025-11-15 00:00:00.000",
     "issueDate": "2010-11-15 00:00:00.000",
+    "oriIssueDate": "2010-11-15",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000090506",
@@ -18,7 +22,7 @@
     "does": "2243",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
@@ -29,11 +33,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "52CCB3BD-3261-4022-A053-5064F6C73FDD",
+    "subCategory": [],
     "ingredientsDesc": [
         "Canakinumab"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -47,19 +54,23 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "266CEDD4-7641-4761-BC70-18A82B80B386",
             "factoryCode": "1",
             "factoryName": "NOVARTIS PHARMA STEIN AG",
             "factoryAddr": "SCHAFFHAUSERSTRASSE CH-4332 STEIN, SWITZERLAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": "LICHTSTRASSE 35, 4056 BASEL, SWITZERLAND",
             "countryCode": "CH",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCH0099000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "74D409D5-6C2F-4F0F-9887-9D199C13BFD9",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA AG",
             "factoryAddr": "LICHTSTRASSE 35, 4056 BASEL, SWITZERLAND",
@@ -75,9 +86,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0253000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "5F583E15-E890-4125-BFA5-E307F80A1150",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA S.A.S.",
             "factoryAddr": "8, RUE DE L'INDUSTRIE, 68330 HUNINGUE, FRANCE",
@@ -93,16 +107,19 @@
             "factoryKind": "M",
             "factoryNo": "FFR0220000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013002300",
+            "ingredientsName": "Canakinumab",
             "ingredientsDesc": "Canakinumab",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -111,39 +128,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6E325AFC-2E57-45EA-8D16-B4E459486157",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "34F47465-BADA-48BF-95ED-4C559E1333D7",
-            "approvedDocNo": "1096020770",
-            "approvedDate": "2020-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0689DF66-B1B1-438F-9489-EE0E53E8EF3A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L04AC08"
-        },
-        {
-            "isMain": "2",
             "atcCode": "L04AC08"
         }
     ],

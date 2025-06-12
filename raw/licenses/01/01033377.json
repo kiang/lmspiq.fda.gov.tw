@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033377",
+    "licUnit": "1",
     "validDate": "2025-12-06 00:00:00.000",
     "issueDate": "1990-12-06 00:00:00.000",
+    "oriIssueDate": "1990-12-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103337704",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F5DAA7C2-56C9-436A-8E32-98FFFAB7A7BB",
+    "subCategory": [],
     "ingredientsDesc": [
         "UREA",
         "HYDROCORTISONE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "壽元化學工業股份有限公司",
     "applicantAddr": "嘉義市西區新民路128號",
@@ -42,26 +49,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "27DA9B63-36EC-401D-ACC8-634CEC8CCF01",
             "factoryCode": "1",
             "factoryName": "壽元化學工業股份有限公司",
             "factoryAddr": "嘉義市西區新民路128號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1421417300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416001100",
+            "ingredientsName": "UREA",
             "ingredientsDesc": "UREA",
             "concentDesc": "100",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -70,9 +81,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001100",
+            "ingredientsName": "HYDROCORTISONE",
             "ingredientsDesc": "HYDROCORTISONE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -81,76 +93,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "47B5A97C-8905-4A6D-AE02-B71DE3A7A1C0",
-            "approvedDocNo": "1110022545",
-            "approvedDate": "2023-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6CDCD2F6-F29C-4719-B959-DEA1884EE9BD",
-            "approvedDocNo": "1110022545",
-            "approvedDate": "2023-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3C88588C-C2A0-433C-AC3A-7989B239D15D",
-            "approvedDocNo": "1106610125",
-            "approvedDate": "2022-11-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FD8FC079-5E57-465A-975C-E2578B7855BE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D7DE39EE-3F80-4E79-952B-68835ACA19EA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9CD8AC2B-80D6-4FD0-8984-6DF9B5DC1A75",
-            "approvedDocNo": "1106610125",
-            "approvedDate": "2021-12-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "300E6777-592B-4B5F-9F05-8BACA2A5DAFA",
-            "approvedDocNo": "1106610125",
-            "approvedDate": "2021-12-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D07XA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D02AE01"
         }
     ],
     "licBaseId": "2DE7B1EB-3516-4FA3-8C57-100121B18B93"

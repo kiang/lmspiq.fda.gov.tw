@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044084",
+    "licUnit": "1",
     "validDate": "2025-11-08 00:00:00.000",
     "issueDate": "2000-11-08 00:00:00.000",
+    "oriIssueDate": "2000-11-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104408400",
@@ -24,19 +28,22 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "87"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D964FF48-F598-40F3-864E-BC91F5324B21",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLINDAMYCIN (AS PHOSPHATE)",
         "CLINDAMYCIN (AS PHOSPHATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "臺灣派頓化學製藥股份有限公司",
     "applicantAddr": "高雄市岡山區為隨東路50號",
@@ -50,26 +57,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "33507FF0-46CE-4FE6-B21A-62C6AF3DACE8",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812009230",
+            "ingredientsName": "CLINDAMYCIN (AS PHOSPHATE)",
             "ingredientsDesc": "CLINDAMYCIN (AS PHOSPHATE)",
             "concentDesc": "(POTENCY)     10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -78,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812009230",
+            "ingredientsName": "CLINDAMYCIN (AS PHOSPHATE)",
             "ingredientsDesc": "CLINDAMYCIN (AS PHOSPHATE)",
             "concentDesc": "(POTENCY)     10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -89,31 +101,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "552F7A41-D236-4298-8BF4-B8CC896A8756",
-            "approvedDocNo": "1129035921",
-            "approvedDate": "2023-12-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7818E047-4110-45A8-930C-72BFBBECA766",
-            "approvedDocNo": "1091497455",
-            "approvedDate": "2021-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D10AF01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D10AF01"
         }
     ],

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01034582",
+    "licUnit": "1",
     "validDate": "2025-11-27 00:00:00.000",
     "issueDate": "1991-11-18 00:00:00.000",
+    "oriIssueDate": "1991-11-18",
     "licKind": "02",
     "oldLicid": "01033263",
     "certNo": "DHY00103458200",
@@ -23,12 +27,15 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "25F3CB55-BB0A-4D0C-A6D1-0F32D18D6DAE",
+    "subCategory": [],
     "ingredientsDesc": [
         "POVIDONE-IODINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "先智生物科技股份有限公司",
     "applicantAddr": "新北市瑞芳區頂坪路瑞芳工業區14號",
@@ -42,26 +49,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "28F8864B-2CE9-4FCE-BB18-6D6795A88C2C",
             "factoryCode": "1",
             "factoryName": "先智生物科技股份有限公司",
             "factoryAddr": "新北市瑞芳區頂坪路瑞芳工業區14號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6131120035",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404603400",
+            "ingredientsName": "POVIDONE-IODINE",
             "ingredientsDesc": "POVIDONE-IODINE",
             "concentDesc": "100",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,16 +81,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5D043D7F-6F5D-46AE-9DA2-06BA0682ADD6",
-            "approvedDocNo": "1080028608",
-            "approvedDate": "2019-12-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

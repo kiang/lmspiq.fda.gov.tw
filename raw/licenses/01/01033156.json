@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033156",
+    "licUnit": "1",
     "validDate": "2025-11-07 00:00:00.000",
     "issueDate": "1990-11-07 00:00:00.000",
+    "oriIssueDate": "1990-11-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103315601",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0EEB9A2E-2862-47FB-9953-8F247CA6972D",
+    "subCategory": [],
     "ingredientsDesc": [
         "DL-CAMPHOR ",
         "GLYCOL SALICYLATE",
@@ -35,8 +42,8 @@
         "METHYL SALICYLATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "人生製藥股份有限公司",
     "applicantAddr": "台中市西屯區工業區五路３號",
@@ -50,26 +57,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2A82720F-53B8-436D-A0CA-037B9504D6EA",
             "factoryCode": "1",
             "factoryName": "人生製藥股份有限公司",
             "factoryAddr": "台中市西屯區工業區五路３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0201709300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8400000200",
+            "ingredientsName": "GLYCOL SALICYLATE",
             "ingredientsDesc": "GLYCOL SALICYLATE",
             "concentDesc": "1.00GM",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -78,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8424400200",
+            "ingredientsName": "METHYL SALICYLATE",
             "ingredientsDesc": "METHYL SALICYLATE",
             "concentDesc": "1.00GM",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -89,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000103",
+            "ingredientsName": "DL-CAMPHOR ",
             "ingredientsDesc": "DL-CAMPHOR ",
             "concentDesc": "1.00GM",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "1",
@@ -100,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000305",
+            "ingredientsName": "MENTHOL OIL",
             "ingredientsDesc": "MENTHOL OIL",
             "concentDesc": "1.00GM",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "002",
             "seq": "4",
             "prescription_seq": "1",
@@ -111,9 +125,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": "0.02GM",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "002",
             "seq": "5",
             "prescription_seq": "1",
@@ -125,20 +140,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "D04AA32"
-        },
-        {
             "isMain": "1",
             "atcCode": "M02AC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "M02AC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AX"
         }
     ],
     "licBaseId": "97DC00EB-5A50-4A49-889A-25CB062793CD"

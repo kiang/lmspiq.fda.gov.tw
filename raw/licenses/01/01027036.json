@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-14",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01027036",
+    "licUnit": "1",
     "validDate": "2023-05-25 00:00:00.000",
     "issueDate": "1983-04-08 00:00:00.000",
+    "oriIssueDate": "1983-04-08",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00102703605",
@@ -27,13 +33,16 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AAEF2E56-BC5C-4069-9157-52E9D2C5BE42",
+    "subCategory": [],
     "ingredientsDesc": [
         "TOLNAFTATE",
         "CHLORHEXIDINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "杏輝藥品工業股份有限公司",
     "applicantAddr": "宜蘭縣冬山鄉中山村中山路84、84之4、84之6、84之7號、冬山鄉中山村新寮路95、95之1、100之7、100之13、100之15、100之16、103、136號",
@@ -47,26 +56,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "3C240A2D-23EE-49A8-8943-117A1F2EF2B0",
             "factoryCode": "1",
             "factoryName": "杏輝藥品工業股份有限公司",
             "factoryAddr": "宜蘭縣冬山鄉中山村中山路８４號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0705330300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404801300",
+            "ingredientsName": "TOLNAFTATE",
             "ingredientsDesc": "TOLNAFTATE",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900211",
+            "ingredientsName": "CHLORHEXIDINE HCL",
             "ingredientsDesc": "CHLORHEXIDINE HCL",
             "concentDesc": "2",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -86,28 +100,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0157DC42-E7D9-4B15-952D-72DAFEF86570",
-            "approvedDocNo": "1110811225",
-            "approvedDate": "2022-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D01AE18"
-        },
         {
             "isMain": "1",
             "atcCode": "D01AE20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D09AA12"
         }
     ],
     "licBaseId": "C07D192D-8BF2-4690-A4BC-7A0101D7F6CD"

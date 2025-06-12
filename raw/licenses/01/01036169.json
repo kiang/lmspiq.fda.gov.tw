@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01036169",
+    "licUnit": "1",
     "validDate": "2028-02-27 00:00:00.000",
     "issueDate": "1993-02-27 00:00:00.000",
+    "oriIssueDate": "1993-02-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103616902",
@@ -23,11 +27,15 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4784C358-1841-4039-BE43-432020FC706D",
+    "subCategory": [],
     "ingredientsDesc": [
+        "CLOTRIMAZOLE",
         "CLOTRIMAZOLE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "先智生物科技股份有限公司",
     "applicantAddr": "新北市瑞芳區頂坪路瑞芳工業區14號",
@@ -41,76 +49,51 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F3BC63FF-6D51-4EFF-84F7-9DBEF41065B3",
             "factoryCode": "1",
             "factoryName": "先智生物科技股份有限公司",
             "factoryAddr": "新北市瑞芳區頂坪路瑞芳工業區14號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6131120035",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
             "ingredientsDesc": "CLOTRIMAZOLE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
-            "seq": "0",
+            "seq": "1",
             "prescription_seq": "1",
+            "prescription_Kind": "1"
+        },
+        {
+            "ingredientsKind": "1",
+            "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
+            "ingredientsDesc": "CLOTRIMAZOLE",
+            "concentDesc": "10",
+            "concent": "10.000000",
+            "concentUnit": "001",
+            "seq": "1",
+            "prescription_seq": "2",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C4D7AB91-99F5-4565-B0F3-EA923A4F5521",
-            "approvedDocNo": "1110816257",
-            "approvedDate": "2023-06-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D9C5FE76-8859-47D4-A1C1-3760D37D269B",
-            "approvedDocNo": "1086817505",
-            "approvedDate": "2020-07-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CB5C7249-CF42-4DF5-8B2F-4BFB6B8C43B9",
-            "approvedDocNo": "1086817505",
-            "approvedDate": "2020-07-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D30D1110-F77D-470C-BA49-652CEA680577",
-            "approvedDocNo": "1086817505",
-            "approvedDate": "2020-07-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0FCFC546-DCE4-482E-BF6F-759DAEE113ED",
-            "approvedDocNo": "1086817505",
-            "approvedDate": "2020-07-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

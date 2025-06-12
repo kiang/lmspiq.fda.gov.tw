@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-06",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "01004188",
+    "licUnit": "1",
     "validDate": "2023-05-21 00:00:00.000",
     "issueDate": "1974-05-22 00:00:00.000",
+    "oriIssueDate": "1974-05-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100418801",
@@ -16,21 +22,24 @@
     "does": "4461",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "06"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DDA67061-3D5F-4B63-9755-E8E1E3B621CA",
+    "subCategory": [],
     "ingredientsDesc": [
         "FLAVINEADENINE DINUCLEOTIDE",
         "PYRIDOXAL 5-PHOSPHATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "綠洲化學工業有限公司",
     "applicantAddr": "宜蘭縣蘇澳鎮德興八路11號",
@@ -44,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "318591C5-3C88-4716-91DF-3F7B38806981",
             "factoryCode": "1",
             "factoryName": "綠洲化學工業有限公司",
             "factoryAddr": "宜蘭縣蘇澳鎮德興八路11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6134031142",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200200",
+            "ingredientsName": "FLAVINEADENINE DINUCLEOTIDE",
             "ingredientsDesc": "FLAVINEADENINE DINUCLEOTIDE",
             "concentDesc": "1",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600200",
+            "ingredientsName": "PYRIDOXAL 5-PHOSPHATE",
             "ingredientsDesc": "PYRIDOXAL 5-PHOSPHATE",
             "concentDesc": "1",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,36 +97,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "223C7AFE-3904-4051-9709-230923C32A71",
-            "approvedDocNo": "1100016769",
-            "approvedDate": "2021-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "679F1DAA-9693-42BC-8CB9-CC2338614499",
-            "approvedDocNo": "1096817825",
-            "approvedDate": "2020-10-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA06"
         }
     ],
     "licBaseId": "2B1D7ED5-B494-4FB8-B914-EE1954D7DD52"

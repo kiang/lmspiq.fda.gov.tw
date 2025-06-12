@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033155",
+    "licUnit": "1",
     "validDate": "2025-11-07 00:00:00.000",
     "issueDate": "1990-11-07 00:00:00.000",
+    "oriIssueDate": "1990-11-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103315502",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2F5F3383-E718-40C3-8CF9-D251A0A69023",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLYCOL MONOSALICYLATE",
         "DL-CAMPHOR ",
@@ -34,8 +41,8 @@
         "TOCOPHEROL ACETATE ALPHA DL-"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "人生製藥股份有限公司",
     "applicantAddr": "台中市西屯區工業區五路３號",
@@ -49,26 +56,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "4441F73E-FF62-4BAB-B423-9DA7150D0CE4",
             "factoryCode": "1",
             "factoryName": "人生製藥股份有限公司",
             "factoryAddr": "台中市西屯區工業區五路３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0201709300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412002700",
+            "ingredientsName": "GLYCOL MONOSALICYLATE",
             "ingredientsDesc": "GLYCOL MONOSALICYLATE",
             "concentDesc": "1.25GM",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000302",
+            "ingredientsName": "L-MENTHOL ",
             "ingredientsDesc": "L-MENTHOL ",
             "concentDesc": "1.00GM",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -88,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000213",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA DL-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA DL-",
             "concentDesc": "1.00GM",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "1",
@@ -99,9 +112,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000103",
+            "ingredientsName": "DL-CAMPHOR ",
             "ingredientsDesc": "DL-CAMPHOR ",
             "concentDesc": "0.30GM",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "002",
             "seq": "4",
             "prescription_seq": "1",
@@ -114,18 +128,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "M02AC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M02AC"
         }
     ],

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01000263",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1971-11-24 00:00:00.000",
+    "oriIssueDate": "1971-11-24",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00100026308",
@@ -16,23 +20,26 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "30"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EC564D94-8940-4616-A97D-C28E52C4AE60",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM CHLORIDE",
         "DEXTROSE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "永豐化學工業股份有限公司",
     "applicantAddr": "新北市新莊區新樹路２９２號",
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6B7F3C38-6B74-45AE-A0E6-BC0891229D7B",
             "factoryCode": "1",
             "factoryName": "永豐化學工業股份有限公司新莊工廠",
             "factoryAddr": "新北市新莊區新樹路２９２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0504302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "2.25",
-            "concent": "2.2500",
+            "concent": "2.250000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000500",
+            "ingredientsName": "DEXTROSE",
             "ingredientsDesc": "DEXTROSE",
             "concentDesc": "12.5",
-            "concent": "12.5000",
+            "concent": "12.500000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,41 +97,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E974AABC-9FFC-4D4E-9955-0F1EFC66FD0F",
-            "approvedDocNo": "1096014219",
-            "approvedDate": "2020-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "222FB2FF-8152-44FE-A8D1-62384E2ABC34",
-            "approvedDocNo": "1096010217",
-            "approvedDate": "2020-04-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CBD312DC-F354-46DA-8518-D7B335605914",
-            "approvedDocNo": "1096010217",
-            "approvedDate": "2020-04-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05BB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA03"
-        },
         {
             "isMain": "1",
             "atcCode": "B05BB02"

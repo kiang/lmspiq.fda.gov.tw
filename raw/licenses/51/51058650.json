@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058650",
+    "licUnit": "1",
     "validDate": "2025-11-18 00:00:00.000",
     "issueDate": "2015-11-18 00:00:00.000",
+    "oriIssueDate": "2015-11-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105865000",
@@ -27,12 +31,15 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "53820BC5-9C97-4DBB-8209-CF2109D2849E",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLUCOSE MONOHYDRATE",
         "POTASSIUM CHLORIDE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "信東生技股份有限公司",
     "applicantAddr": "桃園市桃園區介壽路２２號",
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "088FE4E4-9CD3-4692-82D7-6814DE5B3005",
             "factoryCode": "1",
             "factoryName": "信東生技股份有限公司",
             "factoryAddr": "桃園市桃園區介壽路２２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0908703300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "14.900",
+            "concent": "14.900000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000760",
+            "ingredientsName": "GLUCOSE MONOHYDRATE",
             "ingredientsDesc": "GLUCOSE MONOHYDRATE",
             "concentDesc": "Dextrose (D-glucose monohydrate)",
-            "concent": "50.000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",

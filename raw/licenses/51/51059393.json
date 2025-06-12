@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059393",
+    "licUnit": "1",
     "validDate": "2026-12-01 00:00:00.000",
     "issueDate": "2016-12-01 00:00:00.000",
+    "oriIssueDate": "2016-12-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105939301",
@@ -27,14 +31,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F8AF5D37-2015-44D9-9A59-65736CE3C61D",
+    "subCategory": [],
     "ingredientsDesc": [
         "PIOGLITAZONE HYDROCHLORIDE",
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "生達化學製藥股份有限公司二廠",
     "applicantAddr": "台南市新營區開元路１５４號",
@@ -48,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5E478D54-9F03-46E5-BE7D-9606268127A3",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司二廠",
             "factoryAddr": "台南市新營區開元路１５４號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6141010064",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400910",
+            "ingredientsName": "PIOGLITAZONE HYDROCHLORIDE",
             "ingredientsDesc": "PIOGLITAZONE HYDROCHLORIDE",
             "concentDesc": "(equivalent to Pioglitazone.....15mg)",
-            "concent": "16.530",
+            "concent": "16.530000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": "",
-            "concent": "850.000",
+            "concent": "850.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,84 +99,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C656AC52-3E83-40EE-8321-676525B4B74B",
-            "approvedDocNo": "1110607125",
-            "approvedDate": "2022-09-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "37E50512-B27D-4CDA-B226-98EA26B03C3F",
-            "approvedDocNo": "1106803418",
-            "approvedDate": "2021-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "157B605D-375C-42C2-9F42-CC34071905F6",
-            "approvedDocNo": "1106803418",
-            "approvedDate": "2021-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "56CA7093-B566-486C-AD18-78E6B3BEEFC5",
-            "approvedDocNo": "1106004675",
-            "approvedDate": "2021-03-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D9236E5F-7C22-4281-B9BA-16C412109486",
-            "approvedDocNo": "1096612045",
-            "approvedDate": "2021-02-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6849DAC9-910A-4E44-B7FD-DBE81FEC5114",
-            "approvedDocNo": "1096817622",
-            "approvedDate": "2020-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F6676264-5781-4FCB-961F-58C4827577F4",
-            "approvedDocNo": "1086611053",
-            "approvedDate": "2019-12-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E2D37402-80A4-4F2C-8036-B15B12EEE6E6",
-            "approvedDocNo": "1081404848",
-            "approvedDate": "2019-05-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A10BD05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A10BG03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A10BA02"
         }
     ],
     "licBaseId": "2F33C250-4C10-460C-81BB-22C39118D651"

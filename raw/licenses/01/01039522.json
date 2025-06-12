@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039522",
+    "licUnit": "1",
     "validDate": "2025-11-07 00:00:00.000",
     "issueDate": "1995-11-07 00:00:00.000",
+    "oriIssueDate": "1995-11-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103952204",
@@ -16,17 +20,20 @@
     "does": "2240",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "13"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "94E39481-CEAB-4574-A03E-740165AE13E4",
+    "subCategory": [],
     "ingredientsDesc": [
         "CEFTAZIDIME",
         "CEFTAZIDIME",
@@ -34,9 +41,9 @@
         "CEFTAZIDIME"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "聯邦化學製藥股份有限公司",
     "applicantAddr": "台北市內湖區瑞光路26巷36弄2號5樓",
@@ -50,26 +57,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "C1DBECF2-B259-4AAC-B033-677E3337DD8F",
             "factoryCode": "1",
             "factoryName": "政德製藥股份有限公司",
             "factoryAddr": "雲林縣大埤鄉嘉興村豐田路２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0922116300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812302300",
+            "ingredientsName": "CEFTAZIDIME",
             "ingredientsDesc": "CEFTAZIDIME",
             "concentDesc": "(POTENCY)",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "002",
             "seq": "0",
             "prescription_seq": "0",
@@ -78,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812302300",
+            "ingredientsName": "CEFTAZIDIME",
             "ingredientsDesc": "CEFTAZIDIME",
             "concentDesc": "(POTENCY)",
-            "concent": "250.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -89,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812302300",
+            "ingredientsName": "CEFTAZIDIME",
             "ingredientsDesc": "CEFTAZIDIME",
             "concentDesc": "(POTENCY)",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -100,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812302300",
+            "ingredientsName": "CEFTAZIDIME",
             "ingredientsDesc": "CEFTAZIDIME",
             "concentDesc": "(POTENCY)",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "002",
             "seq": "0",
             "prescription_seq": "3",
@@ -111,21 +125,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1C639569-0A38-40D5-BDBB-D95AD9289D34",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01DD02"
-        },
         {
             "isMain": "1",
             "atcCode": "J01DD02"

@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-29",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01049247",
+    "licUnit": "1",
     "validDate": "2023-01-15 00:00:00.000",
     "issueDate": "2008-01-15 00:00:00.000",
+    "oriIssueDate": "2008-01-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104924701",
@@ -27,12 +33,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CB744EF4-E868-4CF1-A35B-CFD7D7D10620",
+    "subCategory": [],
     "ingredientsDesc": [
         "PROCHLORPERAZINE MESILATE (=PROCHLORPERAZINE DIMETHANESULFONATE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "大豐製藥股份有限公司",
     "applicantAddr": "彰化市延平里岸頭巷１１號",
@@ -46,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "21B6AAFE-A589-4A29-88DD-3A32BFA2FCF2",
             "factoryCode": "1",
             "factoryName": "大豐製藥股份有限公司",
             "factoryAddr": "彰化市延平里岸頭巷１１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0306811300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816901040",
+            "ingredientsName": "PROCHLORPERAZINE MESILATE (=PROCHLORPERAZINE DIMETHANESULFONATE)",
             "ingredientsDesc": "PROCHLORPERAZINE MESILATE (=PROCHLORPERAZINE DIMETHANESULFONATE)",
             "concentDesc": "(eq. to Prochlorperazine 5mg)",
-            "concent": "7.5700",
+            "concent": "7.570000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,16 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "90F05A81-A0A8-4604-BD12-306062D660C9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

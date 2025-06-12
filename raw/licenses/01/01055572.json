@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055572",
+    "licUnit": "1",
     "validDate": "2025-12-03 00:00:00.000",
     "issueDate": "2010-12-03 00:00:00.000",
+    "oriIssueDate": "2010-12-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105557201",
@@ -27,13 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "08A09652-95FF-4175-BFA4-86786A53A24C",
+    "subCategory": [],
     "ingredientsDesc": [
         "MOSAPRIDE CITRATE DIHYDRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "25",
-        "61"
+        "01 國 產",
+        "25 監視中學名藥",
+        "61 完成BE試驗",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "十全實業股份有限公司",
     "applicantAddr": "南投縣南投市仁和路２７號",
@@ -47,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "ECBF2AF0-683E-4C75-8941-D95ED24BBD2F",
             "factoryCode": "1",
             "factoryName": "十全實業股份有限公司",
             "factoryAddr": "南投縣南投市南崗工業區仁和路２７號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0202114300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640003210",
+            "ingredientsName": "MOSAPRIDE CITRATE DIHYDRATE",
             "ingredientsDesc": "MOSAPRIDE CITRATE DIHYDRATE",
             "concentDesc": "(eq. to Mosapride Citrate 5mg)",
-            "concent": "5.2900",
+            "concent": "5.290000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,24 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "60C63857-C781-40C2-B990-B0A975A38553",
-            "approvedDocNo": "1096801769",
-            "approvedDate": "2020-04-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4C37A6EE-FE45-4346-8149-C7FD32580554",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

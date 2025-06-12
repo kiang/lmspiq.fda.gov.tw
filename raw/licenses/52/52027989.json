@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027989",
+    "licUnit": "1",
     "validDate": "2025-11-24 00:00:00.000",
     "issueDate": "2020-11-24 00:00:00.000",
+    "oriIssueDate": "2020-11-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202798907",
@@ -23,14 +27,19 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "ED59C178-2AB1-461A-AFE0-B6B66C6998BF",
+    "subCategory": [
+        "A03"
+    ],
     "ingredientsDesc": [
         "LIDOCAINE",
         "PRILOCAINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1Q"
+        "02 輸 入",
+        "07 新藥監視",
+        "1Q 不得輸入"
     ],
     "applicantName": "友華生技醫藥股份有限公司",
     "applicantAddr": "臺北市北投區承德路６段128號13樓",
@@ -44,6 +53,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6F5F3203-65D8-4C19-87B5-A46DF1E296F1",
             "factoryCode": "1",
             "factoryName": "PHARMASERVE (NORTHWEST) LTD.",
             "factoryAddr": "9 ARKWRIGHT RD ASTMOOR INDUSTRIAL ESTATE RUNCORN CHESHIRE UNITED KINGDOM WA7 1NU",
@@ -54,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "FGB0281000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "13DFAD23-7D61-43F7-9C1B-61BFEE8D0EFE",
             "factoryCode": "2",
             "factoryName": "PLETHORA SOLUTIONS LTD.",
             "factoryAddr": "HAMPDEN HOUSE, MONUMENT BUSINESS PARK, CHALGROVE, OX44 7RW, UNITED KINGDOM",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GB",
             "processCode": [
                 {
@@ -72,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0425000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001000",
+            "ingredientsName": "LIDOCAINE",
             "ingredientsDesc": "LIDOCAINE",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,9 +106,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200009200",
+            "ingredientsName": "PRILOCAINE",
             "ingredientsDesc": "PRILOCAINE",
             "concentDesc": "",
-            "concent": "50.000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -101,36 +118,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E84134EE-D165-4F5C-A314-F979EFC05A36",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "556CE70F-3553-4968-9C8E-41A7A8E724AD",
-            "approvedDocNo": "1106028054",
-            "approvedDate": "2021-12-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N01BB52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N01BB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N01BB04"
         }
     ],
     "licBaseId": "86A2472C-8F6B-48C1-B43F-3346454AF0D8"

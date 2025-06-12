@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060586",
+    "licUnit": "1",
     "validDate": "2025-11-13 00:00:00.000",
     "issueDate": "2020-11-13 00:00:00.000",
+    "oriIssueDate": "2020-11-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106058609",
@@ -27,12 +31,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "9CB0394F-FB4D-4868-9889-6A73A8EA9CF3",
+    "subCategory": [
+        "A07"
+    ],
     "ingredientsDesc": [
         "SUNITINIB MALATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "26"
+        "01 國 產",
+        "26 監視期滿新藥"
     ],
     "applicantName": "美時化學製藥股份有限公司",
     "applicantAddr": "台北市信義區松仁路277號17樓",
@@ -46,23 +55,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CA1E2570-F160-4E2A-99ED-A2A5310D21F9",
             "factoryCode": "1",
             "factoryName": "美時化學製藥股份有限公司南投廠",
             "factoryAddr": "南投縣南投市新興里成功一路３０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0901314300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "34EC4FD9-8567-42B0-AC20-EA406E847E12",
             "factoryCode": "2",
             "factoryName": "美時化學製藥股份有限公司",
             "factoryAddr": "台北市信義區松仁路277號17樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -74,16 +87,19 @@
             "factoryKind": "M",
             "factoryNo": "0901301200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000131",
+            "ingredientsName": "SUNITINIB MALATE",
             "ingredientsDesc": "SUNITINIB MALATE",
             "concentDesc": "(eq to Sunitinib......37.5 MG)",
-            "concent": "50.100",
+            "concent": "50.100000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -92,24 +108,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D45DFF45-F6F9-487E-BEF4-5E9C1E7E8663",
-            "approvedDocNo": "1106021152",
-            "approvedDate": "2021-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "819E3309-15E3-4FB4-B5AB-9588A85500F3",
-            "approvedDocNo": "1096821830",
-            "approvedDate": "2021-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

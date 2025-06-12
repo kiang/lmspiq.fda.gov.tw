@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039481",
+    "licUnit": "1",
     "validDate": "2025-11-02 00:00:00.000",
     "issueDate": "1995-11-02 00:00:00.000",
+    "oriIssueDate": "1995-11-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103948103",
@@ -16,7 +20,7 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         },
         {
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5577A27F-F2B6-4926-8A3F-429AD50E4A39",
+    "subCategory": [],
     "ingredientsDesc": [
         "DICLOFENAC SODIUM"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "賜利優醫藥生技有限公司",
     "applicantAddr": "彰化縣彰化市茄苳里茄苳路二段251巷臨115-1號1樓",
@@ -47,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "2FAF3683-FB86-4066-BD8A-ECC91F313397",
             "factoryCode": "1",
             "factoryName": "明德製藥股份有限公司",
             "factoryAddr": "桃園市楊梅區瑞原里7鄰民富路二段３６０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0806804300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808400410",
+            "ingredientsName": "DICLOFENAC SODIUM",
             "ingredientsDesc": "DICLOFENAC SODIUM",
             "concentDesc": "25",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -75,39 +86,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B9BCF550-6589-4CF6-872B-254AB958C810",
-            "approvedDocNo": "1110600330",
-            "approvedDate": "2022-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4DF693C9-32AF-4A40-A93D-28A51EF43337",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AE32F30E-B3EB-4B4A-BD0E-BB6973FA6FA2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-08-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "M01AB05"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M01AB05"
         }
     ],

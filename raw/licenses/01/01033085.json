@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-14",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01033085",
+    "licUnit": "1",
     "validDate": "2023-05-25 00:00:00.000",
     "issueDate": "1990-10-04 00:00:00.000",
+    "oriIssueDate": "1990-10-04",
     "licKind": "02",
     "oldLicid": "01022604",
     "certNo": "DHY00103308504",
@@ -16,13 +22,16 @@
     "does": "3360",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "379F284B-29A0-4D68-B438-BF7A6D0B0F67",
+    "subCategory": [],
     "ingredientsDesc": [
         "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
         "DIPHENHYDRAMINE",
@@ -31,8 +40,8 @@
         "BENZOCAINE (ETHYL AMINOBENZOATE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "人生製藥股份有限公司",
     "applicantAddr": "台中市西屯區工業區五路３號",
@@ -46,26 +55,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "DC063614-39FF-4880-A7E2-26E167356544",
             "factoryCode": "1",
             "factoryName": "人生製藥股份有限公司",
             "factoryAddr": "台中市西屯區工業區五路３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0201709300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001600",
+            "ingredientsName": "DIPHENHYDRAMINE",
             "ingredientsDesc": "DIPHENHYDRAMINE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6816000600",
+            "ingredientsName": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "ingredientsDesc": "ESTRADIOL ETHINYL (EQ TO ETHINYLOESTRADIOL)(EQ TO ETHINYLESTRADIOL)",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "011",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "0.1",
-            "concent": "0.1000",
+            "concent": "0.100000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -96,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5608000500",
+            "ingredientsName": "BISMUTH SUBNITRATE (BISMUTH NITRATE BASIC)",
             "ingredientsDesc": "BISMUTH SUBNITRATE (BISMUTH NITRATE BASIC)",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -107,9 +123,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000200",
+            "ingredientsName": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "ingredientsDesc": "BENZOCAINE (ETHYL AMINOBENZOATE)",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -123,30 +140,6 @@
         {
             "isMain": "1",
             "atcCode": "D02AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BX12"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G03CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D02AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AA32"
         }
     ],
     "licBaseId": "0621362E-E2A2-43A6-B938-D8208E24D802"

@@ -1,10 +1,14 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-13",
+    "cancelReason": null,
+    "otherCancelReason": null,
     "licid": "01003195",
+    "licUnit": "1",
     "validDate": "2023-03-21 00:00:00.000",
     "issueDate": "1991-03-23 00:00:00.000",
+    "oriIssueDate": "1991-03-23",
     "licKind": "02",
     "oldLicid": "01003195",
     "certNo": "DHY00100319506",
@@ -16,20 +20,23 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "139D4755-C7A0-47B7-BC1C-1D811EFF4993",
+    "subCategory": [],
     "ingredientsDesc": [
         "DICYCLOMINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "聯輝藥品有限公司",
     "applicantAddr": "高雄市燕巢區安招村安林四街17號2樓",
@@ -43,26 +50,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A0611893-28C2-43BC-883C-2206C9BA62D0",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208001810",
+            "ingredientsName": "DICYCLOMINE HCL",
             "ingredientsDesc": "DICYCLOMINE HCL",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,23 +82,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "633E5460-9EC1-45DC-8DF0-25AD9A11AEAA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-12-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "A03AA07"
-        },
-        {
-            "isMain": "2",
             "atcCode": "A03AA07"
         }
     ],

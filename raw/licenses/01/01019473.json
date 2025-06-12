@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-15",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01019473",
+    "licUnit": "1",
     "validDate": "2022-04-01 00:00:00.000",
     "issueDate": "1979-11-21 00:00:00.000",
+    "oriIssueDate": "1979-11-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101947305",
@@ -16,22 +22,25 @@
     "does": "3360",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "06"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B6F88768-533E-4EE8-B689-A441672F7652",
+    "subCategory": [],
     "ingredientsDesc": [
         "DIPHENHYDRAMINE HCL",
         "HEXACHLOROPHENE",
         "HYDROCORTISONE ACETATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "川田藥品有限公司",
     "applicantAddr": "台中市西屯區大有二街７號１樓",
@@ -45,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F4E10C78-C767-4AE9-90C6-1723A16AE94F",
             "factoryCode": "1",
             "factoryName": "利達製藥股份有限公司",
             "factoryAddr": "台中市大甲區中山路一段９０６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0701010300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001120",
+            "ingredientsName": "HYDROCORTISONE ACETATE",
             "ingredientsDesc": "HYDROCORTISONE ACETATE",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404601800",
+            "ingredientsName": "HEXACHLOROPHENE",
             "ingredientsDesc": "HEXACHLOROPHENE",
             "concentDesc": "2",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,9 +98,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -100,18 +115,6 @@
         {
             "isMain": "1",
             "atcCode": "D07XA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AA32"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D08AE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AA02"
         }
     ],
     "licBaseId": "3F62786D-A938-46FD-BFC9-888220D53833"

@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-14",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01025541",
+    "licUnit": "1",
     "validDate": "2023-06-04 00:00:00.000",
     "issueDate": "1982-06-04 00:00:00.000",
+    "oriIssueDate": "1982-06-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102554108",
@@ -16,7 +22,7 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         },
         {
@@ -27,11 +33,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EC2B0925-9BF5-4500-A9F4-A000E46375F7",
+    "subCategory": [],
     "ingredientsDesc": [
         "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "十全實業股份有限公司",
     "applicantAddr": "南投縣南投市仁和路２７號",
@@ -45,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "ACB4FBEC-4B8C-461D-97A5-40376B56E720",
             "factoryCode": "1",
             "factoryName": "十全實業股份有限公司",
             "factoryAddr": "南投縣南投市南崗工業區仁和路２７號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0202114300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656991100",
+            "ingredientsName": "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
             "ingredientsDesc": "SILYMARIN (EXSICCATED FRUCTUS CARDUI MARIANUS EXTRACT)",
             "concentDesc": "(53.8)",
-            "concent": "35.0000",
+            "concent": "35.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -73,16 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "55C09419-9793-4D03-9E15-2BB0171AC43E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

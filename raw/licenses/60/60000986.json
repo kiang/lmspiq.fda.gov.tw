@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60000986",
+    "licUnit": "1",
     "validDate": "2025-11-25 00:00:00.000",
     "issueDate": "2015-11-25 00:00:00.000",
+    "oriIssueDate": "2015-11-25",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000098602",
@@ -34,19 +38,22 @@
     ],
     "medMCode": "06",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "D",
+    "mainCategory": "D",
+    "drBaseId": "9FC66C79-D8E6-4E46-8DD2-5FF67FD79962",
+    "subCategory": [],
     "ingredientsDesc": [
         "INSULIN GLARGINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1Q",
-        "51",
-        "91"
+        "02 輸 入",
+        "07 新藥監視",
+        "1Q 不得輸入",
+        "51 免除銜接性臨床試驗",
+        "91 生物相似性藥品"
     ],
     "applicantName": "台灣禮來股份有限公司",
-    "applicantAddr": "台北市復興北路３６５號１１樓",
+    "applicantAddr": "臺北市信義區松高路9號14樓、11號14樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -57,6 +64,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8FE09707-A4D7-494B-B821-8CE293DBD79D",
             "factoryCode": "1",
             "factoryName": "LILLY FRANCE",
             "factoryAddr": "2 RUE DU COLONEL LILLY 67640 FEGERSHEIM, FRANCE",
@@ -67,13 +75,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0118000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "16508E6C-CCD8-471F-8773-73D3445706A8",
             "factoryCode": "1",
             "factoryName": "ELI LILLY ITALIA S.P.A.",
             "factoryAddr": "VIA GRAMSCI 731-733 50019 SESTO FIORENTINO",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [
                 {
@@ -85,9 +96,12 @@
             "factoryKind": "M",
             "factoryNo": "FIT0058100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "11827BFB-3C50-4816-A6C5-76EE78FCE222",
             "factoryCode": "2",
             "factoryName": "LILLY DEL CARIBE INC.",
             "factoryAddr": "12.3 KM, 65TH INFANTRY ROAD, CAROLINA 00985, PUERTO RICO",
@@ -103,9 +117,12 @@
             "factoryKind": "M",
             "factoryNo": "FPR0051000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "C0B7B3EA-3AB1-4240-A523-22B6DC053E29",
             "factoryCode": "2",
             "factoryName": "ELI LILLY AND COMPANY ",
             "factoryAddr": "INDIANAPOLIS INDIANA 46285",
@@ -121,16 +138,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0073000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820801100",
+            "ingredientsName": "INSULIN GLARGINE",
             "ingredientsDesc": "INSULIN GLARGINE",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "1",
@@ -139,24 +159,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "83F9F6DB-0006-48D6-99C0-A68539F5DD53",
-            "approvedDocNo": "1096036925",
-            "approvedDate": "2021-06-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "706AD69C-0174-45E4-B547-58BFE4ECCE7E",
-            "approvedDocNo": "1086002116",
-            "approvedDate": "2019-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

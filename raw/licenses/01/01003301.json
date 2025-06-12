@@ -1,10 +1,14 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-13",
+    "cancelReason": null,
+    "otherCancelReason": null,
     "licid": "01003301",
+    "licUnit": "1",
     "validDate": "2023-03-21 00:00:00.000",
     "issueDate": "1991-03-21 00:00:00.000",
+    "oriIssueDate": "1991-03-21",
     "licKind": "02",
     "oldLicid": "01003301",
     "certNo": null,
@@ -16,21 +20,24 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "49FEB8CD-B5E7-4606-AE53-B8573F8B39AF",
+    "subCategory": [],
     "ingredientsDesc": [
         "DIAZEPAM"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R",
-        "34"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造",
+        "34 第四級管制藥品"
     ],
     "applicantName": "聯輝藥品有限公司",
     "applicantAddr": "高雄市燕巢區安招村安林四街17號2樓",
@@ -44,26 +51,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "6A81FDB0-8B08-455C-8D88-63BCF831656E",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824200600",
+            "ingredientsName": "DIAZEPAM",
             "ingredientsDesc": "DIAZEPAM",
             "concentDesc": null,
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -72,21 +83,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7386E1BB-35A5-4984-B1E6-4C7618325436",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-12-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N05BA01"
-        },
         {
             "isMain": "1",
             "atcCode": "N05BA01"

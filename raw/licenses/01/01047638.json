@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047638",
+    "licUnit": "1",
     "validDate": "2025-11-14 00:00:00.000",
     "issueDate": "2005-11-14 00:00:00.000",
+    "oriIssueDate": "2005-11-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "12079BA3-BD45-4BB1-9365-68DAAFF0ED73",
+    "subCategory": [],
     "ingredientsDesc": [
         "SERTRALINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "盛雲藥品股份有限公司",
     "applicantAddr": "台中市西區忠明南路303號18樓之3",
@@ -47,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "58BA46F9-AB7D-439B-B457-432CF4F1E44B",
             "factoryCode": "1",
             "factoryName": "羅得化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區東西七路一段65號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1901510300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816401520",
+            "ingredientsName": "SERTRALINE HYDROCHLORIDE",
             "ingredientsDesc": "SERTRALINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "56.0000",
+            "concent": "56.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -75,72 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4CA7B9EF-2969-4B29-9783-67D9376EF437",
-            "approvedDocNo": "1129067024",
-            "approvedDate": "2024-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "126AB0F9-B585-457F-A18B-AF59AAA94854",
-            "approvedDocNo": "1129067024",
-            "approvedDate": "2024-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "579EFFA3-7CC6-470F-90F0-C9FC9560ACEE",
-            "approvedDocNo": "1129067024",
-            "approvedDate": "2024-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7745531A-EDF3-4903-870F-76116A1B90CF",
-            "approvedDocNo": "1110604509",
-            "approvedDate": "2022-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B9C4E3C-3138-4308-9D29-4E8FCD11620C",
-            "approvedDocNo": "1110604509",
-            "approvedDate": "2022-07-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "108687F0-0B70-464E-B3C5-8C17A7DEDC8A",
-            "approvedDocNo": "1106615391",
-            "approvedDate": "2022-02-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "86020997-ABFB-429F-B033-3DFB01D1D973",
-            "approvedDocNo": "1096607205",
-            "approvedDate": "2020-10-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E8FD8A0C-2CD8-48AC-84FD-81A80DAFD884",
-            "approvedDocNo": "1096607205",
-            "approvedDate": "2020-10-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

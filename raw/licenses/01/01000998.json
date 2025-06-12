@@ -1,10 +1,14 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-08",
+    "cancelReason": null,
+    "otherCancelReason": null,
     "licid": "01000998",
+    "licUnit": "1",
     "validDate": "2023-05-08 00:00:00.000",
     "issueDate": "1972-05-08 00:00:00.000",
+    "oriIssueDate": "1972-05-08",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00100099803",
@@ -27,12 +31,15 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E85AB642-7CEF-4655-A007-1AAFF2A9693F",
+    "subCategory": [],
     "ingredientsDesc": [
         "ALUMINUM HYDROXIDE DRIED GEL",
         "MAGNESIUM HYDROXIDE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "輝瑞大藥廠股份有限公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "938EFF92-AD5A-4500-A4DD-00303B561B90",
             "factoryCode": "1",
             "factoryName": "輝瑞生技股份有限公司新竹廠",
             "factoryAddr": "新竹縣新豐鄉中崙村中崙２９０之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "1409905300",
+            "factoryNo": "6133080025",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000202",
+            "ingredientsName": "ALUMINUM HYDROXIDE DRIED GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE DRIED GEL",
             "concentDesc": "334",
-            "concent": "334.0000",
+            "concent": "334.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002500",
+            "ingredientsName": "MAGNESIUM HYDROXIDE",
             "ingredientsDesc": "MAGNESIUM HYDROXIDE",
             "concentDesc": "166",
-            "concent": "166.0000",
+            "concent": "166.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -85,52 +97,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A5A58F62-11EA-40F0-BAFF-CE5EE86DCDD7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B7FE9F9-4565-440D-BED8-ECFF1AE817FD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C618FC69-513E-4683-B49D-4DB536AD086B",
-            "approvedDocNo": "1096007547",
-            "approvedDate": "2020-05-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EA0148EE-C981-4F8A-B205-851DCFF013DF",
-            "approvedDocNo": "1096007547",
-            "approvedDate": "2020-05-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A02AD"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA04"
         }
     ],
     "licBaseId": "3B261229-ED1E-4F4F-AEDE-85D3EB8F7E6B"

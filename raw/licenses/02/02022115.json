@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022115",
+    "licUnit": "1",
     "validDate": "2028-04-03 00:00:00.000",
     "issueDate": "2023-01-18 00:00:00.000",
+    "oriIssueDate": "1998-04-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202211506",
@@ -27,13 +31,17 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2112058A-E5CF-422D-B360-8D76AF813E95",
+    "subCategory": [],
     "ingredientsDesc": [
         "MEROPENEM HYDRATE",
         "MEROPENEM HYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "文德藥業有限公司",
     "applicantAddr": "台北市八德路三段２１２號１０樓",
@@ -47,23 +55,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "250105EA-A63F-48F4-938C-1522D8CD162D",
             "factoryCode": "1",
             "factoryName": "Sumitomo Pharma Co., Ltd. Oita Plant",
             "factoryAddr": "2200 OAZA TSURUSAKI, OITA, OITA 870-0106, JAPAN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP0577100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "EA1A1E92-CD64-4C5B-88FE-BB485217E3EC",
             "factoryCode": "2",
             "factoryName": "SUMITOMO PHARMA CO., LTD.",
             "factoryAddr": "6-8, DOSHOMACHI 2-CHOME, CHUO-KU, OSAKA, OSAKA 541-0045, JAPAN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [
                 {
@@ -75,16 +87,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0043500",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812010120",
+            "ingredientsName": "MEROPENEM HYDRATE",
             "ingredientsDesc": "MEROPENEM HYDRATE",
             "concentDesc": null,
-            "concent": "0.2500",
+            "concent": "0.250000",
             "concentUnit": "002",
             "seq": "0",
             "prescription_seq": "0",
@@ -93,9 +108,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812010120",
+            "ingredientsName": "MEROPENEM HYDRATE",
             "ingredientsDesc": "MEROPENEM HYDRATE",
             "concentDesc": null,
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "002",
             "seq": "0",
             "prescription_seq": "1",
@@ -112,40 +128,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0B92EDF2-BAC6-488A-B5BF-827D148C11CE",
-            "approvedDocNo": "1119039139",
-            "approvedDate": "2022-09-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2702B01C-E97B-4F19-92FE-D24446EC8105",
-            "approvedDocNo": "1119039139",
-            "approvedDate": "2022-09-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "36ECF721-57B9-41E9-A504-EF9156071392",
-            "approvedDocNo": "1119039139",
-            "approvedDate": "2022-09-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AEE98450-7A10-4EA3-87D3-46357D417299",
-            "approvedDocNo": "1106813682",
-            "approvedDate": "2021-11-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

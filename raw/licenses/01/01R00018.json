@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01R00018",
+    "licUnit": "1",
     "validDate": "2025-11-13 00:00:00.000",
     "issueDate": "2000-11-13 00:00:00.000",
+    "oriIssueDate": "2000-11-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY001R0001804",
@@ -17,19 +20,22 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "75"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7660E499-8EBE-4A76-8210-8E429EC7F04E",
+    "subCategory": [],
     "ingredientsDesc": [
         "Fludeoxyglucose (F-18)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "國家原子能科技研究院核醫製藥中心",
     "applicantAddr": "桃園市龍潭區佳安里文化路1000號",
@@ -43,26 +49,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "00DF2EC3-4FF9-4398-94EF-70D93CF50820",
             "factoryCode": "1",
             "factoryName": "國家原子能科技研究院核醫製藥中心",
             "factoryAddr": "桃園市龍潭區佳安里文化路1000號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6132090018",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7800000201",
+            "ingredientsName": "Fludeoxyglucose (F-18)",
             "ingredientsDesc": "Fludeoxyglucose (F-18)",
             "concentDesc": ">=",
-            "concent": "3.0000",
+            "concent": "3.000000",
             "concentUnit": "042",
             "seq": "2",
             "prescription_seq": "1",
@@ -71,37 +81,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E6BA5CE7-515F-49B0-A299-85FF22D0BCBA",
-            "approvedDocNo": "1129077529",
-            "approvedDate": "2024-02-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "40D15D9D-4140-42A5-87BD-72D8671CA9A8",
-            "approvedDocNo": "1129077531",
-            "approvedDate": "2024-02-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CD5F277D-BB4F-4316-9E11-2297087D12AD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V09XX"
-        },
         {
             "isMain": "1",
             "atcCode": "V09XX"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055929",
+    "licUnit": "1",
     "validDate": "2025-11-19 00:00:00.000",
     "issueDate": "2011-01-25 00:00:00.000",
+    "oriIssueDate": "2011-01-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105592900",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2A00C4DF-D720-48AE-9B7C-846355966271",
+    "subCategory": [],
     "ingredientsDesc": [
         "METOLAZONE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "友華生技醫藥股份有限公司",
     "applicantAddr": "臺北市北投區承德路６段128號13樓",
@@ -47,26 +54,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B9FD9ED1-AF05-4165-B544-E20676E5D1E8",
             "factoryCode": "1",
             "factoryName": "友霖生技醫藥股份有限公司",
             "factoryAddr": "雲林縣虎尾鎮墾地里科虎一路8號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6139031071",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028002500",
+            "ingredientsName": "METOLAZONE",
             "ingredientsDesc": "METOLAZONE",
             "concentDesc": null,
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,23 +86,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EC711E04-D4B9-451E-BB15-EFE980450C15",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "C03BA08"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C03BA08"
         }
     ],

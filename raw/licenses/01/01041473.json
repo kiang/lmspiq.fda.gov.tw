@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-06",
+    "cancelReason": [
+        "85A"
+    ],
+    "otherCancelReason": "",
     "licid": "01041473",
+    "licUnit": "1",
     "validDate": "2023-03-12 00:00:00.000",
     "issueDate": "1997-08-18 00:00:00.000",
+    "oriIssueDate": "1997-07-30",
     "licKind": "02",
     "oldLicid": "01036220",
     "certNo": "DHY00104147309",
@@ -27,6 +33,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "72D66021-ED3F-464A-BAB2-385379C6574D",
+    "subCategory": [],
     "ingredientsDesc": [
         "ETHENZAMIDE (ETHOXYBENZAMIDE)",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
@@ -34,7 +43,7 @@
         "CAFFEINE ANHYDROUS"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "德山製藥股份有限公司",
     "applicantAddr": "嘉義縣民雄鄉民雄工業區中山路38號",
@@ -48,26 +57,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "0A5FA4FF-5024-466F-823E-A57477193AD9",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808600900",
+            "ingredientsName": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "ingredientsDesc": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "concentDesc": "",
-            "concent": "333.3000",
+            "concent": "333.300000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -76,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
-            "concent": "133.3000",
+            "concent": "133.300000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824000300",
+            "ingredientsName": "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)",
             "ingredientsDesc": "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)",
             "concentDesc": "",
-            "concent": "166.7000",
+            "concent": "166.700000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -98,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "41.7000",
+            "concent": "41.700000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -109,36 +125,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "285C3C77-ADA8-4C94-97DA-0B8B63A30E39",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N02BA07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N05CM03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
         {
             "isMain": "1",
             "atcCode": "N02BE71"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
         }
     ],
     "licBaseId": "384C2FC5-16E5-460A-B2BC-E3A7A5014580"

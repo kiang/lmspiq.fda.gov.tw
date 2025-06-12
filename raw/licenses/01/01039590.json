@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039590",
+    "licUnit": "1",
     "validDate": "2025-11-30 00:00:00.000",
     "issueDate": "1995-11-30 00:00:00.000",
+    "oriIssueDate": "1995-11-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103959008",
@@ -16,23 +20,26 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "61"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "58"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0C4DFEA3-9794-4EF4-9088-4162F2F5F001",
+    "subCategory": [],
     "ingredientsDesc": [
         "DICLOFENAC SODIUM"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "賜利優醫藥生技有限公司",
     "applicantAddr": "彰化縣彰化市茄苳里茄苳路二段251巷臨115-1號1樓",
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "5B5E6C8B-2DD1-4C19-8A8F-F27B09DBCC15",
             "factoryCode": "1",
             "factoryName": "明德製藥股份有限公司",
             "factoryAddr": "桃園市楊梅區瑞原里7鄰民富路二段３６０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0806804300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808400410",
+            "ingredientsName": "DICLOFENAC SODIUM",
             "ingredientsDesc": "DICLOFENAC SODIUM",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -74,37 +85,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CE5F1122-1F7E-44EA-896A-C5A9DC76EF0E",
-            "approvedDocNo": "1110600330",
-            "approvedDate": "2022-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B57E5FC-65C5-4266-8ADB-9CD3A8ECE772",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0B9A72BE-40CE-42A4-B9D5-1DF6E2EF462F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-08-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "M01AB05"
-        },
         {
             "isMain": "1",
             "atcCode": "M01AB05"

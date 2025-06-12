@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039561",
+    "licUnit": "1",
     "validDate": "2025-11-22 00:00:00.000",
     "issueDate": "1995-11-22 00:00:00.000",
+    "oriIssueDate": "1995-11-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103956101",
@@ -16,23 +20,26 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "61"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "58"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "03648D04-F83B-4612-AF61-C1A540F035AD",
+    "subCategory": [],
     "ingredientsDesc": [
         "SCOPOLAMINE BUTYLBROMIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "中國化學製藥股份有限公司新豐工廠",
     "applicantAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -46,26 +53,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "8EA018B4-283E-4666-9D87-43223BB69A4E",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208004660",
+            "ingredientsName": "SCOPOLAMINE BUTYLBROMIDE",
             "ingredientsDesc": "SCOPOLAMINE BUTYLBROMIDE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,16 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FFCE21CA-8ADD-4D51-B83E-E457644CDE8E",
-            "approvedDocNo": "1110730650",
-            "approvedDate": "2022-12-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

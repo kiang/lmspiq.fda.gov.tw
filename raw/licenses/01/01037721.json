@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01037721",
+    "licUnit": "1",
     "validDate": "2027-12-28 00:00:00.000",
     "issueDate": "1994-06-30 00:00:00.000",
+    "oriIssueDate": "1994-06-30",
     "licKind": "02",
     "oldLicid": "01036026",
     "certNo": "DHY00103772100",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B339C067-F4AA-4287-BF4D-33D1B361714A",
+    "subCategory": [],
     "ingredientsDesc": [
         "CYANOCOBALAMIN (VIT B12)",
         "RIBOFLAVIN (VIT B2)",
@@ -33,9 +40,9 @@
         "PYRIDOXINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "長安化學工業股份有限公司",
     "applicantAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -49,26 +56,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "F0331EA9-79AF-4A1D-9E5A-41877986DDBB",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656900911",
+            "ingredientsName": "EXTRACTUM FRUCTUS CARDUI MARIANUS",
             "ingredientsDesc": "EXTRACTUM FRUCTUS CARDUI MARIANUS",
             "concentDesc": "87.5",
-            "concent": "87.5000",
+            "concent": "87.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -77,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "4.0",
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100900",
+            "ingredientsName": "THIAMINE HYDROCHLORIDE",
             "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
             "concentDesc": "4.0",
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -99,9 +112,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "4.0",
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -110,9 +124,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000300",
+            "ingredientsName": "NIACINAMIDE (NICOTINAMIDE)",
             "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
             "concentDesc": "12.0",
-            "concent": "12.0000",
+            "concent": "12.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -121,9 +136,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300200",
+            "ingredientsName": "PANTOTHENATE CALCIUM",
             "ingredientsDesc": "PANTOTHENATE CALCIUM",
             "concentDesc": "8.0",
-            "concent": "8.0000",
+            "concent": "8.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -132,9 +148,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "1.2",
-            "concent": "1.2000",
+            "concent": "1.200000",
             "concentUnit": "016",
             "seq": "6",
             "prescription_seq": "1",
@@ -143,56 +160,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C5885D94-1F73-47BD-992B-18C751D302E2",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3827E106-C789-4284-8A6C-253B029E7192",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
         {
             "isMain": "1",
             "atcCode": "A05BA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA31"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
         }
     ],
     "licBaseId": "7B6ADF69-345D-4A8D-80A9-5D875E3FFED1"

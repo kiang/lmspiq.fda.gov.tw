@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-14",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01049581",
+    "licUnit": "1",
     "validDate": "2023-08-05 00:00:00.000",
     "issueDate": "2008-08-05 00:00:00.000",
+    "oriIssueDate": "2008-08-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104958100",
@@ -27,14 +33,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4BBB7149-8800-41DF-A89E-788E7B6D68F0",
+    "subCategory": [],
     "ingredientsDesc": [
         "PIOGLITAZONE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "25",
-        "61"
+        "01 國 產",
+        "1R 不得製造",
+        "25 監視中學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "十全實業股份有限公司",
     "applicantAddr": "南投縣南投市仁和路２７號",
@@ -48,26 +57,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CA23C6C2-0AC7-4D4C-9E55-2F5DB9D6298E",
             "factoryCode": "1",
             "factoryName": "十全實業股份有限公司",
             "factoryAddr": "南投縣南投市南崗工業區仁和路２７號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0202114300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400910",
+            "ingredientsName": "PIOGLITAZONE HYDROCHLORIDE",
             "ingredientsDesc": "PIOGLITAZONE HYDROCHLORIDE",
             "concentDesc": "(eq. to pioglitazone 30 mg)",
-            "concent": "33.0600",
+            "concent": "33.060000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,21 +89,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D878E9A6-4155-460A-BED0-C916D1CB194F",
-            "approvedDocNo": "1080011544",
-            "approvedDate": "2019-08-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A10BG03"
-        },
         {
             "isMain": "1",
             "atcCode": "A10BG03"

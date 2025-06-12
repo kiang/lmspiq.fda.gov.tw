@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-15",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01020452",
+    "licUnit": "1",
     "validDate": "2022-04-01 00:00:00.000",
     "issueDate": "1980-02-06 00:00:00.000",
+    "oriIssueDate": "1980-02-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102045200",
@@ -31,6 +37,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B6FBEFC7-7D76-4137-A633-1095D715F39D",
+    "subCategory": [],
     "ingredientsDesc": [
         "PANTOTHENATE CALCIUM",
         "NIACINAMIDE (NICOTINAMIDE)",
@@ -41,8 +50,8 @@
         "GLYCYRRHIZINIC ACID (EQ TO GLYCYRRHETINIC ACID GLYCOSIDE)(EQ TO GLYCYRRHIZIC ACID )"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "川田藥品有限公司",
     "applicantAddr": "台中市西屯區大有二街７號１樓",
@@ -56,26 +65,30 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "39B05C0B-B349-4036-AB01-5EB9475B799C",
             "factoryCode": "1",
             "factoryName": "台裕化學製藥廠股份有限公司",
             "factoryAddr": "新竹縣竹東鎮員山路11巷13弄1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133030016",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -84,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -95,9 +109,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -106,9 +121,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000100",
+            "ingredientsName": "BIOTIN",
             "ingredientsDesc": "BIOTIN",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -117,9 +133,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000300",
+            "ingredientsName": "NIACINAMIDE (NICOTINAMIDE)",
             "ingredientsDesc": "NIACINAMIDE (NICOTINAMIDE)",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "0",
@@ -128,9 +145,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300200",
+            "ingredientsName": "PANTOTHENATE CALCIUM",
             "ingredientsDesc": "PANTOTHENATE CALCIUM",
             "concentDesc": "40",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "0",
@@ -139,9 +157,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004600",
+            "ingredientsName": "GLYCYRRHIZINIC ACID (EQ TO GLYCYRRHETINIC ACID GLYCOSIDE)(EQ TO GLYCYRRHIZIC ACID )",
             "ingredientsDesc": "GLYCYRRHIZINIC ACID (EQ TO GLYCYRRHETINIC ACID GLYCOSIDE)(EQ TO GLYCYRRHIZIC ACID )",
             "concentDesc": "25",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "0",
@@ -153,36 +172,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
             "isMain": "1",
             "atcCode": "R06AB52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA31"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
         }
     ],
     "licBaseId": "724290B3-DD3E-455E-99BA-5DC0E394F806"

@@ -8,7 +8,7 @@
     "licUnit": "1",
     "validDate": "2028-11-28 00:00:00.000",
     "issueDate": "2023-11-28 00:00:00.000",
-    "oriIssueDate": null,
+    "oriIssueDate": "2023-11-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106155707",
@@ -41,10 +41,10 @@
         "POLYMYXIN B SULFATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "07",
-        "1E",
-        "67"
+        "01 國 產",
+        "07 新藥監視",
+        "1E 須執行Phase IV Study",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "台灣東洋藥品工業股份有限公司",
     "applicantAddr": "臺北市南港區園區街3之1號3樓",
@@ -64,8 +64,13 @@
             "factoryAddr": "基隆市七堵區工建西路5號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
-            "processCode": [],
-            "processCodeStr": null,
+            "processCode": [
+                {
+                    "value": "66",
+                    "name": "成品製造廠"
+                }
+            ],
+            "processCodeStr": "66;成品製造廠",
             "factoryKind": "M",
             "factoryNo": "6111021077",
             "factoryInfo": null,
@@ -81,7 +86,7 @@
             "ingredientsName": "POLYMYXIN B SULFATE",
             "ingredientsDesc": "POLYMYXIN B SULFATE",
             "concentDesc": "500,000 units",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

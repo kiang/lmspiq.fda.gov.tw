@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023065",
+    "licUnit": "1",
     "validDate": "2025-11-21 00:00:00.000",
     "issueDate": "2000-11-21 00:00:00.000",
+    "oriIssueDate": "2000-11-21",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00202306509",
@@ -16,20 +20,23 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "C5452B46-B268-4693-9455-5F174114A9DD",
+    "subCategory": [],
     "ingredientsDesc": [
         "DOMPERIDONE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
-    "applicantName": "一龍化學貿易有限公司",
+    "applicantName": "一龍化學貿易股份有限公司",
     "applicantAddr": "台北市大同區長安西路78巷1弄10號2樓",
     "medClass": null,
     "efficacy": " ",
@@ -41,6 +48,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "CDE45619-DC7A-4A9C-944D-A8A2DCE9C1F8",
             "factoryCode": "1",
             "factoryName": "Vasudha Pharma Chem Limited",
             "factoryAddr": "(Unit-1) PLOT NO. 37\/A, 38, 39 A&B, PHASE-1, I.D.A., JEEDIMETLA, HYDERABAD-500 055, TELANGANA, INDIA",
@@ -51,13 +59,37 @@
             "factoryKind": "M",
             "factoryNo": "FIN0794300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "E15B067C-4606-4D1C-B35C-F8E598D88636",
+            "factoryCode": "2",
+            "factoryName": "VASUDHA PHARMA. CHEM LTD.",
+            "factoryAddr": "Plot No. 78\/A, Vengalrao Nagar, Hyderabad -500038, Telangana, India ",
+            "factoryCompanyAddr": null,
+            "countryCode": "IN",
+            "processCode": [
+                {
+                    "value": "6K",
+                    "name": "製造廠公司"
+                }
+            ],
+            "processCodeStr": "6K;製造廠公司",
+            "factoryKind": "M",
+            "factoryNo": "FIN0794400",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5622000600",
+            "ingredientsName": "DOMPERIDONE",
             "ingredientsDesc": "DOMPERIDONE",
             "concentDesc": "99.0-101.0",
             "concent": null,
@@ -69,24 +101,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "880A1648-3A2C-4520-B48C-B69BD430CB06",
-            "approvedDocNo": "1096017788",
-            "approvedDate": "2020-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "129DFB3D-CC6E-4134-991A-5679953FB462",
-            "approvedDocNo": "1081490940",
-            "approvedDate": "2019-07-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

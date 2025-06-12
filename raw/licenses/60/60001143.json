@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-12-26",
     "cancelReason": [
         "824"
     ],
+    "otherCancelReason": null,
     "licid": "60001143",
+    "licUnit": "1",
     "validDate": "2025-11-09 00:00:00.000",
     "issueDate": "2020-11-09 00:00:00.000",
+    "oriIssueDate": "2020-11-09",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000114306",
@@ -25,14 +29,19 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "AE9AAA75-9BF7-48EA-ACAE-D16ABC8342DB",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "satralizumab"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣中外製藥股份有限公司",
     "applicantAddr": "台北市松山區敦化北路260號3樓",
@@ -46,6 +55,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "A4AD7A8A-49B4-4C00-8395-1353C6E8A9D5",
             "factoryCode": "1",
             "factoryName": "UTSUNOMIYA PLANT OF CHUGAI PHARMA MANUFACTURING CO., LTD.",
             "factoryAddr": "16-3 KIYOHARA KOGYODANCHI, UTSUNOMIYA-CITY, TOCHIGI, JAPAN",
@@ -56,9 +66,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP0526100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "71190EF6-93EB-4585-AD25-80A95E8A6B06",
             "factoryCode": "2",
             "factoryName": "UKIMA PLANT OF CHUGAI PHARMA MANUFACTURING CO., LTD.",
             "factoryAddr": "5-1, UKIMA 5-CHOME, KITA-KU, TOKYO JAPAN",
@@ -74,9 +87,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP0533100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "762D5C76-7E4E-4DA8-BA8C-8841750D1EA5",
             "factoryCode": "2",
             "factoryName": "BUSHU PHARMACEUTICALS LTD.",
             "factoryAddr": "1 TAKENO, KAWAGOE-SHI, SAITAMA, 350-0801, JAPAN",
@@ -92,16 +108,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0621000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013008400",
+            "ingredientsName": "satralizumab",
             "ingredientsDesc": "satralizumab",
             "concentDesc": "",
-            "concent": "120.000",
+            "concent": "120.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -110,32 +129,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "45B6FEE2-1AFA-4C33-BD68-51FA3D77B01E",
-            "approvedDocNo": "1101498660",
-            "approvedDate": "2022-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C8A9F3D8-9D55-4242-B6FC-94C446C4B8E2",
-            "approvedDocNo": "1091497489",
-            "approvedDate": "2021-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A746970D-C343-4944-8C85-02D5215CD158",
-            "approvedDocNo": "1091497489",
-            "approvedDate": "2021-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

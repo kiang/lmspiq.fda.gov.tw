@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-21",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "02025609",
+    "licUnit": "1",
     "validDate": "2022-01-17 00:00:00.000",
     "issueDate": "2012-01-17 00:00:00.000",
+    "oriIssueDate": "2012-01-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202560907",
@@ -27,14 +33,17 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "45F9FFE5-F401-408C-9442-B68477E6EEC4",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLYCYRRHIZINATE MONOAMMONIUM (MGR)",
         "CYSTEINE L- HCL (EQ TO L-CYSTEINE HYDROCHLORIDE)",
         "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "一成藥品股份有限公司",
     "applicantAddr": "新北市汐止區新台五路一段77號19樓之8",
@@ -48,6 +57,7 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "ED5AFC0E-EEFD-4F2C-A8A7-4E57B7E1AAEC",
             "factoryCode": "1",
             "factoryName": "NISSIN PHARMACEUTICAL  CO., LTD.",
             "factoryAddr": "2-3-1,SHOGEHIGASHI, TENDO-CITY,YAMAGATA-PREF., 994-0069, JAPAN",
@@ -58,16 +68,19 @@
             "factoryKind": "M",
             "factoryNo": "MJP0879000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004650",
+            "ingredientsName": "GLYCYRRHIZINATE MONOAMMONIUM (MGR)",
             "ingredientsDesc": "GLYCYRRHIZINATE MONOAMMONIUM (MGR)",
             "concentDesc": "(eq. to Glycyrrhizin 2mg)",
-            "concent": "2.6500",
+            "concent": "2.650000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102400",
+            "ingredientsName": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "ingredientsDesc": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "concentDesc": null,
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100512",
+            "ingredientsName": "CYSTEINE L- HCL (EQ TO L-CYSTEINE HYDROCHLORIDE)",
             "ingredientsDesc": "CYSTEINE L- HCL (EQ TO L-CYSTEINE HYDROCHLORIDE)",
             "concentDesc": "(eq. to L-Cysteine 0.77mg)",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -101,16 +116,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A05BA08"
-        },
-        {
             "isMain": "1",
             "atcCode": "A05BA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A16AA"
         }
     ],
     "licBaseId": "D44CEBD4-D236-4418-80CB-A5105F89D68A"

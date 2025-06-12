@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023051",
+    "licUnit": "1",
     "validDate": "2025-11-24 00:00:00.000",
     "issueDate": "2000-11-24 00:00:00.000",
+    "oriIssueDate": "2000-11-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202305101",
@@ -23,13 +27,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EA0798E3-E0C5-44C8-8B72-8920A1D9CFA6",
+    "subCategory": [],
     "ingredientsDesc": [
         "ORLISTAT"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "52"
+        "02 輸 入",
+        "07 新藥監視",
+        "52 依本署七七公告於國內進行臨床試驗且核定為新藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "裕利股份有限公司",
     "applicantAddr": "台北市松山區南京東路四段126號10樓，10樓之1-3",
@@ -43,23 +51,27 @@
     "licidOld": null,
     "factoryDtoList": [
         {
+            "id": "B19874FB-C36B-453E-9FED-646B1FA35313",
             "factoryCode": "1",
             "factoryName": "Delpharm Milano S.r.l.",
             "factoryAddr": "VIA Carnevale, 1-20054 SEGRATE (MI), ITALY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIT0463100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "77C4C2AC-1236-4527-A21A-3EC7F5F7A792",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -71,13 +83,16 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "00AF75E4-5205-47E3-96E7-254C341DE15A",
             "factoryCode": "2",
             "factoryName": "CHEPLAPHARM Arzneimittel GmbH",
             "factoryAddr": "Ziegelhof 24, 17489 Greifswald, Germany",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -89,16 +104,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0605100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212004500",
+            "ingredientsName": "ORLISTAT",
             "ingredientsDesc": "ORLISTAT",
             "concentDesc": null,
-            "concent": "120.0000",
+            "concent": "120.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -107,64 +125,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C1F5880B-C456-4F2B-83CF-5E2605F44BDA",
-            "approvedDocNo": "1129055312",
-            "approvedDate": "2024-01-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "518738F6-94DC-4E23-A799-0C42ED047E1F",
-            "approvedDocNo": "1129035089",
-            "approvedDate": "2023-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5E99F587-9719-4CD8-BB79-DA0EAB91DAC4",
-            "approvedDocNo": "1110718088",
-            "approvedDate": "2022-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EE0B4B45-2B2A-4C01-9B60-37623111C825",
-            "approvedDocNo": "1119030771",
-            "approvedDate": "2022-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8BEE2D54-10BB-4DAF-85B2-50943930B02E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9F3CD5D5-7457-44B9-9B2F-19C24BB14D83",
-            "approvedDocNo": "1096037169",
-            "approvedDate": "2021-01-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4598EA01-B678-4E78-B7AE-054826A534D1",
-            "approvedDocNo": "1076045447",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
