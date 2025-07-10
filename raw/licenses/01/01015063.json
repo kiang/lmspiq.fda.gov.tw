@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01015063",
+    "licUnit": "1",
     "validDate": "2025-12-31 00:00:00.000",
     "issueDate": "1978-06-14 00:00:00.000",
+    "oriIssueDate": "1978-06-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101506305",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AEDDC3CD-6B63-49FA-9A51-CB4E7F3416D2",
+    "subCategory": [],
     "ingredientsDesc": [
         "BETAMETHASONE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "克里薩斯生技股份有限公司",
     "applicantAddr": "高雄市鹽埕區府北路52號1樓",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A6B299CF-199D-48F8-9EE6-4A90C0E7FC8E",
             "factoryCode": "1",
             "factoryName": "成大藥品股份有限公司",
             "factoryAddr": "台南市麻豆區南勢里關帝廟８０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0603820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000200",
+            "ingredientsName": "BETAMETHASONE",
             "ingredientsDesc": "BETAMETHASONE",
             "concentDesc": "0.6",
-            "concent": "0.6000",
+            "concent": "0.600000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,88 +83,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4E83FAA7-1331-4322-8D6A-29093226B3DA",
-            "approvedDocNo": "1110800737",
-            "approvedDate": "2022-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EC70FDFB-D1FD-41F0-9119-5626CD405FDA",
-            "approvedDocNo": "1110800737",
-            "approvedDate": "2022-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "474563D3-174F-4394-8A81-63ABF88878CE",
-            "approvedDocNo": "1110800737",
-            "approvedDate": "2022-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "25B24D68-A3DD-4BB8-AB9E-8DD8499746A3",
-            "approvedDocNo": "1110800737",
-            "approvedDate": "2022-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "37E7D73E-196A-4F4E-B101-9E9F959BAF1B",
-            "approvedDocNo": "1110800737",
-            "approvedDate": "2022-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CD0D96BE-A801-4662-BA09-A10BAF30DEFF",
-            "approvedDocNo": "1110800737",
-            "approvedDate": "2022-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1730BDDF-EFF7-44C1-8A89-C942F349D143",
-            "approvedDocNo": "1110800737",
-            "approvedDate": "2022-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EEAE0A4E-6EDF-4C9A-9C01-CE62782ED18E",
-            "approvedDocNo": "1110800737",
-            "approvedDate": "2022-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "032EF15C-E8CE-4F87-BB8A-DFCAA3E1EB0C",
-            "approvedDocNo": "1110800737",
-            "approvedDate": "2022-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "46E482CB-E1CF-4845-9614-EEC16A040AB3",
-            "approvedDocNo": "1110800737",
-            "approvedDate": "2022-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

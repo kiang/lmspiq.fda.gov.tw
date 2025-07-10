@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-01-12",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "52026697",
+    "licUnit": "1",
     "validDate": "2025-12-08 00:00:00.000",
     "issueDate": "2015-12-08 00:00:00.000",
+    "oriIssueDate": "2015-12-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202669702",
@@ -25,14 +29,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6F1C64B7-F5F2-45DD-86A1-BD773FD66DE1",
+    "subCategory": [],
     "ingredientsDesc": [
         "ABACAVIR SULFATE",
         "LAMIVUDINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台灣邁蘭有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "FE46662C-929B-403C-B6CB-A0B1B3F4474D",
             "factoryCode": "1",
             "factoryName": "MYLAN LABORATORIES LIMITED",
             "factoryAddr": "F\/4 & F\/12 MALEGAON MIDC, SINNAR, NASHIK-422 113, MAHARASHTRA, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0716000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818001610",
+            "ingredientsName": "ABACAVIR SULFATE",
             "ingredientsDesc": "ABACAVIR SULFATE",
             "concentDesc": "(equivalent to Abacavir..........600mg)",
-            "concent": "702.780",
+            "concent": "702.780000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818001400",
+            "ingredientsName": "LAMIVUDINE",
             "ingredientsDesc": "LAMIVUDINE",
             "concentDesc": "",
-            "concent": "300.000",
+            "concent": "300.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,28 +99,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5B8B262A-3281-4035-920B-CFB9588111A3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J05AR02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AF05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AF06"
         }
     ],
     "licBaseId": "11B1184B-0F5E-4FB0-83C0-D9092BEB2932"

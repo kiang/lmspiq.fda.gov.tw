@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12006650",
+    "licUnit": "1",
     "validDate": "2028-07-27 00:00:00.000",
     "issueDate": "1970-07-27 00:00:00.000",
+    "oriIssueDate": "1970-07-27",
     "licKind": "02",
     "oldLicid": "01007129",
     "certNo": "DHY01200665000",
@@ -27,11 +31,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8C1FE01C-3AFE-4A95-89AE-C0CA593CFBDF",
+    "subCategory": [],
     "ingredientsDesc": [
         "CYANOCOBALAMIN (VIT B12)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "南光化學製藥股份有限公司",
     "applicantAddr": "臺南市新化區全興里中山路1001號、1001-1號",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A607D1CE-67DB-4C8B-A8D2-93F8D6E5FC7E",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區中山路1001號、1001之1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "1000",
-            "concent": "1000.000",
+            "concent": "1000.000000",
             "concentUnit": "016",
             "seq": "0",
             "prescription_seq": "1",
@@ -81,48 +94,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "70AE566C-3204-455E-BCC8-B77649B04F6C",
-            "approvedDocNo": "1129010256",
-            "approvedDate": "2023-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FF3E00E7-3D26-4274-BB5B-BB590F66146C",
-            "approvedDocNo": "1109502309",
-            "approvedDate": "2022-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E7E201D7-E709-4A46-92D0-43AD46C93B7B",
-            "approvedDocNo": "1109502309",
-            "approvedDate": "2022-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "35CBC93B-B52F-4CAF-A65E-9D94F64ABA73",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D1E19018-3FF5-4083-8141-C4E5B0FCF06F",
-            "approvedDocNo": "1101490511",
-            "approvedDate": "2021-03-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

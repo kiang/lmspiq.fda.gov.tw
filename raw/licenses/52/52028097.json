@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028097",
+    "licUnit": "1",
     "validDate": "2026-06-17 00:00:00.000",
     "issueDate": "2021-06-17 00:00:00.000",
+    "oriIssueDate": "2021-06-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202809701",
@@ -23,13 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "57A96FEA-2323-49BC-8937-989B901E61D6",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Capmatinib dihydrochloride monohydrate"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1S"
+        "02 輸 入",
+        "07 新藥監視",
+        "1S 須執行確認性療效臨床試驗"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "臺北市中山區民生東路3段2號8樓",
@@ -41,25 +50,31 @@
     "monitorDate": "2026-06-17",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "60807DCA-6800-4E58-AC4F-74A0B427783A",
             "factoryCode": "1",
             "factoryName": "NOVARTIS PHARMA PRODUKTIONS GMBH",
             "factoryAddr": "OFLINGER STR. 44 79664 WEHR, GERMANY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FDE0239000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2CFA4C29-5505-47FF-BAFC-CB85C55634ED",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -69,15 +84,18 @@
             ],
             "processCodeStr": "3P;二級包裝廠(委託貼標及置入仿單)",
             "factoryKind": "M",
-            "factoryNo": "1225204000",
+            "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "90A19EA2-8BA1-409F-9349-93B1A8701C2B",
             "factoryCode": "2",
             "factoryName": "LEK PHARMACEUTICALS D.D., VEROVSKOVA 57, 1526, SLOVENIA",
             "factoryAddr": "TRIMLINI 2D, 9220 LENDAVA, SLOVENIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "SI",
             "processCode": [
                 {
@@ -89,16 +107,19 @@
             "factoryKind": "M",
             "factoryNo": "FSI0005200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1006000300",
+            "ingredientsName": "Capmatinib dihydrochloride monohydrate",
             "ingredientsDesc": "Capmatinib dihydrochloride monohydrate",
             "concentDesc": "",
-            "concent": "244.000",
+            "concent": "244.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -107,48 +128,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "75A2DE08-FB24-4CD7-B958-4FE010CAEB4B",
-            "approvedDocNo": "1120707670",
-            "approvedDate": "2023-10-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "770D68DA-22D9-4894-B983-E4284912ED19",
-            "approvedDocNo": "1120707670",
-            "approvedDate": "2023-10-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EB8DD9FA-2F9C-4734-BE12-175478559790",
-            "approvedDocNo": "1110725753",
-            "approvedDate": "2023-04-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "44E3194D-FDE0-4087-8610-0D15D661DA52",
-            "approvedDocNo": "1119012160",
-            "approvedDate": "2022-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A5166C5B-C639-4F24-9ADF-C5916C9066C7",
-            "approvedDocNo": "1119012160",
-            "approvedDate": "2022-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

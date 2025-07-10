@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047979",
+    "licUnit": "1",
     "validDate": "2026-05-09 00:00:00.000",
     "issueDate": "2006-05-09 00:00:00.000",
+    "oriIssueDate": "2006-05-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104797906",
@@ -27,15 +31,18 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6B825FC9-BD44-4819-B96D-ED8B4AEED68E",
+    "subCategory": [],
     "ingredientsDesc": [
         "MEROPENEM TRIHYDRATE",
         "MEROPENEM TRIHYDRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "07",
-        "24",
-        "61"
+        "01 國 產",
+        "07 新藥監視",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "瑩碩生技醫藥股份有限公司",
     "applicantAddr": "台北市中山區南京東路二段206號8樓之3",
@@ -47,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "DC1CB69A-3A96-42DA-8177-7AB3F20A72F5",
             "factoryCode": "1",
             "factoryName": "松瑞製藥股份有限公司南科分公司針劑廠",
             "factoryAddr": "台南市新市區創業路12號4樓及16號4樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200071",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812010110",
+            "ingredientsName": "MEROPENEM TRIHYDRATE",
             "ingredientsDesc": "MEROPENEM TRIHYDRATE",
             "concentDesc": "",
-            "concent": "250.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -77,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812010110",
+            "ingredientsName": "MEROPENEM TRIHYDRATE",
             "ingredientsDesc": "MEROPENEM TRIHYDRATE",
             "concentDesc": "",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -88,47 +102,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8AB6B57C-C5D7-4EA4-B303-8431157A61CB",
-            "approvedDocNo": "1106027790",
-            "approvedDate": "2022-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "09B3DF11-5931-4FB3-B1E6-A61F49E28976",
-            "approvedDocNo": "1106027790",
-            "approvedDate": "2022-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "592D7404-0A71-4EDA-A56C-E1FE8D4A6DBC",
-            "approvedDocNo": "1091495990",
-            "approvedDate": "2020-12-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "85152BE0-AA66-42A5-A6D3-71261CC8E3EB",
-            "approvedDocNo": "1091494764",
-            "approvedDate": "2020-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "J01DH02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "J01DH02"
         }
     ],

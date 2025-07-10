@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01014321",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1978-02-16 00:00:00.000",
+    "oriIssueDate": "1978-02-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101432109",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E477F38D-D906-458D-97A9-509F9CEEEC73",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEXAMETHASONE PHOSPHATE (SODIUM)",
         "NEOMYCIN (SULFATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "臺灣派頓化學製藥股份有限公司",
     "applicantAddr": "高雄市岡山區為隨東路50號",
@@ -40,82 +47,56 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A990CF8B-0AA4-40CC-9D55-E61BCD1A1016",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨東路50號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804008640",
+            "ingredientsName": "DEXAMETHASONE PHOSPHATE (SODIUM)",
             "ingredientsDesc": "DEXAMETHASONE PHOSPHATE (SODIUM)",
             "concentDesc": "1",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
-            "seq": "0",
+            "seq": "1",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         },
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "3.5",
-            "concent": "3.5000",
+            "concent": "3.500000",
             "concentUnit": "001",
-            "seq": "1",
+            "seq": "2",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BFA66BE4-4C43-46C7-B7FF-16D568AB62B5",
-            "approvedDocNo": "1129047820",
-            "approvedDate": "2023-10-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9F488737-B81D-4DC2-997A-580DD9B9606A",
-            "approvedDocNo": "1129047820",
-            "approvedDate": "2023-10-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F487748D-55A2-4C3F-9D07-76A01ACDC3E6",
-            "approvedDocNo": "1119061084",
-            "approvedDate": "2023-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AA03"
-        },
         {
             "isMain": "1",
             "atcCode": "S01CA01"

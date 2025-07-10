@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "03008674",
+    "licUnit": "1",
     "validDate": "2025-12-14 00:00:00.000",
     "issueDate": "1990-12-14 00:00:00.000",
+    "oriIssueDate": "1990-12-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00300867407",
@@ -16,19 +20,22 @@
     "does": "3370",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "03",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F5C21788-5906-4CCA-8D80-6CFA68C978EC",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLYCERIN (eq to GLYCEROL)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "艾力特生技製藥股份有限公司將軍廠",
     "applicantAddr": "臺南市將軍區忠興里忠興132之35號A區",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "34DE7078-19B6-4B92-80FB-C14DC3E4A791",
             "factoryCode": "1",
             "factoryName": "艾力特生技製藥股份有限公司將軍廠",
             "factoryAddr": "臺南市將軍區忠興里忠興132之35號A區",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6141180016",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600013500",
+            "ingredientsName": "GLYCERIN (eq to GLYCEROL)",
             "ingredientsDesc": "GLYCERIN (eq to GLYCEROL)",
             "concentDesc": "0.85",
-            "concent": "0.8500",
+            "concent": "0.850000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,48 +83,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AFFE9351-7382-47B8-9531-2F04CB5E422F",
-            "approvedDocNo": "1110805877",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CAB4435F-6312-4768-89E1-4070BA7925F8",
-            "approvedDocNo": "1110805877",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1608F8A9-EF9B-42B9-B392-4DA9FE09C997",
-            "approvedDocNo": "1110805877",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5F7B31AE-ADA6-4FE6-8A19-A7578E22899B",
-            "approvedDocNo": "1110805877",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FB985536-AB0A-48E0-B86C-E4E8527FE1EA",
-            "approvedDocNo": "1110805877",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

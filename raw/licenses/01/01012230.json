@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01012230",
+    "licUnit": "1",
     "validDate": "2025-12-10 00:00:00.000",
     "issueDate": "1977-03-31 00:00:00.000",
+    "oriIssueDate": "1977-03-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101223009",
@@ -16,13 +20,16 @@
     "does": "1170",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A13A0AB2-9E55-41E9-91EE-C3315BF00715",
+    "subCategory": [],
     "ingredientsDesc": [
         "POTASSIUM GUAIACOLSULFONATE",
         "CHLORPHENIRAMINE MALEATE",
@@ -32,9 +39,9 @@
         "DL-METHYLEPHEDRINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "理想藥品股份有限公司",
     "applicantAddr": "台北市中山區長安東路二段171號2樓之2",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "532A7AD9-E33E-41EC-B72F-AB4FE03C583A",
             "factoryCode": "1",
             "factoryName": "健康化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區幼獅工業區幼四路１２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "0.125",
-            "concent": "0.1250",
+            "concent": "0.125000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -98,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -109,9 +125,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": "2.834",
-            "concent": "2.8340",
+            "concent": "2.834000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -120,9 +137,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": "1.5",
-            "concent": "1.5000",
+            "concent": "1.500000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -134,32 +152,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA09"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
         }
     ],
     "licBaseId": "C2514A0E-3938-4592-A7AB-17FB2E716C16"

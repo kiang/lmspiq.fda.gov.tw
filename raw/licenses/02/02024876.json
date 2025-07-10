@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024876",
+    "licUnit": "1",
     "validDate": "2028-09-03 00:00:00.000",
     "issueDate": "2008-09-03 00:00:00.000",
+    "oriIssueDate": "2008-09-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202487602",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4C25012D-41E5-4B4B-B259-F850925105D6",
+    "subCategory": [],
     "ingredientsDesc": [
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
         "GLIMEPIRIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "賽諾菲股份有限公司",
     "applicantAddr": "台北市信義區松仁路3號7樓",
@@ -45,8 +52,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "A0593A28-28CA-45B9-AB2A-04A934C688E0",
             "factoryCode": "1",
             "factoryName": "HANDOK INC.",
             "factoryAddr": "78, DAEPUNGSANDAN-RO, DAESO-MYEON, EUMSEONG-GUN, CHUNGCHEONGBUK-DO, KOREA",
@@ -57,54 +67,41 @@
             "factoryKind": "M",
             "factoryNo": "FKR0063000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820601200",
+            "ingredientsName": "GLIMEPIRIDE",
             "ingredientsDesc": "GLIMEPIRIDE",
             "concentDesc": "",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
-            "seq": "0",
+            "seq": "1",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         },
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": "",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
-            "seq": "1",
+            "seq": "2",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "79F1C6DA-7CEA-49C2-98ED-783C74A9FC5E",
-            "approvedDocNo": "1129009399",
-            "approvedDate": "2023-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A10BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A10BB12"
-        },
         {
             "isMain": "1",
             "atcCode": "A10BD02"

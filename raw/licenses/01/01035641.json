@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035641",
+    "licUnit": "1",
     "validDate": "2027-08-29 00:00:00.000",
     "issueDate": "1992-08-29 00:00:00.000",
+    "oriIssueDate": "1992-08-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103564105",
@@ -27,13 +31,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4DB3E90D-C5E5-4645-A961-7925E2E5C1CC",
+    "subCategory": [],
     "ingredientsDesc": [
         "THIAMINE DISULFIDE",
         "PYRIDOXINE HCL",
         "HYDROXOCOBALAMIN (ACETATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "安星製藥股份有限公司",
     "applicantAddr": "新竹縣新豐鄉鳳坑村坑子口６７３號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "0E36BD30-3415-4A41-A9B0-0CFBEBFF5C86",
             "factoryCode": "1",
             "factoryName": "安星製藥股份有限公司",
             "factoryAddr": "新竹縣新豐鄉鳳坑村坑子口６７３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0603006300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100800",
+            "ingredientsName": "THIAMINE DISULFIDE",
             "ingredientsDesc": "THIAMINE DISULFIDE",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -86,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811209420",
+            "ingredientsName": "HYDROXOCOBALAMIN (ACETATE)",
             "ingredientsDesc": "HYDROXOCOBALAMIN (ACETATE)",
             "concentDesc": "(100UG)100",
             "concent": null,
@@ -97,88 +112,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9D158F5C-2EC1-4B88-B949-E256177CBD3B",
-            "approvedDocNo": "1110018158",
-            "approvedDate": "2022-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8B7E0FDB-3A8F-4D95-9812-D830F5EDBCB9",
-            "approvedDocNo": "1110604806",
-            "approvedDate": "2022-07-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED7A946D-DC64-4F96-8D49-1EAF8331B3B2",
-            "approvedDocNo": "1096614678",
-            "approvedDate": "2021-03-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C6C1B09F-A02E-45AB-A219-406CEBAFFE82",
-            "approvedDocNo": "1096614678",
-            "approvedDate": "2021-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F1A40704-7DA6-4D39-AEE0-191A89004D0A",
-            "approvedDocNo": "1096614678",
-            "approvedDate": "2021-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E51290EE-9976-4E2D-B1F2-593B96A8B38A",
-            "approvedDocNo": "1096604450",
-            "approvedDate": "2020-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F43C78C3-ED24-4994-9989-A297680BD383",
-            "approvedDocNo": "1086612307",
-            "approvedDate": "2019-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DB307CA0-39CC-4262-BEC0-F3364572D5A5",
-            "approvedDocNo": "1086612307",
-            "approvedDate": "2019-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
         {
             "isMain": "1",
             "atcCode": "A11DB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA03"
         }
     ],
     "licBaseId": "2238F2EA-E93B-403D-90D0-E07940E2FEDE"

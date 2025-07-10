@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026194",
+    "licUnit": "1",
     "validDate": "2028-11-18 00:00:00.000",
     "issueDate": "2013-11-18 00:00:00.000",
+    "oriIssueDate": "2013-11-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202619402",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FF57308F-A46F-4A73-B5C4-704D2A5DE4D6",
+    "subCategory": [],
     "ingredientsDesc": [
         "ATOMOXETINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "鴻汶醫藥實業有限公司",
     "applicantAddr": "台中市西屯區文心路三段236號3樓、238號3樓",
@@ -39,25 +46,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "C0A690C5-5E85-42DC-8332-EDCB9FD5268D",
             "factoryCode": "1",
             "factoryName": "Apotex inc. - Etobicoke",
             "factoryAddr": "50 Steinway Boulevard,Etobicoke, Ontario, Canada M9W 6Y3 ",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CA",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCA0064100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7E3026CC-5EED-49E1-9D5C-D0D11ADCCECA",
             "factoryCode": "2",
             "factoryName": "天義企業股份有限公司",
             "factoryAddr": "新北市林口區工二工業區工五路8號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -69,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "6131171176",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816402010",
+            "ingredientsName": "ATOMOXETINE HYDROCHLORIDE",
             "ingredientsDesc": "ATOMOXETINE HYDROCHLORIDE",
             "concentDesc": "IH (eq. to Atomoxetine 10mg)",
-            "concent": "11.390",
+            "concent": "11.390000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,51 +103,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1F157126-D71D-4233-85A0-AB5F21B97319",
-            "approvedDocNo": "1120608189",
-            "approvedDate": "2024-01-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1E4360C7-1A52-448D-9003-B3BEF7CE5301",
-            "approvedDocNo": "1120808021",
-            "approvedDate": "2023-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DFC468BA-75AA-400F-950E-B402FBF6608C",
-            "approvedDocNo": "1096028665",
-            "approvedDate": "2021-02-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1C9500B1-DC85-4260-A535-82C73BC00FBC",
-            "approvedDocNo": "1086021535",
-            "approvedDate": "2020-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N06BA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07AX"
-        },
-        {
-            "isMain": "2",
             "atcCode": "N06BA09"
         }
     ],

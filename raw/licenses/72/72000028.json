@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "72000028",
+    "licUnit": "1",
     "validDate": "2029-10-28 00:00:00.000",
     "issueDate": "2019-10-28 00:00:00.000",
+    "oriIssueDate": "2019-10-28",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA07200002800",
@@ -23,16 +27,21 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "BEBB17F8-6967-49E1-9732-824E71BC5B87",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "cerliponase alfa (rhTPP1)"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1Q"
+        "02 輸 入",
+        "07 新藥監視",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "美商百傲萬里生技股份有限公司台灣分公司",
-    "applicantAddr": "臺北市大安區敦化南路2段97號2樓",
+    "applicantAddr": "臺北市大安區敦化南路2段97號2樓 (218室)",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -41,25 +50,31 @@
     "monitorDate": "2024-10-28",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "13828BD7-DDCE-4A93-95D8-2B2AF271F08F",
             "factoryCode": "1",
-            "factoryName": "Vetter Pharma-Fertigung GmbH & Co. KG",
-            "factoryAddr": "Eisenbahnstrasse 2-4, 88085 Langenargen, Germany",
-            "factoryCompanyAddr": "",
+            "factoryName": "VETTER PHARMA-FERTIGUNG GMBH & CO. KG",
+            "factoryAddr": "EISENBAHNSTRASSE 2-4, 88085 LANGENARGEN GERMANY",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "MDE1120100",
+            "factoryNo": "FDE0292000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "66E49806-006A-4513-BEC6-451D6E7B2EB1",
             "factoryCode": "2",
             "factoryName": "ANDERSONBRECON (UK) LTD.",
             "factoryAddr": "WYE VALLEY BUSINESS PARK, HAY-ON-WYE, HEREFORD, HR3 5PG, UNITED KINGDOM",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GB",
             "processCode": [
                 {
@@ -71,13 +86,16 @@
             "factoryKind": "M",
             "factoryNo": "FGB0219200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8773DC85-E394-4FBB-AC06-2844A0A1E02D",
             "factoryCode": "2",
             "factoryName": "BioMarin International Limited",
             "factoryAddr": "Shanbally, Ringaskiddy, County Cork, Ireland",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IE",
             "processCode": [
                 {
@@ -89,13 +107,16 @@
             "factoryKind": "M",
             "factoryNo": "FIE0085000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F6BB1BB0-B274-42E0-8B8B-6C19CA91133B",
             "factoryCode": "2",
             "factoryName": "Almac Pharma Services (Ireland) Limited",
             "factoryAddr": "Finnabair Industrial Estate, Dundalk, Co. Louth, A91 P9KD, Irland",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IE",
             "processCode": [
                 {
@@ -107,16 +128,19 @@
             "factoryKind": "M",
             "factoryNo": "FIE0138000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200083200",
+            "ingredientsName": "cerliponase alfa (rhTPP1)",
             "ingredientsDesc": "cerliponase alfa (rhTPP1)",
             "concentDesc": "",
-            "concent": "150.000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -125,16 +149,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EC57A5AF-2265-49E2-89CC-114F5EFDE244",
-            "approvedDocNo": "1110730992",
-            "approvedDate": "2023-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

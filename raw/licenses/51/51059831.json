@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059831",
+    "licUnit": "1",
     "validDate": "2027-12-13 00:00:00.000",
     "issueDate": "2017-12-13 00:00:00.000",
+    "oriIssueDate": "2017-12-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105983109",
@@ -35,15 +39,20 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "18EA2330-E7F4-48C5-87A6-CF7ED2999DC3",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "LEVOFLOXACIN HEMIHYDRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "生達化學製藥股份有限公司",
-    "applicantAddr": "台南市新營區土庫里土庫6之20號",
+    "applicantAddr": "臺南市新營區土庫里土庫6之20號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -52,28 +61,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "5E8347D8-2687-4A6E-AAC3-E796FB8C2337",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司",
             "factoryAddr": "台南市新營區土庫里土庫6之20號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0510620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0836002310",
+            "ingredientsName": "LEVOFLOXACIN HEMIHYDRATE",
             "ingredientsDesc": "LEVOFLOXACIN HEMIHYDRATE",
             "concentDesc": "(equivalence to Levofloxacin.....5mg)",
-            "concent": "5.125",
+            "concent": "5.125000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -82,48 +97,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5A8DF5B0-C51C-4E4C-B38D-A35E88CA0F2C",
-            "approvedDocNo": "1119036632",
-            "approvedDate": "2022-08-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B4EDA39F-5F97-4A21-BB1E-3AE47ED1F7B8",
-            "approvedDocNo": "1096600962",
-            "approvedDate": "2020-04-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D72C459A-1DC2-44C3-96CE-C57D0F9155BD",
-            "approvedDocNo": "1086812646",
-            "approvedDate": "2019-11-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "99FFFEE9-2560-428C-B237-5784A4671003",
-            "approvedDocNo": "1080011550",
-            "approvedDate": "2019-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ACB8C298-967E-4371-963A-0E937840261E",
-            "approvedDocNo": "1080011550",
-            "approvedDate": "2019-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039605",
-    "validDate": "2025-12-07 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2030-12-07 00:00:00.000",
     "issueDate": "1995-12-07 00:00:00.000",
+    "oriIssueDate": "1995-12-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103960508",
@@ -23,12 +27,15 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5B433B93-C39E-4A44-AFF2-C59E17E5D45F",
+    "subCategory": [],
     "ingredientsDesc": [
         "KETOCONAZOLE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "新喜國際企業股份有限公司",
     "applicantAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "295D93FF-8A60-4606-88B1-CB3670DEE6C1",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200700",
+            "ingredientsName": "KETOCONAZOLE",
             "ingredientsDesc": "KETOCONAZOLE",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047673",
+    "licUnit": "1",
     "validDate": "2025-12-14 00:00:00.000",
     "issueDate": "2005-12-14 00:00:00.000",
+    "oriIssueDate": "2005-12-14",
     "licKind": "01",
     "oldLicid": null,
     "certNo": "DHY00104767308",
@@ -23,11 +27,14 @@
     "medMCode": "22",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "ADDCBB4C-6B7F-4C92-9C75-1905BE2AE207",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROXYPROPYLMETHYLCELLULOSE(EQ TO HYPROMELLOSE)(HPMC)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "大豐膠囊工業股份有限公司",
     "applicantAddr": "台中市潭子區中山路三段201、203號",
@@ -39,28 +46,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "5CF221F5-AE8A-4EBC-A7B5-2C6703849933",
             "factoryCode": "1",
             "factoryName": "大豐膠囊工業股份有限公司",
             "factoryAddr": "台中市潭子區中山路三段201、203號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0306910300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600015500",
+            "ingredientsName": "HYDROXYPROPYLMETHYLCELLULOSE(EQ TO HYPROMELLOSE)(HPMC)",
             "ingredientsDesc": "HYDROXYPROPYLMETHYLCELLULOSE(EQ TO HYPROMELLOSE)(HPMC)",
             "concentDesc": "",
-            "concent": "114.0000",
+            "concent": "114.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -69,39 +82,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "88BD40CB-ABBB-4BE8-97A8-C098A2630C20",
-            "approvedDocNo": "1091492345",
-            "approvedDate": "2020-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E147CD46-2E44-4E74-A386-5DB11A6BE10C",
-            "approvedDocNo": "1091492981",
-            "approvedDate": "2020-11-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FDBCE9D2-9196-4FEC-86D8-910A5D3A079D",
-            "approvedDocNo": "1080005098",
-            "approvedDate": "2019-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
             "atcCode": "V07"
         }
     ],

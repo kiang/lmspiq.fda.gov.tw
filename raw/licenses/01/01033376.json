@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033376",
+    "licUnit": "1",
     "validDate": "2025-12-06 00:00:00.000",
     "issueDate": "1990-12-06 00:00:00.000",
+    "oriIssueDate": "1990-12-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103337602",
@@ -31,11 +35,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "545C76D2-2194-48B3-A126-E97D8188976A",
+    "subCategory": [],
     "ingredientsDesc": [
         "GENTAMICIN (AS SULFATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "大豐製藥股份有限公司",
     "applicantAddr": "彰化縣彰化市延平里岸頭巷11號",
@@ -47,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "273261F7-5732-4858-A54C-18D88938EEF0",
             "factoryCode": "1",
             "factoryName": "大豐製藥股份有限公司",
             "factoryAddr": "彰化縣彰化市延平里岸頭巷11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0306811300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "140",
-            "concent": "140.0000",
+            "concent": "140.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -77,48 +90,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "23C7B178-79F0-438B-9147-04217B00B1EF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3943678B-158F-4003-9B0C-5EA8A385D5C3",
-            "approvedDocNo": "1110029156",
-            "approvedDate": "2023-02-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "80085C91-4A97-447F-A014-B1FD48D88A81",
-            "approvedDocNo": "1110029156",
-            "approvedDate": "2023-02-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7464FEC9-735A-4175-9BE7-F98697FC33EA",
-            "approvedDocNo": "1110029156",
-            "approvedDate": "2023-02-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "34BDE7C6-4B7F-4507-ADFB-83E5643448B7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

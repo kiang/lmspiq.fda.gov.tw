@@ -1,11 +1,16 @@
 {
-    "cancelStatus": "0",
-    "licStatus": "1",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-11",
+    "cancelReason": [
+        "85A"
+    ],
+    "otherCancelReason": "",
     "licid": "02018279",
+    "licUnit": "1",
     "validDate": "2024-02-09 00:00:00.000",
     "issueDate": "1990-09-20 00:00:00.000",
+    "oriIssueDate": "1990-09-20",
     "licKind": "02",
     "oldLicid": "02005070",
     "certNo": "DHA00201827908",
@@ -28,11 +33,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "549FA71F-7ACE-4137-B7B4-C142C30BE6CE",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMINOPHYLLINE (COROPHYLLIN)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "嘉德藥品企業股份有限公司",
     "applicantAddr": "台北市中山區民生東路二段176號5樓",
@@ -44,8 +52,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "A6D8FD6D-5447-4380-A063-44900A05F774",
             "factoryCode": "1",
             "factoryName": "BARD PHARMACEUTICALS LTD.",
             "factoryAddr": "CAMBRIDGE SCIENCE PARK, MILTON ROAD, CAMBRIDGE,CAMBRIDGESHIRE, CB4 0GW U.K.",
@@ -56,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "FGB0151000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "BA21483E-4AAD-4262-8AC4-8253D9B20105",
             "factoryCode": "2",
             "factoryName": "Ennogen Healthcare Ltd.",
             "factoryAddr": "Unit G2, G3 & G4 Riverside Industrial Estate Riverside Way Dartford, DA1 5BS Kent, U.K",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GB",
             "processCode": [
                 {
@@ -74,16 +88,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0436000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8600000300",
+            "ingredientsName": "AMINOPHYLLINE (COROPHYLLIN)",
             "ingredientsDesc": "AMINOPHYLLINE (COROPHYLLIN)",
             "concentDesc": "(BP)         ",
-            "concent": "225.0000",
+            "concent": "225.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -92,48 +109,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3D78CC0B-6FA4-42EE-88C8-E72F7AEBDCD9",
-            "approvedDocNo": "1129018736",
-            "approvedDate": "2023-07-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "922C28EE-829A-455D-937E-9E277976B832",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "05382E7C-C7CD-4433-A3E0-E372535FF602",
-            "approvedDocNo": "1091495104",
-            "approvedDate": "2021-03-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C7F9C6B7-1128-4260-99D8-B7040CF44790",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-04-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E7EF48D0-9349-44B7-A7C3-FCDC1F251AD7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

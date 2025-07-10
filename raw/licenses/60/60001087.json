@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001087",
+    "licUnit": "1",
     "validDate": "2028-08-28 00:00:00.000",
     "issueDate": "2018-08-28 00:00:00.000",
+    "oriIssueDate": "2018-08-28",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000108709",
@@ -16,13 +20,18 @@
     "does": "227D",
     "packageUnit": [
         {
-            "packageSpec": "另附皮下注射配件組(內含取藥針頭1支、皮下注射安全針頭1支、針筒2支、酒精棉片2塊)。每小瓶0.4、0.6、0.7、1毫升，100瓶以下",
+            "packageSpec": "每小瓶0.4、0.6、0.7、1毫升，100瓶以下盒裝。附或不附皮下注射配件組(內含取藥針頭1支、皮下注射安全針頭1支、針筒2支、酒精棉片2塊)",
             "packageUnit": "03"
         }
     ],
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "26B91855-AD42-45B2-9CDB-531332F59EC8",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "emicizumab",
         "emicizumab",
@@ -30,9 +39,9 @@
         "emicizumab"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣中外製藥股份有限公司",
     "applicantAddr": "台北市松山區敦化北路260號3樓",
@@ -44,8 +53,11 @@
     "monitorDate": "2023-08-28",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "69F21477-3B8B-45F4-80DC-4A0DF0BA4132",
             "factoryCode": "1",
             "factoryName": "UTSUNOMIYA PLANT OF CHUGAI PHARMA MANUFACTURING CO., LTD.",
             "factoryAddr": "16-3 KIYOHARA KOGYODANCHI, UTSUNOMIYA-CITY, TOCHIGI, JAPAN",
@@ -56,13 +68,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0526100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "AC34484E-F18A-4BAC-A3BB-D1D3AEEE0C3F",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -74,9 +89,12 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7341EF13-73D0-4696-B1C6-DE4156B3AB69",
             "factoryCode": "2",
             "factoryName": "UKIMA PLANT OF CHUGAI PHARMA MANUFACTURING CO., LTD.",
             "factoryAddr": "5-1, UKIMA 5-CHOME, KITA-KU, TOKYO JAPAN",
@@ -92,13 +110,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0533100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "9586F90A-85CE-4A41-B734-8B201BF52ACE",
             "factoryCode": "2",
             "factoryName": "Bushu Pharmaceuticals Ltd. Kawagoe Factory",
             "factoryAddr": "1 Takeno, Kawagoe, Saitama, 350-0801, Japan",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [
                 {
@@ -110,16 +131,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0621100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012103500",
+            "ingredientsName": "emicizumab",
             "ingredientsDesc": "emicizumab",
             "concentDesc": "0.4mL",
-            "concent": "60.000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -128,9 +152,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012103500",
+            "ingredientsName": "emicizumab",
             "ingredientsDesc": "emicizumab",
             "concentDesc": "0.7mL",
-            "concent": "105.000",
+            "concent": "105.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -139,9 +164,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012103500",
+            "ingredientsName": "emicizumab",
             "ingredientsDesc": "emicizumab",
             "concentDesc": "1.0mL",
-            "concent": "150.000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "3",
@@ -150,9 +176,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012103500",
+            "ingredientsName": "emicizumab",
             "ingredientsDesc": "emicizumab",
             "concentDesc": "0.6mL",
-            "concent": "90.000",
+            "concent": "90.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "4",
@@ -161,104 +188,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "91297631-AFDF-4F93-AC58-6DD0A89683FF",
-            "approvedDocNo": "1129043098",
-            "approvedDate": "2024-01-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "14D51E04-E70B-45F5-B44E-80E6B408F2BE",
-            "approvedDocNo": "1119050008",
-            "approvedDate": "2023-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "55417BD8-D16D-4C9A-8D5C-73BEBE138D0D",
-            "approvedDocNo": "1119028466",
-            "approvedDate": "2022-11-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7C0C4126-9251-4E65-ACFA-D49BCC006049",
-            "approvedDocNo": "1119003734",
-            "approvedDate": "2022-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "88DBAA52-EF7B-496D-A59F-9C6759FBC08A",
-            "approvedDocNo": "1101492802",
-            "approvedDate": "2021-07-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A148F4C-4E96-4668-A9D9-5FB10F434BDB",
-            "approvedDocNo": "1086002127",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "05C2A5E3-B4D7-44DD-8AEF-BE1EA460AD5B",
-            "approvedDocNo": "1086002127",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3B7BE9B5-6D4C-46C5-AF8B-E4BBADBA5DCB",
-            "approvedDocNo": "1086002127",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2628F65C-F24A-47F0-AC9B-BB13B480CFE4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2012F0C0-2DFB-4186-A13C-7628E15D92C2",
-            "approvedDocNo": "1081490340",
-            "approvedDate": "2019-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "19E73294-4106-4C39-9DF6-12B870159D79",
-            "approvedDocNo": "1081490340",
-            "approvedDate": "2019-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "34209C46-269D-4D9E-80E3-2DACB5D4CB7F",
-            "approvedDocNo": "1081490340",
-            "approvedDate": "2019-03-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

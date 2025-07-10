@@ -1,10 +1,14 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-04",
+    "cancelReason": null,
+    "otherCancelReason": null,
     "licid": "01015578",
+    "licUnit": "1",
     "validDate": "2023-05-25 00:00:00.000",
     "issueDate": "1978-10-04 00:00:00.000",
+    "oriIssueDate": "1978-10-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101557802",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A7EE4D6B-3207-40D8-BE30-E55483D38E03",
+    "subCategory": [],
     "ingredientsDesc": [
         "MEBENDAZOLE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "濟生醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉勝利村實踐路3號",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "6C9AAFF7-6466-4672-9183-ACA2C0DD03C5",
             "factoryCode": "1",
             "factoryName": "永勝藥品工業股份有限公司",
             "factoryAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路６之３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6140040022",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0808001200",
+            "ingredientsName": "MEBENDAZOLE",
             "ingredientsDesc": "MEBENDAZOLE",
             "concentDesc": "100",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,31 +84,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A13236C2-D600-4C7F-8CF0-A62126CB6AD1",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "40F815B3-6FE3-45BA-A366-2C9028062098",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "P02CA01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "P02CA01"
         }
     ],

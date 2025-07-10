@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035955",
+    "licUnit": "1",
     "validDate": "2025-12-03 00:00:00.000",
     "issueDate": "1992-12-01 00:00:00.000",
+    "oriIssueDate": "1992-12-01",
     "licKind": "02",
     "oldLicid": "01033305",
     "certNo": "DHY00103595502",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "249CE517-0FD7-4D1E-866B-333F70525F50",
+    "subCategory": [],
     "ingredientsDesc": [
         "BASIC ALUMINUM SUCROSE SULFATE (SUCRALFATE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "正和製藥股份有限公司新營廠",
     "applicantAddr": "台南市新營區嘉芳里新工路２３號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "FB846860-5A0C-41EC-876C-9F27F769D39F",
             "factoryCode": "1",
             "factoryName": "正和製藥股份有限公司新營廠",
             "factoryAddr": "台南市新營區嘉芳里新工路２３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0505720300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640001900",
+            "ingredientsName": "BASIC ALUMINUM SUCROSE SULFATE (SUCRALFATE)",
             "ingredientsDesc": "BASIC ALUMINUM SUCROSE SULFATE (SUCRALFATE)",
             "concentDesc": "1000",
-            "concent": "1000.0000",
+            "concent": "1000.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,23 +87,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "93C87706-2A42-4FF6-AF3C-AB59BC867FFE",
-            "approvedDocNo": "1096816767",
-            "approvedDate": "2020-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "A02BX02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "A02BX02"
         }
     ],

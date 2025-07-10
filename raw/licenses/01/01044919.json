@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044919",
+    "licUnit": "1",
     "validDate": "2027-04-10 00:00:00.000",
     "issueDate": "2002-04-10 00:00:00.000",
+    "oriIssueDate": "2002-04-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104491902",
@@ -31,6 +35,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7D9B8C09-4307-4809-9686-D5E81D474356",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLOBETASOL-17-PROPIONATE",
         "CLOBETASOL-17-PROPIONATE",
@@ -38,7 +45,7 @@
         "CLOBETASOL-17-PROPIONATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "中生生技製藥股份有限公司淡水廠",
     "applicantAddr": "新北市淡水區埤島里行忠路120號",
@@ -50,28 +57,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "CB0B51A3-B84C-41BA-924E-24CCB4D9140E",
             "factoryCode": "1",
             "factoryName": "中生生技製藥股份有限公司淡水廠",
             "factoryAddr": "新北市淡水區埤島里行忠路120號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1403902300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000611",
+            "ingredientsName": "CLOBETASOL-17-PROPIONATE",
             "ingredientsDesc": "CLOBETASOL-17-PROPIONATE",
             "concentDesc": "",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -80,9 +93,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000611",
+            "ingredientsName": "CLOBETASOL-17-PROPIONATE",
             "ingredientsDesc": "CLOBETASOL-17-PROPIONATE",
             "concentDesc": "",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -91,9 +105,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000611",
+            "ingredientsName": "CLOBETASOL-17-PROPIONATE",
             "ingredientsDesc": "CLOBETASOL-17-PROPIONATE",
             "concentDesc": "",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "3",
@@ -102,9 +117,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000611",
+            "ingredientsName": "CLOBETASOL-17-PROPIONATE",
             "ingredientsDesc": "CLOBETASOL-17-PROPIONATE",
             "concentDesc": "",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "4",
@@ -113,79 +129,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6679DC6A-72B6-4856-84A6-7AD15EF91DF1",
-            "approvedDocNo": "1110020342",
-            "approvedDate": "2022-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5E1B8F36-7551-44E6-8520-E773B11DF5F2",
-            "approvedDocNo": "1110020342",
-            "approvedDate": "2022-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0B007288-7C19-4B0D-B42D-C26A3DC672C6",
-            "approvedDocNo": "1119014000",
-            "approvedDate": "2022-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C6D15749-B2BF-407A-AE99-BEA70A0A1362",
-            "approvedDocNo": "1096041721",
-            "approvedDate": "2021-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7FB5C2BA-E0C4-47D2-A4D6-3B6FFA38101C",
-            "approvedDocNo": "1096041721",
-            "approvedDate": "2021-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A9993D21-AD43-4312-A003-419D320B695B",
-            "approvedDocNo": "1096041721",
-            "approvedDate": "2021-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B5A36A78-6735-4B53-A9F2-59487D918BA6",
-            "approvedDocNo": "1096041721",
-            "approvedDate": "2021-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9656AEAC-E1B8-4146-A446-637E610ED061",
-            "approvedDocNo": "1096041721",
-            "approvedDate": "2021-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D07AD01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D07AD01"
         }
     ],

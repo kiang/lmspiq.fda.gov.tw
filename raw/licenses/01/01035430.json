@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035430",
+    "licUnit": "1",
     "validDate": "2027-07-01 00:00:00.000",
     "issueDate": "1992-07-01 00:00:00.000",
+    "oriIssueDate": "1992-07-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103543005",
@@ -27,11 +31,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2935E0AC-FB93-48C1-A3D8-71ECE09DA86B",
+    "subCategory": [],
     "ingredientsDesc": [
         "HALOPERIDOL (DECANOATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "E705F176-D5AD-4842-ADC1-2D57FF01A54B",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816109310",
+            "ingredientsName": "HALOPERIDOL (DECANOATE)",
             "ingredientsDesc": "HALOPERIDOL (DECANOATE)",
             "concentDesc": "50.0",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -73,16 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C91BA0C8-F024-4E03-879D-1B82EF759E5C",
-            "approvedDocNo": "1110804428",
-            "approvedDate": "2022-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

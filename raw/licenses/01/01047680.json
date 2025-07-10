@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047680",
+    "licUnit": "1",
     "validDate": "2025-12-20 00:00:00.000",
     "issueDate": "2005-12-20 00:00:00.000",
+    "oriIssueDate": "2005-12-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -23,14 +27,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BE62699A-A35B-48DA-9790-441B819110CA",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACARBOSE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R",
-        "24"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -42,8 +49,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "8B977A61-5A9F-40B4-98DA-267ACA3887FB",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業一路６號",
@@ -54,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820601000",
+            "ingredientsName": "ACARBOSE",
             "ingredientsDesc": "ACARBOSE",
             "concentDesc": "",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -72,48 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3371D80C-44CF-40FD-873E-C5926873BFDB",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6E0B00AB-6146-4133-BF4E-F43FB07AE2A2",
-            "approvedDocNo": "1076806667",
-            "approvedDate": "2019-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A10C4872-095F-4F8D-96CD-31CC627857BD",
-            "approvedDocNo": "1076806667",
-            "approvedDate": "2019-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB258C66-9A31-458E-A561-608DA152E6AA",
-            "approvedDocNo": "1076806667",
-            "approvedDate": "2019-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E10BB26C-A0D6-47B1-A8F5-82A1D04B87A0",
-            "approvedDocNo": "1076806667",
-            "approvedDate": "2019-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

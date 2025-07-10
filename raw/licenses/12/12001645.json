@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-02",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "12001645",
+    "licUnit": "1",
     "validDate": "2023-12-31 00:00:00.000",
     "issueDate": "1970-01-16 00:00:00.000",
+    "oriIssueDate": "1970-01-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -16,21 +22,24 @@
     "does": "1130",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1F2FEDE2-8BB9-47E6-8A94-8BE079E97548",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORDIAZEPOXIDE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R",
-        "34"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造",
+        "34 第四級管制藥品"
     ],
     "applicantName": "木村貿易有限公司 ",
     "applicantAddr": "彰化縣彰化市平和里中華西路464號",
@@ -42,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "0F5AED62-4B33-40E4-B1AF-F23F2D29DC8F",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824200210",
+            "ingredientsName": "CHLORDIAZEPOXIDE HCL",
             "ingredientsDesc": "CHLORDIAZEPOXIDE HCL",
             "concentDesc": null,
-            "concent": "10.000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",

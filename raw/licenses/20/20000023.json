@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "20000023",
+    "licUnit": "1",
     "validDate": "2027-08-15 00:00:00.000",
     "issueDate": "2012-08-15 00:00:00.000",
+    "oriIssueDate": "2012-08-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA02000002307",
@@ -23,15 +27,18 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "12EBB048-7D4C-44A9-AE91-0F48B7164D3C",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMBRISENTAN"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "荷商葛蘭素史克藥廠股份有限公司台灣分公司",
-    "applicantAddr": "台北市中正區忠孝西路一段66號23-24樓",
+    "applicantAddr": "臺北市中正區忠孝西路1段66號23樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -40,8 +47,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "4DC5330F-803A-44BF-93DF-D022289D2B56",
             "factoryCode": "1",
             "factoryName": "PATHEON INC.",
             "factoryAddr": "2100 SYNTEX COURT, MISSISSAUGA, ONTARIO L5N 7K9, CANADA",
@@ -52,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "FCA0024100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "198F8CCC-DABC-4F34-985F-CAF336ED370C",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -68,18 +81,21 @@
             ],
             "processCodeStr": "3P;二級包裝廠(委託貼標及置入仿單)",
             "factoryKind": "M",
-            "factoryNo": "1225204000",
+            "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412004000",
+            "ingredientsName": "AMBRISENTAN",
             "ingredientsDesc": "AMBRISENTAN",
             "concentDesc": null,
-            "concent": "10.000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,56 +104,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "214ED591-DD37-4E5F-830C-658DA49F71A0",
-            "approvedDocNo": "1110707462",
-            "approvedDate": "2022-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DB8EAA9D-6578-450B-A032-7735DB64D23B",
-            "approvedDocNo": "1091497687",
-            "approvedDate": "2021-07-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1A8390E0-3F99-4B42-A22C-3E6DEDFBE341",
-            "approvedDocNo": "1091497542",
-            "approvedDate": "2021-05-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D8453EDD-1315-40C7-9DF0-F328EE25B159",
-            "approvedDocNo": "1096000404",
-            "approvedDate": "2020-07-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "079AA46F-FE42-419B-B309-BE7515BEF53D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E74681FF-0F29-47E1-8E59-6064077C5289",
-            "approvedDocNo": "1086023675",
-            "approvedDate": "2020-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

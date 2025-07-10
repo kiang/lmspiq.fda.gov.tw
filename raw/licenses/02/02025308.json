@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025308",
+    "licUnit": "1",
     "validDate": "2025-12-08 00:00:00.000",
     "issueDate": "2010-12-08 00:00:00.000",
+    "oriIssueDate": "2010-12-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202530806",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D87170E5-874E-42FA-BE9D-EA6DAD0B6C0A",
+    "subCategory": [],
     "ingredientsDesc": [
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "02",
-        "25"
+        "02 輸 入",
+        "25 監視中學名藥"
     ],
     "applicantName": "毅有生技醫藥股份有限公司",
     "applicantAddr": "新北市中和區中山路２段332巷37號13樓",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "4963F24A-D2F0-4D43-99D0-0D4BD2B43D7B",
             "factoryCode": "1",
             "factoryName": "Zydus Lifesciences Limited",
             "factoryAddr": "SURVEY NO. 417, 419, 420, SARKHEJ-BAVLA NATIONAL HIGHWAY NO. 8A, VILLAGE-MORAIYA, TAL-SANAND, DIST: AHMEDABAD - 382 210, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN1161000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": null,
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,47 +87,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B4899AA9-B110-4886-B982-CC3E1C10220F",
-            "approvedDocNo": "1119035733",
-            "approvedDate": "2022-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B8B2A1F0-C915-4BAF-923B-A64A9182CB17",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6AA59185-1B9F-4B93-9961-D7DEB21F2B0A",
-            "approvedDocNo": "1081491741",
-            "approvedDate": "2020-01-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9B3411FD-5E1B-4A66-9E6E-FFDA6AA64364",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "A10BA02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "A10BA02"
         }
     ],

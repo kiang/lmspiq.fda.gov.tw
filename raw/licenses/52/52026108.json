@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-09",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "52026108",
+    "licUnit": "1",
     "validDate": "2023-08-02 00:00:00.000",
     "issueDate": "2013-08-02 00:00:00.000",
+    "oriIssueDate": "2013-08-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202610809",
@@ -23,13 +29,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3B9C33FC-EBAB-4624-A46A-B5D663639B41",
+    "subCategory": [],
     "ingredientsDesc": [
         "LETROZOLE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "盛益貿易有限公司",
     "applicantAddr": "新北市汐止區新台五路一段75號7樓之7",
@@ -41,8 +50,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "5E2A2287-FCBB-443F-932A-AAB38F81D49F",
             "factoryCode": "1",
             "factoryName": "DOUGLAS MANUFACTURING LTD.",
             "factoryAddr": "CORNER TE PAI PLACE AND CENTRAL PARK DRIVE, LINCOLN, AUCKLAND, NEW ZEALAND",
@@ -53,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "FNZ0005000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000400",
+            "ingredientsName": "LETROZOLE",
             "ingredientsDesc": "LETROZOLE",
             "concentDesc": "",
-            "concent": "2.500",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

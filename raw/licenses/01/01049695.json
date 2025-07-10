@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049695",
+    "licUnit": "1",
     "validDate": "2028-10-01 00:00:00.000",
     "issueDate": "2008-10-01 00:00:00.000",
+    "oriIssueDate": "2008-10-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104969502",
@@ -27,12 +31,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "03BC3F02-FF37-4286-96DC-CDAC9F15CC13",
+    "subCategory": [],
     "ingredientsDesc": [
         "DOPAMINE HCL",
         "DEXTROSE HYDROUS"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "歐舒邁克有限公司",
     "applicantAddr": "新北市新店區中正路487-4號8樓",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "B347C055-ECD7-4D07-8E56-BFC4E48B2D59",
             "factoryCode": "1",
-            "factoryName": "濟生醫藥生技股份有限公司",
-            "factoryAddr": "新竹縣湖口鄉勝利村實踐路3號",
+            "factoryName": "台裕化學製藥廠股份有限公司",
+            "factoryAddr": "新竹縣竹東鎮員山路11巷13弄1號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
-            "factoryKind": "M",
-            "factoryNo": "6133060069",
+            "factoryKind": "E",
+            "factoryNo": "6133030016",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212000410",
+            "ingredientsName": "DOPAMINE HCL",
             "ingredientsDesc": "DOPAMINE HCL",
             "concentDesc": "",
-            "concent": "1.6000",
+            "concent": "1.600000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000560",
+            "ingredientsName": "DEXTROSE HYDROUS",
             "ingredientsDesc": "DEXTROSE HYDROUS",
             "concentDesc": "",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -85,28 +99,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CFC9AC9C-0986-4D43-8262-D927985D40C9",
-            "approvedDocNo": "1120000050",
-            "approvedDate": "2023-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05BA03"
-        },
         {
             "isMain": "1",
             "atcCode": "C01CA30"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C01CA04"
         }
     ],
     "licBaseId": "9CE902AB-D8E2-4D86-9292-1D4E5AA730F4"

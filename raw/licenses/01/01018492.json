@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-06",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01018492",
+    "licUnit": "1",
     "validDate": "2023-05-25 00:00:00.000",
     "issueDate": "1979-08-29 00:00:00.000",
+    "oriIssueDate": "1979-08-29",
     "licKind": "02",
     "oldLicid": "12013092",
     "certNo": "DHY00101849204",
@@ -16,17 +22,20 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0E6D47FC-C28C-46ED-BCCB-371013BC9618",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROXYBUTYRIC ACID BETA- P-PHENETIDIDE (BUCETIN)",
         "CHLORPHENIRAMINE MALEATE",
@@ -36,12 +45,12 @@
         "ETHENZAMIDE (ETHOXYBENZAMIDE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "仙台藥品工業股份有限公司",
-    "applicantAddr": "台南市新營區新營工業區新工路３５號",
+    "applicantAddr": "台南市新營區嘉芳里新工路35號A棟、35之1號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -50,28 +59,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "86A60F75-AA92-4396-9F91-FD56F273E126",
             "factoryCode": "1",
             "factoryName": "仙台藥品工業股份有限公司",
             "factoryAddr": "台南市新營區嘉芳里新工路35號A棟、35之1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "0513320300",
+            "factoryNo": "6141010037",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4040000412",
+            "ingredientsName": "HYDROXYBUTYRIC ACID BETA- P-PHENETIDIDE (BUCETIN)",
             "ingredientsDesc": "HYDROXYBUTYRIC ACID BETA- P-PHENETIDIDE (BUCETIN)",
             "concentDesc": "66",
-            "concent": "66.0000",
+            "concent": "66.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -80,9 +95,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808600900",
+            "ingredientsName": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "ingredientsDesc": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "concentDesc": "66",
-            "concent": "66.0000",
+            "concent": "66.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -91,9 +107,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "0.8",
-            "concent": "0.8000",
+            "concent": "0.800000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -102,9 +119,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "3.3",
-            "concent": "3.3000",
+            "concent": "3.300000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -113,9 +131,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -124,9 +143,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101001",
+            "ingredientsName": "THIAMINE MONONITRATE",
             "ingredientsDesc": "THIAMINE MONONITRATE",
             "concentDesc": "2.7",
-            "concent": "2.7000",
+            "concent": "2.700000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -138,32 +158,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BA07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
         }
     ],
     "licBaseId": "7C5436AF-FEA0-4203-B13C-AC312C5F9A84"

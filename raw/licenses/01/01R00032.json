@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01R00032",
+    "licUnit": "1",
     "validDate": "2025-12-23 00:00:00.000",
     "issueDate": "2010-12-23 00:00:00.000",
+    "oriIssueDate": "2010-12-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHYS01R0003206",
@@ -17,18 +20,21 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EDCDA49D-B75D-44D1-9895-D4FFB5A0AA79",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM FLUORIDE [F-18]"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "國家原子能科技研究院核醫製藥中心",
     "applicantAddr": "桃園市龍潭區佳安里文化路1000號",
@@ -40,28 +46,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "17AA74E8-72C4-4EC2-A981-B26A73C7DD23",
             "factoryCode": "1",
             "factoryName": "國家原子能科技研究院核醫製藥中心",
             "factoryAddr": "桃園市龍潭區佳安里文化路1000號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6132090018",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200008420",
+            "ingredientsName": "SODIUM FLUORIDE [F-18]",
             "ingredientsDesc": "SODIUM FLUORIDE [F-18]",
             "concentDesc": "≧",
-            "concent": "111.0000",
+            "concent": "111.000000",
             "concentUnit": "04A",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,53 +82,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "744581A0-E080-4AD8-9E3E-F421C6D1FB86",
-            "approvedDocNo": "1129077529",
-            "approvedDate": "2024-02-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FB503105-6A8B-4BD9-B690-52A0A8C020C2",
-            "approvedDocNo": "1129077531",
-            "approvedDate": "2024-02-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5BF726E6-3807-4CBC-96F1-B30BDE38ED35",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5E05CC38-44A3-4F02-AA54-1E91D45C3FF9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BB81F47F-D3E4-4F88-8975-23012D10820A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V09IX06"
-        },
         {
             "isMain": "1",
             "atcCode": "V09IX06"

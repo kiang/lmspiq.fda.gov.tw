@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025306",
+    "licUnit": "1",
     "validDate": "2025-12-07 00:00:00.000",
     "issueDate": "2010-12-07 00:00:00.000",
+    "oriIssueDate": "2010-12-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202530602",
@@ -24,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6588EFBA-B9F5-4AC3-89D3-A452A0C71381",
+    "subCategory": [],
     "ingredientsDesc": [
         "VILDAGLIPTIN"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -41,25 +47,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "CFA60E7C-8D2D-4DC3-B779-EE8AA8836C1B",
             "factoryCode": "1",
             "factoryName": "Novartis Pharmaceutical Manufacturing LLC",
             "factoryAddr": "Verovskova ulica 57 1000 Ljubljana Slovenia",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "SI",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FSI0008000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "0D619FFB-FB0F-4C9E-86B4-B555A91D4495",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA AG",
             "factoryAddr": "LICHTSTRASSE 35 CH-4056 BASLE, SWITZERLAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CH",
             "processCode": [
                 {
@@ -71,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820601900",
+            "ingredientsName": "VILDAGLIPTIN",
             "ingredientsDesc": "VILDAGLIPTIN",
             "concentDesc": null,
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,77 +104,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "926B6589-E191-48B9-9A81-700B7905A8B8",
-            "approvedDocNo": "1129060489",
-            "approvedDate": "2024-02-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9CE9F250-0FE8-407A-9852-F6D5D678744F",
-            "approvedDocNo": "1129073770",
-            "approvedDate": "2024-01-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C8FC3672-CECB-41DE-90B0-9314191341FB",
-            "approvedDocNo": "1110715415",
-            "approvedDate": "2022-11-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8058B22A-4BCF-422C-B4DE-B502A3F9E432",
-            "approvedDocNo": "1106026240",
-            "approvedDate": "2022-03-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CBEA0577-0F6F-4B6F-8118-EBA34FC64213",
-            "approvedDocNo": "1101494958",
-            "approvedDate": "2021-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "500E4CF8-444B-408D-8AE2-AF5CCEED758D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B46939F8-1E92-4966-BBF5-89B83A5AB883",
-            "approvedDocNo": "1091493446",
-            "approvedDate": "2020-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9D559804-805B-47C3-97D1-F2EF814B9A27",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A10BH02"
-        },
         {
             "isMain": "1",
             "atcCode": "A10BH02"

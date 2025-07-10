@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044485",
+    "licUnit": "1",
     "validDate": "2026-06-19 00:00:00.000",
     "issueDate": "2001-06-19 00:00:00.000",
+    "oriIssueDate": "2001-06-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104448505",
@@ -16,24 +20,27 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C5E798D9-BE29-409A-9AA6-7F319523EDE0",
+    "subCategory": [],
     "ingredientsDesc": [
         "RILUZOLE"
     ],
     "restraintItemsCode": [
-        "01",
-        "07",
-        "09"
+        "01 國 產",
+        "07 新藥監視",
+        "09 委託製造"
     ],
     "applicantName": "吉帝藥品股份有限公司",
     "applicantAddr": "台中市北屯區綏遠路二段216之5號6樓、216號地下一層",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "82AFA1CE-4386-4981-8DF5-AEC21F9B2779",
             "factoryCode": "1",
             "factoryName": "健亞生物科技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉新竹工業區工業一路１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1119206300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037100",
+            "ingredientsName": "RILUZOLE",
             "ingredientsDesc": "RILUZOLE",
             "concentDesc": "",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,32 +88,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DA475D0D-AE07-498F-A9D8-F14E6C005C29",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FFDF1A31-A038-47BD-972B-D7E4ECDE0246",
-            "approvedDocNo": "1096016657",
-            "approvedDate": "2020-06-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8C05452F-6A3F-404F-9494-25F8C78D597A",
-            "approvedDocNo": "1086012457",
-            "approvedDate": "2019-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

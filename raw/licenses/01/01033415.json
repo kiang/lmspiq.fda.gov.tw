@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033415",
-    "validDate": "2025-12-13 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2030-12-13 00:00:00.000",
     "issueDate": "1990-12-13 00:00:00.000",
+    "oriIssueDate": "1990-12-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103341502",
@@ -27,12 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "80C06DB5-D15D-4C37-BE44-39F1CCA25B87",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMBROXOL HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "61"
+        "01 國 產",
+        "61 完成BE試驗",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "杏輝藥品工業股份有限公司",
     "applicantAddr": "宜蘭縣冬山鄉中山村中山路84、84之4、84之6、84之7號、冬山鄉中山村新寮路95、95之1、100之7、100之13、100之15、100之16、103、136號",
@@ -44,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "968AEDB8-32C0-4F86-BA96-4F15673D89BC",
             "factoryCode": "1",
             "factoryName": "杏輝藥品工業股份有限公司",
             "factoryAddr": "宜蘭縣冬山鄉中山村中山路８４號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0705330300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001810",
+            "ingredientsName": "AMBROXOL HYDROCHLORIDE",
             "ingredientsDesc": "AMBROXOL HYDROCHLORIDE",
             "concentDesc": "30",
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -74,45 +88,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D14F6113-C889-4A1F-9B5A-D1A9F51C8C19",
-            "approvedDocNo": "1129023747",
-            "approvedDate": "2023-07-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5D13955B-27B5-4FEF-8E99-050E8BC62375",
-            "approvedDocNo": "1110810481",
-            "approvedDate": "2022-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AD3314E5-4B1E-46AA-9439-E46B7024FE9C",
-            "approvedDocNo": "1096032929",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3A41E750-1E1D-4154-8C89-8163CAD3E693",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05CB06"
-        },
         {
             "isMain": "1",
             "atcCode": "R05CB06"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056684",
+    "licUnit": "1",
     "validDate": "2026-08-23 00:00:00.000",
     "issueDate": "2011-08-23 00:00:00.000",
+    "oriIssueDate": "2011-08-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105668401",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "99EDF1A6-0B71-4614-8966-64CFC46C3DBA",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIBOFLAVIN (VIT B2)",
         "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT",
@@ -36,7 +43,7 @@
         "THIAMINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "壽元化學工業股份有限公司",
     "applicantAddr": "嘉義市西區新民路128號",
@@ -48,28 +55,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "010E6BB4-B12C-4618-B1BE-6C9C32C5A347",
             "factoryCode": "1",
             "factoryName": "壽元化學工業股份有限公司",
             "factoryAddr": "嘉義市西區新民路１２８號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1421417300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656900902",
+            "ingredientsName": "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT",
             "ingredientsDesc": "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT",
             "concentDesc": "(eq. to 100mg of Silymarin calculated as Silybin)",
-            "concent": "143.0000",
+            "concent": "143.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -78,9 +91,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100900",
+            "ingredientsName": "THIAMINE HYDROCHLORIDE",
             "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -89,9 +103,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -100,9 +115,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600330",
+            "ingredientsName": "PYRIDOXINE HYDROCHLORIDE",
             "ingredientsDesc": "PYRIDOXINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "2.5000",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -111,9 +127,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "",
-            "concent": "0.0140",
+            "concent": "0.014000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -122,9 +139,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8812300200",
+            "ingredientsName": "PANTOTHENATE CALCIUM",
             "ingredientsDesc": "PANTOTHENATE CALCIUM",
             "concentDesc": "",
-            "concent": "12.0000",
+            "concent": "12.000000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -133,60 +151,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DFF22E6B-8027-46A2-8EF3-E72F12380F8E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4DCBC837-4F5B-4BCF-B868-62A84493A7C9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6AC860C3-6324-476D-BF42-282C50BE5728",
-            "approvedDocNo": "1106601376",
-            "approvedDate": "2021-06-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11HA31"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A05BA03"
-        },
         {
             "isMain": "1",
             "atcCode": "A11EX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
         }
     ],
     "licBaseId": "D38E9165-4FD2-4F8F-AE68-DC9E8284E36C"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025635",
+    "licUnit": "1",
     "validDate": "2027-07-06 00:00:00.000",
     "issueDate": "2012-07-06 00:00:00.000",
+    "oriIssueDate": "2012-07-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202563508",
@@ -27,14 +31,18 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F62BA7C3-AED5-4A56-98B5-8DD51B090C24",
+    "subCategory": [],
     "ingredientsDesc": [
         "METFORMIN"
     ],
     "restraintItemsCode": [
-        "1Q"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "台灣默克股份有限公司",
-    "applicantAddr": "台北市內湖區堤頂大道2段89號6樓",
+    "applicantAddr": "臺北市南港區經貿二路121號20樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -43,21 +51,27 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "0AF9406C-C139-4905-BCA8-72493B896126",
             "factoryCode": "1",
             "factoryName": "MERCK SANTE S.A.S.",
             "factoryAddr": "CENTRE DE PRODUCTION SEMOY, 2 RUE DU PRESSOIR VERT, 45400, SEMOY, FRANCE",
-            "factoryCompanyAddr": "37, RUE SAINT-ROMAIN, 69379 LYON CEDEX 08, FRANCE",
+            "factoryCompanyAddr": null,
             "countryCode": "FR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FFR0214000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "228B38FA-3A8D-4C17-A376-C4BB72C094EA",
             "factoryCode": "2",
             "factoryName": "MERCK SANTE S.A.S. – CENTRE DE PRODUCTION CALAIS",
             "factoryAddr": "5 RUE CLEMENT ADER 62100 CALAIS, FRANCE",
@@ -73,9 +87,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0303000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "14F74D5F-9966-4A58-9439-79BDF7E4F15D",
             "factoryCode": "2",
             "factoryName": "MERCK SANTE S.A.S. – CENTRE DE MEYZIEU",
             "factoryAddr": "10 AVENUE DE LATTRE DE TASSIGNY 69330 MEYZIEU – FRANCE",
@@ -91,16 +108,19 @@
             "factoryKind": "M",
             "factoryNo": "FFR0304000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400700",
+            "ingredientsName": "METFORMIN",
             "ingredientsDesc": "METFORMIN",
             "concentDesc": "(equivalent to metformin base)(390mg)",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -109,45 +129,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D80A78FF-D0AE-45A3-8606-8046182653E7",
-            "approvedDocNo": "1120713611",
-            "approvedDate": "2023-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A32BEAE8-EBB1-4152-A116-EDEE8C68BBCB",
-            "approvedDocNo": "1110710622",
-            "approvedDate": "2022-05-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "46CD06CB-A5E4-4D55-9DAB-3B05D6B55FAF",
-            "approvedDocNo": "1106025629",
-            "approvedDate": "2022-01-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9FAA40B1-E504-44FE-ACE7-400B34E87E8C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A10BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "A10BA02"

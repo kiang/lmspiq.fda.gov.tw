@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039623",
+    "licUnit": "1",
     "validDate": "2025-12-13 00:00:00.000",
     "issueDate": "1995-12-13 00:00:00.000",
+    "oriIssueDate": "1995-12-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103962300",
@@ -16,19 +20,22 @@
     "does": "3360",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "36"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "71A33B9C-AB63-4B3C-A0EC-B44A9B1BCFF8",
+    "subCategory": [],
     "ingredientsDesc": [
         "NEOMYCIN (SULFATE)",
         "ACETAMIDOCAPROIC ACID -EPSILON (ACEXAMIC ACID)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "明德製藥股份有限公司",
     "applicantAddr": "桃園市楊梅區瑞原里7鄰民富路二段３６０號",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "1D49267D-4651-4B16-8F65-BD7533E59FC5",
             "factoryCode": "1",
             "factoryName": "明德製藥股份有限公司",
             "factoryAddr": "桃園市楊梅區瑞原里7鄰民富路二段３６０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0806804300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000100",
+            "ingredientsName": "ACETAMIDOCAPROIC ACID -EPSILON (ACEXAMIC ACID)",
             "ingredientsDesc": "ACETAMIDOCAPROIC ACID -EPSILON (ACEXAMIC ACID)",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "4",
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,16 +98,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "D03AX"
-        },
-        {
             "isMain": "1",
             "atcCode": "D03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX04"
         }
     ],
     "licBaseId": "AA33DD02-2569-423D-8063-83E295FFC5AE"

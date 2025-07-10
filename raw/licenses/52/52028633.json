@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028633",
+    "licUnit": "1",
     "validDate": "2029-01-05 00:00:00.000",
     "issueDate": "2024-01-05 00:00:00.000",
+    "oriIssueDate": "2024-01-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202863302",
@@ -23,13 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "AD6D485A-8E8D-452E-B62C-62BB5AB102C2",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Rimegepant Sulfate"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "輝瑞大藥廠股份有限公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -41,21 +50,32 @@
     "monitorDate": "2029-01-05",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "CD72F60D-D492-4E7E-9C1B-504AAA97FBBF",
             "factoryCode": "1",
             "factoryName": "CATALENT UK SWINDON ZYDIS LIMITED",
             "factoryAddr": "FRANKLAND ROAD BLAGROVE SWINDON WILTSHIRE SN5 8RU U.K.",
             "factoryCompanyAddr": null,
             "countryCode": "GB",
-            "processCode": [],
-            "processCodeStr": null,
+            "processCode": [
+                {
+                    "value": "66",
+                    "name": "成品製造廠"
+                }
+            ],
+            "processCodeStr": "66;成品製造廠",
             "factoryKind": "M",
             "factoryNo": "FGB0165000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "68D28016-AFDB-4792-8C10-1933E254AF41",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
@@ -71,9 +91,33 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "81275561-D9D7-4897-8A23-93EA7F4C7DB2",
+            "factoryCode": "2",
+            "factoryName": "Pfizer Ireland Pharmaceuticals",
+            "factoryAddr": "LITTLE CONNELL NEWBRIDGE CO. KILDARE, IRELAND",
+            "factoryCompanyAddr": null,
+            "countryCode": "IE",
+            "processCode": [
+                {
+                    "value": "1A",
+                    "name": "二級包裝廠"
+                }
+            ],
+            "processCodeStr": "1A;二級包裝廠",
+            "factoryKind": "M",
+            "factoryNo": "FIE0024000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "78F96D54-73A6-41C2-9443-B31C79DE8188",
             "factoryCode": "2",
             "factoryName": "MILLMOUNT HEALTHCARE LTD.",
             "factoryAddr": "BLOCK-7, CITY NORTH BUSINESS CAMPUS STAMULLEN, CO MEATH IRELAND",
@@ -89,16 +133,19 @@
             "factoryKind": "M",
             "factoryNo": "FIE0102100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200091010",
+            "ingredientsName": "Rimegepant Sulfate",
             "ingredientsDesc": "Rimegepant Sulfate",
             "concentDesc": "BHV-3000, micronized(Equivalent to rimegepant 75 mg)",
-            "concent": "85.650",
+            "concent": "85.650000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

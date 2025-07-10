@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024343",
+    "licUnit": "1",
     "validDate": "2025-12-19 00:00:00.000",
     "issueDate": "2005-12-19 00:00:00.000",
+    "oriIssueDate": "2005-12-19",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00202434303",
@@ -16,19 +20,22 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "765332DB-0618-4113-B76B-73DC1C2B8989",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLAVULANIC ACID",
         "AMOXICILLIN"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "百歐敏國際有限公司",
     "applicantAddr": "台北市中山區中山北路三段３０號１１樓之１",
@@ -40,8 +47,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "6A8473AF-21A9-413C-BA32-D4011E1662D1",
             "factoryCode": "1",
             "factoryName": "LEK PHARMACEUTICALS D.D.",
             "factoryAddr": "PERZONALI 47, 2391 PREVALJE, SLOVENIA",
@@ -52,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "FSI0002000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812600200",
+            "ingredientsName": "AMOXICILLIN",
             "ingredientsDesc": "AMOXICILLIN",
             "concentDesc": "625-728",
             "concent": null,
@@ -70,6 +83,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410000400",
+            "ingredientsName": "CLAVULANIC ACID",
             "ingredientsDesc": "CLAVULANIC ACID",
             "concentDesc": "157-182",
             "concent": null,
@@ -91,10 +105,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01CR02"
-        },
         {
             "isMain": "1",
             "atcCode": "J01CA04"

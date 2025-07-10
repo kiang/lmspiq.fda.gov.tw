@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039618",
+    "licUnit": "1",
     "validDate": "2025-12-11 00:00:00.000",
     "issueDate": "1995-12-11 00:00:00.000",
+    "oriIssueDate": "1995-12-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103961804",
@@ -16,13 +20,16 @@
     "does": "3360",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "36"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "45790510-EC9B-45D5-9079-B2B3C3B808AF",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORHEXIDINE HCL",
         "ALUMINUM CHLORHYDROXYALLANTOINATE (ALCOXA)",
@@ -31,8 +38,8 @@
         "PREDNISOLONE ACETATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "澳斯麗國際股份有限公司淡水廠",
     "applicantAddr": "新北市淡水區北新路三段一二三之一號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "4A62D006-C9EA-4D6E-9076-919D3B61A5EC",
             "factoryCode": "1",
             "factoryName": "澳斯麗國際股份有限公司淡水廠",
             "factoryAddr": "新北市淡水區北新路三段一二三之一號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6612935103",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001000",
+            "ingredientsName": "LIDOCAINE",
             "ingredientsDesc": "LIDOCAINE",
             "concentDesc": "30",
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001510",
+            "ingredientsName": "PREDNISOLONE ACETATE",
             "ingredientsDesc": "PREDNISOLONE ACETATE",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900211",
+            "ingredientsName": "CHLORHEXIDINE HCL",
             "ingredientsDesc": "CHLORHEXIDINE HCL",
             "concentDesc": "2",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -96,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000213",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA DL-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA DL-",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -107,9 +123,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416000200",
+            "ingredientsName": "ALUMINUM CHLORHYDROXYALLANTOINATE (ALCOXA)",
             "ingredientsDesc": "ALUMINUM CHLORHYDROXYALLANTOINATE (ALCOXA)",
             "concentDesc": "2.5",
-            "concent": "2.5000",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -118,72 +135,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A98BADEA-BE24-4A31-A026-0D38C47B47EC",
-            "approvedDocNo": "1110024600",
-            "approvedDate": "2022-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "80062D44-486C-450B-AC47-1BE8C9A16A8F",
-            "approvedDocNo": "1110024600",
-            "approvedDate": "2022-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5742A986-AAB6-48F8-A45A-A567552856BF",
-            "approvedDocNo": "1110024600",
-            "approvedDate": "2022-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "16CFA516-B50D-47BF-A2CD-CED104C01362",
-            "approvedDocNo": "1110024600",
-            "approvedDate": "2022-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D14A0500-5938-4C55-9888-E6574E807E51",
-            "approvedDocNo": "1110024600",
-            "approvedDate": "2022-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C05AA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AX01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AD01"
         }
     ],
     "licBaseId": "F57EDF51-A1AC-4131-8637-DB96A8EF6C4B"

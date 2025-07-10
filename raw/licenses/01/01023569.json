@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01023569",
+    "licUnit": "1",
     "validDate": "2025-12-31 00:00:00.000",
     "issueDate": "1981-06-10 00:00:00.000",
+    "oriIssueDate": "1981-06-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102356907",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "31EC03B6-9456-4D7D-8163-B76787E8FFDA",
+    "subCategory": [],
     "ingredientsDesc": [
         "PIROXICAM"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "福元化學製藥股份有限公司",
     "applicantAddr": "新北市瑞芳區大寮路95-1號",
@@ -44,41 +51,50 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "43008F59-B9B9-4B61-85F2-CA8434514A98",
             "factoryCode": "1",
             "factoryName": "福元化學製藥股份有限公司",
             "factoryAddr": "新北市瑞芳區大寮路９５號之１",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1419502300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1926A374-3C8B-4B5D-9F5A-ECA8E0803962",
             "factoryCode": "1",
             "factoryName": "衛肯生技製藥股份有限公司",
             "factoryAddr": "桃園市平鎮區工業十路15號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6132100028",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808402500",
+            "ingredientsName": "PIROXICAM",
             "ingredientsDesc": "PIROXICAM",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -87,48 +103,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AEC4B2B4-0C77-45A1-8D1E-06AA73EBA294",
-            "approvedDocNo": "1106023420",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68671E62-D618-42BB-9795-4F3BC3DF0EAB",
-            "approvedDocNo": "1106023420",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5330BF20-7BA9-4836-8781-899A2B37BAAF",
-            "approvedDocNo": "1106023420",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "71404B0D-794A-4B8C-B9D3-A8F3C3351CC2",
-            "approvedDocNo": "1106023420",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EBC4F01F-F71E-4791-9C8A-CECC36A0917D",
-            "approvedDocNo": "1106023420",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

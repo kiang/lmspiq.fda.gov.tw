@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055050",
+    "licUnit": "1",
     "validDate": "2028-06-15 00:00:00.000",
     "issueDate": "2010-07-02 00:00:00.000",
+    "oriIssueDate": "2010-07-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105505007",
@@ -26,17 +30,22 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "AF519836-736A-4C36-8C15-F7A75F920335",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "DIPHENHYDRAMINE TANNATE",
         "HESPERIDIN (VIT P)",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
-    "applicantName": "辰太實業有限公司",
+    "applicantName": "婦潔藥品有限公司",
     "applicantAddr": "台北市松山區復興北路333號9樓之1",
     "medClass": null,
     "efficacy": " ",
@@ -46,28 +55,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "4547B220-ECC3-4BFE-87DD-8BC38B58ED5F",
             "factoryCode": "1",
             "factoryName": "正和製藥股份有限公司新營廠",
-            "factoryAddr": "台南市新營區新工路２３號",
+            "factoryAddr": "台南市新營區嘉芳里新工路23號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
-            "factoryKind": "M",
+            "factoryKind": "E",
             "factoryNo": "0505720300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -76,9 +91,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001650",
+            "ingredientsName": "DIPHENHYDRAMINE TANNATE",
             "ingredientsDesc": "DIPHENHYDRAMINE TANNATE",
             "concentDesc": "",
-            "concent": "8.0000",
+            "concent": "8.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,9 +103,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8832000200",
+            "ingredientsName": "HESPERIDIN (VIT P)",
             "ingredientsDesc": "HESPERIDIN (VIT P)",
             "concentDesc": "",
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -101,24 +118,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "R06AA02"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
         }
     ],
     "licBaseId": "0A41D137-B1EC-4811-9E27-3EDE2AE22C4D"

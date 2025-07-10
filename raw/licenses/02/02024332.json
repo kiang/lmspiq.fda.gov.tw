@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-04-06",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "02024332",
+    "licUnit": "1",
     "validDate": "2025-12-01 00:00:00.000",
     "issueDate": "2005-12-01 00:00:00.000",
+    "oriIssueDate": "2005-12-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202433201",
@@ -25,13 +29,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8DCCEB17-CC24-4AC9-999F-4F72ED40E96C",
+    "subCategory": [],
     "ingredientsDesc": [
         "EPINASTINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "55"
+        "02 輸 入",
+        "07 新藥監視",
+        "55 依本署89、12、12衛署藥字第0890035812號公告事項三經本署認定得免除銜接性試驗之新藥"
     ],
     "applicantName": "台灣愛力根藥品股份有限公司",
     "applicantAddr": "台北市中正區羅斯福路2段102號9樓",
@@ -43,8 +50,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "EFBE0DEE-D340-406E-A4D8-ABC76484F97D",
             "factoryCode": "1",
             "factoryName": "ALLERGAN PHARMACEUTICALS IRELAND",
             "factoryAddr": "CASTLEBAR ROAD, WESTPORT  COUNTY  MAYO, IRELAND",
@@ -55,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "FIE0008000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400009910",
+            "ingredientsName": "EPINASTINE HYDROCHLORIDE",
             "ingredientsDesc": "EPINASTINE HYDROCHLORIDE",
             "concentDesc": null,
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",

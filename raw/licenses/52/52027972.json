@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027972",
+    "licUnit": "1",
     "validDate": "2025-12-03 00:00:00.000",
     "issueDate": "2020-12-03 00:00:00.000",
+    "oriIssueDate": "2020-12-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202797203",
@@ -23,12 +27,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "A3802EEB-6BD1-487F-8C35-1A2C792D2647",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "IMATINIB MESYLATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台灣瑞迪博士有限公司",
     "applicantAddr": "臺北市信義區信義路5段7號57樓之1(5727室)",
@@ -40,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "9B41B783-EB13-4295-9148-975168EE8991",
             "factoryCode": "1",
             "factoryName": "DR. REDDY’S LABORATORIES LTD.",
             "factoryAddr": "FORMULATION UNIT-VII, PLOT NO. P1 TO P9, PHASE-III, VSEZ, DUVVADA, VISAKHAPATNAM DISTRICT 530046, ANDHRA PRADESH, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN1049100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000710",
+            "ingredientsName": "IMATINIB MESYLATE",
             "ingredientsDesc": "IMATINIB MESYLATE",
             "concentDesc": "(eq. to Imatinib.....100mg)",
-            "concent": "119.470",
+            "concent": "119.470000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

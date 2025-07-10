@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-11",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "02021032",
+    "licUnit": "1",
     "validDate": "2023-11-18 00:00:00.000",
     "issueDate": "2002-05-20 00:00:00.000",
+    "oriIssueDate": "2002-05-20",
     "licKind": "02",
     "oldLicid": "02018780",
     "certNo": "DHA00202103200",
@@ -27,11 +33,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "32C708D0-9D92-4994-B082-353BF6266D8C",
+    "subCategory": [],
     "ingredientsDesc": [
         "L-ASPARAGINASE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "台灣協和麒麟股份有限公司",
     "applicantAddr": "台北市中山區中山北路二段68號9樓",
@@ -43,25 +53,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "400E3585-6E06-4554-B60F-CE822499253D",
             "factoryCode": "1",
             "factoryName": "NIPRO PHARMA CORPORATION ODATE PLANT",
             "factoryAddr": "5-7, NIIDA AZA MAEDANO, ODATE-SHI, AKITA, JAPAN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP0983000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "C973F10B-D2F5-43B1-B58D-124F5C9720A9",
             "factoryCode": "2",
             "factoryName": "KYOWA KIRIN CO., LTD.",
             "factoryAddr": "1-9-2 OTEMACHI, CHIYODA-KU, TOKYO, JAPAN ",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [
                 {
@@ -73,16 +89,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP1009000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1000000300",
+            "ingredientsName": "L-ASPARAGINASE",
             "ingredientsDesc": "L-ASPARAGINASE",
             "concentDesc": "",
-            "concent": "10000.0000",
+            "concent": "10000.000000",
             "concentUnit": "254",
             "seq": "0",
             "prescription_seq": "0",
@@ -91,56 +110,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AAF140D5-FD98-4FDD-88F0-2D9F9D0B3F9B",
-            "approvedDocNo": "1110706714",
-            "approvedDate": "2022-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3D9C6560-1535-4C42-8E06-4687323702F7",
-            "approvedDocNo": "1110706714",
-            "approvedDate": "2022-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C5198D99-1BD2-4987-BAD3-3CC884C8A39D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-03-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9B730798-CDDD-40C1-A2DB-22A3F554A77E",
-            "approvedDocNo": "1081492070",
-            "approvedDate": "2019-12-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "994C8634-EC00-4C43-95E0-0AA27A199E03",
-            "approvedDocNo": "1081492067",
-            "approvedDate": "2019-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1D80869D-6E05-4EA3-9D8E-CE88672EC88C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

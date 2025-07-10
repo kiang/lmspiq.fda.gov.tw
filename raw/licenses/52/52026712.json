@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026712",
+    "licUnit": "1",
     "validDate": "2025-12-29 00:00:00.000",
     "issueDate": "2015-12-29 00:00:00.000",
+    "oriIssueDate": "2015-12-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202671201",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F6DD55A4-6992-470E-A45D-6FEA626FEE2E",
+    "subCategory": [],
     "ingredientsDesc": [
         "BETAMETHASONE DIPROPIONATE",
         "CLOTRIMAZOLE MICRONIZED"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "鵬瑋國際股份有限公司",
     "applicantAddr": "台北市松山區南京東路四段95號9樓之1",
@@ -40,8 +47,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "87F718F3-12C5-44EF-B0FD-C9EC21177964",
             "factoryCode": "1",
             "factoryName": "TARO PHARMACEUTICAL IND. LTD.",
             "factoryAddr": "14 HAKITOR STREET, HAIFA BAY",
@@ -52,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "FIL0007000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000220",
+            "ingredientsName": "BETAMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BETAMETHASONE DIPROPIONATE",
             "concentDesc": "",
-            "concent": "0.640",
+            "concent": "0.640000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800420",
+            "ingredientsName": "CLOTRIMAZOLE MICRONIZED",
             "ingredientsDesc": "CLOTRIMAZOLE MICRONIZED",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,49 +95,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E47FB45D-99E9-4C54-A84E-221839EB5F01",
-            "approvedDocNo": "1110721873",
-            "approvedDate": "2023-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "167C2657-573D-4503-8269-76385D870C9F",
-            "approvedDocNo": "1110721873",
-            "approvedDate": "2023-02-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F140D939-6F3D-476C-A4A7-D2D6C28DBA5E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "14AC81C0-5181-4F7A-A91E-C7AA2B8D206D",
-            "approvedDocNo": "1091492332",
-            "approvedDate": "2020-08-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A07EA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A01AB18"
-        },
         {
             "isMain": "1",
             "atcCode": "D01AC20"

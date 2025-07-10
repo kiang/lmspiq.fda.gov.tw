@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-09",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "02013148",
+    "licUnit": "1",
     "validDate": "2023-12-06 00:00:00.000",
     "issueDate": "2004-02-04 00:00:00.000",
+    "oriIssueDate": "1984-12-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201314807",
@@ -16,19 +22,22 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "14"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "83D2D585-B4D9-4B40-BD9D-076CBA71017B",
+    "subCategory": [],
     "ingredientsDesc": [
         "ATRACURIUM BESYLATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "安沛國際有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號20樓",
@@ -40,12 +49,15 @@
     "monitorDate": "1988-01-14",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "D01AE978-AE55-4099-BE39-C2A219D64ACF",
             "factoryCode": "1",
             "factoryName": "Aspen SA Sterile Operations (Pty) Ltd",
             "factoryAddr": "8B GIBAUD ROAD, KORSTEN,Gqeberha  6020, REPUBLIC OF SOUTH AFRICA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "ZA",
             "processCode": [
                 {
@@ -57,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "FZA0029000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "85A4D7E4-9D23-4BC0-9468-EA701BB4816C",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -73,18 +88,21 @@
             ],
             "processCodeStr": "3P;二級包裝廠(委託貼標及置入仿單)",
             "factoryKind": "M",
-            "factoryNo": "1225204000",
+            "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220002200",
+            "ingredientsName": "ATRACURIUM BESYLATE",
             "ingredientsDesc": "ATRACURIUM BESYLATE",
             "concentDesc": "10.0",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -93,56 +111,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "783BE5F8-E819-413E-8094-C52C8A5A8D1E",
-            "approvedDocNo": "1119012784",
-            "approvedDate": "2022-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CB87B94E-A12A-4F1F-B5D3-CC5A3BDA1661",
-            "approvedDocNo": "1119012783",
-            "approvedDate": "2022-04-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A44727A4-52D7-44B0-802C-09510F31DD46",
-            "approvedDocNo": "1091497567",
-            "approvedDate": "2021-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FAD7C149-7F01-4320-84D1-626923F9015A",
-            "approvedDocNo": "1091497567",
-            "approvedDate": "2021-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "755AA7BC-7353-48C7-BCE4-C4ED5F74DAE0",
-            "approvedDocNo": "1091497567",
-            "approvedDate": "2021-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "49161FEA-72CA-4032-BF33-551764970B29",
-            "approvedDocNo": "1086017676",
-            "approvedDate": "2019-11-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

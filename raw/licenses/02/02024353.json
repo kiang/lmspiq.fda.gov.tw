@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-09",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "02024353",
+    "licUnit": "1",
     "validDate": "2025-12-30 00:00:00.000",
     "issueDate": "2005-12-30 00:00:00.000",
+    "oriIssueDate": "2005-12-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -23,13 +29,17 @@
     "medMCode": "05",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3ED33208-3315-4B2B-A610-048F2E12C1E9",
+    "subCategory": [],
     "ingredientsDesc": [
         "PROPOFOL"
     ],
     "restraintItemsCode": [
-        "02",
-        "24",
-        "34"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥",
+        "34 第四級管制藥品"
     ],
     "applicantName": "安強藥業股份有限公司",
     "applicantAddr": "台北市松山區復興北路311號4樓",
@@ -41,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "36FE536B-2782-4A82-83B0-951779DC06E9",
             "factoryCode": "1",
             "factoryName": "Baxter Pharmaceuticals India Private Limited",
             "factoryAddr": "CHACHARWADI-VASANA, AHMEDABAD-382 213, INDIA ",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0135100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2804001600",
+            "ingredientsName": "PROPOFOL",
             "ingredientsDesc": "PROPOFOL",
             "concentDesc": null,
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,32 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "33087469-FE96-49A2-AEB4-659FE1672AB1",
-            "approvedDocNo": "1119002178",
-            "approvedDate": "2022-03-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B2D03954-49E8-470B-BD4A-974C4A288311",
-            "approvedDocNo": "1086017742",
-            "approvedDate": "2019-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "04C5448F-6707-43F5-82E1-3600D4AEE15F",
-            "approvedDocNo": "1086017742",
-            "approvedDate": "2019-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

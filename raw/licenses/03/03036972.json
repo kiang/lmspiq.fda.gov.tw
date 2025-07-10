@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-06",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "03036972",
+    "licUnit": "1",
     "validDate": "2023-11-24 00:00:00.000",
     "issueDate": "1993-11-24 00:00:00.000",
+    "oriIssueDate": "1993-11-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00303697200",
@@ -23,14 +29,17 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0925BF16-00CC-4923-9B06-82CAFB4667AD",
+    "subCategory": [],
     "ingredientsDesc": [
         "POVIDONE-IODINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "天乾製藥有限公司",
     "applicantAddr": "台南市將軍區忠興村１３２之３５號",
@@ -42,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "77689A2D-1404-463A-9CFD-13C5CE50BC7A",
             "factoryCode": "1",
             "factoryName": "天乾製藥有限公司",
             "factoryAddr": "台南市將軍區忠興村１３２之３５號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0418820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404603400",
+            "ingredientsName": "POVIDONE-IODINE",
             "ingredientsDesc": "POVIDONE-IODINE",
             "concentDesc": "",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

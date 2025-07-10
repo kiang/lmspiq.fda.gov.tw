@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035956",
+    "licUnit": "1",
     "validDate": "2027-12-02 00:00:00.000",
     "issueDate": "1992-12-02 00:00:00.000",
+    "oriIssueDate": "1992-12-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103595604",
@@ -32,6 +35,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "87DF1229-FEA6-477C-AD6A-CAB932BD5A7A",
+    "subCategory": [],
     "ingredientsDesc": [
         "CARBINOXAMINE MALEATE",
         "POTASSIUM GUAIACOLSULFONATE",
@@ -40,7 +46,7 @@
         "DEXTROMETHORPHAN HBR"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "五洲製藥股份有限公司",
     "applicantAddr": "桃園市新屋區赤欄里17之1號",
@@ -52,28 +58,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "6C29BB13-8F31-4D44-8F57-6B42DF2D84BF",
             "factoryCode": "1",
             "factoryName": "五洲製藥股份有限公司",
             "factoryAddr": "桃園市新屋區赤欄村二鄰１７號之１",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0413004300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002400",
+            "ingredientsName": "NOSCAPINE",
             "ingredientsDesc": "NOSCAPINE",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -82,9 +94,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "25",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -93,9 +106,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000610",
+            "ingredientsName": "CARBINOXAMINE MALEATE",
             "ingredientsDesc": "CARBINOXAMINE MALEATE",
             "concentDesc": "4",
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -104,9 +118,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": "90",
-            "concent": "90.0000",
+            "concent": "90.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -115,9 +130,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -126,56 +142,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C3C5D896-87A6-4654-85CB-3890F4B86D69",
-            "approvedDocNo": "1120613648",
-            "approvedDate": "2024-02-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "46EDF718-B374-4A80-BDB7-A89C790F0DFE",
-            "approvedDocNo": "1110729430",
-            "approvedDate": "2022-12-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "83792FED-F5F6-44B2-8724-EF3CAF3DD348",
-            "approvedDocNo": "1110723341",
-            "approvedDate": "2022-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05DA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
-        },
         {
             "isMain": "1",
             "atcCode": "R05FA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AA08"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
         }
     ],
     "licBaseId": "55AADAF8-5029-4735-8C2A-EF3623D86BB4"

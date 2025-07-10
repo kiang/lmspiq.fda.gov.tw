@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033301",
+    "licUnit": "1",
     "validDate": "2025-12-03 00:00:00.000",
     "issueDate": "1990-12-03 00:00:00.000",
+    "oriIssueDate": "1990-12-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103330100",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "88A4BD4C-BDEF-4961-8EB2-614A8F5BA52F",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
         "PYRIDOXINE HCL",
@@ -31,10 +38,10 @@
         "CHLORPHENIRAMINE MALEATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "西德有機化學藥品股份有限公司",
     "applicantAddr": "新北市三重中正北路560巷36號",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "71B36D28-0EEE-4950-B70F-32EE6646150D",
             "factoryCode": "1",
             "factoryName": "景德製藥股份有限公司桃園廠",
             "factoryAddr": "桃園市蘆竹區內厝里長安路一段80號、蘆竹區長安路一段148號2樓至7樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6132051397",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": null,
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -76,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": null,
-            "concent": "0.1000",
+            "concent": "0.100000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -87,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000213",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA DL-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA DL-",
             "concentDesc": null,
-            "concent": "0.1500",
+            "concent": "0.150000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -98,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004620",
+            "ingredientsName": "GLYCYRRHIZINATE DIPOTASSIUM (EQ TO DIPOTASSIUM GLYCYRRHIZINATE)",
             "ingredientsDesc": "GLYCYRRHIZINATE DIPOTASSIUM (EQ TO DIPOTASSIUM GLYCYRRHIZINATE)",
             "concentDesc": null,
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -109,9 +125,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406000310",
+            "ingredientsName": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "ingredientsDesc": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "concentDesc": null,
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "0",
@@ -120,56 +137,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A4CECC8A-4241-40ED-A692-DF79CBD6C423",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CC0A2F41-A86D-447D-900D-95C49DCB46DD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AD8152CE-6855-4C30-8205-E73C544366B5",
-            "approvedDocNo": "1096610061",
-            "approvedDate": "2020-12-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "S01GX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01GX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA"
         }
     ],
     "licBaseId": "C9CF843C-DD9F-4848-ACB7-0A41C60E5F85"

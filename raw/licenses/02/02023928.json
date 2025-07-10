@@ -1,11 +1,16 @@
 {
-    "cancelStatus": "0",
-    "licStatus": "1",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-11",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "02023928",
+    "licUnit": "1",
     "validDate": "2024-02-24 00:00:00.000",
     "issueDate": "2004-02-24 00:00:00.000",
+    "oriIssueDate": "2004-02-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202392800",
@@ -28,12 +33,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "81B366FE-FA66-4AB3-A7F7-2A656F5A51C3",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEVOBUPIVACAINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "瑞士商艾伯維藥品有限公司台灣分公司",
     "applicantAddr": "台北市中山區民生東路三段49號及51號15樓",
@@ -45,8 +53,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "84047F50-39B7-43A0-94BC-4A8861022E38",
             "factoryCode": "1",
             "factoryName": "Curida AS",
             "factoryAddr": "SOLBAERVEGEN 5, NO-2409, ELVERUM, NORWAY",
@@ -57,9 +68,12 @@
             "factoryKind": "M",
             "factoryNo": "FNO0006000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "0DC57864-3C70-49BC-AA8A-E93CED9D8A2B",
             "factoryCode": "2",
             "factoryName": "ABBVIE S.R.L.",
             "factoryAddr": "S.R. 148 Pontina Km 52, SNC-Campoverde di Aprilia (LT) 04011 Italy",
@@ -75,16 +89,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0347000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200002710",
+            "ingredientsName": "LEVOBUPIVACAINE HYDROCHLORIDE",
             "ingredientsDesc": "LEVOBUPIVACAINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "2.8160",
+            "concent": "2.816000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -93,16 +110,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "416A6EDC-A7BF-4F0B-B26C-272BDAA3E3DD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-11",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "02024883",
+    "licUnit": "1",
     "validDate": "2023-09-10 00:00:00.000",
     "issueDate": "2008-09-10 00:00:00.000",
+    "oriIssueDate": "2008-09-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202488309",
@@ -23,13 +29,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FAD64C31-F494-4053-B07D-56A26DEE8AEA",
+    "subCategory": [],
     "ingredientsDesc": [
         "ALISKIREN HEMIFUMARATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "58"
+        "02 輸 入",
+        "07 新藥監視",
+        "58 依本署891212衛署藥字第0890035812號公告經本署認定得免除國內銜接性試驗且經本署核定之新藥"
     ],
     "applicantName": "台灣李氏藥業有限公司",
     "applicantAddr": "臺北市信義區松仁路36號11樓",
@@ -41,8 +50,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "74E9EABA-7BF3-4162-AED4-9BDA6BB825BA",
             "factoryCode": "1",
             "factoryName": "NOVARTIS FARMA S.P.A.",
             "factoryAddr": "VIA PROVINCIALE SCHITO 131-80058 TORRE ANNUNZIATA, ITALY",
@@ -53,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "FIT0320000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "0E71AF72-826D-4D79-A485-58F9714D00FF",
             "factoryCode": "2",
             "factoryName": "Noden Pharma DAC",
             "factoryAddr": "D'Olier Chambers,16A D'Olier Street, Dublin 2, Ireland",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IE",
             "processCode": [
                 {
@@ -71,16 +86,19 @@
             "factoryKind": "M",
             "factoryNo": "FIE0111000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408007010",
+            "ingredientsName": "ALISKIREN HEMIFUMARATE",
             "ingredientsDesc": "ALISKIREN HEMIFUMARATE",
             "concentDesc": "(=aliskiren 300mg)",
-            "concent": "331.5000",
+            "concent": "331.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,23 +107,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "861282FF-82C1-41F1-AC22-311C8D668C2A",
-            "approvedDocNo": "1086006430",
-            "approvedDate": "2019-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "C09XA02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C09XA02"
         }
     ],

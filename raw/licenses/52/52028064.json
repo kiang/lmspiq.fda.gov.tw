@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028064",
+    "licUnit": "1",
     "validDate": "2026-04-23 00:00:00.000",
     "issueDate": "2021-04-23 00:00:00.000",
+    "oriIssueDate": "2021-04-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202806402",
@@ -23,14 +27,19 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "35A603DD-5BEE-4B53-BFC9-E3E51EC2EE05",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "pemigatinib"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1S",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "1S 須執行確認性療效臨床試驗",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣東洋藥品工業股份有限公司",
     "applicantAddr": "台北市南港區園區街3之1號3樓",
@@ -42,12 +51,15 @@
     "monitorDate": "2026-04-23",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "B11C9E57-D1E7-4F57-A55F-7151E49F4FE8",
             "factoryCode": "1",
             "factoryName": "LONZA TAMPA LLC",
             "factoryAddr": "4910 SAVARESE CIR, TAMPA, FLORIDA (FL) 33634, USA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [
                 {
@@ -59,13 +71,16 @@
             "factoryKind": "M",
             "factoryNo": "FUS1295000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "E41D8FF6-0178-40E0-BF7D-945279168FEF",
             "factoryCode": "2",
             "factoryName": "台灣東洋藥品工業股份有限公司中壢廠",
             "factoryAddr": "桃園市中壢區中華路一段８３８號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -77,16 +92,19 @@
             "factoryKind": "M",
             "factoryNo": "1406804300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013009100",
+            "ingredientsName": "pemigatinib",
             "ingredientsDesc": "pemigatinib",
             "concentDesc": "",
-            "concent": "9.000",
+            "concent": "9.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -95,44 +113,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5379FCC6-5C58-4C3A-BC3A-7F70C419D1AE",
-            "approvedDocNo": "1120709874",
-            "approvedDate": "2023-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C72F22E9-F0F5-48F6-BA47-84F980908DB5",
-            "approvedDocNo": "1129034655",
-            "approvedDate": "2023-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C0F1BB9F-A025-47C3-B483-F91FB50F7796",
-            "approvedDocNo": "1129034655",
-            "approvedDate": "2023-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E9958558-23C4-416F-800C-21787990F844",
-            "approvedDocNo": "1129034655",
-            "approvedDate": "2023-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L01EX20"
+            "atcCode": "L01EN02"
         }
     ],
     "licBaseId": "6BF8778B-7759-45D9-A42E-53B97175A5D5"

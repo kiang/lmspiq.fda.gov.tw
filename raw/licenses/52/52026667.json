@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026667",
+    "licUnit": "1",
     "validDate": "2026-02-17 00:00:00.000",
     "issueDate": "2016-02-17 00:00:00.000",
+    "oriIssueDate": "2016-02-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202666706",
@@ -23,14 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "19B62741-4434-4B9F-861E-A9EE8AEED5C8",
+    "subCategory": [],
     "ingredientsDesc": [
         "Lurasidone HCl"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1E",
-        "51"
+        "02 輸 入",
+        "07 新藥監視",
+        "1E 須執行Phase IV Study",
+        "51 免除銜接性臨床試驗",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "台灣住友醫藥股份有限公司",
     "applicantAddr": "臺北市大同區南京西路62號15樓之2及15樓之3",
@@ -42,41 +50,50 @@
     "monitorDate": "2021-02-17",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "80553C8F-BC05-45A2-9F87-A0519B268D1A",
             "factoryCode": "1",
             "factoryName": "Bushu Pharmaceuticals Ltd. Kawagoe Factory",
             "factoryAddr": "1 Takeno, Kawagoe, Saitama, 350-0801, Japan",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP0621100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "DD1E8D0F-C0CC-4637-A1AB-44F21CDB26DD",
             "factoryCode": "2",
             "factoryName": "OLIC (THAILAND) LIMITED",
             "factoryAddr": "166 BANGPA-IN INDUSTRIAL ESTATE, UDOMSORAYUTH ROAD, MOO 16, BANGKRASON, BANGPA-IN AYUTTHAYA, 13160, THAILAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TH",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FTH0021100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816402610",
+            "ingredientsName": "Lurasidone HCl",
             "ingredientsDesc": "Lurasidone HCl",
             "concentDesc": "",
-            "concent": "80.000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -85,80 +102,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7209AAF5-76B1-4869-8B96-549046DCBE53",
-            "approvedDocNo": "1106612388",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F0D87BD5-B7C5-45D6-A7AF-705DE4071DBC",
-            "approvedDocNo": "1106612388",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5D7DFD82-A508-4EFB-B8C2-84085D41AECC",
-            "approvedDocNo": "1106612388",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "016980F9-779A-4C5F-B8CA-B81609C7057C",
-            "approvedDocNo": "1106612388",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9D0285C8-71F3-4F62-90F1-EB9BBCE8F9C1",
-            "approvedDocNo": "1106612388",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "970C2ECF-D622-4DF1-BA0B-145C0AF9EA19",
-            "approvedDocNo": "1119004926",
-            "approvedDate": "2022-03-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F17FCC7E-78EE-4D29-9729-52DD342B6C91",
-            "approvedDocNo": "1101498673",
-            "approvedDate": "2021-12-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FE716A87-9599-4A2A-8D4C-82BAA4E98DC7",
-            "approvedDocNo": "1096602315",
-            "approvedDate": "2020-09-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5DFEF215-95C0-4A41-BBF5-A520A39271DB",
-            "approvedDocNo": "1096602315",
-            "approvedDate": "2020-09-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

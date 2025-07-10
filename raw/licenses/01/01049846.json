@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-06",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01049846",
+    "licUnit": "1",
     "validDate": "2023-12-09 00:00:00.000",
     "issueDate": "2008-12-09 00:00:00.000",
+    "oriIssueDate": "2008-12-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104984600",
@@ -26,12 +32,17 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "683C74F6-90F7-4A3C-8F9F-9E5697578AAA",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "L-CARBOCYSTEINE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "立統行實業股份有限公司",
     "applicantAddr": "台北市大安區仁愛路三段32號4樓",
@@ -43,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "B84371B0-E151-47F4-889B-16B9ABBCCE6E",
             "factoryCode": "1",
             "factoryName": "杏林新生製藥股份有限公司",
             "factoryAddr": "桃園市龍潭區三和村店湖一路237號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1405802300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800005000",
+            "ingredientsName": "L-CARBOCYSTEINE",
             "ingredientsDesc": "L-CARBOCYSTEINE",
             "concentDesc": null,
-            "concent": "250.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,21 +90,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5D2CF01D-5A43-4736-AD3E-BD7362F1FE4E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05CB03"
-        },
         {
             "isMain": "1",
             "atcCode": "R05CB03"

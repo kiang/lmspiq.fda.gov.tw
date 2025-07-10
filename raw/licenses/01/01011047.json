@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01011047",
+    "licUnit": "1",
     "validDate": "2028-11-01 00:00:00.000",
     "issueDate": "1976-11-01 00:00:00.000",
+    "oriIssueDate": "1976-11-01",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00101104700",
@@ -16,13 +20,16 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "14"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3A969737-EB1E-4B2A-B96D-F5ECAF80A870",
+    "subCategory": [],
     "ingredientsDesc": [
         "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
         "METHIONINE DL-",
@@ -30,8 +37,8 @@
         "CYANOCOBALAMIN (VIT B12)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "應元化學製藥股份有限公司",
     "applicantAddr": "台南市南區新忠路２６號",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "3ACA2385-3DE3-4980-871F-6D4E007366FE",
             "factoryCode": "1",
             "factoryName": "應元化學製藥股份有限公司",
             "factoryAddr": "台南市南區新忠路２６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1704519300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101503",
+            "ingredientsName": "METHIONINE DL-",
             "ingredientsDesc": "METHIONINE DL-",
             "concentDesc": "30",
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -73,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200000900",
+            "ingredientsName": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "ingredientsDesc": "TAURINE (EQ TO 2-AMINOETHANE SULFONIC ACID)",
             "concentDesc": "25",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -84,9 +98,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "1",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -95,9 +110,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "016",
             "seq": "3",
             "prescription_seq": "0",
@@ -109,24 +125,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA01"
-        },
-        {
             "isMain": "1",
             "atcCode": "A11JC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
         }
     ],
     "licBaseId": "9D221A0B-DEC7-40A2-88B6-346B327F45E3"

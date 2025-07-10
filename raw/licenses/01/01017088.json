@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01017088",
+    "licUnit": "1",
     "validDate": "2028-04-10 00:00:00.000",
     "issueDate": "1979-04-10 00:00:00.000",
+    "oriIssueDate": "1979-04-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101708805",
@@ -16,26 +20,29 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "14"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7F3E2AC0-20F8-478E-B0EF-97CD6A47F773",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
         "METHIONINE DL-",
         "CYANOCOBALAMIN (VIT B12)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "豐田藥品股份有限公司",
-    "applicantAddr": "新北市三重區五華街七巷８７號",
+    "applicantAddr": "臺南市南區彰南里新樂路1之6號1樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "B26DDFEF-9BC0-491D-9EAD-3A865FFC8D6D",
             "factoryCode": "1",
             "factoryName": "應元化學製藥股份有限公司",
             "factoryAddr": "台南市南區新忠路２６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1704519300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406000310",
+            "ingredientsName": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "ingredientsDesc": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101503",
+            "ingredientsName": "METHIONINE DL-",
             "ingredientsDesc": "METHIONINE DL-",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "100",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "016",
             "seq": "3",
             "prescription_seq": "1",
@@ -101,18 +116,6 @@
         {
             "isMain": "1",
             "atcCode": "B03BA51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "M01AX25"
         }
     ],
     "licBaseId": "8C314F0B-E039-429F-ABC9-838ACF281AEB"

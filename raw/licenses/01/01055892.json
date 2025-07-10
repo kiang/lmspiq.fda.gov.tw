@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055892",
+    "licUnit": "1",
     "validDate": "2025-12-24 00:00:00.000",
     "issueDate": "2010-12-24 00:00:00.000",
+    "oriIssueDate": "2010-12-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105589203",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "50767555-8259-40F2-B550-F2304D7E7304",
+    "subCategory": [],
     "ingredientsDesc": [
         "CEFTAZIDIME",
         "CEFTAZIDIME (5H2O)",
@@ -34,8 +41,8 @@
         "CEFTAZIDIME (5H2O)"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "新瑞生物科技股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -47,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "EBCB7D85-79E7-43D8-8856-A148F7493DA2",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812302300",
+            "ingredientsName": "CEFTAZIDIME",
             "ingredientsDesc": "CEFTAZIDIME",
             "concentDesc": "with sodium carbonate",
-            "concent": "250.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -77,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812692305",
+            "ingredientsName": "CEFTAZIDIME (5H2O)",
             "ingredientsDesc": "CEFTAZIDIME (5H2O)",
             "concentDesc": "(potency)",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -88,9 +102,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812692305",
+            "ingredientsName": "CEFTAZIDIME (5H2O)",
             "ingredientsDesc": "CEFTAZIDIME (5H2O)",
             "concentDesc": "(potency)",
-            "concent": "1000.0000",
+            "concent": "1000.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "3",
@@ -99,9 +114,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812692305",
+            "ingredientsName": "CEFTAZIDIME (5H2O)",
             "ingredientsDesc": "CEFTAZIDIME (5H2O)",
             "concentDesc": "(potency)",
-            "concent": "2000.0000",
+            "concent": "2000.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "4",
@@ -118,21 +134,8 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5A969657-4B3B-4FE3-98F3-B7AF9DB3DD3D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01DD02"
-        },
         {
             "isMain": "1",
             "atcCode": "J01DD02"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12010696",
+    "licUnit": "1",
     "validDate": "2025-12-31 00:00:00.000",
     "issueDate": "1970-10-01 00:00:00.000",
+    "oriIssueDate": "1970-10-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01201069600",
@@ -27,13 +31,16 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2CC4CFA8-FDE0-4823-BA60-AECA0754D2CA",
+    "subCategory": [],
     "ingredientsDesc": [
         "ALUMINUM HYDROXIDE DRIED GEL",
         "MAGNESIUM TRISILICATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "人人化學製藥股份有限公司",
     "applicantAddr": "桃園市中壢區南園二路３號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A6B8EF80-C48E-45FD-9D4F-E6EDCA9E2BB7",
             "factoryCode": "1",
             "factoryName": "人人化學製藥股份有限公司中壢廠",
             "factoryAddr": "桃園市中壢區南園二路３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0201504300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000202",
+            "ingredientsName": "ALUMINUM HYDROXIDE DRIED GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE DRIED GEL",
             "concentDesc": "0.040",
-            "concent": "0.040",
+            "concent": "0.040000",
             "concentUnit": "002",
             "seq": "0",
             "prescription_seq": "0",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002700",
+            "ingredientsName": "MAGNESIUM TRISILICATE",
             "ingredientsDesc": "MAGNESIUM TRISILICATE",
             "concentDesc": "0.125",
-            "concent": "0.125",
+            "concent": "0.125000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "0",
@@ -86,25 +100,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "27387A26-AF52-424D-B8E6-5BD2298554CA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA"
-        },
         {
             "isMain": "1",
             "atcCode": "A02AD"

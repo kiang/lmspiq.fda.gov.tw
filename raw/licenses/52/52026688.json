@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026688",
+    "licUnit": "1",
     "validDate": "2025-12-02 00:00:00.000",
     "issueDate": "2015-12-02 00:00:00.000",
+    "oriIssueDate": "2015-12-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202668801",
@@ -27,11 +31,14 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AA51DF95-B3C1-45A8-BC50-64083A97628A",
+    "subCategory": [],
     "ingredientsDesc": [
         "HEPARIN SODIUM"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "韋淳貿易股份有限公司",
     "applicantAddr": "台北市中山區松江路65號4樓",
@@ -43,25 +50,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "E4868048-052E-4253-92EF-D61D3E0D0545",
             "factoryCode": "1",
             "factoryName": "KOTRA PHARMA(M) SDN.BHD.",
             "factoryAddr": "NO.1,2&3, JALAN TTC12, CHENG INDUSTRIAL ESTATE, 75250 MELAKA, MALAYSIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "MY",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FMY0017000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "40B00AEF-097D-4971-8018-4AB81EDCCB3F",
             "factoryCode": "2",
             "factoryName": "嘉里醫藥物流股份有限公司",
             "factoryAddr": "桃園市龜山區頂湖路５８號２樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -73,16 +86,19 @@
             "factoryKind": "M",
             "factoryNo": "6132071675",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012400520",
+            "ingredientsName": "HEPARIN SODIUM",
             "ingredientsDesc": "HEPARIN SODIUM",
             "concentDesc": "",
-            "concent": "25000.000",
+            "concent": "25000.000000",
             "concentUnit": "21A",
             "seq": "1",
             "prescription_seq": "1",
@@ -91,32 +107,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F2E0C15C-C3F4-40D1-AAF3-612DDA9C591E",
-            "approvedDocNo": "1129019813",
-            "approvedDate": "2023-06-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "34C62036-449D-421A-A859-CD1E7D08BDEA",
-            "approvedDocNo": "1129019813",
-            "approvedDate": "2023-06-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "42406DFB-96A3-40B4-92B6-B7F5B160A8D4",
-            "approvedDocNo": "1091497446",
-            "approvedDate": "2021-01-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

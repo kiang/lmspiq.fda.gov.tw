@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044270",
+    "licUnit": "1",
     "validDate": "2026-02-19 00:00:00.000",
     "issueDate": "2001-02-19 00:00:00.000",
+    "oriIssueDate": "2001-02-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104427000",
     "prodNameC": "\"南光\" 歐克胃膠囊２０毫克",
     "prodNameE": "OKWE CAPSULES 20MG \"N.K\"",
     "indicationsName": [
-        "十二指腸潰瘍、胃潰瘍、逆流性食道炎、ＺＯＬＬＩＮＧＥＲ－ＥＬＬＩＳＯＮ症候群。"
+        "十二指腸潰瘍、胃潰瘍、逆流性食道炎、Ｚ－Ｅ症候群、合併抗生素治療與幽門螺旋桿菌（ＨＥＬＩＣＯＢＡＣＴＥＲ　ＰＹＬＯＲＩ）相關的消化性潰瘍。"
     ],
     "does": "1130",
     "packageUnit": [
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "605A7122-A1C3-4981-AC16-7A1B9D2D235C",
+    "subCategory": [],
     "ingredientsDesc": [
         "OMEPRAZOLE"
     ],
     "restraintItemsCode": [
-        "01",
-        "07"
+        "01 國 產",
+        "07 新藥監視"
     ],
     "applicantName": "南光化學製藥股份有限公司",
     "applicantAddr": "臺南市新化區全興里中山路1001號、1001-1號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "694B0BCB-A72D-469E-BBE5-F5AB2545F766",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區全興里中山路１００１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640002300",
+            "ingredientsName": "OMEPRAZOLE",
             "ingredientsDesc": "OMEPRAZOLE",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,56 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "85BB8A1A-1F9F-43D5-B90A-0D4F1B1C53A7",
-            "approvedDocNo": "1129048090",
-            "approvedDate": "2023-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D5125CD1-CF6C-4C8E-A67A-0DD879A3C2C4",
-            "approvedDocNo": "1129048090",
-            "approvedDate": "2023-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "815161D7-AE43-40CB-9C5C-BDA306309EC3",
-            "approvedDocNo": "1129048090",
-            "approvedDate": "2023-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "834D0680-F504-46DA-B03E-CA20F8F75815",
-            "approvedDocNo": "1129048090",
-            "approvedDate": "2023-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4A99AB91-2EB6-4026-874B-9087AF2E1EA9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF4D58A9-0D88-4EC5-9B50-9E8DA53501E4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

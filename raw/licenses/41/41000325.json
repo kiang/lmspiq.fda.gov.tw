@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-10",
+    "cancelReason": [
+        "85A"
+    ],
+    "otherCancelReason": "",
     "licid": "41000325",
+    "licUnit": "1",
     "validDate": "2023-10-02 00:00:00.000",
     "issueDate": "2008-10-02 00:00:00.000",
+    "oriIssueDate": "2008-10-02",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA04100032500",
@@ -16,19 +22,22 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "A865B7E3-0889-42F7-B0C8-E3ABCA71B7E7",
+    "subCategory": [],
     "ingredientsDesc": [
         "Methyltestosterone contains not less than 97.0% and not more than 103.0% of C20H30O2, calculated on the dried basis."
     ],
     "restraintItemsCode": [
-        "02",
-        "40"
+        "02 輸 入",
+        "40 大陸生產"
     ],
     "applicantName": "誠品貿易有限公司",
     "applicantAddr": "台北市士林區延平北路六段485號3樓",
@@ -40,8 +49,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "91375705-D3F6-4518-99DC-801C7A325788",
             "factoryCode": "1",
             "factoryName": "THE CENTRAL PHARMACEUTICAL CO., LTD. TIANJIN",
             "factoryAddr": "NO. 1, FUJIN ROAD, BEICHEN DISTRICT, TIANJIN, CHINA",
@@ -52,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "FCN0223000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Methyltestosterone contains not less than 97.0% and not more than 103.0% of C20H30O2, calculated on the dried basis.",
             "ingredientsDesc": "Methyltestosterone contains not less than 97.0% and not more than 103.0% of C20H30O2, calculated on the dried basis.",
             "concentDesc": null,
             "concent": null,
@@ -72,10 +87,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "G03EK01"
-        },
         {
             "isMain": "1",
             "atcCode": "G03BA02"

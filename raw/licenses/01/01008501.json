@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-02",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01008501",
+    "licUnit": "1",
     "validDate": "2023-12-31 00:00:00.000",
     "issueDate": "1975-12-15 00:00:00.000",
+    "oriIssueDate": "1975-12-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100850102",
@@ -16,29 +22,32 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "08"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9F0474FA-95F4-4528-8887-5D601AD07679",
+    "subCategory": [],
     "ingredientsDesc": [
         "SULFAMETHOXAZOLE",
         "TRIMETHOPRIM"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "木村貿易有限公司 ",
     "applicantAddr": "彰化縣彰化市平和里中華西路464號",
@@ -50,28 +59,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "C547C25A-9629-4449-B9CA-A2A2CC38E39E",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0824001500",
+            "ingredientsName": "SULFAMETHOXAZOLE",
             "ingredientsDesc": "SULFAMETHOXAZOLE",
             "concentDesc": "400",
-            "concent": "400.0000",
+            "concent": "400.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -80,9 +95,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0840001700",
+            "ingredientsName": "TRIMETHOPRIM",
             "ingredientsDesc": "TRIMETHOPRIM",
             "concentDesc": "80",
-            "concent": "80.0000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -94,16 +110,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "J01EC01"
-        },
-        {
             "isMain": "1",
             "atcCode": "J01EE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01EA01"
         }
     ],
     "licBaseId": "D6FFB64D-6D7A-4FFA-BC4D-EB437AAFC4DE"

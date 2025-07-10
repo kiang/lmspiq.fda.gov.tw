@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026716",
+    "licUnit": "1",
     "validDate": "2026-01-05 00:00:00.000",
     "issueDate": "2016-01-05 00:00:00.000",
+    "oriIssueDate": "2016-01-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202671606",
@@ -27,12 +31,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CD49705E-6619-4960-AAB9-BB6EB4163065",
+    "subCategory": [],
     "ingredientsDesc": [
         "ENTECAVIR MONOHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "台灣邁蘭有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -44,25 +52,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "D86BFEBD-498C-4A4B-B952-AFDD9094D964",
             "factoryCode": "1",
             "factoryName": "MYLAN LABORATORIES LIMITED",
             "factoryAddr": "PLOT NO. 11, 12& 13, INDORE SEZ. PHARMA ZONE ,PHASE-II,SECTOR-III,PITHAMPUR-454775,DIST.-DHAR(MP) INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN1034000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "83863F70-2A64-4B9C-BD67-23AB90E34425",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司(委託包裝)",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -74,16 +88,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818003110",
+            "ingredientsName": "ENTECAVIR MONOHYDRATE",
             "ingredientsDesc": "ENTECAVIR MONOHYDRATE",
             "concentDesc": "(eq. to Entecavir........1mg)",
-            "concent": "1.060",
+            "concent": "1.060000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -100,40 +117,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3C1781ED-081A-4347-ADDF-6ACF49E7CEA9",
-            "approvedDocNo": "1119043044",
-            "approvedDate": "2022-12-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A595A3CE-3EF7-45E5-806E-1E67B4AD87C6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "246B0D66-57B9-4D1E-91F8-FD0139B4C2AA",
-            "approvedDocNo": "1096009888",
-            "approvedDate": "2020-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BB2DC140-EABF-477A-8AF8-B67F3009DD55",
-            "approvedDocNo": "1086039966",
-            "approvedDate": "2020-08-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

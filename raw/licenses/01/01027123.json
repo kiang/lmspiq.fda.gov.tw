@@ -1,10 +1,14 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-04",
+    "cancelReason": null,
+    "otherCancelReason": null,
     "licid": "01027123",
+    "licUnit": "1",
     "validDate": "2023-05-10 00:00:00.000",
     "issueDate": "1983-05-10 00:00:00.000",
+    "oriIssueDate": "1983-05-10",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00102712300",
@@ -23,14 +27,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9A500C85-0CEB-423A-B813-77DF8FA2F836",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMOXYCILLIN (TRIHYDRATE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "濟生醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉勝利村實踐路3號",
@@ -42,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "3F803D95-EA23-45B5-BDE6-EA388C0E5379",
             "factoryCode": "1",
             "factoryName": "政德製藥股份有限公司",
             "factoryAddr": "雲林縣大埤鄉嘉興村豐田路２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0922116300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812609250",
+            "ingredientsName": "AMOXYCILLIN (TRIHYDRATE)",
             "ingredientsDesc": "AMOXYCILLIN (TRIHYDRATE)",
             "concentDesc": "500",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -72,24 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A12CB834-3A01-4D90-B196-89519512C010",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5393FC16-D272-4C64-AD28-4C8F6F2E8A70",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033255",
+    "licUnit": "1",
     "validDate": "2025-12-26 00:00:00.000",
     "issueDate": "1990-11-26 00:00:00.000",
+    "oriIssueDate": "1990-11-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103325503",
@@ -23,13 +27,16 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "12C714B3-B2AD-44E4-A183-4114107E2680",
+    "subCategory": [],
     "ingredientsDesc": [
         "CETRIMIDE",
         "CHLORHEXIDINE GLUCONATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "井田國際醫藥廠股份有限公司",
     "applicantAddr": "台中市大甲區幼獅路32號",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "7D106DE3-AD32-4B11-89A4-63B981FEFB12",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404601080",
+            "ingredientsName": "CETRIMIDE",
             "ingredientsDesc": "CETRIMIDE",
             "concentDesc": "30",
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900231",
+            "ingredientsName": "CHLORHEXIDINE GLUCONATE",
             "ingredientsDesc": "CHLORHEXIDINE GLUCONATE",
             "concentDesc": "3",
-            "concent": "3.0000",
+            "concent": "3.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,14 +101,6 @@
         {
             "isMain": "1",
             "atcCode": "D08AC52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D08AC02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D08AJ04"
         }
     ],
     "licBaseId": "C09EADD4-89F1-4E6E-B84B-D61CEB19CECE"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047671",
+    "licUnit": "1",
     "validDate": "2025-12-13 00:00:00.000",
     "issueDate": "2005-12-13 00:00:00.000",
+    "oriIssueDate": "2005-12-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104767104",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "652FA0C7-256D-48BB-8116-DA855CAE2BB4",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACARBOSE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "瑞安大藥廠股份有限公司",
     "applicantAddr": "臺北市內湖區內湖路1段392號11樓之1",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "7174B2EF-059B-47BB-93EB-565BD3CC1D01",
             "factoryCode": "1",
             "factoryName": "優良化學製藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉中興村光復路10號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1702804200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820601000",
+            "ingredientsName": "ACARBOSE",
             "ingredientsDesc": "ACARBOSE",
             "concentDesc": "",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -82,61 +95,8 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C20F074E-18C9-4AF0-ACC8-110591D2A3AA",
-            "approvedDocNo": "1106020497",
-            "approvedDate": "2021-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B37D96FE-2F2E-4451-BBDF-E34BBDD2FAB5",
-            "approvedDocNo": "1096803302",
-            "approvedDate": "2020-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FCEC3B59-FC52-4F6F-9439-F8D1CB37D0B9",
-            "approvedDocNo": "1096803302",
-            "approvedDate": "2020-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E56812C4-3D1D-4B43-A8A6-D27F8F660357",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "439F69D0-DED4-4884-AE0F-99A3CC83F7EC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "60BEA577-A752-4ABD-B9E2-B643CD708A79",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A10BF01"
-        },
         {
             "isMain": "1",
             "atcCode": "A10BF01"

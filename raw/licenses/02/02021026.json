@@ -1,11 +1,16 @@
 {
-    "cancelStatus": "0",
-    "licStatus": "1",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-11",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "02021026",
+    "licUnit": "1",
     "validDate": "2024-02-13 00:00:00.000",
     "issueDate": "1995-08-24 00:00:00.000",
+    "oriIssueDate": "1995-08-24",
     "licKind": "02",
     "oldLicid": "02016381",
     "certNo": "DHA00202102602",
@@ -28,12 +33,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F640DCFB-DCDC-4952-A6C5-E2490A6B0A8F",
+    "subCategory": [],
     "ingredientsDesc": [
         "MITOMYCIN C"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "台灣協和麒麟股份有限公司",
     "applicantAddr": "台北市中山區中山北路二段68號9樓",
@@ -45,8 +53,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "83249B62-1ACD-4E29-863A-7273F052B647",
             "factoryCode": "1",
             "factoryName": "BAXTER ONCOLOGY GMBH",
             "factoryAddr": "KANTSTRASSE 2, D-33790 HALLE, GERMANY",
@@ -62,9 +73,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0008000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3559D1B0-F713-4946-8C3A-7360C73A96D0",
             "factoryCode": "2",
             "factoryName": "BUSHU PHARMACEUTICALS LTD.",
             "factoryAddr": "1 TAKENO, KAWAGOE-SHI, SAITAMA, 350-0801, JAPAN",
@@ -80,13 +94,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0621000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1C0F15D4-C98E-489C-AA07-E8118AB03F04",
             "factoryCode": "2",
             "factoryName": "KYOWA KIRIN CO., LTD.",
             "factoryAddr": "1-9-2 OTEMACHI, CHIYODA-KU, TOKYO, JAPAN ",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [
                 {
@@ -98,16 +115,19 @@
             "factoryKind": "O",
             "factoryNo": "FJP1009000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1003000701",
+            "ingredientsName": "MITOMYCIN C",
             "ingredientsDesc": "MITOMYCIN C",
             "concentDesc": "(POTENCY)",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -116,80 +136,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "95C73946-3550-4C58-98DE-2261E43CA14A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-03-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D11CD1E9-2D17-43C5-8D39-1F050FBA435D",
-            "approvedDocNo": "1091401869",
-            "approvedDate": "2020-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "07E138FD-DED1-49EB-9511-9205900E0354",
-            "approvedDocNo": "1086025017",
-            "approvedDate": "2020-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "982D038A-5E2A-4394-AED5-58B33C295C6C",
-            "approvedDocNo": "1081492070",
-            "approvedDate": "2019-12-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "70084232-4E89-4663-896B-5BCA8DE3353A",
-            "approvedDocNo": "1081492067",
-            "approvedDate": "2019-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EC946527-CE45-421E-9F15-A44222C2D28A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4AFCA27C-5AB0-4451-A790-CE1BFED24C8B",
-            "approvedDocNo": "1081400947",
-            "approvedDate": "2019-01-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D98D8955-0164-4504-9FB6-DEAFCA501C8B",
-            "approvedDocNo": "1081400947",
-            "approvedDate": "2019-01-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F4ACCCA8-C4F5-46A6-8E48-583D13499582",
-            "approvedDocNo": "1081400947",
-            "approvedDate": "2019-01-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

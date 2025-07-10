@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "91001142",
+    "licUnit": "1",
     "validDate": "2029-01-10 00:00:00.000",
     "issueDate": "2024-01-10 00:00:00.000",
+    "oriIssueDate": "2024-01-10",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA09100114200",
@@ -23,12 +27,15 @@
     "medMCode": "01",
     "maMedCode": "",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "3BA5CB11-CB16-4EDA-BED4-AD6C9ABE0F65",
+    "subCategory": [],
     "ingredientsDesc": [
         "Caspofungin Acetate contains not less than 98.0% and not more than 102.0% of C52H88N10O15.2(C2H4O2) calculated on anhydrous basis."
     ],
     "restraintItemsCode": [
-        "02",
-        "40"
+        "02 輸 入",
+        "40 大陸生產"
     ],
     "applicantName": "台灣荃新股份有限公司",
     "applicantAddr": "台北市中正區羅斯福路二段11號3樓",
@@ -40,25 +47,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "33A1C98B-BB61-423F-8AC2-FABB769ECD1C",
             "factoryCode": "1",
             "factoryName": "ZHEJIANG WILD WIND PHARMACEUTICAL CO., LTD.",
             "factoryAddr": "BEIJIANG INDUSTRIAL ZONE, GESHAN TOWN, DONGYANG, ZHEJIANG PROVINCE, CHINA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCN0471000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Caspofungin Acetate contains not less than 98.0% and not more than 102.0% of C52H88N10O15.2(C2H4O2) calculated on anhydrous basis.",
             "ingredientsDesc": "Caspofungin Acetate contains not less than 98.0% and not more than 102.0% of C52H88N10O15.2(C2H4O2) calculated on anhydrous basis.",
             "concentDesc": null,
             "concent": null,
@@ -71,6 +84,11 @@
     "authDtoList": [],
     "iomDtoList": [],
     "changeDtoList": [],
-    "atcList": [],
+    "atcList": [
+        {
+            "isMain": "1",
+            "atcCode": "J02AX04"
+        }
+    ],
     "licBaseId": "055C1F8E-6BB3-479F-86E9-36C37518F71B"
 }

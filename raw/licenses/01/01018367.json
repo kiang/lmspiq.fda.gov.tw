@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-06",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01018367",
+    "licUnit": "1",
     "validDate": "2023-05-25 00:00:00.000",
     "issueDate": "1979-08-20 00:00:00.000",
+    "oriIssueDate": "1979-08-20",
     "licKind": "02",
     "oldLicid": "12010803",
     "certNo": "DHY00101836701",
@@ -16,17 +22,20 @@
     "does": "1130",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EE1A0005-6FAD-4F4A-9F97-21A8AB469D80",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "CAFFEINE ANHYDROUS",
@@ -35,12 +44,12 @@
         "APRONALIDE ( EQ TO ALLYLISOPROPYLACETYLUREA)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "仙台藥品工業股份有限公司",
-    "applicantAddr": "台南市新營區新營工業區新工路３５號",
+    "applicantAddr": "台南市新營區嘉芳里新工路35號A棟、35之1號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -49,28 +58,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "3BA6A357-E5F4-44A8-B81B-DABBF937436A",
             "factoryCode": "1",
             "factoryName": "仙台藥品工業股份有限公司",
             "factoryAddr": "台南市新營區嘉芳里新工路35號A棟、35之1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "0513320300",
+            "factoryNo": "6141010037",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "80",
-            "concent": "80.0000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -79,9 +94,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4040000412",
+            "ingredientsName": "HYDROXYBUTYRIC ACID BETA- P-PHENETIDIDE (BUCETIN)",
             "ingredientsDesc": "HYDROXYBUTYRIC ACID BETA- P-PHENETIDIDE (BUCETIN)",
             "concentDesc": "70",
-            "concent": "70.0000",
+            "concent": "70.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -90,9 +106,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808600900",
+            "ingredientsName": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "ingredientsDesc": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
             "concentDesc": "100",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -101,9 +118,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824800300",
+            "ingredientsName": "APRONALIDE ( EQ TO ALLYLISOPROPYLACETYLUREA)",
             "ingredientsDesc": "APRONALIDE ( EQ TO ALLYLISOPROPYLACETYLUREA)",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -112,9 +130,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "25",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -126,28 +145,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "N02BE04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BA07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
             "isMain": "1",
             "atcCode": "N02BE71"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N05CM12"
         }
     ],
     "licBaseId": "71B8A4A8-E8C7-4568-BEB1-4D0ED29BA17F"

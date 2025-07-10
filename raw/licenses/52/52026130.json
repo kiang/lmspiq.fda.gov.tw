@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-09",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "52026130",
+    "licUnit": "1",
     "validDate": "2023-08-06 00:00:00.000",
     "issueDate": "2013-08-06 00:00:00.000",
+    "oriIssueDate": "2013-08-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202613002",
@@ -27,12 +33,15 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0A97A379-6C26-4827-89E9-00C28C10B0B8",
+    "subCategory": [],
     "ingredientsDesc": [
         "NADROPARINE CALCIUM"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "安沛國際有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號20樓",
@@ -44,8 +53,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "D938CF3C-9FF4-42E9-9064-08C59A4EE165",
             "factoryCode": "1",
             "factoryName": "GLAXO OPERATIONS UK LIMITED",
             "factoryAddr": "HARMIRE ROAD, BARNARD CASTLE, COUNTY DURHAM, UNITED KINGDOM, DL12 8DT U.K.",
@@ -56,16 +68,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0192000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012401510",
+            "ingredientsName": "NADROPARINE CALCIUM",
             "ingredientsDesc": "NADROPARINE CALCIUM",
             "concentDesc": "",
-            "concent": "9500.000",
+            "concent": "9500.000000",
             "concentUnit": "343",
             "seq": "1",
             "prescription_seq": "1",

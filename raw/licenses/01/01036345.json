@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01036345",
+    "licUnit": "1",
     "validDate": "2028-05-06 00:00:00.000",
     "issueDate": "1993-05-06 00:00:00.000",
+    "oriIssueDate": "1993-05-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103634506",
@@ -27,11 +31,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9FB377B6-11A2-4E39-A4FA-3A5D501F5FE5",
+    "subCategory": [],
     "ingredientsDesc": [
         "CIPROFLOXACIN (LACTATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "濟生醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉勝利村實踐路3號",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "7CCE6440-B010-4A82-B44B-6FF9624A0D6F",
             "factoryCode": "1",
             "factoryName": "濟生醫藥生技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉勝利村實踐路3號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133060069",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812709720",
+            "ingredientsName": "CIPROFLOXACIN (LACTATE)",
             "ingredientsDesc": "CIPROFLOXACIN (LACTATE)",
             "concentDesc": "2.000",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -73,80 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0644472F-ABD2-40EF-879D-014C73172371",
-            "approvedDocNo": "1110811368",
-            "approvedDate": "2023-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2C91DEBF-A61C-4BB3-BAA6-187E765269B3",
-            "approvedDocNo": "1110811368",
-            "approvedDate": "2023-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C61FE1CC-DD98-423A-9559-30EB5D2A64E8",
-            "approvedDocNo": "1110811368",
-            "approvedDate": "2023-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7DB3997A-79B3-4511-BA8E-37453B22A410",
-            "approvedDocNo": "1110811368",
-            "approvedDate": "2023-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F947507-1CD3-41FD-99BB-87D3B9CFAC13",
-            "approvedDocNo": "1110811368",
-            "approvedDate": "2023-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "24C2EFC8-7536-4388-9D46-D04ABE73731C",
-            "approvedDocNo": "1110811368",
-            "approvedDate": "2023-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B9D26AD8-E32D-49B3-8C1E-E8A02677829A",
-            "approvedDocNo": "1110811368",
-            "approvedDate": "2023-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ACCE8974-ACEA-478F-843F-A7E86181DB37",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B78147B3-1368-49DB-95E4-5CEAB121197A",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

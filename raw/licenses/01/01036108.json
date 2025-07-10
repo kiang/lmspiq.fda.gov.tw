@@ -1,10 +1,14 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-06-04",
+    "cancelReason": null,
+    "otherCancelReason": null,
     "licid": "01036108",
+    "licUnit": "1",
     "validDate": "2023-02-02 00:00:00.000",
     "issueDate": "1993-02-02 00:00:00.000",
+    "oriIssueDate": "1993-02-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103610805",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AE72215C-75D4-4B73-A1EF-BFC7DA24D8B2",
+    "subCategory": [],
     "ingredientsDesc": [
         "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
         "CAFFEINE ANHYDROUS",
@@ -32,8 +39,8 @@
         "CHLORPHENIRAMINE MALEATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "賜利優醫藥生技有限公司",
     "applicantAddr": "彰化縣彰化市茄苳里茄苳路二段251巷臨115-1號1樓",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "9211103E-1E36-40C5-B5C0-4A3A3A695F9B",
             "factoryCode": "1",
             "factoryName": "榮民製藥股份有限公司",
             "factoryAddr": "桃園市中壢區中山東路３段４４７號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6132020070",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": null,
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": null,
-            "concent": "0.5330",
+            "concent": "0.533000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -86,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001420",
+            "ingredientsName": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "concentDesc": null,
-            "concent": "2.6670",
+            "concent": "2.667000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -97,9 +112,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": null,
-            "concent": "0.8330",
+            "concent": "0.833000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "0",
@@ -108,9 +124,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": null,
-            "concent": "0.6670",
+            "concent": "0.667000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "0",
@@ -119,9 +136,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": null,
-            "concent": "0.0830",
+            "concent": "0.083000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "0",
@@ -130,52 +148,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "44C8429F-B165-482B-B04F-52768C7CD3C6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "62698FFD-BC6A-4107-A10B-B54D14E53281",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-08-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R05X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA09"
         }
     ],
     "licBaseId": "D8C87933-608E-472E-A3F2-C103062C9D2C"
