@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025342",
+    "licUnit": "1",
     "validDate": "2026-01-25 00:00:00.000",
     "issueDate": "2011-01-25 00:00:00.000",
+    "oriIssueDate": "2011-01-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202534206",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "881616DF-2B5C-43EF-A525-8B009A51BACD",
+    "subCategory": [],
     "ingredientsDesc": [
         "IRBESARTAN"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "毅有生技醫藥股份有限公司",
     "applicantAddr": "新北市中和區中山路２段332巷37號13樓",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "2F0F6F7C-2C72-4592-AE12-5F2828C76054",
             "factoryCode": "1",
             "factoryName": "ZYDUS LIFESCIENCES LIMITED",
             "factoryAddr": "SURVEY NO. 417, 419, 420, SARKHEJ-BAVLA NATIONAL HIGHWAY NO. 8A, VILLAGE-MORAIYA, TALUKA-SANAND, DIST.-AHMEDABAD - 382 210, GUJARAT STATE, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN1161000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200038400",
+            "ingredientsName": "IRBESARTAN",
             "ingredientsDesc": "IRBESARTAN",
             "concentDesc": null,
-            "concent": "150.0000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,63 +87,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "953F7E25-58E9-4BC9-887D-CF62F11A5B49",
-            "approvedDocNo": "1119034883",
-            "approvedDate": "2022-11-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F45E765-F6E2-4D64-B1C8-CE0E492A9B0D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF33C590-1A54-41C3-A81B-07DCA8268465",
-            "approvedDocNo": "1101490065",
-            "approvedDate": "2021-05-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DE75CD51-416C-4CD6-B3BE-93589F6B4FE0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4F0CF17B-8280-4051-B3EC-BD652F9C27E7",
-            "approvedDocNo": "1086023270",
-            "approvedDate": "2019-12-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "422C7B0F-1A24-4EA2-9454-3A9960E8AF61",
-            "approvedDocNo": "1086023270",
-            "approvedDate": "2019-12-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "C09CA04"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C09CA04"
         }
     ],

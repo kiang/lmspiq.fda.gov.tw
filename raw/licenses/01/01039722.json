@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039722",
+    "licUnit": "1",
     "validDate": "2026-01-15 00:00:00.000",
     "issueDate": "1996-01-15 00:00:00.000",
+    "oriIssueDate": "1996-01-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103972202",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2273C437-699C-41F1-88FE-012CDFC1D96F",
+    "subCategory": [],
     "ingredientsDesc": [
         "CIPROFLOXACIN (HCL)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "中國化學製藥股份有限公司新豐工廠",
     "applicantAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "8173C2BD-BC60-43B3-BE50-8EEEEEEBB771",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812709710",
+            "ingredientsName": "CIPROFLOXACIN (HCL)",
             "ingredientsDesc": "CIPROFLOXACIN (HCL)",
             "concentDesc": null,
-            "concent": "250.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -75,16 +88,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8B4624C8-05E8-4A9D-B0C2-AFB72EC8FD1C",
-            "approvedDocNo": "1086014086",
-            "approvedDate": "2019-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

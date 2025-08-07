@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-29",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "12006853",
+    "licUnit": "1",
     "validDate": "2023-12-31 00:00:00.000",
     "issueDate": "1970-07-28 00:00:00.000",
+    "oriIssueDate": "1970-07-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -16,21 +22,24 @@
     "does": "1119",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "17CB62F2-DAC6-487E-A469-2792201E80D6",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORDIAZEPOXIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R",
-        "34"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造",
+        "34 第四級管制藥品"
     ],
     "applicantName": "東洲化學製藥廠股份有限公司",
     "applicantAddr": "新北市蘆洲區中山二路195巷12號1-2樓",
@@ -42,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "02DB4471-F7E6-476C-8D4C-9715BA697AB4",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824200200",
+            "ingredientsName": "CHLORDIAZEPOXIDE",
             "ingredientsDesc": "CHLORDIAZEPOXIDE",
             "concentDesc": null,
-            "concent": "10.000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",

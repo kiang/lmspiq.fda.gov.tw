@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-15",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "02019881",
+    "licUnit": "1",
     "validDate": "2023-04-19 00:00:00.000",
     "issueDate": "2017-11-15 00:00:00.000",
+    "oriIssueDate": "1993-04-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201988101",
@@ -27,12 +33,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5EA32F92-C15E-4B2A-9F2A-C172CE4B81C0",
+    "subCategory": [],
     "ingredientsDesc": [
         "DILTIAZEM HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "台田藥品股份有限公司",
     "applicantAddr": "台北市南港區市民大道七段8號14樓之1",
@@ -44,8 +53,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "E6C88CC0-ADFF-4E23-AC4F-857810964E64",
             "factoryCode": "1",
             "factoryName": "QPHARMA AB",
             "factoryAddr": "AGNESLUNDSVAGEN 27,SE-212 15 MALMO,SWEDEN",
@@ -56,9 +68,12 @@
             "factoryKind": "M",
             "factoryNo": "FSE0007000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4DB3BD67-D9B1-412E-A566-B44950D247ED",
             "factoryCode": "2",
             "factoryName": "PFIZER AB",
             "factoryAddr": "SE-191 90, SOLLENTUNA, SWEDEN",
@@ -74,16 +89,19 @@
             "factoryKind": "M",
             "factoryNo": "FSE0031000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412400310",
+            "ingredientsName": "DILTIAZEM HYDROCHLORIDE",
             "ingredientsDesc": "DILTIAZEM HYDROCHLORIDE",
             "concentDesc": null,
-            "concent": "120.0000",
+            "concent": "120.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",

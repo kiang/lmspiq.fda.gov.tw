@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023162",
+    "licUnit": "1",
     "validDate": "2026-04-09 00:00:00.000",
     "issueDate": "2001-04-09 00:00:00.000",
+    "oriIssueDate": "2001-04-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202316207",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "88429BFB-E50E-4104-B2AF-E263E8E050AF",
+    "subCategory": [],
     "ingredientsDesc": [
         "TELMISARTAN"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "台灣百靈佳殷格翰股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號12樓",
@@ -40,12 +48,15 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "874BA2CC-04A8-4751-AA77-F3EC63D5AD8D",
             "factoryCode": "1",
             "factoryName": "BOEHRINGER INGELHEIM HELLAS SINGLE MEMBER S.A.",
             "factoryAddr": " 5TH KM PAIANIA-MARKOPOULO, KOROPI ATTIKI, 19441, GREECE",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GR",
             "processCode": [
                 {
@@ -57,9 +68,12 @@
             "factoryKind": "M",
             "factoryNo": "FGR0033200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "9EEBB785-69E6-47E3-BBE1-18A2862FC662",
             "factoryCode": "2",
             "factoryName": "BOEHRINGER INGELHEIM PHARMA GMBH & CO. KG.",
             "factoryAddr": "BINGER STRASSE 173, 55216 INGELHEIM AM RHEIN",
@@ -75,9 +89,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0021000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "31E24577-20AD-4BE1-A31F-F9C94DF85E1E",
             "factoryCode": "2",
             "factoryName": "BOEHRINGER INGELHEIM INTERNATIONAL GMBH",
             "factoryAddr": "BINGER STRASSE 173, 55216 INGELHEIM AM RHEIN, GERMANY",
@@ -93,16 +110,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0546000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005600",
+            "ingredientsName": "TELMISARTAN",
             "ingredientsDesc": "TELMISARTAN",
             "concentDesc": "40.00",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -111,48 +131,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "02FC0E40-1280-4B2D-BC2E-E4A2259557FA",
-            "approvedDocNo": "1129006248",
-            "approvedDate": "2023-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "29584C53-E41E-43FB-A121-415B03071B4C",
-            "approvedDocNo": "1129007074",
-            "approvedDate": "2023-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "74843735-4D6F-49F2-A46D-4221C4F93D01",
-            "approvedDocNo": "1119018478",
-            "approvedDate": "2022-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CDBA0539-1941-4C4F-B853-5E9AFD11372F",
-            "approvedDocNo": "1101495143",
-            "approvedDate": "2021-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "10352CB6-6A4A-43AF-902E-E445F971BD68",
-            "approvedDocNo": "1086813402",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

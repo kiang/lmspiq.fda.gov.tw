@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028352",
+    "licUnit": "1",
     "validDate": "2027-10-07 00:00:00.000",
     "issueDate": "2022-10-07 00:00:00.000",
+    "oriIssueDate": "2022-10-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202835204",
     "prodNameC": "迫癌癒 75 毫克膠囊",
     "prodNameE": "Braftovi 75 mg hard capsules",
     "indicationsName": [
-        "- 與binimetinib 併用，治療帶有BRAF V600突變且無法切除或有轉移現象的黑色素瘤成人病人。\r\n- 與cetuximab 併用，治療帶有BRAF V600E突變且曾接受全身性療法的轉移性結腸直腸癌（CRC）成人病人。"
+        "1.與binimetinib併用，治療帶有BRAF V600突變且無法切除或有轉移現象的黑色素瘤成人病人。\n2.與cetuximab併用，治療帶有BRAF V600E突變且曾接受全身性療法的轉移性結腸直腸癌（CRC）成人病人。\n3.與binimetinib 併用，治療帶有BRAF V600E 突變的晚期非小細胞肺癌(NSCLC)成人病人。"
     ],
     "does": "1130",
     "packageUnit": [
@@ -23,13 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "01574915-A4A4-4FF4-ABF3-63C09DF22144",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Encorafenib"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "臺灣皮耶法柏股份有限公司",
     "applicantAddr": "臺北市松山區民生東路3段156號15樓之2",
@@ -41,8 +50,11 @@
     "monitorDate": "2027-10-07",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "CD8AF736-334A-450E-AB4C-FF8E69109AD1",
             "factoryCode": "1",
             "factoryName": "CATALENT PHARMA SOLUTIONS,LLC",
             "factoryAddr": "14 SCHOOLHOUSE ROAD, SOMERSET, NEW JERSEY 08873, USA",
@@ -53,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "FUS0374000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "609AB7B8-1047-4191-846F-899DEF3DEBE6",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -69,15 +84,18 @@
             ],
             "processCodeStr": "1A;二級包裝廠",
             "factoryKind": "M",
-            "factoryNo": "1225204000",
+            "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "E9846C0A-9EA3-4514-BB62-3E0A865CFA17",
             "factoryCode": "2",
             "factoryName": "PIERRE FABRE MEDICAMENT",
             "factoryAddr": "LES CAUQUILLOUS, 81500 LAVAUR, FRANCE",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "",
             "processCode": [
                 {
@@ -89,13 +107,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0426000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D6E793D3-3AD6-4DA1-A479-FC5FC37BFE4E",
             "factoryCode": "2",
             "factoryName": "Pierre Fabre Medicament Production",
             "factoryAddr": "SITE PROGIPHARM, RUE DU LYCEE, GIEN, 45500, FRANCE",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "FR",
             "processCode": [
                 {
@@ -107,16 +128,19 @@
             "factoryKind": "M",
             "factoryNo": "FFR0429000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013010100",
+            "ingredientsName": "Encorafenib",
             "ingredientsDesc": "Encorafenib",
             "concentDesc": "",
-            "concent": "75.000",
+            "concent": "75.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -125,64 +149,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "17EDB28A-4AC1-4802-8F55-2D92EAF6C80E",
-            "approvedDocNo": "1129046220",
-            "approvedDate": "2023-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6625901D-2FB8-487E-9719-36BE6BBD7CCE",
-            "approvedDocNo": "1129047669",
-            "approvedDate": "2023-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E513B6B5-7782-4D8B-AB1B-D02E05BBE232",
-            "approvedDocNo": "1120716378",
-            "approvedDate": "2023-10-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7F86DB09-79E1-46AB-88C5-DE14CD7312E7",
-            "approvedDocNo": "1129014580",
-            "approvedDate": "2023-06-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A5C8D377-0ABB-4963-80D4-3E630546C913",
-            "approvedDocNo": "1119066814",
-            "approvedDate": "2023-02-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "43ABA211-42F0-441A-A7D8-1674B1136377",
-            "approvedDocNo": "1119066814",
-            "approvedDate": "2023-02-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "16CCCDB1-85B2-4D6D-9406-28BA25B1CAA2",
-            "approvedDocNo": "1119066814",
-            "approvedDate": "2023-02-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

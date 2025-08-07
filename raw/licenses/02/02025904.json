@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-28",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "02025904",
+    "licUnit": "1",
     "validDate": "2028-01-14 00:00:00.000",
     "issueDate": "2013-01-14 00:00:00.000",
+    "oriIssueDate": "2013-01-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202590409",
@@ -27,11 +33,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EAB46979-440D-44C5-93EF-03959664BF67",
+    "subCategory": [],
     "ingredientsDesc": [
         "Menotrophin HP"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "輝凌藥品股份有限公司",
     "applicantAddr": "台北市中山區松江路111號11樓",
@@ -43,8 +52,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "C90D7613-0338-45C4-9DE7-2D474674C212",
             "factoryCode": "1",
             "factoryName": "FERRING  GMBH",
             "factoryAddr": "WITTLAND 11, D-24109 KIEL, FEDERAL REPUBLIC OF GERMANY",
@@ -55,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0233000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F4B805C5-23F9-44F3-BF8F-A2B32BEBDE50",
             "factoryCode": "2",
             "factoryName": "INSTITUTO MASSONE S.A.",
             "factoryAddr": "ARIAS 4431, 1430 BUENOS AIRES, ARGENTINA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "AR",
             "processCode": [
                 {
@@ -73,13 +88,16 @@
             "factoryKind": "M",
             "factoryNo": "FAR0026000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3695CAD9-4FAE-4B56-BDDA-DD8B890D5AE8",
             "factoryCode": "2",
             "factoryName": "ZUELLIG PHARMA SPECIALTY SOLUTIONS GROUP PTE. LTD.",
             "factoryAddr": "15 CHANGI NORTH WAY #01-02, #02-02, #02-10, SINGAPORE 498770",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "SG",
             "processCode": [
                 {
@@ -91,16 +109,19 @@
             "factoryKind": "M",
             "factoryNo": "FSG0021200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6818001020",
+            "ingredientsName": "Menotrophin HP",
             "ingredientsDesc": "Menotrophin HP",
             "concentDesc": null,
-            "concent": "1200.0000",
+            "concent": "1200.000000",
             "concentUnit": "21A",
             "seq": "1",
             "prescription_seq": "1",
@@ -109,56 +130,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E98EE321-5BAE-4D61-BBE6-8435489B5F3C",
-            "approvedDocNo": "1119058032",
-            "approvedDate": "2023-01-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B0829450-BB00-4561-BDFF-82DFF2C11518",
-            "approvedDocNo": "1119038273",
-            "approvedDate": "2022-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31D37329-9AEF-4CB0-8392-B5E6DDD540E3",
-            "approvedDocNo": "1096019238",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A56A5865-F42E-4831-BE9D-C0FE8E5200A6",
-            "approvedDocNo": "1086003199",
-            "approvedDate": "2019-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DFAE0F7D-8653-4522-B1DF-1F42B46FE9FC",
-            "approvedDocNo": "1086003199",
-            "approvedDate": "2019-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5D401298-1599-4A54-9FF4-3B54D1D84AAA",
-            "approvedDocNo": "1086003199",
-            "approvedDate": "2019-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

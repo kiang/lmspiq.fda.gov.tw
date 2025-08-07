@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "03014262",
+    "licUnit": "1",
     "validDate": "2026-09-27 00:00:00.000",
     "issueDate": "2006-09-27 00:00:00.000",
+    "oriIssueDate": "2006-09-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00301426209",
@@ -13,7 +17,7 @@
     "indicationsName": [
         "緩解便秘。"
     ],
-    "does": "5501",
+    "does": "3371",
     "packageUnit": [
         {
             "packageSpec": "10毫升、20毫升、30毫升塑膠容器裝，2-25粒紙盒裝。",
@@ -23,13 +27,16 @@
     "medMCode": "03",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FC75378F-15C9-4815-AD8D-031EEC05D0A6",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLYCERIN (eq to GLYCEROL)",
         "SODIUM CHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "健康化學製藥股份有限公司",
     "applicantAddr": "台中市大甲區幼獅工業區幼四路１２號",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "83CD0924-DBBB-4B28-ABCF-594EA001B9D4",
             "factoryCode": "1",
             "factoryName": "健康化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區幼獅工業區幼四路１２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "150.0000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -71,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600013500",
+            "ingredientsName": "GLYCERIN (eq to GLYCEROL)",
             "ingredientsDesc": "GLYCERIN (eq to GLYCEROL)",
             "concentDesc": "",
-            "concent": "300.0000",
+            "concent": "300.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,73 +104,8 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0DF2A27E-07C5-4BCB-A995-93FD789C1B48",
-            "approvedDocNo": "1129047824",
-            "approvedDate": "2023-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A94CC0D-8014-4B8E-B40E-BB6AD8F68B32",
-            "approvedDocNo": "1119046840",
-            "approvedDate": "2022-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "83BA91BD-8C44-40D6-BDCB-26ABB7B6135B",
-            "approvedDocNo": "1106602783",
-            "approvedDate": "2021-03-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "48F5EF17-E95E-4CDC-84A7-1FBD2EE521E4",
-            "approvedDocNo": "1096612268",
-            "approvedDate": "2020-11-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "59ABA2C9-304C-47FC-A460-E3ECB9923FC1",
-            "approvedDocNo": "1096612268",
-            "approvedDate": "2020-10-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "40928020-5CA0-470C-9FB2-1250616131C1",
-            "approvedDocNo": "1096612268",
-            "approvedDate": "2020-10-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "199B75D1-A229-4B9C-A287-98C2AAFF8F97",
-            "approvedDocNo": "1096806269",
-            "approvedDate": "2020-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A06AG04"
-        },
         {
             "isMain": "1",
             "atcCode": "A06AG04"

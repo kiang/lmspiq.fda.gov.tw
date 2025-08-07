@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-29",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "01042136",
+    "licUnit": "1",
     "validDate": "2023-04-16 00:00:00.000",
     "issueDate": "1998-04-16 00:00:00.000",
+    "oriIssueDate": "1998-04-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104213609",
@@ -16,22 +22,25 @@
     "does": "1130",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "94B405FA-FA7D-4F74-823B-AD3890A334E2",
+    "subCategory": [],
     "ingredientsDesc": [
         "UBIDECARENONE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "新鵬藥業有限公司",
     "applicantAddr": "雲林縣斗六市公正里凱旋街33號",
@@ -43,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "DB65C20D-A920-4FB7-B6A8-EAC43DFDB91E",
             "factoryCode": "1",
             "factoryName": "利達製藥股份有限公司",
             "factoryAddr": "台中市大甲區中山路一段９０６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0701010300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8800000200",
+            "ingredientsName": "UBIDECARENONE",
             "ingredientsDesc": "UBIDECARENONE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -73,72 +88,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4CF51A60-88B1-4666-AF10-00FAE00224D3",
-            "approvedDocNo": "1076615764",
-            "approvedDate": "2019-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "967C51B3-5D7C-4A35-B4BE-29A838981410",
-            "approvedDocNo": "1076615764",
-            "approvedDate": "2019-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5A8AD45F-818C-4775-960E-345E0464F4AC",
-            "approvedDocNo": "1076615764",
-            "approvedDate": "2019-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "745798DF-EDE4-43DC-9D1B-36870C3CFF0F",
-            "approvedDocNo": "1076615764",
-            "approvedDate": "2019-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "730B9E1C-606D-426D-B80A-380BC748D441",
-            "approvedDocNo": "1076615764",
-            "approvedDate": "2019-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FA889D75-9E27-4619-B778-CFA463A9FA83",
-            "approvedDocNo": "1076615764",
-            "approvedDate": "2019-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DD3B23DF-6160-4B71-98B9-D3644CE8E614",
-            "approvedDocNo": "1076615764",
-            "approvedDate": "2019-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5AAA77F4-9275-4F9D-9DE9-FB1BE3434581",
-            "approvedDocNo": "1076615764",
-            "approvedDate": "2019-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

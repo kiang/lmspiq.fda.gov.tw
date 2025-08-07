@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047702",
+    "licUnit": "1",
     "validDate": "2026-01-04 00:00:00.000",
     "issueDate": "2006-01-04 00:00:00.000",
+    "oriIssueDate": "2006-01-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C2BE7A1A-AB97-4972-8E83-33CBE58CD7CE",
+    "subCategory": [],
     "ingredientsDesc": [
         "MONTELUKAST SODIUM"
     ],
     "restraintItemsCode": [
-        "01",
-        "25",
-        "61"
+        "01 國 產",
+        "25 監視中學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "瑩碩生技醫藥股份有限公司",
     "applicantAddr": "台北市中山區南京東路二段206號8樓之3",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "19EC495E-9D98-4A44-9E0B-27BCC5A60E3E",
             "factoryCode": "1",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉光復路1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133061413",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200039110",
+            "ingredientsName": "MONTELUKAST SODIUM",
             "ingredientsDesc": "MONTELUKAST SODIUM",
             "concentDesc": "",
-            "concent": "5.2000",
+            "concent": "5.200000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -75,72 +88,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F42FBA5F-FCFB-4BDC-A487-AA16E81ED87D",
-            "approvedDocNo": "1110702093",
-            "approvedDate": "2022-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "39B5C5EC-51D6-4EEE-8805-B50BF4D29E24",
-            "approvedDocNo": "1110702093",
-            "approvedDate": "2022-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B8D2FC80-EBEA-4773-9028-C78A202F06EB",
-            "approvedDocNo": "1110702093",
-            "approvedDate": "2022-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B679F72E-56CA-4DCF-9456-DE4FB3916766",
-            "approvedDocNo": "1106005490",
-            "approvedDate": "2021-06-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6C788904-5BC7-48B7-8E44-20BF755C8218",
-            "approvedDocNo": "1086818220",
-            "approvedDate": "2020-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AD99EA5C-05B3-4532-A6E0-D1D6181C121C",
-            "approvedDocNo": "1086818220",
-            "approvedDate": "2020-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6DC94BF6-64A7-4EDB-B453-53E81CE3F6A0",
-            "approvedDocNo": "1086014012",
-            "approvedDate": "2019-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F0ED85E4-7114-46DE-9D16-E6BD8F608423",
-            "approvedDocNo": "1086014012",
-            "approvedDate": "2019-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

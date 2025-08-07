@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028350",
+    "licUnit": "1",
     "validDate": "2027-10-18 00:00:00.000",
     "issueDate": "2022-10-18 00:00:00.000",
+    "oriIssueDate": "2022-10-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202835000",
     "prodNameC": "輔癌癒15毫克膜衣錠",
     "prodNameE": "Mektovi 15 mg film-coated tablets",
     "indicationsName": [
-        "與encorafenib併用，治療帶有BRAF V600突變且無法切除或有轉移現象的黑色素瘤成人病人。"
+        "1.與encorafenib併用，治療帶有BRAF V600突變且無法切除或有轉移現象的黑色素瘤成人病人。\n2.與encorafenib併用，治療帶有BRAF V600E突變的晚期非小細胞肺癌(NSCLC)成人病人。"
     ],
     "does": "1116",
     "packageUnit": [
@@ -23,13 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "7F07A7B4-4B57-48BB-81C3-AB59CEBC4A9B",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Binimetinib"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "臺灣皮耶法柏股份有限公司",
     "applicantAddr": "臺北市松山區民生東路3段156號15樓之2",
@@ -41,21 +50,27 @@
     "monitorDate": "2027-10-18",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "191F1789-E490-4105-9208-7B5B48172737",
             "factoryCode": "1",
             "factoryName": "ALMAC PHARMA SERVICES LIMITED",
             "factoryAddr": "SEAGOE INDUSTRIAL ESTATE, CRAIGAVON CO. ARMAGH, BT63 5UA, UNITED KINGDOM",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GB",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FGB0226100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "82791B9B-7D96-49A5-9849-F09D78CAF936",
             "factoryCode": "2",
             "factoryName": "PIERRE FABRE MEDICAMENT PRODUCTION",
             "factoryAddr": "ETABLISSEMENT PROGIPHARM, RUE DE LYCEE, 45500 GIEN,FRANCE",
@@ -71,13 +86,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0155000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "65D88387-205E-4772-9194-02A5B50FF411",
             "factoryCode": "2",
             "factoryName": "PIERRE FABRE MEDICAMENT",
             "factoryAddr": "LES CAUQUILLOUS, 81500 LAVAUR, FRANCE",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "",
             "processCode": [
                 {
@@ -89,16 +107,19 @@
             "factoryKind": "M",
             "factoryNo": "FFR0426000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013010200",
+            "ingredientsName": "Binimetinib",
             "ingredientsDesc": "Binimetinib",
             "concentDesc": "",
-            "concent": "15.000",
+            "concent": "15.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -107,40 +128,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DB57759C-7F06-42A7-B5AF-70F2B4008945",
-            "approvedDocNo": "1129049715",
-            "approvedDate": "2023-09-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "119ECBCE-F379-4D9B-B6C0-A98230AE2A42",
-            "approvedDocNo": "1129035691",
-            "approvedDate": "2023-08-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0149C8B2-8450-4220-B0F1-F6B0D9B7DD69",
-            "approvedDocNo": "1129035691",
-            "approvedDate": "2023-08-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F9F4BF4C-B871-4E48-892B-4CD55161B221",
-            "approvedDocNo": "1129035691",
-            "approvedDate": "2023-08-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

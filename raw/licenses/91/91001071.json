@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "91001071",
+    "licUnit": "1",
     "validDate": "2027-10-06 00:00:00.000",
     "issueDate": "2022-10-06 00:00:00.000",
+    "oriIssueDate": "2022-10-06",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA09100107103",
@@ -23,12 +27,15 @@
     "medMCode": "01",
     "maMedCode": "",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "93B70B92-BB61-457D-9DD2-122E9DDFA367",
+    "subCategory": [],
     "ingredientsDesc": [
         "Docusate Sodium contains NLT 99.0% and NMT 100.5% of C20H37NaO7S, calculated on the anhydrous basis."
     ],
     "restraintItemsCode": [
-        "02",
-        "40"
+        "02 輸 入",
+        "40 大陸生產"
     ],
     "applicantName": "台灣荃新股份有限公司",
     "applicantAddr": "台北市中正區羅斯福路二段11號3樓",
@@ -40,25 +47,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "586A23D6-CE0B-48F3-B6CB-5C4D19401D3A",
             "factoryCode": "1",
             "factoryName": "Hunan Jiudian Hongyang Pharmaceutical Co., Ltd.",
             "factoryAddr": "Tongguan Circular Economy Industrial base, WangCheng Economic and Technological Development Zone, Hunan",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCN1452000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Docusate Sodium contains NLT 99.0% and NMT 100.5% of C20H37NaO7S, calculated on the anhydrous basis.",
             "ingredientsDesc": "Docusate Sodium contains NLT 99.0% and NMT 100.5% of C20H37NaO7S, calculated on the anhydrous basis.",
             "concentDesc": null,
             "concent": null,
@@ -75,10 +88,6 @@
         {
             "isMain": "1",
             "atcCode": "A06AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A06AG10"
         }
     ],
     "licBaseId": "A017A839-711D-4EF4-A667-0C4F49D3A793"

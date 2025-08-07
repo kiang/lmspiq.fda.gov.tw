@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-29",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "01007995",
+    "licUnit": "1",
     "validDate": "2019-02-01 00:00:00.000",
     "issueDate": "1975-10-30 00:00:00.000",
+    "oriIssueDate": "1975-10-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100799506",
@@ -16,20 +22,23 @@
     "does": "4472",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B773076A-93A5-443E-B2BA-5BF4304DF5D1",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORHEXIDINE HCL",
         "PHENYLEPHRINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "國際新藥工業股份有限公司",
     "applicantAddr": "新北市土城區清化村石門路４９之１號",
@@ -41,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "1C80E58D-5F97-4235-80F8-5DFC4DA8681C",
             "factoryCode": "1",
             "factoryName": "國際新藥工業股份有限公司",
             "factoryAddr": "新北市土城區清化村石門路４９之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1102302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002310",
+            "ingredientsName": "PHENYLEPHRINE HCL",
             "ingredientsDesc": "PHENYLEPHRINE HCL",
             "concentDesc": "1.25",
-            "concent": "1.2500",
+            "concent": "1.250000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900211",
+            "ingredientsName": "CHLORHEXIDINE HCL",
             "ingredientsDesc": "CHLORHEXIDINE HCL",
             "concentDesc": "0.1",
-            "concent": "0.1000",
+            "concent": "0.100000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,14 +100,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01GA05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AX09"
-        },
         {
             "isMain": "1",
             "atcCode": "S01GA55"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "70000065",
+    "licUnit": "1",
     "validDate": "2030-12-28 00:00:00.000",
     "issueDate": "2020-12-28 00:00:00.000",
+    "oriIssueDate": "2020-12-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA07000006503",
@@ -23,13 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "7961FDAB-9D74-4C59-9A71-11ACC41D5E2B",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "siponimod fumaric acid"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "臺北市中山區民生東路3段2號8樓",
@@ -41,8 +50,11 @@
     "monitorDate": "2025-12-28",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "AEDFC85B-FC23-43E1-AE0E-7CC231731821",
             "factoryCode": "1",
             "factoryName": "NOVARTIS PHARMA STEIN AG",
             "factoryAddr": "SCHAFFHAUSERSTRASSE CH-4332 STEIN, SWITZERLAND",
@@ -53,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "ABAA50D9-0B39-4C4D-8BB4-D4946169C4DF",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -71,16 +86,19 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200051000",
+            "ingredientsName": "siponimod fumaric acid",
             "ingredientsDesc": "siponimod fumaric acid",
             "concentDesc": "(0.278mg of siponimod fumaric acid corresponds to 0.25mg of siponimod)",
-            "concent": "0.278",
+            "concent": "0.278000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,64 +107,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CB5C3B68-C680-4B63-B17D-AA0BA10BBB44",
-            "approvedDocNo": "1110731899",
-            "approvedDate": "2023-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8AF8602F-C478-49EF-9EF9-D4F6B1BF0E18",
-            "approvedDocNo": "1110724839",
-            "approvedDate": "2022-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7AEFD713-6C30-4D11-9836-C2322F6F8F4A",
-            "approvedDocNo": "1119014855",
-            "approvedDate": "2022-10-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0510B42B-3B05-4611-96ED-EEB0E433A035",
-            "approvedDocNo": "1119014857",
-            "approvedDate": "2022-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "22056B93-7533-4801-9959-05511AD7BCAA",
-            "approvedDocNo": "1101495858",
-            "approvedDate": "2022-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BE06D280-2A02-4813-8A8A-96311B96EBA7",
-            "approvedDocNo": "1101494958",
-            "approvedDate": "2021-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "09A7F215-8887-4E88-87EF-C0E8B893836F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

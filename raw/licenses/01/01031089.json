@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-29",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "01031089",
+    "licUnit": "1",
     "validDate": "2023-05-01 00:00:00.000",
     "issueDate": "1988-10-03 00:00:00.000",
+    "oriIssueDate": "1988-10-03",
     "licKind": "02",
     "oldLicid": "12000031",
     "certNo": "DHY00103108902",
@@ -16,24 +22,27 @@
     "does": "3360",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "08"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "36"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0362126B-A4BC-4CAF-AB82-7EDEF8BF6297",
+    "subCategory": [],
     "ingredientsDesc": [
         "SULFANILAMIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "洸洋化學製藥股份有限公司",
     "applicantAddr": "板橋市信義路２６巷１０號",
@@ -45,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "FC0C57B8-4DA4-4C6C-A2B7-5D7DF89620A9",
             "factoryCode": "1",
             "factoryName": "龍杏生技製藥股份有限公司",
             "factoryAddr": "台南市佳里區嘉福里１１５之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1703620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204800300",
+            "ingredientsName": "SULFANILAMIDE",
             "ingredientsDesc": "SULFANILAMIDE",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,23 +90,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DB6A3D30-CABF-4D65-8B36-98E8656099B5",
-            "approvedDocNo": "1086019992",
-            "approvedDate": "2019-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D06BA05"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D06BA05"
         }
     ],

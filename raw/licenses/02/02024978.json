@@ -1,11 +1,16 @@
 {
-    "cancelStatus": "0",
-    "licStatus": "1",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-15",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "02024978",
+    "licUnit": "1",
     "validDate": "2024-02-20 00:00:00.000",
     "issueDate": "2009-02-20 00:00:00.000",
+    "oriIssueDate": "2009-02-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202497807",
@@ -24,12 +29,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "28A5B9BD-910E-4AEE-8726-5945B0FE1271",
+    "subCategory": [],
     "ingredientsDesc": [
         "CARTEOLOL HCL"
     ],
     "restraintItemsCode": [
-        "02",
-        "53"
+        "02 輸 入",
+        "53 依本署七七公告事項八得免除國內進行臨床試驗之特殊醫療需要之新藥"
     ],
     "applicantName": "台灣大塚製藥股份有限公司",
     "applicantAddr": "台北市中山區復興北路378號11樓",
@@ -41,25 +49,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "E3A89AC2-E8B8-4983-95EE-B2EF31328A43",
             "factoryCode": "1",
             "factoryName": "OTSUKA PHARMACEUTICAL CO., LTD. TOKUSHIMA FACTORY",
             "factoryAddr": "463-10,KAGASUNO,KAWAUCHI-CHO,TOKUSHIMA-SHI,TOKUSHIMA 771-0192,JAPAN",
-            "factoryCompanyAddr": "2-9, KANDA-TSUKASAMACHI, CHIYODA-KU TOKYO 101-8535, JAPAN",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP0246000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4C86B3E8-A907-4B3A-B780-600645694BAA",
             "factoryCode": "2",
-            "factoryName": "臺灣大塚製藥股份有限公司中壢工廠",
+            "factoryName": "台灣大塚製藥股份有限公司中壢工廠",
             "factoryAddr": "桃園市中壢區忠福里吉林路15號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -71,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "1403304300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412200710",
+            "ingredientsName": "CARTEOLOL HCL",
             "ingredientsDesc": "CARTEOLOL HCL",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -91,10 +108,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01ED05"
-        },
         {
             "isMain": "1",
             "atcCode": "S01ED05"

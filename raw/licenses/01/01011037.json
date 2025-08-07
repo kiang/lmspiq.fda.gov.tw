@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-29",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "01011037",
+    "licUnit": "1",
     "validDate": "2019-02-01 00:00:00.000",
     "issueDate": "1976-10-26 00:00:00.000",
+    "oriIssueDate": "1976-10-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101103700",
@@ -16,20 +22,23 @@
     "does": "4472",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5D80B6D0-2076-48E4-B166-B2795FC3A68D",
+    "subCategory": [],
     "ingredientsDesc": [
         "NEOMYCIN (SULFATE)",
         "DEXAMETHASONE PHOSPHATE (SODIUM)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "國際新藥工業股份有限公司",
     "applicantAddr": "新北市土城區清化村石門路４９之１號",
@@ -41,25 +50,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "710C60E4-31EB-4FA9-BC48-6DAFB58EB7AF",
             "factoryCode": "1",
             "factoryName": "國際新藥工業股份有限公司",
             "factoryAddr": "新北市土城區清化村石門路４９之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1102302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804008640",
+            "ingredientsName": "DEXAMETHASONE PHOSPHATE (SODIUM)",
             "ingredientsDesc": "DEXAMETHASONE PHOSPHATE (SODIUM)",
             "concentDesc": "(1MG) 0.83",
             "concent": null,
@@ -71,6 +86,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "(5MG) 3.5",
             "concent": null,
@@ -85,16 +101,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "S01AA03"
-        },
-        {
             "isMain": "1",
             "atcCode": "S01CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01BA01"
         }
     ],
     "licBaseId": "EBE1AFAD-2E11-4322-9647-8775B9E45687"

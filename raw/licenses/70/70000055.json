@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "70000055",
+    "licUnit": "1",
     "validDate": "2028-06-07 00:00:00.000",
     "issueDate": "2018-06-07 00:00:00.000",
+    "oriIssueDate": "2018-06-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA07000005500",
@@ -23,12 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "C38C3F5B-4414-4D45-8023-A47AF4547C6D",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "CHOLIC ACID"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "吉帝藥品股份有限公司",
     "applicantAddr": "台中市北屯區綏遠路二段216之5號6樓、216號地下一層",
@@ -40,8 +50,11 @@
     "monitorDate": "2023-06-07",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "742A727B-4D30-460D-94DB-AC4E79BAD9C3",
             "factoryCode": "1",
             "factoryName": "PATHEON FRANCE",
             "factoryAddr": "40 BOULEVARD DE CHAMPARET, 38300 BOURGOIN JALLIEU, FRANCE.",
@@ -52,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0109000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "EE9DCC71-BA46-4954-BD15-A9CD2E090850",
             "factoryCode": "2",
             "factoryName": "友華生技醫藥股份有限公司桃園製藥廠",
             "factoryAddr": "桃園市桃園區大誠路11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -70,13 +86,16 @@
             "factoryKind": "M",
             "factoryNo": "0416604300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "58E86FFF-567C-4C18-AECF-0B51C0191C31",
             "factoryCode": "2",
             "factoryName": "PATHEON PHARMACEUTICALS INC.",
             "factoryAddr": "2110 EAST GALBRAITH ROAD, CINCINNATI, OHIO 45237,USA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [
                 {
@@ -88,16 +107,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0728000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616000600",
+            "ingredientsName": "CHOLIC ACID",
             "ingredientsDesc": "CHOLIC ACID",
             "concentDesc": "",
-            "concent": "50.000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -106,32 +128,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "08C40994-5EAD-4603-8C7B-CCE1A47AB823",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AEAFBDDF-84B4-4EBC-8D61-EF4EDC1FB0A3",
-            "approvedDocNo": "1106001327",
-            "approvedDate": "2021-03-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2A3FA783-3F78-4E0A-94E5-88E9681B36A3",
-            "approvedDocNo": "1086012254",
-            "approvedDate": "2019-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

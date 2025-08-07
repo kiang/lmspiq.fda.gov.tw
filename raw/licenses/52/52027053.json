@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027053",
+    "licUnit": "1",
     "validDate": "2027-04-14 00:00:00.000",
     "issueDate": "2017-04-14 00:00:00.000",
+    "oriIssueDate": "2017-04-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202705302",
@@ -23,12 +27,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "A4BE2475-82FA-4FD5-B80F-DB575D39E633",
+    "subCategory": [
+        "A06"
+    ],
     "ingredientsDesc": [
         "QUETIAPINE FUMARATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "26"
+        "02 輸 入",
+        "26 監視期滿新藥"
     ],
     "applicantName": "西海生技股份有限公司",
     "applicantAddr": "臺北市中山區民權東路二段46號10樓之2",
@@ -40,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "89E41550-F4D0-46DB-B973-5FC0A7614181",
             "factoryCode": "1",
             "factoryName": "PHARMATHEN INTERNATIONAL S.A.",
             "factoryAddr": "INDUSTRIAL PARK, 5TH BLOCK, 69300, SAPES, RODOPI, GREECE",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FGR0044000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037620",
+            "ingredientsName": "QUETIAPINE FUMARATE",
             "ingredientsDesc": "QUETIAPINE FUMARATE",
             "concentDesc": "(equivalent to Quetiapine.....150mg)",
-            "concent": "172.680",
+            "concent": "172.680000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,56 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "266BD8C1-27C8-4588-87D2-97CD87F06E27",
-            "approvedDocNo": "1120715455",
-            "approvedDate": "2023-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F2C8F931-EC34-495A-BF19-7B24F0AF2459",
-            "approvedDocNo": "1110720348",
-            "approvedDate": "2022-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6BA55AAE-E7A6-4807-A75B-6D2A575837D0",
-            "approvedDocNo": "1106027348",
-            "approvedDate": "2022-06-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8C15CF22-5448-40E8-AC71-CA94D8E2DCB5",
-            "approvedDocNo": "1106005201",
-            "approvedDate": "2021-08-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ACA6032F-617A-4C90-B126-7DB267F1D618",
-            "approvedDocNo": "1096031573",
-            "approvedDate": "2021-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "65B7BF69-C2D7-4AFE-84A0-BFAFD3434B24",
-            "approvedDocNo": "1096028481",
-            "approvedDate": "2020-09-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

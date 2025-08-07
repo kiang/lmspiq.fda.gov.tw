@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-29",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "01049736",
+    "licUnit": "1",
     "validDate": "2023-10-22 00:00:00.000",
     "issueDate": "2008-10-22 00:00:00.000",
+    "oriIssueDate": "2008-10-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104973603",
@@ -27,13 +33,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4E710F87-998E-4F36-90E7-50AFE797D3B5",
+    "subCategory": [],
     "ingredientsDesc": [
         "PROMETHAZINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "東洲化學製藥廠股份有限公司",
     "applicantAddr": "新北市蘆洲區中山二路195巷12號1-2樓",
@@ -45,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "3D7E1DE4-67B2-43A6-9CAD-EE89736898A5",
             "factoryCode": "1",
             "factoryName": "壽元化學工業股份有限公司",
             "factoryAddr": "嘉義市西區新民路128號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1421417300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400003310",
+            "ingredientsName": "PROMETHAZINE HCL",
             "ingredientsDesc": "PROMETHAZINE HCL",
             "concentDesc": "",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -79,10 +94,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "R06AD02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "R06AD02"
         }
     ],

@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-04",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01018162",
+    "licUnit": "1",
     "validDate": "2023-05-25 00:00:00.000",
     "issueDate": "1979-07-20 00:00:00.000",
+    "oriIssueDate": "1979-07-20",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00101816209",
@@ -16,21 +22,24 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": "X",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2F63F42C-6F50-40E9-8155-D8F795633A3B",
+    "subCategory": [],
     "ingredientsDesc": [
         "PHENOBARBITAL",
         "DICYCLOMINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G"
+        "01 國 產",
+        "09 委託製造",
+        "1G 依藥品審查準則第64條 不得製造"
     ],
     "applicantName": "北進國際有限公司",
     "applicantAddr": "台北市大安區復興南路二段35號12樓之3",
@@ -42,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "B743A587-3E32-4CD5-B1F6-9E49774EEFF0",
             "factoryCode": "1",
             "factoryName": "強生化學製藥廠股份有限公司",
             "factoryAddr": "新北市三重區三和路四段77號2、3樓、79號1至6樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1110202300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208001810",
+            "ingredientsName": "DICYCLOMINE HCL",
             "ingredientsDesc": "DICYCLOMINE HCL",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824401200",
+            "ingredientsName": "PHENOBARBITAL",
             "ingredientsDesc": "PHENOBARBITAL",
             "concentDesc": "15",
-            "concent": "15.0000",
+            "concent": "15.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,14 +101,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N03AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03AA07"
-        },
         {
             "isMain": "1",
             "atcCode": "A03AA"

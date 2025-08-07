@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044234",
+    "licUnit": "1",
     "validDate": "2026-01-30 00:00:00.000",
     "issueDate": "2001-01-30 00:00:00.000",
+    "oriIssueDate": "2001-01-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104423406",
@@ -27,12 +31,15 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "47CA994C-C090-49C8-8992-197F8D9297F6",
+    "subCategory": [],
     "ingredientsDesc": [
         "INDOMETHACIN (eq to Indometacin)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "西德有機化學藥品股份有限公司",
     "applicantAddr": "新北市三重中正北路560巷36號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "07ADB672-8A1D-4913-A102-613B3A65DEF0",
             "factoryCode": "1",
             "factoryName": "西德有機化學藥品股份有限公司",
             "factoryAddr": "新北市三重區中正北路５６０巷３６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0608302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000800",
+            "ingredientsName": "INDOMETHACIN (eq to Indometacin)",
             "ingredientsDesc": "INDOMETHACIN (eq to Indometacin)",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,24 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8BB5BC13-E386-4DAE-8FFA-B26E0DC1C9D9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6595F114-E5B9-4B5B-AB1C-EAAD5275EA11",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

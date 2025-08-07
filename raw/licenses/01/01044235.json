@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044235",
+    "licUnit": "1",
     "validDate": "2026-01-30 00:00:00.000",
     "issueDate": "2001-01-30 00:00:00.000",
+    "oriIssueDate": "2001-01-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104423508",
@@ -35,6 +39,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B138E06A-79C3-433A-B426-B785E6588B49",
+    "subCategory": [],
     "ingredientsDesc": [
         "IODOCHLORHYDROXYQUIN",
         "BETAMETHASONE",
@@ -42,7 +49,7 @@
         "TOLNAFTATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "元福國際股份有限公司",
     "applicantAddr": "彰化縣溪州鄉瓦厝村頂東路56號",
@@ -54,28 +61,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "D8F43369-3E46-4C33-9689-64BAC2A5EB26",
             "factoryCode": "1",
             "factoryName": "衛達化學製藥股份有限公司",
             "factoryAddr": "台中市南屯區寶山里工業區２３路２１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1605609300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000200",
+            "ingredientsName": "BETAMETHASONE",
             "ingredientsDesc": "BETAMETHASONE",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -84,6 +97,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812100310",
+            "ingredientsName": "GENTAMICIN SULFATE",
             "ingredientsDesc": "GENTAMICIN SULFATE",
             "concentDesc": "(POTENCY)      1",
             "concent": null,
@@ -95,9 +109,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404801300",
+            "ingredientsName": "TOLNAFTATE",
             "ingredientsDesc": "TOLNAFTATE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -106,9 +121,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0804000900",
+            "ingredientsName": "IODOCHLORHYDROXYQUIN",
             "ingredientsDesc": "IODOCHLORHYDROXYQUIN",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -117,92 +133,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2A7617F3-ABFA-4159-8D55-85618EFA902F",
-            "approvedDocNo": "1119065201",
-            "approvedDate": "2023-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C1960891-90C3-4E36-983A-DACA2F8F5EC3",
-            "approvedDocNo": "1119065201",
-            "approvedDate": "2023-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "55A865D0-BB7A-4A03-A703-C7F22C64CF48",
-            "approvedDocNo": "1110811863",
-            "approvedDate": "2023-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EB9D04C3-4A70-4583-B9AF-85B853B6DA5E",
-            "approvedDocNo": "1110811863",
-            "approvedDate": "2023-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4DFF53AC-7EB2-406A-B8A9-929989C7DD27",
-            "approvedDocNo": "1101491954",
-            "approvedDate": "2021-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "96815411-493A-492E-9FE2-0F37A52A3DF8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-05-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B4A5D29C-F78E-4BDE-B9F4-D1796EBF8D1E",
-            "approvedDocNo": "1076615546",
-            "approvedDate": "2019-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C2A5E837-DC68-4DD8-8707-BC6B7748E745",
-            "approvedDocNo": "1076615546",
-            "approvedDate": "2019-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D08AH30"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AE18"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
-        },
         {
             "isMain": "1",
             "atcCode": "D07CC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX07"
         }
     ],
     "licBaseId": "19FE53AD-325B-46A3-9259-2CEB5F7A02F8"

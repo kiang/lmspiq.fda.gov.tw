@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-29",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "01021623",
+    "licUnit": "1",
     "validDate": "2023-12-31 00:00:00.000",
     "issueDate": "1980-06-19 00:00:00.000",
+    "oriIssueDate": "1980-06-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102162303",
@@ -16,13 +22,16 @@
     "does": "1154",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E3C6A59D-1807-425E-9F6A-B3FF1A3FC817",
+    "subCategory": [],
     "ingredientsDesc": [
         "DIPROPHYLLINE",
         "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)",
@@ -31,7 +40,7 @@
         "DL-METHYLEPHEDRINE HCL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "東洲化學製藥廠股份有限公司",
     "applicantAddr": "新北市蘆洲區中山二路195巷12號1-2樓",
@@ -43,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A9C0923F-B127-4E4A-BC1A-EF20BB37DF75",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
-            "concent": "8.0000",
+            "concent": "8.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8600001510",
+            "ingredientsName": "PAPAVERINE HCL",
             "ingredientsDesc": "PAPAVERINE HCL",
             "concentDesc": "",
-            "concent": "15.0000",
+            "concent": "15.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -95,9 +112,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8600002600",
+            "ingredientsName": "DIPROPHYLLINE",
             "ingredientsDesc": "DIPROPHYLLINE",
             "concentDesc": "",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -106,9 +124,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824000300",
+            "ingredientsName": "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)",
             "ingredientsDesc": "BROMISOVALUM ( EQ TO BROMOVALERYLUREA) ( EQ TO BROMVALETONE)",
             "concentDesc": "",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -120,28 +139,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "N05CM03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03DA01"
-        },
-        {
             "isMain": "1",
             "atcCode": "R03DB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03AD01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB02"
         }
     ],
     "licBaseId": "6AB7525D-6CF1-41E8-AC5C-C3F27100EA87"

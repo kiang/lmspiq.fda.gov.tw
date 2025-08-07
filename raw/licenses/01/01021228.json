@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-04",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01021228",
+    "licUnit": "1",
     "validDate": "2023-04-11 00:00:00.000",
     "issueDate": "1980-04-11 00:00:00.000",
+    "oriIssueDate": "1980-04-11",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00102122800",
@@ -16,19 +22,22 @@
     "does": "1130",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C64FB4DD-64A7-4816-A5EC-6FD392C0CD5C",
+    "subCategory": [],
     "ingredientsDesc": [
         "LOPERAMIDE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造"
     ],
     "applicantName": "北進國際有限公司",
     "applicantAddr": "台北市大安區復興南路二段35號12樓之3",
@@ -40,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "4D2603A0-621F-45B7-8F62-761031508F67",
             "factoryCode": "1",
             "factoryName": "強生化學製藥廠股份有限公司",
             "factoryAddr": "新北市三重區三和路四段77號2、3樓、79號1至6樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1110202300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5608000810",
+            "ingredientsName": "LOPERAMIDE HCL",
             "ingredientsDesc": "LOPERAMIDE HCL",
             "concentDesc": "2",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",

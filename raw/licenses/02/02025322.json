@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025322",
+    "licUnit": "1",
     "validDate": "2026-01-17 00:00:00.000",
     "issueDate": "2011-01-17 00:00:00.000",
+    "oriIssueDate": "2011-01-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202532200",
@@ -27,11 +31,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AD16F12F-9FCD-4F00-AF6D-23F645ED9DCB",
+    "subCategory": [],
     "ingredientsDesc": [
         "NOREPINEPHRINE BITARTRATE (MONOHYDRATE)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "輝瑞大藥廠股份有限公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -43,25 +50,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "DE343A75-0E10-41CD-B151-75D108EB6A3D",
             "factoryCode": "1",
             "factoryName": "HOSPIRA INC.",
             "factoryAddr": "1776 NORTH CENTENNIAL DRIVE, MCPHERSON, KANSAS 67460, USA",
-            "factoryCompanyAddr": "275 NORTH FIELD DRIVE, P.O. BOX 5045, LAKE FOREST, IL 60045-5045, USA",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FUS0300000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "6D55079E-1FDE-492F-81B6-404F75C7D96E",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "",
             "processCode": [
                 {
@@ -73,16 +86,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002015",
+            "ingredientsName": "NOREPINEPHRINE BITARTRATE (MONOHYDRATE)",
             "ingredientsDesc": "NOREPINEPHRINE BITARTRATE (MONOHYDRATE)",
             "concentDesc": "Each ml contains Norepinephrine Bitartrate 2.0mg, equivalent to Norepinephrine base 1.0mg ",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -91,95 +107,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "70480801-B7CB-4B09-A4A7-F7A1AF4D23EA",
-            "approvedDocNo": "1129055631",
-            "approvedDate": "2024-01-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F852A269-FA17-4FF3-90F3-962AC39ACA63",
-            "approvedDocNo": "1106030471",
-            "approvedDate": "2022-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F7EAF483-7E20-4A21-B04B-48654AA97281",
-            "approvedDocNo": "1119011903",
-            "approvedDate": "2022-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E2F35108-FFBE-4358-967F-60D51B785AE7",
-            "approvedDocNo": "1106018951",
-            "approvedDate": "2021-11-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "852B4BA3-6067-4186-913E-610EF2AC7ED5",
-            "approvedDocNo": "1096027732",
-            "approvedDate": "2021-01-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "098E686E-C9B8-4141-B482-B0904BBB8D14",
-            "approvedDocNo": "1096027732",
-            "approvedDate": "2021-01-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "151FD96A-8B19-4733-9E95-145A52D59A17",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2DB2BE74-D28C-40CE-99FE-7687D5B91072",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4C7FBF01-57AB-45DF-9503-A79A873B2ACF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED06CF4D-913A-4AFE-B720-C3EA01BDDBA0",
-            "approvedDocNo": "1076037714",
-            "approvedDate": "2019-07-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "C01CA03"
-        },
-        {
-            "isMain": "2",
             "atcCode": "C01CA03"
         }
     ],

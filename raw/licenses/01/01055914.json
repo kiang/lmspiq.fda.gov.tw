@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055914",
+    "licUnit": "1",
     "validDate": "2026-01-11 00:00:00.000",
     "issueDate": "2011-01-11 00:00:00.000",
+    "oriIssueDate": "2011-01-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105591400",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6112943A-29F6-4F0B-8A33-2AF8F7F0D44B",
+    "subCategory": [],
     "ingredientsDesc": [
         "EPHEDRINE SULFATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "德聯藥品有限公司",
     "applicantAddr": "台北市大安區忠孝東路四段52號5樓",
@@ -39,28 +46,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "785DB39D-740C-45F3-944E-4C43ABD267C8",
             "factoryCode": "1",
             "factoryName": "黃氏製藥股份有限公司",
             "factoryAddr": "雲林縣斗南鎮大同路444巷11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1223216300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212000520",
+            "ingredientsName": "EPHEDRINE SULFATE",
             "ingredientsDesc": "EPHEDRINE SULFATE",
             "concentDesc": null,
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,10 +86,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "R03CA02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "R03CA02"
         }
     ],

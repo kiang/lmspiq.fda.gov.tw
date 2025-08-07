@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033457",
+    "licUnit": "1",
     "validDate": "2026-01-10 00:00:00.000",
     "issueDate": "1991-01-10 00:00:00.000",
+    "oriIssueDate": "1991-01-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103345702",
@@ -16,22 +20,25 @@
     "does": "1130",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "49299753-E647-4393-B558-7042BB242B42",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLINDAMYCIN HCL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "中國化學製藥股份有限公司新豐工廠",
     "applicantAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "F34BB8C3-0F85-4D88-9F18-BE89E0B602D6",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812000218",
+            "ingredientsName": "CLINDAMYCIN HCL",
             "ingredientsDesc": "CLINDAMYCIN HCL",
             "concentDesc": "190.74",
-            "concent": "190.7400",
+            "concent": "190.740000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -73,16 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "92BAA6D6-2F6A-4FA3-B4E2-E86CD1CD8968",
-            "approvedDocNo": "1096008665",
-            "approvedDate": "2020-06-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

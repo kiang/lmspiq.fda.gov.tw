@@ -1,11 +1,16 @@
 {
-    "cancelStatus": "0",
-    "licStatus": "1",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-10",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "02024988",
+    "licUnit": "1",
     "validDate": "2029-03-09 00:00:00.000",
     "issueDate": "2009-03-09 00:00:00.000",
+    "oriIssueDate": "2009-03-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202498800",
@@ -24,11 +29,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B2F935E5-106A-442A-B8CA-D6E13298CFBA",
+    "subCategory": [],
     "ingredientsDesc": [
         "RALTEGRAVIR POTASSIUM"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "美商默沙東藥廠股份有限公司台灣分公司",
     "applicantAddr": "台北市信義區信義路五段106號12樓",
@@ -40,25 +48,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "9F1215F2-8473-4071-92BD-A5A6FAC58978",
             "factoryCode": "1",
             "factoryName": "MSD International GmbH",
             "factoryAddr": "Ballydine, Kilsheelan, Clonmel, Co. Tipperary, Ireland",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIE0079100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "CC3A42E2-4C17-456A-8F37-E62314252229",
             "factoryCode": "2",
             "factoryName": "MERCK SHARP & DOHME B.V.",
             "factoryAddr": "WAARDERWEG 39,2031 BN,HAARLEM,THE NETHERLANDS",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "NL",
             "processCode": [
                 {
@@ -70,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FNL0016000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818003910",
+            "ingredientsName": "RALTEGRAVIR POTASSIUM",
             "ingredientsDesc": "RALTEGRAVIR POTASSIUM",
             "concentDesc": "(Raltegravir 400mg)",
-            "concent": "434.4000",
+            "concent": "434.400000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,48 +105,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5707ED09-6208-426E-B9FB-E3872376AA92",
-            "approvedDocNo": "1106003906",
-            "approvedDate": "2021-11-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "29F9CDAD-C23A-4CE8-8097-436BE472FF6D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "52933573-4FDC-4654-A650-AECBE266185D",
-            "approvedDocNo": "1086002003",
-            "approvedDate": "2019-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "64FEDA56-998E-4CB7-81A8-5C225760F5FD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3F06364F-9397-479B-A2C4-9C1E9CF0E4C2",
-            "approvedDocNo": "1086002785",
-            "approvedDate": "2019-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

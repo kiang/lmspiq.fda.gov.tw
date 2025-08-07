@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-17",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "01042366",
+    "licUnit": "1",
     "validDate": "2028-06-22 00:00:00.000",
     "issueDate": "1998-06-22 00:00:00.000",
+    "oriIssueDate": "1998-06-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104236600",
@@ -27,14 +33,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "86A08BC9-DA40-42E4-B270-8828F576FB67",
+    "subCategory": [],
     "ingredientsDesc": [
         "MAGNESIUM CARBONATE",
         "OXETHAZAINE",
         "Aluminum Hydroxide Dried"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "美商惠氏藥廠（亞洲）股份有限公司台灣分公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -46,28 +55,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "4F1121AA-1EEE-44CB-B7EB-C788A008F1B7",
             "factoryCode": "1",
             "factoryName": "輝瑞生技股份有限公司新竹廠",
             "factoryAddr": "新竹縣新豐鄉中崙村中崙二九０之一號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "1409906300",
+            "factoryNo": "6133080025",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002900",
+            "ingredientsName": "OXETHAZAINE",
             "ingredientsDesc": "OXETHAZAINE",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +91,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000260",
+            "ingredientsName": "Aluminum Hydroxide Dried",
             "ingredientsDesc": "Aluminum Hydroxide Dried",
             "concentDesc": "",
-            "concent": "165.0000",
+            "concent": "165.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,9 +103,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002400",
+            "ingredientsName": "MAGNESIUM CARBONATE",
             "ingredientsDesc": "MAGNESIUM CARBONATE",
             "concentDesc": "84",
-            "concent": "84.0000",
+            "concent": "84.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -98,56 +115,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "417296F7-E887-4C4B-B52F-060639E72879",
-            "approvedDocNo": "1129011627",
-            "approvedDate": "2023-05-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "65062808-A77E-4590-8F56-AD9C3B28F145",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A8A69823-D8E6-46DF-960C-B012836F213F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2F7115EF-CB79-415D-A5EC-C0D37ACFA05C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
         {
             "isMain": "1",
             "atcCode": "A02X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA01"
         }
     ],
     "licBaseId": "EA02ACA1-BD71-400F-AF31-277E22D1B785"

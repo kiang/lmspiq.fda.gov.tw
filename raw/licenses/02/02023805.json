@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-24",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "02023805",
+    "licUnit": "1",
     "validDate": "2023-08-25 00:00:00.000",
     "issueDate": "2003-08-25 00:00:00.000",
+    "oriIssueDate": "2003-08-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202380500",
@@ -23,13 +29,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EE776524-6BF5-4705-98D2-4B7742ACC3E6",
+    "subCategory": [],
     "ingredientsDesc": [
         "VARDENAFIL HYDROCHLORIDE TRIHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "52"
+        "02 輸 入",
+        "07 新藥監視",
+        "52 依本署七七公告於國內進行臨床試驗且核定為新藥"
     ],
     "applicantName": "台灣拜耳股份有限公司",
     "applicantAddr": "臺北市信義區信義路5段7號53樓",
@@ -41,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "C2F3AFCE-E0F8-44AC-ADDC-7112A6BFCEAC",
             "factoryCode": "1",
             "factoryName": "Bayer AG",
             "factoryAddr": "Kaiser-Wilhelm-Allee, 51368 Leverkusen, Germany",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FDE0438200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200043210",
+            "ingredientsName": "VARDENAFIL HYDROCHLORIDE TRIHYDRATE",
             "ingredientsDesc": "VARDENAFIL HYDROCHLORIDE TRIHYDRATE",
             "concentDesc": null,
-            "concent": "23.7050",
+            "concent": "23.705000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -71,48 +86,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7AF0C0CA-49A5-4473-B0C6-68F244E47C95",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3E84738B-F98B-461D-A07C-B0D621CF5BFC",
-            "approvedDocNo": "1086036849",
-            "approvedDate": "2020-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "754948BB-0314-4E5C-B200-7557DAEAF514",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7B8700D4-7A17-432A-8D78-BD48770DBE51",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D4DC4548-3A4D-43B1-9E2D-EAB82C0F1362",
-            "approvedDocNo": "1076035440",
-            "approvedDate": "2019-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

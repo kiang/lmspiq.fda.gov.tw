@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055920",
+    "licUnit": "1",
     "validDate": "2026-01-14 00:00:00.000",
     "issueDate": "2011-01-14 00:00:00.000",
+    "oriIssueDate": "2011-01-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105592008",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4178E1E2-57B5-4311-85C5-AC4C9C12FDE7",
+    "subCategory": [],
     "ingredientsDesc": [
         "METHYLPREDNISOLONE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "永勝藥品工業股份有限公司",
     "applicantAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路6-3號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "F76113B9-57CB-42B2-96FE-8262AA99CAEC",
             "factoryCode": "1",
             "factoryName": "永勝藥品工業股份有限公司",
             "factoryAddr": "嘉義縣民雄鄉頭橋工業區工業三路6-3號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6140040022",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001300",
+            "ingredientsName": "METHYLPREDNISOLONE",
             "ingredientsDesc": "METHYLPREDNISOLONE",
             "concentDesc": null,
-            "concent": "8.0000",
+            "concent": "8.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -78,10 +91,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "H02AB04"
-        },
-        {
-            "isMain": "2",
             "atcCode": "H02AB04"
         }
     ],

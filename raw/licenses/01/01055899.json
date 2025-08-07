@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055899",
+    "licUnit": "1",
     "validDate": "2026-01-04 00:00:00.000",
     "issueDate": "2011-01-04 00:00:00.000",
+    "oriIssueDate": "2011-01-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105589904",
@@ -27,14 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2FB13713-0178-4054-BB1E-A317DDE30D4B",
+    "subCategory": [],
     "ingredientsDesc": [
         "DOXEPIN HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R",
-        "24"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "臺灣汎生製藥廠股份有限公司",
     "applicantAddr": "高雄市鳥松區坔埔里大同路5-1號及神農路330號",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "CF735FD6-4BE4-45C0-BEBC-FCB5D4754CDE",
             "factoryCode": "1",
             "factoryName": "臺灣汎生製藥廠股份有限公司",
             "factoryAddr": "高雄市鳥松區?埔里大同路5-1號及神農路330號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1405522200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816600610",
+            "ingredientsName": "DOXEPIN HCL",
             "ingredientsDesc": "DOXEPIN HCL",
             "concentDesc": null,
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,21 +89,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1FA5A1AF-0062-4515-AAF3-A5400B9A64CF",
-            "approvedDocNo": "1080004797",
-            "approvedDate": "2019-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D04AX"
-        },
         {
             "isMain": "1",
             "atcCode": "D04AX"

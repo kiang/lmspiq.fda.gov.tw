@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-10-04",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "10000910",
+    "licUnit": "1",
     "validDate": "2026-01-12 00:00:00.000",
     "issueDate": "2011-01-12 00:00:00.000",
+    "oriIssueDate": "2011-01-12",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000091002",
@@ -37,16 +41,21 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "D0982753-B41A-4980-91FC-625C93E99939",
+    "subCategory": [
+        "C06"
+    ],
     "ingredientsDesc": [
         "HUMAN THROMBIN",
         "FIBRINOGEN HUMAN"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "壯生醫療器材股份有限公司",
-    "applicantAddr": "臺北市中山區民生東路三段2號10樓及11樓",
+    "applicantAddr": "臺北市中山區民生東路3段2號10樓及11樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -55,25 +64,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "EC509E8D-234C-4D44-B666-B98FB0009D6B",
             "factoryCode": "1",
             "factoryName": "OMRIX BIOPHARMACEUTICALS LTD.",
             "factoryAddr": "MDA BLOOD BANK, SHEBA HOSPITAL, RAMAT GAN, POB 888, KIRYAT ONO 5510801, ISRAEL",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IL",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIL0026000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004000810",
+            "ingredientsName": "FIBRINOGEN HUMAN",
             "ingredientsDesc": "FIBRINOGEN HUMAN",
             "concentDesc": "50-90",
             "concent": null,
@@ -85,6 +100,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012101103",
+            "ingredientsName": "HUMAN THROMBIN",
             "ingredientsDesc": "HUMAN THROMBIN",
             "concentDesc": "800-1200",
             "concent": null,
@@ -96,56 +112,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "46762869-51EB-4703-89CE-4F7485E98B4C",
-            "approvedDocNo": "1101490702",
-            "approvedDate": "2021-08-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7417DC6B-6578-43BE-8E26-8C8A0CCA90A2",
-            "approvedDocNo": "1096006586",
-            "approvedDate": "2020-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CCDC4DD0-9577-4FD5-A001-BE0A6266BB82",
-            "approvedDocNo": "1096008111",
-            "approvedDate": "2020-05-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8BF31D90-6B3D-4740-9E30-F8753967A2D9",
-            "approvedDocNo": "1086026629",
-            "approvedDate": "2019-12-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0FBF1147-3A39-49A5-B6CB-E5F42954F446",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "B02BC30"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B02BC06"
         }
     ],
     "licBaseId": "8412533F-DC05-41D7-AA87-EBC447A753AF"

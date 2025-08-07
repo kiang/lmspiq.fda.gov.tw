@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-29",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "03014843",
+    "licUnit": "1",
     "validDate": "2023-01-08 00:00:00.000",
     "issueDate": "2008-01-08 00:00:00.000",
+    "oriIssueDate": "2008-01-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00301484303",
@@ -23,12 +29,15 @@
     "medMCode": "13",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "007E41F7-8BF3-49CA-B550-33CA0E49ED3E",
+    "subCategory": [],
     "ingredientsDesc": [
         "ETHYL ALCOHOL 95%"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "復生西藥房",
     "applicantAddr": "台南市東區衛國街102號1樓",
@@ -40,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "F70C1B91-F84E-4B34-97B5-BB25C3242B9D",
             "factoryCode": "1",
             "factoryName": "生發化學生技股份有限公司",
             "factoryAddr": "台中市霧峰區霧工三路11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6217074332",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600081510",
+            "ingredientsName": "ETHYL ALCOHOL 95%",
             "ingredientsDesc": "ETHYL ALCOHOL 95%",
             "concentDesc": "(equivalent to Ethanol 0.75ml)",
-            "concent": "0.7900",
+            "concent": "0.790000",
             "concentUnit": "003",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,37 +85,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DB973D18-3DF3-4E90-9FD3-4B8D4EC0BA93",
-            "approvedDocNo": "1080016657",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "038A66E9-9C21-40E1-A9E7-5C0C90BF22EA",
-            "approvedDocNo": "1080016657",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "244E02D7-DD9E-47E2-A1FB-7258B35FCE0E",
-            "approvedDocNo": "1080016657",
-            "approvedDate": "2019-09-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D08AX08"
-        },
         {
             "isMain": "1",
             "atcCode": "D08AX08"

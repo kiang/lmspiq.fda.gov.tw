@@ -1,11 +1,16 @@
 {
-    "cancelStatus": "0",
-    "licStatus": "1",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-24",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "02017081",
+    "licUnit": "1",
     "validDate": "2024-02-23 00:00:00.000",
     "issueDate": "2014-02-23 00:00:00.000",
+    "oriIssueDate": "1989-02-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201708108",
@@ -31,13 +36,18 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "8C745EBF-AF89-4780-BC08-EC5D3A49FE45",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "STERCULIA"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "台灣美強股份有限公司",
     "applicantAddr": "臺北市中山區南京東路2段66號4樓",
@@ -49,8 +59,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "DD4DBE35-6463-4AA4-A5BC-32388B8B8EE1",
             "factoryCode": "1",
             "factoryName": "NORGINE PHARMA",
             "factoryAddr": "29 Rue Ethe Virton 28100 Dreux France",
@@ -66,9 +79,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0246000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4182A9AC-64FE-46F0-94AE-6A940C13ACB9",
             "factoryCode": "2",
             "factoryName": "NORGINE LIMITED",
             "factoryAddr": "NORGINE HOUSE WIDEWATER PLACE MOORHALL ROAD HAREFIELD UXBRIDGE MIDDLESEX UB9 6NS U.K.",
@@ -84,16 +100,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0259000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9900054400",
+            "ingredientsName": "STERCULIA",
             "ingredientsDesc": "STERCULIA",
             "concentDesc": "",
-            "concent": "620.0000",
+            "concent": "620.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -102,40 +121,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E571FAA6-5981-4CE6-9008-782CD6DC4C4C",
-            "approvedDocNo": "1110007242",
-            "approvedDate": "2022-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E7D8049F-3F82-4144-865A-AEC1EF014609",
-            "approvedDocNo": "1110007242",
-            "approvedDate": "2022-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9891DF05-FD5B-4DBB-BB4B-488D23592A8F",
-            "approvedDocNo": "1100035198",
-            "approvedDate": "2022-02-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1F640533-7A18-4DCB-A420-4CAE72E13587",
-            "approvedDocNo": "1101491453",
-            "approvedDate": "2021-04-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

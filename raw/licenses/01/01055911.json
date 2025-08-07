@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055911",
+    "licUnit": "1",
     "validDate": "2026-01-11 00:00:00.000",
     "issueDate": "2011-01-11 00:00:00.000",
+    "oriIssueDate": "2011-01-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105591107",
@@ -22,12 +26,17 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "F1D2A856-4EFA-4ACA-8E02-DC16614AA078",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "POVIDONE-IODINE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "維星生技有限公司",
     "applicantAddr": "臺中市北區國強街3號1樓、2樓",
@@ -39,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "AE6D3A99-14FD-48D8-B3E7-6A32B9FBEF57",
             "factoryCode": "1",
-            "factoryName": "恆安製藥工業股份有限公司",
+            "factoryName": "恒安製藥工業股份有限公司",
             "factoryAddr": "台中市工業區一路101號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0906209300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404603400",
+            "ingredientsName": "POVIDONE-IODINE",
             "ingredientsDesc": "POVIDONE-IODINE",
             "concentDesc": "(Equivalent to available iodine 10 mg)",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -69,71 +84,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "04235B32-C975-47E3-97EE-84DDD75D15C7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-03-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9FAA0A2C-BD30-4969-ABD0-CF2611C794D6",
-            "approvedDocNo": "1096607703",
-            "approvedDate": "2020-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "150DE23B-8FE3-4184-BACE-D9C8CD61C323",
-            "approvedDocNo": "1096607703",
-            "approvedDate": "2020-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B910E6A7-ACD1-4CE5-B303-46368AC26627",
-            "approvedDocNo": "1096607703",
-            "approvedDate": "2020-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "79697842-E965-401C-9CCA-FA6D160FD75F",
-            "approvedDocNo": "1096607703",
-            "approvedDate": "2020-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A7422EA5-F979-42CD-BA2D-2111ECF36BB7",
-            "approvedDocNo": "1086609461",
-            "approvedDate": "2019-10-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DC369BEF-85A9-4066-95BF-E0CA61D82BD8",
-            "approvedDocNo": "1086609461",
-            "approvedDate": "2019-10-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D08AG02"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D08AG02"
         }
     ],

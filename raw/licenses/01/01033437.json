@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033437",
+    "licUnit": "1",
     "validDate": "2026-01-03 00:00:00.000",
     "issueDate": "1991-01-03 00:00:00.000",
+    "oriIssueDate": "1991-01-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103343709",
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E94DA682-AA26-47A6-A68E-FCF68C888C69",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLYCYRRHIZA POWDER",
         "GINGER POWDER",
@@ -44,7 +51,7 @@
         "PHELLODENDRON BARK POWDER (EQ TO POWDERED PHELLODENDRON BARK)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "五洲製藥股份有限公司",
     "applicantAddr": "桃園市新屋區赤欄里17之1號",
@@ -56,28 +63,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "9B03BB48-84F0-4F71-B68F-9B788A5CE514",
             "factoryCode": "1",
             "factoryName": "五洲製藥股份有限公司",
             "factoryAddr": "桃園市新屋區赤欄里１７號之１",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0413004300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": "",
-            "concent": "400.0000",
+            "concent": "400.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -86,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604001210",
+            "ingredientsName": "CALCIUM CARBONATE HEAVY",
             "ingredientsDesc": "CALCIUM CARBONATE HEAVY",
             "concentDesc": "",
-            "concent": "350.0000",
+            "concent": "350.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -97,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000501",
+            "ingredientsName": "MAGNESIUM ALUMINUM METASILICATE (NEUSILIN)",
             "ingredientsDesc": "MAGNESIUM ALUMINUM METASILICATE (NEUSILIN)",
             "concentDesc": "",
-            "concent": "300.0000",
+            "concent": "300.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -108,9 +123,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000100",
+            "ingredientsName": "CINNAMON (CINNAMON CORTEX ) (CINNAMON BARK)",
             "ingredientsDesc": "CINNAMON (CINNAMON CORTEX ) (CINNAMON BARK)",
             "concentDesc": "",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -119,9 +135,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000401",
+            "ingredientsName": "GINGER POWDER",
             "ingredientsDesc": "GINGER POWDER",
             "concentDesc": "",
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -130,9 +147,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200000301",
+            "ingredientsName": "CLOVE POWDER",
             "ingredientsDesc": "CLOVE POWDER",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "7",
             "prescription_seq": "1",
@@ -141,9 +159,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000300",
+            "ingredientsName": "FENNEL (FOENICULUM)",
             "ingredientsDesc": "FENNEL (FOENICULUM)",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "8",
             "prescription_seq": "1",
@@ -152,9 +171,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200080100",
+            "ingredientsName": "POWDERED AMOMUM SEED",
             "ingredientsDesc": "POWDERED AMOMUM SEED",
             "concentDesc": "",
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "9",
             "prescription_seq": "1",
@@ -163,9 +183,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616000802",
+            "ingredientsName": "GENTIAN POWDER",
             "ingredientsDesc": "GENTIAN POWDER",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "10",
             "prescription_seq": "1",
@@ -174,9 +195,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640001512",
+            "ingredientsName": "PHELLODENDRON BARK POWDER (EQ TO POWDERED PHELLODENDRON BARK)",
             "ingredientsDesc": "PHELLODENDRON BARK POWDER (EQ TO POWDERED PHELLODENDRON BARK)",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "11",
             "prescription_seq": "1",
@@ -185,9 +207,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004402",
+            "ingredientsName": "GLYCYRRHIZA POWDER",
             "ingredientsDesc": "GLYCYRRHIZA POWDER",
             "concentDesc": "",
-            "concent": "90.0000",
+            "concent": "90.000000",
             "concentUnit": "001",
             "seq": "12",
             "prescription_seq": "1",
@@ -196,9 +219,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208004502",
+            "ingredientsName": "SCOPOLIA EXTRACT",
             "ingredientsDesc": "SCOPOLIA EXTRACT",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "13",
             "prescription_seq": "1",
@@ -207,9 +231,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616000312",
+            "ingredientsName": "BILE OX POWDER (GALL OF POWDER)",
             "ingredientsDesc": "BILE OX POWDER (GALL OF POWDER)",
             "concentDesc": "",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "14",
             "prescription_seq": "1",
@@ -218,9 +243,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400007130",
+            "ingredientsName": "BIODIASTASE 1000",
             "ingredientsDesc": "BIODIASTASE 1000",
             "concentDesc": "",
-            "concent": "16.0000",
+            "concent": "16.000000",
             "concentUnit": "001",
             "seq": "19",
             "prescription_seq": "1",
@@ -229,55 +255,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "89C11FC7-E693-41F4-8015-2EA778922566",
-            "approvedDocNo": "1086020204",
-            "approvedDate": "2019-11-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02BX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AH"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AD05"
-        },
-        {
             "isMain": "1",
-            "atcCode": "A09AA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A05AA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
             "atcCode": "A09AA"
         }
     ],

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025319",
+    "licUnit": "1",
     "validDate": "2026-01-12 00:00:00.000",
     "issueDate": "2011-01-12 00:00:00.000",
+    "oriIssueDate": "2011-01-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202531901",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "E5DA7ECA-DAB2-4B48-9BB0-B3D1BD73E3CD",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "ALLANTOIN",
         "LIDOCAINE",
@@ -30,8 +39,7 @@
         "TOCOPHEROL ACETATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q"
+        "02 輸 入"
     ],
     "applicantName": "台灣曼秀雷敦股份有限公司",
     "applicantAddr": "台北市內湖區基湖路10巷57號6樓",
@@ -43,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "B0239B1C-BF75-46C9-8709-EA36DB81529E",
             "factoryCode": "1",
             "factoryName": "AMATO PHARMACEUTICAL PRODUCTS LTD.",
             "factoryAddr": "20-4, 2-CHOME, OSADANO-CHO, FUKUCHIYAMA-SHI, KYOTO, JAPAN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP0009000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004500",
+            "ingredientsName": "GLYCYRRHETIC ACID (EQ TO GLYCYRRHETINIC ACID)",
             "ingredientsDesc": "GLYCYRRHETIC ACID (EQ TO GLYCYRRHETINIC ACID)",
             "concentDesc": null,
-            "concent": "15.0000",
+            "concent": "15.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001000",
+            "ingredientsName": "LIDOCAINE",
             "ingredientsDesc": "LIDOCAINE",
             "concentDesc": null,
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000200",
+            "ingredientsName": "TOCOPHEROL ACETATE",
             "ingredientsDesc": "TOCOPHEROL ACETATE",
             "concentDesc": null,
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -95,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416000100",
+            "ingredientsName": "ALLANTOIN",
             "ingredientsDesc": "ALLANTOIN",
             "concentDesc": null,
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -106,104 +123,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "12D567B5-AED2-4080-A25C-048DF9BDFEA1",
-            "approvedDocNo": "1110726135",
-            "approvedDate": "2023-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1FDC9B0D-7D94-4600-B4B2-4BF9054D9360",
-            "approvedDocNo": "1119065903",
-            "approvedDate": "2023-01-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6A6C3199-9639-49C8-97AE-CDC074A123D7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "34EAE08F-D966-498D-9744-043BA422EF74",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0747B1E2-9E22-4FB8-AE7A-B3C15214D92B",
-            "approvedDocNo": "1119000335",
-            "approvedDate": "2022-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2DB6C40B-8659-4831-8FEC-BFCD34B8187A",
-            "approvedDocNo": "1096041684",
-            "approvedDate": "2021-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2A1A111E-B723-4FEE-8D02-91A5B1C25490",
-            "approvedDocNo": "1096041684",
-            "approvedDate": "2021-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8062EA5A-5D96-4B5F-BE13-5C7F8487B491",
-            "approvedDocNo": "1096041684",
-            "approvedDate": "2021-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3A4853A7-F92C-4E29-AEFA-75E0591F8254",
-            "approvedDocNo": "1096017159",
-            "approvedDate": "2020-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "29D05CDA-36A6-4EEB-96D4-F9E0DF6EB705",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C05AX"
-        },
         {
             "isMain": "1",
             "atcCode": "C05AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AD01"
         }
     ],
     "licBaseId": "96447003-1E2A-4C46-885A-10A3D598AACB"

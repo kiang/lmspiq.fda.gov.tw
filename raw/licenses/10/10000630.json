@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000630",
+    "licUnit": "1",
     "validDate": "2026-01-02 00:00:00.000",
     "issueDate": "2001-01-02 00:00:00.000",
+    "oriIssueDate": "2001-01-02",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000063006",
@@ -31,11 +35,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "AF0C5E0E-7CCE-4940-8AB5-19886630A034",
+    "subCategory": [
+        "C06"
+    ],
     "ingredientsDesc": [
         "ANTIHEMOPHILIC FACTOR HUMAN"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣綠十字股份有限公司",
     "applicantAddr": "台北市大同區承德路三段二四四號六樓",
@@ -47,8 +56,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "53E68B9D-9AE3-4A57-9D6A-51036674F39C",
             "factoryCode": "1",
             "factoryName": "Grifols Biologicals LLC",
             "factoryAddr": "5555 VALLEY BOULEVARD, LOS ANGELES, CALIFORNIA 90032",
@@ -59,13 +71,16 @@
             "factoryKind": "M",
             "factoryNo": "FUS0014000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D4B10B32-C3BC-4B75-971F-973870AE528D",
             "factoryCode": "2",
             "factoryName": "LABORATORIOS GRIFOLS, S.A.",
             "factoryAddr": "POLIGONO INDUSTRIAL AUTOPISTA, PASSEIG FLUVIAL, 24, 08150 PARETS DEL VALLES, BARCELONA, SPAIN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "ES",
             "processCode": [
                 {
@@ -77,9 +92,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0028100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "EDC5DFBF-41DD-4F4A-A04A-50690431B8AB",
             "factoryCode": "2",
             "factoryName": "Grifols Therapeutics LLC",
             "factoryAddr": "8368 US 70 BUS HWY WEST, CLAYTON, NC 27520, U.S.A.",
@@ -95,9 +113,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0255000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "186DD0CB-7816-4959-8683-1C3327314496",
             "factoryCode": "2",
             "factoryName": "GRIFOLS BIOLOGICALS LLC",
             "factoryAddr": "13111 TEMPLE AVENUE, CITY OF INDUSTRY, CA 91746, USA",
@@ -113,13 +134,16 @@
             "factoryKind": "M",
             "factoryNo": "FUS0635000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004000110",
+            "ingredientsName": "ANTIHEMOPHILIC FACTOR HUMAN",
             "ingredientsDesc": "ANTIHEMOPHILIC FACTOR HUMAN",
             "concentDesc": "200-300",
             "concent": null,
@@ -131,65 +155,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A0483751-45EF-44A9-AF87-6BAF66373D19",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2D4CC565-A863-44EB-B4B1-C5B962C18A7C",
-            "approvedDocNo": "1101497000",
-            "approvedDate": "2021-11-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "19FA5933-3F9A-4A4F-8764-E50F62A84F35",
-            "approvedDocNo": "1081492272",
-            "approvedDate": "2020-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "74966FBE-7CCB-4A5B-9122-011050836CF8",
-            "approvedDocNo": "1086011765",
-            "approvedDate": "2019-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9D1C35C8-3BF3-4BE8-A580-D23EA47A3C32",
-            "approvedDocNo": "1086011765",
-            "approvedDate": "2019-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A6F66A4-0C01-4985-BEAE-D265937AE0CB",
-            "approvedDocNo": "1086011765",
-            "approvedDate": "2019-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B02BD06"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
         {
             "isMain": "1",
             "atcCode": "B02BD06"

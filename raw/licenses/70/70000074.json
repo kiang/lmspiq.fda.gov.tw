@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "70000074",
+    "licUnit": "1",
     "validDate": "2031-08-02 00:00:00.000",
     "issueDate": "2021-08-02 00:00:00.000",
+    "oriIssueDate": "2021-08-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA07000007404",
@@ -28,13 +31,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "5EBE10EB-3EE5-42F7-9680-202A185C6822",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Treprostinil"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1E"
+        "02 輸 入",
+        "07 新藥監視",
+        "1E 須執行Phase IV Study"
     ],
     "applicantName": "科懋生物科技股份有限公司",
     "applicantAddr": "台北市南港區忠孝東路7段508號5樓",
@@ -46,8 +54,11 @@
     "monitorDate": "2026-08-02",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "B2BC4B57-F331-47FD-91E4-51AB0E0B8354",
             "factoryCode": "1",
             "factoryName": "UNITED THERAPEUTICS CORPORATION",
             "factoryAddr": "1040 Spring Street, Silver Spring, Maryland 20910, USA",
@@ -58,9 +69,12 @@
             "factoryKind": "M",
             "factoryNo": "FUS0854000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1B7C1974-C337-4ECB-BC5D-48562152E801",
             "factoryCode": "2",
             "factoryName": "科懋生物科技股份有限公司",
             "factoryAddr": "新北市汐止區大同路一段120、122、126號6樓",
@@ -76,12 +90,15 @@
             "factoryKind": "M",
             "factoryNo": "6131111849",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D6FE7492-AEBD-4950-BCDD-75EA86F861C6",
             "factoryCode": "2",
-            "factoryName": "FERRER INTERNATIONAL S.A.",
-            "factoryAddr": "GRAN VIA CARLOS III,94,08028 BARCELONA,SPAIN",
+            "factoryName": "FERRER INTERNACIONAL S.A.",
+            "factoryAddr": "GRAN VIA CARLOS III, 94, 08028 BARCELONA, SPAIN",
             "factoryCompanyAddr": null,
             "countryCode": "ES",
             "processCode": [
@@ -94,13 +111,16 @@
             "factoryKind": "M",
             "factoryNo": "FES0009000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "5732392A-6194-473A-8F21-F59BD4A607C9",
             "factoryCode": "2",
-            "factoryName": "FERRER INTERNATIONAL S.A.",
-            "factoryAddr": "JUAN BUSCALLA, 1-9, SANT CUGAT DEL VALLES, BARCELONA, SPAIN.",
-            "factoryCompanyAddr": null,
+            "factoryName": "FERRER INTERNACIONAL S.A.",
+            "factoryAddr": "JOAN BUSCALLA, 1-9, 08173 SANT CUGAT DEL VALLES, BARCELONA, SPAIN",
+            "factoryCompanyAddr": "",
             "countryCode": "ES",
             "processCode": [
                 {
@@ -110,18 +130,21 @@
             ],
             "processCodeStr": "1A;二級包裝廠",
             "factoryKind": "M",
-            "factoryNo": "FES0157000",
+            "factoryNo": "FES0235000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012600600",
+            "ingredientsName": "Treprostinil",
             "ingredientsDesc": "Treprostinil",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -130,16 +153,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DD11BE20-5889-4261-A36C-72336591C4D1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2024-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-24",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "02024919",
+    "licUnit": "1",
     "validDate": "2023-11-20 00:00:00.000",
     "issueDate": "2008-11-20 00:00:00.000",
+    "oriIssueDate": "2008-11-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202491904",
@@ -23,13 +29,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F9E202F8-BECB-4B47-9CC8-9433EA87499A",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRIGLYCERIDES MEDIUM CHAIN",
         "SOYA OIL",
         "OMEGA-3-ACID TRIGLYCERIDES"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣柏朗股份有限公司",
     "applicantAddr": "台北市松山區健康路152號9樓",
@@ -41,8 +50,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "A7D6D4CF-9FDF-427A-B056-C9947A274FA9",
             "factoryCode": "1",
             "factoryName": "B. BRAUN MELSUNGEN AG",
             "factoryAddr": "CARL-BRAUN-STRABE 1, 34212 MELSUNGEN, GERMANY",
@@ -53,9 +65,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0372000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "106934DC-79FC-463C-8A61-E774CAC5DABF",
             "factoryCode": "2",
             "factoryName": "B. BRAUN MELSUNGEN AG",
             "factoryAddr": "D-34209 MELSUNGEN, GERMANY",
@@ -66,16 +81,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0340000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640001102",
+            "ingredientsName": "TRIGLYCERIDES MEDIUM CHAIN",
             "ingredientsDesc": "TRIGLYCERIDES MEDIUM CHAIN",
             "concentDesc": null,
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -84,9 +102,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200027005",
+            "ingredientsName": "SOYA OIL",
             "ingredientsDesc": "SOYA OIL",
             "concentDesc": null,
-            "concent": "80.0000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -95,9 +114,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640001120",
+            "ingredientsName": "OMEGA-3-ACID TRIGLYCERIDES",
             "ingredientsDesc": "OMEGA-3-ACID TRIGLYCERIDES",
             "concentDesc": null,
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -106,53 +126,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "946CEC0C-940D-42AD-8ED3-218ACEC2307A",
-            "approvedDocNo": "1110710911",
-            "approvedDate": "2022-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "243C0E14-6FD3-4E26-8F81-231FD0CD0713",
-            "approvedDocNo": "1110710911",
-            "approvedDate": "2022-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C7FA89B6-4990-476A-ADBD-6CE18062E011",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CA30D331-09BC-48B3-8E99-31049F1F1CA0",
-            "approvedDocNo": "1106815266",
-            "approvedDate": "2022-03-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "884C386A-F6D9-4AD8-ABA5-B2B991D71332",
-            "approvedDocNo": "1086001509",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "B05BA02"

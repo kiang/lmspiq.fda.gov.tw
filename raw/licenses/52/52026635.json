@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2022-09-01",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "52026635",
+    "licUnit": "1",
     "validDate": "2026-01-12 00:00:00.000",
     "issueDate": "2016-01-12 00:00:00.000",
+    "oriIssueDate": "2016-01-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -29,14 +33,17 @@
     "medMCode": "05",
     "maMedCode": "B",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "474AF2CF-B347-4B9F-8AC7-EBFB94761A89",
+    "subCategory": [],
     "ingredientsDesc": [
         "OXYCODONE HCL"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1Q",
-        "32"
+        "02 輸 入",
+        "07 新藥監視",
+        "1Q 不得輸入",
+        "32 第二級管制藥品"
     ],
     "applicantName": "衛生福利部食品藥物管理署管制藥品製藥工廠",
     "applicantAddr": "台北市南港區忠孝東路六段467號地下一層",
@@ -48,21 +55,27 @@
     "monitorDate": "2021-01-12",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "97E56D87-EA25-4A4D-9C45-6045E9B05B26",
             "factoryCode": "1",
             "factoryName": "Rafa Laboratories Ltd.",
             "factoryAddr": "3 Ze'ev Lev St., Har Hotzvim Ind. Zone, Jerusalem, Israel",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IL",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIL0334200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "6DBA6F38-5C14-4EC2-9355-36E4D78D5672",
             "factoryCode": "2",
             "factoryName": "NAPP PHARMACEUTICALS LTD.",
             "factoryAddr": "CAMBRIDGE SCIENCE PARK MILTON ROAD CAMBRIDGE CB4 OGW U.K.",
@@ -78,16 +91,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0168000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800710",
+            "ingredientsName": "OXYCODONE HCL",
             "ingredientsDesc": "OXYCODONE HCL",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -96,32 +112,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1B4C1B14-2705-47BF-8D83-F9F7E9991862",
-            "approvedDocNo": "1111407172",
-            "approvedDate": "2022-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2082E07A-CA5C-4CA3-9A47-17009970A98E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D8F3F12F-2A0B-45E0-A303-F6E283866D1F",
-            "approvedDocNo": "1081403416",
-            "approvedDate": "2019-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

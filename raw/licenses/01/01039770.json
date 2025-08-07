@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039770",
+    "licUnit": "1",
     "validDate": "2026-01-31 00:00:00.000",
     "issueDate": "1996-01-31 00:00:00.000",
+    "oriIssueDate": "1996-01-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103977000",
@@ -16,17 +20,20 @@
     "does": "3363",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "08"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "06"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "26E14006-C0C0-4A4F-BB4B-19380ACB415B",
+    "subCategory": [],
     "ingredientsDesc": [
         "BETAMETHASONE DIPROPIONATE",
         "GENTAMICIN (AS SULFATE)",
@@ -48,7 +55,7 @@
         "CLOTRIMAZOLE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "華貿行實業股份有限公司",
     "applicantAddr": "新北市五股區五權七路52號4樓",
@@ -60,28 +67,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "2E12E4B1-A1B0-4CAF-B462-BA73BC10EF33",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000220",
+            "ingredientsName": "BETAMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BETAMETHASONE DIPROPIONATE",
             "concentDesc": "0.643",
-            "concent": "0.6430",
+            "concent": "0.643000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -90,9 +103,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
             "ingredientsDesc": "CLOTRIMAZOLE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -101,9 +115,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "1.0",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -112,9 +127,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000220",
+            "ingredientsName": "BETAMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BETAMETHASONE DIPROPIONATE",
             "concentDesc": "0.643",
-            "concent": "0.6430",
+            "concent": "0.643000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -123,9 +139,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
             "ingredientsDesc": "CLOTRIMAZOLE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -134,9 +151,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "1.0",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -145,9 +163,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000220",
+            "ingredientsName": "BETAMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BETAMETHASONE DIPROPIONATE",
             "concentDesc": "0.643",
-            "concent": "0.6430",
+            "concent": "0.643000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -156,9 +175,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
             "ingredientsDesc": "CLOTRIMAZOLE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -167,9 +187,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "1.0",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "2",
@@ -178,9 +199,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000220",
+            "ingredientsName": "BETAMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BETAMETHASONE DIPROPIONATE",
             "concentDesc": "0.643",
-            "concent": "0.6430",
+            "concent": "0.643000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "3",
@@ -189,9 +211,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
             "ingredientsDesc": "CLOTRIMAZOLE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "3",
@@ -200,9 +223,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "1.0",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "3",
@@ -211,9 +235,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000220",
+            "ingredientsName": "BETAMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BETAMETHASONE DIPROPIONATE",
             "concentDesc": "0.643",
-            "concent": "0.6430",
+            "concent": "0.643000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "4",
@@ -222,9 +247,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
             "ingredientsDesc": "CLOTRIMAZOLE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "4",
@@ -233,9 +259,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "1.0",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "4",
@@ -244,9 +271,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000220",
+            "ingredientsName": "BETAMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BETAMETHASONE DIPROPIONATE",
             "concentDesc": "0.643",
-            "concent": "0.6430",
+            "concent": "0.643000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "5",
@@ -255,9 +283,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
             "ingredientsDesc": "CLOTRIMAZOLE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "5",
@@ -266,9 +295,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "1.0",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "5",
@@ -277,112 +307,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "92F0F5EC-5A00-451A-BF04-2BFEB94E95CD",
-            "approvedDocNo": "1110812506",
-            "approvedDate": "2022-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FAFAAA3A-A7EF-4391-B8C1-89F54B75BA6D",
-            "approvedDocNo": "1110812506",
-            "approvedDate": "2022-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DA1FE5B3-CAFB-437B-838C-80D7551F77BA",
-            "approvedDocNo": "1096611368",
-            "approvedDate": "2020-12-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AFDEC9E1-9224-4A53-8630-36DD94C61F42",
-            "approvedDocNo": "1096611368",
-            "approvedDate": "2020-12-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B51DA95A-D617-45B9-8FE9-01C337918AB4",
-            "approvedDocNo": "1096611368",
-            "approvedDate": "2020-12-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3F3C3AA2-3F34-46AC-A6AE-106B90AC8AAD",
-            "approvedDocNo": "1070043831",
-            "approvedDate": "2019-07-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5E75728B-4D77-463F-BD50-12C35CC55FAB",
-            "approvedDocNo": "1070043831",
-            "approvedDate": "2019-07-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0EF31FE3-AC72-4558-A497-4BFFED0E4479",
-            "approvedDocNo": "1070043831",
-            "approvedDate": "2019-07-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4488EE13-B6B8-434E-A747-F3F4849B9304",
-            "approvedDocNo": "1070043831",
-            "approvedDate": "2019-07-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "152EFB28-45BB-4FED-884D-A99BF097EE07",
-            "approvedDocNo": "1070043831",
-            "approvedDate": "2019-07-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BF12BE63-8512-4F43-A5B0-D2EBF2778773",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-04-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D06AX07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
-        },
         {
             "isMain": "1",
             "atcCode": "D07XC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AC01"
         }
     ],
     "licBaseId": "F3DD22B2-CC17-41B5-8CA7-9884A47CF994"

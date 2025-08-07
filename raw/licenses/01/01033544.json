@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033544",
+    "licUnit": "1",
     "validDate": "2026-01-26 00:00:00.000",
     "issueDate": "1991-01-26 00:00:00.000",
+    "oriIssueDate": "1991-01-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103354400",
@@ -16,23 +20,26 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D77E5590-57DA-486C-9172-A2E52E1E0C66",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEXTROMETHORPHAN (HBR)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "瑞安大藥廠股份有限公司",
     "applicantAddr": "臺北市內湖區內湖路1段392號11樓之1",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "76D4682B-6CC9-4A51-B264-0B1089296100",
             "factoryCode": "1",
             "factoryName": "優良化學製藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉中興村光復路10號 ",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133061486",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800091010",
+            "ingredientsName": "DEXTROMETHORPHAN (HBR)",
             "ingredientsDesc": "DEXTROMETHORPHAN (HBR)",
             "concentDesc": "",
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,80 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "723CDFD2-675A-4DE4-AEAE-AFF619FF2382",
-            "approvedDocNo": "1096818288",
-            "approvedDate": "2021-01-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A1F2541D-338A-4ED4-9FFB-D867D9DFFC20",
-            "approvedDocNo": "1096809151",
-            "approvedDate": "2020-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "20DFFF53-4BF8-4BFC-A493-46D06FD741A9",
-            "approvedDocNo": "1096809151",
-            "approvedDate": "2020-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "318BF59F-5888-468E-B670-4BD65A75E69E",
-            "approvedDocNo": "1086027210",
-            "approvedDate": "2020-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B083FEF0-2756-426F-9209-19DDCC68CE95",
-            "approvedDocNo": "1086027210",
-            "approvedDate": "2020-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B85CB960-67FD-46F9-A0DF-1A14AB8E53F9",
-            "approvedDocNo": "1086027210",
-            "approvedDate": "2020-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "83B061BB-CA1A-4FBB-A38B-6206B503462D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AC630065-F135-4B2A-A6B1-BFB64F05C762",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D9B42DEA-65B1-469D-A814-EA39DD1D771C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

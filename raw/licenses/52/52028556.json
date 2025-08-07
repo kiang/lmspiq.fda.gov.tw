@@ -8,7 +8,7 @@
     "licUnit": "1",
     "validDate": "2028-09-05 00:00:00.000",
     "issueDate": "2023-09-05 00:00:00.000",
-    "oriIssueDate": null,
+    "oriIssueDate": "2023-09-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202855607",
@@ -36,9 +36,9 @@
         "Asciminib hydrochloride"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "臺北市中山區民生東路3段2號8樓",
@@ -50,6 +50,8 @@
     "monitorDate": "2028-09-05",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
             "id": "886E1960-8A9E-4910-8BD6-2492E0A3D88A",
@@ -58,8 +60,13 @@
             "factoryAddr": "SCHAFFHAUSERSTRASSE CH-4332 STEIN, SWITZERLAND",
             "factoryCompanyAddr": "CH-4002,BASEL,SWITZERLAND",
             "countryCode": "CH",
-            "processCode": [],
-            "processCodeStr": null,
+            "processCode": [
+                {
+                    "value": "66",
+                    "name": "成品製造廠"
+                }
+            ],
+            "processCodeStr": "66;成品製造廠",
             "factoryKind": "M",
             "factoryNo": "FCH0088000",
             "factoryInfo": null,
@@ -117,7 +124,7 @@
             "ingredientsName": "Asciminib hydrochloride",
             "ingredientsDesc": "Asciminib hydrochloride",
             "concentDesc": "Asciminib free base……......40.000 MG",
-            "concent": "43.2400",
+            "concent": "43.240000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

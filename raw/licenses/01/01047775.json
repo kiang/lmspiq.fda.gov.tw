@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047775",
+    "licUnit": "1",
     "validDate": "2026-01-25 00:00:00.000",
     "issueDate": "2006-01-25 00:00:00.000",
+    "oriIssueDate": "2006-01-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104777503",
@@ -27,14 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D5873573-2F0E-4F06-8D15-3DD889F0078D",
+    "subCategory": [],
     "ingredientsDesc": [
         "SIMVASTATIN"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "24",
-        "61"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "瑩碩生技醫藥股份有限公司",
     "applicantAddr": "台北市中山區南京東路二段206號8樓之3",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "7BFDB0FC-11D3-4CF0-A376-5FA874039039",
             "factoryCode": "1",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉光復路1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133061413",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406002900",
+            "ingredientsName": "SIMVASTATIN",
             "ingredientsDesc": "SIMVASTATIN",
             "concentDesc": "",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -76,40 +89,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FB752D65-288E-4C1F-8DA3-7B1A31EA6C9A",
-            "approvedDocNo": "1110722125",
-            "approvedDate": "2022-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D4E96E1E-C1D0-4CEA-948F-B5D199396EC6",
-            "approvedDocNo": "1110722125",
-            "approvedDate": "2022-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "75CF1993-0236-4D19-8906-F6022633466B",
-            "approvedDocNo": "1076037109",
-            "approvedDate": "2019-01-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EDF749B6-3E65-480B-B7A7-7CC5792DFA12",
-            "approvedDocNo": "1076037109",
-            "approvedDate": "2019-01-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

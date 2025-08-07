@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-04",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01018155",
+    "licUnit": "1",
     "validDate": "2023-05-25 00:00:00.000",
     "issueDate": "1979-07-20 00:00:00.000",
+    "oriIssueDate": "1979-07-20",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00101815502",
@@ -16,19 +22,22 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3C770649-9643-49F9-B0E0-6E5C6B4A07C9",
+    "subCategory": [],
     "ingredientsDesc": [
         "BUCLIZINE 2HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造"
     ],
     "applicantName": "北進國際有限公司",
     "applicantAddr": "台北市大安區復興南路二段35號12樓之3",
@@ -40,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "982294EB-6AF2-49D6-AD36-9F887D3BF4DF",
             "factoryCode": "1",
             "factoryName": "強生化學製藥廠股份有限公司",
             "factoryAddr": "新北市三重區三和路四段77號2、3樓、79號1至6樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1110202300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5622000110",
+            "ingredientsName": "BUCLIZINE 2HCL",
             "ingredientsDesc": "BUCLIZINE 2HCL",
             "concentDesc": "25",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,10 +87,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R06AE01"
-        },
         {
             "isMain": "1",
             "atcCode": "R06AE01"

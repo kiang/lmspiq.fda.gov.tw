@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02021150",
+    "licUnit": "1",
     "validDate": "2026-12-11 00:00:00.000",
     "issueDate": "2016-11-04 00:00:00.000",
+    "oriIssueDate": "1996-02-06",
     "licKind": "02",
     "oldLicid": "02018939",
     "certNo": "DHA00202115003",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9F9F42DD-B843-4137-A58D-4E3C9D303BBD",
+    "subCategory": [],
     "ingredientsDesc": [
         "MEDROXYPROGESTERONE ACETATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "輝瑞大藥廠股份有限公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -39,25 +46,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "D6B8EAC7-B308-4138-8E8A-A109CC67894E",
             "factoryCode": "1",
             "factoryName": "PFIZER ITALIA S.R.L.",
             "factoryAddr": "LOCALITA MARINO DEL TRONTO ,63100 ,ASCOLI PICENO ,ITALY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": "VIA R. KOCH 1.2, 20152, MILAN, ITALY",
             "countryCode": "IT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIT0307100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4C945E0D-3DFE-463D-98C0-DE47CCF0DC25",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "",
             "processCode": [
                 {
@@ -69,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832000710",
+            "ingredientsName": "MEDROXYPROGESTERONE ACETATE",
             "ingredientsDesc": "MEDROXYPROGESTERONE ACETATE",
             "concentDesc": null,
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -87,56 +103,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "27D5F618-9987-4DE4-A8A0-9FA3BE500A29",
-            "approvedDocNo": "1110729527",
-            "approvedDate": "2023-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EA30F7D2-27D6-4AE8-B05F-CFAF2E013C8B",
-            "approvedDocNo": "1110729527",
-            "approvedDate": "2023-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D7613F6D-C7A7-4723-9996-1711828E9A97",
-            "approvedDocNo": "1119029576",
-            "approvedDate": "2022-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0017461B-BC8A-4CD2-904C-E80002D412AA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C9DEE0AB-4F6B-4FC5-9C20-547AD0909764",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "521767DE-B943-48E8-A55D-EF5362D8D37A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

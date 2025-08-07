@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-24",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "02017218",
+    "licUnit": "1",
     "validDate": "2023-10-15 00:00:00.000",
     "issueDate": "2008-11-04 00:00:00.000",
+    "oriIssueDate": "1989-05-22",
     "licKind": "02",
     "oldLicid": "02015413",
     "certNo": "DHA00201721809",
@@ -26,14 +32,19 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "9EF54B09-8C93-4CDD-9C1E-3B58FEFA3625",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "FRANGULA",
         "STERCULIA"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "台灣美強股份有限公司",
     "applicantAddr": "台北市中山區南京東路二段66號4樓",
@@ -45,8 +56,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "65F906EE-C53A-47EB-A4AE-7AD056DA27E2",
             "factoryCode": "1",
             "factoryName": "NORGINE PHARMA",
             "factoryAddr": "29 Rue Ethe Virton 28100 Dreux France",
@@ -57,9 +71,12 @@
             "factoryKind": "M",
             "factoryNo": "FFR0246000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "A5E27309-04D9-492F-9649-37AA4A1E568E",
             "factoryCode": "2",
             "factoryName": "NORGINE LIMITED",
             "factoryAddr": "NORGINE HOUSE WIDEWATER PLACE MOORHALL ROAD HAREFIELD UXBRIDGE MIDDLESEX UB9 6NS U.K. ",
@@ -75,16 +92,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0259000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612001000",
+            "ingredientsName": "FRANGULA",
             "ingredientsDesc": "FRANGULA",
             "concentDesc": null,
-            "concent": "80.0000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -93,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9900054400",
+            "ingredientsName": "STERCULIA",
             "ingredientsDesc": "STERCULIA",
             "concentDesc": null,
-            "concent": "620.0000",
+            "concent": "620.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -104,49 +125,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C872DBC9-9551-43CD-9AB2-8440EDC966F2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "79ABFEAF-F88E-4EF1-BCF0-BEA51188FC67",
-            "approvedDocNo": "1101491452",
-            "approvedDate": "2021-04-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6BFC604D-AC5B-40DB-8011-316C5960DBC0",
-            "approvedDocNo": "1086005638",
-            "approvedDate": "2019-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D53AAE44-64CB-454F-A65F-3D8AE430D479",
-            "approvedDocNo": "1086005638",
-            "approvedDate": "2019-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A06AC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A06AC03"
-        },
         {
             "isMain": "1",
             "atcCode": "A06AC53"

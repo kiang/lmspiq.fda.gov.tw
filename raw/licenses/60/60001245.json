@@ -1,11 +1,15 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001245",
+    "licUnit": "1",
     "validDate": "2029-01-09 00:00:00.000",
     "issueDate": "2024-01-09 00:00:00.000",
-    "licKind": "02",
+    "oriIssueDate": "2024-01-09",
+    "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000124501",
     "prodNameC": "衛癌瑪注射液",
@@ -27,13 +31,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "D",
+    "mainCategory": "D",
+    "drBaseId": "9F5DB2BF-34A3-4DDD-AB09-5F7B66CD08F2",
+    "subCategory": [
+        "D"
+    ],
     "ingredientsDesc": [
         "BEVACIZUMAB"
     ],
     "restraintItemsCode": [
-        "02",
-        "1D",
-        "91"
+        "02 輸 入",
+        "1D 須執行風險管理計畫",
+        "91 生物相似性藥品"
     ],
     "applicantName": "台灣賽特瑞恩有限公司",
     "applicantAddr": "臺北市信義區松仁路97號3樓之1",
@@ -45,12 +54,15 @@
     "monitorDate": "2029-01-09",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "8B814674-C94D-4D34-BEFC-270284804B3E",
             "factoryCode": "1",
             "factoryName": "CELLTRION INC.",
             "factoryAddr": "20, ACADEMY-RO, 51BEON-GIL, YEONSU-GU, INCHEON, 22014, REPUBLIC OF KOREA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "KR",
             "processCode": [
                 {
@@ -62,16 +74,19 @@
             "factoryKind": "M",
             "factoryNo": "FKR0182100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000800",
+            "ingredientsName": "BEVACIZUMAB",
             "ingredientsDesc": "BEVACIZUMAB",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,6 +96,11 @@
     "authDtoList": [],
     "iomDtoList": [],
     "changeDtoList": [],
-    "atcList": [],
+    "atcList": [
+        {
+            "isMain": "1",
+            "atcCode": "L01FG01"
+        }
+    ],
     "licBaseId": "FDC41A09-BC03-4F74-9B5C-07F2E8C71C4B"
 }

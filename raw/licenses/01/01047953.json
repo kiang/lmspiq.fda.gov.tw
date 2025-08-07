@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047953",
+    "licUnit": "1",
     "validDate": "2026-04-25 00:00:00.000",
     "issueDate": "2006-04-25 00:00:00.000",
+    "oriIssueDate": "2006-04-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104795301",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3FE0AD1F-827F-445A-88D4-332B9496B04B",
+    "subCategory": [],
     "ingredientsDesc": [
         "PSEUDOEPHEDRINE HCL",
         "CETIRIZINE DIHYDROCHLORIDE (EQ TO CETIRIZINE 2HCL )"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "永勝藥品工業股份有限公司",
     "applicantAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路6之3號",
@@ -40,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "7E984974-8E4C-41A2-BEE2-92EA5A18BC56",
             "factoryCode": "1",
             "factoryName": "永勝藥品工業股份有限公司",
             "factoryAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路6之3號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6140040022",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002610",
+            "ingredientsName": "PSEUDOEPHEDRINE HCL",
             "ingredientsDesc": "PSEUDOEPHEDRINE HCL",
             "concentDesc": "",
-            "concent": "120.0000",
+            "concent": "120.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -70,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400005810",
+            "ingredientsName": "CETIRIZINE DIHYDROCHLORIDE (EQ TO CETIRIZINE 2HCL )",
             "ingredientsDesc": "CETIRIZINE DIHYDROCHLORIDE (EQ TO CETIRIZINE 2HCL )",
             "concentDesc": "",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,52 +96,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0D23AACD-5EFA-4280-A3E0-5F4BBDA7A46B",
-            "approvedDocNo": "1110811800",
-            "approvedDate": "2022-09-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D699FAB2-8CD4-4262-88E5-BB4CE3AD7DAE",
-            "approvedDocNo": "1096821723",
-            "approvedDate": "2021-02-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6565F222-C277-4F36-BD4D-4248F2C6CA5F",
-            "approvedDocNo": "1096808285",
-            "approvedDate": "2020-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A92CF82C-F52D-4209-B23E-57DB17912BF6",
-            "approvedDocNo": "1096808285",
-            "approvedDate": "2020-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R01BA52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AE07"
         }
     ],
     "licBaseId": "BBF4D3A8-9F81-4C5B-AB3B-87EC083EA4D9"

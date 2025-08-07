@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000683",
+    "licUnit": "1",
     "validDate": "2028-03-02 00:00:00.000",
     "issueDate": "2001-09-10 00:00:00.000",
+    "oriIssueDate": "2001-09-10",
     "licKind": "04",
     "oldLicid": "02019807",
     "certNo": "DHA01000068301",
     "prodNameC": "增若托平注射劑5.3毫克",
     "prodNameE": "GENOTROPIN 5.3MG",
     "indicationsName": [
-        "腦下垂體之生長激素分泌不足所導致之生長干擾；TURNER'S SYNDROME所導致之生長干擾；PRADER-WILLI SYNDROME所導致之生長干擾；慢性腎臟功能不足所導致之生長干擾；成人生長激素嚴重缺乏之補充療法。低出生體重兒Small for Gestational Age(SGA)逾四歲者之生長障礙。"
+        "１、適用於下列疾病導致生長干擾的兒童病人：\n(１)腦下垂體之生長激素分泌不足(growth hormone deficiency)\n(２)普瑞德威利氏症候群(Prader-Willi syndrome, PWS)\n(３)低出生體重兒(Small for Gestational Age, SGA)逾四歲者之生長障礙\n(４)透納氏症候群(Turner’s syndrome)\n(５)慢性腎臟功能不足\n２、適用於下列疾病的成人病人：\n(１)嚴重生長激素缺乏症(growth hormone deficiency)之補充治療\n(２)普瑞德威利氏症候群 (PWS)且合併經飲食療法和運動療法無法控制的身體組成異常"
     ],
     "does": "2243",
     "packageUnit": [
@@ -27,11 +31,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7E276FB8-AF01-4B34-976B-85FD323F8BD0",
+    "subCategory": [],
     "ingredientsDesc": [
         "RECOMBINANT SOMATROPIN"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "輝瑞大藥廠股份有限公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -43,8 +50,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "FD3AFDB4-BF55-46AE-A00A-242620F880E1",
             "factoryCode": "1",
             "factoryName": "PFIZER MANUFACTURING BELGIUM NV",
             "factoryAddr": "RIJKSWEG 12, 2870, PUURS, BELGIUM",
@@ -55,9 +65,12 @@
             "factoryKind": "M",
             "factoryNo": "FBE0011000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "599096F0-F4BA-406B-8071-1CC0C029D797",
             "factoryCode": "1",
             "factoryName": "VETTER PHARMA-FERTIGUNG GMBH & CO. KG",
             "factoryAddr": "EISENBAHNSTRASSE 2-4, 88085 LANGENARGEN GERMANY",
@@ -68,13 +81,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0292000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4EB2E592-BDD2-4BED-B75E-2E1C2DFC2CB5",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓，3樓，1樓A區",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "",
             "processCode": [
                 {
@@ -86,9 +102,12 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B372E6FB-420D-46F6-89AD-046E86559061",
             "factoryCode": "2",
             "factoryName": "PFIZER HEALTH AB",
             "factoryAddr": "MARIEFREDSVAGEN 37, SE-645 41 STRANGNAS, SWEDEN",
@@ -104,16 +123,19 @@
             "factoryKind": "M",
             "factoryNo": "FSE0040000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6828001020",
+            "ingredientsName": "RECOMBINANT SOMATROPIN",
             "ingredientsDesc": "RECOMBINANT SOMATROPIN",
             "concentDesc": "(5.3MG)      ",
-            "concent": "16.000",
+            "concent": "16.000000",
             "concentUnit": "212",
             "seq": "1",
             "prescription_seq": "1",
@@ -122,88 +144,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9727A384-E92C-48BF-8A58-391085731AA8",
-            "approvedDocNo": "1119062821",
-            "approvedDate": "2023-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "090DE354-A66D-4D6E-9697-F7BFECA769AB",
-            "approvedDocNo": "1119029573",
-            "approvedDate": "2022-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "80BEAF97-3042-4E45-A64E-C9525AEFC9F4",
-            "approvedDocNo": "1110701897",
-            "approvedDate": "2022-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "143FBE20-69CB-468A-91B0-EC802EC8C9AE",
-            "approvedDocNo": "1119007865",
-            "approvedDate": "2022-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9CC72E4B-69B1-453A-8874-3887F05C9253",
-            "approvedDocNo": "1106014796",
-            "approvedDate": "2021-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C45A66B5-07F3-4193-8097-334925D4E48E",
-            "approvedDocNo": "1096038279",
-            "approvedDate": "2021-05-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "455663EC-D248-4A0C-8FA9-ABA67E41B52A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "99129CB8-833F-487C-A4F0-8E338CD9D491",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "011167CF-2B7A-4405-8473-EECA500B1FF2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "45BCFC32-8024-4E1B-8A3B-5D02B2D52905",
-            "approvedDocNo": "1086008409",
-            "approvedDate": "2019-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

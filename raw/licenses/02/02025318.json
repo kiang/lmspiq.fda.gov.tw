@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025318",
+    "licUnit": "1",
     "validDate": "2026-01-12 00:00:00.000",
     "issueDate": "2017-08-14 00:00:00.000",
+    "oriIssueDate": "2017-08-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202531809",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "6CE49C90-B858-498A-B273-13095D901B30",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "HYDROCORTISONE ACETATE",
         "TOCOPHEROL ACETATE",
@@ -31,7 +40,8 @@
         "ALLANTOIN"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "德佑藥品有限公司",
     "applicantAddr": "台北市大同區南京西路46號（實際營業地址：5樓）",
@@ -43,8 +53,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "4E9E3C30-BC94-45BE-970B-06E2C83884AE",
             "factoryCode": "1",
             "factoryName": "YUKINOMOTO HONTEN CO., LTD.",
             "factoryAddr": "182,183, 184, OTANI-CHO, KASHIHARA CITY NARA, JAPAN",
@@ -55,16 +68,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0114000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001120",
+            "ingredientsName": "HYDROCORTISONE ACETATE",
             "ingredientsDesc": "HYDROCORTISONE ACETATE",
             "concentDesc": null,
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001000",
+            "ingredientsName": "LIDOCAINE",
             "ingredientsDesc": "LIDOCAINE",
             "concentDesc": null,
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200011500",
+            "ingredientsName": "ZINC OXIDE",
             "ingredientsDesc": "ZINC OXIDE",
             "concentDesc": null,
-            "concent": "165.0000",
+            "concent": "165.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -95,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000200",
+            "ingredientsName": "TOCOPHEROL ACETATE",
             "ingredientsDesc": "TOCOPHEROL ACETATE",
             "concentDesc": null,
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -106,9 +125,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416000100",
+            "ingredientsName": "ALLANTOIN",
             "ingredientsDesc": "ALLANTOIN",
             "concentDesc": null,
-            "concent": "15.0000",
+            "concent": "15.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -117,48 +137,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E1CF9B64-D198-422E-A0EB-4FC08FCD0818",
-            "approvedDocNo": "1091497691",
-            "approvedDate": "2021-04-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "967E0B64-F492-4BC7-9FBE-6400C52E885D",
-            "approvedDocNo": "1096007904",
-            "approvedDate": "2020-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AX04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AX"
-        },
         {
             "isMain": "1",
             "atcCode": "C05AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AD01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AA01"
         }
     ],
     "licBaseId": "3AC8DD17-D520-44FF-951D-FB8B34FAD65F"

@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "72000035",
+    "licUnit": "1",
     "validDate": "2032-02-07 00:00:00.000",
     "issueDate": "2022-02-07 00:00:00.000",
+    "oriIssueDate": "2022-02-07",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA07200003500",
@@ -24,12 +27,17 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "DE5C3E95-022B-494D-A696-3D65E6FBFCCD",
+    "subCategory": [
+        "C0503"
+    ],
     "ingredientsDesc": [
         "Ofatumumab"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "臺北市中山區民生東路3段2號8樓",
@@ -41,12 +49,15 @@
     "monitorDate": "2027-02-07",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "B88A3A44-D384-4BEC-9908-6F7A8A5A883C",
             "factoryCode": "1",
             "factoryName": "NOVARTIS PHARMA STEIN AG",
             "factoryAddr": "SCHAFFHAUSERSTRASSE CH-4332 STEIN, SWITZERLAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CH",
             "processCode": [
                 {
@@ -58,13 +69,16 @@
             "factoryKind": "M",
             "factoryNo": "FCH0099000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "09725DF9-61FC-4E6A-A2C6-F1EFD9613A9E",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -74,11 +88,14 @@
             ],
             "processCodeStr": "3P;二級包裝廠(委託貼標及置入仿單)",
             "factoryKind": "M",
-            "factoryNo": "1225204000",
+            "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "812ED11D-B4B7-465A-BCBC-DB6C33E2623B",
             "factoryCode": "2",
             "factoryName": "LONZA BIOLOGICS, INC.",
             "factoryAddr": "101 INTERNATIONAL DRIVE PEASE INTERNATIONAL TRADEPORT PORTSMOUTH, NEW HAMPSHIRE, U.S. 03801",
@@ -94,16 +111,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0508000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013004200",
+            "ingredientsName": "Ofatumumab",
             "ingredientsDesc": "Ofatumumab",
             "concentDesc": "(OMB157)",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -112,32 +132,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DDD77BCB-B4B6-4C30-9645-34EB7C0AA792",
-            "approvedDocNo": "1129060782",
-            "approvedDate": "2024-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5E0C1FB7-2E8D-40D1-A58E-D5E32DAA0DE5",
-            "approvedDocNo": "1119021504",
-            "approvedDate": "2022-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5BFF200A-487A-4F95-A070-7346DBCADD1B",
-            "approvedDocNo": "1119027383",
-            "approvedDate": "2022-09-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

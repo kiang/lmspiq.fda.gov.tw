@@ -51,9 +51,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
-            "id": "F5BEE530-13BB-454C-87ED-10386C8D6DF5",
+            "id": "65E4E427-E040-43F2-AD88-2438A914369A",
             "factoryCode": "1",
             "factoryName": "Novartis Pharmaceutical Manufacturing GmbH",
             "factoryAddr": "Biochemiestraße 10, 6336 Langkampfen, Austria",
@@ -61,16 +63,16 @@
             "countryCode": "AT",
             "processCode": [
                 {
-                    "value": "66",
-                    "name": "成品製造廠"
-                },
-                {
                     "value": "0C",
                     "name": "一級包裝廠"
+                },
+                {
+                    "value": "66",
+                    "name": "成品製造廠"
                 }
             ],
-            "processCodeStr": "66;成品製造廠#0C;一級包裝廠",
-            "factoryKind": "M",
+            "processCodeStr": "0C;一級包裝廠#66;成品製造廠",
+            "factoryKind": "E",
             "factoryNo": "FAT0071000",
             "factoryInfo": null,
             "qsd": null,
@@ -78,28 +80,7 @@
             "factoryMadeIn": null
         },
         {
-            "id": "85ED4338-4817-4EFE-9656-4424DF442A18",
-            "factoryCode": "2",
-            "factoryName": "NOVARTIS PHARMA STEIN AG",
-            "factoryAddr": "SCHAFFHAUSERSTRASSE CH-4332 STEIN, SWITZERLAND",
-            "factoryCompanyAddr": "CH-4002,BASEL,SWITZERLAND",
-            "countryCode": "CH",
-            "processCode": [
-                {
-                    "value": "1A",
-                    "name": "二級包裝廠"
-                }
-            ],
-            "processCodeStr": "1A;二級包裝廠",
-            "factoryKind": "M",
-            "factoryNo": "FCH0088000",
-            "factoryInfo": null,
-            "qsd": null,
-            "qsdList": [],
-            "factoryMadeIn": null
-        },
-        {
-            "id": "56FEAEAB-B851-4B7F-A1BE-4AD0BA4DC491",
+            "id": "C1F66B45-3BE8-4458-BF1F-A00E4A8BD6A2",
             "factoryCode": "2",
             "factoryName": "ABBOTT BIOLOGICALS B.V.",
             "factoryAddr": "VEERWEG 12, 8121 AA OLST, THE NETHERLANDS",
@@ -107,16 +88,16 @@
             "countryCode": "NL",
             "processCode": [
                 {
-                    "value": "1A",
-                    "name": "二級包裝廠"
-                },
-                {
                     "value": "44",
                     "name": "2.5ml PREFILLED SYRINGE"
+                },
+                {
+                    "value": "1A",
+                    "name": "二級包裝廠"
                 }
             ],
-            "processCodeStr": "1A;二級包裝廠#44;2.5ml PREFILLED SYRINGE",
-            "factoryKind": "M",
+            "processCodeStr": "44;2.5ml PREFILLED SYRINGE#1A;二級包裝廠",
+            "factoryKind": "E",
             "factoryNo": "FNL0058000",
             "factoryInfo": null,
             "qsd": null,

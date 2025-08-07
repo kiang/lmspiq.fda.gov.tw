@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022074",
+    "licUnit": "1",
     "validDate": "2028-02-09 00:00:00.000",
     "issueDate": "2023-01-03 00:00:00.000",
+    "oriIssueDate": "1998-02-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202207405",
@@ -23,15 +27,18 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AFAE4E31-4B44-485E-A6CC-8A9A5418D76C",
+    "subCategory": [],
     "ingredientsDesc": [
         "LAMIVUDINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "荷商葛蘭素史克藥廠股份有限公司台灣分公司",
-    "applicantAddr": "台北市中正區忠孝西路一段66號23-24樓",
+    "applicantAddr": "臺北市中正區忠孝西路1段66號23樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -40,8 +47,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "5CE2ED35-A5F5-4AD3-BD63-0F12BC4B4E1A",
             "factoryCode": "1",
             "factoryName": "BORA PHARMACEUTICAL SERVICES INC.",
             "factoryAddr": "7333 MISSISSAUGA ROAD, MISSISSAUGA, ONTARIO CANADA, L5N 6L4",
@@ -52,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "FCA0037000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "9D0E7196-77A6-493D-841C-A70885D4391D",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -70,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818001400",
+            "ingredientsName": "LAMIVUDINE",
             "ingredientsDesc": "LAMIVUDINE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,96 +104,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3F1368A7-CE0D-487C-B3A0-F5AE95408D4D",
-            "approvedDocNo": "1119066777",
-            "approvedDate": "2023-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F6BBEB50-8684-448D-8FA2-4A6ACD02D8A4",
-            "approvedDocNo": "1110706379",
-            "approvedDate": "2022-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CEE84749-0FB6-4615-B225-63D566DC9157",
-            "approvedDocNo": "1101490940",
-            "approvedDate": "2021-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1B6BA47F-41BD-47A4-800D-774C9A6E9477",
-            "approvedDocNo": "1101491516",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CA14F9AF-5721-4E4E-BF83-4B78C72D645C",
-            "approvedDocNo": "1101491516",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A50B3E1B-C5AC-40F6-93E8-640BF6B089B8",
-            "approvedDocNo": "1091409810",
-            "approvedDate": "2020-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "940B35D9-BAAB-4FA3-B2A6-9184576B5840",
-            "approvedDocNo": "1096009918",
-            "approvedDate": "2020-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FE102B33-B002-4AAC-A880-F891026E6751",
-            "approvedDocNo": "1096009918",
-            "approvedDate": "2020-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2377F9F5-2F00-4D75-91E8-1CD363625A32",
-            "approvedDocNo": "1086022276",
-            "approvedDate": "2020-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7C9215FC-9EF1-4630-919F-2B5EF2AF63C1",
-            "approvedDocNo": "1086022276",
-            "approvedDate": "2020-04-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "78E607DD-5105-43B8-8492-A75AA13F4A89",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01034951",
+    "licUnit": "1",
     "validDate": "2028-12-31 00:00:00.000",
     "issueDate": "1992-02-21 00:00:00.000",
+    "oriIssueDate": "1992-02-21",
     "licKind": "02",
     "oldLicid": "01030280",
     "certNo": "DHY00103495102",
@@ -16,13 +20,16 @@
     "does": "1170",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "929BEF5A-178A-4AE2-B7C5-8D6BC76D52CF",
+    "subCategory": [],
     "ingredientsDesc": [
         "DL-METHYLEPHEDRINE HCL",
         "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
@@ -32,11 +39,11 @@
         "GLYCYRRHIZA EXTRACT"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
-    "applicantName": "元茂藥品股份有限公司",
-    "applicantAddr": "桃園市中壢區龍岡路一段259號",
+    "applicantName": "三正貿易有限公司",
+    "applicantAddr": "台北市萬華區洛陽街9號9樓之9",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "5823C632-937E-4A39-9D6A-998207F404D2",
             "factoryCode": "1",
             "factoryName": "光南製藥股份有限公司宜蘭廠",
             "factoryAddr": "宜蘭縣宜蘭市黎明二路240號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0606029300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "15",
-            "concent": "15.0000",
+            "concent": "15.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "0.12",
-            "concent": "0.1200",
+            "concent": "0.120000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -86,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": "1.5",
-            "concent": "1.5000",
+            "concent": "1.500000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -97,9 +112,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "0.495",
-            "concent": "0.4950",
+            "concent": "0.495000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -108,9 +124,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001420",
+            "ingredientsName": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "concentDesc": "2.495",
-            "concent": "2.4950",
+            "concent": "2.495000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "0",
@@ -119,9 +136,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004401",
+            "ingredientsName": "GLYCYRRHIZA EXTRACT",
             "ingredientsDesc": "GLYCYRRHIZA EXTRACT",
             "concentDesc": "6",
-            "concent": "6.0000",
+            "concent": "6.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "0",
@@ -130,44 +148,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E2971413-4399-4924-B7CF-0FC6DFA3F1EA",
-            "approvedDocNo": "1129066252",
-            "approvedDate": "2023-12-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R05X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
         }
     ],
     "licBaseId": "4A5109E3-DA2C-4B16-915E-4CBA9A61304B"

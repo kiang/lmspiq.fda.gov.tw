@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-04",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01018107",
+    "licUnit": "1",
     "validDate": "2023-05-25 00:00:00.000",
     "issueDate": "1979-07-17 00:00:00.000",
+    "oriIssueDate": "1979-07-17",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00101810701",
@@ -23,15 +29,18 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "91FFA890-F093-4506-A863-9334EB22F758",
+    "subCategory": [],
     "ingredientsDesc": [
         "MAGNESIUM HYDROXIDE",
         "ALUMINUM HYDROXIDE DRIED GEL",
         "DIMETHICONE (EQ TO DIMETHYLPOLYSILOXANE OR POLYDIMETHYL SILOXANE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "北進國際有限公司",
     "applicantAddr": "台北市大安區復興南路二段35號12樓之3",
@@ -43,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "0F1AD9CF-CB82-48F7-A89E-315B9FAB5344",
             "factoryCode": "1",
             "factoryName": "強生化學製藥廠股份有限公司",
             "factoryAddr": "新北市三重區三和路四段77號2、3樓、79號1至6樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1110202300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000500",
+            "ingredientsName": "DIMETHICONE (EQ TO DIMETHYLPOLYSILOXANE OR POLYDIMETHYL SILOXANE)",
             "ingredientsDesc": "DIMETHICONE (EQ TO DIMETHYLPOLYSILOXANE OR POLYDIMETHYL SILOXANE)",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -73,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000202",
+            "ingredientsName": "ALUMINUM HYDROXIDE DRIED GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE DRIED GEL",
             "concentDesc": "200",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -84,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002500",
+            "ingredientsName": "MAGNESIUM HYDROXIDE",
             "ingredientsDesc": "MAGNESIUM HYDROXIDE",
             "concentDesc": "200",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -100,18 +117,6 @@
         {
             "isMain": "1",
             "atcCode": "A02AF02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03AX13"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA04"
         }
     ],
     "licBaseId": "A8982287-8D72-4957-AC04-EEAA4D0633B8"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025340",
+    "licUnit": "1",
     "validDate": "2026-01-24 00:00:00.000",
     "issueDate": "2011-01-24 00:00:00.000",
+    "oriIssueDate": "2011-01-24",
     "licKind": "10",
     "oldLicid": null,
     "certNo": null,
@@ -16,20 +20,23 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": "D",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "2C0C8C2B-89C0-4367-BDBA-3CB348A5181D",
+    "subCategory": [],
     "ingredientsDesc": [
         "ZOLPIDEM TARTRATE CONTAINS NOT LESS THAN 98.5% AND NOT MORE THAN 101.0% OF C42H48N6O8,CALCULATED ON THE DRIED BASIS."
     ],
     "restraintItemsCode": [
-        "02",
-        "06",
-        "34"
+        "02 輸 入",
+        "06 管制藥品",
+        "34 第四級管制藥品"
     ],
     "applicantName": "恒亞貿易股份有限公司",
     "applicantAddr": "台北市士林區延平北路六段485號4樓",
@@ -41,21 +48,27 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "43CEC926-9812-49B0-A523-D26819480D68",
             "factoryCode": "1",
             "factoryName": "SUN PHARMACEUTICAL INDUSTRIES LTD.",
             "factoryAddr": "PLOT NO.24\/2&25,PLASE IV,CHEMICAL ZONE G.I.D.C INDUSTRIAL ESTATE PANOLI-394 116,DIST.BHARUCH GUJARAT STATE,INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": "**",
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0024100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2516D1A7-C990-4AB8-A521-596BDF26832F",
             "factoryCode": "2",
             "factoryName": "SUN PHARMACEUTICAL INDUSTRIES LIMITED",
             "factoryAddr": "ACME PLAZA, ANDHERI KURLA ROAD, ANDHERI EAST, MUMBAI 400 059, INDIA",
@@ -71,13 +84,16 @@
             "factoryKind": "O",
             "factoryNo": "FIN0292000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "ZOLPIDEM TARTRATE CONTAINS NOT LESS THAN 98.5% AND NOT MORE THAN 101.0% OF C42H48N6O8,CALCULATED ON THE DRIED BASIS.",
             "ingredientsDesc": "ZOLPIDEM TARTRATE CONTAINS NOT LESS THAN 98.5% AND NOT MORE THAN 101.0% OF C42H48N6O8,CALCULATED ON THE DRIED BASIS.",
             "concentDesc": null,
             "concent": null,
@@ -89,24 +105,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3C3B70E7-7E59-4FF1-A013-07CD08FA14F3",
-            "approvedDocNo": "1101490098",
-            "approvedDate": "2021-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "58F6C322-3B71-4ADF-AD88-550F1DD86399",
-            "approvedDocNo": "1086612798",
-            "approvedDate": "2020-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

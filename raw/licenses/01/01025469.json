@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-29",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "01025469",
+    "licUnit": "1",
     "validDate": "2023-05-27 00:00:00.000",
     "issueDate": "1982-05-27 00:00:00.000",
+    "oriIssueDate": "1982-05-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102546900",
@@ -23,6 +29,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BDDFB6DE-F1FA-4D14-836A-646B414526E8",
+    "subCategory": [],
     "ingredientsDesc": [
         "METHYLEPHEDRINE HCL",
         "LYSOZYME (CHLORIDE)",
@@ -31,8 +40,8 @@
         "CARBINOXAMINE MALEATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "南光化學製藥股份有限公司",
     "applicantAddr": "臺南市新化區全興里中山路1001號、1001-1號",
@@ -44,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A574BF2D-0FDE-48D8-AC68-F59D368457B8",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區中山路１００１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001810",
+            "ingredientsName": "METHYLEPHEDRINE HCL",
             "ingredientsDesc": "METHYLEPHEDRINE HCL",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000610",
+            "ingredientsName": "CARBINOXAMINE MALEATE",
             "ingredientsDesc": "CARBINOXAMINE MALEATE",
             "concentDesc": "",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -85,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400091310",
+            "ingredientsName": "LYSOZYME (CHLORIDE)",
             "ingredientsDesc": "LYSOZYME (CHLORIDE)",
             "concentDesc": "",
-            "concent": "37.5000",
+            "concent": "37.500000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -96,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -107,9 +125,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004600",
+            "ingredientsName": "GLYCYRRHIZINIC ACID (EQ TO GLYCYRRHETINIC ACID GLYCOSIDE)(EQ TO GLYCYRRHIZIC ACID )",
             "ingredientsDesc": "GLYCYRRHIZINIC ACID (EQ TO GLYCYRRHETINIC ACID GLYCOSIDE)(EQ TO GLYCYRRHIZIC ACID )",
             "concentDesc": "",
-            "concent": "60.0000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -118,36 +137,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "66DDC3FC-E90E-467C-83E7-5C7A8FD7C20C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R06AA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AA08"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
         }
     ],
     "licBaseId": "8226F86D-A4B4-443F-8AEE-FED334C042AB"

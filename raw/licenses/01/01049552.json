@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-29",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "01049552",
+    "licUnit": "1",
     "validDate": "2023-07-16 00:00:00.000",
     "issueDate": "2008-07-16 00:00:00.000",
+    "oriIssueDate": "2008-07-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104955206",
@@ -22,14 +28,19 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "46C02E8D-888D-40F3-AF04-A6BF7DAF8A32",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "PHENYLEPHRINE HCL",
         "ACETAMINOPHEN (DENSE POWDER)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "英商葛蘭素史克消費保健用品股份有限公司台灣分公司",
     "applicantAddr": "臺北市中正區忠孝西路一段66號24樓",
@@ -41,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "0CEF3571-EF3F-48D2-843E-E7BC4B9B6BC5",
             "factoryCode": "1",
             "factoryName": "聯亞藥業股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉中興村光復北路45號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133061495",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000170",
+            "ingredientsName": "ACETAMINOPHEN (DENSE POWDER)",
             "ingredientsDesc": "ACETAMINOPHEN (DENSE POWDER)",
             "concentDesc": null,
-            "concent": "71.4290",
+            "concent": "71.429000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -71,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002310",
+            "ingredientsName": "PHENYLEPHRINE HCL",
             "ingredientsDesc": "PHENYLEPHRINE HCL",
             "concentDesc": null,
-            "concent": "1.4290",
+            "concent": "1.429000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -85,16 +103,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "R01BA03"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05X"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
         }
     ],
     "licBaseId": "17B27EEA-D533-454A-9C7F-0CEB03437E4F"

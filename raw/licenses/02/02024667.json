@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024667",
+    "licUnit": "1",
     "validDate": "2027-07-13 00:00:00.000",
     "issueDate": "2007-07-13 00:00:00.000",
+    "oriIssueDate": "2007-07-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202466703",
@@ -23,13 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FCEB2748-6C63-402A-BD13-148450B2693B",
+    "subCategory": [],
     "ingredientsDesc": [
         "SITAGLIPTIN (AS MONOHYDRATE PHOSPHATE SALT)"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "55"
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "美商默沙東藥廠股份有限公司台灣分公司",
     "applicantAddr": "台北市信義區信義路五段106號12樓",
@@ -41,25 +46,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "DE127248-09FB-4B56-8126-5E9447E4C2BC",
             "factoryCode": "1",
             "factoryName": "Organon Pharma (UK) Limited",
             "factoryAddr": "SHOTTON LANE, CRAMLINGTON, NORTHUMBERLAND, NE23 3JU, UNITED KINGDOM",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GB",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FGB0070000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "87838DC2-CA97-4594-98B8-0F4214B0F431",
             "factoryCode": "2",
             "factoryName": "PT. Organon Pharma Indonesia Tbk.",
             "factoryAddr": "JI. RAYA PANDAAN KM. 48, PANDAAN, PASURUAN,JAWA TIMUR , INDONESIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "ID",
             "processCode": [
                 {
@@ -71,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "FID0002000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200088510",
+            "ingredientsName": "SITAGLIPTIN (AS MONOHYDRATE PHOSPHATE SALT)",
             "ingredientsDesc": "SITAGLIPTIN (AS MONOHYDRATE PHOSPHATE SALT)",
             "concentDesc": "(eq. to sitagliptin  50 mg)",
-            "concent": "64.2500",
+            "concent": "64.250000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,80 +103,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D92A6BB6-D0C0-4A6A-8CB6-EB48B9E27BA7",
-            "approvedDocNo": "1110706765",
-            "approvedDate": "2022-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9220E98E-D9FD-4CB1-9BB7-547273A6FA17",
-            "approvedDocNo": "1101499946",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B4753946-4791-4635-93AB-BBC22584AA92",
-            "approvedDocNo": "1101499946",
-            "approvedDate": "2022-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7E65EF5A-0476-4E2B-BADE-4AEBC4FD6855",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "53534768-9B57-4F59-967E-83AD40943C01",
-            "approvedDocNo": "1091493827",
-            "approvedDate": "2021-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "017C7282-9B6F-4145-A05D-9ADD0904CA5E",
-            "approvedDocNo": "1086023150",
-            "approvedDate": "2020-01-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C60ACB9A-9E2E-4477-9AC4-B05784A379E7",
-            "approvedDocNo": "1086023150",
-            "approvedDate": "2020-01-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ADCB1449-5709-49A0-BE4B-BDDE1AFB5D8E",
-            "approvedDocNo": "1086023150",
-            "approvedDate": "2020-01-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "07AEED3F-05BF-4362-816A-A62D644687E7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

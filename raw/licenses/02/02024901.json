@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-24",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "02024901",
+    "licUnit": "1",
     "validDate": "2023-10-06 00:00:00.000",
     "issueDate": "2008-10-06 00:00:00.000",
+    "oriIssueDate": "2008-10-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202490101",
@@ -23,6 +29,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "88C781A5-9E28-421B-AE32-DD02496202C7",
+    "subCategory": [],
     "ingredientsDesc": [
         "PROLINE",
         "ZINC ACETATE DIHYDRATE",
@@ -53,9 +62,9 @@
         "CALCIUM CHLORIDE DIHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5A"
+        "02 輸 入",
+        "07 新藥監視",
+        "5A 本品係依本署93年05月05日衛署藥字第0930309777號公告經本署認定得免除銜接性試驗，且經本署核定之新藥"
     ],
     "applicantName": "台灣柏朗股份有限公司",
     "applicantAddr": "台北市松山區健康路152號9樓",
@@ -67,28 +76,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "FC23C52A-FCCB-477E-94A3-CB9BB475DD8E",
             "factoryCode": "1",
-            "factoryName": "B. BRAUN MELSUNGEN AG.",
-            "factoryAddr": "CARL-BRAUN-STRASSE 1, D-34212 MELSUNGEN GERMANY",
-            "factoryCompanyAddr": null,
+            "factoryName": "B. BRAUN MELSUNGEN AG",
+            "factoryAddr": "CARL-BRAUN-STRASSE 1, D-34212 MELSUNGEN GERMANY(P.O.BOX:D-34209 MELSUNGEN, GERMANY)",
+            "factoryCompanyAddr": "D-34209 MELSUNGEN GERMANY",
             "countryCode": "DE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "MDE0005000",
+            "factoryNo": "FDE0012100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101000",
+            "ingredientsName": "ISOLEUCINE",
             "ingredientsDesc": "ISOLEUCINE",
             "concentDesc": "",
-            "concent": "3.2800",
+            "concent": "3.280000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -97,9 +112,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101200",
+            "ingredientsName": "LEUCINE",
             "ingredientsDesc": "LEUCINE",
             "concentDesc": "",
-            "concent": "4.3800",
+            "concent": "4.380000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -108,9 +124,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101310",
+            "ingredientsName": "LYSINE HCL",
             "ingredientsDesc": "LYSINE HCL",
             "concentDesc": "(eq. to Lysine 3.18mg)",
-            "concent": "3.9800",
+            "concent": "3.980000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -119,9 +136,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101500",
+            "ingredientsName": "METHIONINE",
             "ingredientsDesc": "METHIONINE",
             "concentDesc": "",
-            "concent": "2.7400",
+            "concent": "2.740000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -130,9 +148,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102000",
+            "ingredientsName": "THREONINE",
             "ingredientsDesc": "THREONINE",
             "concentDesc": "",
-            "concent": "2.5400",
+            "concent": "2.540000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -141,9 +160,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102300",
+            "ingredientsName": "VALINE",
             "ingredientsDesc": "VALINE",
             "concentDesc": "",
-            "concent": "3.6000",
+            "concent": "3.600000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -152,9 +172,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100300",
+            "ingredientsName": "ARGININE",
             "ingredientsDesc": "ARGININE",
             "concentDesc": "",
-            "concent": "3.7800",
+            "concent": "3.780000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -163,9 +184,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100915",
+            "ingredientsName": "HISTIDINE HCL MONOHYDRATE",
             "ingredientsDesc": "HISTIDINE HCL MONOHYDRATE",
             "concentDesc": "(eq. to Histidine 1.75 mg)",
-            "concent": "2.3700",
+            "concent": "2.370000",
             "concentUnit": "001",
             "seq": "7",
             "prescription_seq": "1",
@@ -174,9 +196,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100200",
+            "ingredientsName": "ALANINE",
             "ingredientsDesc": "ALANINE",
             "concentDesc": "",
-            "concent": "6.7900",
+            "concent": "6.790000",
             "concentUnit": "001",
             "seq": "8",
             "prescription_seq": "1",
@@ -185,9 +208,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102400",
+            "ingredientsName": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "ingredientsDesc": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "concentDesc": "",
-            "concent": "2.3100",
+            "concent": "2.310000",
             "concentUnit": "001",
             "seq": "9",
             "prescription_seq": "1",
@@ -196,9 +220,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100400",
+            "ingredientsName": "ASPARTIC ACID",
             "ingredientsDesc": "ASPARTIC ACID",
             "concentDesc": "",
-            "concent": "2.1000",
+            "concent": "2.100000",
             "concentUnit": "001",
             "seq": "10",
             "prescription_seq": "1",
@@ -207,9 +232,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100700",
+            "ingredientsName": "GLUTAMIC ACID",
             "ingredientsDesc": "GLUTAMIC ACID",
             "concentDesc": "",
-            "concent": "4.9100",
+            "concent": "4.910000",
             "concentUnit": "001",
             "seq": "11",
             "prescription_seq": "1",
@@ -218,9 +244,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101800",
+            "ingredientsName": "PROLINE",
             "ingredientsDesc": "PROLINE",
             "concentDesc": "",
-            "concent": "4.7600",
+            "concent": "4.760000",
             "concentUnit": "001",
             "seq": "12",
             "prescription_seq": "1",
@@ -229,9 +256,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101900",
+            "ingredientsName": "SERINE",
             "ingredientsDesc": "SERINE",
             "concentDesc": "",
-            "concent": "4.2000",
+            "concent": "4.200000",
             "concentUnit": "001",
             "seq": "13",
             "prescription_seq": "1",
@@ -240,9 +268,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101700",
+            "ingredientsName": "PHENYLALANINE",
             "ingredientsDesc": "PHENYLALANINE",
             "concentDesc": "",
-            "concent": "4.9200",
+            "concent": "4.920000",
             "concentUnit": "001",
             "seq": "14",
             "prescription_seq": "1",
@@ -251,9 +280,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102100",
+            "ingredientsName": "TRYPTOPHAN",
             "ingredientsDesc": "TRYPTOPHAN",
             "concentDesc": "",
-            "concent": "0.8000",
+            "concent": "0.800000",
             "concentUnit": "001",
             "seq": "15",
             "prescription_seq": "1",
@@ -262,9 +292,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000760",
+            "ingredientsName": "GLUCOSE MONOHYDRATE",
             "ingredientsDesc": "GLUCOSE MONOHYDRATE",
             "concentDesc": "(eq. to anhydrous glucose 144mg)",
-            "concent": "158.4000",
+            "concent": "158.400000",
             "concentUnit": "001",
             "seq": "16",
             "prescription_seq": "1",
@@ -273,9 +304,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600028200",
+            "ingredientsName": "SODIUM HYDROXIDE",
             "ingredientsDesc": "SODIUM HYDROXIDE",
             "concentDesc": "",
-            "concent": "1.1710",
+            "concent": "1.171000",
             "concentUnit": "001",
             "seq": "17",
             "prescription_seq": "1",
@@ -284,9 +316,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "0.3780",
+            "concent": "0.378000",
             "concentUnit": "001",
             "seq": "18",
             "prescription_seq": "1",
@@ -295,9 +328,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000670",
+            "ingredientsName": "SODIUM ACETATE TRIHYDRATE (EQ TO SODIUM ACETATE 3H2O )",
             "ingredientsDesc": "SODIUM ACETATE TRIHYDRATE (EQ TO SODIUM ACETATE 3H2O )",
             "concentDesc": "",
-            "concent": "0.2500",
+            "concent": "0.250000",
             "concentUnit": "001",
             "seq": "19",
             "prescription_seq": "1",
@@ -306,9 +340,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002611",
+            "ingredientsName": "SODIUM DIHYDROGEN PHOSPHATE DIHYDRATE",
             "ingredientsDesc": "SODIUM DIHYDROGEN PHOSPHATE DIHYDRATE",
             "concentDesc": "",
-            "concent": "2.4960",
+            "concent": "2.496000",
             "concentUnit": "001",
             "seq": "20",
             "prescription_seq": "1",
@@ -317,9 +352,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000100",
+            "ingredientsName": "POTASSIUM ACETATE",
             "ingredientsDesc": "POTASSIUM ACETATE",
             "concentDesc": "",
-            "concent": "3.6890",
+            "concent": "3.689000",
             "concentUnit": "001",
             "seq": "21",
             "prescription_seq": "1",
@@ -328,9 +364,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001450",
+            "ingredientsName": "MAGNESIUM ACETATE TETRAHYDRATE",
             "ingredientsDesc": "MAGNESIUM ACETATE TETRAHYDRATE",
             "concentDesc": "",
-            "concent": "0.9100",
+            "concent": "0.910000",
             "concentUnit": "001",
             "seq": "22",
             "prescription_seq": "1",
@@ -339,9 +376,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": "",
-            "concent": "0.6230",
+            "concent": "0.623000",
             "concentUnit": "001",
             "seq": "23",
             "prescription_seq": "1",
@@ -350,9 +388,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200010550",
+            "ingredientsName": "ZINC ACETATE DIHYDRATE",
             "ingredientsDesc": "ZINC ACETATE DIHYDRATE",
             "concentDesc": "",
-            "concent": "7.0200",
+            "concent": "7.020000",
             "concentUnit": "355",
             "seq": "24",
             "prescription_seq": "1",
@@ -361,9 +400,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640001102",
+            "ingredientsName": "TRIGLYCERIDES MEDIUM CHAIN",
             "ingredientsDesc": "TRIGLYCERIDES MEDIUM CHAIN",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "25",
             "prescription_seq": "1",
@@ -372,9 +412,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020001600",
+            "ingredientsName": "SOYBEAN OIL ( EQ TO SOYA BEAN OIL)",
             "ingredientsDesc": "SOYBEAN OIL ( EQ TO SOYA BEAN OIL)",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "26",
             "prescription_seq": "1",
@@ -383,60 +424,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F0B4878A-C88B-4767-B8F4-F938BEDE84D7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0F23BF5D-B249-4FAF-AEA4-2D3A869C7F0C",
-            "approvedDocNo": "1106800837",
-            "approvedDate": "2021-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "89A0E90B-BBE6-4189-9039-6FAD9764DE18",
-            "approvedDocNo": "1086023811",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ABADA10C-C342-471E-A121-AF7688AA107B",
-            "approvedDocNo": "1086001509",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "B05BA10"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA03"
         }
     ],
     "licBaseId": "3970CA1C-F362-43A9-9323-9A64379E7134"

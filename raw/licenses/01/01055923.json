@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055923",
+    "licUnit": "1",
     "validDate": "2026-01-20 00:00:00.000",
     "issueDate": "2011-01-20 00:00:00.000",
+    "oriIssueDate": "2011-01-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105592301",
@@ -39,15 +43,18 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3A8A2EF5-EB9E-4CE6-8403-94DAFE81D9C1",
+    "subCategory": [],
     "ingredientsDesc": [
         "BUPIVACAINE HCL MONOHYDRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "翰亨實業股份有限公司",
-    "applicantAddr": "臺北市中山區民生東路二段174號3樓",
+    "applicantAddr": "臺北市中山區民生東路2段176號6樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -56,28 +63,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "00C48B64-6EB7-4E71-AE1B-1D670F6CD936",
             "factoryCode": "1",
             "factoryName": "信東生技股份有限公司",
             "factoryAddr": "桃園市桃園區介壽路22號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6132010010",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200000216",
+            "ingredientsName": "BUPIVACAINE HCL MONOHYDRATE",
             "ingredientsDesc": "BUPIVACAINE HCL MONOHYDRATE",
             "concentDesc": "(eq. to Bupivacaine Hydrochloride 5mg)",
-            "concent": "5.2800",
+            "concent": "5.280000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,10 +101,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N01BB01"
-        },
         {
             "isMain": "1",
             "atcCode": "N01BB01"

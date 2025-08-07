@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048039",
+    "licUnit": "1",
     "validDate": "2026-06-21 00:00:00.000",
     "issueDate": "2006-06-21 00:00:00.000",
+    "oriIssueDate": "2006-06-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104803902",
@@ -27,19 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DA97A013-294F-4BA0-831C-9F96F5B7F603",
+    "subCategory": [],
     "ingredientsDesc": [
         "NAFTIFINE HYDROCHLORIDE",
-        null,
-        null,
         "NAFTIFINE HYDROCHLORIDE",
-        null,
-        null,
-        "NAFTIFINE HYDROCHLORIDE",
-        null
+        "NAFTIFINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "壽元化學工業股份有限公司",
     "applicantAddr": "嘉義市東區頂寮里南興路２２４號１樓",
@@ -51,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "082AC19C-08BF-48E5-B62A-2086CEC9553A",
             "factoryCode": "1",
             "factoryName": "壽元化學工業股份有限公司",
             "factoryAddr": "嘉義市西區新民路128號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1421417300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812203310",
+            "ingredientsName": "NAFTIFINE HYDROCHLORIDE",
             "ingredientsDesc": "NAFTIFINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -80,32 +88,11 @@
         },
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "",
-            "ingredientsDesc": null,
-            "concentDesc": "",
-            "concent": null,
-            "concentUnit": "",
-            "seq": "11",
-            "prescription_seq": "1",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "",
-            "ingredientsDesc": null,
-            "concentDesc": "",
-            "concent": null,
-            "concentUnit": "",
-            "seq": "12",
-            "prescription_seq": "1",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
             "ingredientsCode": "0812203310",
+            "ingredientsName": "NAFTIFINE HYDROCHLORIDE",
             "ingredientsDesc": "NAFTIFINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -113,69 +100,20 @@
         },
         {
             "ingredientsKind": "1",
-            "ingredientsCode": "",
-            "ingredientsDesc": null,
-            "concentDesc": "",
-            "concent": null,
-            "concentUnit": "",
-            "seq": "10",
-            "prescription_seq": "2",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
             "ingredientsCode": "0812203310",
+            "ingredientsName": "NAFTIFINE HYDROCHLORIDE",
             "ingredientsDesc": "NAFTIFINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
-            "prescription_seq": "3",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "",
-            "ingredientsDesc": null,
-            "concentDesc": "",
-            "concent": null,
-            "concentUnit": "",
-            "seq": "12",
-            "prescription_seq": "3",
-            "prescription_Kind": "1"
-        },
-        {
-            "ingredientsKind": "1",
-            "ingredientsCode": "",
-            "ingredientsDesc": null,
-            "concentDesc": "",
-            "concent": null,
-            "concentUnit": "",
-            "seq": "13",
             "prescription_seq": "3",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "359E0C36-6A88-415B-82A4-92EBBC5B0AA7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E39068E2-207B-413B-9101-313D7193BD08",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

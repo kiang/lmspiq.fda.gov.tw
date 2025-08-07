@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047895",
+    "licUnit": "1",
     "validDate": "2026-03-16 00:00:00.000",
     "issueDate": "2006-03-16 00:00:00.000",
+    "oriIssueDate": "2006-03-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104789500",
@@ -31,13 +35,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4246E084-0541-4B8D-A7FA-D2977B873999",
+    "subCategory": [],
     "ingredientsDesc": [
         "WATER FOR INJECTION",
         "TEICOPLANIN"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "中國化學製藥股份有限公司新豐工廠",
     "applicantAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -49,28 +56,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "8EC3B620-EED5-4FFB-AEFB-B05E42768716",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812010000",
+            "ingredientsName": "TEICOPLANIN",
             "ingredientsDesc": "TEICOPLANIN",
             "concentDesc": null,
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -79,9 +92,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9604000900",
+            "ingredientsName": "WATER FOR INJECTION",
             "ingredientsDesc": "WATER FOR INJECTION",
             "concentDesc": null,
-            "concent": "3.0000",
+            "concent": "3.000000",
             "concentUnit": "003",
             "seq": "1",
             "prescription_seq": "2",
@@ -90,32 +104,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0C76F3C4-0F3D-4A59-9130-43C9C5311CFD",
-            "approvedDocNo": "1120707952",
-            "approvedDate": "2023-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3F912FFE-4C78-4FA7-A081-A65551C1C384",
-            "approvedDocNo": "1120707952",
-            "approvedDate": "2023-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C56A2D87-7F62-40F4-91EC-7640E49CEEF8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

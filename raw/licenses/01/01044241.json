@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044241",
+    "licUnit": "1",
     "validDate": "2026-02-13 00:00:00.000",
     "issueDate": "2001-02-13 00:00:00.000",
+    "oriIssueDate": "2001-02-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104424103",
@@ -31,13 +35,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "30F10F19-1943-442F-9230-80D815834E28",
+    "subCategory": [],
     "ingredientsDesc": [
         "GENTAMICIN (AS SULFATE)",
         "BETAMETHASONE DIPROPIONATE",
         "CLOTRIMAZOLE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "明德製藥股份有限公司",
     "applicantAddr": "桃園市楊梅區瑞原里7鄰民富路二段３６０號",
@@ -49,28 +56,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "792E7386-A646-464A-BCEC-5701C67C0B19",
             "factoryCode": "1",
             "factoryName": "明德製藥股份有限公司",
             "factoryAddr": "桃園市楊梅區瑞原里7鄰民富路二段３６０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0806804300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000220",
+            "ingredientsName": "BETAMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BETAMETHASONE DIPROPIONATE",
             "concentDesc": "",
-            "concent": "0.6400",
+            "concent": "0.640000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -79,9 +92,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
             "ingredientsDesc": "CLOTRIMAZOLE",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,9 +104,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -101,61 +116,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "14F3567E-D797-40E4-B687-0E70BDC909EB",
-            "approvedDocNo": "1120600499",
-            "approvedDate": "2023-02-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "04C1E79A-A4EA-4893-9EE2-B522F2B03083",
-            "approvedDocNo": "1120600499",
-            "approvedDate": "2023-02-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8F93FC29-AD56-4625-B48C-C7CBCE2A380D",
-            "approvedDocNo": "1110023533",
-            "approvedDate": "2022-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8ECB23A1-5801-454C-9941-AD7E24546222",
-            "approvedDocNo": "1110023533",
-            "approvedDate": "2022-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DE703B8A-C3EB-41D0-B1E4-04D620FC38BE",
-            "approvedDocNo": "1096601718",
-            "approvedDate": "2020-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX07"
-        },
         {
             "isMain": "1",
             "atcCode": "D07CC01"

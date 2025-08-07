@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01042574",
+    "licUnit": "1",
     "validDate": "2028-09-15 00:00:00.000",
     "issueDate": "1998-09-15 00:00:00.000",
+    "oriIssueDate": "1998-09-15",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHY00104257407",
@@ -16,22 +20,25 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "48"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "AA8857DE-1D39-4B39-998E-DAD9A0E80843",
+    "subCategory": [],
     "ingredientsDesc": [
         "ALPROSTADIL (PGE1)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "臺灣永光化學工業股份有限公司第二廠",
     "applicantAddr": "桃園市觀音區樹林里工業三路12號",
@@ -43,25 +50,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "97AAEF68-9E72-4980-A133-715B858EA7E3",
             "factoryCode": "1",
             "factoryName": "臺灣永光化學工業股份有限公司第二廠",
             "factoryAddr": "桃園市觀音區樹林里工業三路12號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1434704300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832001600",
+            "ingredientsName": "ALPROSTADIL (PGE1)",
             "ingredientsDesc": "ALPROSTADIL (PGE1)",
             "concentDesc": "95-105",
             "concent": null,
@@ -73,53 +86,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "177ACE92-F1E6-4447-93EE-012FC24D0C38",
-            "approvedDocNo": "1129048243",
-            "approvedDate": "2023-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "342C4865-73B5-4C0D-A1B4-0CEF0D7A78D1",
-            "approvedDocNo": "1119015624",
-            "approvedDate": "2023-05-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E3359500-C6FF-4ADB-AA93-9A2299ED1E64",
-            "approvedDocNo": "1119062318",
-            "approvedDate": "2023-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "16FDFC7A-2245-4AB7-BAEB-CACC15A312FA",
-            "approvedDocNo": "1106609990",
-            "approvedDate": "2021-11-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "63F1282B-3096-45BD-8A21-C1B6B48CCC25",
-            "approvedDocNo": "1096028679",
-            "approvedDate": "2020-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "G04BE01"
-        },
         {
             "isMain": "1",
             "atcCode": "C01EA01"

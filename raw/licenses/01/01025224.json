@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-29",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "01025224",
+    "licUnit": "1",
     "validDate": "2023-12-31 00:00:00.000",
     "issueDate": "1982-04-14 00:00:00.000",
+    "oriIssueDate": "1982-04-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102522409",
@@ -23,13 +29,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "750F18FB-591C-4611-8F05-D7501FE6AEF6",
+    "subCategory": [],
     "ingredientsDesc": [
         "COLCHICINE",
         "PROBENECID"
     ],
     "restraintItemsCode": [
-        "01",
-        "1D"
+        "01 國 產",
+        "1D 須執行風險管理計畫"
     ],
     "applicantName": "星寶國際股份有限公司",
     "applicantAddr": "台北市松山區南京東路五段188號9樓之12",
@@ -41,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "27883DBF-852B-468A-9883-9413D106226D",
             "factoryCode": "1",
             "factoryName": "衛達化學製藥股份有限公司",
             "factoryAddr": "台中市工業區２３路２１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1605609200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4040000500",
+            "ingredientsName": "PROBENECID",
             "ingredientsDesc": "PROBENECID",
             "concentDesc": "500",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -71,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200002100",
+            "ingredientsName": "COLCHICINE",
             "ingredientsDesc": "COLCHICINE",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -82,41 +98,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B98A12E7-D246-40B7-B82F-8D036A4B8A1D",
-            "approvedDocNo": "1096036520",
-            "approvedDate": "2020-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "11637073-D60D-4EEE-B280-068DB2420A67",
-            "approvedDocNo": "1086032818",
-            "approvedDate": "2020-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7D0FB0DE-C90D-44CE-A9C4-57F6FEC945C6",
-            "approvedDocNo": "1086032818",
-            "approvedDate": "2020-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "M04AB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "M04AC01"
-        },
         {
             "isMain": "1",
             "atcCode": "M04A"

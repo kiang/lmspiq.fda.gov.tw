@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-07",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "02024515",
+    "licUnit": "1",
     "validDate": "2026-09-04 00:00:00.000",
     "issueDate": "2006-09-04 00:00:00.000",
+    "oriIssueDate": "2006-09-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202451506",
@@ -23,17 +29,20 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3D7E1FA4-19A9-4F18-B7AE-2D8F38D3242C",
+    "subCategory": [],
     "ingredientsDesc": [
         "ATOMOXETINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1Q",
-        "52"
+        "02 輸 入",
+        "07 新藥監視",
+        "1Q 不得輸入",
+        "52 依本署七七公告於國內進行臨床試驗且核定為新藥"
     ],
     "applicantName": "台灣禮來股份有限公司",
-    "applicantAddr": "台北市復興北路３６５號１１樓",
+    "applicantAddr": "臺北市信義區松高路9號14樓、11號14樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -42,8 +51,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "2CE7CB2F-9D08-4BE3-BC56-3539D3506FE2",
             "factoryCode": "1",
             "factoryName": "LILLY DEL CARIBE INC.",
             "factoryAddr": "12.6 KM 65TH INFANTRY ROAD, CAROLINA, PUERTO RICO 00985",
@@ -54,9 +66,12 @@
             "factoryKind": "M",
             "factoryNo": "FPR0048000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "A5D3FE8C-1F9C-4D10-92F6-709E98C71DCC",
             "factoryCode": "2",
             "factoryName": "LILLY S.A.",
             "factoryAddr": "AVDA DE LA INDUSTRIA 30,28108 ALCOBENDAS, MADRID, SPAIN",
@@ -72,16 +87,19 @@
             "factoryKind": "M",
             "factoryNo": "FES0102000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816402010",
+            "ingredientsName": "ATOMOXETINE HYDROCHLORIDE",
             "ingredientsDesc": "ATOMOXETINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "20.5700",
+            "concent": "20.570000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,32 +108,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F64EC3AE-C329-4F8B-A815-86A17C5398CE",
-            "approvedDocNo": "1106026524",
-            "approvedDate": "2021-12-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8C6E1E84-AC45-4127-8CD6-3274E6768321",
-            "approvedDocNo": "1106006683",
-            "approvedDate": "2021-11-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "58ACE59B-EFA5-467E-A108-F92A60EB3062",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

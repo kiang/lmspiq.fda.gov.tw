@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-23",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "60001146",
+    "licUnit": "1",
     "validDate": "2026-01-04 00:00:00.000",
     "issueDate": "2021-01-04 00:00:00.000",
+    "oriIssueDate": "2021-01-04",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000114602",
@@ -26,16 +32,19 @@
     ],
     "medMCode": "05",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "D",
+    "mainCategory": "D",
+    "drBaseId": "EA621244-1DB6-4780-8F03-A7BB742B7B9A",
+    "subCategory": [],
     "ingredientsDesc": [
         "BEVACIZUMAB"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D",
-        "1Q",
-        "91"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫",
+        "1Q 不得輸入",
+        "91 生物相似性藥品"
     ],
     "applicantName": "美商惠氏藥廠（亞洲）股份有限公司台灣分公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -47,25 +56,31 @@
     "monitorDate": "2026-01-04",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "0F11B296-654E-4F4B-9806-0FC0B3D1D69A",
             "factoryCode": "1",
             "factoryName": "PHARMACIA & UPJOHN COMPANY LLC",
             "factoryAddr": "7000 Portage Road, Kalamazoo, MI, 49001, USA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FUS0196100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "BABA05E5-ED80-4783-9E21-F243D19D783F",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "",
             "processCode": [
                 {
@@ -77,13 +92,16 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1D78879B-DDAD-4367-8BCC-28220E888AD4",
             "factoryCode": "2",
             "factoryName": "WYETH BIOPHARMA DIVISION OF WYETH PHARMACEUTICALS LLC",
             "factoryAddr": "ONE BURTT ROAD, ANDOVER, MA 01810, USA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [
                 {
@@ -95,16 +113,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0691000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000800",
+            "ingredientsName": "BEVACIZUMAB",
             "ingredientsDesc": "BEVACIZUMAB",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -113,52 +134,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D085FF4B-69B5-444E-92F9-634E6D82B2CD",
-            "approvedDocNo": "1119004922",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AFDD8C83-7517-4C8B-889B-493A7E1E40F2",
-            "approvedDocNo": "1119004921",
-            "approvedDate": "2022-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "82C63D2C-F82A-4793-9CB3-EE7645AA7B61",
-            "approvedDocNo": "1119006183",
-            "approvedDate": "2022-03-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "29FB3745-AD60-41F5-B871-4D671A9CD484",
-            "approvedDocNo": "1109501755",
-            "approvedDate": "2022-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C76A478A-FBB0-40BD-BD15-ABD318D36F96",
-            "approvedDocNo": "1106019330",
-            "approvedDate": "2021-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L01XC07"
+            "atcCode": "L01FG01"
         }
     ],
     "licBaseId": "54536F6A-C2CD-47D2-83EA-7204D4286A67"

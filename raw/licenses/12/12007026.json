@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-29",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "12007026",
+    "licUnit": "1",
     "validDate": "2023-05-25 00:00:00.000",
     "issueDate": "1970-08-05 00:00:00.000",
+    "oriIssueDate": "1970-08-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01200702607",
@@ -16,17 +22,20 @@
     "does": "1150",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "08"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0C770F38-E865-41DE-BCDE-71D764F3E9F2",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIBOFLAVIN (VIT B2)",
         "BISMUTH SUBSALICYLATE",
@@ -35,9 +44,9 @@
         "THIAMINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "南都化學製藥股份有限公司",
     "applicantAddr": "台南市佳里區佳化里３９號",
@@ -49,8 +58,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "4F430BC6-7842-445C-85EE-7214FFBE4EDB",
             "factoryCode": "1",
             "factoryName": "美西製藥有限公司",
             "factoryAddr": "高雄市仁武區仁武里工業一路９號",
@@ -61,16 +73,19 @@
             "factoryKind": "M",
             "factoryNo": "0900822300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616001200",
+            "ingredientsName": "PANCREATIN (DIASTASE VERA)",
             "ingredientsDesc": "PANCREATIN (DIASTASE VERA)",
             "concentDesc": "100",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -79,9 +94,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0828000200",
+            "ingredientsName": "BISMUTH SUBSALICYLATE",
             "ingredientsDesc": "BISMUTH SUBSALICYLATE",
             "concentDesc": "250",
-            "concent": "250.000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -90,9 +106,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102400",
+            "ingredientsName": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "ingredientsDesc": "GLYCINE (EQ TO AMINOACETIC ACID)(EQ TO GLYCOCOLL)",
             "concentDesc": "100",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -101,9 +118,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100900",
+            "ingredientsName": "THIAMINE HYDROCHLORIDE",
             "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
             "concentDesc": "1.5",
-            "concent": "1.500",
+            "concent": "1.500000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -112,9 +130,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "1",
-            "concent": "1.000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -126,28 +145,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "V06DD"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A07BB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
             "isMain": "1",
             "atcCode": "A09AA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A09AA01"
         }
     ],
     "licBaseId": "5B50B002-743F-4FFF-A263-B12918173B3C"

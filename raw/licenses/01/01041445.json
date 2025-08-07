@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01041445",
+    "licUnit": "1",
     "validDate": "2027-06-28 00:00:00.000",
     "issueDate": "1997-06-28 00:00:00.000",
+    "oriIssueDate": "1997-06-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104144504",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "874DD63F-24F0-4FF0-A3A3-29E5D21E4EC9",
+    "subCategory": [],
     "ingredientsDesc": [
         "BUSPIRONE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "61"
+        "01 國 產",
+        "09 委託製造",
+        "61 完成BE試驗"
     ],
     "applicantName": "鴻汶醫藥實業有限公司",
     "applicantAddr": "台中市西屯區文心路三段236號3樓、238號3樓",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "22D9D0AD-D6A7-48BD-A092-A1EFB14A1F3B",
             "factoryCode": "1",
             "factoryName": "衛達化學製藥股份有限公司",
             "factoryAddr": "台中市南屯區寶山里工業區２３路２１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1605609300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816801510",
+            "ingredientsName": "BUSPIRONE HCL",
             "ingredientsDesc": "BUSPIRONE HCL",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,23 +84,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2FBACBF1-B221-4DC1-A126-3E5C07AD45C7",
-            "approvedDocNo": "1110706481",
-            "approvedDate": "2022-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N05BE01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "N05BE01"
         }
     ],

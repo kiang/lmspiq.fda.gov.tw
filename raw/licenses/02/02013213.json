@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-10",
+    "cancelReason": [
+        "85A"
+    ],
+    "otherCancelReason": "",
     "licid": "02013213",
+    "licUnit": "1",
     "validDate": "2024-01-09 00:00:00.000",
     "issueDate": "1985-01-09 00:00:00.000",
+    "oriIssueDate": "1985-01-09",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00201321305",
@@ -16,22 +22,25 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "C95C4AB7-7657-498B-9FD5-4E1F6858EF4A",
+    "subCategory": [],
     "ingredientsDesc": [
         "VITAMIN A",
         "ERGOCALCIFEROL (VIT D2CALCIFEROL)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣巴斯夫股份有限公司",
-    "applicantAddr": "台北市中山區松江路87號16樓",
+    "applicantAddr": "臺北市中山區松江路106號10樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -40,8 +49,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "FA296093-6AD5-40A7-AA75-100A9B0E4E64",
             "factoryCode": "1",
             "factoryName": "BASF A\/S",
             "factoryAddr": "KOBENHAVNSVEJ 216,DK-4600 KOGE,DENMARK.",
@@ -52,13 +64,16 @@
             "factoryKind": "M",
             "factoryNo": "FDK0007000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8804000100",
+            "ingredientsName": "VITAMIN A",
             "ingredientsDesc": "VITAMIN A",
             "concentDesc": "(5**5IU\/G)95-120",
             "concent": null,
@@ -70,6 +85,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8818000200",
+            "ingredientsName": "ERGOCALCIFEROL (VIT D2CALCIFEROL)",
             "ingredientsDesc": "ERGOCALCIFEROL (VIT D2CALCIFEROL)",
             "concentDesc": "5**4IU\/G)100-120",
             "concent": null,
@@ -81,33 +97,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2EE0765F-51E2-430E-82B7-4C232F3D120C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B0696961-C10A-4D48-A921-961F835E2D14",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11CC05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11CA01"
-        },
         {
             "isMain": "1",
             "atcCode": "A11JA"

@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000845",
+    "licUnit": "1",
     "validDate": "2027-07-30 00:00:00.000",
     "issueDate": "2007-07-30 00:00:00.000",
+    "oriIssueDate": "2007-07-30",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000084501",
     "prodNameC": "增若托平注射劑 12 毫克",
     "prodNameE": "Genotropin 12 mg",
     "indicationsName": [
-        "腦下垂體之生長激素分泌不足所導致之生長干擾；TURNER'S sydrome 所導致之生長干擾；Prader-Willi syndrome 所導致之生長干擾；慢性腎臟功能不足所導致之生長干擾；成人生長激素嚴重缺乏之補充療法；低出生體重兒Small for Gestational Age(SGA) 逾四歲者之生長障礙。"
+        "１、適用於下列疾病導致生長干擾的兒童病人：\n(1) 腦下垂體之生長激素分泌不足(growth hormone deficiency)\n(2) 普瑞德威利氏症候群(Prader-Willi syndrome, PWS)\n(3) 低出生體重兒(Small for Gestational Age, SGA)逾四歲者之生長障礙\n(4) 透納氏症候群(Turner’s syndrome)\n(5) 慢性腎臟功能不足\n２、適用於下列疾病的成人病人：\n(1) 嚴重生長激素缺乏症(growth hormone deficiency)之補充治療\n(2) 普瑞德威利氏症候群(PWS)且合併經飲食療法和運動療法無法控制的身體組成異常"
     ],
     "does": "2243",
     "packageUnit": [
@@ -27,12 +31,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DFE2E645-4373-47EA-A54F-C10E922747DF",
+    "subCategory": [],
     "ingredientsDesc": [
         "SOMATROPIN (BIOSYNTHETIC HUMAN GROWTH HORMONE)",
         "SOMATROPIN (BIOSYNTHETIC HUMAN GROWTH HORMONE)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "輝瑞大藥廠股份有限公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -44,8 +51,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "FC0C86C8-5391-4F23-8BD2-E701492A8075",
             "factoryCode": "1",
             "factoryName": "PFIZER MANUFACTURING BELGIUM NV",
             "factoryAddr": "RIJKSWEG 12, 2870, PUURS, BELGIUM",
@@ -56,9 +66,12 @@
             "factoryKind": "M",
             "factoryNo": "FBE0011000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B405D0D3-82B3-40C9-AD7D-0BF271C54D9A",
             "factoryCode": "1",
             "factoryName": "VETTER PHARMA-FERTIGUNG GMBH & CO. KG",
             "factoryAddr": "EISENBAHNSTRASSE 2-4, 88085 LANGENARGEN GERMANY",
@@ -69,13 +82,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0292000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7D903ADA-E8D5-4066-BA88-5FDCAEBF3F49",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司(仿單置入作業)",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -87,9 +103,12 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F4026F22-1146-4433-93D1-C6461C3E5D85",
             "factoryCode": "2",
             "factoryName": "PFIZER HEALTH AB",
             "factoryAddr": "MARIEFREDSVAGEN 37, SE-645 41 STRANGNAS, SWEDEN",
@@ -105,16 +124,19 @@
             "factoryKind": "M",
             "factoryNo": "FSE0040000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6828001030",
+            "ingredientsName": "SOMATROPIN (BIOSYNTHETIC HUMAN GROWTH HORMONE)",
             "ingredientsDesc": "SOMATROPIN (BIOSYNTHETIC HUMAN GROWTH HORMONE)",
             "concentDesc": "",
-            "concent": "12.000",
+            "concent": "12.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -123,9 +145,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6828001030",
+            "ingredientsName": "SOMATROPIN (BIOSYNTHETIC HUMAN GROWTH HORMONE)",
             "ingredientsDesc": "SOMATROPIN (BIOSYNTHETIC HUMAN GROWTH HORMONE)",
             "concentDesc": "",
-            "concent": "13.800",
+            "concent": "13.800000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -134,124 +157,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F8191B71-7583-4EBC-A1AA-C7EA8C31D902",
-            "approvedDocNo": "1119062822",
-            "approvedDate": "2023-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D39B8B14-8213-41A1-89F3-AD734E4B186D",
-            "approvedDocNo": "1120704371",
-            "approvedDate": "2023-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BAEC4F70-8DB4-4008-9FA2-DE7F64CF3E91",
-            "approvedDocNo": "1110701896",
-            "approvedDate": "2022-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF15DB73-6F2C-43F1-9CD3-4C119C12C954",
-            "approvedDocNo": "1119007864",
-            "approvedDate": "2022-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8AD9DCB0-0795-4C67-A900-69BA80249B69",
-            "approvedDocNo": "1110703141",
-            "approvedDate": "2022-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C19E0EBC-71F0-4EF9-8719-FB088CA6E82F",
-            "approvedDocNo": "1110703141",
-            "approvedDate": "2022-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "457CEFEE-B5B9-4365-AFC9-544A5155A6FD",
-            "approvedDocNo": "1106014795",
-            "approvedDate": "2021-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D1DC963F-EB18-4827-974E-2E796FD33F1B",
-            "approvedDocNo": "1096038280",
-            "approvedDate": "2021-05-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "503772DE-73D5-43B0-8164-A5B9D111CE28",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8E4B93CF-CFD4-49AA-BE9F-D11E91836354",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7FD0DE5D-889E-4728-ADA0-D3990C953D72",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1B9B0ABA-ACBE-4775-82FF-72BB1F7FD200",
-            "approvedDocNo": "1086008409",
-            "approvedDate": "2019-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "H01AC01"
-        },
         {
             "isMain": "1",
             "atcCode": "H01AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07AY"
         }
     ],
     "licBaseId": "6CFD3697-6990-435C-A774-C37B60CB4777"

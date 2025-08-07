@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-29",
+    "cancelReason": [
+        "851"
+    ],
+    "otherCancelReason": "",
     "licid": "51058151",
+    "licUnit": "1",
     "validDate": "2023-12-13 00:00:00.000",
     "issueDate": "2013-12-13 00:00:00.000",
+    "oriIssueDate": "2013-12-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105815108",
@@ -23,13 +29,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F70274F2-7A5B-4993-B555-A677C6BDAAFA",
+    "subCategory": [],
     "ingredientsDesc": [
         "FRUCTOSE D-",
         "DEXTROSE ANHYDROUS"
     ],
     "restraintItemsCode": [
-        "01",
-        "07"
+        "01 國 產",
+        "07 新藥監視"
     ],
     "applicantName": "南光化學製藥股份有限公司",
     "applicantAddr": "台南市新化區中山路1001號",
@@ -41,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "5197346E-2812-449E-8EBF-EC74DF02A699",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區中山路1001號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000550",
+            "ingredientsName": "DEXTROSE ANHYDROUS",
             "ingredientsDesc": "DEXTROSE ANHYDROUS",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000601",
+            "ingredientsName": "FRUCTOSE D-",
             "ingredientsDesc": "FRUCTOSE D-",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -86,14 +102,6 @@
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "B05BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA03"
-        },
-        {
-            "isMain": "2",
             "atcCode": "B05BA03"
         }
     ],
