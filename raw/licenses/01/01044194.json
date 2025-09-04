@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044194",
-    "validDate": "2026-01-04 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2031-01-04 00:00:00.000",
     "issueDate": "2001-01-04 00:00:00.000",
+    "oriIssueDate": "2001-01-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104419407",
@@ -27,11 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "64F18085-4C72-4756-9C0E-DED32842568C",
+    "subCategory": [],
     "ingredientsDesc": [
         "MAPROTILINE HCL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "臺灣派頓化學製藥股份有限公司",
     "applicantAddr": "高雄市岡山區為隨東路50號",
@@ -43,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "30F64D67-D029-4F28-8D9A-67A7A961FC95",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816600810",
+            "ingredientsName": "MAPROTILINE HCL",
             "ingredientsDesc": "MAPROTILINE HCL",
             "concentDesc": "25",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,21 +87,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "29B29960-22C3-4DE3-8535-382B7F428576",
-            "approvedDocNo": "1091494352",
-            "approvedDate": "2020-09-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N06AA21"
-        },
         {
             "isMain": "1",
             "atcCode": "N06AA21"

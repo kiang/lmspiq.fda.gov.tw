@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-05-20",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "02025352",
+    "licUnit": "1",
     "validDate": "2026-02-11 00:00:00.000",
     "issueDate": "2011-02-11 00:00:00.000",
+    "oriIssueDate": "2011-02-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202535209",
@@ -23,15 +29,18 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5CB9A83E-1014-46BC-9CA2-E8BA89D4075A",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEVODOPA",
         "BENSERAZIDE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "羅氏大藥廠股份有限公司",
-    "applicantAddr": "台北市信義區松仁路100號40樓、40樓之1、41樓之1",
+    "applicantAddr": "台北市南港區經貿一路170號10樓、10樓之1至之3、10樓之5至之8",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -40,21 +49,27 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "765B975D-2A9D-45BC-BF3A-D6935637836A",
             "factoryCode": "1",
             "factoryName": "Delpharm Milano S.r.l.",
             "factoryAddr": "Via Carnevale 1, 20090 Segrate (MI), ITALY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIT0463100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B8D15F3B-9124-4BE5-8ECD-8082FBB53DF1",
             "factoryCode": "2",
             "factoryName": "F.HOFFMANN-LA ROCHE LTD.",
             "factoryAddr": "GRENZACHERSTRASSE 124, CH-4070 BASEL SWITZERLAND",
@@ -70,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0093000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208002900",
+            "ingredientsName": "LEVODOPA",
             "ingredientsDesc": "LEVODOPA",
             "concentDesc": null,
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,9 +106,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4410000200",
+            "ingredientsName": "BENSERAZIDE",
             "ingredientsDesc": "BENSERAZIDE",
             "concentDesc": "in form of Benserazide HCl 28.5mg",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -99,84 +118,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "34CD32A2-1B4A-4531-BD82-A2335DA30DE4",
-            "approvedDocNo": "1101490477",
-            "approvedDate": "2021-04-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7FF7C1AB-F301-498D-863E-C67EF29ED8F3",
-            "approvedDocNo": "1096015560",
-            "approvedDate": "2021-01-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "69C8BCCA-7A50-4649-A2DA-C9FD7776DAEF",
-            "approvedDocNo": "1096015560",
-            "approvedDate": "2021-01-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FF94EF4E-F7E5-4D0F-90D9-092B61ED4B61",
-            "approvedDocNo": "1096019168",
-            "approvedDate": "2020-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "207D6348-0319-4506-8CAA-6604F51EFE13",
-            "approvedDocNo": "1096019168",
-            "approvedDate": "2020-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3A245B64-44F8-454E-B86A-4792EBE9346B",
-            "approvedDocNo": "1096014487",
-            "approvedDate": "2020-09-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "009872C6-5387-4BCF-8C54-CCA4A43BDB05",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D15CEBD3-554F-4552-B692-E7C7C1ADD3D9",
-            "approvedDocNo": "1076038555",
-            "approvedDate": "2019-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N04BA01"
-        },
         {
             "isMain": "1",
             "atcCode": "N04BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N04BA"
         }
     ],
     "licBaseId": "594050F1-A4DE-438D-B61E-8D8679D6714F"

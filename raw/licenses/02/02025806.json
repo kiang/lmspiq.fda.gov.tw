@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025806",
+    "licUnit": "1",
     "validDate": "2027-08-27 00:00:00.000",
     "issueDate": "2012-08-27 00:00:00.000",
+    "oriIssueDate": "2012-08-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202580609",
@@ -27,11 +31,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "51E68BD7-9D6F-48AB-93B9-A02CD744C6B6",
+    "subCategory": [],
     "ingredientsDesc": [
         "FLUORESCEIN"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "瑞士商愛爾康大藥廠股份有限公司台灣分公司",
     "applicantAddr": "台北市中正區仁愛路二段99號11樓",
@@ -43,25 +50,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "BCD6D29C-2D68-4601-B859-753B52FA893A",
             "factoryCode": "1",
             "factoryName": "ALCON RESEARCH LLC",
             "factoryAddr": "6201, SOUTH FREEWAY, FORT WORTH, TEXAS 76134, U.S.A.",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FUS0011100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "70FBB856-2509-4C9E-837C-700E84CBF5ED",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
             "factoryAddr": "桃園市楊梅區梅獅路二段629號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -73,13 +86,16 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1AF43FFD-4438-4717-A630-6B3D8707D25A",
             "factoryCode": "2",
             "factoryName": "ALCON LABORATORIES, INC.",
             "factoryAddr": "6201, SOUTH FREEWAY, FORT WORTH, TEXAS 76134, U.S.A.",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [
                 {
@@ -91,16 +107,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0011000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "3690003800",
+            "ingredientsName": "FLUORESCEIN",
             "ingredientsDesc": "FLUORESCEIN",
             "concentDesc": null,
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -109,56 +128,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D1F3C9C6-3C68-482B-90EA-DFD1BDD53D8D",
-            "approvedDocNo": "1119047364",
-            "approvedDate": "2022-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "60E7E368-485A-4661-A159-80155D553AC2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AFD448A7-9729-411C-BE93-C7786DEBBEE9",
-            "approvedDocNo": "1096017841",
-            "approvedDate": "2020-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "384F5E8B-B461-4F77-BD93-287844C934BD",
-            "approvedDocNo": "1096002295",
-            "approvedDate": "2020-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "836A7A87-87B9-4F48-8BAC-821F57787EC9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "17D0AEB4-9474-40C4-855E-1AAD1A886459",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

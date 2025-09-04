@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059378",
+    "licUnit": "1",
     "validDate": "2026-11-15 00:00:00.000",
     "issueDate": "2016-11-15 00:00:00.000",
+    "oriIssueDate": "2016-11-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105937802",
@@ -27,12 +31,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C31EDA1B-5407-4E0B-BE6F-B691377282A0",
+    "subCategory": [],
     "ingredientsDesc": [
         "ENTECAVIR MONOHYDRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -44,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "0968DCFF-0EEE-4BDD-9D94-AEA6BE961AEA",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818003110",
+            "ingredientsName": "ENTECAVIR MONOHYDRATE",
             "ingredientsDesc": "ENTECAVIR MONOHYDRATE",
             "concentDesc": "(eq. to Entecavir.....1mg)",
-            "concent": "1.060",
+            "concent": "1.060000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,16 +88,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "103A5E15-9300-445E-B6C1-680017417D8A",
-            "approvedDocNo": "1096819939",
-            "approvedDate": "2020-12-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

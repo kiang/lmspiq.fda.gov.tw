@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033671",
+    "licUnit": "1",
     "validDate": "2026-02-12 00:00:00.000",
     "issueDate": "1991-02-12 00:00:00.000",
+    "oriIssueDate": "1991-02-12",
     "licKind": "01",
     "oldLicid": null,
     "certNo": "DHY00103367104",
@@ -16,18 +20,21 @@
     "does": "0030",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "30"
         }
     ],
     "medMCode": "04",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9D9D3251-6BC8-44D1-8785-8653665C1E4C",
+    "subCategory": [],
     "ingredientsDesc": [
         "GELATIN"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "廣得利膠囊股份有限公司",
     "applicantAddr": "台中市大雅區上楓村民生路三段180巷15號1、2樓",
@@ -39,28 +46,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "B69F3638-CB5D-4BDC-B278-6F65A0222525",
             "factoryCode": "1",
             "factoryName": "廣得利膠囊股份有限公司",
             "factoryAddr": "台中市大雅區上楓村民生路三段１８０巷１５號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0710810300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600012700",
+            "ingredientsName": "GELATIN",
             "ingredientsDesc": "GELATIN",
             "concentDesc": "",
-            "concent": "64.9870",
+            "concent": "64.987000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -69,21 +82,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F0794DC4-F4E6-46EB-8B1C-A99A70739972",
-            "approvedDocNo": "1106612151",
-            "approvedDate": "2022-01-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
         {
             "isMain": "1",
             "atcCode": "V07"

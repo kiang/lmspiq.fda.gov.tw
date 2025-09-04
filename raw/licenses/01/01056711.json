@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056711",
+    "licUnit": "1",
     "validDate": "2026-10-11 00:00:00.000",
     "issueDate": "2011-10-11 00:00:00.000",
+    "oriIssueDate": "2011-10-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105671104",
@@ -31,13 +35,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EC5365E1-BB6B-4946-855B-A1DFB7684DD1",
+    "subCategory": [],
     "ingredientsDesc": [
         "FUSIDIC ACID",
         "FUSIDIC ACID",
         "FUSIDIC ACID"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "中生生技製藥股份有限公司淡水廠",
     "applicantAddr": "新北市淡水區埤島里行忠路120號",
@@ -49,28 +56,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "7909A7C9-AD72-4364-B40E-10FE2A39ACBF",
             "factoryCode": "1",
             "factoryName": "中生生技製藥股份有限公司淡水廠",
             "factoryAddr": "新北市淡水區埤島里行忠路120號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1403902300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812000500",
+            "ingredientsName": "FUSIDIC ACID",
             "ingredientsDesc": "FUSIDIC ACID",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -79,9 +92,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812000500",
+            "ingredientsName": "FUSIDIC ACID",
             "ingredientsDesc": "FUSIDIC ACID",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -90,9 +104,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812000500",
+            "ingredientsName": "FUSIDIC ACID",
             "ingredientsDesc": "FUSIDIC ACID",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "3",
@@ -101,47 +116,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "55C03EA8-2034-4FDB-A35A-56D9EAE1B065",
-            "approvedDocNo": "1096030464",
-            "approvedDate": "2021-03-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6FC42CB4-91C8-49DF-ABE9-6DC2BEAE772E",
-            "approvedDocNo": "1096030464",
-            "approvedDate": "2021-03-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F5D2E282-AFC6-4366-83BC-73716F10AFB0",
-            "approvedDocNo": "1096030464",
-            "approvedDate": "2021-03-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "499E3227-8D1C-48CD-8163-980C72A0A745",
-            "approvedDocNo": "1096030464",
-            "approvedDate": "2021-03-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "D06AX01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "D06AX01"
         }
     ],

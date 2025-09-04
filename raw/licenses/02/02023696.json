@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023696",
+    "licUnit": "1",
     "validDate": "2028-04-11 00:00:00.000",
     "issueDate": "2003-04-11 00:00:00.000",
+    "oriIssueDate": "2003-04-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202369605",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E9836A80-27ED-4259-9304-E3FAE0DDC5F9",
+    "subCategory": [],
     "ingredientsDesc": [
         "TOCOPHEROL ACETATE ALPHA DL-",
         "CYANOCOBALAMIN (VIT B12)",
@@ -31,7 +38,7 @@
         "BENFOTIAMIN (BENZOYLTHIAMINE MONOPHOSPHATE)(BIOTAMIN)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "佐藤製藥股份有限公司",
     "applicantAddr": "臺北市信義區基隆路一段333號4樓",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "7C1CF8EB-8007-4DA0-845C-E7693BA87AED",
             "factoryCode": "1",
             "factoryName": "SATO PHARMACEUTICAL CO., LTD. HACHIOJI FACTORY",
             "factoryAddr": "1468 HAZAMA-CHO HACHIOHJI TOKYO JAPAN",
-            "factoryCompanyAddr": "5-27, 1-CHOME, MOTOAKASAKA, MINATO-KU, TOKYO, JAPAN",
+            "factoryCompanyAddr": "1-5-27 Motoakasaka, Minatoku, Tokyo, Japan.",
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP0524000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "",
-            "concent": "33.3330",
+            "concent": "33.333000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820009000",
+            "ingredientsName": "VITAMIN E (MIXED TOCOPHEROLS)",
             "ingredientsDesc": "VITAMIN E (MIXED TOCOPHEROLS)",
             "concentDesc": "(50%)",
-            "concent": "66.6670",
+            "concent": "66.667000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,9 +98,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000213",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA DL-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA DL-",
             "concentDesc": "",
-            "concent": "33.3330",
+            "concent": "33.333000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -95,9 +110,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200300",
+            "ingredientsName": "CYANOCOBALAMIN (VIT B12)",
             "ingredientsDesc": "CYANOCOBALAMIN (VIT B12)",
             "concentDesc": "",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -106,9 +122,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101700",
+            "ingredientsName": "BENFOTIAMIN (BENZOYLTHIAMINE MONOPHOSPHATE)(BIOTAMIN)",
             "ingredientsDesc": "BENFOTIAMIN (BENZOYLTHIAMINE MONOPHOSPHATE)(BIOTAMIN)",
             "concentDesc": "",
-            "concent": "33.3330",
+            "concent": "33.333000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -117,36 +134,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0CE6C2A7-19F4-48BE-AFDB-E3D999E7DC9D",
-            "approvedDocNo": "1110727380",
-            "approvedDate": "2023-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "54BF068F-9354-49CB-A521-AB9C6265FB12",
-            "approvedDocNo": "1106005217",
-            "approvedDate": "2021-06-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
-        },
         {
             "isMain": "1",
             "atcCode": "A11JA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
         }
     ],
     "licBaseId": "CBC34F3B-CC6D-49C6-8A44-196E6B2ECA7A"

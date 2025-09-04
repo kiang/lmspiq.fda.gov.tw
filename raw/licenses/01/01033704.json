@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033704",
+    "licUnit": "1",
     "validDate": "2026-02-23 00:00:00.000",
     "issueDate": "1991-02-23 00:00:00.000",
+    "oriIssueDate": "1991-02-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103370406",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F6E80C21-E570-466F-BA06-BDF80CF3C4EE",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLYCYRRHIZINATE DIPOTASSIUM (EQ TO DIPOTASSIUM GLYCYRRHIZINATE)",
         "LYSOZYME CHLORIDE",
         "CHLORHEXIDINE HCL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "衛達化學製藥股份有限公司",
     "applicantAddr": "台中市工業區２３路２１號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "73CFD3DF-A498-4AE0-8E34-D9FA0F648B4F",
             "factoryCode": "1",
             "factoryName": "衛達化學製藥股份有限公司",
             "factoryAddr": "台中市工業區２３路２１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1605609300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400001310",
+            "ingredientsName": "LYSOZYME CHLORIDE",
             "ingredientsDesc": "LYSOZYME CHLORIDE",
             "concentDesc": "",
-            "concent": "7.5000",
+            "concent": "7.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900211",
+            "ingredientsName": "CHLORHEXIDINE HCL",
             "ingredientsDesc": "CHLORHEXIDINE HCL",
             "concentDesc": "",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -86,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004620",
+            "ingredientsName": "GLYCYRRHIZINATE DIPOTASSIUM (EQ TO DIPOTASSIUM GLYCYRRHIZINATE)",
             "ingredientsDesc": "GLYCYRRHIZINATE DIPOTASSIUM (EQ TO DIPOTASSIUM GLYCYRRHIZINATE)",
             "concentDesc": "",
-            "concent": "3.0000",
+            "concent": "3.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -97,56 +112,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D68C7CA1-D1F1-4718-812E-A41212E75FF7",
-            "approvedDocNo": "1129075085",
-            "approvedDate": "2024-01-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EC711313-5F6F-4C2B-A4AD-10242DF979AD",
-            "approvedDocNo": "1110600051",
-            "approvedDate": "2022-05-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "737C5B26-E386-4CF1-8360-2FF051BB6871",
-            "approvedDocNo": "1106603808",
-            "approvedDate": "2021-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8CDF363E-6B2E-47B3-AB57-14FB8C6F4798",
-            "approvedDocNo": "1086613957",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J05AX02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A01AB03"
-        },
         {
             "isMain": "1",
             "atcCode": "A01AB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A01AD"
         }
     ],
     "licBaseId": "DA53B394-F5D5-4BE9-81EF-C5B323D98266"

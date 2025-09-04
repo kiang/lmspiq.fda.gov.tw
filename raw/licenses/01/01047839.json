@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047839",
+    "licUnit": "1",
     "validDate": "2026-02-22 00:00:00.000",
     "issueDate": "2006-02-22 00:00:00.000",
+    "oriIssueDate": "2006-02-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104783903",
@@ -26,13 +30,18 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "73620AC2-6E7E-4AF5-B1D8-3EA0405598A6",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "TERBINAFINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "國信藥品股份有限公司",
     "applicantAddr": "嘉義市西區泰瑞二街36號1樓",
@@ -44,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "13445353-C1FB-46E6-9CD9-DB174705A30B",
             "factoryCode": "1",
             "factoryName": "壽元化學工業股份有限公司",
             "factoryAddr": "嘉義市西區新民路128號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1421417300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "3632000108",
+            "ingredientsName": "TERBINAFINE HYDROCHLORIDE",
             "ingredientsDesc": "TERBINAFINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,64 +89,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8AA42C44-4287-4611-8EE7-1B9A628A9C52",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-09-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "45D53CC6-86D9-4F3C-8291-75F5BB028BF1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-01-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3D060261-4F2C-4093-A21D-A2874DE0BAF2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "62F36BD9-60D1-40F2-B658-ADEF505B2CE0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "230F1894-93DE-4069-B3E9-E309894FA38F",
-            "approvedDocNo": "1096612887",
-            "approvedDate": "2020-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "70092063-AFA2-4AC1-AD75-397D754168B2",
-            "approvedDocNo": "1096612887",
-            "approvedDate": "2020-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4FF77255-2EAC-41AA-8996-0A19D7557FBC",
-            "approvedDocNo": "1096612887",
-            "approvedDate": "2020-12-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01019208",
+    "licUnit": "1",
     "validDate": "2026-07-26 00:00:00.000",
     "issueDate": "1979-10-26 00:00:00.000",
+    "oriIssueDate": "1979-10-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101920802",
@@ -16,21 +20,24 @@
     "does": "3360",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "06"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "10ABC37E-47B0-4C2A-AF5C-9CE02999924B",
+    "subCategory": [],
     "ingredientsDesc": [
         "DIPHENHYDRAMINE HCL",
         "UNDECYLENIC ACID",
         "UNDECYLENATE ZINC"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "艾力特生技製藥股份有限公司將軍廠",
     "applicantAddr": "臺南市將軍區忠興里忠興132之35號A區",
@@ -42,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "2B00893F-5090-45F6-B70F-B1357327443D",
             "factoryCode": "1",
-            "factoryName": "艾力特生技製藥股份有限公司將軍廠",
-            "factoryAddr": "臺南市將軍區忠興里忠興132之35號A區",
+            "factoryName": "應元化學製藥股份有限公司",
+            "factoryAddr": "台南市南區新忠路２６號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
-            "factoryKind": "M",
-            "factoryNo": "6141180016",
+            "factoryKind": "E",
+            "factoryNo": "1704519300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404801500",
+            "ingredientsName": "UNDECYLENIC ACID",
             "ingredientsDesc": "UNDECYLENIC ACID",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404801510",
+            "ingredientsName": "UNDECYLENATE ZINC",
             "ingredientsDesc": "UNDECYLENATE ZINC",
             "concentDesc": "200",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -83,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -94,60 +109,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2EF25D96-71A0-47DC-BBEB-3C5C6C88B12C",
-            "approvedDocNo": "1110805875",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "930D24CF-1C33-4DF9-A8C9-5E127853709A",
-            "approvedDocNo": "1110805875",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1762F505-59DA-474C-90A1-AEE3D3D006E3",
-            "approvedDocNo": "1110805875",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "15E99017-2863-4088-9440-E59ECE64DD80",
-            "approvedDocNo": "1110805875",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6A4CEE2E-49E3-4008-A0F5-E8B1D4AB3875",
-            "approvedDocNo": "1110805875",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D01AE20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AE04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AA32"
         }
     ],
     "licBaseId": "4A15231B-AB2B-490D-A705-73E9B4D026DC"

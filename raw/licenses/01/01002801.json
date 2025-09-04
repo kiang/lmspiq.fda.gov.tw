@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01002801",
+    "licUnit": "1",
     "validDate": "2028-05-01 00:00:00.000",
     "issueDate": "1973-05-01 00:00:00.000",
+    "oriIssueDate": "1973-05-01",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00100280107",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F118053E-C614-4EAA-88EC-06084B150EDC",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM CHLORIDE",
         "SODIUM LACTATE",
@@ -30,7 +37,7 @@
         "POTASSIUM CHLORIDE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "永豐化學工業股份有限公司",
     "applicantAddr": "新北市新莊區新樹路２９２號",
@@ -42,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "134590FB-0F31-462B-8DE4-D1E3CD6E225D",
             "factoryCode": "1",
             "factoryName": "永豐化學工業股份有限公司新莊工廠",
             "factoryAddr": "新北市新莊區新樹路２９２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0504302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "0.6000",
+            "concent": "0.600000",
             "concentUnit": "002",
             "seq": "0",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "0.0300",
+            "concent": "0.030000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -83,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000300",
+            "ingredientsName": "CALCIUM CHLORIDE",
             "ingredientsDesc": "CALCIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "0.0200",
+            "concent": "0.020000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -94,9 +109,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000900",
+            "ingredientsName": "SODIUM LACTATE",
             "ingredientsDesc": "SODIUM LACTATE",
             "concentDesc": "60% (eq. to SODIUM LACTATE 0.31GM)",
-            "concent": "0.5170",
+            "concent": "0.517000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "1",
@@ -105,39 +121,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DF14D067-1DCB-4EBB-BFD8-7A9437194749",
-            "approvedDocNo": "1096603003",
-            "approvedDate": "2020-05-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A8436427-C6DE-4C4E-8366-81798E933E8C",
-            "approvedDocNo": "1096602974",
-            "approvedDate": "2020-03-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "732701F4-0C15-490C-811C-F8649D85ABEE",
-            "approvedDocNo": "1096602974",
-            "approvedDate": "2020-03-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "B05BB01"
-        },
-        {
-            "isMain": "2",
             "atcCode": "B05BB01"
         }
     ],

@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-08-25",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "52028066",
+    "licUnit": "1",
     "validDate": "2026-04-07 00:00:00.000",
     "issueDate": "2021-04-07 00:00:00.000",
+    "oriIssueDate": "2021-04-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202806603",
@@ -23,12 +29,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "0BA2562E-26DD-41C1-A884-DFDFBB80E768",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "TEMOZOLOMIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台灣邁蘭有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -40,25 +52,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "C9563400-49D6-442D-AB30-F0C906523FA7",
             "factoryCode": "1",
             "factoryName": "RELIANCE LIFE SCIENCES PVT. LTD.",
             "factoryAddr": "DHIRUBHAI AMBANI LIFE SCIENCES CENTRE (DALC), PLANT 6, PLOT NO. R-282, TTC AREA OF MIDC, THANE-BELAPUR ROAD, RABALE, NAVI MUMBAI 400701 MAHARASHTRA STATE, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0854100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "9F42621A-E26E-4C61-9767-AB93E3268345",
             "factoryCode": "2",
             "factoryName": "MYLAN PHARMACEUTICALS PRIVATE LIMITED",
             "factoryAddr": "PLOT NO. 1-A\/2, MIDC INDUSTRIAL. ESTATE, TALOJA, PANVEL, RAIGAD (DISTRICT), MAHARASHTRA -410208, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [
                 {
@@ -70,16 +88,19 @@
             "factoryKind": "M",
             "factoryNo": "FIN1055000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1004002000",
+            "ingredientsName": "TEMOZOLOMIDE",
             "ingredientsDesc": "TEMOZOLOMIDE",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -96,24 +117,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B6305A8A-CBE5-4B16-9C78-1105A288E1AB",
-            "approvedDocNo": "1119015025",
-            "approvedDate": "2022-08-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FAA385AC-FC65-45B2-8DBB-4E13AD72C279",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

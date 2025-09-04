@@ -1,14 +1,18 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027317",
+    "licUnit": "1",
     "validDate": "2027-11-20 00:00:00.000",
     "issueDate": "2017-11-20 00:00:00.000",
+    "oriIssueDate": "2017-11-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202731700",
-    "prodNameC": "優清鼻炎膠囊",
+    "prodNameC": "熱龍鼻炎膠囊",
     "prodNameE": "Sutto Bien Capsule",
     "indicationsName": [
         "緩解鼻炎(急、慢性鼻炎、過敏性鼻炎)、鼻塞(鼻粘膜腫脹)、打噴嚏、鼻音及因此引起之頭重感等症狀。"
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "5AFB5D2B-E245-4D7B-BF08-C775366EDA6B",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "D-CHLORPHENIRAMINE MALEATE ",
@@ -30,7 +39,7 @@
         "PHENYLEPHRINE HCL"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "優德貿易有限公司",
     "applicantAddr": "台北市大同區南京西路46號（實際營業地址：5樓）",
@@ -42,8 +51,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "BF8EB2E1-9340-443E-800A-5336CDEFB650",
             "factoryCode": "1",
             "factoryName": "SHISEIDO PHARMACEUTICAL INC.",
             "factoryAddr": "220-1 CHIHARA OAZA GOSE-CITY NARA JAPAN",
@@ -54,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0529000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000811",
+            "ingredientsName": "D-CHLORPHENIRAMINE MALEATE ",
             "ingredientsDesc": "D-CHLORPHENIRAMINE MALEATE ",
             "concentDesc": "",
-            "concent": "2.000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002310",
+            "ingredientsName": "PHENYLEPHRINE HCL",
             "ingredientsDesc": "PHENYLEPHRINE HCL",
             "concentDesc": "",
-            "concent": "3.330",
+            "concent": "3.330000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208000603",
+            "ingredientsName": "BELLADONNA ALKALOID",
             "ingredientsDesc": "BELLADONNA ALKALOID",
             "concentDesc": "(Belladonna Alkaloids)",
-            "concent": "0.130",
+            "concent": "0.130000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -94,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "50.000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -105,36 +123,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B8FB57CA-CF2F-4FA5-8FB0-75505F68E7D2",
-            "approvedDocNo": "1120706757",
-            "approvedDate": "2023-06-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R06AB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03BA04"
-        },
         {
             "isMain": "1",
             "atcCode": "R01BA53"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA03"
         }
     ],
     "licBaseId": "F825F765-EA66-4526-8074-8D629DBF707F"

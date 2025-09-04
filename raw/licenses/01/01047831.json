@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047831",
+    "licUnit": "1",
     "validDate": "2026-02-21 00:00:00.000",
     "issueDate": "2006-02-21 00:00:00.000",
+    "oriIssueDate": "2006-02-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104783100",
@@ -22,13 +26,18 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "A1201DAF-D72F-479A-855D-D3E6632BAEF8",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "TERBINAFINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "黃氏製藥股份有限公司",
     "applicantAddr": "雲林縣斗南鎮小東里大同路４４４巷１１號",
@@ -40,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "6698E23B-FF82-4EF1-B023-1DBE7836CE68",
             "factoryCode": "1",
             "factoryName": "黃氏製藥股份有限公司",
             "factoryAddr": "雲林縣斗南鎮小東里大同路４４４巷１１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1223216300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "3632000100",
+            "ingredientsName": "TERBINAFINE",
             "ingredientsDesc": "TERBINAFINE",
             "concentDesc": "AS TERBINAFINE HYDROCHLORIDE 11.2 mg",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -70,53 +85,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E4C2313A-EC30-4936-AC78-0711CDF40BA1",
-            "approvedDocNo": "1080021283",
-            "approvedDate": "2020-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DDB0A950-8B90-4439-B542-54899C7B9F42",
-            "approvedDocNo": "1080021283",
-            "approvedDate": "2020-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0496E4DE-C806-4AA0-9F61-84DE97DA2EE8",
-            "approvedDocNo": "1080021283",
-            "approvedDate": "2020-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9F1BC178-1FA5-4FF7-A832-DFA0C3FEB2B2",
-            "approvedDocNo": "1080021283",
-            "approvedDate": "2020-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BC00D2C1-ECA5-4679-A245-4C53241ADF61",
-            "approvedDocNo": "1086602365",
-            "approvedDate": "2019-03-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D01AE15"
-        },
         {
             "isMain": "1",
             "atcCode": "D01AE15"

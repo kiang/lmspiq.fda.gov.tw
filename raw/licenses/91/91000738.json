@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "91000738",
+    "licUnit": "1",
     "validDate": "2026-07-21 00:00:00.000",
     "issueDate": "2016-07-21 00:00:00.000",
+    "oriIssueDate": "2016-07-21",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA09100073802",
@@ -23,12 +27,15 @@
     "medMCode": "01",
     "maMedCode": "",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "912733A0-D579-4C85-9384-3833BB2F6487",
+    "subCategory": [],
     "ingredientsDesc": [
         "Ampicillin \r\nIt contains 96.0%~102.0% of ampicillin (C16H19N3O4S), calculated on anhydrous substance."
     ],
     "restraintItemsCode": [
-        "02",
-        "40"
+        "02 輸 入",
+        "40 大陸生產"
     ],
     "applicantName": "龍大生技股份有限公司",
     "applicantAddr": "台南市中西區民權路二段158號3樓",
@@ -40,25 +47,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "A89D56F6-7DF1-488A-9CE6-5FAEBC019D1F",
             "factoryCode": "1",
             "factoryName": "ZHUHAI UNITED LABORATORIES CO., LTD.",
             "factoryAddr": "No. 2428, Anji Road, Sanzao Town, Jinwan District, Zhuhai, Guangdong 519040, P. R. China",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCN0876100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Ampicillin \r\nIt contains 96.0%~102.0% of ampicillin (C16H19N3O4S), calculated on anhydrous substance.",
             "ingredientsDesc": "Ampicillin \r\nIt contains 96.0%~102.0% of ampicillin (C16H19N3O4S), calculated on anhydrous substance.",
             "concentDesc": null,
             "concent": null,
@@ -78,48 +91,11 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2E26334B-95C1-4600-B47C-7D7B6DFF93B6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8332C03D-3944-41F7-8E9E-F61B3D313BCC",
-            "approvedDocNo": "1101497024",
-            "approvedDate": "2021-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9124414B-F347-4072-94FF-792853C5E148",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01AA19"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CR01"
-        },
         {
             "isMain": "1",
             "atcCode": "J01CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CA51"
         }
     ],
     "licBaseId": "FA972B96-AE34-4E1C-A886-617EC20C47D9"

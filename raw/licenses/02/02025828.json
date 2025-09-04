@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025828",
+    "licUnit": "1",
     "validDate": "2027-10-04 00:00:00.000",
     "issueDate": "2012-10-04 00:00:00.000",
+    "oriIssueDate": "2012-10-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202582806",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "965E212F-7896-428C-8DAE-D4D3771EDB84",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEVOFLOXACIN HEMIHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24",
-        "61"
+        "02 輸 入",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "毅有生技醫藥股份有限公司",
     "applicantAddr": "新北市中和區中山路２段332巷37號13樓",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "CC7396F1-0561-43FA-B858-3ADF70D59532",
             "factoryCode": "1",
             "factoryName": "ZYDUS LIFESCIENCES LIMITED",
             "factoryAddr": "SURVEY NO. 417, 419, 420, SARKHEJ-BAVLA NATIONAL HIGHWAY NO. 8A, VILLAGE-MORAIYA, TALUKA-SANAND, DIST.-AHMEDABAD - 382 210, GUJARAT STATE, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN1161000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0836002310",
+            "ingredientsName": "LEVOFLOXACIN HEMIHYDRATE",
             "ingredientsDesc": "LEVOFLOXACIN HEMIHYDRATE",
             "concentDesc": "(equivalent to 500mg of Levofloxacin)",
-            "concent": "512.4600",
+            "concent": "512.460000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,56 +84,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "31449CAD-9F13-46A0-9D96-5EB038E91477",
-            "approvedDocNo": "1119034882",
-            "approvedDate": "2022-11-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "385EF1D0-F204-4D60-A6E8-AA141A3911AE",
-            "approvedDocNo": "1119043566",
-            "approvedDate": "2022-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B7265C56-7C89-4712-86AA-5832C519EB22",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E3A468BB-6CEF-407F-AE6D-2E84C75EE538",
-            "approvedDocNo": "1086014299",
-            "approvedDate": "2019-07-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6695FE6E-C3FE-4EC9-9151-CFD7C5F5B5EB",
-            "approvedDocNo": "1086014299",
-            "approvedDate": "2019-07-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1C367AA9-A5D3-4072-B7B7-75C05C41ED98",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023532",
+    "licUnit": "1",
     "validDate": "2027-08-22 00:00:00.000",
     "issueDate": "2002-11-11 00:00:00.000",
+    "oriIssueDate": "2002-11-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202353201",
@@ -23,10 +27,13 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "95C35462-77D0-44C2-83B5-8E4AC909F4D2",
+    "subCategory": [],
     "ingredientsDesc": [
         "TETRAHYDROZOLINE HCL",
         "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
-        "DIPOTASSIUM GLYCYRRHIZINATE",
+        null,
         "CHLORPHENIRAMINE MALEATE",
         "PANTHENOL",
         "NEOSTIGMINE METHYLSULFATE",
@@ -34,7 +41,7 @@
         "ASPARTATE POTASSIUM L- (eq to POTASSIUM L-ASPARTATE)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣曼秀雷敦股份有限公司",
     "applicantAddr": "台北市內湖區基湖路10巷57號6樓",
@@ -46,8 +53,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "9F95133F-5AE6-4B8B-9663-8E13BE06F0E9",
             "factoryCode": "1",
             "factoryName": "ROHTO PHARMACEUTICAL CO., LTD. UENO PLANT",
             "factoryAddr": "3, 7-CHOME, YUMEGAOKA, IGA-CITY, MIE 518-0131, JAPAN",
@@ -58,9 +68,12 @@
             "factoryKind": "M",
             "factoryNo": "FJP0253100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "06BC268D-F73C-42AE-8B9B-5F939F7820BD",
             "factoryCode": "2",
             "factoryName": "新竹物流股份有限公司",
             "factoryAddr": "新竹縣新豐鄉松柏村德昌街228號",
@@ -76,9 +89,12 @@
             "factoryKind": "M",
             "factoryNo": "6233082272",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "74596DB5-E2FE-4C1F-8C28-019F677ACADA",
             "factoryCode": "2",
             "factoryName": "ROHTO PHARMACEUTICAL CO., LTD.",
             "factoryAddr": "8-1 TATSUMI-NISHI, 1-CHOME, IKUNO-KU, OSAKA 544-8666, JAPAN",
@@ -94,16 +110,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0633000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5232000310",
+            "ingredientsName": "TETRAHYDROZOLINE HCL",
             "ingredientsDesc": "TETRAHYDROZOLINE HCL",
             "concentDesc": null,
-            "concent": "0.1000",
+            "concent": "0.100000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -112,9 +131,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1204000920",
+            "ingredientsName": "NEOSTIGMINE METHYLSULFATE",
             "ingredientsDesc": "NEOSTIGMINE METHYLSULFATE",
             "concentDesc": null,
-            "concent": "0.0500",
+            "concent": "0.050000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -123,9 +143,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "Z102100354",
+            "ingredientsName": null,
             "ingredientsDesc": "DIPOTASSIUM GLYCYRRHIZINATE",
             "concentDesc": null,
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -134,9 +155,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": null,
-            "concent": "0.1000",
+            "concent": "0.100000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -145,9 +167,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": null,
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "0",
@@ -156,9 +179,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416000700",
+            "ingredientsName": "PANTHENOL",
             "ingredientsDesc": "PANTHENOL",
             "concentDesc": null,
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "0",
@@ -167,9 +191,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100442",
+            "ingredientsName": "ASPARTATE POTASSIUM L- (eq to POTASSIUM L-ASPARTATE)",
             "ingredientsDesc": "ASPARTATE POTASSIUM L- (eq to POTASSIUM L-ASPARTATE)",
             "concentDesc": null,
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "0",
@@ -178,9 +203,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406000310",
+            "ingredientsName": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "ingredientsDesc": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "concentDesc": null,
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "7",
             "prescription_seq": "0",
@@ -189,84 +215,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9E145B2A-F847-4569-80B0-5EB18DD239AD",
-            "approvedDocNo": "1110708893",
-            "approvedDate": "2022-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "26C6B6EA-9128-4B33-80D5-262420311FCA",
-            "approvedDocNo": "1096032605",
-            "approvedDate": "2021-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0C7AA4D0-146F-4A83-B2B1-FCE40B6C1CB5",
-            "approvedDocNo": "1096031522",
-            "approvedDate": "2021-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D7008491-D572-40FB-94D4-3188069C2061",
-            "approvedDocNo": "1096010098",
-            "approvedDate": "2020-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F909BC2F-FFCF-4A19-B72B-A5204A3808AA",
-            "approvedDocNo": "1086020520",
-            "approvedDate": "2019-09-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "990FE359-3A78-437A-B317-D6D51C6F11C9",
-            "approvedDocNo": "1086020520",
-            "approvedDate": "2019-09-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA12"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01GX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01EB06"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA"
-        },
         {
             "isMain": "1",
             "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01GA02"
         }
     ],
     "licBaseId": "450758F8-EB94-414F-80BE-55D9A8634A0B"

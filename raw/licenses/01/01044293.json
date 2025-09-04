@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044293",
+    "licUnit": "1",
     "validDate": "2026-02-23 00:00:00.000",
     "issueDate": "2001-02-23 00:00:00.000",
+    "oriIssueDate": "2001-02-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104429309",
@@ -20,22 +24,25 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "K2"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E762102A-7E22-45B0-98B7-3D2F159BE8D2",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAFFEINE",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "元宙化學製藥股份有限公司",
-    "applicantAddr": "南投縣南投市南崗工業區南崗三路２７２號",
+    "applicantAddr": "南投縣南投市南崗三路272號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "91F5EBDC-F7A3-497B-9ED6-6C1FB4CB629E",
             "factoryCode": "1",
             "factoryName": "元宙化學製藥股份有限公司",
             "factoryAddr": "南投縣南投市南崗工業區南崗三路２７２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0406914300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "500",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": "65",
-            "concent": "65.0000",
+            "concent": "65.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -85,60 +99,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "590782F8-4E19-4005-B387-9F6B1C0DA689",
-            "approvedDocNo": "1120602666",
-            "approvedDate": "2023-05-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "994B73B7-8677-4F19-BC40-E279A3494631",
-            "approvedDocNo": "1120602666",
-            "approvedDate": "2023-05-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FD058C5E-7371-4D55-93ED-3A15F26D4EEA",
-            "approvedDocNo": "1086609210",
-            "approvedDate": "2019-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A3BA0C9-F6E4-4A6F-976C-48665A213553",
-            "approvedDocNo": "1086609210",
-            "approvedDate": "2019-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0DB3A538-2A8B-4C89-8FB6-59DC12307979",
-            "approvedDocNo": "1086609210",
-            "approvedDate": "2019-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02BE51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
         }
     ],
     "licBaseId": "07668D33-1B22-470A-94C2-B12A1BBB7D94"

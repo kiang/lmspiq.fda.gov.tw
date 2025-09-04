@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028041",
+    "licUnit": "1",
     "validDate": "2026-02-23 00:00:00.000",
     "issueDate": "2021-02-23 00:00:00.000",
+    "oriIssueDate": "2021-02-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202804100",
@@ -23,12 +27,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "1C515531-0F3A-43C6-9CFA-0C9D183DF77C",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "DEFERASIROX"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台灣瑞迪博士有限公司",
     "applicantAddr": "臺北市信義區信義路5段7號57樓之1(5727室)",
@@ -40,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "FF985BD4-C88C-42DF-8EA0-35FB1B005E28",
             "factoryCode": "1",
             "factoryName": "MSN LABORATORIES PRIVATE LIMITED",
             "factoryAddr": "Formulations Division, Unit-II, Sy. No.1277&1319 to 1324, Nandigama (Village & Mandal), Rangareddy (District)-509228,Telangana, India",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN1103000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200099100",
+            "ingredientsName": "DEFERASIROX",
             "ingredientsDesc": "DEFERASIROX",
             "concentDesc": "",
-            "concent": "250.000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,16 +85,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DE7F1DD6-0BCA-4D2E-A52D-9F278B6694D9",
-            "approvedDocNo": "1120713731",
-            "approvedDate": "2023-09-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

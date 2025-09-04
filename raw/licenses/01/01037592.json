@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01037592",
+    "licUnit": "1",
     "validDate": "2026-02-12 00:00:00.000",
     "issueDate": "1994-05-17 00:00:00.000",
+    "oriIssueDate": "1994-05-17",
     "licKind": "02",
     "oldLicid": "01033674",
     "certNo": "DHY00103759202",
@@ -27,15 +31,18 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8A43DA9C-C6EF-4515-9DD5-3DCC308FD17B",
+    "subCategory": [],
     "ingredientsDesc": [
         "PSEUDOEPHEDRINE HCL",
         "GUAIACOL GLYCOLATE (EQ TO GLYCERYL GUAIACOLATE)",
         "CODEINE PHOSPHATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "34"
+        "01 國 產",
+        "1R 不得製造",
+        "34 第四級管制藥品"
     ],
     "applicantName": "井田國際醫藥廠股份有限公司",
     "applicantAddr": "台中市大甲區幼獅路32號",
@@ -47,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "FC56B85A-DF31-4DEF-B3C7-5BED131C818A",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001430",
+            "ingredientsName": "GUAIACOL GLYCOLATE (EQ TO GLYCERYL GUAIACOLATE)",
             "ingredientsDesc": "GUAIACOL GLYCOLATE (EQ TO GLYCERYL GUAIACOLATE)",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002610",
+            "ingredientsName": "PSEUDOEPHEDRINE HCL",
             "ingredientsDesc": "PSEUDOEPHEDRINE HCL",
             "concentDesc": "6",
-            "concent": "6.0000",
+            "concent": "6.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -88,9 +102,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": "2",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -101,18 +116,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "R05FA02"

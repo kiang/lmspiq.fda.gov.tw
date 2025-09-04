@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049193",
+    "licUnit": "1",
     "validDate": "2027-12-13 00:00:00.000",
     "issueDate": "2007-12-13 00:00:00.000",
+    "oriIssueDate": "2007-12-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104919304",
@@ -27,14 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9E10655F-10C2-475C-94C1-4F8005D48C29",
+    "subCategory": [],
     "ingredientsDesc": [
         "OTILONIUM BROMIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "07",
-        "09",
-        "5C"
+        "01 國 產",
+        "07 新藥監視",
+        "09 委託製造",
+        "5C 依本署82、07、07衛署藥字第8246232號公告於國內進行臨床試驗且經本署核定之新藥"
     ],
     "applicantName": "新加坡商美納里尼醫藥有限公司台灣分公司",
     "applicantAddr": "臺北市中山區民生東路3段2號9樓之2",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "3B49DE76-717F-436D-81C5-157ECA097F86",
             "factoryCode": "1",
-            "factoryName": "臺灣東洋藥品工業股份有限公司六堵廠",
+            "factoryName": "台灣東洋藥品工業股份有限公司六堵廠",
             "factoryAddr": "基隆市七堵區工建西路5號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6111021077",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5622002010",
+            "ingredientsName": "OTILONIUM BROMIDE",
             "ingredientsDesc": "OTILONIUM BROMIDE",
             "concentDesc": null,
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -76,64 +89,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BF072660-D052-44EB-B92E-D416561965F3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "974C7293-84C2-435C-8DAD-C86982E833CB",
-            "approvedDocNo": "1129014929",
-            "approvedDate": "2023-09-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DC1610AC-E7FA-4E6D-BF4F-96772B6D6329",
-            "approvedDocNo": "1120701369",
-            "approvedDate": "2023-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "88972A68-9F21-4835-9E5E-64C881E9AC63",
-            "approvedDocNo": "1120700594",
-            "approvedDate": "2023-02-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B977E5AA-E943-4F92-86CE-8AB70100D25B",
-            "approvedDocNo": "1086008211",
-            "approvedDate": "2019-05-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "40A52719-84CC-419A-A317-2517D49674A0",
-            "approvedDocNo": "1086008211",
-            "approvedDate": "2019-05-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0EFA59B7-30B4-4C4C-B923-F8774C41DDC8",
-            "approvedDocNo": "1086008211",
-            "approvedDate": "2019-05-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

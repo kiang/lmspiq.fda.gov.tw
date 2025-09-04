@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033588",
+    "licUnit": "1",
     "validDate": "2026-02-01 00:00:00.000",
     "issueDate": "1991-02-01 00:00:00.000",
+    "oriIssueDate": "1991-02-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103358804",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "08F74925-6FD8-431A-A244-239513EB8CDC",
+    "subCategory": [],
     "ingredientsDesc": [
         "BENZBROMARONE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "華盛頓製藥廠股份有限公司",
     "applicantAddr": "高雄市仁武區仁武里工業二路12號",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "5D61FEB2-1EE7-4BEB-B7A7-630CA92EB308",
             "factoryCode": "1",
             "factoryName": "華盛頓製藥廠股份有限公司",
             "factoryAddr": "高雄市仁武區仁武里工業二路12號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1202822300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4040000300",
+            "ingredientsName": "BENZBROMARONE",
             "ingredientsDesc": "BENZBROMARONE",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

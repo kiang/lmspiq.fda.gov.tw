@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047787",
+    "licUnit": "1",
     "validDate": "2026-02-03 00:00:00.000",
     "issueDate": "2006-02-03 00:00:00.000",
+    "oriIssueDate": "2006-02-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104778700",
@@ -27,14 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1EB9E3BC-AF58-49CF-91BC-2D1371E9550C",
+    "subCategory": [],
     "ingredientsDesc": [
         "CYCLOBENZAPRINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "25",
-        "63"
+        "01 國 產",
+        "09 委託製造",
+        "25 監視中學名藥",
+        "63 完成BA試驗"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A0B681B8-FB15-4F8A-854D-907A8164D197",
             "factoryCode": "1",
             "factoryName": "優良化學製藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉中興村光復路10號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1702804200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816400310",
+            "ingredientsName": "CYCLOBENZAPRINE HYDROCHLORIDE",
             "ingredientsDesc": "CYCLOBENZAPRINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -76,16 +89,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EC33982C-8D0F-4A59-9179-1D98DD981387",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

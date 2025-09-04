@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-08-25",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "52027082",
+    "licUnit": "1",
     "validDate": "2027-03-07 00:00:00.000",
     "issueDate": "2017-03-07 00:00:00.000",
+    "oriIssueDate": "2017-03-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202708209",
@@ -27,13 +33,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3CC4FCF1-B0E4-43C9-95C1-12E65DC9D9FC",
+    "subCategory": [],
     "ingredientsDesc": [
         "OXALIPLATIN"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台灣邁蘭有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -45,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "2FA1FAA5-CEE7-414D-B3C9-26A64106FA28",
             "factoryCode": "1",
             "factoryName": "MYLAN LABORATORIES LIMITED-OTL",
             "factoryAddr": "PLOT NO. 284B, BOMMASANDRA-JIGANI LINK ROAD, INDUSTRIAL AREA, ANEKAL TALUK, BANGALORE-560105, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0921000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1012001600",
+            "ingredientsName": "OXALIPLATIN",
             "ingredientsDesc": "OXALIPLATIN",
             "concentDesc": "",
-            "concent": "0.005",
+            "concent": "0.005000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,40 +90,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "574BC1B5-6E66-4D2F-B324-04EB1BA79FBD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D0131979-D2A4-479A-9897-8DB6693F9BE4",
-            "approvedDocNo": "1101497666",
-            "approvedDate": "2022-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5375CDD2-22E5-4072-B0CD-B1E5DFBC4A85",
-            "approvedDocNo": "1101497666",
-            "approvedDate": "2022-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8B9A78D4-CEB7-42C2-8158-F52D9D755FD5",
-            "approvedDocNo": "1101497666",
-            "approvedDate": "2022-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

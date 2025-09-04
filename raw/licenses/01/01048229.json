@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048229",
+    "licUnit": "1",
     "validDate": "2026-09-13 00:00:00.000",
     "issueDate": "2006-09-13 00:00:00.000",
+    "oriIssueDate": "2006-09-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104822907",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C5B2103B-2A5D-42AD-A0A6-ABD11F9DE4F0",
+    "subCategory": [],
     "ingredientsDesc": [
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "瑩碩生技醫藥股份有限公司",
     "applicantAddr": "台北市中山區南京東路二段206號8樓之3",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "57B6D54C-A621-420A-B45B-B67A26939F7A",
             "factoryCode": "1",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉光復路1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133061413",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": "",
-            "concent": "1000.0000",
+            "concent": "1000.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,16 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AE4B241E-0898-4B19-BEB3-591E17936377",
-            "approvedDocNo": "1091490989",
-            "approvedDate": "2020-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

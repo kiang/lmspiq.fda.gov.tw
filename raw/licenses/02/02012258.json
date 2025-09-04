@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02012258",
+    "licUnit": "1",
     "validDate": "2028-08-12 00:00:00.000",
     "issueDate": "2018-08-31 00:00:00.000",
+    "oriIssueDate": "1984-01-30",
     "licKind": "02",
     "oldLicid": "13006383",
     "certNo": "DHA00201225809",
@@ -23,11 +27,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "666F16ED-AA57-426C-8525-FF0DB0E16FA6",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMPHOTERICIN B"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "裕利股份有限公司",
     "applicantAddr": "臺北市松山區南京東路4段126號10樓、10樓之1至之3",
@@ -39,21 +46,27 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "BBCB5D05-E9FF-4F54-9690-A607644ECD88",
             "factoryCode": "1",
             "factoryName": "DELPHARM SAINT REMY",
             "factoryAddr": "RUE DE LISLE, SAINT REMY SUR AVRE, 28380, FRANCE",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "FR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FFR0416000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "028E4DEF-CD66-4D29-9F20-5466446B4573",
             "factoryCode": "2",
             "factoryName": "XELLIA PHARMACEUTICALS LTD.",
             "factoryAddr": "SZALLAS UTCA 1-3. 1107 BUDAPEST HUNGARY",
@@ -64,16 +77,19 @@
             "factoryKind": "M",
             "factoryNo": "FHU0012000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200102",
+            "ingredientsName": "AMPHOTERICIN B",
             "ingredientsDesc": "AMPHOTERICIN B",
             "concentDesc": "(ACTIVITY)  50",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -82,88 +98,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C5827029-942E-4C47-B3B0-8C55FE17890B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-12-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B26956B7-082E-4452-90B6-29FA59DEBFA5",
-            "approvedDocNo": "1120706976",
-            "approvedDate": "2023-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9E40CA92-17B7-4D3E-92D7-2E83BCFF9418",
-            "approvedDocNo": "1120706976",
-            "approvedDate": "2023-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BD0600CE-8430-4E69-892B-5A277304B5BF",
-            "approvedDocNo": "1119028480",
-            "approvedDate": "2022-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8BBCCC73-FC39-481E-AEE7-0AF8C3E8C250",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "22551B9F-2EDE-4C14-913B-71CCE44AABC5",
-            "approvedDocNo": "1101496307",
-            "approvedDate": "2021-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "27984654-B270-4C65-9072-9CE974F6B9BE",
-            "approvedDocNo": "1101496307",
-            "approvedDate": "2021-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ADDCA783-0291-468A-ACFF-B6A8699D8A2C",
-            "approvedDocNo": "1101496307",
-            "approvedDate": "2021-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5CBC1ECE-1885-4840-8963-0A2711AC77D1",
-            "approvedDocNo": "1106007323",
-            "approvedDate": "2021-03-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4155F9B2-F5D9-4CCA-AF3F-08EE00713FE2",
-            "approvedDocNo": "1086019228",
-            "approvedDate": "2019-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

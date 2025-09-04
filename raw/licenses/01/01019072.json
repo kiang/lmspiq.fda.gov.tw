@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01019072",
+    "licUnit": "1",
     "validDate": "2028-12-31 00:00:00.000",
     "issueDate": "1979-10-15 00:00:00.000",
+    "oriIssueDate": "1979-10-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101907200",
@@ -27,12 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2329968A-2A82-4DDA-ADF6-2FC3653A818F",
+    "subCategory": [],
     "ingredientsDesc": [
         "KETOPROFEN"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "台灣陽生製藥工業股份有限公司",
     "applicantAddr": "屏東縣屏東市龍華路３８１號",
@@ -44,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "C1390F68-81A1-4C27-B75C-C037A50D810B",
             "factoryCode": "1",
             "factoryName": "台灣陽生製藥工業股份有限公司",
             "factoryAddr": "屏東縣屏東市龍華路３８１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1111823200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808401600",
+            "ingredientsName": "KETOPROFEN",
             "ingredientsDesc": "KETOPROFEN",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -74,40 +88,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BD461EE5-51E0-4DC2-9F5C-9C718BFD6406",
-            "approvedDocNo": "1129066258",
-            "approvedDate": "2023-12-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BE5BA888-D2B1-4978-B164-8C9F122DA0C8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B31F841E-CC17-4D1A-B31F-E3FDD7486FF1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "195C87B7-1E58-4C4E-8C4A-F8501273485C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

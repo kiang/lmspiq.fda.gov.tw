@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2020-11-24",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "10000638",
+    "licUnit": "1",
     "validDate": "2026-02-05 00:00:00.000",
     "issueDate": "2001-02-05 00:00:00.000",
+    "oriIssueDate": "2001-02-05",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000063809",
@@ -29,11 +33,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "150E9F1E-1B42-4257-B3B0-2BFEC600AB8E",
+    "subCategory": [],
     "ingredientsDesc": [
         "FOLLITROPIN BETA"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "美商默沙東藥廠股份有限公司台灣分公司",
     "applicantAddr": "台北市信義區信義路五段106號12樓",
@@ -45,8 +52,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "F74553E8-2B2E-4275-9E9F-A4BF3007FCA9",
             "factoryCode": "1",
             "factoryName": "N.V. ORGANON",
             "factoryAddr": "KLOOSTERSTRAAT 6 5349 AB OSS,THE NETHERLANDS",
@@ -57,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "FNL0022000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3E9197A3-3B7A-41E5-B567-EBCE3F5E6737",
             "factoryCode": "2",
             "factoryName": "N.V. ORGANON-SITE DIOSITE",
             "factoryAddr": "VEERSEMEER 4, 5347 JN OSS, THE NETHERLANDS",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "NL",
             "processCode": [
                 {
@@ -75,16 +88,19 @@
             "factoryKind": "M",
             "factoryNo": "FNL0087000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6818000600",
+            "ingredientsName": "FOLLITROPIN BETA",
             "ingredientsDesc": "FOLLITROPIN BETA",
             "concentDesc": null,
-            "concent": "50.000",
+            "concent": "50.000000",
             "concentUnit": "212",
             "seq": "0",
             "prescription_seq": "0",
@@ -93,32 +109,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B73D8E9E-E6E7-415D-8982-0754234FB9DB",
-            "approvedDocNo": "1086028573",
-            "approvedDate": "2020-03-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "00FC15AA-0946-48DB-B067-4A7DE0C9C5F9",
-            "approvedDocNo": "1086028573",
-            "approvedDate": "2020-03-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CA3462A8-E684-4109-B0DA-0C275D2EE11E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

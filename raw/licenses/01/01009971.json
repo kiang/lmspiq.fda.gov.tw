@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01009971",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1976-05-31 00:00:00.000",
+    "oriIssueDate": "1976-05-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100997102",
     "prodNameC": "\"美\"敏迴錠",
     "prodNameE": "BROMPHIN TABLETS",
     "indicationsName": [
-        "緩解過敏性鼻炎、枯草熱所引起之相關症狀（流鼻水、打噴嚏、眼睛及喉部搔癢）及過敏所引起之搔癢、皮膚癢疹。"
+        "預防或緩解動暈症（暈車、暈船、暈機）引起之頭暈、噁心、嘔吐、頭痛等症狀。"
     ],
     "does": "1110",
     "packageUnit": [
@@ -23,13 +27,16 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5A1AA7E4-E7E5-4BA6-B446-426BDC6BA829",
+    "subCategory": [],
     "ingredientsDesc": [
         "BROMPHENIRAMINE MALEATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "長安化學工業股份有限公司",
     "applicantAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "352A7626-E5EF-4627-938B-AFAEE2305C0F",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000510",
+            "ingredientsName": "BROMPHENIRAMINE MALEATE",
             "ingredientsDesc": "BROMPHENIRAMINE MALEATE",
             "concentDesc": "4",
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -71,72 +84,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2ECA3779-620A-4C05-9479-C36C13A8A61B",
-            "approvedDocNo": "1129021300",
-            "approvedDate": "2023-09-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "102DF269-6189-46C8-B362-4E2C5BA32FB7",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "38659CD1-B985-485C-816F-BDFB63C81DCB",
-            "approvedDocNo": "1091493354",
-            "approvedDate": "2020-07-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FAA1CE7A-44AE-4645-9724-23C178AFEC86",
-            "approvedDocNo": "1086614214",
-            "approvedDate": "2020-02-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E7B96515-8DAE-41E7-A6BE-5EF96C48BE7F",
-            "approvedDocNo": "1086614214",
-            "approvedDate": "2020-02-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B4E24C67-AB5A-4267-896C-CE6A59A53299",
-            "approvedDocNo": "1086614214",
-            "approvedDate": "2020-02-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E2220A2E-6316-4835-AAA1-E0706408BD88",
-            "approvedDocNo": "1086614214",
-            "approvedDate": "2020-02-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5DFC90E4-4BC7-45C5-A7E1-9DDE4AF6D86B",
-            "approvedDocNo": "1070038511",
-            "approvedDate": "2019-01-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

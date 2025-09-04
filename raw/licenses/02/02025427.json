@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025427",
+    "licUnit": "1",
     "validDate": "2026-05-31 00:00:00.000",
     "issueDate": "2011-05-31 00:00:00.000",
+    "oriIssueDate": "2011-05-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202542701",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "271D3B7F-B9F1-4D60-8598-E68A14C28053",
+    "subCategory": [],
     "ingredientsDesc": [
         "Febuxostat"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣安斯泰來製藥股份有限公司",
     "applicantAddr": "台北市中山區民生東路３段１０號５樓",
@@ -39,8 +46,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "541E3B30-843A-4C1C-9E20-12861C48F456",
             "factoryCode": "1",
             "factoryName": "PATHEON FRANCE",
             "factoryAddr": "40 BOULEVARD DE CHAMPARET, 38300 BOURGOIN JALLIEU, FRANCE.",
@@ -51,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0109000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3A883A6F-4203-446E-A93F-BA25DC85AA21",
             "factoryCode": "2",
             "factoryName": "聯亞藥業股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉中興村光復北路45號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -69,9 +82,12 @@
             "factoryKind": "M",
             "factoryNo": "6133061495",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3107E3F2-A58B-4EA8-8080-EE3F09AE3897",
             "factoryCode": "2",
             "factoryName": "TEIJIN PHARMA LIMITED",
             "factoryAddr": "2-1,KASUMIGASEKI 3-CHOME, CHIYODA-KU, TOKYO,100-8585, JAPAN",
@@ -87,16 +103,19 @@
             "factoryKind": "M",
             "factoryNo": "MJP0553000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200094800",
+            "ingredientsName": "Febuxostat",
             "ingredientsDesc": "Febuxostat",
             "concentDesc": null,
-            "concent": "80.0000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -105,39 +124,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "74A288B6-5478-4A4C-BE7D-F23E212B671A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AE21BBBE-C374-45E1-98E6-1C842E0F57A1",
-            "approvedDocNo": "1096040131",
-            "approvedDate": "2021-02-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1588F0B9-43F5-4C5C-B93C-5B9B6EF2B64E",
-            "approvedDocNo": "1086029220",
-            "approvedDate": "2019-11-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "M04AA03"
-        },
-        {
-            "isMain": "2",
             "atcCode": "M04AA03"
         }
     ],

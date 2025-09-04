@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026649",
+    "licUnit": "1",
     "validDate": "2026-02-19 00:00:00.000",
     "issueDate": "2016-02-19 00:00:00.000",
+    "oriIssueDate": "2016-02-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202664904",
@@ -27,16 +31,19 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3DD9FF2F-CE38-4099-9412-0B8528A1910D",
+    "subCategory": [],
     "ingredientsDesc": [
         "Peramivir hydrate"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣塩野義製藥股份有限公司",
-    "applicantAddr": "台北市中山區南京東路二段２號４樓",
+    "applicantAddr": "臺北市中山區松江路106號4樓(B戶)",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -45,8 +52,11 @@
     "monitorDate": "2021-02-19",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "A9E57931-70EC-407C-9C55-BF19BE2F1BDA",
             "factoryCode": "1",
             "factoryName": "NIPRO PHARMA CORPORATION ISE PLANT FOR SHIONOGI JAPAN",
             "factoryAddr": "647-240, Ureshinotengeji-cho, Matsusaka-shi, Mie, 515-2302, Japan",
@@ -57,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0628000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "EC0A9D82-7072-44FE-9A6E-7959D429774C",
             "factoryCode": "2",
             "factoryName": "NIPRO PHARMA CORPORATION ISE PLANT",
             "factoryAddr": "1-8, DOSHOMACHI 3-CHOME, CHUO-KU, OSAKA, JAPAN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [
                 {
@@ -75,16 +88,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0937000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818005210",
+            "ingredientsName": "Peramivir hydrate",
             "ingredientsDesc": "Peramivir hydrate",
             "concentDesc": "(eq. to Peramivir......300MG)",
-            "concent": "349.000",
+            "concent": "349.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -93,45 +109,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3C8D329D-7DF7-4B91-9663-BE27D6F58968",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C0463334-4655-433E-8BCC-0D8060BA64FB",
-            "approvedDocNo": "1081409480",
-            "approvedDate": "2019-09-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AD5638DA-4AB9-420F-AF78-0FC1C4F29D15",
-            "approvedDocNo": "1081409480",
-            "approvedDate": "2019-09-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "80235A3D-7273-4F02-9823-B31F06D06CBB",
-            "approvedDocNo": "1081409480",
-            "approvedDate": "2019-09-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J05AH03"
-        },
         {
             "isMain": "1",
             "atcCode": "J05AH03"

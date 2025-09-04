@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-08-25",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "52028134",
+    "licUnit": "1",
     "validDate": "2026-07-21 00:00:00.000",
     "issueDate": "2021-07-21 00:00:00.000",
+    "oriIssueDate": "2021-07-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202813407",
@@ -27,13 +33,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "837B81C3-3E98-4230-879A-D37D915D85E8",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "BENDAMUSTINE HYDROCHLORIDE",
         "BENDAMUSTINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台灣邁蘭有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -45,28 +56,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "8EF4D7DC-6A73-47F8-88A4-4619F86D35CB",
             "factoryCode": "1",
             "factoryName": "MYLAN LABORATORIES LIMITED-OTL",
             "factoryAddr": "PLOT NO. 284B, BOMMASANDRA-JIGANI LINK ROAD, INDUSTRIAL AREA, ANEKAL TALUK, BANGALORE-560105, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0921000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1004002510",
+            "ingredientsName": "BENDAMUSTINE HYDROCHLORIDE",
             "ingredientsDesc": "BENDAMUSTINE HYDROCHLORIDE",
             "concentDesc": "Bendamustine Hydrochloride Monohydrate (eq. to Bendamustine.....22.7mg)",
-            "concent": "25.000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +92,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1004002510",
+            "ingredientsName": "BENDAMUSTINE HYDROCHLORIDE",
             "ingredientsDesc": "BENDAMUSTINE HYDROCHLORIDE",
             "concentDesc": "Bendamusting Hydrochloride Monohydrate (eq. to Bendamustine.....90.8mg)",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -94,16 +112,7 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FB2CCB37-2B24-41E6-8944-50CF527BE1CF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

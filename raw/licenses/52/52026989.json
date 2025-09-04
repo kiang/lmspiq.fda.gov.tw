@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026989",
+    "licUnit": "1",
     "validDate": "2026-06-26 00:00:00.000",
     "issueDate": "2016-06-26 00:00:00.000",
+    "oriIssueDate": "2016-06-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202698902",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "167C42AC-E0B8-45D7-9E12-861262743506",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
         "TELMISARTAN"
     ],
     "restraintItemsCode": [
-        "02",
-        "26"
+        "02 輸 入",
+        "26 監視期滿新藥"
     ],
     "applicantName": "毅有生技醫藥股份有限公司",
     "applicantAddr": "新北市中和區中山路２段332巷37號13樓",
@@ -41,8 +48,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "21145AEA-B112-4CAC-9D26-D852639D66CF",
             "factoryCode": "1",
             "factoryName": "Zydus Lifesciences Limited",
             "factoryAddr": "Survey No. 417, 419 & 420, Sarkhej-Bavla National Highway No. 8A, Village-Moraiya, Taluka-Sanand, Dist. -Ahmedabad-382 210, Gujarat State, India",
@@ -53,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "FIN0132000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005600",
+            "ingredientsName": "TELMISARTAN",
             "ingredientsDesc": "TELMISARTAN",
             "concentDesc": "",
-            "concent": "80.000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028100600",
+            "ingredientsName": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "ingredientsDesc": "HYDROCHLOROTHIAZIDE (EQ TO 3,4-DIHYDROCHLOROTHIAZIDE)",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "3",
@@ -82,57 +96,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "19F099CC-892F-4BC7-AA95-B171A636630D",
-            "approvedDocNo": "1119034885",
-            "approvedDate": "2022-11-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D747A941-57A8-4560-A0AC-1C7E9ADC9A81",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3C147968-3413-44DE-AF42-7E4E6204C93F",
-            "approvedDocNo": "1086023272",
-            "approvedDate": "2019-12-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "718D3B1D-C1E3-4045-8E9A-AD04FF5254B0",
-            "approvedDocNo": "1086023272",
-            "approvedDate": "2019-12-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0DE8F6DF-D468-4F0C-A997-352B3D85D6E7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C03AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09CA07"
-        },
         {
             "isMain": "1",
             "atcCode": "C09DA07"

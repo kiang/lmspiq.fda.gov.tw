@@ -1,15 +1,19 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51061466",
+    "licUnit": "1",
     "validDate": "2028-05-30 00:00:00.000",
     "issueDate": "2023-05-30 00:00:00.000",
+    "oriIssueDate": "2023-05-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106146604",
     "prodNameC": "双優惠脈錠5\/40毫克",
-    "prodNameE": "OlmeCa Tablets 5\/40mg",
+    "prodNameE": "OlsaaCa Tablets 5\/40 mg",
     "indicationsName": [
         "治療高血壓，此複方Amlodipine\/ Olmesartan medoxomil不適合用於起始治療。"
     ],
@@ -27,13 +31,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "D3E5B5CA-A521-4FB3-91BA-CC39E5ABADC3",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "OLMESARTAN MEDOXOMIL",
         "AMLODIPINE BESYLATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "中國化學製藥股份有限公司新豐工廠",
     "applicantAddr": "新竹縣新豐鄉坑子口１８２之１號",
@@ -45,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A1B203DE-2378-494A-A22C-88E24388E446",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412402210",
+            "ingredientsName": "AMLODIPINE BESYLATE",
             "ingredientsDesc": "AMLODIPINE BESYLATE",
             "concentDesc": "(eq. to Amlodipine.....5mg)",
-            "concent": "6.940",
+            "concent": "6.940000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005910",
+            "ingredientsName": "OLMESARTAN MEDOXOMIL",
             "ingredientsDesc": "OLMESARTAN MEDOXOMIL",
             "concentDesc": "",
-            "concent": "40.000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -91,10 +107,6 @@
         {
             "isMain": "1",
             "atcCode": "C09DB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09CA08"
         }
     ],
     "licBaseId": "CC1B2622-507D-4D89-959E-3CCD8ED6AF26"

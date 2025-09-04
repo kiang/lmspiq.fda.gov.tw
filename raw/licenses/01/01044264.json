@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044264",
+    "licUnit": "1",
     "validDate": "2026-02-20 00:00:00.000",
     "issueDate": "2001-02-20 00:00:00.000",
+    "oriIssueDate": "2001-02-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104426402",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A8334CC5-6205-45A1-8286-62239F737F7C",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORAMPHENICOL",
         "DEXAMETHASONE PHOSPHATE (SODIUM)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "臺灣派頓化學製藥股份有限公司",
     "applicantAddr": "高雄市岡山區為隨里1鄰為隨東路50號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "49DBAD49-B0C6-4A44-B808-3D4891E622F9",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812400100",
+            "ingredientsName": "CHLORAMPHENICOL",
             "ingredientsDesc": "CHLORAMPHENICOL",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804008640",
+            "ingredientsName": "DEXAMETHASONE PHOSPHATE (SODIUM)",
             "ingredientsDesc": "DEXAMETHASONE PHOSPHATE (SODIUM)",
             "concentDesc": "1",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,16 +102,8 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "S01AA01"
-        },
-        {
             "isMain": "1",
             "atcCode": "S01CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01BA01"
         }
     ],
     "licBaseId": "87A934A1-830F-481C-8251-FB18AD72E122"

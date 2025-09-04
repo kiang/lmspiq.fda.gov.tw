@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01045346",
+    "licUnit": "1",
     "validDate": "2028-01-24 00:00:00.000",
     "issueDate": "2003-01-24 00:00:00.000",
+    "oriIssueDate": "2003-01-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104534609",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9E98CCCD-3E88-4BDC-9F00-8959EB97959C",
+    "subCategory": [],
     "ingredientsDesc": [
         "LYSOZYME CHLORIDE",
         "POTASSIUM CRESOLSULFONATE",
         "DEXTROMETHORPHAN HBR"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "十全實業股份有限公司",
     "applicantAddr": "南投縣南投市仁和路２７號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "767B0CAA-67DC-4F7F-8EFF-CD647B72E284",
             "factoryCode": "1",
             "factoryName": "十全實業股份有限公司",
             "factoryAddr": "南投縣南投市南崗工業區仁和路２７號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0202114300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400001310",
+            "ingredientsName": "LYSOZYME CHLORIDE",
             "ingredientsDesc": "LYSOZYME CHLORIDE",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -86,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003700",
+            "ingredientsName": "POTASSIUM CRESOLSULFONATE",
             "ingredientsDesc": "POTASSIUM CRESOLSULFONATE",
             "concentDesc": "",
-            "concent": "90.0000",
+            "concent": "90.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -97,44 +112,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DF6DF07C-B8BF-40E2-B97C-C25ED03C59B9",
-            "approvedDocNo": "1129001244",
-            "approvedDate": "2023-04-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "643F56E8-D2DA-4FCF-A873-784742F7F848",
-            "approvedDocNo": "1129001244",
-            "approvedDate": "2023-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EA2247C9-29F1-4722-B71D-BD6ECC2BC3CC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R05FA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
         }
     ],
     "licBaseId": "3D57AB1C-F861-4537-BD24-1B419221BA05"

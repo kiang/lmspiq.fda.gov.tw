@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2022-09-01",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "52026694",
+    "licUnit": "1",
     "validDate": "2026-02-22 00:00:00.000",
     "issueDate": "2016-02-22 00:00:00.000",
+    "oriIssueDate": "2016-02-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -25,14 +29,17 @@
     "medMCode": "06",
     "maMedCode": "B",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "82B45226-D809-4782-91EE-E57A515574AF",
+    "subCategory": [],
     "ingredientsDesc": [
         "NALOXONE HCL DIHYDRATE",
         "OXYCODONE HCL"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "32"
+        "02 輸 入",
+        "07 新藥監視",
+        "32 第二級管制藥品"
     ],
     "applicantName": "衛生福利部食品藥物管理署管制藥品製藥工廠",
     "applicantAddr": "台北市南港區忠孝東路六段467號地下一層",
@@ -44,8 +51,11 @@
     "monitorDate": "2021-02-22",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "F1FDE90E-621C-4FE7-B41E-1B1E51CA9856",
             "factoryCode": "1",
             "factoryName": "BARD PHARMACEUTICALS LTD.",
             "factoryAddr": "CAMBRIDGE SCIENCE PARK, MILTON ROAD, CAMBRIDGE,CAMBRIDGESHIRE, CB4 0GW UK",
@@ -56,9 +66,12 @@
             "factoryKind": "M",
             "factoryNo": "FGB0151000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4CBF3545-F974-4A73-9AE2-8F6BF967FA92",
             "factoryCode": "2",
             "factoryName": "NAPP PHARMACEUTICALS LTD.",
             "factoryAddr": "CAMBRIDGE SCIENCE PARK MILTON ROAD CAMBRIDGE CB4 OGW U.K.",
@@ -74,16 +87,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0168000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800710",
+            "ingredientsName": "OXYCODONE HCL",
             "ingredientsDesc": "OXYCODONE HCL",
             "concentDesc": "",
-            "concent": "10.500",
+            "concent": "10.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -92,9 +108,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2810000120",
+            "ingredientsName": "NALOXONE HCL DIHYDRATE",
             "ingredientsDesc": "NALOXONE HCL DIHYDRATE",
             "concentDesc": "",
-            "concent": "5.450",
+            "concent": "5.450000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -103,73 +120,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ED76646A-A1C1-46F3-834E-A459E235515C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F784DC3C-744E-4603-A0FC-563C0E9A340A",
-            "approvedDocNo": "1091403108",
-            "approvedDate": "2020-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "474D55F3-DD20-4467-BC8A-8E6E68404B90",
-            "approvedDocNo": "1081410477",
-            "approvedDate": "2019-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1311734C-67C0-473C-9341-28DE71D93559",
-            "approvedDocNo": "1081410477",
-            "approvedDate": "2019-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4C22B098-3F4F-493D-BCF5-ABCC42E8302D",
-            "approvedDocNo": "1081410477",
-            "approvedDate": "2019-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "974DFA68-10D1-4D45-B24D-D77FD657351D",
-            "approvedDocNo": "1081410477",
-            "approvedDate": "2019-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EFF07E6B-7F97-4524-A0E7-0A4C233504E7",
-            "approvedDocNo": "1081404977",
-            "approvedDate": "2019-05-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V03AB15"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02AA05"
-        },
         {
             "isMain": "1",
             "atcCode": "N02AA55"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000928",
+    "licUnit": "1",
     "validDate": "2027-06-19 00:00:00.000",
     "issueDate": "2021-06-22 00:00:00.000",
+    "oriIssueDate": "2012-06-19",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000092805",
@@ -23,15 +27,18 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4CAD854D-C9C3-461D-A2DE-825983844647",
+    "subCategory": [],
     "ingredientsDesc": [
         "Rituximab"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "羅氏大藥廠股份有限公司",
-    "applicantAddr": "台北市信義區松仁路100號40樓、40樓之1、41樓之1",
+    "applicantAddr": "台北市南港區經貿一路170號10樓、10樓之1至之3、10樓之5至之8",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -40,11 +47,14 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "4F20D99A-0416-456E-A53F-B0BD7FEB6FE9",
             "factoryCode": "1",
             "factoryName": "ROCHE DIAGNOSTICS GMBH",
-            "factoryAddr": "SANDHOFERSTRASSE 116, D-68305, MANNHEIM, GERMANY",
+            "factoryAddr": "SANDHOFER STRASSE 116, 68305 MANNHEIM, GERMANY",
             "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [],
@@ -52,9 +62,12 @@
             "factoryKind": "M",
             "factoryNo": "FDE0261000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8E3C2B36-92AD-458D-AC10-F7D3224751CC",
             "factoryCode": "1",
             "factoryName": "GENENTECH INC.",
             "factoryAddr": "4625 NE BROOKWOOD PARKWAY, HILLSBORO OREGON, 97124 USA",
@@ -65,12 +78,15 @@
             "factoryKind": "M",
             "factoryNo": "FUS0767100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "5C84CCD0-BF02-41BD-AB6C-19E80D2712ED",
             "factoryCode": "2",
             "factoryName": "F.HOFFMANN-LA ROCHE LTD.",
-            "factoryAddr": "WURMISWEG, CH-4303, KAISERAUGST, SWITZERLAND",
+            "factoryAddr": "WURMISWEG, CH-4303 KAISERAUGST, SWITZERLAND",
             "factoryCompanyAddr": null,
             "countryCode": "CH",
             "processCode": [
@@ -83,9 +99,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0208000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "995F88AD-1751-4BA9-9CA9-CDB537EFFDC8",
             "factoryCode": "2",
             "factoryName": "Samsung Biologics Co. Ltd.",
             "factoryAddr": "300 Songdo bio-daero, Yeonsu-gu, Incheon City, Korea 21987, Korea Republic",
@@ -101,27 +120,12 @@
             "factoryKind": "M",
             "factoryNo": "FKR0186000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
-            "factoryCode": "2",
-            "factoryName": "GENENTECH, INC.",
-            "factoryAddr": "1000 NEW HORIZONS WAY, VACAVILLE, CA 95688, USA",
-            "factoryCompanyAddr": null,
-            "countryCode": "US",
-            "processCode": [
-                {
-                    "value": "1K",
-                    "name": "原料藥製造廠"
-                }
-            ],
-            "processCodeStr": "1K;原料藥製造廠",
-            "factoryKind": "M",
-            "factoryNo": "FUS0767000",
-            "factoryInfo": null,
-            "qsd": null
-        },
-        {
+            "id": "EDD61D53-3553-43A5-AB4D-24A6EC19D1FC",
             "factoryCode": "2",
             "factoryName": "GENENTECH, INC.",
             "factoryAddr": "1 ANTIBODY WAY, OCEANSIDE, CA 92056, USA",
@@ -137,16 +141,40 @@
             "factoryKind": "M",
             "factoryNo": "FUS0768000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "E0306FB4-BC57-4A99-80E3-805CABFF7F4F",
+            "factoryCode": "2",
+            "factoryName": "LONZA MANUFACTURING LLC",
+            "factoryAddr": "1000 NEW HORIZONS WAY, VACAVILLE, CA 95688, USA",
+            "factoryCompanyAddr": "",
+            "countryCode": "US",
+            "processCode": [
+                {
+                    "value": "1K",
+                    "name": "原料藥製造廠"
+                }
+            ],
+            "processCodeStr": "1K;原料藥製造廠",
+            "factoryKind": "M",
+            "factoryNo": "FUS1405000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013002400",
+            "ingredientsName": "Rituximab",
             "ingredientsDesc": "Rituximab",
             "concentDesc": null,
-            "concent": "10.000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -155,148 +183,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F0F3E950-B04C-4710-8CD5-D902E0A01994",
-            "approvedDocNo": "1120712197",
-            "approvedDate": "2023-10-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F708DC23-7825-4212-8982-A9966103B01C",
-            "approvedDocNo": "1110732340",
-            "approvedDate": "2023-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AEDF004B-1E24-4D1F-88CA-C8239FAEC5D9",
-            "approvedDocNo": "1106007426",
-            "approvedDate": "2021-10-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "025C3C1F-748D-4216-B6C6-1F424EA8525E",
-            "approvedDocNo": "1106007426",
-            "approvedDate": "2021-10-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DACAB098-872D-496A-8781-06291DABE412",
-            "approvedDocNo": "1106007426",
-            "approvedDate": "2021-10-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EB18CC08-C192-463B-9A81-2CC5E785563F",
-            "approvedDocNo": "1106009222",
-            "approvedDate": "2021-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3339C279-D3FF-4D78-8B59-3EBAC8E35FD9",
-            "approvedDocNo": "1106009222",
-            "approvedDate": "2021-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FD4C1F24-484C-4348-BF82-6192F40AD41E",
-            "approvedDocNo": "1106009222",
-            "approvedDate": "2021-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "63D9BD42-7273-4594-B916-E9BCEC66B75B",
-            "approvedDocNo": "1096040436",
-            "approvedDate": "2021-06-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "50DF05A9-21D7-4FF5-B7F1-F2EE13839272",
-            "approvedDocNo": "1086037882",
-            "approvedDate": "2020-07-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5CE84897-7A3D-4539-986C-ACB89A22D555",
-            "approvedDocNo": "1086037882",
-            "approvedDate": "2020-07-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "00086C8C-3037-4C43-B64E-C00EB0B69683",
-            "approvedDocNo": "1086037882",
-            "approvedDate": "2020-07-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A97F1D7F-944D-491F-9202-1A7C2458B286",
-            "approvedDocNo": "1096001717",
-            "approvedDate": "2020-05-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "33926DF7-2EEA-440A-973B-6180E494D8AA",
-            "approvedDocNo": "1096001717",
-            "approvedDate": "2020-05-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7CAD2BED-8CAB-4BA7-9680-FECB5921B516",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CB2035B6-6C80-4BD4-BF4D-1154F24928C7",
-            "approvedDocNo": "1076035226",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D0064893-DA09-4057-8E06-4000F8D7AA6F",
-            "approvedDocNo": "1076035226",
-            "approvedDate": "2019-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L01XC02"
+            "atcCode": "L01FA01"
         }
     ],
     "licBaseId": "2F0D29FD-B612-48AF-AD54-8C2B1EDBC026"

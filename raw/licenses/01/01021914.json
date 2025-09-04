@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01021914",
+    "licUnit": "1",
     "validDate": "2026-07-26 00:00:00.000",
     "issueDate": "1980-08-07 00:00:00.000",
+    "oriIssueDate": "1980-08-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102191401",
@@ -16,21 +20,24 @@
     "does": "3360",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "92965C07-55D8-4BDD-9AA7-7603D96881B8",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAMPHOR",
         "CALAMINE",
         "DIPHENHYDRAMINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "艾力特生技製藥股份有限公司將軍廠",
     "applicantAddr": "臺南市將軍區忠興里忠興132之35號A區",
@@ -42,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "18429110-8741-4AF4-BCD6-CE880E465DFB",
             "factoryCode": "1",
-            "factoryName": "艾力特生技製藥股份有限公司將軍廠",
-            "factoryAddr": "臺南市將軍區忠興里忠興132之35號A區",
+            "factoryName": "應元化學製藥股份有限公司",
+            "factoryAddr": "台南市南區新忠路２６號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
-            "factoryKind": "M",
-            "factoryNo": "6141180016",
+            "factoryKind": "E",
+            "factoryNo": "1704519300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200014300",
+            "ingredientsName": "CALAMINE",
             "ingredientsDesc": "CALAMINE",
             "concentDesc": "80",
-            "concent": "80.0000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -83,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000100",
+            "ingredientsName": "CAMPHOR",
             "ingredientsDesc": "CAMPHOR",
             "concentDesc": "1",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -94,64 +109,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A6F7FDB5-9727-49E4-9A33-6F6B1964EA88",
-            "approvedDocNo": "1110805875",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3DA0B584-F79E-48AF-ADAC-74A4A768886A",
-            "approvedDocNo": "1110805875",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E30D1150-AC57-4EED-98BD-892F0597BCB6",
-            "approvedDocNo": "1110805875",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D99DC59C-48B9-4BB6-9795-CE1A7A767700",
-            "approvedDocNo": "1110805875",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4736A5FD-50D5-49AE-89B8-EFDD58BDE1F5",
-            "approvedDocNo": "1110805875",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
         {
             "isMain": "1",
             "atcCode": "D04AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AA32"
         }
     ],
     "licBaseId": "5B8A045C-8E8A-4196-9CCC-928E70EDAC4B"

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060835",
+    "licUnit": "1",
     "validDate": "2026-02-26 00:00:00.000",
     "issueDate": "2021-02-26 00:00:00.000",
+    "oriIssueDate": "2021-02-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106083504",
@@ -23,13 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "C9C37409-F373-4755-AA91-0592AE9E85BE",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "DUTASTERIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "五洲製藥股份有限公司",
     "applicantAddr": "桃園市新屋區赤欄里17之1號",
@@ -41,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "F985385D-31E4-4D57-A454-081B39243A07",
             "factoryCode": "1",
             "factoryName": "五洲製藥股份有限公司",
             "factoryAddr": "桃園市新屋區赤欄里１７號之１",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0413004300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200096700",
+            "ingredientsName": "DUTASTERIDE",
             "ingredientsDesc": "DUTASTERIDE",
             "concentDesc": "",
-            "concent": "0.500",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",

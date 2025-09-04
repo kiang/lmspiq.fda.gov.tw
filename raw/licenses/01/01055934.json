@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055934",
+    "licUnit": "1",
     "validDate": "2026-02-14 00:00:00.000",
     "issueDate": "2011-02-14 00:00:00.000",
+    "oriIssueDate": "2011-02-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105593406",
     "prodNameC": "“杏輝”杏瑞鉑靜脈注射液5毫克\/毫升",
     "prodNameE": "ORECTALIP IV INJECTION 5MG\/ML“Sinphar”",
     "indicationsName": [
-        "和5-fluorouracil (5-FU)及folinic acid (FA)併用，作為第三期結腸癌(Duke’s C)原發腫瘤完全切除手術後的輔助療法。治療轉移性結腸直腸癌。Oxaliplatin和Capecitabine併用可用於局部晚期及復發\/轉移性胃癌之治療。"
+        "和5-fluorouracil (5-FU)及folinic acid (FA)併用，作為第三期結腸癌(Duke’s C)原發腫瘤完全切除手術後的輔助療法。治療轉移性結腸直腸癌。Oxaliplatin和fluoropyrimidine類藥物併用可用於局部晚期及復發\/轉移性胃癌之治療。與5-fluorouracil、leucovorin及irinotecan合併治療(FOLFIRINOX)，作為轉移性胰臟癌之第一線治療藥物。"
     ],
     "does": "2270",
     "packageUnit": [
@@ -27,12 +31,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A421FBCA-EB2F-472D-96F0-A6695113990E",
+    "subCategory": [],
     "ingredientsDesc": [
         "OXALIPLATIN"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "杏輝藥品工業股份有限公司",
     "applicantAddr": "宜蘭縣冬山鄉中山村中山路84、84之4、84之6、84之7號、冬山鄉中山村新寮路95、95之1、100之7、100之13、100之15、100之16、103、136號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "BCE00FDA-305D-4A2D-B2DB-06DD916FD80D",
             "factoryCode": "1",
             "factoryName": "杏輝藥品工業股份有限公司",
             "factoryAddr": "宜蘭縣冬山鄉中山村中山路８４號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0705330300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1012001600",
+            "ingredientsName": "OXALIPLATIN",
             "ingredientsDesc": "OXALIPLATIN",
             "concentDesc": null,
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,55 +87,10 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "243F619D-32A6-43C0-A152-FD20CA54C97F",
-            "approvedDocNo": "1110810490",
-            "approvedDate": "2022-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D32CA0AF-B250-4CAE-920F-B8C2A03D98DB",
-            "approvedDocNo": "1096016437",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BD8B5787-D349-4BF8-BAAA-BFC4CD492E18",
-            "approvedDocNo": "1096016437",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "47B94E1E-D6BA-4E61-85EB-BFF5F705438C",
-            "approvedDocNo": "1096016437",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BCC12B19-7FCB-4F81-BC3D-8504FB2F841A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "L01XA03"
-        },
-        {
-            "isMain": "2",
             "atcCode": "L01XA03"
         }
     ],

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01041074",
+    "licUnit": "1",
     "validDate": "2027-04-21 00:00:00.000",
     "issueDate": "1997-04-21 00:00:00.000",
+    "oriIssueDate": "1997-04-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104107408",
@@ -20,19 +24,22 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3971329E-276F-4E1E-A2E6-25FEF0948136",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLUCOSAMINE SULFATE (POLY-CRYSTALLINE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "台灣陽生製藥工業股份有限公司",
     "applicantAddr": "屏東縣屏東市龍華路３８１號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "EF1FB2D8-3089-4ED2-A60F-DCB6ADC23FBA",
             "factoryCode": "1",
             "factoryName": "台灣陽生製藥工業股份有限公司",
             "factoryAddr": "屏東縣屏東市龍華路３８１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1111823300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600913310",
+            "ingredientsName": "GLUCOSAMINE SULFATE (POLY-CRYSTALLINE)",
             "ingredientsDesc": "GLUCOSAMINE SULFATE (POLY-CRYSTALLINE)",
             "concentDesc": "250",
-            "concent": "250.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,56 +87,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AD256861-8EEB-4564-9029-76B3DB9639C7",
-            "approvedDocNo": "1119014256",
-            "approvedDate": "2022-03-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A7842E67-63C8-436A-9272-F8E00E437413",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "19FB74AA-F8F3-4BA0-8C5B-02FE621B3F5A",
-            "approvedDocNo": "1086612637",
-            "approvedDate": "2019-12-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2A3E6D45-E0DA-43EE-BF62-838BE5D0F266",
-            "approvedDocNo": "1086612637",
-            "approvedDate": "2019-12-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C07FEC4B-ECE4-450E-ACC9-A37B656CBDEC",
-            "approvedDocNo": "1086612637",
-            "approvedDate": "2019-12-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31BB245A-7E4D-4B68-887E-F67FCDDE75CB",
-            "approvedDocNo": "1086612637",
-            "approvedDate": "2019-12-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

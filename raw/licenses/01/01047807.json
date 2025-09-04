@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047807",
+    "licUnit": "1",
     "validDate": "2026-02-09 00:00:00.000",
     "issueDate": "2006-02-09 00:00:00.000",
+    "oriIssueDate": "2006-02-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104780703",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "2F27F693-F18A-4C82-8CD5-B672A2EFCB64",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "PSEUDOEPHEDRINE HCL",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
@@ -31,7 +40,7 @@
         "PSEUDOEPHEDRINE HCL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "五洲製藥股份有限公司",
     "applicantAddr": "桃園市新屋區赤欄里17之1號",
@@ -43,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "1687507D-2479-42DE-9CE9-F894E6983C62",
             "factoryCode": "1",
             "factoryName": "五洲製藥股份有限公司",
             "factoryAddr": "桃園市新屋區赤欄村二鄰１７號之１",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0413004300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -73,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002610",
+            "ingredientsName": "PSEUDOEPHEDRINE HCL",
             "ingredientsDesc": "PSEUDOEPHEDRINE HCL",
             "concentDesc": "",
-            "concent": "60.0000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -84,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -95,9 +112,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002610",
+            "ingredientsName": "PSEUDOEPHEDRINE HCL",
             "ingredientsDesc": "PSEUDOEPHEDRINE HCL",
             "concentDesc": "",
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -106,9 +124,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": "",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "2",
@@ -117,32 +136,11 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "719B132D-F3E4-481D-901C-B98B07FC0582",
-            "approvedDocNo": "1120710887",
-            "approvedDate": "2023-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02BE51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA02"
         }
     ],
     "licBaseId": "FC1470BA-48E5-44CF-997F-CFEE9A2A8E11"

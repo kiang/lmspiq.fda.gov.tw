@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039783",
+    "licUnit": "1",
     "validDate": "2026-02-02 00:00:00.000",
     "issueDate": "1996-02-02 00:00:00.000",
+    "oriIssueDate": "1996-02-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103978306",
@@ -27,13 +31,16 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "83817350-8692-470E-A7D1-D8B0B79DC8BD",
+    "subCategory": [],
     "ingredientsDesc": [
         "ANGELICA RADIX EXTRACT",
         "TOCOPHEROL (ACETATE ALPHA DL- )"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "井田國際醫藥廠股份有限公司",
     "applicantAddr": "台中市大甲區幼獅路32號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "1381E4B1-0587-49F7-999F-A13CC86E52E0",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820009213",
+            "ingredientsName": "TOCOPHEROL (ACETATE ALPHA DL- )",
             "ingredientsDesc": "TOCOPHEROL (ACETATE ALPHA DL- )",
             "concentDesc": "100",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200017911",
+            "ingredientsName": "ANGELICA RADIX EXTRACT",
             "ingredientsDesc": "ANGELICA RADIX EXTRACT",
             "concentDesc": "150",
-            "concent": "150.0000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -88,14 +102,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
-        },
         {
             "isMain": "1",
             "atcCode": "A11HA03"

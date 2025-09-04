@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-08-25",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "52028057",
+    "licUnit": "1",
     "validDate": "2026-03-29 00:00:00.000",
     "issueDate": "2021-03-29 00:00:00.000",
+    "oriIssueDate": "2021-03-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202805702",
@@ -27,12 +33,17 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "6354E7E1-DB16-4BB4-86DB-40420B122BDD",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "DOXORUBICIN HYDROCHLORIDE",
         "DOXORUBICIN HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣邁蘭有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -44,28 +55,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "8B47407D-8301-4F9E-896A-D5BE340A4226",
             "factoryCode": "1",
             "factoryName": "MYLAN LABORATORIES LIMITED-OTL",
             "factoryAddr": "PLOT NO. 284B, BOMMASANDRA-JIGANI LINK ROAD, INDUSTRIAL AREA, ANEKAL TALUK, BANGALORE-560105, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0921000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1003000620",
+            "ingredientsName": "DOXORUBICIN HYDROCHLORIDE",
             "ingredientsDesc": "DOXORUBICIN HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "0.010",
+            "concent": "0.010000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +91,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1003000620",
+            "ingredientsName": "DOXORUBICIN HYDROCHLORIDE",
             "ingredientsDesc": "DOXORUBICIN HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "0.050",
+            "concent": "0.050000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "2",
@@ -85,16 +103,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "32F24E12-E9A7-439C-953E-0B0181C858CD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

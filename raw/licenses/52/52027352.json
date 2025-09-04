@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-14",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "52027352",
+    "licUnit": "1",
     "validDate": "2027-12-20 00:00:00.000",
     "issueDate": "2017-12-20 00:00:00.000",
+    "oriIssueDate": "2017-12-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202735202",
@@ -27,13 +33,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "163FD627-C684-4DF7-B95A-51DB05380351",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "IMATINIB MESYLATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "香港商梯瓦藥業有限公司台灣分公司",
     "applicantAddr": "台北市中正區忠孝東路二段116號10樓",
@@ -45,28 +56,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "912DABC5-5DE3-4BEF-9805-14C4925E4A0B",
             "factoryCode": "1",
             "factoryName": "PLIVA CROATIA LTD.",
             "factoryAddr": "PRILAZ BARUNA FILIPOVICA 25, 10000 ZAGREB, CROATIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "HR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FHR0002100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000710",
+            "ingredientsName": "IMATINIB MESYLATE",
             "ingredientsDesc": "IMATINIB MESYLATE",
             "concentDesc": "(eq. to Imatinib.....400mg)",
-            "concent": "487.435",
+            "concent": "487.435000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,72 +92,7 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4C4CA533-72EE-4D69-928C-C15F50437523",
-            "approvedDocNo": "1119050747",
-            "approvedDate": "2022-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D69688E6-4407-4BFD-9763-C65ED73317B4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9418EC8B-066D-4A16-BC2A-5AEF55363BD1",
-            "approvedDocNo": "1110706113",
-            "approvedDate": "2022-04-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "58DB4A93-9D1E-4DFD-8050-3FC38B43DC02",
-            "approvedDocNo": "1101497662",
-            "approvedDate": "2022-03-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5C31FC78-E249-45E3-B06C-2389CA39BFF1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "94F32CBF-2520-46ED-A441-4790CB386459",
-            "approvedDocNo": "1086013999",
-            "approvedDate": "2019-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BBD617E2-A034-41B0-971E-77F4A914437C",
-            "approvedDocNo": "1086013999",
-            "approvedDate": "2019-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "108EEC4E-7AD4-4CF0-B221-3EB3F9AC011E",
-            "approvedDocNo": "1086013999",
-            "approvedDate": "2019-09-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",

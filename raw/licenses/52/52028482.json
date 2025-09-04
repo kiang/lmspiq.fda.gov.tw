@@ -1,14 +1,18 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028482",
+    "licUnit": "1",
     "validDate": "2028-07-25 00:00:00.000",
     "issueDate": "2023-07-25 00:00:00.000",
+    "oriIssueDate": "2023-07-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202848204",
-    "prodNameC": "菲立鐵 孕補膠囊",
+    "prodNameC": "孕麗鐵 膠囊",
     "prodNameE": "Ferretab comp. Capsules",
     "indicationsName": [
         "治療鐵質及葉酸缺乏所引起之貧血、妊娠性貧血"
@@ -23,12 +27,17 @@
     "medMCode": "17",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "98D34764-BE5A-47E8-8DC4-3CA9215294AD",
+    "subCategory": [
+        "A07"
+    ],
     "ingredientsDesc": [
         "FERROUS FUMARATE",
         "FOLIC ACID"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "康百佳實業有限公司",
     "applicantAddr": "台北市大同區南京西路７６號６樓之３",
@@ -40,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "86A8B588-7E08-4C45-9ABE-A3DE302B9865",
             "factoryCode": "1",
             "factoryName": "G.L. Pharma GmbH",
             "factoryAddr": "Industriestrasse 1, A-8502 Lannach, Austria",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "AT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FAT0046000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2004401100",
+            "ingredientsName": "FERROUS FUMARATE",
             "ingredientsDesc": "FERROUS FUMARATE",
             "concentDesc": "",
-            "concent": "152.100",
+            "concent": "152.100000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811600100",
+            "ingredientsName": "FOLIC ACID",
             "ingredientsDesc": "FOLIC ACID",
             "concentDesc": "Folic acid hydrate (equal to 0.50 mg Folic acid anhydrous substance.)",
-            "concent": "0.500",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -83,14 +99,6 @@
     "iomDtoList": [],
     "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B03AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BB01"
-        },
         {
             "isMain": "1",
             "atcCode": "B03AD02"

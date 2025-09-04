@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047792",
+    "licUnit": "1",
     "validDate": "2026-02-07 00:00:00.000",
     "issueDate": "2006-02-07 00:00:00.000",
+    "oriIssueDate": "2006-02-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104779203",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4FEA0DE3-FF16-4EF6-BE7D-B8A3126B843C",
+    "subCategory": [],
     "ingredientsDesc": [
         "LACTULOSE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "順華藥品工業股份有限公司三峽工廠",
     "applicantAddr": "新北市三峽區二鬮路186號",
@@ -39,28 +46,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "BFBC5972-6A23-4790-9581-E1C12CA56F4B",
             "factoryCode": "1",
             "factoryName": "順華藥品工業股份有限公司三峽工廠",
             "factoryAddr": "新北市三峽區二鬮路１８６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1210702300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4010000300",
+            "ingredientsName": "LACTULOSE",
             "ingredientsDesc": "LACTULOSE",
             "concentDesc": "70% (eq. to Lactulose 600mg)",
-            "concent": "0.8570",
+            "concent": "0.857000",
             "concentUnit": "003",
             "seq": "0",
             "prescription_seq": "1",
@@ -69,77 +82,8 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6AB0F6D7-0A13-4AB3-8125-ACD79ECF16C3",
-            "approvedDocNo": "1120700627",
-            "approvedDate": "2023-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E1B794BC-B70D-439D-A63F-D8F2B0092CDF",
-            "approvedDocNo": "1120700627",
-            "approvedDate": "2023-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1D43B64E-A175-4505-93FB-92061164A87A",
-            "approvedDocNo": "1110602234",
-            "approvedDate": "2022-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "969F2AED-E7F9-425F-A502-C61E75933A04",
-            "approvedDocNo": "1110602234",
-            "approvedDate": "2022-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6C97480D-02F5-4A6C-B4C5-830CEBC36AEE",
-            "approvedDocNo": "1110602234",
-            "approvedDate": "2022-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "09EE94DC-B485-420C-8094-854A4A27FF4C",
-            "approvedDocNo": "1096030945",
-            "approvedDate": "2020-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D51A66E8-2688-4FC8-8E66-9152112D5CF6",
-            "approvedDocNo": "1096030945",
-            "approvedDate": "2020-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D71569B1-05F6-4BDD-8E5F-D47D5EB1CEA7",
-            "approvedDocNo": "1096030945",
-            "approvedDate": "2020-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A06AD11"
-        },
         {
             "isMain": "1",
             "atcCode": "A06AD11"
