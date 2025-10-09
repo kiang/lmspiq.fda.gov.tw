@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029131",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1986-08-26 00:00:00.000",
+    "oriIssueDate": "1986-08-26",
     "licKind": "02",
     "oldLicid": "01021975",
     "certNo": "DHY00102913109",
@@ -17,16 +21,15 @@
     "packageUnit": [
         {
             "packageSpec": "6-1000粒",
-            "packageUnit": "C7"
-        },
-        {
-            "packageSpec": "6-1000粒",
             "packageUnit": "89"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B34A439A-C5B4-4DD6-8724-84B9605E565A",
+    "subCategory": [],
     "ingredientsDesc": [
         "FOLIC ACID",
         "FERROUS FUMARATE",
@@ -34,7 +37,7 @@
         "COBALAMIN"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "大豐製藥股份有限公司",
     "applicantAddr": "彰化縣彰化市延平里岸頭巷11號",
@@ -46,25 +49,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "1F77DF51-8379-4D52-B3D8-DE2E37FC90A8",
             "factoryCode": "1",
             "factoryName": "大豐製藥股份有限公司",
             "factoryAddr": "彰化縣彰化市延平里岸頭巷11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0306811300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811200800",
+            "ingredientsName": "COBALAMIN",
             "ingredientsDesc": "COBALAMIN",
             "concentDesc": "(CONC) 7.5",
             "concent": null,
@@ -76,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2004401100",
+            "ingredientsName": "FERROUS FUMARATE",
             "ingredientsDesc": "FERROUS FUMARATE",
             "concentDesc": "334",
-            "concent": "334.0000",
+            "concent": "334.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000100",
+            "ingredientsName": "ASCORBIC ACID (VIT C)",
             "ingredientsDesc": "ASCORBIC ACID (VIT C)",
             "concentDesc": "75",
-            "concent": "75.0000",
+            "concent": "75.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -98,9 +109,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8811600100",
+            "ingredientsName": "FOLIC ACID",
             "ingredientsDesc": "FOLIC ACID",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -109,125 +121,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5EA0711B-51EF-49C2-A429-1930D5577C9F",
-            "approvedDocNo": "1120608027",
-            "approvedDate": "2023-10-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2A860B61-1E6F-40AB-9A7A-C22FC4C98DF2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CBF0C31E-58DF-4F12-B1FF-2C52525BC002",
-            "approvedDocNo": "1106613146",
-            "approvedDate": "2022-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3F793336-3876-4A61-A572-3A92C0D0AB10",
-            "approvedDocNo": "1106613146",
-            "approvedDate": "2022-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FCD8C75F-13E9-40C3-8E4E-4DAF661DF9BD",
-            "approvedDocNo": "1106613146",
-            "approvedDate": "2022-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "843C48FF-54A5-4989-B0F4-96E70F93C027",
-            "approvedDocNo": "1106613146",
-            "approvedDate": "2022-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5127AEE9-2997-4474-AD72-AB1BCA2154F7",
-            "approvedDocNo": "1086615338",
-            "approvedDate": "2020-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "38212D80-699E-4266-920B-BD5D2ED2A5CB",
-            "approvedDocNo": "1086615338",
-            "approvedDate": "2020-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C489D1A-45A2-418B-A07A-8426593BDCEB",
-            "approvedDocNo": "1086615338",
-            "approvedDate": "2020-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B87CAC64-C65A-40EE-B020-877EB4C46556",
-            "approvedDocNo": "1086615338",
-            "approvedDate": "2020-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8CDE3EF5-4B84-4534-B12E-D7B3A734D6FC",
-            "approvedDocNo": "1086615338",
-            "approvedDate": "2020-05-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0FF7DCE8-2D9A-40AB-AB8F-67E8DFA88EC2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "B03AE10"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "3B267268-FEB2-47D5-819B-CF5A69CB34CD"
 }

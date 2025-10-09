@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01003133",
+    "licUnit": "1",
     "validDate": "2026-03-15 00:00:00.000",
     "issueDate": "1973-07-06 00:00:00.000",
+    "oriIssueDate": "1973-07-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100313300",
@@ -35,11 +39,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AA582DB3-C140-4707-9631-A31FF45849B5",
+    "subCategory": [],
     "ingredientsDesc": [
         "WATER FOR INJECTION"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "南光化學製藥股份有限公司",
     "applicantAddr": "臺南市新化區全興里中山路1001號、1001-1號",
@@ -51,25 +58,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "5081B3FC-8FB9-4E1A-8A44-A3B6EABE947B",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區全興里中山路１００１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "60144B8C-D24A-4F06-810B-4017833DC9DE",
             "factoryCode": "2",
             "factoryName": "永豐化學工業股份有限公司新莊工廠",
             "factoryAddr": "新北市新莊區新樹路２９２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -81,13 +94,16 @@
             "factoryKind": "M",
             "factoryNo": "0504302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9604000900",
+            "ingredientsName": "WATER FOR INJECTION",
             "ingredientsDesc": "WATER FOR INJECTION",
             "concentDesc": "(STERILE)",
             "concent": null,
@@ -99,61 +115,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "15D4B84B-763D-4522-AB72-13A6053C5FF6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "12919640-B2EB-4452-923E-6B8EB9A4B6F2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BDB0531A-FAB4-4474-A1D5-E9A31A80201F",
-            "approvedDocNo": "1086817228",
-            "approvedDate": "2020-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6C931817-01E9-4083-A1E4-8DD877FA1D10",
-            "approvedDocNo": "1086603841",
-            "approvedDate": "2019-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "635DCDBF-C60A-49B5-BD26-BB946254C41F",
-            "approvedDocNo": "1086603841",
-            "approvedDate": "2019-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9AD4AB7F-6764-4A65-AFC5-E791632FE466",
-            "approvedDocNo": "1086603841",
-            "approvedDate": "2019-05-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "V07AB"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "38563A53-040D-44F0-B9D3-5694D7F37AB8"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024417",
+    "licUnit": "1",
     "validDate": "2026-03-21 00:00:00.000",
     "issueDate": "2006-03-21 00:00:00.000",
+    "oriIssueDate": "2006-03-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202441706",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "03FF8406-AE4D-4261-B639-64A39AE8067B",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "ALLANTOIN",
         "TOCOPHEROL ACETATE",
@@ -32,7 +41,7 @@
         "HYDROCORTISONE ACETATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "德佑藥品有限公司",
     "applicantAddr": "台北市大同區南京西路46號（實際營業地址：5樓）",
@@ -44,8 +53,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "2B1A6481-ED62-473E-A0A3-28E0D1C74A1D",
             "factoryCode": "1",
             "factoryName": "YUKINOMOTO HONTEN CO., LTD.",
             "factoryAddr": "182,183,184, Otani-Cho, Kashihara City, Nara, Japan",
@@ -56,16 +68,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0114000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001120",
+            "ingredientsName": "HYDROCORTISONE ACETATE",
             "ingredientsDesc": "HYDROCORTISONE ACETATE",
             "concentDesc": null,
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200000510",
+            "ingredientsName": "DIBUCAINE HCL",
             "ingredientsDesc": "DIBUCAINE HCL",
             "concentDesc": null,
-            "concent": "7.5000",
+            "concent": "7.500000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212000510",
+            "ingredientsName": "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)",
             "ingredientsDesc": "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)",
             "concentDesc": null,
-            "concent": "15.0000",
+            "concent": "15.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -96,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": null,
-            "concent": "12.5000",
+            "concent": "12.500000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -107,9 +125,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000200",
+            "ingredientsName": "TOCOPHEROL ACETATE",
             "ingredientsDesc": "TOCOPHEROL ACETATE",
             "concentDesc": null,
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -118,9 +137,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416000100",
+            "ingredientsName": "ALLANTOIN",
             "ingredientsDesc": "ALLANTOIN",
             "concentDesc": null,
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -129,49 +149,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "19C4774A-138A-4630-92F8-8807F9DB925C",
-            "approvedDocNo": "1110721793",
-            "approvedDate": "2022-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ADEDC71F-1B04-47D1-9237-AE978FE5B668",
-            "approvedDocNo": "1086027619",
-            "approvedDate": "2020-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7CF58CFD-F867-40C9-BCFC-507753F02639",
-            "approvedDocNo": "1086027619",
-            "approvedDate": "2020-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C05AA01"
-        },
         {
             "isMain": "1",
             "atcCode": "C05AA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AD"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C05AX"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "9E31EC97-CFAE-4DF8-B64F-9C77085C119F"
 }

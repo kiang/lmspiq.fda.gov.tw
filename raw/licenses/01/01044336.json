@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "6",
+    "licStatus": "2",
+    "cancelDate": "2025-01-09",
+    "cancelReason": [
+        "886"
+    ],
+    "otherCancelReason": "",
     "licid": "01044336",
+    "licUnit": "1",
     "validDate": "2026-03-15 00:00:00.000",
     "issueDate": "2001-03-15 00:00:00.000",
+    "oriIssueDate": "2001-03-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104433601",
@@ -23,16 +29,19 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0E48F524-3CA7-4D8C-8045-3D65B15EA7C1",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEXAMETHASONE",
         "TRETINOIN",
         "HYDROQUINONE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "濟生醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉勝利村實踐路3號",
@@ -44,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "B0C9B720-37A4-45B2-B22F-ABC6CD6734D1",
             "factoryCode": "1",
             "factoryName": "永勝藥品工業股份有限公司",
             "factoryAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路６之３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6140040022",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8450400100",
+            "ingredientsName": "HYDROQUINONE",
             "ingredientsDesc": "HYDROQUINONE",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000600",
+            "ingredientsName": "DEXAMETHASONE",
             "ingredientsDesc": "DEXAMETHASONE",
             "concentDesc": "0.3",
-            "concent": "0.3000",
+            "concent": "0.300000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037600",
+            "ingredientsName": "TRETINOIN",
             "ingredientsDesc": "TRETINOIN",
             "concentDesc": "0.3",
-            "concent": "0.3000",
+            "concent": "0.300000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -96,41 +113,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B49B2060-4CB1-4E55-8A11-0B871C3C2EC5",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4400BDC8-5407-4FBD-A178-5F0BB9A10ACE",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D11AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D10AD01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D11AX11"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AB19"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "897FAEC9-40D2-4F99-B65D-9C2B1A6BA86D"
 }

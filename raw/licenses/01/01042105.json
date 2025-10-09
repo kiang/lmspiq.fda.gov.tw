@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01042105",
+    "licUnit": "1",
     "validDate": "2028-04-16 00:00:00.000",
     "issueDate": "1998-04-16 00:00:00.000",
+    "oriIssueDate": "1998-04-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104210501",
@@ -16,19 +20,22 @@
     "does": "3360",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "06"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FD2A8727-C514-4E9A-9C79-F11BD69E799D",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORTETRACYCLINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "輝瑞大藥廠股份有限公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "94082A61-E68C-48FC-BACE-F2C7A0450D65",
             "factoryCode": "1",
             "factoryName": "聯亞藥業股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉中興村光復北路45號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133061495",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812800110",
+            "ingredientsName": "CHLORTETRACYCLINE HCL",
             "ingredientsDesc": "CHLORTETRACYCLINE HCL",
             "concentDesc": "30",
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -70,77 +83,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9996B7EE-5F73-45BB-8A5F-4BAFC63D04F0",
-            "approvedDocNo": "1119058559",
-            "approvedDate": "2023-01-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A2D0D83D-2F7F-46A1-8554-F8D4C2EFC7EC",
-            "approvedDocNo": "1096040685",
-            "approvedDate": "2020-12-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E0966151-1FC1-44A7-B91C-571422CF8E63",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AE82C8C1-A094-4867-BD62-C77D1D167E04",
-            "approvedDocNo": "1096010451",
-            "approvedDate": "2020-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "60F0D41F-C573-4945-AF88-DA742FC3C260",
-            "approvedDocNo": "1096010451",
-            "approvedDate": "2020-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "78C6830C-BAE0-4C26-961A-FB0DD324D7AA",
-            "approvedDocNo": "1096010451",
-            "approvedDate": "2020-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BC470E1D-58EB-4DE6-AC0A-F9ECAD3CD4DA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B9D30F44-0BEC-4802-8EC0-2A38D7F6AF7E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D06AA02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "72D383FD-5D8F-45E6-BED2-DC7232AA0193"
 }

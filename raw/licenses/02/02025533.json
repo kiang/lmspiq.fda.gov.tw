@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025533",
+    "licUnit": "1",
     "validDate": "2026-10-24 00:00:00.000",
     "issueDate": "2011-10-24 00:00:00.000",
+    "oriIssueDate": "2011-10-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202553300",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "897BEBCB-0EB5-4C06-B44E-75E515022D3E",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEVOTHYROXINE SODIUM"
     ],
     "restraintItemsCode": [
-        "02",
-        "61"
+        "02 輸 入",
+        "61 完成BE試驗"
     ],
     "applicantName": "安沛國際有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號20樓",
@@ -40,8 +47,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "85BB8888-13BE-4F5D-8DF7-88653D2C956C",
             "factoryCode": "1",
             "factoryName": "Aspen Bad Oldesloe GmbH",
             "factoryAddr": "INDUSTRIESTRASSE 32-36, 23843 BAD OLDESLOE GERMANY",
@@ -52,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0274000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6836400120",
+            "ingredientsName": "LEVOTHYROXINE SODIUM",
             "ingredientsDesc": "LEVOTHYROXINE SODIUM",
             "concentDesc": null,
-            "concent": "0.0500",
+            "concent": "0.050000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,57 +83,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2CDEE5F6-D12E-48E6-8E41-67059F19A754",
-            "approvedDocNo": "1129028702",
-            "approvedDate": "2023-11-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "85B6F73F-C8CF-46EF-9266-C6DF63C1CDB5",
-            "approvedDocNo": "1119051032",
-            "approvedDate": "2023-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B4B8748A-3D14-4165-9B0E-BB06F9E9AF54",
-            "approvedDocNo": "1119015028",
-            "approvedDate": "2022-10-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E64D561D-4BFB-4F28-BBB5-3ADC6D32F030",
-            "approvedDocNo": "1110708376",
-            "approvedDate": "2022-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9CAF1042-EF1D-442A-BE48-643715F31B36",
-            "approvedDocNo": "1091491196",
-            "approvedDate": "2020-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "H03AA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "H03AA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "B0402D0C-362B-4AF6-B7C1-5710A1DF32F4"
 }

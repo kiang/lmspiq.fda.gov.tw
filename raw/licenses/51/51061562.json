@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51061562",
+    "licUnit": "1",
     "validDate": "2028-12-12 00:00:00.000",
     "issueDate": "2023-12-12 00:00:00.000",
+    "oriIssueDate": "2023-12-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106156200",
@@ -27,13 +31,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "E773A3BE-E9E2-4BDD-B7DD-C912BD177649",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "TADALAFIL"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "62"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "62 完成溶離率試驗"
     ],
     "applicantName": "皇佳化學製藥股份有限公司",
     "applicantAddr": "高雄市鳥松區埔安街1號",
@@ -45,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "D2127603-B0DD-49C4-92BC-DE58BA05F9BB",
             "factoryCode": "1",
             "factoryName": "皇佳化學製藥股份有限公司",
             "factoryAddr": "高雄市鳥松區埔安街1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0920322200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200043000",
+            "ingredientsName": "TADALAFIL",
             "ingredientsDesc": "TADALAFIL",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,6 +91,12 @@
     "authDtoList": [],
     "iomDtoList": [],
     "changeDtoList": [],
-    "atcList": [],
+    "atcList": [
+        {
+            "isMain": "1",
+            "atcCode": "G04BE08"
+        }
+    ],
+    "udiInfoList": [],
     "licBaseId": "08E48C4E-60AA-4759-A978-9B27BCB6E57B"
 }

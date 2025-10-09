@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055953",
+    "licUnit": "1",
     "validDate": "2026-03-08 00:00:00.000",
     "issueDate": "2011-03-08 00:00:00.000",
+    "oriIssueDate": "2011-03-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105595300",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F37EE08F-C166-4D66-BC4B-561DC10B611D",
+    "subCategory": [],
     "ingredientsDesc": [
         "GRANISETRON HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "南光化學製藥股份有限公司",
     "applicantAddr": "臺南市新化區全興里中山路1001號、1001-1號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "125FC876-51EA-4E62-A65C-2192405FB00D",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南縣新化鎮中山路１００１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5622001410",
+            "ingredientsName": "GRANISETRON HYDROCHLORIDE",
             "ingredientsDesc": "GRANISETRON HYDROCHLORIDE",
             "concentDesc": "(eq. to Granisetron 1mg)",
-            "concent": "1.1200",
+            "concent": "1.120000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -75,65 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "447C8DEF-1514-4AC6-9FB2-C4FD72F8DADD",
-            "approvedDocNo": "1119020626",
-            "approvedDate": "2022-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F4C79916-1433-4736-A709-DE7B200558B0",
-            "approvedDocNo": "1119020626",
-            "approvedDate": "2022-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A4332EF-4B31-4DAF-B1D3-2E79F1B335E3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D0BBD5FC-9688-4400-A256-8E673714B50B",
-            "approvedDocNo": "1101497075",
-            "approvedDate": "2021-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DF4AD7FE-897D-4D2A-AA04-A2C721C9F734",
-            "approvedDocNo": "1101497075",
-            "approvedDate": "2021-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9A96D3F0-CFF5-42BF-8A6C-DD2EF9A28FAD",
-            "approvedDocNo": "1101497075",
-            "approvedDate": "2021-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A04AA02"
-        },
         {
             "isMain": "1",
             "atcCode": "A04AA02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "43DB912A-2E0B-46FD-8D70-7FD236790CAE"
 }

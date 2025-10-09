@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022535",
-    "validDate": "2024-06-24 00:00:00.000",
-    "issueDate": "1999-06-24 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2029-06-24 00:00:00.000",
+    "issueDate": "2024-04-26 00:00:00.000",
+    "oriIssueDate": "1999-06-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202253502",
@@ -16,22 +20,26 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "27ABC12B-31CF-4E5C-AF82-1B3E6A352002",
+    "subCategory": [],
     "ingredientsDesc": [
         "FUROSEMIDE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "賽諾菲股份有限公司",
     "applicantAddr": "台北市信義區松仁路3號7樓",
@@ -43,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "F104B3B6-CA8B-47FC-B431-433DCB7E8ACD",
             "factoryCode": "1",
             "factoryName": "HANDOK INC.",
             "factoryAddr": "78, DAEPUNGSANDAN-RO, DAESO-MYEON, EUMSEONG-GUN, CHUNGCHEONGBUK-DO, KOREA",
-            "factoryCompanyAddr": null,
+            "factoryCompanyAddr": "735,YOKSAM-I-DONG KANGNAM-KU,SEOUL ,KOREA",
             "countryCode": "KR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FKR0063000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028000900",
+            "ingredientsName": "FUROSEMIDE",
             "ingredientsDesc": "FUROSEMIDE",
             "concentDesc": "40",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -73,29 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A8522E36-DBD3-4132-B44E-1AA1A3D1D916",
-            "approvedDocNo": "1119013117",
-            "approvedDate": "2022-10-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D2BCE4E2-69D9-481C-858A-5FC97247E0BD",
-            "approvedDocNo": "1101496247",
-            "approvedDate": "2021-12-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C03CA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "28821BFF-CF04-4602-8315-7A0BA6C2D5B1"
 }

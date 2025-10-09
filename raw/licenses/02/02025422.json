@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025422",
+    "licUnit": "1",
     "validDate": "2026-05-19 00:00:00.000",
     "issueDate": "2011-05-19 00:00:00.000",
+    "oriIssueDate": "2011-05-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202542204",
@@ -22,12 +26,17 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "2A31F9A8-CCF6-4421-8585-25D51862050B",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "MINOXIDIL"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "嘉安家護股份有限公司",
     "applicantAddr": "臺北市中山區民生東路３段2號10樓",
@@ -39,25 +48,15 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "E26EAC20-F936-4FD1-B6A4-D547F1EF0EE4",
             "factoryCode": "1",
-            "factoryName": "ASM AEROSOL –SERVICE AG",
-            "factoryAddr": " INDUSTRIESTRASSE 11, 4313 MOHLIN, SWITZERLAND",
-            "factoryCompanyAddr": "",
-            "countryCode": "CH",
-            "processCode": [],
-            "processCodeStr": null,
-            "factoryKind": "M",
-            "factoryNo": "FCH0316000",
-            "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "香港商台灣利豐物流有限公司台灣分公司大同倉",
+            "factoryName": "香港商臺灣馬士基物流有限公司台灣分公司大同倉",
             "factoryAddr": "桃園市大園區民生路104-1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -69,16 +68,35 @@
             "factoryKind": "M",
             "factoryNo": "6132061188",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "FBD45FE1-C369-48B4-8160-F20D83D71FEF",
+            "factoryCode": "1",
+            "factoryName": "ASM AEROSOL –SERVICE AG",
+            "factoryAddr": " INDUSTRIESTRASSE 11, 4313 MOHLIN, SWITZERLAND",
+            "factoryCompanyAddr": null,
+            "countryCode": "CH",
+            "processCode": [],
+            "processCodeStr": null,
+            "factoryKind": "M",
+            "factoryNo": "FCH0316000",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408002200",
+            "ingredientsName": "MINOXIDIL",
             "ingredientsDesc": "MINOXIDIL",
             "concentDesc": null,
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "022",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,105 +105,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "34970FDC-FA9B-4292-97D2-A3385C65AE38",
-            "approvedDocNo": "1120704282",
-            "approvedDate": "2023-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "031F0199-B16F-4F48-95CD-9B4DC7B9F5BD",
-            "approvedDocNo": "1120704282",
-            "approvedDate": "2023-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2508FDCB-FF14-4408-B291-B8DDD55BD17E",
-            "approvedDocNo": "1129020475",
-            "approvedDate": "2023-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "642F8AD7-B0A6-49E8-8AD8-E4CF000DAE1B",
-            "approvedDocNo": "1129020459",
-            "approvedDate": "2023-07-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FF329C93-5B05-498D-B272-A08FFB47FAF7",
-            "approvedDocNo": "1106005708",
-            "approvedDate": "2021-08-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "719D4BCC-096C-4EF8-A1FA-832599A9753B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "074BAAA9-D63D-4327-A6D6-EDFA6BB63605",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EF063DF5-54DB-47A1-9A75-4EC2831B442C",
-            "approvedDocNo": "1076035310",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "70864A3A-63F5-4FBD-B2A2-2F5DCDA5F880",
-            "approvedDocNo": "1076035310",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF90CC2B-33D3-41D5-836C-3E892B0DC621",
-            "approvedDocNo": "1076035310",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DA2E2689-6E0D-4815-9A79-4D2EDCB7ABA4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D11AX01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D11AX01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "C91E53C0-9EA6-4F5C-BE96-0033AE7F9057"
 }

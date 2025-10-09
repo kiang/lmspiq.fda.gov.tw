@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026753",
+    "licUnit": "1",
     "validDate": "2026-03-08 00:00:00.000",
     "issueDate": "2016-03-08 00:00:00.000",
+    "oriIssueDate": "2016-03-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202675302",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8AB4E458-B2C7-4B7B-8015-86EF5AD30707",
+    "subCategory": [],
     "ingredientsDesc": [
         "LATANOPROST"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "安沛國際有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號20樓",
@@ -40,8 +48,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "D388E7E7-1C6B-44B4-9E1B-EE15530B996E",
             "factoryCode": "1",
             "factoryName": "RAFARM SA",
             "factoryAddr": "AGIOU LOUKA ST., THESI POUSI-HATZI 19002 PEANIA-ATTIKI, GREECE",
@@ -52,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "FGR0040000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037500",
+            "ingredientsName": "LATANOPROST",
             "ingredientsDesc": "LATANOPROST",
             "concentDesc": "",
-            "concent": "0.050",
+            "concent": "0.050000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,5 +91,6 @@
             "atcCode": "S01EE01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "AE3546AC-452F-4D32-B606-C77C0E206BF8"
 }

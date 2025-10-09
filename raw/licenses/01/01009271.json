@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01009271",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1976-03-17 00:00:00.000",
+    "oriIssueDate": "1976-03-17",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00100927100",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FE74A0EF-6675-4308-8068-2F205E78BC07",
+    "subCategory": [],
     "ingredientsDesc": [
         "POTASSIUM CHLORIDE",
         "SORBITOL D-",
@@ -35,8 +42,8 @@
         "SODIUM LACTATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "順華藥品工業股份有限公司",
     "applicantAddr": "台北市中正區重慶南路三段36巷12號",
@@ -48,28 +55,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "38D1F434-641E-490D-8D6C-F38C2D6C62CC",
             "factoryCode": "1",
             "factoryName": "永豐化學工業股份有限公司新莊工廠",
             "factoryAddr": "新北市新莊區新樹路２９２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0504302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "3.0000",
+            "concent": "3.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -78,9 +91,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "0.1500",
+            "concent": "0.150000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -89,9 +103,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": "",
-            "concent": "0.1000",
+            "concent": "0.100000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "1",
@@ -100,9 +115,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000900",
+            "ingredientsName": "SODIUM LACTATE",
             "ingredientsDesc": "SODIUM LACTATE",
             "concentDesc": "as 60%aqueous solution (2.5833g)",
-            "concent": "1.5500",
+            "concent": "1.550000",
             "concentUnit": "002",
             "seq": "4",
             "prescription_seq": "1",
@@ -111,9 +127,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600029601",
+            "ingredientsName": "SORBITOL D-",
             "ingredientsDesc": "SORBITOL D-",
             "concentDesc": "",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "002",
             "seq": "5",
             "prescription_seq": "1",
@@ -122,49 +139,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "23B04680-0533-44D7-ADF3-A18569E24F73",
-            "approvedDocNo": "1110614269",
-            "approvedDate": "2023-04-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "17E1170D-143D-4EAE-89FD-14604709ECAE",
-            "approvedDocNo": "1120601813",
-            "approvedDate": "2023-03-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6E9002F5-4ADD-4513-BC82-8CC637DAFC31",
-            "approvedDocNo": "1110604646",
-            "approvedDate": "2022-11-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "98DCCD80-AB06-48BE-8093-67C2F662B687",
-            "approvedDocNo": "1110701061",
-            "approvedDate": "2022-07-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "B05BB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BB01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "E2A51CAD-7D9C-44A2-AFFF-65ED754FF315"
 }

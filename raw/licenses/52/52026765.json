@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026765",
+    "licUnit": "1",
     "validDate": "2026-03-21 00:00:00.000",
     "issueDate": "2016-03-21 00:00:00.000",
+    "oriIssueDate": "2016-03-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202676506",
@@ -27,16 +31,19 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "368E03C6-9B27-45ED-8410-F7EB4883AA96",
+    "subCategory": [],
     "ingredientsDesc": [
         "CEFEPIME DIHYDROCHLORIDE MONOHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台灣費森尤斯卡比股份有限公司",
-    "applicantAddr": "台北市大安區仁愛路三段30號5樓32號5樓",
+    "applicantAddr": "臺北市大安區仁愛路3段30號5樓、32號5樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -45,8 +52,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "D33B4C37-902D-4C00-BD95-D4B10FADE2BD",
             "factoryCode": "1",
             "factoryName": "LABESFAL, LABORATORIOS ALMIRO, S.A.",
             "factoryAddr": "ZONA INDUSTRIAL DO LAGEDO, 3465-157 SANTIAGO DE BESTEIROS, PORTUGAL",
@@ -62,13 +72,16 @@
             "factoryKind": "M",
             "factoryNo": "FPT0017000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "62B65863-E436-41AB-94D9-C134CA4AA29D",
             "factoryCode": "2",
             "factoryName": "FRESENIUS KABI iPSUM S.r.l.",
             "factoryAddr": "VIA SAN LEONARDO 23, 45010 VILLADOSE (ROVIGO), ITALY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [
                 {
@@ -80,16 +93,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0436100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812302910",
+            "ingredientsName": "CEFEPIME DIHYDROCHLORIDE MONOHYDRATE",
             "ingredientsDesc": "CEFEPIME DIHYDROCHLORIDE MONOHYDRATE",
             "concentDesc": "(corresponding to 1000mg Cefepime) (potency)",
-            "concent": "1189.200",
+            "concent": "1189.200000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -98,29 +114,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "67D91632-5D11-4BE8-A72A-C078A9070553",
-            "approvedDocNo": "1106027226",
-            "approvedDate": "2022-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D9F7DF81-E1FC-4D6F-AEAA-A2DE3D95C3ED",
-            "approvedDocNo": "1076045403",
-            "approvedDate": "2019-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01DE01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "F4EBE1DF-9F28-40E4-A827-BBDEA3D939B3"
 }

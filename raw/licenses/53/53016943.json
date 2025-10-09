@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "53016943",
+    "licUnit": "1",
     "validDate": "2029-02-17 00:00:00.000",
     "issueDate": "2017-04-21 00:00:00.000",
+    "oriIssueDate": "2017-04-21",
     "licKind": "02",
     "oldLicid": "01049981",
     "certNo": "DHY05301694300",
@@ -24,13 +27,19 @@
     "medMCode": "13",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "B1332D87-11DE-4A31-A917-283D1D51F5F0",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "DIETHYLTOLUAMIDE",
         "DIETHYLTOLUAMIDE",
         "DIETHYLTOLUAMIDE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "正和製藥股份有限公司新營廠",
     "applicantAddr": "台南市新營區嘉芳里新工路２３號",
@@ -42,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "608D923B-C4EE-43D7-B562-995A591FC0F8",
             "factoryCode": "1",
             "factoryName": "正和製藥股份有限公司新營廠",
             "factoryAddr": "台南市新營區嘉芳里新工路２３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0505720300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404200300",
+            "ingredientsName": "DIETHYLTOLUAMIDE",
             "ingredientsDesc": "DIETHYLTOLUAMIDE",
             "concentDesc": "",
-            "concent": "120.0000",
+            "concent": "120.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404200300",
+            "ingredientsName": "DIETHYLTOLUAMIDE",
             "ingredientsDesc": "DIETHYLTOLUAMIDE",
             "concentDesc": "",
-            "concent": "120.0000",
+            "concent": "120.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -83,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404200300",
+            "ingredientsName": "DIETHYLTOLUAMIDE",
             "ingredientsDesc": "DIETHYLTOLUAMIDE",
             "concentDesc": "",
-            "concent": "120.0000",
+            "concent": "120.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "3",
@@ -94,21 +111,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BE318938-8F8E-4149-B7CB-5F56DD8A6B44",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "P03BX01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "3C9ED3B9-B5ED-442F-B083-E888575C0CFE"
 }

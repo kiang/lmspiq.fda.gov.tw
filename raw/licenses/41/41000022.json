@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "41000022",
+    "licUnit": "1",
     "validDate": "2028-10-20 00:00:00.000",
     "issueDate": "2003-10-20 00:00:00.000",
+    "oriIssueDate": "2003-10-20",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA04100002205",
@@ -16,19 +20,22 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "11E3873A-11D8-49AE-B535-FA1D92EC0AAE",
+    "subCategory": [],
     "ingredientsDesc": [
         "NORFLOXACIN (BACCIDAL)"
     ],
     "restraintItemsCode": [
-        "02",
-        "40"
+        "02 輸 入",
+        "40 大陸生產"
     ],
     "applicantName": "新雙隆生技股份有限公司",
     "applicantAddr": "台北市松山區復興北路369號14樓",
@@ -40,25 +47,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "69A1C223-A12B-4D27-9493-39E968154B5D",
             "factoryCode": "1",
             "factoryName": "ZHEJIANG LEPU PHARMACEUTICAL CO., LTD.",
             "factoryAddr": "NO.29 BINHAI ROAD YANTON, JIAOJIANG DISTRICT, TAIZHOU CITY, ZHEJIANG CHINA. ",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCN0011100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812002200",
+            "ingredientsName": "NORFLOXACIN (BACCIDAL)",
             "ingredientsDesc": "NORFLOXACIN (BACCIDAL)",
             "concentDesc": "(99.0-101.0)",
             "concent": null,
@@ -70,41 +83,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "71AC8890-7600-4DF6-85D8-C84992DB2569",
-            "approvedDocNo": "1119055683",
-            "approvedDate": "2023-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "121FEEDA-180B-4A82-99A7-B0C03B288A2A",
-            "approvedDocNo": "1119031676",
-            "approvedDate": "2022-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BA6E7824-07F0-4B76-8D79-E168D06F42C4",
-            "approvedDocNo": "1086016000",
-            "approvedDate": "2019-07-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01AE02"
-        },
         {
             "isMain": "1",
             "atcCode": "J01MA06"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "F5D4AA9C-71AB-4936-9FC3-1A257B506D7A"
 }

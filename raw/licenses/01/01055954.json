@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055954",
+    "licUnit": "1",
     "validDate": "2026-03-08 00:00:00.000",
     "issueDate": "2011-03-08 00:00:00.000",
+    "oriIssueDate": "2011-03-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105595402",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7845965E-2828-4069-950D-E450DC8D538F",
+    "subCategory": [],
     "ingredientsDesc": [
         "FEXOFENADINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "生達化學製藥股份有限公司",
     "applicantAddr": "臺南市新營區土庫里土庫6之20號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "D24994D8-9397-49F3-BA3B-CB323B27FBFA",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司二廠",
             "factoryAddr": "台南市新營區土庫里土庫6之20號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0510620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400006110",
+            "ingredientsName": "FEXOFENADINE HYDROCHLORIDE",
             "ingredientsDesc": "FEXOFENADINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "60.0000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -75,25 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "286FBA22-D4BE-4BE4-9910-A51889CDF67B",
-            "approvedDocNo": "1096813650",
-            "approvedDate": "2020-08-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R06AX26"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AX26"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "2AAD70D6-6E71-4241-BF85-173879B3D159"
 }

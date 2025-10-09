@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01045277",
+    "licUnit": "1",
     "validDate": "2027-12-10 00:00:00.000",
     "issueDate": "2002-12-10 00:00:00.000",
+    "oriIssueDate": "2002-12-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104527703",
@@ -24,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B2D403C6-F23F-49C8-86AA-D07C44368054",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "CHLORPHENIRAMINE MALEATE",
@@ -31,7 +37,7 @@
         "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "成大藥品股份有限公司",
     "applicantAddr": "台南市麻豆區南勢里關帝廟８０號",
@@ -43,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "B5D84356-F270-4EA1-A304-67E2A9F04241",
             "factoryCode": "1",
             "factoryName": "成大藥品股份有限公司",
             "factoryAddr": "台南市麻豆區南勢里關帝廟８０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0603820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": "",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -73,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
-            "concent": "0.1400",
+            "concent": "0.140000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -84,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001420",
+            "ingredientsName": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "concentDesc": "",
-            "concent": "3.3300",
+            "concent": "3.330000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -95,9 +109,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "1.3300",
+            "concent": "1.330000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -106,81 +121,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A05248C9-0B2C-49E5-B638-8E139044C0CA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2024-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "550595CB-674E-4484-8B41-AE54A7EBDF32",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-11-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8271E32B-E6CB-447C-97FC-7E65E2C0574F",
-            "approvedDocNo": "1120802815",
-            "approvedDate": "2023-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1D92AFA9-9D35-41D5-9CA4-A042597DE76C",
-            "approvedDocNo": "1110811042",
-            "approvedDate": "2022-08-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8C2376A6-E79E-49E0-B5E7-CFD63DC357E5",
-            "approvedDocNo": "1106817715",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "80D8CC9A-E920-40B6-8BFC-8CC25559B0F6",
-            "approvedDocNo": "1096805220",
-            "approvedDate": "2020-07-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C1C1665-2BFB-412A-8FBA-E8FFF2639866",
-            "approvedDocNo": "1096805623",
-            "approvedDate": "2020-05-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R05DA20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA04"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "FB24763E-352B-4ECB-960F-9DAA1D3E1E24"
 }

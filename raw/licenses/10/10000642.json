@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-02-06",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "10000642",
+    "licUnit": "1",
     "validDate": "2026-03-12 00:00:00.000",
     "issueDate": "2001-03-12 00:00:00.000",
+    "oriIssueDate": "2001-03-12",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000064200",
@@ -41,14 +45,17 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "099B298E-E1C9-491C-BD99-C6F31551A241",
+    "subCategory": [],
     "ingredientsDesc": [
         "ANTIHEMOPHILIC FACTOR"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣拜耳股份有限公司",
-    "applicantAddr": "台北市信義區信義路5段7號53樓",
+    "applicantAddr": "臺北市信義區信義路5段7號53樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -57,25 +64,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "1C37D932-DFDE-46C5-B79F-1DA5ED55587A",
             "factoryCode": "1",
             "factoryName": "BAYER HEALTHCARE LLC",
             "factoryAddr": "800 DWIGHT WAY, BERKELEY, CA 94710 USA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": "511 BENEDICT AVENUE, TARRYTOWN, NY 10591, U.S.A.",
             "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FUS0055000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "AB5CE75D-E9FD-41DC-AF0C-DF084C2AAB3C",
             "factoryCode": "2",
             "factoryName": "BAYER AG",
             "factoryAddr": "MUELLERSTRASSE 178, D-13353 BERLIN, GERMANY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -87,16 +100,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0366000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004000100",
+            "ingredientsName": "ANTIHEMOPHILIC FACTOR",
             "ingredientsDesc": "ANTIHEMOPHILIC FACTOR",
             "concentDesc": "500",
-            "concent": "500.000",
+            "concent": "500.000000",
             "concentUnit": "212",
             "seq": "0",
             "prescription_seq": "0",
@@ -105,45 +121,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9E8B44CF-6E14-4DB3-BBF6-D58E1693B56A",
-            "approvedDocNo": "1106010296",
-            "approvedDate": "2021-10-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C538AD0F-6992-4063-BF8B-E2663F8872D6",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B70A0F51-1C72-4E59-B127-CFFC339EBD09",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "138DEBF1-25AE-41D3-A5BC-C3868A2BED07",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "B02BD02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "80B837F1-A367-4CFF-AC1C-9D8B77CC817D"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039435",
+    "licUnit": "1",
     "validDate": "2026-03-28 00:00:00.000",
     "issueDate": "1996-03-28 00:00:00.000",
+    "oriIssueDate": "1996-03-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103943509",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EBC4E7AA-4D6C-4615-B9CF-0AF71EF6A2F2",
+    "subCategory": [],
     "ingredientsDesc": [
         "CIMETIDINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "約克製藥股份有限公司",
     "applicantAddr": "雲林縣斗六市榴中里復興路3號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "1A106FA5-BE79-4FC5-8A39-E66796BAE5BB",
             "factoryCode": "1",
             "factoryName": "約克製藥股份有限公司",
             "factoryAddr": "雲林縣斗六市榴中里復興路3號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6139011104",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640000500",
+            "ingredientsName": "CIMETIDINE",
             "ingredientsDesc": "CIMETIDINE",
             "concentDesc": "40",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,29 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7E74127C-1FEF-409E-B238-22E471780E72",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0DCD0620-E3E4-46F6-ABFD-DBB314D51669",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A02BA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "865968FD-4504-4861-8391-511CCE72C89E"
 }

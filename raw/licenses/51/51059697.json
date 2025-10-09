@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059697",
+    "licUnit": "1",
     "validDate": "2027-06-14 00:00:00.000",
     "issueDate": "2017-06-14 00:00:00.000",
+    "oriIssueDate": "2017-06-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105969705",
@@ -27,11 +31,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "14A2F876-6574-41AA-9219-F3D061B9C36A",
+    "subCategory": [
+        "A05"
+    ],
     "ingredientsDesc": [
         "FLOMOXEF(SODIUM)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "中國化學製藥股份有限公司台南三廠",
     "applicantAddr": "台南市官田區二鎮里工業西路46號之8",
@@ -43,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "00B5222B-259B-4E5B-B776-FA6A2C3B0DAB",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司台南三廠",
             "factoryAddr": "台南市官田區二鎮里工業西路46號之8",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6141141199",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9901093500",
+            "ingredientsName": "FLOMOXEF(SODIUM)",
             "ingredientsDesc": "FLOMOXEF(SODIUM)",
             "concentDesc": "",
-            "concent": "1.000",
+            "concent": "1.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,45 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D75B0002-1D12-4E1B-9852-03FF7C2BFACE",
-            "approvedDocNo": "1119014837",
-            "approvedDate": "2022-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3951361C-158E-416B-9D8C-7227B424C74F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C66501DF-8D54-45C0-8EE8-F1238DB4FDF4",
-            "approvedDocNo": "1086018013",
-            "approvedDate": "2019-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4876209F-53A0-420B-81A0-1E232AE2D5EB",
-            "approvedDocNo": "1086018013",
-            "approvedDate": "2019-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01DC14"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "503E7CEC-823D-4667-BE8A-7021E136C073"
 }

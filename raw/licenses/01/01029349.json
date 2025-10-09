@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01029349",
+    "licUnit": "1",
     "validDate": "2029-01-07 00:00:00.000",
     "issueDate": "1987-01-07 00:00:00.000",
+    "oriIssueDate": "1987-01-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102934900",
@@ -27,11 +31,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "728831B2-574E-4A5B-A36F-FFC88FF36C3D",
+    "subCategory": [],
     "ingredientsDesc": [
         "CIMETIDINE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "約克製藥股份有限公司",
     "applicantAddr": "雲林縣斗六市榴中里復興路3號",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "04ACA016-ED5E-4EDB-82F6-5C780F7C83BE",
             "factoryCode": "1",
             "factoryName": "約克製藥股份有限公司",
             "factoryAddr": "雲林縣斗六市榴中里復興路3號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6139011104",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640000500",
+            "ingredientsName": "CIMETIDINE",
             "ingredientsDesc": "CIMETIDINE",
             "concentDesc": "400",
-            "concent": "400.0000",
+            "concent": "400.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -73,85 +86,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E930374D-0CEA-42B2-BDD0-C08E49B330B7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CB3FA69E-66F9-4F21-AF9B-B8B98B801AB8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "38740BBA-2032-458A-89BD-35F50D66DF8B",
-            "approvedDocNo": "1096600986",
-            "approvedDate": "2020-05-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "243AC469-377C-4E53-8E05-B10C7D551B13",
-            "approvedDocNo": "1096600986",
-            "approvedDate": "2020-05-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3B119EC6-A678-4C3C-BFB4-EA03A5092BE2",
-            "approvedDocNo": "1096600986",
-            "approvedDate": "2020-05-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6351DD5D-8D7C-4D8B-BAD8-16A29259AA90",
-            "approvedDocNo": "1096600986",
-            "approvedDate": "2020-05-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7D6B552B-1FFF-4BA8-B4BE-27C5444B72C3",
-            "approvedDocNo": "1096600986",
-            "approvedDate": "2020-05-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1279FD12-C8C9-4DAF-9F90-2CEEAF0CD476",
-            "approvedDocNo": "1096600986",
-            "approvedDate": "2020-05-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C1B7E4C-12E3-45F2-AF1F-33F2DEB470A6",
-            "approvedDocNo": "1096600986",
-            "approvedDate": "2020-05-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A02BA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "91DE19C2-CDE3-4B65-83B0-462E00527321"
 }

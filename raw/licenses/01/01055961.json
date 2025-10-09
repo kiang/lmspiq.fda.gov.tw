@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055961",
+    "licUnit": "1",
     "validDate": "2026-03-14 00:00:00.000",
     "issueDate": "2011-03-14 00:00:00.000",
+    "oriIssueDate": "2011-03-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105596109",
@@ -27,11 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E8C27FA7-BD32-46EA-8D10-A82732EA8A60",
+    "subCategory": [],
     "ingredientsDesc": [
         "CARISOPRODOL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "健亞生物科技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉中興村工業一路１號",
@@ -43,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A5687A13-56B4-4C8E-B7CA-328647A6D544",
             "factoryCode": "1",
             "factoryName": "健亞生物科技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉新竹工業區工業一路１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1119206300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220000300",
+            "ingredientsName": "CARISOPRODOL",
             "ingredientsDesc": "CARISOPRODOL",
             "concentDesc": "",
-            "concent": "250.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -73,33 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F207B398-7180-4FE4-BD5B-0E89DE206500",
-            "approvedDocNo": "1120702926",
-            "approvedDate": "2023-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9475610A-59A8-454E-A40F-8516062C5202",
-            "approvedDocNo": "1106032583",
-            "approvedDate": "2022-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "M03BA02"
-        },
         {
             "isMain": "1",
             "atcCode": "M03BA02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "4604BD3E-F686-4CFA-9434-694C2767FE28"
 }

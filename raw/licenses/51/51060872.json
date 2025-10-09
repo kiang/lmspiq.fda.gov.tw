@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060872",
+    "licUnit": "1",
     "validDate": "2026-05-06 00:00:00.000",
     "issueDate": "2021-05-06 00:00:00.000",
+    "oriIssueDate": "2021-05-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106087200",
@@ -23,11 +27,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "148C92D3-68F5-424B-811E-CD9C7C8D1D47",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
         "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "佳醫健康事業股份有限公司",
     "applicantAddr": "新北市中和區中正路880號17樓",
@@ -39,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "7A0DB1BC-2ADF-4D75-B144-0B35CCB9064E",
             "factoryCode": "1",
             "factoryName": "濟生醫藥生技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉勝利村實踐路3號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133060069",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": "",
-            "concent": "798.000",
+            "concent": "798.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,11 +89,8 @@
         {
             "isMain": "1",
             "atcCode": "B05ZA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05Z"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "FA00BF00-9AC4-4D5E-AF9B-9AD155D3E992"
 }

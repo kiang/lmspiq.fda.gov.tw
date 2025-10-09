@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044369",
+    "licUnit": "1",
     "validDate": "2026-03-26 00:00:00.000",
     "issueDate": "2001-03-26 00:00:00.000",
+    "oriIssueDate": "2001-03-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104436903",
@@ -27,13 +31,16 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F16AF7C5-F334-4B90-A43A-EF6230D1652B",
+    "subCategory": [],
     "ingredientsDesc": [
         "PLANTAGO OVATA SEED",
         "SENNOSIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "惠勝藥品股份有限公司",
     "applicantAddr": "嘉義市東區東川里公園街159號8樓之2",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "8282AADB-FEB5-4205-85D3-086978D99610",
             "factoryCode": "1",
             "factoryName": "永勝藥品工業股份有限公司",
             "factoryAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路６之３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6140040022",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002500",
+            "ingredientsName": "SENNOSIDE",
             "ingredientsDesc": "SENNOSIDE",
             "concentDesc": "",
-            "concent": "13.9200",
+            "concent": "13.920000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612005112",
+            "ingredientsName": "PLANTAGO OVATA SEED",
             "ingredientsDesc": "PLANTAGO OVATA SEED",
             "concentDesc": "",
-            "concent": "375.0000",
+            "concent": "375.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -89,17 +103,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A06AB06"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
             "isMain": "1",
             "atcCode": "A06AB56"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "2F8EE836-B976-4947-BE12-0912AB19DF39"
 }

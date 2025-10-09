@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025391",
+    "licUnit": "1",
     "validDate": "2026-03-29 00:00:00.000",
     "issueDate": "2011-03-29 00:00:00.000",
+    "oriIssueDate": "2011-03-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202539106",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "20EDC29C-9E85-4B0D-8939-78895F8E6128",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLONIDINE HCL (CLONIDINE HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "裕利股份有限公司",
     "applicantAddr": "台北市松山區南京東路四段126號10樓，10樓之1-3",
@@ -39,8 +46,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "7B93D794-1B46-4814-94E0-59E713EF0508",
             "factoryCode": "1",
             "factoryName": "DELPHARM REIMS",
             "factoryAddr": "10 RUE COLONEL CHARBONNEAUX, 51100 REIMS, FRANCE",
@@ -51,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0279000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "8A9F50E6-B6E1-4CA1-8EEA-2F98A4C72BE1",
             "factoryCode": "2",
             "factoryName": "Glenwood GmbH Pharmazeutische Erzeugnisse",
             "factoryAddr": "Arabellastrasse 17, 81925 Munich, Germany",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -69,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0630000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408000510",
+            "ingredientsName": "CLONIDINE HCL (CLONIDINE HYDROCHLORIDE)",
             "ingredientsDesc": "CLONIDINE HCL (CLONIDINE HYDROCHLORIDE)",
             "concentDesc": "",
-            "concent": "0.0750",
+            "concent": "0.075000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,49 +103,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D6D5C9D7-26C4-4698-809B-CA96715E3E68",
-            "approvedDocNo": "1120710856",
-            "approvedDate": "2023-07-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B3257B0C-4B5B-4FDC-A41C-F55EE40B049A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "94BC7B3A-F1C4-409A-BDEA-E3CF35866BAC",
-            "approvedDocNo": "1101496700",
-            "approvedDate": "2021-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "375C3D9B-BF6A-4089-9B09-46C8AC9A51FF",
-            "approvedDocNo": "1101491874",
-            "approvedDate": "2021-07-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C02AC01"
-        },
         {
             "isMain": "1",
             "atcCode": "C02AC01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8D303D28-79B3-40DE-B8AF-7FD94E89D974"
 }

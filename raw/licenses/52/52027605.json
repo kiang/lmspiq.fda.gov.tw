@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027605",
+    "licUnit": "1",
     "validDate": "2029-02-25 00:00:00.000",
     "issueDate": "2019-02-25 00:00:00.000",
+    "oriIssueDate": "2019-02-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202760502",
@@ -23,12 +27,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "1FBFD820-2B08-4FA3-80CC-4867DEE9901B",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "SILDENAFIL CITRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "暉致醫藥股份有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -40,8 +49,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "D6B0C0F2-7AFF-43B6-8FC4-F2B15CF3B4B6",
             "factoryCode": "1",
             "factoryName": "Fareva Amboise",
             "factoryAddr": "ZONE INDUSTRIELLE 29,ROUTE DES INDUSTRIES 37530, POCE-SUR-CISSE,FRANCE",
@@ -52,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "FFR0080000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200091910",
+            "ingredientsName": "SILDENAFIL CITRATE",
             "ingredientsDesc": "SILDENAFIL CITRATE",
             "concentDesc": "(equivalent to Sildenafil.....25mg)",
-            "concent": "35.112",
+            "concent": "35.112000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,53 +85,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FCD09900-3CB7-492C-A83D-070D033BCBA0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9ABF1860-6647-4CF6-AB90-23A56D3512BC",
-            "approvedDocNo": "1101496736",
-            "approvedDate": "2021-10-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "202DF6F6-AF80-4435-AB43-B5B1BB713D3C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0C5AA0E6-CF1B-4AE8-A581-3CAE653B5D99",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "74D1E0C4-BA9D-4C42-B0A0-3E8EA2BCB8DE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G04BE03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "18C80DEA-87DC-4DA1-942B-AB4E234E34D8"
 }

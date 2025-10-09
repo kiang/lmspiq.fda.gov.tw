@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040825",
+    "licUnit": "1",
     "validDate": "2027-01-31 00:00:00.000",
     "issueDate": "1996-01-31 00:00:00.000",
+    "oriIssueDate": "1996-01-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHYS0104082504",
@@ -16,7 +20,7 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         },
         {
@@ -27,11 +31,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7C58B313-A0E7-4491-A15D-4CB1A6396978",
+    "subCategory": [],
     "ingredientsDesc": [
         "ZINC (GLUCONATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "皇佳化學製藥股份有限公司",
     "applicantAddr": "高雄市鳥松區埔安街1號",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "D7E25667-0D6E-47E8-9E06-265AE8EDA1DF",
             "factoryCode": "1",
             "factoryName": "皇佳化學製藥股份有限公司",
             "factoryAddr": "高雄市鳥松區?埔里埔安街1號",
-            "factoryCompanyAddr": "高雄市鳥松區埔安街1號",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0920322300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200919000",
+            "ingredientsName": "ZINC (GLUCONATE)",
             "ingredientsDesc": "ZINC (GLUCONATE)",
             "concentDesc": "78",
-            "concent": "78.0000",
+            "concent": "78.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,45 +86,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "127FE763-C00F-4734-8E80-BED864854D0F",
-            "approvedDocNo": "1106610090",
-            "approvedDate": "2021-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "141BC073-C254-4788-B3BD-D92441C9F6CA",
-            "approvedDocNo": "1106610090",
-            "approvedDate": "2021-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "03DD72D4-8436-4B7C-9D3F-DDF512D74853",
-            "approvedDocNo": "1106610090",
-            "approvedDate": "2021-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F25F1F17-8BE3-4A4A-BD2F-E7F14C8AD42C",
-            "approvedDocNo": "1070043810",
-            "approvedDate": "2019-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A12CB02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "42E34E7B-7C55-4E2D-8AE0-CC0E7D2A3FB0"
 }

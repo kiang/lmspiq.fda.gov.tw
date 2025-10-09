@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044314",
+    "licUnit": "1",
     "validDate": "2026-03-06 00:00:00.000",
     "issueDate": "2001-03-06 00:00:00.000",
+    "oriIssueDate": "2001-03-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104431404",
@@ -16,19 +20,22 @@
     "does": "1114",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AD90925D-EFEC-4DE3-A816-38B6819F085F",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -40,8 +47,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "AA4B0605-7D6E-4361-AB00-CB11F13BD49D",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業區工業一路６號",
@@ -52,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
-            "concent": "160.0000",
+            "concent": "160.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,21 +83,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4DD03C05-CE36-4D8E-BB91-01CD99963F94",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02BE01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "5BB0D936-BCB8-48ED-9F6E-12DF874FC7F5"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022383",
+    "licUnit": "1",
     "validDate": "2029-01-30 00:00:00.000",
     "issueDate": "2024-01-03 00:00:00.000",
+    "oriIssueDate": "1999-01-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202238305",
@@ -16,19 +20,22 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DDFB1E29-2FF3-40BD-A241-9AA71082F799",
+    "subCategory": [],
     "ingredientsDesc": [
         "SILDENAFIL CITRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "暉致醫藥股份有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -40,8 +47,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "396B7A92-09C0-404E-AFF2-F9297084574C",
             "factoryCode": "1",
             "factoryName": "Fareva Amboise",
             "factoryAddr": "ZONE INDUSTRIELLE 29,ROUTE DES INDUSTRIES 37530, POCE-SUR-CISSE,FRANCE",
@@ -52,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0080000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7DAAB1B6-633B-4663-9989-3AA52A45B830",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "",
             "processCode": [
                 {
@@ -70,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200091910",
+            "ingredientsName": "SILDENAFIL CITRATE",
             "ingredientsDesc": "SILDENAFIL CITRATE",
             "concentDesc": "140.450",
-            "concent": "140.4500",
+            "concent": "140.450000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,61 +104,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "82611C57-236E-4CD9-B4BF-29F6B61F33CC",
-            "approvedDocNo": "1119023561",
-            "approvedDate": "2022-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "642E6DD0-9F4F-4D4A-BB52-56AF1E9C29D3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0D8FB161-77AA-4060-9885-2CF47E9D0FE7",
-            "approvedDocNo": "1101497103",
-            "approvedDate": "2021-10-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B8330791-E159-46DA-AFE3-4AA97A842B01",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C7EC5B56-39A5-4C9A-B2D5-ADA809AC5D4D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "81FEFFEE-D2B5-43B6-ABB1-65AD3DC7D116",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G04BE03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "2BCF2D67-00EE-45F9-90B8-7EEDF724ABA8"
 }

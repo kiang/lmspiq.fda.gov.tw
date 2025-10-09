@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023980",
+    "licUnit": "1",
     "validDate": "2029-05-11 00:00:00.000",
     "issueDate": "2004-05-11 00:00:00.000",
+    "oriIssueDate": "2004-05-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202398002",
@@ -13,7 +17,7 @@
     "indicationsName": [
         "１.\t氣喘（Asthma）\r\n適合使用類固醇及長效β2 作用劑（β2-agonist）合併治療的支氣管氣喘（Bronchial asthma）。\r\n２.\t慢性阻塞性肺部疾病（COPD）\r\n適用於18 歲以上患有慢性阻塞性肺部疾病（COPD），使用氣管擴張劑後之第一秒吐氣量（post-bronchodilator FEV1）少於預測值之70%及已定期使用支氣管擴張劑，而仍有惡化病史的病患之治療。\r\n"
     ],
-    "does": "4432",
+    "does": "1105",
     "packageUnit": [
         {
             "packageSpec": "每瓶60,120劑量，定量吸入",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3BEE1E58-9FBB-477B-9377-72E523152548",
+    "subCategory": [],
     "ingredientsDesc": [
         "FORMOTEROL FUMARATE DIHYDRATE",
         "BUDESONIDE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "臺灣阿斯特捷利康股份有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號21樓",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "CECCF5CB-5045-4F9D-9B05-5B93819C4BCD",
             "factoryCode": "1",
-            "factoryName": "ASTRAZENECA AB",
-            "factoryAddr": "SE-151 85 SODERTALJE SWEDEN",
-            "factoryCompanyAddr": null,
+            "factoryName": "AstraZeneca AB",
+            "factoryAddr": "Forskargatan 18, Sodertalje, 15136, Sweden",
+            "factoryCompanyAddr": "",
             "countryCode": "SE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FSE0032000",
+            "factoryNo": "FSE0089300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406002100",
+            "ingredientsName": "BUDESONIDE",
             "ingredientsDesc": "BUDESONIDE",
             "concentDesc": "",
-            "concent": "320.0000",
+            "concent": "320.000000",
             "concentUnit": "016",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216003030",
+            "ingredientsName": "FORMOTEROL FUMARATE DIHYDRATE",
             "ingredientsDesc": "FORMOTEROL FUMARATE DIHYDRATE",
             "concentDesc": "",
-            "concent": "9.0000",
+            "concent": "9.000000",
             "concentUnit": "016",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,53 +95,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A1C25A2E-C8E9-4582-9FA0-64542D6E8A6F",
-            "approvedDocNo": "1110726453",
-            "approvedDate": "2023-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "63021652-3AC0-4BB2-B46D-C3C4944EFE26",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C368192-35BF-4339-9F46-246F3FB9242F",
-            "approvedDocNo": "1096016143",
-            "approvedDate": "2020-07-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B9876AE7-5389-4248-A658-B737B65717F4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R03AC13"
-        },
         {
             "isMain": "1",
             "atcCode": "R03AK07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03BA02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "2D923F5E-D9BB-4D11-A5D0-D2EFD7BAEBDB"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12006067",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1970-07-20 00:00:00.000",
+    "oriIssueDate": "1970-07-20",
     "licKind": "02",
     "oldLicid": "17002862",
     "certNo": "DHY01200606703",
@@ -16,30 +20,26 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": "20毫升",
-            "packageUnit": "D4"
-        },
-        {
             "packageSpec": "500、1000毫升",
             "packageUnit": "A3"
         },
         {
             "packageSpec": "20毫升",
-            "packageUnit": "M2"
-        },
-        {
-            "packageSpec": "150、300、500毫升",
-            "packageUnit": "C7"
+            "packageUnit": "D4"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E84A195E-3B49-4EC5-92E9-CAD834DA2E30",
+    "subCategory": [],
     "ingredientsDesc": [
         "GLUCOSE MONOHYDRATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "信東生技股份有限公司",
     "applicantAddr": "桃園市桃園區介壽路２２號",
@@ -51,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "E408FCC1-1417-4342-BF09-8CA31929497E",
             "factoryCode": "1",
             "factoryName": "信東生技股份有限公司",
             "factoryAddr": "桃園市桃園區介壽路２２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0908703300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000760",
+            "ingredientsName": "GLUCOSE MONOHYDRATE",
             "ingredientsDesc": "GLUCOSE MONOHYDRATE",
             "concentDesc": "",
-            "concent": "500.000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -81,21 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CE3953C7-FE86-46CB-AE9C-7869CEF58E1A",
-            "approvedDocNo": "1120809697",
-            "approvedDate": "2023-10-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "B05BA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8CE2F30D-7ECF-46E9-B2C0-E5B0BD5A1024"
 }

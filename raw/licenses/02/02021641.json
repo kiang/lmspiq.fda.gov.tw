@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02021641",
+    "licUnit": "1",
     "validDate": "2027-04-17 00:00:00.000",
     "issueDate": "2022-04-25 00:00:00.000",
+    "oriIssueDate": "1997-04-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202164109",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BA7E4442-6EF6-44D6-98B6-AB69B91BF9E7",
+    "subCategory": [],
     "ingredientsDesc": [
         "DOXAZOSIN MESYLATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "暉致醫藥股份有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -39,26 +46,32 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "FC47778A-28AB-4C18-9696-9CD48851245D",
             "factoryCode": "1",
-            "factoryName": "PFIZER MANUFACTURING DEUTSCHLAND GMBH",
-            "factoryAddr": "BETRIEBSSTATTE FREIBURG, MOOSWALDALLEE 1, 79090 FREIBURG, GERMANY",
-            "factoryCompanyAddr": null,
+            "factoryName": "Pfizer Manufacturing Deutschland GmbH",
+            "factoryAddr": "Mooswaldallee 1, 79108 Freiburg Im Breisgau, Germany",
+            "factoryCompanyAddr": "",
             "countryCode": "DE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FDE0247000",
+            "factoryNo": "FDE0247200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2153A5DD-23B4-4131-8A62-A333C00C9017",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
             "factoryCompanyAddr": "",
-            "countryCode": "",
+            "countryCode": "TW",
             "processCode": [
                 {
                     "value": "1A",
@@ -69,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408004210",
+            "ingredientsName": "DOXAZOSIN MESYLATE",
             "ingredientsDesc": "DOXAZOSIN MESYLATE",
             "concentDesc": "",
-            "concent": "2.4300",
+            "concent": "2.430000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -87,61 +103,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8BFFCA87-F6C2-4F98-A102-E4ECF8DE29A8",
-            "approvedDocNo": "1119023561",
-            "approvedDate": "2022-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "55243B48-34CA-429E-A808-7E9B140D7FAE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0E47CF4B-C08E-4323-A176-9447830230EC",
-            "approvedDocNo": "1101496735",
-            "approvedDate": "2021-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EF307519-F34A-4D9B-BA25-389934C0A030",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "616F6BA9-5576-428A-A3C3-BA3D240B50B9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D0C2610D-EA15-4A17-9EB2-D9005941A8BD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C02CA04"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "34201621-43CB-4115-A6CA-DCC4852B6AE0"
 }

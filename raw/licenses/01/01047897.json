@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047897",
+    "licUnit": "1",
     "validDate": "2026-03-17 00:00:00.000",
     "issueDate": "2006-03-17 00:00:00.000",
+    "oriIssueDate": "2006-03-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104789704",
@@ -26,13 +30,18 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "ED876FAA-8FFA-4416-9E03-5FF66BBD23D7",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "TRETINOIN"
     ],
     "restraintItemsCode": [
-        "01",
-        "25"
+        "01 國 產",
+        "25 監視中學名藥"
     ],
     "applicantName": "臺灣派頓化學製藥股份有限公司",
     "applicantAddr": "高雄市岡山區為隨里1鄰為隨東路50號",
@@ -44,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "5B1BA892-5134-4072-ABB0-050000089C2B",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037600",
+            "ingredientsName": "TRETINOIN",
             "ingredientsDesc": "TRETINOIN",
             "concentDesc": "",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,5 +96,6 @@
             "atcCode": "D10AD01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "90DF133D-9323-4378-8899-3D8073DC1292"
 }

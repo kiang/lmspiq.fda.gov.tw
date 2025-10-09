@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51061030",
+    "licUnit": "1",
     "validDate": "2026-11-22 00:00:00.000",
     "issueDate": "2021-11-22 00:00:00.000",
+    "oriIssueDate": "2021-11-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106103006",
@@ -23,11 +27,17 @@
     "medMCode": "17",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "EFA7D343-9E4A-4DB7-B235-1322CB831937",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
+        "20% CHLORHEXIDINE GLUCONATE SOLUTION",
         "20% CHLORHEXIDINE GLUCONATE SOLUTION"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "邁斯貿易有限公司",
     "applicantAddr": "臺中市南屯區精科南路99號5樓之1",
@@ -39,91 +49,61 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "EABA445A-D217-4868-9C3C-B386ADC6B948",
             "factoryCode": "1",
             "factoryName": "健康化學製藥股份有限公司",
-            "factoryAddr": "台中市大甲區幼獅工業區幼四路１２號",
-            "factoryCompanyAddr": "",
+            "factoryAddr": "台中市大甲區日南里幼四路12號",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900234",
+            "ingredientsName": "20% CHLORHEXIDINE GLUCONATE SOLUTION",
             "ingredientsDesc": "20% CHLORHEXIDINE GLUCONATE SOLUTION",
             "concentDesc": "Chlorhexidine Gluconate Solution 20% (w\/v)--(eq. to Chlorhexidine Gluconate....20mg)",
-            "concent": "0.100",
+            "concent": "0.100000",
             "concentUnit": "003",
             "seq": "1",
             "prescription_seq": "1",
+            "prescription_Kind": "1"
+        },
+        {
+            "ingredientsKind": "1",
+            "ingredientsCode": "5204900234",
+            "ingredientsName": "20% CHLORHEXIDINE GLUCONATE SOLUTION",
+            "ingredientsDesc": "20% CHLORHEXIDINE GLUCONATE SOLUTION",
+            "concentDesc": "Chlorhexidine Gluconate Solution 20% (w\/v)--(eq. to Chlorhexidine Gluconate....20mg)",
+            "concent": "0.100000",
+            "concentUnit": "003",
+            "seq": "1",
+            "prescription_seq": "2",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1B336BB4-8635-45FC-BA6F-CE329532174E",
-            "approvedDocNo": "1120811091",
-            "approvedDate": "2023-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "48296476-CC0D-43EA-BB17-AD9B905E8F16",
-            "approvedDocNo": "1120600470",
-            "approvedDate": "2023-08-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "67EACC0E-EDEF-488F-8C7A-32C06BD71E78",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6E45056E-09FC-4A09-BB4F-69F6F91EE204",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-07-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D8930A3C-BA85-4F03-B206-9AB15A536770",
-            "approvedDocNo": "1110614174",
-            "approvedDate": "2023-03-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1035B614-00D0-4FDD-A7BB-69B61FFA20E1",
-            "approvedDocNo": "1110614174",
-            "approvedDate": "2023-03-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D08AC02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "CA8840AE-2866-4114-876C-26416BE40735"
 }

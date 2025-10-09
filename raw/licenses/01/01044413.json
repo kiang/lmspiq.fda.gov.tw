@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044413",
+    "licUnit": "1",
     "validDate": "2026-04-06 00:00:00.000",
     "issueDate": "2001-04-06 00:00:00.000",
+    "oriIssueDate": "2001-04-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104441306",
@@ -35,6 +39,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9761805C-17DC-454B-8C8C-E803D3300BCF",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROQUINONE",
         "DEXAMETHASONE",
@@ -47,7 +54,7 @@
         "TRETINOIN"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "井田國際醫藥廠股份有限公司",
     "applicantAddr": "台中市大甲區幼獅路32號",
@@ -59,28 +66,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "0A44D0AD-F8CD-4B45-AC66-9C74C59FD96F",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8450400100",
+            "ingredientsName": "HYDROQUINONE",
             "ingredientsDesc": "HYDROQUINONE",
             "concentDesc": null,
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -89,9 +102,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000600",
+            "ingredientsName": "DEXAMETHASONE",
             "ingredientsDesc": "DEXAMETHASONE",
             "concentDesc": null,
-            "concent": "0.3000",
+            "concent": "0.300000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -100,9 +114,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037600",
+            "ingredientsName": "TRETINOIN",
             "ingredientsDesc": "TRETINOIN",
             "concentDesc": null,
-            "concent": "0.3000",
+            "concent": "0.300000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -111,9 +126,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8450400100",
+            "ingredientsName": "HYDROQUINONE",
             "ingredientsDesc": "HYDROQUINONE",
             "concentDesc": null,
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -122,9 +138,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000600",
+            "ingredientsName": "DEXAMETHASONE",
             "ingredientsDesc": "DEXAMETHASONE",
             "concentDesc": null,
-            "concent": "0.3000",
+            "concent": "0.300000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -133,9 +150,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037600",
+            "ingredientsName": "TRETINOIN",
             "ingredientsDesc": "TRETINOIN",
             "concentDesc": null,
-            "concent": "0.3000",
+            "concent": "0.300000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -144,9 +162,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8450400100",
+            "ingredientsName": "HYDROQUINONE",
             "ingredientsDesc": "HYDROQUINONE",
             "concentDesc": null,
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -155,9 +174,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000600",
+            "ingredientsName": "DEXAMETHASONE",
             "ingredientsDesc": "DEXAMETHASONE",
             "concentDesc": null,
-            "concent": "0.3000",
+            "concent": "0.300000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -166,9 +186,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037600",
+            "ingredientsName": "TRETINOIN",
             "ingredientsDesc": "TRETINOIN",
             "concentDesc": null,
-            "concent": "0.3000",
+            "concent": "0.300000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "2",
@@ -177,81 +198,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F3513C30-D6F5-4FB9-880F-69D6FC60F4BF",
-            "approvedDocNo": "1110021511",
-            "approvedDate": "2023-01-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5625DD73-5FCF-4D06-95CE-96C9DCEF4752",
-            "approvedDocNo": "1110021511",
-            "approvedDate": "2023-01-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EAFD3360-6291-4F63-BAA6-ADA671F2C55E",
-            "approvedDocNo": "1106609564",
-            "approvedDate": "2021-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BAE5901B-B787-4D00-A223-3129E2DBD8F1",
-            "approvedDocNo": "1106609564",
-            "approvedDate": "2021-08-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BBDB9750-3751-4FBF-904E-1099708A7A83",
-            "approvedDocNo": "1096600754",
-            "approvedDate": "2020-03-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "35067DC1-B2B0-428F-8C19-2ECDB351302F",
-            "approvedDocNo": "1096600754",
-            "approvedDate": "2020-03-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "39CCA43A-1856-4EAE-9234-D195A28F8A3B",
-            "approvedDocNo": "1096600754",
-            "approvedDate": "2020-03-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D11AX11"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AB19"
-        },
         {
             "isMain": "1",
             "atcCode": "D11AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D10AD01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "05A7C851-1384-4424-8A54-3543B2C3826C"
 }

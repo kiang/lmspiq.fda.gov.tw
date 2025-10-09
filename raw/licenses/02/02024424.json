@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024424",
+    "licUnit": "1",
     "validDate": "2026-03-28 00:00:00.000",
     "issueDate": "2006-03-28 00:00:00.000",
+    "oriIssueDate": "2006-03-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202442403",
@@ -23,11 +27,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1E5E3F2D-DBA5-4EF0-8238-70EDF3D3FA21",
+    "subCategory": [],
     "ingredientsDesc": [
         "Menotrophin"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "輝凌藥品股份有限公司",
     "applicantAddr": "台北市中山區松江路111號11樓",
@@ -39,8 +47,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "4704D298-30C9-4776-B1E8-8A9637208587",
             "factoryCode": "1",
             "factoryName": "FERRING  GMBH",
             "factoryAddr": "WITTLAND 11, D-24109 KIEL  GERMANY",
@@ -51,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0233000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "89460549-0282-4A67-A6E3-0FC906BD4450",
             "factoryCode": "2",
             "factoryName": "ZENTIVA K.S.",
             "factoryAddr": "U kabelovny 130, 102 37 Praha 10, Dolni Mecholupy, Czech Republic",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CZ",
             "processCode": [
                 {
@@ -69,9 +83,12 @@
             "factoryKind": "M",
             "factoryNo": "FCZ0014100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "53887621-070C-4650-8AE2-36F28E96C8D1",
             "factoryCode": "2",
             "factoryName": "HAUPT PHARMA WULFING  GMBH",
             "factoryAddr": "BETHELNER LANDSTRASSE 18, D-31028 GRONAU, GERMANY",
@@ -87,13 +104,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0001100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "825E9E88-B61E-427A-B310-05C609311C12",
             "factoryCode": "2",
             "factoryName": "ZUELLIG PHARMA SPECIALTY SOLUTIONS GROUP PTE. LTD.",
             "factoryAddr": "15 CHANGI NORTH WAY #01-02, #02-02, #02-10, SINGAPORE 498770",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "SG",
             "processCode": [
                 {
@@ -105,16 +125,19 @@
             "factoryKind": "M",
             "factoryNo": "FSG0021200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6818001000",
+            "ingredientsName": "Menotrophin",
             "ingredientsDesc": "Menotrophin",
             "concentDesc": "(75IU fsh and 75IU LH)",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "",
             "seq": "1",
             "prescription_seq": "1",
@@ -123,93 +146,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3C6EAAF8-6735-47E3-A94F-38D3D20CA4E7",
-            "approvedDocNo": "1119066483",
-            "approvedDate": "2023-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5921BCD5-C2BA-4638-B02E-0917D7123344",
-            "approvedDocNo": "1119058033",
-            "approvedDate": "2023-01-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7AB335A6-BBD7-4CA8-8414-35A15DE6FDFE",
-            "approvedDocNo": "1119038270",
-            "approvedDate": "2022-09-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C1A3C17-5CED-451C-BE39-7FE7EA1ECE57",
-            "approvedDocNo": "1096019236",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "18C30AD1-DE87-46A8-B6A2-C4B08FB5DB88",
-            "approvedDocNo": "1091409816",
-            "approvedDate": "2020-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FFD83204-408A-4B71-AD20-3B887C043AC4",
-            "approvedDocNo": "1091409816",
-            "approvedDate": "2020-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E942F86D-959B-477A-955D-40383510BEBC",
-            "approvedDocNo": "1091409816",
-            "approvedDate": "2020-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6670262F-9A0B-4316-852D-027E737C3289",
-            "approvedDocNo": "1091409816",
-            "approvedDate": "2020-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "46847920-38AA-4D04-B75B-0CA302A66945",
-            "approvedDocNo": "1091409816",
-            "approvedDate": "2020-09-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6443AD8A-5E07-43EC-9002-D4228CEC1D80",
-            "approvedDocNo": "1086002943",
-            "approvedDate": "2019-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G03GA02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "A699614B-F413-4455-AE75-878867E7C101"
 }

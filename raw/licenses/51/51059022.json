@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059022",
+    "licUnit": "1",
     "validDate": "2026-03-29 00:00:00.000",
     "issueDate": "2016-03-29 00:00:00.000",
+    "oriIssueDate": "2016-03-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105902202",
@@ -27,14 +31,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7C0B07D1-64C3-424B-A9FE-E6AFEF0A94D7",
+    "subCategory": [],
     "ingredientsDesc": [
         "RAMIPRIL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "26",
-        "62"
+        "01 國 產",
+        "1R 不得製造",
+        "26 監視期滿新藥",
+        "62 完成溶離率試驗"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "8C3C73C0-C7E0-422B-A91B-087BB7BFDA92",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408004900",
+            "ingredientsName": "RAMIPRIL",
             "ingredientsDesc": "RAMIPRIL",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,45 +89,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0A491676-3F54-4A5A-8471-F306A9696D47",
-            "approvedDocNo": "1120807810",
-            "approvedDate": "2023-08-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2BB43E78-4BDF-478A-9185-56EB28D4D0E8",
-            "approvedDocNo": "1086809137",
-            "approvedDate": "2019-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5663F630-2B1E-476A-8077-B1DFAB8ECE72",
-            "approvedDocNo": "1086809137",
-            "approvedDate": "2019-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "781B208A-85D4-44FD-BF49-C3A5954FBD9E",
-            "approvedDocNo": "1086809137",
-            "approvedDate": "2019-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C09AA05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "1B31AFF5-DA0D-4725-BF50-96DDD22AC592"
 }

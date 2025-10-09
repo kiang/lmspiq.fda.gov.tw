@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026295",
+    "licUnit": "1",
     "validDate": "2029-04-15 00:00:00.000",
     "issueDate": "2014-04-15 00:00:00.000",
+    "oriIssueDate": "2014-04-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202629508",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "92AE9F79-C0CA-4D13-8C3F-0C7CEF474A1E",
+    "subCategory": [],
     "ingredientsDesc": [
         "SILDENAFIL CITRATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "暉致醫藥股份有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -39,8 +46,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "7E0D9DC3-8DCC-4306-A2DB-E3868A9B307F",
             "factoryCode": "1",
             "factoryName": "Fareva Amboise",
             "factoryAddr": "ZONE INDUSTRIELLE 29,ROUTE DES INDUSTRIES 37530, POCE-SUR-CISSE,FRANCE",
@@ -51,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0080000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "BAAF88D3-C4FD-43C0-9747-EB8EBF576264",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "",
             "processCode": [
                 {
@@ -69,117 +82,34 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "PFIZER IRELAND PHARMACEUTICALS",
-            "factoryAddr": " LONGHBEG, RINGASKIDDY, CO. CORK, IRELAND",
-            "factoryCompanyAddr": "",
-            "countryCode": "IE",
-            "processCode": [
-                {
-                    "value": "1K",
-                    "name": "原料藥製造廠"
-                }
-            ],
-            "processCodeStr": "1K;原料藥製造廠",
-            "factoryKind": "M",
-            "factoryNo": "FIE0078000",
-            "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200091910",
+            "ingredientsName": "SILDENAFIL CITRATE",
             "ingredientsDesc": "SILDENAFIL CITRATE",
             "concentDesc": "Equivalent to sildenafil 50 mg",
-            "concent": "70.225",
+            "concent": "70.225000",
             "concentUnit": "001",
-            "seq": "0",
+            "seq": "1",
             "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "74AB027F-30BE-4BEA-8EA4-3C51A7AB2506",
-            "approvedDocNo": "1120724732",
-            "approvedDate": "2023-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7AD3066A-C6AA-4353-8909-0A9A6600A7DD",
-            "approvedDocNo": "1119023561",
-            "approvedDate": "2022-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3F199C2E-8E19-4493-BEEE-8A5B7875624D",
-            "approvedDocNo": "1110702195",
-            "approvedDate": "2022-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "538ABF7D-1805-4130-8B5E-5BCBADF38CF5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A6A540E9-89C6-4AD6-BDAB-43358F949FBB",
-            "approvedDocNo": "1101496736",
-            "approvedDate": "2021-10-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EB997845-6906-4CB3-9808-DA11BF01607F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CA892DE9-E39E-48F4-B606-E115A17D827F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A376C9D3-FBAD-4551-A10D-62CCACF4D370",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G04BE03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "G04BE03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8E77D8FB-341E-44F6-879D-8C69B4F5E27B"
 }

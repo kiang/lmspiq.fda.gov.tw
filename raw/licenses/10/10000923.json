@@ -1,11 +1,15 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000923",
+    "licUnit": "1",
     "validDate": "2029-02-11 00:00:00.000",
     "issueDate": "2014-02-11 00:00:00.000",
-    "licKind": "02",
+    "oriIssueDate": "2014-02-11",
+    "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000092308",
     "prodNameC": "福列斯袋裝25%人體血清白蛋白注射劑",
@@ -23,11 +27,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "3B5E607E-9C4A-4AA3-B8AB-75F4C537CC13",
+    "subCategory": [
+        "C06"
+    ],
     "ingredientsDesc": [
         "ALBUMIN HUMAN (eq to HUMAN ALBUMIN)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣武田藥品工業股份有限公司",
     "applicantAddr": "台北市信義區松高路1號17樓",
@@ -39,25 +48,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "7D787B71-D1F8-4262-93D4-2C582EC97D93",
             "factoryCode": "1",
             "factoryName": "Baxalta US Inc.",
             "factoryAddr": "25212 W. ILLINOIS ROUTE 120, ROUND LAKE, IL 60073 USA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FUS0843000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "91B5C822-D28E-4C10-B430-2EA79948B86E",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -67,15 +82,18 @@
             ],
             "processCodeStr": "1A;二級包裝廠",
             "factoryKind": "M",
-            "factoryNo": "1225204000",
+            "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "12503DAE-0141-488C-B3EC-D07CD33B852D",
             "factoryCode": "2",
             "factoryName": "Baxalta US Inc.",
             "factoryAddr": "4501 COLORADO BOULEVARD, LOS ANGELES, CALIFORNIA 90039, U.S.A.",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [
                 {
@@ -87,16 +105,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0876000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1600000101",
+            "ingredientsName": "ALBUMIN HUMAN (eq to HUMAN ALBUMIN)",
             "ingredientsDesc": "ALBUMIN HUMAN (eq to HUMAN ALBUMIN)",
             "concentDesc": "",
-            "concent": "250.000",
+            "concent": "250.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -105,53 +126,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D7AD913E-7C92-4857-A6E6-FFB95B6BC59E",
-            "approvedDocNo": "1110724864",
-            "approvedDate": "2023-02-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED746DA6-71A4-4B2A-9DE7-9059DCCD60D0",
-            "approvedDocNo": "1106028689",
-            "approvedDate": "2021-11-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "420D7274-7F7B-4D58-9BE1-2F5726B21C86",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "82E41F30-1365-417A-8D39-F74A266DAC10",
-            "approvedDocNo": "1096007295",
-            "approvedDate": "2020-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D1D6A055-2AA1-4EAF-913E-E9CC5BD5007D",
-            "approvedDocNo": "1086025211",
-            "approvedDate": "2019-11-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "B05AA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "87E90166-6BC4-4C3D-A4F2-B3C955ED69DC"
 }

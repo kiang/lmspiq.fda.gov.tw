@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044377",
+    "licUnit": "1",
     "validDate": "2026-03-26 00:00:00.000",
     "issueDate": "2001-03-26 00:00:00.000",
+    "oriIssueDate": "2001-03-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104437702",
@@ -16,21 +20,24 @@
     "does": "3363",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "57"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "88"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "72214371-E8FC-4700-B440-B06C4734153D",
+    "subCategory": [],
     "ingredientsDesc": [
         "BETAMETHASONE VALERATE",
         "UREA",
@@ -38,8 +45,8 @@
         "DIBUCAINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "澳斯麗國際股份有限公司淡水廠",
     "applicantAddr": "新北市淡水區北新路三段一二三之一號",
@@ -51,28 +58,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "D225B8E9-4D40-4856-AC77-7F44E499F49C",
             "factoryCode": "1",
             "factoryName": "澳斯麗國際股份有限公司淡水廠",
             "factoryAddr": "新北市淡水區北新路三段一二三之一號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6612935103",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000250",
+            "ingredientsName": "BETAMETHASONE VALERATE",
             "ingredientsDesc": "BETAMETHASONE VALERATE",
             "concentDesc": "1",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,9 +94,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001610",
+            "ingredientsName": "DIPHENHYDRAMINE HCL",
             "ingredientsDesc": "DIPHENHYDRAMINE HCL",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -92,9 +106,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200000500",
+            "ingredientsName": "DIBUCAINE",
             "ingredientsDesc": "DIBUCAINE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -103,9 +118,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416001100",
+            "ingredientsName": "UREA",
             "ingredientsDesc": "UREA",
             "concentDesc": "100",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -117,25 +133,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "D04AA32"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D02AE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
-        },
-        {
             "isMain": "1",
             "atcCode": "D07XC01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "EF2159E1-E8BC-4408-AF7C-2D5DA2819901"
 }

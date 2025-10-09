@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01022957",
+    "licUnit": "1",
     "validDate": "2026-03-25 00:00:00.000",
     "issueDate": "1981-03-05 00:00:00.000",
+    "oriIssueDate": "1981-03-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102295701",
@@ -16,20 +20,23 @@
     "does": "3370",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6BF5F958-42E3-47AA-9D35-9E064DCD819C",
+    "subCategory": [],
     "ingredientsDesc": [
         "LACTIC ACID"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "理想藥品股份有限公司",
     "applicantAddr": "台北市中山區長安東路二段171號2樓之2",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "84E5585A-FFEE-4E74-9E6C-3B8C8925D5E4",
             "factoryCode": "1",
             "factoryName": "健康化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區幼獅工業區幼四路１２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200005300",
+            "ingredientsName": "LACTIC ACID",
             "ingredientsDesc": "LACTIC ACID",
             "concentDesc": "0.125",
-            "concent": "0.1250",
+            "concent": "0.125000",
             "concentUnit": "003",
             "seq": "1",
             "prescription_seq": "1",
@@ -78,5 +91,6 @@
             "atcCode": "G01AD01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "12F3BC2F-5D46-4F08-BA41-AD4634E01A77"
 }

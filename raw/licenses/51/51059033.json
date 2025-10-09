@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059033",
+    "licUnit": "1",
     "validDate": "2026-04-11 00:00:00.000",
     "issueDate": "2016-04-11 00:00:00.000",
+    "oriIssueDate": "2016-04-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105903307",
@@ -22,14 +26,19 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "0463113D-6647-4EE1-ACAB-E35B8E2F6302",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "PHENYLEPHRINE HCL",
         "DEXTROMETHORPHAN HBR",
         "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "佐藤製藥股份有限公司",
     "applicantAddr": "臺北市信義區基隆路一段333號4樓",
@@ -41,25 +50,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "1CD24EDA-92AF-4692-8B82-8F7681421827",
             "factoryCode": "1",
             "factoryName": "佐藤製藥股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉光復北路７號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0710606200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "056C6DFA-1BBA-48D3-90E8-9DB0560F3E71",
             "factoryCode": "2",
             "factoryName": "佐藤製藥股份有限公司",
             "factoryAddr": "臺北市信義區基隆路一段333號4樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -71,16 +86,19 @@
             "factoryKind": "M",
             "factoryNo": "0711101100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": "Dextromethorphan Hydrobromide......15mg",
-            "concent": "15.000",
+            "concent": "15.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,9 +107,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002310",
+            "ingredientsName": "PHENYLEPHRINE HCL",
             "ingredientsDesc": "PHENYLEPHRINE HCL",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -100,9 +119,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001420",
+            "ingredientsName": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -116,19 +136,8 @@
         {
             "isMain": "1",
             "atcCode": "R05DA20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "5388C2AC-C8B3-4CE6-89E4-4D675CD46E37"
 }
