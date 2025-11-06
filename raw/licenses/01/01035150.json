@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035150",
+    "licUnit": "1",
     "validDate": "2026-04-30 00:00:00.000",
     "issueDate": "1992-04-23 00:00:00.000",
+    "oriIssueDate": "1992-04-23",
     "licKind": "02",
     "oldLicid": "01013038",
     "certNo": "DHY00103515002",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "25000838-B4CF-4691-9928-3BF86DDE6AFF",
+    "subCategory": [],
     "ingredientsDesc": [
         "PROSULTIAMINE (THIAMINE PROPYL DISULFIDE)",
         "METHYLTESTOSTERONE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "新喜國際企業股份有限公司",
     "applicantAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "F9690DD8-221C-4500-9EF5-2979ACCE516B",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6808001300",
+            "ingredientsName": "METHYLTESTOSTERONE",
             "ingredientsDesc": "METHYLTESTOSTERONE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101500",
+            "ingredientsName": "PROSULTIAMINE (THIAMINE PROPYL DISULFIDE)",
             "ingredientsDesc": "PROSULTIAMINE (THIAMINE PROPYL DISULFIDE)",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -89,17 +103,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "G03BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
-        },
-        {
             "isMain": "1",
             "atcCode": "G03BA02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "75060B24-8BFE-4DED-AF68-05834331BF38"
 }

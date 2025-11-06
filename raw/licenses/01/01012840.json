@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01012840",
+    "licUnit": "1",
     "validDate": "2026-04-30 00:00:00.000",
     "issueDate": "1977-07-07 00:00:00.000",
+    "oriIssueDate": "1977-07-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101284000",
@@ -24,15 +27,18 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8F4B8D1C-44B0-4E1D-B547-094AF6A95DE4",
+    "subCategory": [],
     "ingredientsDesc": [
         "MAGNESIUM TRISILICATE",
         "DIMETHICONE (EQ TO DIMETHYLPOLYSILOXANE OR POLYDIMETHYL SILOXANE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "成大藥品股份有限公司",
     "applicantAddr": "台南市麻豆區南勢里關帝廟８０號",
@@ -44,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "E74404E2-0684-4AF5-8AD4-81713B8A6483",
             "factoryCode": "1",
             "factoryName": "成大藥品股份有限公司",
             "factoryAddr": "台南市麻豆區南勢里關帝廟８０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0603820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000500",
+            "ingredientsName": "DIMETHICONE (EQ TO DIMETHYLPOLYSILOXANE OR POLYDIMETHYL SILOXANE)",
             "ingredientsDesc": "DIMETHICONE (EQ TO DIMETHYLPOLYSILOXANE OR POLYDIMETHYL SILOXANE)",
             "concentDesc": "80",
-            "concent": "80.0000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002700",
+            "ingredientsName": "MAGNESIUM TRISILICATE",
             "ingredientsDesc": "MAGNESIUM TRISILICATE",
             "concentDesc": "120",
-            "concent": "120.0000",
+            "concent": "120.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,37 +98,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "378C5C51-712E-4B3F-85B9-21B6A2460641",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2024-02-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "428C5D3B-0BCB-45FA-A746-05431F46681F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-11-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A02AF"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03AX13"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8020A03F-2988-49CF-B372-D7F7989A0B4B"
 }

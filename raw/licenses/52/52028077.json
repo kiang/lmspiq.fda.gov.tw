@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028077",
+    "licUnit": "1",
     "validDate": "2026-04-22 00:00:00.000",
     "issueDate": "2021-04-22 00:00:00.000",
+    "oriIssueDate": "2021-04-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202807708",
@@ -23,12 +27,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "F6487429-240E-4E5B-8439-EF1DEBC49953",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "VARDENAFIL HYDROCHLORIDE TRIHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "必拓客有限公司",
     "applicantAddr": "基隆市信義區仁一路3號底層",
@@ -40,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "64373F0E-409B-47AF-BA79-481C29554680",
             "factoryCode": "1",
             "factoryName": "MACLEODS PHARMACEUTICALS LTD.",
             "factoryAddr": "BLOCK N-2, VILLAGE THEDA, P.O.LODHIMAJRA, TEHSIL BADDI, DISTRICT SOLAN, HIMACHAL PRADESH, INDIA ",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0868000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200043210",
+            "ingredientsName": "VARDENAFIL HYDROCHLORIDE TRIHYDRATE",
             "ingredientsDesc": "VARDENAFIL HYDROCHLORIDE TRIHYDRATE",
             "concentDesc": "(correspond to Vardenafil.....10mg)  (Ph.Eur)",
-            "concent": "11.850",
+            "concent": "11.850000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,21 +85,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0C499072-2949-427B-A102-13AD2D036354",
-            "approvedDocNo": "1119004197",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G04BE09"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "23EA1C4A-4F6F-49EF-9731-10C67D1DB4A7"
 }

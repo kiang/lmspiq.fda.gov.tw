@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02009145",
+    "licUnit": "1",
     "validDate": "2028-06-05 00:00:00.000",
     "issueDate": "2018-01-19 00:00:00.000",
+    "oriIssueDate": "1981-08-31",
     "licKind": "02",
     "oldLicid": "02007201",
     "certNo": "DHA00200914502",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1B05E32C-336C-435F-B2B2-1453EEA1A820",
+    "subCategory": [],
     "ingredientsDesc": [
         "MELPHALAN"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "安沛國際有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號20樓",
@@ -39,12 +46,15 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "CE74C918-B7EB-403D-9872-56729EFCAAFC",
             "factoryCode": "1",
             "factoryName": "EXCELLA GMBH & CO. KG",
             "factoryAddr": "NURNBERGER STR. 12, 90537 FEUCHT, GERMANY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -56,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0364100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B79BAB2F-C122-4919-B168-2F38C0E8349C",
             "factoryCode": "2",
             "factoryName": "ASPEN GLOBAL INCORPORATED",
             "factoryAddr": "3RD FLOOR GBS PLAZA, CNR LA SALETTE AND ROYAL ROADS, GRAND BAY, MAURITIUS",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "MU",
             "processCode": [
                 {
@@ -74,16 +87,19 @@
             "factoryKind": "M",
             "factoryNo": "FMU0001000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1004000800",
+            "ingredientsName": "MELPHALAN",
             "ingredientsDesc": "MELPHALAN",
             "concentDesc": null,
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -92,45 +108,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "24DA6BF3-7E1A-4CAD-B006-3B43A9E5F6ED",
-            "approvedDocNo": "1081491696",
-            "approvedDate": "2020-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D630EC03-EB57-40DD-9C39-FF9FBF0ECFDF",
-            "approvedDocNo": "1081491352",
-            "approvedDate": "2019-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BB273EEF-69D2-437C-988C-9560D0E051F4",
-            "approvedDocNo": "1076043671",
-            "approvedDate": "2019-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AA3291AD-4E03-4069-8C7F-FDADF15DBCD3",
-            "approvedDocNo": "1076043671",
-            "approvedDate": "2019-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01AA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "75357667-5EF2-4137-9F7C-CEA2881A5340"
 }

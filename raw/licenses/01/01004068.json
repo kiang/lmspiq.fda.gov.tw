@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01004068",
+    "licUnit": "1",
     "validDate": "2028-05-24 00:00:00.000",
     "issueDate": "1974-02-28 00:00:00.000",
+    "oriIssueDate": "1974-02-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100406804",
@@ -20,13 +24,16 @@
             "packageUnit": "C7"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4C640814-7209-4D39-A03A-12DEA7F64E0B",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM CHLORIDE",
         "POTASSIUM CHLORIDE",
@@ -35,7 +42,7 @@
         "SODIUM PHOSPHATE MONOBASIC (EQ TO MONOSODIUM PHOSPHATE)(EQ TO SODIUM DIHYDROGEN PHOSPHATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "綠洲化學工業有限公司",
     "applicantAddr": "宜蘭縣蘇澳鎮德興八路11號",
@@ -47,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "59CD30C1-9038-414A-B254-465306341300",
             "factoryCode": "1",
             "factoryName": "綠洲化學工業有限公司",
             "factoryAddr": "宜蘭縣蘇澳鎮德興八路11號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6134031142",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "5.5",
-            "concent": "5.5000",
+            "concent": "5.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -77,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "1.6",
-            "concent": "1.6000",
+            "concent": "1.600000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,9 +102,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600027550",
+            "ingredientsName": "SODIUM CARBONATE ANHYDROUS",
             "ingredientsDesc": "SODIUM CARBONATE ANHYDROUS",
             "concentDesc": "0.6",
-            "concent": "0.6000",
+            "concent": "0.600000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -99,9 +114,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002610",
+            "ingredientsName": "SODIUM PHOSPHATE MONOBASIC (EQ TO MONOSODIUM PHOSPHATE)(EQ TO SODIUM DIHYDROGEN PHOSPHATE)",
             "ingredientsDesc": "SODIUM PHOSPHATE MONOBASIC (EQ TO MONOSODIUM PHOSPHATE)(EQ TO SODIUM DIHYDROGEN PHOSPHATE)",
             "concentDesc": "1.8",
-            "concent": "1.8000",
+            "concent": "1.800000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -110,9 +126,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404600600",
+            "ingredientsName": "BORIC ACID",
             "ingredientsDesc": "BORIC ACID",
             "concentDesc": "0.012",
-            "concent": "0.0120",
+            "concent": "0.012000",
             "concentUnit": "002",
             "seq": "4",
             "prescription_seq": "1",
@@ -121,73 +138,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E8C16F34-2F34-42E7-9AA6-B6051C947A01",
-            "approvedDocNo": "1120602847",
-            "approvedDate": "2023-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "40C2ED26-23EC-4042-9951-E745C56076B8",
-            "approvedDocNo": "1090028817",
-            "approvedDate": "2020-11-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "768F417C-D576-4F45-B2D9-3EE225952C40",
-            "approvedDocNo": "1090028817",
-            "approvedDate": "2020-11-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4D9C0701-FC66-4597-B831-767723699BA4",
-            "approvedDocNo": "1090028817",
-            "approvedDate": "2020-11-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2831C91C-019E-491C-A164-4764340BEC8B",
-            "approvedDocNo": "1096817825",
-            "approvedDate": "2020-10-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB5D4335-B33C-4BA2-90E0-8A5667E919C7",
-            "approvedDocNo": "1086033126",
-            "approvedDate": "2020-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "009BC62C-2D41-423C-86B8-D1FE73939BCF",
-            "approvedDocNo": "1086033126",
-            "approvedDate": "2020-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
         {
             "isMain": "1",
             "atcCode": "S01XA"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "CF954D6A-B120-4425-88EE-7B9854EE44AD"
 }

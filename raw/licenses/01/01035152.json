@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035152",
+    "licUnit": "1",
     "validDate": "2026-04-30 00:00:00.000",
     "issueDate": "1992-04-23 00:00:00.000",
+    "oriIssueDate": "1992-04-23",
     "licKind": "02",
     "oldLicid": "01020476",
     "certNo": "DHY00103515203",
@@ -23,14 +27,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CE39D068-D9DA-42B5-A461-41E4034579AE",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "ERGOTAMINE TARTRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "新喜國際企業股份有限公司",
     "applicantAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
@@ -42,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "3EE15773-1002-4BF6-B768-2172AD1EFF54",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216000910",
+            "ingredientsName": "ERGOTAMINE TARTRATE",
             "ingredientsDesc": "ERGOTAMINE TARTRATE",
             "concentDesc": "1",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "100",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -88,15 +102,8 @@
         {
             "isMain": "1",
             "atcCode": "N02CA52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02CA02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "CF581669-E05F-4D56-AE0E-4F230813357F"
 }

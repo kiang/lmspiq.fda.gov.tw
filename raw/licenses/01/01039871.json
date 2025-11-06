@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039871",
+    "licUnit": "1",
     "validDate": "2026-04-08 00:00:00.000",
     "issueDate": "1996-04-08 00:00:00.000",
+    "oriIssueDate": "1996-04-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103987103",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "91AEEC2E-E81D-4571-831C-14111170DA32",
+    "subCategory": [],
     "ingredientsDesc": [
         "SULINDAC"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "井田國際醫藥廠股份有限公司",
     "applicantAddr": "台中市大甲區幼獅路32號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "5B6EF0AB-7E4A-47B9-9EE3-90A976356B7A",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808402900",
+            "ingredientsName": "SULINDAC",
             "ingredientsDesc": "SULINDAC",
             "concentDesc": "200",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,5 +94,6 @@
             "atcCode": "M01AB02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "72A004E2-1653-4D99-88E2-CA711AC97EA7"
 }

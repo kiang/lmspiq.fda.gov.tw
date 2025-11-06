@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000733",
+    "licUnit": "1",
     "validDate": "2027-09-30 00:00:00.000",
     "issueDate": "2002-09-30 00:00:00.000",
+    "oriIssueDate": "2002-09-30",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA01000073303",
@@ -35,6 +39,11 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "68C88FB2-51A9-4191-978E-619CA725CF39",
+    "subCategory": [
+        "C06"
+    ],
     "ingredientsDesc": [
         "FACTOR II",
         "FACTOR X",
@@ -42,7 +51,7 @@
         "FACTOR IX"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣綠十字股份有限公司",
     "applicantAddr": "台北市大同區承德路三段二四四號六樓",
@@ -54,8 +63,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "1CBF94D0-3982-4332-981F-A2430A034F71",
             "factoryCode": "1",
             "factoryName": "Grifols Biologicals LLC",
             "factoryAddr": "5555 VALLEY BOULEVARD, LOS ANGELES, CALIFORNIA 90032",
@@ -66,13 +78,16 @@
             "factoryKind": "M",
             "factoryNo": "FUS0014000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B347C1B4-2490-4D45-BBB6-BD1D410E2B22",
             "factoryCode": "2",
             "factoryName": "LABORATORIOS GRIFOLS, S.A.",
             "factoryAddr": "POLIGONO INDUSTRIAL AUTOPISTA, PASSEIG FLUVIAL, 24, 08150 PARETS DEL VALLES, BARCELONA, SPAIN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "ES",
             "processCode": [
                 {
@@ -84,9 +99,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0028100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B4C42D0B-9D7E-4DC0-A7F4-E2C50E0EE3F6",
             "factoryCode": "2",
             "factoryName": "GRIFOLS BIOLOGICALS LLC",
             "factoryAddr": "13111 TEMPLE AVENUE, CITY OF INDUSTRY, CA 91746, USA",
@@ -102,16 +120,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0635000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004002900",
+            "ingredientsName": "FACTOR II",
             "ingredientsDesc": "FACTOR II",
             "concentDesc": "(NMT)",
-            "concent": "750.000",
+            "concent": "750.000000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "1",
@@ -120,9 +141,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004003000",
+            "ingredientsName": "FACTOR VII",
             "ingredientsDesc": "FACTOR VII",
             "concentDesc": "(NMT)",
-            "concent": "175.000",
+            "concent": "175.000000",
             "concentUnit": "200",
             "seq": "2",
             "prescription_seq": "1",
@@ -131,9 +153,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012100700",
+            "ingredientsName": "FACTOR IX",
             "ingredientsDesc": "FACTOR IX",
             "concentDesc": "(400-600)",
-            "concent": "0.000",
+            "concent": "0.000000",
             "concentUnit": "212",
             "seq": "3",
             "prescription_seq": "1",
@@ -142,9 +165,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8004003200",
+            "ingredientsName": "FACTOR X",
             "ingredientsDesc": "FACTOR X",
             "concentDesc": "(NMT)",
-            "concent": "500.000",
+            "concent": "500.000000",
             "concentUnit": "200",
             "seq": "4",
             "prescription_seq": "1",
@@ -153,45 +177,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EC6C2DD3-7742-41FE-A30B-13582C4D8BD5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E0A9BAB1-BB24-4B45-9F72-6E282A1E0A61",
-            "approvedDocNo": "1101497005",
-            "approvedDate": "2021-11-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
         {
             "isMain": "1",
             "atcCode": "B02BD01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B02BD05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B02BD04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B02BD13"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "C6A8F665-B048-4791-8D28-2D0BD5D17183"
 }

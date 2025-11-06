@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060848",
+    "licUnit": "1",
     "validDate": "2026-04-20 00:00:00.000",
     "issueDate": "2021-04-20 00:00:00.000",
+    "oriIssueDate": "2021-04-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106084800",
@@ -27,11 +31,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "EB20D1F3-5A12-43FD-B50C-10FEEB190FE8",
+    "subCategory": [
+        "A07"
+    ],
     "ingredientsDesc": [
         "NOREPINEPHRINE BITARTRATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "南光化學製藥股份有限公司",
     "applicantAddr": "台南市新化區中山路1001號、1001-1號",
@@ -43,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "96DF0332-7BD4-4259-820B-EF139CE09E0F",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區中山路1001號、1001-1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002010",
+            "ingredientsName": "NOREPINEPHRINE BITARTRATE",
             "ingredientsDesc": "NOREPINEPHRINE BITARTRATE",
             "concentDesc": "(eq. to Norepinephrine......8.0 mcg)",
-            "concent": "16.000",
+            "concent": "16.000000",
             "concentUnit": "016",
             "seq": "1",
             "prescription_seq": "1",
@@ -80,5 +95,6 @@
             "atcCode": "C01CA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8F891620-8888-4EFC-982E-B55BB5982651"
 }

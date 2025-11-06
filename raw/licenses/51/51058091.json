@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058091",
+    "licUnit": "1",
     "validDate": "2028-10-07 00:00:00.000",
     "issueDate": "2013-10-07 00:00:00.000",
+    "oriIssueDate": "2013-10-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105809103",
@@ -27,13 +31,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B9B8C0D3-3564-45F8-A353-896BBF254AA4",
+    "subCategory": [],
     "ingredientsDesc": [
         "ENTECAVIR"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "健亞生物科技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉中興村工業一路１號",
@@ -45,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "F321FDBE-D5ED-41F5-BE01-8C8204B1C2D9",
             "factoryCode": "1",
             "factoryName": "健亞生物科技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉新竹工業區工業一路１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1119206300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818003100",
+            "ingredientsName": "ENTECAVIR",
             "ingredientsDesc": "ENTECAVIR",
             "concentDesc": "(0.53mg of Entecavir Monohydrate is equal to 0.5mg of Entecavir anhydrate)",
-            "concent": "0.530",
+            "concent": "0.530000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,93 +89,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "45085688-8453-43FE-BFA5-B84C8F6A540C",
-            "approvedDocNo": "1110729924",
-            "approvedDate": "2022-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CB6D6B45-33C0-467D-A6E3-60224122EA08",
-            "approvedDocNo": "1110708502",
-            "approvedDate": "2022-11-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "719B6992-3F75-4FDF-B1B7-96F061824812",
-            "approvedDocNo": "1110708502",
-            "approvedDate": "2022-11-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E31C825F-1A94-405A-B616-FEC12B3A604A",
-            "approvedDocNo": "1110708502",
-            "approvedDate": "2022-11-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2BD2BF2F-84C8-4F2E-91BB-83D9B15CEEEF",
-            "approvedDocNo": "1110715675",
-            "approvedDate": "2022-09-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "417B9217-4158-4843-BB7D-BF4D58F3725D",
-            "approvedDocNo": "1106006472",
-            "approvedDate": "2021-06-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "25DFFCB8-0AFC-4C76-B137-C2E5F306035C",
-            "approvedDocNo": "1106006472",
-            "approvedDate": "2021-06-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "495EF9FA-572A-4D65-B3CF-3900560E0FCA",
-            "approvedDocNo": "1096033348",
-            "approvedDate": "2021-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "37B56E6B-F308-4500-A93D-EDF0BF0B3CF3",
-            "approvedDocNo": "1076047646",
-            "approvedDate": "2019-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "44EFE3A1-4E04-4763-B317-BB20D43C79CE",
-            "approvedDocNo": "1076047646",
-            "approvedDate": "2019-06-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J05AF10"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "A1AE26EE-B517-4BDB-8BC5-40BFBAC79DE7"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047998",
+    "licUnit": "1",
     "validDate": "2026-05-24 00:00:00.000",
     "issueDate": "2006-05-24 00:00:00.000",
+    "oriIssueDate": "2006-05-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104799800",
@@ -26,12 +30,17 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "A9EDA505-9424-4722-86B3-72EDA1D9F30A",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "SENNOSIDE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "德聯藥品有限公司",
     "applicantAddr": "台北市大安區忠孝東路四段52號5樓",
@@ -43,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "094765A3-8AA9-43C7-B11A-8A1A51312B97",
             "factoryCode": "1",
             "factoryName": "黃氏製藥股份有限公司",
             "factoryAddr": "雲林縣斗南鎮小東里大同路４４４巷１１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1223216300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002500",
+            "ingredientsName": "SENNOSIDE",
             "ingredientsDesc": "SENNOSIDE",
             "concentDesc": " (eq. to SENNOSIDE A+B  24 MG)",
-            "concent": "26.6500",
+            "concent": "26.650000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,49 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "87E49359-EE57-40BC-A26D-F2C4356EE1A9",
-            "approvedDocNo": "1106809952",
-            "approvedDate": "2021-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "64EB0433-9AFC-4244-8136-F7DB5AB7387C",
-            "approvedDocNo": "1106809952",
-            "approvedDate": "2021-07-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F04FCED7-7C73-4580-99C5-98BD109488E7",
-            "approvedDocNo": "1096800884",
-            "approvedDate": "2020-01-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3A2C85B3-9D43-4292-B72E-FB9C8CCDD713",
-            "approvedDocNo": "1086608097",
-            "approvedDate": "2019-09-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A06AB06"
-        },
         {
             "isMain": "1",
             "atcCode": "A06AB56"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "1B05DD37-86EB-4191-90BB-3EB44E90486F"
 }

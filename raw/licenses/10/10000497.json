@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "10000497",
+    "licUnit": "1",
     "validDate": "2028-05-20 00:00:00.000",
     "issueDate": "1998-11-30 00:00:00.000",
+    "oriIssueDate": "1998-12-09",
     "licKind": "04",
     "oldLicid": "10000497",
     "certNo": "DHA01000049704",
@@ -31,11 +35,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "41B9E482-C159-415D-9DB6-05E97DF8D803",
+    "subCategory": [
+        "C06"
+    ],
     "ingredientsDesc": [
         "FACTOR IX"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣綠十字股份有限公司",
     "applicantAddr": "台北市大同區承德路三段二四四號六樓",
@@ -47,8 +56,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "8DDD5517-F379-43FB-AB36-4CD3D64A3904",
             "factoryCode": "1",
             "factoryName": "Grifols Biologicals LLC",
             "factoryAddr": "5555 VALLEY BOULEVARD, LOS ANGELES, CALIFORNIA 90032",
@@ -59,13 +71,16 @@
             "factoryKind": "M",
             "factoryNo": "FUS0014000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3657DCD9-BA3D-4CA6-B732-691FD4439F09",
             "factoryCode": "2",
             "factoryName": "LABORATORIOS GRIFOLS, S.A.",
             "factoryAddr": "POLIGONO INDUSTRIAL AUTOPISTA, PASSEIG FLUVIAL, 24, 08150 PARETS DEL VALLES, BARCELONA, SPAIN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "ES",
             "processCode": [
                 {
@@ -77,9 +92,12 @@
             "factoryKind": "M",
             "factoryNo": "FES0028100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1297C300-3511-4720-89A7-96AB77736305",
             "factoryCode": "2",
             "factoryName": "GRIFOLS BIOLOGICALS LLC",
             "factoryAddr": "13111 TEMPLE AVENUE, CITY OF INDUSTRY, CA 91746, USA",
@@ -95,16 +113,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0635000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2012100700",
+            "ingredientsName": "FACTOR IX",
             "ingredientsDesc": "FACTOR IX",
             "concentDesc": "400-625",
-            "concent": "0.000",
+            "concent": "0.000000",
             "concentUnit": "212",
             "seq": "1",
             "prescription_seq": "1",
@@ -113,41 +134,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "66E88BCB-EDD2-4B2A-B17B-EF3590ED2608",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BECF9F6A-4E72-4923-962D-271FF8EB1D78",
-            "approvedDocNo": "1101497004",
-            "approvedDate": "2021-11-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DAF7A0E7-82DD-4BFB-BD9B-7767CA765A9B",
-            "approvedDocNo": "1076806724",
-            "approvedDate": "2019-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "B02BD04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B02BD04"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "70BE0E8B-2ABD-47A9-86BA-C3D8BF3ECD70"
 }

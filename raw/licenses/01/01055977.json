@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055977",
+    "licUnit": "1",
     "validDate": "2026-04-12 00:00:00.000",
     "issueDate": "2011-04-12 00:00:00.000",
+    "oriIssueDate": "2011-04-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105597701",
@@ -22,12 +26,17 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "404AE606-C888-41D7-AEC4-86FE5D8AE9A1",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "Oxygen (O2) contains not less than 99.0% (v\/v)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "嘉南氣體工業股份有限公司",
     "applicantAddr": "嘉義縣太保市嘉太工業區興業路5號",
@@ -39,8 +48,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "1CABBC1E-FE83-4420-B540-2A7A286BFAF3",
             "factoryCode": "1",
             "factoryName": "嘉南氣體工業股份有限公司",
             "factoryAddr": "嘉義縣太保市嘉太工業區興業路5號",
@@ -51,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "6140111053",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Oxygen (O2) contains not less than 99.0% (v\/v)",
             "ingredientsDesc": "Oxygen (O2) contains not less than 99.0% (v\/v)",
             "concentDesc": null,
             "concent": null,
@@ -72,13 +87,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "V03AN01"
-        },
-        {
             "isMain": "1",
             "atcCode": "V03AN01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "5D775BD7-3529-46DF-981A-1839E1F0C1E0"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035176",
+    "licUnit": "1",
     "validDate": "2026-04-30 00:00:00.000",
     "issueDate": "1992-04-27 00:00:00.000",
+    "oriIssueDate": "1992-04-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103517604",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2B1911F2-DCFF-44C0-BC25-C341CEF85E44",
+    "subCategory": [],
     "ingredientsDesc": [
         "LYSOZYME CHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造"
     ],
     "applicantName": "新喜國際企業股份有限公司",
     "applicantAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "BCB01880-AEB2-4649-B55C-E2F3E1360569",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400001310",
+            "ingredientsName": "LYSOZYME CHLORIDE",
             "ingredientsDesc": "LYSOZYME CHLORIDE",
             "concentDesc": "30",
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,5 +90,6 @@
             "atcCode": "V03AX"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "B8198EC2-654D-49EE-9765-A8AB54B3D0C9"
 }

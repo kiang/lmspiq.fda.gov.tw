@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01045701",
+    "licUnit": "1",
     "validDate": "2029-01-08 00:00:00.000",
     "issueDate": "2003-08-07 00:00:00.000",
+    "oriIssueDate": "2003-08-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104570103",
@@ -16,7 +20,7 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
@@ -27,12 +31,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E4E350AF-97BC-4D22-A6CD-3EEC1607D298",
+    "subCategory": [],
     "ingredientsDesc": [
         "PHENYTOIN (EQ TO DIPHENYLHYDANTOIN)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "東生華製藥股份有限公司",
     "applicantAddr": "台北市南港區園區街3之1號3樓之1",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "9D52DC26-A1D1-45FD-9517-A1DCE096B3B1",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812000600",
+            "ingredientsName": "PHENYTOIN (EQ TO DIPHENYLHYDANTOIN)",
             "ingredientsDesc": "PHENYTOIN (EQ TO DIPHENYLHYDANTOIN)",
             "concentDesc": "(250MG)",
-            "concent": "230.0000",
+            "concent": "230.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,85 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A23F1B84-AD1B-48BD-8D4F-A2930A3EEBE4",
-            "approvedDocNo": "1106036623",
-            "approvedDate": "2022-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E0312D1A-013A-468B-8325-ABE5CDCED412",
-            "approvedDocNo": "1096041822",
-            "approvedDate": "2021-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F275DCBA-C0E3-4454-8D16-D01715AD1D0E",
-            "approvedDocNo": "1096041822",
-            "approvedDate": "2021-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "17FDD50A-A6C8-48AA-B18D-16D54DFFFF53",
-            "approvedDocNo": "1096041822",
-            "approvedDate": "2021-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "97CE0F3A-423A-481E-868C-30AE1C6B0116",
-            "approvedDocNo": "1096041822",
-            "approvedDate": "2021-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "18FA82EC-BEA1-49D4-AC0F-74009E7F02E7",
-            "approvedDocNo": "1096041822",
-            "approvedDate": "2021-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A64026A3-C824-4107-878B-86ECABDB0F77",
-            "approvedDocNo": "1096041822",
-            "approvedDate": "2021-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EE865A50-0F45-49DF-8337-931C6AD4A74F",
-            "approvedDocNo": "1096041822",
-            "approvedDate": "2021-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D8A72AA8-A63B-49DD-A8B3-A70512ED2C34",
-            "approvedDocNo": "1096001014",
-            "approvedDate": "2020-02-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N03AB02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "6EFF57E6-72A7-4555-A483-A0BD6BE6DD73"
 }

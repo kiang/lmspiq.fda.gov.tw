@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2022-03-29",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "01055981",
+    "licUnit": "1",
     "validDate": "2026-04-18 00:00:00.000",
     "issueDate": "2011-04-18 00:00:00.000",
+    "oriIssueDate": "2011-04-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105598102",
@@ -33,14 +37,17 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DFEFCD95-7840-4433-9CE1-19E5BBF4E829",
+    "subCategory": [],
     "ingredientsDesc": [
         "CEFOTIAM (2HCL)",
         "CEFOTIAM (2HCL)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "24"
+        "01 國 產",
+        "1R 不得製造",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "瑩碩生技醫藥股份有限公司",
     "applicantAddr": "台北市中山區南京東路二段206號8樓之3",
@@ -52,28 +59,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "7309D1D0-634D-4BED-B582-40947B41AFED",
             "factoryCode": "1",
             "factoryName": "臺灣汎生製藥廠股份有限公司屏東農科分公司",
             "factoryAddr": "屏東縣長治鄉德和村園東一街10、12號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6143060053",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812309710",
+            "ingredientsName": "CEFOTIAM (2HCL)",
             "ingredientsDesc": "CEFOTIAM (2HCL)",
             "concentDesc": null,
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -82,9 +95,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812309710",
+            "ingredientsName": "CEFOTIAM (2HCL)",
             "ingredientsDesc": "CEFOTIAM (2HCL)",
             "concentDesc": null,
-            "concent": "1000.0000",
+            "concent": "1000.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -98,11 +112,8 @@
         {
             "isMain": "1",
             "atcCode": "J01DC07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01DC07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "273CB203-12C6-46E3-B5E5-67989CFC63BA"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059799",
+    "licUnit": "1",
     "validDate": "2027-11-01 00:00:00.000",
     "issueDate": "2017-11-01 00:00:00.000",
+    "oriIssueDate": "2017-11-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105979900",
@@ -23,6 +27,11 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "A352051E-BFA5-44B9-B9D4-80A88E1E75F8",
+    "subCategory": [
+        "A07"
+    ],
     "ingredientsDesc": [
         "CALCIUM CHLORIDE DIHYDRATE",
         "POTASSIUM CHLORIDE",
@@ -32,8 +41,8 @@
         "DEXTROSE MONOHYDRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "國韶實業股份有限公司",
     "applicantAddr": "高雄市左營區大中二路232號",
@@ -45,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "2C8037C2-E810-4B70-B51A-99D641DE0836",
             "factoryCode": "1",
             "factoryName": "醫強科技股份有限公司",
             "factoryAddr": "屏東縣長治鄉德和村農園路27號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6143060106",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "210.700",
+            "concent": "210.700000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": "",
-            "concent": "2.610",
+            "concent": "2.610000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -86,9 +102,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000350",
+            "ingredientsName": "CALCIUM CHLORIDE DIHYDRATE",
             "ingredientsDesc": "CALCIUM CHLORIDE DIHYDRATE",
             "concentDesc": "",
-            "concent": "7.720",
+            "concent": "7.720000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "1",
@@ -97,9 +114,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001550",
+            "ingredientsName": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "ingredientsDesc": "MAGNESIUM CHLORIDE HEXAHYDRATE (EQ TO MAGNESIUM CHLORIDE 6H2O)",
             "concentDesc": "",
-            "concent": "3.560",
+            "concent": "3.560000",
             "concentUnit": "002",
             "seq": "4",
             "prescription_seq": "1",
@@ -108,9 +126,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600000302",
+            "ingredientsName": "ACETIC ACID GLACIAL( eq to  GLACIAL ACETIC ACID)",
             "ingredientsDesc": "ACETIC ACID GLACIAL( eq to  GLACIAL ACETIC ACID)",
             "concentDesc": "",
-            "concent": "6.310",
+            "concent": "6.310000",
             "concentUnit": "002",
             "seq": "5",
             "prescription_seq": "1",
@@ -119,9 +138,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000570",
+            "ingredientsName": "DEXTROSE MONOHYDRATE",
             "ingredientsDesc": "DEXTROSE MONOHYDRATE",
             "concentDesc": "",
-            "concent": "38.500",
+            "concent": "38.500000",
             "concentUnit": "002",
             "seq": "6",
             "prescription_seq": "1",
@@ -130,73 +150,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9D2A1264-2BAC-481F-94FF-574BBC8C5A5A",
-            "approvedDocNo": "1106035855",
-            "approvedDate": "2022-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C951017D-0184-4D0C-B068-7452466D6A84",
-            "approvedDocNo": "1106035855",
-            "approvedDate": "2022-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "71953BC2-B146-42E6-BDC6-A4B5EEB71B48",
-            "approvedDocNo": "1106035855",
-            "approvedDate": "2022-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C4F2BEBB-2FDD-4B02-B67F-AC4A37D2DE6C",
-            "approvedDocNo": "1106035855",
-            "approvedDate": "2022-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5DEA68BD-891A-4C58-91F4-D199651656A6",
-            "approvedDocNo": "1106035855",
-            "approvedDate": "2022-02-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CE20A054-EBEC-4766-A820-A0509EA82CD0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-04-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E0785C50-E434-4D66-8219-15907CB079CC",
-            "approvedDocNo": "1076045393",
-            "approvedDate": "2019-03-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05Z"
-        },
         {
             "isMain": "1",
             "atcCode": "B05ZA"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "BCC1095A-E9F7-412D-AC4D-BF2F1E02C51F"
 }

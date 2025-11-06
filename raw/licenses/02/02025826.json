@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025826",
+    "licUnit": "1",
     "validDate": "2027-10-01 00:00:00.000",
     "issueDate": "2012-10-01 00:00:00.000",
+    "oriIssueDate": "2012-10-01",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00202582602",
@@ -16,18 +20,21 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "4C"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "C5D19AA1-15FE-4292-9D86-3BC7F2920048",
+    "subCategory": [],
     "ingredientsDesc": [
         "Nicorandil contains not less than 98.5% and not more than 101.0% of C8H9N3O4, calculated on the anhydrous basis."
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "中大藥品股份有限公司",
     "applicantAddr": "台南市中區民權路二段158號3樓",
@@ -39,25 +46,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "BFD2B543-F120-4CC6-B659-18ED01AD2827",
             "factoryCode": "1",
             "factoryName": "RPG LIFE SCIENCES LTD.",
             "factoryAddr": "25 MIDC LAND, THANE BELAPUR ROAD, NAVI MUMBAI – 400703, TALUKA: PAWVANE, DISTRICT: THANE, MAHARASHTRA STATE, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0043300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Nicorandil contains not less than 98.5% and not more than 101.0% of C8H9N3O4, calculated on the anhydrous basis.",
             "ingredientsDesc": "Nicorandil contains not less than 98.5% and not more than 101.0% of C8H9N3O4, calculated on the anhydrous basis.",
             "concentDesc": null,
             "concent": null,
@@ -69,69 +82,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "80AAFD0C-7D01-4B9F-AC24-DFE9B2E3A7D5",
-            "approvedDocNo": "1119062808",
-            "approvedDate": "2023-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E60490BB-8456-4BF7-BEB6-425905BD4011",
-            "approvedDocNo": "1101496083",
-            "approvedDate": "2021-11-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4AA8E970-C7DD-4E6B-9ABF-8C918824A0BB",
-            "approvedDocNo": "1091493208",
-            "approvedDate": "2020-12-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AB781623-6670-46F0-9B8E-9E61405AC492",
-            "approvedDocNo": "1091493208",
-            "approvedDate": "2020-12-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1E9E41D8-4F0A-43E9-BCC8-1C7D8416E173",
-            "approvedDocNo": "1091493208",
-            "approvedDate": "2020-12-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2BA00DC4-0613-4221-89CF-EED091E602C8",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E2886468-8AF0-4F30-BBD8-DF6527E72C46",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C01DX16"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "7E31B158-8F8A-4B78-8E7C-A84A53A8DE69"
 }

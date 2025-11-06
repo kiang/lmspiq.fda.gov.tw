@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2021-12-08",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "02024434",
+    "licUnit": "1",
     "validDate": "2026-04-19 00:00:00.000",
     "issueDate": "2006-04-19 00:00:00.000",
+    "oriIssueDate": "2006-04-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202443406",
@@ -25,13 +29,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "415C2CF0-7447-4DE1-BF9B-01042217A59B",
+    "subCategory": [],
     "ingredientsDesc": [
         "VORICONAZOLE",
         "VORICONAZOLE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "輝瑞大藥廠股份有限公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "2699CC74-F0CD-4EE6-B645-D63092897EB9",
             "factoryCode": "1",
             "factoryName": "Fareva Amboise",
             "factoryAddr": "ZONE INDUSTRIELLE, 29, ROUTE DES INDUSTRIES 37530 POCE-SUR-CISSE, FRANCE",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "FR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FFR0080100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812204300",
+            "ingredientsName": "VORICONAZOLE",
             "ingredientsDesc": "VORICONAZOLE",
             "concentDesc": "",
-            "concent": "66.6000",
+            "concent": "66.600000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812204300",
+            "ingredientsName": "VORICONAZOLE",
             "ingredientsDesc": "VORICONAZOLE",
             "concentDesc": "",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -89,11 +103,8 @@
         {
             "isMain": "1",
             "atcCode": "J02AC03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J02AC03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "775D9AE1-AD11-4923-B46E-56AFE700FA62"
 }

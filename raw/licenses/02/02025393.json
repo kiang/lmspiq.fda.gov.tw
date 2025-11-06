@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025393",
+    "licUnit": "1",
     "validDate": "2026-04-13 00:00:00.000",
     "issueDate": "2011-04-13 00:00:00.000",
+    "oriIssueDate": "2011-04-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202539300",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "044F422E-A4A3-42E3-9E0D-8CBDD0C07BE0",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "PANTHENOL",
         "ORYZANOL GAMMA-",
@@ -30,7 +39,7 @@
         "TOCOPHEROL ALPHA D-"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "祈達實業有限公司",
     "applicantAddr": "台中市西屯區河南路2段82號1樓",
@@ -42,8 +51,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "65140730-7460-4B22-B091-261CE22D425B",
             "factoryCode": "1",
             "factoryName": "TOKAI CAPSULE CO., LTD.",
             "factoryAddr": "168 KUZAWA FUJI-CITY SHIZUOKA-PREF JAPAN",
@@ -54,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0367100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000111",
+            "ingredientsName": "TOCOPHEROL ALPHA D-",
             "ingredientsDesc": "TOCOPHEROL ALPHA D-",
             "concentDesc": null,
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8416000700",
+            "ingredientsName": "PANTHENOL",
             "ingredientsDesc": "PANTHENOL",
             "concentDesc": null,
-            "concent": "1.6700",
+            "concent": "1.670000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,9 +99,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200510",
+            "ingredientsName": "RIBOFLAVIN BUTYRATE",
             "ingredientsDesc": "RIBOFLAVIN BUTYRATE",
             "concentDesc": null,
-            "concent": "0.6700",
+            "concent": "0.670000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -94,9 +111,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820002103",
+            "ingredientsName": "ORYZANOL GAMMA-",
             "ingredientsDesc": "ORYZANOL GAMMA-",
             "concentDesc": null,
-            "concent": "3.3300",
+            "concent": "3.330000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -105,45 +123,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3DA0E6FF-0542-4143-8EC8-9B31BB4ADA3E",
-            "approvedDocNo": "1086809232",
-            "approvedDate": "2019-10-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E63C57E2-24F9-4F59-B5B8-D9E92D2C8746",
-            "approvedDocNo": "1086809232",
-            "approvedDate": "2019-10-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
         {
             "isMain": "1",
             "atcCode": "A11JC"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "EDC3BC7D-60D8-4570-B83E-CDD5D200CA03"
 }

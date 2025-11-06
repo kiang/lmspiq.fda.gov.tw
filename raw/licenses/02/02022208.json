@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-10-09",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "02022208",
+    "licUnit": "1",
     "validDate": "2028-06-11 00:00:00.000",
     "issueDate": "1998-06-11 00:00:00.000",
+    "oriIssueDate": "1998-06-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202220800",
@@ -23,12 +29,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4D8CE266-5D83-4BE9-8DE6-677F4A7CA79E",
+    "subCategory": [],
     "ingredientsDesc": [
         "CARBAMAZEPINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1D"
+        "02 輸 入",
+        "1D 須執行風險管理計畫"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -40,8 +49,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "D5F2D12A-1013-48AB-8962-FF7A012AC9CC",
             "factoryCode": "1",
             "factoryName": "NOVARTIS FARMA S.P.A.",
             "factoryAddr": "VIA PROVINCIALE SCHITO 131, 80058 TORRE ANNUNZIATA, ITALY",
@@ -52,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0320000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812000400",
+            "ingredientsName": "CARBAMAZEPINE",
             "ingredientsDesc": "CARBAMAZEPINE",
             "concentDesc": "",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,53 +85,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4872244C-BFB1-4302-9AEF-FF215CF02978",
-            "approvedDocNo": "1120705623",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C33861C3-BE27-495B-9892-165F060C45E4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "166F9B0B-24E7-445A-AF66-4D773B743C3C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "53F5CCE1-04BA-4DD1-8708-D9F6F1F456B9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "44F0CEC0-13E1-4066-910D-E0F59E9DA23D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N03AF01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "A7D903BD-3230-4874-A940-480AD0EB6193"
 }

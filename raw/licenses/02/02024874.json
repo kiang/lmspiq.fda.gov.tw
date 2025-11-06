@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024874",
+    "licUnit": "1",
     "validDate": "2028-09-02 00:00:00.000",
     "issueDate": "2008-09-02 00:00:00.000",
+    "oriIssueDate": "2008-09-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202487408",
@@ -27,11 +31,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "48CCC536-F9C4-4D8F-B579-891DB33DC02A",
+    "subCategory": [],
     "ingredientsDesc": [
         "PEMETREXED DISODIUM HEPTAHYDRATE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "美時化學製藥股份有限公司",
     "applicantAddr": "臺北市信義區松仁路277號17樓",
@@ -43,51 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "ABA090CF-FB60-4E49-839C-CB57A573EC0D",
             "factoryCode": "1",
-            "factoryName": "VIANEX S.A. (PLANT C)",
-            "factoryAddr": "16TH KM MARATHONOS AVENUE,15351 PALLINI ATTIKIS, GREECE ",
-            "factoryCompanyAddr": null,
-            "countryCode": "GR",
-            "processCode": [
-                {
-                    "value": "1B",
-                    "name": "製造、分裝"
-                }
-            ],
-            "processCodeStr": "1B;製造、分裝",
+            "factoryName": "Boryung Corporation ",
+            "factoryAddr": "107, 109 Neungan-ro, Danwon-gu, Ansan-si, Gyeonggi-do, Republic of Korea (15425)",
+            "factoryCompanyAddr": "",
+            "countryCode": "KR",
+            "processCode": [],
+            "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FGR0032000",
+            "factoryNo": "FKR0213000",
             "factoryInfo": null,
-            "qsd": null
-        },
-        {
-            "factoryCode": "2",
-            "factoryName": "LILLY FRANCE",
-            "factoryAddr": "2 RUE DU COLONEL LILLY 67640 FEGERSHEIM, FRANCE",
-            "factoryCompanyAddr": "13 RUE PAGES, 92158 SURESNES, FRANCE",
-            "countryCode": "FR",
-            "processCode": [
-                {
-                    "value": "02",
-                    "name": "包裝"
-                }
-            ],
-            "processCodeStr": "02;包裝",
-            "factoryKind": "M",
-            "factoryNo": "FFR0118000",
-            "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1004002410",
+            "ingredientsName": "PEMETREXED DISODIUM HEPTAHYDRATE",
             "ingredientsDesc": "PEMETREXED DISODIUM HEPTAHYDRATE",
             "concentDesc": "(eq. to Pemetrexed Free Acid 100mg)",
-            "concent": "151.7000",
+            "concent": "151.700000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -96,105 +86,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F32F4AEA-3A06-401B-B66E-51EF4DA6AE4A",
-            "approvedDocNo": "1129066075",
-            "approvedDate": "2023-11-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B92E7503-787A-40BB-8284-DAD793F0B650",
-            "approvedDocNo": "1110733381",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BBB3E3EB-D591-4F7F-BDAA-0B25877BD613",
-            "approvedDocNo": "1120702027",
-            "approvedDate": "2023-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D0EF64E9-59B1-40C7-8375-43415574645B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D1FFB3FE-6D65-466E-98DC-40BC9360A402",
-            "approvedDocNo": "1086036637",
-            "approvedDate": "2020-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7E231365-8A3F-415D-958F-AA108C49483F",
-            "approvedDocNo": "1086036637",
-            "approvedDate": "2020-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F2288031-3A15-4584-9E65-F4F8CCCB801B",
-            "approvedDocNo": "1086036637",
-            "approvedDate": "2020-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "716E299D-9147-4677-B0A4-D262EA93406F",
-            "approvedDocNo": "1086014607",
-            "approvedDate": "2019-10-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B76E4E38-BC06-4900-8C1F-D3FB82B47814",
-            "approvedDocNo": "1086014607",
-            "approvedDate": "2019-10-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0AC55300-FCC5-4158-98EF-33EC7D26D169",
-            "approvedDocNo": "1086014607",
-            "approvedDate": "2019-10-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "075D2962-CC1F-4527-890F-7FF1A2BD3ECB",
-            "approvedDocNo": "1086002994",
-            "approvedDate": "2019-08-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01BA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "L01BA04"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "99BC195F-CA98-48EE-B624-DDACE13FD905"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "91000989",
+    "licUnit": "1",
     "validDate": "2026-04-23 00:00:00.000",
     "issueDate": "2021-04-23 00:00:00.000",
+    "oriIssueDate": "2021-04-23",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA09100098901",
@@ -23,12 +27,15 @@
     "medMCode": "01",
     "maMedCode": "",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "491A1EF4-A195-4FCB-8086-C9351BF2E10F",
+    "subCategory": [],
     "ingredientsDesc": [
         "Cyanocobalamin contains 96.0%-102.0% of cyanocobalamin (C63H88CoN14O14P), calculated on the dried basis."
     ],
     "restraintItemsCode": [
-        "02",
-        "40"
+        "02 輸 入",
+        "40 大陸生產"
     ],
     "applicantName": "台灣荃新股份有限公司",
     "applicantAddr": "台北市中正區羅斯福路二段11號3樓",
@@ -40,25 +47,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "34399D0C-D602-46C6-BC28-AAD96B9B8663",
             "factoryCode": "1",
             "factoryName": "HEBEI HUARONG PHARMACEUTICAL CO., LTD.",
             "factoryAddr": "NO.8 WEIER ROAD, SALINIZATION INDUSTRIAL PARK, NINGJIN, XINGTAI HEBEI PROVINCE, CHINA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCN1447000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Cyanocobalamin contains 96.0%-102.0% of cyanocobalamin (C63H88CoN14O14P), calculated on the dried basis.",
             "ingredientsDesc": "Cyanocobalamin contains 96.0%-102.0% of cyanocobalamin (C63H88CoN14O14P), calculated on the dried basis.",
             "concentDesc": null,
             "concent": null,
@@ -75,11 +88,8 @@
         {
             "isMain": "1",
             "atcCode": "B03BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B03BA51"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "1933D2FC-F4DF-4687-BE7B-D7833A9E2023"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039870",
+    "licUnit": "1",
     "validDate": "2026-04-02 00:00:00.000",
     "issueDate": "1996-04-02 00:00:00.000",
+    "oriIssueDate": "1996-04-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103987001",
@@ -16,20 +20,23 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A62D08A6-D870-4191-8454-F7C3F39D01F2",
+    "subCategory": [],
     "ingredientsDesc": [
         "TIAPROFENIC ACID"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "約克製藥股份有限公司",
     "applicantAddr": "雲林縣斗六市榴中里復興路3號",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "BF65A65B-737D-4436-9B3E-07319FFBDC04",
             "factoryCode": "1",
             "factoryName": "約克製藥股份有限公司",
             "factoryAddr": "雲林縣斗六市榴中里復興路3號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6139011104",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808404400",
+            "ingredientsName": "TIAPROFENIC ACID",
             "ingredientsDesc": "TIAPROFENIC ACID",
             "concentDesc": "200",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,21 +84,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0DC97BCF-361B-4243-B9D9-5447FD0434CF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "M01AE11"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "5895193A-E6BA-416D-B7DE-83BDBAA1D5C3"
 }

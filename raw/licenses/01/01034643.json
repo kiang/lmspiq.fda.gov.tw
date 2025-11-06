@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01034643",
+    "licUnit": "1",
     "validDate": "2026-12-11 00:00:00.000",
     "issueDate": "1991-12-11 00:00:00.000",
+    "oriIssueDate": "1991-12-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103464304",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8185AAA9-E2B3-4ED8-A471-3A6F5A75F27A",
+    "subCategory": [],
     "ingredientsDesc": [
         "GENTAMICIN (AS SULFATE)",
         "BETAMETHASONE (SODIUM PHOSPHATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "臺灣派頓化學製藥股份有限公司",
     "applicantAddr": "高雄市岡山區為隨里1鄰為隨東路50號",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "85ED5828-AA1C-47A6-99B4-F9A5201A5C4C",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨東路50號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804009231",
+            "ingredientsName": "BETAMETHASONE (SODIUM PHOSPHATE)",
             "ingredientsDesc": "BETAMETHASONE (SODIUM PHOSPHATE)",
             "concentDesc": "1.0",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -70,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109310",
+            "ingredientsName": "GENTAMICIN (AS SULFATE)",
             "ingredientsDesc": "GENTAMICIN (AS SULFATE)",
             "concentDesc": "3.0",
-            "concent": "3.0000",
+            "concent": "3.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -84,17 +98,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "S01BA06"
-        },
-        {
             "isMain": "1",
             "atcCode": "S01CA05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AA11"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "FFBF72A0-D91E-47F9-9E45-659F1E146118"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001024",
+    "licUnit": "1",
     "validDate": "2026-10-09 00:00:00.000",
     "issueDate": "2016-10-09 00:00:00.000",
+    "oriIssueDate": "2016-10-09",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000102401",
@@ -27,14 +31,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F16D46A0-EFF7-4FA4-95E5-55FFAC02C977",
+    "subCategory": [],
     "ingredientsDesc": [
         "Certolizumab pegol"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D",
-        "51"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫",
+        "51 免除銜接性臨床試驗",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "台灣優時比貿易有限公司",
     "applicantAddr": "台北市松山區敦化北路88號12樓之2",
@@ -46,8 +54,11 @@
     "monitorDate": "2021-10-09",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "AAAB39CC-3924-42AE-8CFE-0E21DD9050DD",
             "factoryCode": "1",
             "factoryName": "VETTER PHARMA-FERTIGUNG GMBH & CO. KG",
             "factoryAddr": "EISENBAHNSTRASSE 2-4, 88085 LANGENARGEN GERMANY",
@@ -63,13 +74,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0292000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4B9A0887-D3CC-44AD-8F27-4C7B1E0E5C04",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMACEUTICAL MANUFACTURING GMBH",
             "factoryAddr": "BIOCHEMIESTRASSE 10, 6250 KUNDL, AUSTRIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "AT",
             "processCode": [
                 {
@@ -81,9 +95,12 @@
             "factoryKind": "M",
             "factoryNo": "FAT0007100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3E4C635E-5D91-48CA-A28D-2BC0F52BB9B6",
             "factoryCode": "2",
             "factoryName": "UCB PHARMA S.A.",
             "factoryAddr": "ALLEE DE LE RECHERCHE, 60-1070 BRUSSELS, BELGIUM",
@@ -99,9 +116,12 @@
             "factoryKind": "M",
             "factoryNo": "FBE0061000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4C9D6D80-AEF1-4518-BC6E-3DC356EB66BC",
             "factoryCode": "2",
             "factoryName": "UCB PHARMA SA",
             "factoryAddr": "CHEMIN DU FORIEST, B-1420 BRAINE-L'ALLEUD, BELGIUM",
@@ -117,9 +137,12 @@
             "factoryKind": "M",
             "factoryNo": "FBE0064000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "567461CB-E5F5-42C6-A25D-F3C6B9B8B9CF",
             "factoryCode": "2",
             "factoryName": "UCB FARCHIM S.A.",
             "factoryAddr": "Z.I. DE PLANCHY, CHEMIN DE CROIX BLANCHE 10, CH-1630 BULLE, SWITZERLAND",
@@ -135,13 +158,16 @@
             "factoryKind": "M",
             "factoryNo": "FCH0105000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "EA1266E2-472B-4E16-9458-14133C9B929C",
             "factoryCode": "2",
             "factoryName": "LONZA AG",
             "factoryAddr": "LONZASTRASSE, CH-3930 VISP, SWITZERLAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CH",
             "processCode": [
                 {
@@ -153,16 +179,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0292100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200094100",
+            "ingredientsName": "Certolizumab pegol",
             "ingredientsDesc": "Certolizumab pegol",
             "concentDesc": "",
-            "concent": "200.000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -171,109 +200,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2F16D655-1C3B-4A26-A3FE-9B1CB370C2A8",
-            "approvedDocNo": "1129067162",
-            "approvedDate": "2023-12-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "111FEEDF-F4AC-449E-B5E3-93FE98B8325B",
-            "approvedDocNo": "1106037197",
-            "approvedDate": "2022-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2C7ADA6D-9649-4DAD-973D-33C7808BA892",
-            "approvedDocNo": "1106022179",
-            "approvedDate": "2021-10-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8A34C585-C967-4015-B8A3-D107AC724BEB",
-            "approvedDocNo": "1096041990",
-            "approvedDate": "2021-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "287F6E1E-EAE4-448C-8A4E-076358072D72",
-            "approvedDocNo": "1106010579",
-            "approvedDate": "2021-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "648730DA-AD35-4984-AE4C-E2CFDA1395EB",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "53F96788-1C72-488C-8615-9D74390FB60D",
-            "approvedDocNo": "1096002452",
-            "approvedDate": "2020-11-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A78E8D06-72C9-4AD9-9162-511C68C622DB",
-            "approvedDocNo": "1096002452",
-            "approvedDate": "2020-11-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "03F4F228-9C75-43DF-9D93-7F9A7083C989",
-            "approvedDocNo": "1096002452",
-            "approvedDate": "2020-11-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3EE54449-F62C-44DA-9B72-3AE32653AA8D",
-            "approvedDocNo": "1096012560",
-            "approvedDate": "2020-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DE2E3A8E-DB97-4C8A-BD95-120EAA95D02B",
-            "approvedDocNo": "1086000675",
-            "approvedDate": "2019-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "16B5A9CB-62B5-4A4D-BE0B-877E624B5A36",
-            "approvedDocNo": "1086000675",
-            "approvedDate": "2019-12-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L04AB05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "30980443-BBA4-47AA-A8B0-91679211E4FC"
 }

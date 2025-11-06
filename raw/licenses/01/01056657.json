@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056657",
+    "licUnit": "1",
     "validDate": "2026-08-02 00:00:00.000",
     "issueDate": "2011-08-02 00:00:00.000",
+    "oriIssueDate": "2011-08-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105665701",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8F97F654-2011-44F5-99D3-4DA7B7880EB2",
+    "subCategory": [],
     "ingredientsDesc": [
         "CEFTIZOXIME SODIUM",
         "CEFTIZOXIME SODIUM",
@@ -34,7 +41,7 @@
         "CEFTIZOXIME SODIUM"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "新瑞生物科技股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "9118C29A-1EB9-45CD-B2D7-A3C661E73208",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812301010",
+            "ingredientsName": "CEFTIZOXIME SODIUM",
             "ingredientsDesc": "CEFTIZOXIME SODIUM",
             "concentDesc": "(potency)",
-            "concent": "250.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812301010",
+            "ingredientsName": "CEFTIZOXIME SODIUM",
             "ingredientsDesc": "CEFTIZOXIME SODIUM",
             "concentDesc": "(potency)",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -87,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812301010",
+            "ingredientsName": "CEFTIZOXIME SODIUM",
             "ingredientsDesc": "CEFTIZOXIME SODIUM",
             "concentDesc": "(potency)",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "3",
@@ -98,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812301010",
+            "ingredientsName": "CEFTIZOXIME SODIUM",
             "ingredientsDesc": "CEFTIZOXIME SODIUM",
             "concentDesc": "(potency)",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "4",
@@ -117,25 +133,13 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1A17B10A-9BE4-4805-9F4B-39725BFA6926",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01DD07"
-        },
         {
             "isMain": "1",
             "atcCode": "J01DD07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8E387163-2988-4686-8B44-64E8D7F164BE"
 }

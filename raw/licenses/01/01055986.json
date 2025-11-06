@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055986",
+    "licUnit": "1",
     "validDate": "2026-04-19 00:00:00.000",
     "issueDate": "2011-04-19 00:00:00.000",
+    "oriIssueDate": "2011-04-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105598602",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "3EEE523C-90D4-4F7D-829E-EC52733D1CD1",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "CAFFEINE ANHYDROUS",
@@ -37,7 +46,7 @@
         "ASCORBIC ACID"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "井田國際醫藥廠股份有限公司",
     "applicantAddr": "台中市大甲區幼獅路32號",
@@ -49,28 +58,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "1288DA53-B937-4219-877D-C4DD734EECBD",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
-            "concent": "120.0000",
+            "concent": "120.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -79,9 +94,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8816000102",
+            "ingredientsName": "ASCORBIC ACID",
             "ingredientsDesc": "ASCORBIC ACID",
             "concentDesc": "",
-            "concent": "63.3300",
+            "concent": "63.330000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,9 +106,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002310",
+            "ingredientsName": "PHENYLEPHRINE HCL",
             "ingredientsDesc": "PHENYLEPHRINE HCL",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -101,9 +118,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
-            "concent": "380.0000",
+            "concent": "380.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -112,9 +130,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -123,9 +142,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002400",
+            "ingredientsName": "NOSCAPINE",
             "ingredientsDesc": "NOSCAPINE",
             "concentDesc": "",
-            "concent": "15.0000",
+            "concent": "15.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "2",
@@ -134,9 +154,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003250",
+            "ingredientsName": "TERPIN HYDRATE",
             "ingredientsDesc": "TERPIN HYDRATE",
             "concentDesc": "",
-            "concent": "33.3300",
+            "concent": "33.330000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "2",
@@ -148,33 +169,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "R05DA07"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05FA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11GA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "64EB27CB-67A9-4390-B0B4-35CE4044636A"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028400",
+    "licUnit": "1",
     "validDate": "2027-11-29 00:00:00.000",
     "issueDate": "2022-11-29 00:00:00.000",
+    "oriIssueDate": "2022-11-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202840002",
@@ -23,12 +27,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "0EA0BE11-D0D5-49C7-8E9C-EAE41F3C7B81",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "LATANOPROST"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台灣參天製藥股份有限公司",
     "applicantAddr": "台北市中山區松江路126號9樓之1",
@@ -40,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "E3B27900-9311-4970-9070-35987CD436BA",
             "factoryCode": "1",
             "factoryName": "SANTEN PHARMACEUTICAL CO. LTD.(NOTO PLANT)",
             "factoryAddr": "2-14, SHIKINAMI, HODATSUSHIMIZU-CHO,HAKUI-GUN, ISHIKAWA , JAPAN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP0270000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037500",
+            "ingredientsName": "LATANOPROST",
             "ingredientsDesc": "LATANOPROST",
             "concentDesc": "",
-            "concent": "0.050",
+            "concent": "0.050000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,5 +92,6 @@
             "atcCode": "S01EE01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "BDAA5D12-73F9-4FE7-8F5F-396E97A7C11C"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055991",
+    "licUnit": "1",
     "validDate": "2026-04-25 00:00:00.000",
     "issueDate": "2011-04-25 00:00:00.000",
+    "oriIssueDate": "2011-04-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105599105",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8D6CDEC3-8077-4D5B-BA1F-B6E70D6D51E9",
+    "subCategory": [],
     "ingredientsDesc": [
         "PROCATEROL HYDROCHLORIDE HEMIHYDRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "62"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "62 完成溶離率試驗"
     ],
     "applicantName": "信東生技股份有限公司",
     "applicantAddr": "桃園市桃園區介壽路22號",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "EF39DF39-65A3-4BF1-99D4-AC6F75792647",
             "factoryCode": "1",
             "factoryName": "信東生技股份有限公司",
             "factoryAddr": "桃園市桃園區介壽路22號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6132010010",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212003915",
+            "ingredientsName": "PROCATEROL HYDROCHLORIDE HEMIHYDRATE",
             "ingredientsDesc": "PROCATEROL HYDROCHLORIDE HEMIHYDRATE",
             "concentDesc": "",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "016",
             "seq": "0",
             "prescription_seq": "1",
@@ -76,11 +89,8 @@
         {
             "isMain": "1",
             "atcCode": "R03CC08"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CC08"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "508FAB5A-839B-4CB9-8F0A-C6BB580ED681"
 }

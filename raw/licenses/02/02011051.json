@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02011051",
+    "licUnit": "1",
     "validDate": "2026-04-01 00:00:00.000",
     "issueDate": "2014-07-21 00:00:00.000",
+    "oriIssueDate": "1983-04-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201105108",
@@ -27,11 +31,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "39979FD1-FBE9-4E20-B67E-50EC0CF76F36",
+    "subCategory": [],
     "ingredientsDesc": [
         "NEFOPAM HCL"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "雙正貿易股份有限公司",
     "applicantAddr": "台北市忠孝東路五段５０８號６樓之３",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "DBA557C2-FE60-45B3-9C47-A06C975C3923",
             "factoryCode": "1",
             "factoryName": "Medochemie LTD Central Factory",
             "factoryAddr": "1-10 Constantinoupoleos Street, 3011 Limassol Cyprus",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CY",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCY0002300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220001210",
+            "ingredientsName": "NEFOPAM HCL",
             "ingredientsDesc": "NEFOPAM HCL",
             "concentDesc": null,
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -73,41 +86,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0C01CDF0-DFD2-4371-8299-2110D0BF1C2F",
-            "approvedDocNo": "1096007697",
-            "approvedDate": "2020-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E867E7F0-30BD-4FD8-8717-77E9BBB61351",
-            "approvedDocNo": "1096007697",
-            "approvedDate": "2020-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E9524892-08BB-4A40-8C09-A1C9B302C3C3",
-            "approvedDocNo": "1096007697",
-            "approvedDate": "2020-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N02BG06"
-        },
         {
             "isMain": "1",
             "atcCode": "N02BG06"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "22D2A043-4F91-4CC4-90CA-7B366C02E849"
 }

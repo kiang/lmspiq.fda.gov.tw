@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028618",
+    "licUnit": "1",
     "validDate": "2028-12-18 00:00:00.000",
     "issueDate": "2023-12-18 00:00:00.000",
+    "oriIssueDate": "2023-12-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202861803",
     "prodNameC": "克瘤康膜衣錠100毫克",
     "prodNameE": "CALQUENCE Film-coated Tablets 100 mg",
     "indicationsName": [
-        "１、先前曾接受至少一種治療的被套細胞淋巴瘤 (Mantle Cell Lymphoma，MCL)成年病人。\r\n２、慢性淋巴球性白血病 (Chronic Lymphocytic Leukemia，CLL)或小淋巴球性淋巴瘤 (Small Lymphocytic Lymphoma，SLL) 成年病人。"
+        "1. 先前曾接受至少一種治療的被套細胞淋巴瘤 (Mantle Cell Lymphoma，MCL)成年病人。\n2. 慢性淋巴球性白血病 (Chronic Lymphocytic Leukemia，CLL)或小淋巴球性淋巴瘤 (Small Lymphocytic Lymphoma，SLL)： \n(1) 單一療法，適用於先前曾接受至少一種療法治療的慢性淋巴球性白血病(CLL)或小淋巴球性淋巴瘤(SLL)成人病人。\n(2) 單一療法或與obinutuzumab併用，適用於先前未曾接受治療的慢性淋巴球性白血病(CLL)或小淋巴球性淋巴瘤(SLL)成人病人。\n(3) 與venetoclax併用(不論是否併用obinutuzumab)，適用於先前未曾接受治療的慢性淋巴球性白血病(CLL)或小淋巴球性淋巴瘤(SLL)成人病人。"
     ],
     "does": "1116",
     "packageUnit": [
@@ -23,13 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "B9713E11-1A13-489B-B936-460F29D482A2",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Acalabrutinib Maleate"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "臺灣阿斯特捷利康股份有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號21樓",
@@ -41,28 +50,39 @@
     "monitorDate": "2028-12-18",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "4B70931B-7E19-4F84-A5D5-30A107CD21F7",
             "factoryCode": "1",
             "factoryName": "ASTRAZENECA AB",
             "factoryAddr": "GARTUNAVAGEN, 151 85 SODERTALJE, SWEDEN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "SE",
-            "processCode": [],
-            "processCodeStr": null,
+            "processCode": [
+                {
+                    "value": "3R",
+                    "name": "成品及包裝廠"
+                }
+            ],
+            "processCodeStr": "3R;成品及包裝廠",
             "factoryKind": "M",
             "factoryNo": "FSE0032100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013008810",
+            "ingredientsName": "Acalabrutinib Maleate",
             "ingredientsDesc": "Acalabrutinib Maleate",
             "concentDesc": "equal to 100 mg of Acalabrutinib",
-            "concent": "129.000",
+            "concent": "129.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -78,5 +98,6 @@
             "atcCode": "L01EL02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8CBFA0A4-A0DF-4A00-A896-C3A7DA32ECAF"
 }

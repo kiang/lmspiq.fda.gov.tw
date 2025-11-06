@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024460",
+    "licUnit": "1",
     "validDate": "2026-06-07 00:00:00.000",
     "issueDate": "2006-06-07 00:00:00.000",
+    "oriIssueDate": "2006-06-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202446007",
@@ -27,12 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0F83D2D8-51BC-4B5B-A559-12163AC990EC",
+    "subCategory": [],
     "ingredientsDesc": [
         "PAROXETINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "鴻汶醫藥實業有限公司",
     "applicantAddr": "台中市西屯區文心路三段236號3樓、238號3樓",
@@ -44,8 +52,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "3AF45322-0287-4191-9A1A-2C819C7CD634",
             "factoryCode": "1",
             "factoryName": "APOTEX INC.",
             "factoryAddr": "150 SIGNET DRIVE TORONTO(WESTON) ONTARIO, CANADA M9L 1T9",
@@ -56,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "FCA0025000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "25D01358-F2C1-428A-AE89-9BDA01CE07F8",
             "factoryCode": "2",
             "factoryName": "天義企業股份有限公司",
             "factoryAddr": "新北市林口區工二工業區工五路8號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -74,13 +88,16 @@
             "factoryKind": "M",
             "factoryNo": "6131171176",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1921BA99-37AF-4904-9950-D29FD1FC87EC",
             "factoryCode": "2",
             "factoryName": "APOTEX INC.",
             "factoryAddr": "4100 WESTON ROAD, TORONTO, ONTARIO, CANADA, M9L 2Y6",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CA",
             "processCode": [
                 {
@@ -92,16 +109,19 @@
             "factoryKind": "M",
             "factoryNo": "FCA0114000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816401610",
+            "ingredientsName": "PAROXETINE HYDROCHLORIDE",
             "ingredientsDesc": "PAROXETINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "22.2000",
+            "concent": "22.200000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -110,53 +130,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3F3E8E67-FE21-4971-A585-E607CF6BF705",
-            "approvedDocNo": "1120808555",
-            "approvedDate": "2023-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED60CEAB-161D-4E9D-8E55-546A1742343F",
-            "approvedDocNo": "1110606149",
-            "approvedDate": "2022-09-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CB1B48AA-EAB8-4600-9E02-5F79B59F9B72",
-            "approvedDocNo": "1106003814",
-            "approvedDate": "2021-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EB42510C-040F-4930-B589-BB00862C2545",
-            "approvedDocNo": "1086004945",
-            "approvedDate": "2019-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E79B76C9-9FEE-44DC-8379-EB842AF170B4",
-            "approvedDocNo": "1086004945",
-            "approvedDate": "2019-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N06AB05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "18585FFD-5A18-4F98-A9B4-705831F5B51C"
 }

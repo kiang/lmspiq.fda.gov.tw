@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02021212",
+    "licUnit": "1",
     "validDate": "2026-04-23 00:00:00.000",
     "issueDate": "2021-06-22 00:00:00.000",
+    "oriIssueDate": "1996-04-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202121202",
@@ -23,6 +27,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3F026BD5-2D7F-4606-A427-64E779D3C9E5",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
         "SODIUM CHLORIDE",
@@ -34,8 +41,8 @@
         "ACETIC ACID"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "佳醫健康事業股份有限公司",
     "applicantAddr": "新北市中和區中正路880號17樓",
@@ -47,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "3CC1F0E4-216B-4438-A1CE-16B75E52EE5E",
             "factoryCode": "1",
-            "factoryName": "Medivators Inc",
+            "factoryName": "Medivators Inc. ",
             "factoryAddr": "14605 28TH AVENUE NORTH MINNEAPOLIS, MINNESOTA 55447, U.S.A.",
             "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "MUS0656000",
+            "factoryNo": "FUS0971000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": null,
-            "concent": "174.3000",
+            "concent": "174.300000",
             "concentUnit": "002",
             "seq": "0",
             "prescription_seq": "0",
@@ -77,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012000300",
+            "ingredientsName": "CALCIUM CHLORIDE",
             "ingredientsDesc": "CALCIUM CHLORIDE",
             "concentDesc": null,
-            "concent": "8.1000",
+            "concent": "8.100000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "0",
@@ -88,9 +102,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001800",
+            "ingredientsName": "POTASSIUM CHLORIDE",
             "ingredientsDesc": "POTASSIUM CHLORIDE",
             "concentDesc": null,
-            "concent": "2.7000",
+            "concent": "2.700000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "0",
@@ -99,9 +114,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001500",
+            "ingredientsName": "MAGNESIUM CHLORIDE",
             "ingredientsDesc": "MAGNESIUM CHLORIDE",
             "concentDesc": null,
-            "concent": "3.7000",
+            "concent": "3.700000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "0",
@@ -110,9 +126,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600000300",
+            "ingredientsName": "ACETIC ACID",
             "ingredientsDesc": "ACETIC ACID",
             "concentDesc": null,
-            "concent": "8.8000",
+            "concent": "8.800000",
             "concentUnit": "002",
             "seq": "4",
             "prescription_seq": "0",
@@ -121,9 +138,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000500",
+            "ingredientsName": "DEXTROSE",
             "ingredientsDesc": "DEXTROSE",
             "concentDesc": "73.7",
-            "concent": "73.7000",
+            "concent": "73.700000",
             "concentUnit": "002",
             "seq": "5",
             "prescription_seq": "0",
@@ -132,9 +150,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": null,
-            "concent": "23.5300",
+            "concent": "23.530000",
             "concentUnit": "002",
             "seq": "0",
             "prescription_seq": "1",
@@ -143,9 +162,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4008000700",
+            "ingredientsName": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "ingredientsDesc": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
             "concentDesc": "65.95",
-            "concent": "65.9500",
+            "concent": "65.950000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -154,53 +174,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D6C784CC-5E48-4FFD-B205-3627E4A86C02",
-            "approvedDocNo": "1111403040",
-            "approvedDate": "2022-03-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "B05XA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05XA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05XX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05XA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05XA07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05XA11"
-        },
         {
             "isMain": "1",
             "atcCode": "B05ZA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05XA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05XX"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "EE455F57-3A6E-4D3D-8F26-A4C9372F3A1D"
 }

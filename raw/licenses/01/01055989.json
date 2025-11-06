@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055989",
+    "licUnit": "1",
     "validDate": "2026-04-21 00:00:00.000",
     "issueDate": "2011-04-21 00:00:00.000",
+    "oriIssueDate": "2011-04-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105598905",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "65D6D745-4BD1-46EA-994D-3F6EE7E01D34",
+    "subCategory": [],
     "ingredientsDesc": [
         "NAPHAZOLINE HYDROCHLORIDE",
         "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "42722817-6488-49F0-A868-5DE6D7DEAC08",
             "factoryCode": "1",
             "factoryName": "景德製藥股份有限公司桃園廠",
             "factoryAddr": "桃園市蘆竹區內厝里長安路一段80號、蘆竹市長安路一段148號2樓至7樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6132051397",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406000310",
+            "ingredientsName": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "ingredientsDesc": "CHONDROITIN SULFATE SODIUM (EQ TO SODIUM CHONDROITIN SULFATE )",
             "concentDesc": "",
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -70,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001930",
+            "ingredientsName": "NAPHAZOLINE HYDROCHLORIDE",
             "ingredientsDesc": "NAPHAZOLINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "0.0300",
+            "concent": "0.030000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,77 +95,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4339B862-06C2-4408-95DD-C81AEAF21639",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6C1BC0C9-5D5E-499B-A08D-B657FE9316B0",
-            "approvedDocNo": "1086809302",
-            "approvedDate": "2019-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B493B6C8-E6B1-4E79-A65E-C64DFE79683B",
-            "approvedDocNo": "1076805013",
-            "approvedDate": "2019-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "014CA63B-893E-4400-B418-154F0FBC401D",
-            "approvedDocNo": "1076805013",
-            "approvedDate": "2019-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7CF6D0D5-004D-4293-B8B4-371B40DE52A6",
-            "approvedDocNo": "1076805013",
-            "approvedDate": "2019-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7139703A-CC94-4438-8766-5B4A60D241CB",
-            "approvedDocNo": "1076805013",
-            "approvedDate": "2019-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "89528B82-88ED-433A-AD79-656E70520695",
-            "approvedDocNo": "1076805013",
-            "approvedDate": "2019-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01BC"
-        },
         {
             "isMain": "1",
             "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01GA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "B7F13729-CD7E-4C74-A18B-8D154AC55002"
 }

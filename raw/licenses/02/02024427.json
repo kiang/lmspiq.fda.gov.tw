@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2021-12-17",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "02024427",
+    "licUnit": "1",
     "validDate": "2026-04-03 00:00:00.000",
     "issueDate": "2006-04-03 00:00:00.000",
+    "oriIssueDate": "2006-04-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202442709",
@@ -29,11 +33,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2D937B1E-87E6-42B2-A3CA-565541B457E0",
+    "subCategory": [],
     "ingredientsDesc": [
         "EPIRUBICIN HCL"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "輝瑞大藥廠股份有限公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -45,8 +52,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "7D6C3EA0-077A-4203-A07F-797D79D655B8",
             "factoryCode": "1",
             "factoryName": "HOSPIRA AUSTRALIA PTY LTD.",
             "factoryAddr": "1-5, 7-23 AND 25-39 LEXIA PLACE, MULGRAVE, VICTORIA 3170, AUSTRALIA",
@@ -57,13 +67,16 @@
             "factoryKind": "M",
             "factoryNo": "FAU0031100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "362336B9-D46F-4805-9D9F-3B95F9BAF7BE",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
             "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓，3樓B區，1樓A區",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "",
             "processCode": [
                 {
@@ -75,16 +88,19 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1012000910",
+            "ingredientsName": "EPIRUBICIN HCL",
             "ingredientsDesc": "EPIRUBICIN HCL",
             "concentDesc": null,
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -93,37 +109,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B0030D19-252B-4DBB-9C1F-69F9905552E7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "50BE7747-3340-43ED-835A-0FAB4918F5DB",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-06-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "53C2BAA3-E7D2-4FB0-A2F1-C043FCDB1335",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01DB03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "BE58B5C9-0873-4332-8E73-37E4ABE813D9"
 }

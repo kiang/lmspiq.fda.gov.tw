@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039931",
+    "licUnit": "1",
     "validDate": "2026-04-18 00:00:00.000",
     "issueDate": "1996-04-18 00:00:00.000",
+    "oriIssueDate": "1996-04-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103993108",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C78CA01C-22B3-4630-8CFF-912E2014580B",
+    "subCategory": [],
     "ingredientsDesc": [
         "CLINDAMYCIN (HCL HYDRATE)",
         "CLINDAMYCIN (HCL HYDRATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "國嘉製藥工業股份有限公司幼獅三廠",
     "applicantAddr": "臺中市大甲區日南里工十路2號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "15324B91-48F8-4C29-9D6D-80A57CCCBAEF",
             "factoryCode": "1",
             "factoryName": "國嘉製藥工業股份有限公司幼獅三廠",
             "factoryAddr": "臺中市大甲區日南里工十路2號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6103030026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812009215",
+            "ingredientsName": "CLINDAMYCIN (HCL HYDRATE)",
             "ingredientsDesc": "CLINDAMYCIN (HCL HYDRATE)",
             "concentDesc": "",
-            "concent": "150.0000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812009215",
+            "ingredientsName": "CLINDAMYCIN (HCL HYDRATE)",
             "ingredientsDesc": "CLINDAMYCIN (HCL HYDRATE)",
             "concentDesc": "",
-            "concent": "150.0000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -85,45 +99,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6FFA2762-0C41-44C3-BF5F-7E231B546860",
-            "approvedDocNo": "1120803929",
-            "approvedDate": "2023-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D4FF6E62-DF5C-470E-BF16-A093481E41A7",
-            "approvedDocNo": "1120803929",
-            "approvedDate": "2023-05-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "39495DEB-9235-49FA-A237-A31A89A12B4D",
-            "approvedDocNo": "1120803929",
-            "approvedDate": "2023-05-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8A2720BA-943D-4AE9-9EB6-5FE2C698D317",
-            "approvedDocNo": "1120803929",
-            "approvedDate": "2023-05-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01FF01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "2445EE1A-36FE-43CF-8EF0-9DBE47DB1475"
 }

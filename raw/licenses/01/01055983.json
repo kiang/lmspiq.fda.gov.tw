@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055983",
+    "licUnit": "1",
     "validDate": "2026-04-18 00:00:00.000",
     "issueDate": "2011-04-18 00:00:00.000",
+    "oriIssueDate": "2011-04-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105598306",
@@ -27,14 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1546E645-0903-4EE9-928A-7AA2057DFD5C",
+    "subCategory": [],
     "ingredientsDesc": [
         "HYDROQUINONE",
         "TRETINOIN",
         "FLUOCINOLONE ACETONIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "培力藥品工業股份有限公司",
     "applicantAddr": "台中市工業區六路１１號",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "1CAE0EC1-733E-47AB-A629-15ACD99B4DEF",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000910",
+            "ingredientsName": "FLUOCINOLONE ACETONIDE",
             "ingredientsDesc": "FLUOCINOLONE ACETONIDE",
             "concentDesc": "",
-            "concent": "0.1000",
+            "concent": "0.100000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -76,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037600",
+            "ingredientsName": "TRETINOIN",
             "ingredientsDesc": "TRETINOIN",
             "concentDesc": "",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8450400100",
+            "ingredientsName": "HYDROQUINONE",
             "ingredientsDesc": "HYDROQUINONE",
             "concentDesc": "",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -98,97 +113,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1053B6FD-775D-4C3E-B391-632F29EA3B29",
-            "approvedDocNo": "1110811546",
-            "approvedDate": "2022-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F8F6EAC2-1F2D-4E71-8F8A-E6EC0D57E708",
-            "approvedDocNo": "1110811546",
-            "approvedDate": "2022-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A31F72D2-BDEB-4C0E-8E83-8CBE0A173D70",
-            "approvedDocNo": "1106606468",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E3C8B1D7-01AA-42AE-8742-FEB345917E9B",
-            "approvedDocNo": "1106606468",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8D064A30-F283-431F-B22B-8AD28D3F9AAF",
-            "approvedDocNo": "1106603449",
-            "approvedDate": "2021-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6A21F9CB-EA46-46F2-B5FC-012E1E5121F6",
-            "approvedDocNo": "1106603449",
-            "approvedDate": "2021-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8946695F-7DE2-4014-A7E7-2C3B7EA20641",
-            "approvedDocNo": "1106603449",
-            "approvedDate": "2021-04-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "850D31CB-1335-4F82-9649-30006CDE5A0E",
-            "approvedDocNo": "1090002814",
-            "approvedDate": "2020-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "65FE00CF-A2E4-4FB0-91CB-F5AF9485AA32",
-            "approvedDocNo": "1090002814",
-            "approvedDate": "2020-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D07AC04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D10AD01"
-        },
         {
             "isMain": "1",
             "atcCode": "D10AD51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D11AX11"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "DCA9C548-2AB8-41D8-9DF5-1B01E84F22E2"
 }

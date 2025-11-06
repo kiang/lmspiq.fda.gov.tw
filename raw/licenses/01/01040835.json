@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040835",
+    "licUnit": "1",
     "validDate": "2027-02-11 00:00:00.000",
     "issueDate": "1997-02-11 00:00:00.000",
+    "oriIssueDate": "1997-02-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHYS0104083507",
@@ -16,22 +20,25 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "61"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "58"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FB735EDB-EBE4-45FC-AD19-40D2A9E8F023",
+    "subCategory": [],
     "ingredientsDesc": [
         "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "強生化學製藥廠股份有限公司",
     "applicantAddr": "新北市三重區三和路四段77號2、3樓、79號1至6樓",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "E7CB8A92-500B-40F6-B71A-F04B9DBD0717",
             "factoryCode": "1",
             "factoryName": "強生化學製藥廠股份有限公司",
             "factoryAddr": "新北市三重區三和路四段７７號2、3樓、79號1至6樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1110202300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400710",
+            "ingredientsName": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "ingredientsDesc": "METFORMIN HCL (EQ TO METFORMIN HYDROCHLORIDE)",
             "concentDesc": "500",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -80,5 +93,6 @@
             "atcCode": "A10BA02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "F59E2B3E-9342-4BAA-A1EA-B37A53E2CD1E"
 }

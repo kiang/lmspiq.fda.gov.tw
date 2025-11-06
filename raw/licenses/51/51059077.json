@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059077",
+    "licUnit": "1",
     "validDate": "2026-04-29 00:00:00.000",
     "issueDate": "2016-04-29 00:00:00.000",
+    "oriIssueDate": "2016-04-29",
     "licKind": "02",
     "oldLicid": "01014009",
     "certNo": "DHY05105907701",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "43268D75-99C3-459E-9781-F96FF4C441FF",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
@@ -30,8 +39,8 @@
         "DL-METHYLEPHEDRINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "澳斯麗國際股份有限公司淡水廠",
     "applicantAddr": "新北市淡水區北新路三段一二三之一號",
@@ -43,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "B2954625-C7D8-4D0E-B07E-D3E1D567E2B2",
             "factoryCode": "1",
             "factoryName": "澳斯麗國際股份有限公司淡水廠",
             "factoryAddr": "新北市淡水區北新路三段一二三之一號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6612935103",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
-            "concent": "16.600",
+            "concent": "16.600000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "",
-            "concent": "0.138",
+            "concent": "0.138000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001813",
+            "ingredientsName": "DL-METHYLEPHEDRINE HCL",
             "ingredientsDesc": "DL-METHYLEPHEDRINE HCL",
             "concentDesc": "",
-            "concent": "0.540",
+            "concent": "0.540000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -95,9 +112,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "",
-            "concent": "2.000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -109,25 +127,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "R03CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05X"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8B09AD08-2DD5-4D90-A04B-6DBE9BC78F3E"
 }

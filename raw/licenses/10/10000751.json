@@ -44,7 +44,8 @@
         "DIPHTHERIA TOXOID"
     ],
     "restraintItemsCode": [
-        "02 輸 入"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "荷商葛蘭素史克藥廠股份有限公司台灣分公司",
     "applicantAddr": "臺北市中正區忠孝西路1段66號23樓",
@@ -60,11 +61,11 @@
     "licManuImport": "2",
     "factoryDtoList": [
         {
-            "id": "CEB0863C-191C-4365-9E2B-866B10F1EA5C",
+            "id": "5548450B-708F-4D4B-86BA-DAFB0F7750C1",
             "factoryCode": "1",
             "factoryName": "GLAXOSMITHKLINE BIOLOGICALS S.A.",
             "factoryAddr": "89 RUE DE L'INSTITUT 1330 RIXENSART, BELGIUM",
-            "factoryCompanyAddr": null,
+            "factoryCompanyAddr": "",
             "countryCode": "BE",
             "processCode": [
                 {
@@ -81,19 +82,23 @@
             "factoryMadeIn": null
         },
         {
-            "id": "4332E947-DA71-4315-9C77-D9EB28A406B7",
+            "id": "6B633C54-80E9-4E6F-896D-7A3FDD6FABD8",
             "factoryCode": "1",
             "factoryName": "GlaxoSmithKline Biologicals",
             "factoryAddr": "637 Rue des Aulnois 59230 Saint Amand Les Eaux, France",
-            "factoryCompanyAddr": null,
+            "factoryCompanyAddr": "",
             "countryCode": "FR",
             "processCode": [
                 {
                     "value": "3K",
                     "name": "調液、充填及包裝作業"
+                },
+                {
+                    "value": "30",
+                    "name": "中間體製造"
                 }
             ],
-            "processCodeStr": "3K;調液、充填及包裝作業",
+            "processCodeStr": "3K;調液、充填及包裝作業#30;中間體製造",
             "factoryKind": "M",
             "factoryNo": "FFR0350000",
             "factoryInfo": null,
@@ -102,11 +107,11 @@
             "factoryMadeIn": null
         },
         {
-            "id": "F6209784-23D0-4766-B341-F64992D0D3C9",
+            "id": "E926BC23-4343-46DC-9558-3F27CC6686E0",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": null,
+            "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [
                 {
@@ -123,11 +128,11 @@
             "factoryMadeIn": null
         },
         {
-            "id": "94317864-EBEC-4194-A167-2874DBD279AC",
+            "id": "C9B1127C-8716-4BD9-AEEF-4C998A872BF9",
             "factoryCode": "2",
             "factoryName": "GLAXOSMITHKLINE BIOLOGICALS S.A.",
-            "factoryAddr": "Parc de la Noire Epine, Avenue Fleming 20, Wavre, 1300, Belgium",
-            "factoryCompanyAddr": null,
+            "factoryAddr": "PARC DE LA NOIRE EPINE, RUE FLEMING 20, B-1300 WAVRE, BELGIUM",
+            "factoryCompanyAddr": "",
             "countryCode": "BE",
             "processCode": [
                 {
@@ -144,7 +149,7 @@
             "factoryMadeIn": null
         },
         {
-            "id": "858189D2-9572-49F0-9303-FF851F019FF0",
+            "id": "389E7A8B-3FFC-4F39-BE18-94F7335A235E",
             "factoryCode": "2",
             "factoryName": "GSK VACCINES GMBH",
             "factoryAddr": "EMIL-VON-BEHRING-STR. 76 35041 MARBURG GERMANY",
@@ -165,11 +170,11 @@
             "factoryMadeIn": null
         },
         {
-            "id": "ED84E859-81EC-4DA7-9027-3A50D8F5F971",
+            "id": "E5285AD4-E050-45DC-91D6-76FF5D97760B",
             "factoryCode": "2",
             "factoryName": "GSK VACCINES GMBH",
             "factoryAddr": "Gorzhauser Hof, 35041 Marburg ,Germany",
-            "factoryCompanyAddr": null,
+            "factoryCompanyAddr": "",
             "countryCode": "DE",
             "processCode": [
                 {
@@ -180,6 +185,27 @@
             "processCodeStr": "1K;原料藥製造廠",
             "factoryKind": "M",
             "factoryNo": "FDE0330100",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "2D16614B-B039-434E-A7A5-1641480E7F84",
+            "factoryCode": "2",
+            "factoryName": "GlaxoSmithKline Biologicals Kft",
+            "factoryAddr": "Homoki Nagy Istvan ucta 1, 2100 Godollo, Hungary",
+            "factoryCompanyAddr": "",
+            "countryCode": "HU",
+            "processCode": [
+                {
+                    "value": "1K",
+                    "name": "原料藥製造廠"
+                }
+            ],
+            "processCodeStr": "1K;原料藥製造廠",
+            "factoryKind": "M",
+            "factoryNo": "FHU0024000",
             "factoryInfo": null,
             "qsd": null,
             "qsdList": [],
@@ -257,5 +283,6 @@
             "atcCode": "J07CA"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "0B2CB90A-B85C-462A-B294-D7DD43D7FCEC"
 }
