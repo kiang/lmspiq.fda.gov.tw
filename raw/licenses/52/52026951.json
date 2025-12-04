@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026951",
+    "licUnit": "1",
     "validDate": "2026-09-19 00:00:00.000",
     "issueDate": "2016-09-19 00:00:00.000",
+    "oriIssueDate": "2016-09-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202695103",
@@ -22,16 +26,21 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "B2DBF9CA-81F6-4F5E-872C-0E1FD06DDDE1",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
-        "TAURINE (EQ TO AMINOETHYL SULFONIC ACID )",
-        "POTASSIUM L-ASPARTATE ",
         "PYRIDOXINE HCL",
+        "TOCOPHEROL ACETATE ALPHA D-",
         "NEOSTIGMINE METHYLSULFATE",
-        "TOCOPHEROL ACETATE ALPHA D-"
+        "TAURINE (EQ TO AMINOETHYL SULFONIC ACID )",
+        "POTASSIUM L-ASPARTATE "
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣大正製藥股份有限公司",
     "applicantAddr": "台北市大同區長安西路180號4樓之1",
@@ -43,8 +52,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "39579D61-B840-4C81-8E8A-B17F0AD0E896",
             "factoryCode": "1",
             "factoryName": "TEIKA PHARMACEUTICAL CO.,LTD.",
             "factoryAddr": "3-27,ARAKAWA 1-CHOME,TOYAMA,930-0982,JAPAN",
@@ -55,16 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0341000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1204000920",
+            "ingredientsName": "NEOSTIGMINE METHYLSULFATE",
             "ingredientsDesc": "NEOSTIGMINE METHYLSULFATE",
             "concentDesc": "",
-            "concent": "0.050",
+            "concent": "0.050000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": "",
-            "concent": "1.000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000211",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA D-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA D-",
             "concentDesc": "",
-            "concent": "0.500",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -95,9 +112,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100441",
+            "ingredientsName": "POTASSIUM L-ASPARTATE ",
             "ingredientsDesc": "POTASSIUM L-ASPARTATE ",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -106,9 +124,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200000920",
+            "ingredientsName": "TAURINE (EQ TO AMINOETHYL SULFONIC ACID )",
             "ingredientsDesc": "TAURINE (EQ TO AMINOETHYL SULFONIC ACID )",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -117,53 +136,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A1EDB7D1-3F15-4650-ADFB-84B309144E2C",
-            "approvedDocNo": "1101490614",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6A23C0A5-3F14-4754-9A3F-DDE40FBA6D50",
-            "approvedDocNo": "1071491726",
-            "approvedDate": "2019-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E31705EC-C599-4416-957E-32DE9D1273A8",
-            "approvedDocNo": "1071491726",
-            "approvedDate": "2019-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01EB06"
-        },
         {
             "isMain": "1",
             "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "E37D52F2-98F6-4EB6-8F32-7EC4273640C6"
 }

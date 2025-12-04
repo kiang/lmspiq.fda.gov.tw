@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033942",
+    "licUnit": "1",
     "validDate": "2026-05-02 00:00:00.000",
     "issueDate": "1991-05-02 00:00:00.000",
+    "oriIssueDate": "1991-05-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103394209",
@@ -23,13 +27,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7F237417-AFC0-49CA-A441-DDC722E57296",
+    "subCategory": [],
     "ingredientsDesc": [
         "TOBRAMYCIN (SULFATE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "臺灣汎生製藥廠股份有限公司",
     "applicantAddr": "高雄市鳥松區坔埔里大同路5-1號及神農路330號",
@@ -41,25 +48,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "F8141D90-94F2-4A95-9849-71F74C7312F9",
             "factoryCode": "1",
             "factoryName": "應元化學製藥股份有限公司",
             "factoryAddr": "台南市南區新忠路２６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1704519200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109910",
+            "ingredientsName": "TOBRAMYCIN (SULFATE)",
             "ingredientsDesc": "TOBRAMYCIN (SULFATE)",
             "concentDesc": "(POTENCY)40.00",
             "concent": null,
@@ -71,37 +84,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C6F492EC-C442-4F2B-99A1-6BD8C9C4B9CB",
-            "approvedDocNo": "1110814092",
-            "approvedDate": "2023-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5C30D184-0A6C-4756-875B-BFE25A8FF796",
-            "approvedDocNo": "1110814092",
-            "approvedDate": "2023-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EAB04A31-1879-4C27-BC74-F4B9D314B90A",
-            "approvedDocNo": "1110814092",
-            "approvedDate": "2023-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01GB01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "904730A1-B088-4B82-AF61-7AAFF072644E"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01022259",
+    "licUnit": "1",
     "validDate": "2026-05-25 00:00:00.000",
     "issueDate": "1980-09-30 00:00:00.000",
+    "oriIssueDate": "1980-09-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102225900",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0B64E922-8CE8-4BF8-8516-2DED87160CE3",
+    "subCategory": [],
     "ingredientsDesc": [
         "PROPRANOLOL HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "新喜國際企業股份有限公司",
     "applicantAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "083B3FE2-8517-43D9-9433-C98E53021F22",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2404400310",
+            "ingredientsName": "PROPRANOLOL HCL",
             "ingredientsDesc": "PROPRANOLOL HCL",
             "concentDesc": "40",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,5 +90,6 @@
             "atcCode": "C07AA05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "24B3EE26-8F71-43CB-8FF9-F635FFF9B1E8"
 }

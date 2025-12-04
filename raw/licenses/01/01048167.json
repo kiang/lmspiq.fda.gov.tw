@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048167",
+    "licUnit": "1",
     "validDate": "2026-08-14 00:00:00.000",
     "issueDate": "2006-08-14 00:00:00.000",
+    "oriIssueDate": "2006-08-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104816701",
@@ -23,13 +27,16 @@
     "medMCode": "05",
     "maMedCode": "X",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "32B9E0CC-B541-4D29-9C4A-DB0EE0DADF74",
+    "subCategory": [],
     "ingredientsDesc": [
         "NALBUPHINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "24"
+        "01 國 產",
+        "09 委託製造",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "華宇藥品股份有限公司",
     "applicantAddr": "台北市中山北路二段115巷43號8樓",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "2793C752-6CB5-4981-AF4D-0642219F4AA3",
             "factoryCode": "1",
             "factoryName": "健亞生物科技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉新竹工業區工業一路１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1119206300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808801610",
+            "ingredientsName": "NALBUPHINE HYDROCHLORIDE",
             "ingredientsDesc": "NALBUPHINE HYDROCHLORIDE",
             "concentDesc": null,
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,53 +84,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "38BEFF8A-0861-400E-BE4A-4DB9621384E2",
-            "approvedDocNo": "1106030083",
-            "approvedDate": "2023-06-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F23C4A47-8729-40E8-B9ED-3216F9A114A9",
-            "approvedDocNo": "1106030083",
-            "approvedDate": "2022-04-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "23580C9D-05B8-450B-BCEA-ABC2D28BA1E3",
-            "approvedDocNo": "1096019418",
-            "approvedDate": "2020-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1C96C170-960A-4D4A-BE02-78D1E8F4DF92",
-            "approvedDocNo": "1096009015",
-            "approvedDate": "2020-05-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BCBA4EB5-D29D-458C-9ECA-8E312D767F42",
-            "approvedDocNo": "1086818709",
-            "approvedDate": "2020-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02AF02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "3E41B670-5968-45B2-B0B1-127DB45B515C"
 }

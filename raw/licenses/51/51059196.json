@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059196",
+    "licUnit": "1",
     "validDate": "2026-05-25 00:00:00.000",
     "issueDate": "2016-05-25 00:00:00.000",
+    "oriIssueDate": "2016-05-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105919609",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E1998932-B555-4B88-856C-600DF7DB289D",
+    "subCategory": [],
     "ingredientsDesc": [
         "VALSARTAN"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "62"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "62 完成溶離率試驗"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "24C10802-127D-4BD0-A119-73C47EB60D17",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005100",
+            "ingredientsName": "VALSARTAN",
             "ingredientsDesc": "VALSARTAN",
             "concentDesc": "",
-            "concent": "160.000",
+            "concent": "160.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,45 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "64C07F87-DA1E-4FFB-92C9-3DB2794AC9D6",
-            "approvedDocNo": "1096821930",
-            "approvedDate": "2021-03-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "89849A7A-93FD-471D-A9D3-5C03F2350F4D",
-            "approvedDocNo": "1096821930",
-            "approvedDate": "2021-03-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "74390350-3DB4-4DE4-B0CA-69A88D1CDEBD",
-            "approvedDocNo": "1096821930",
-            "approvedDate": "2021-03-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "89606986-49CD-4288-A4E2-A79B611137A3",
-            "approvedDocNo": "1096821930",
-            "approvedDate": "2021-03-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C09CA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "BE73F543-AC54-4226-A6F8-C9313E3A281C"
 }

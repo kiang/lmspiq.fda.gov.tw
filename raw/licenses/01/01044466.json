@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044466",
+    "licUnit": "1",
     "validDate": "2026-05-24 00:00:00.000",
     "issueDate": "2001-05-24 00:00:00.000",
+    "oriIssueDate": "2001-05-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104446601",
@@ -31,12 +35,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C14768DD-B458-4ADF-BCB1-2AE4029E8921",
+    "subCategory": [],
     "ingredientsDesc": [
         "PACLITAXEL"
     ],
     "restraintItemsCode": [
-        "01",
-        "07"
+        "01 國 產",
+        "07 新藥監視"
     ],
     "applicantName": "杏輝藥品工業股份有限公司",
     "applicantAddr": "宜蘭縣冬山鄉中山村中山路84、84之4、84之6、84之7號、冬山鄉中山村新寮路95、95之1、100之7、100之13、100之15、100之16、103、136號",
@@ -48,28 +55,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "7CBFE91F-86E5-48F1-B438-D181C22FEF61",
             "factoryCode": "1",
             "factoryName": "杏輝藥品工業股份有限公司",
             "factoryAddr": "宜蘭縣冬山鄉中山村中山路８４號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0705330300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000100",
+            "ingredientsName": "PACLITAXEL",
             "ingredientsDesc": "PACLITAXEL",
             "concentDesc": "",
-            "concent": "6.0000",
+            "concent": "6.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -78,29 +91,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "102B558F-2EB0-4FA4-AE0D-BD9D1C34DA7A",
-            "approvedDocNo": "1110810487",
-            "approvedDate": "2022-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6CE957E6-5650-4C81-85CE-98078CA49F05",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01CD01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "3C22C338-32A8-40F8-AE4D-6E1C80D30C97"
 }

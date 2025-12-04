@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12011458",
+    "licUnit": "1",
     "validDate": "2026-05-19 00:00:00.000",
     "issueDate": "1970-10-09 00:00:00.000",
+    "oriIssueDate": "1970-10-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01201145802",
@@ -16,13 +20,16 @@
     "does": "1184",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3810E4BC-777F-467F-A5D5-4DDA09BC4FFF",
+    "subCategory": [],
     "ingredientsDesc": [
         "CARDAMON",
         "GUAIACOL GLYCOLATE (EQ TO GLYCERYL GUAIACOLATE)",
@@ -31,9 +38,9 @@
         "SQUILL (SCILLAE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "恆信藥品有限公司",
     "applicantAddr": "台北市松山區復興北路1號6樓之6",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "63F287FF-AF5F-4912-B31B-1B330304DF11",
             "factoryCode": "1",
             "factoryName": "健康化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區幼獅工業區幼四路１２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": "86",
-            "concent": "86.000",
+            "concent": "86.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001430",
+            "ingredientsName": "GUAIACOL GLYCOLATE (EQ TO GLYCERYL GUAIACOLATE)",
             "ingredientsDesc": "GUAIACOL GLYCOLATE (EQ TO GLYCERYL GUAIACOLATE)",
             "concentDesc": "48",
-            "concent": "48.000",
+            "concent": "48.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -86,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004401",
+            "ingredientsName": "GLYCYRRHIZA EXTRACT",
             "ingredientsDesc": "GLYCYRRHIZA EXTRACT",
             "concentDesc": "58",
-            "concent": "58.000",
+            "concent": "58.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -97,9 +112,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200016000",
+            "ingredientsName": "CARDAMON",
             "ingredientsDesc": "CARDAMON",
             "concentDesc": "0.26",
-            "concent": "0.260",
+            "concent": "0.260000",
             "concentUnit": "003",
             "seq": "3",
             "prescription_seq": "0",
@@ -108,9 +124,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003100",
+            "ingredientsName": "SQUILL (SCILLAE)",
             "ingredientsDesc": "SQUILL (SCILLAE)",
             "concentDesc": null,
-            "concent": "0.016",
+            "concent": "0.016000",
             "concentUnit": "003",
             "seq": "7",
             "prescription_seq": "0",
@@ -122,25 +139,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05CA10"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "F43A3801-9C3A-4136-A50B-E5E187FA06ED"
 }

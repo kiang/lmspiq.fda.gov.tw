@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028119",
+    "licUnit": "1",
     "validDate": "2026-07-02 00:00:00.000",
     "issueDate": "2021-07-02 00:00:00.000",
+    "oriIssueDate": "2021-07-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202811901",
@@ -27,12 +31,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "E70B0D6E-5A1C-417B-8484-C971130FAAF1",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "AZACITIDINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "台灣瑞迪博士有限公司",
     "applicantAddr": "臺北市信義區信義路5段7號57樓之1(5727室)",
@@ -44,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "64CBB54B-1802-4CBD-A596-11868B2B18CF",
             "factoryCode": "1",
             "factoryName": "DR. REDDY’S LABORATORIES LTD.",
             "factoryAddr": "FORMULATION UNIT-VII, PLOT NO. P1 TO P9, PHASE-III, VSEZ, DUVVADA, VISAKHAPATNAM DISTRICT 530046, ANDHRA PRADESH, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN1049100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1008400500",
+            "ingredientsName": "AZACITIDINE",
             "ingredientsDesc": "AZACITIDINE",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,5 +95,6 @@
             "atcCode": "L01BC07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "6FF05F16-298A-4D39-BEC6-5FBEF2BE46B2"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01050114",
+    "licUnit": "1",
     "validDate": "2029-04-28 00:00:00.000",
     "issueDate": "2009-04-28 00:00:00.000",
+    "oriIssueDate": "2009-04-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105011408",
@@ -27,14 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "72B296DA-FE39-4903-9E71-F1037A7840EA",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIVASTIGMINE HYDROGEN TARTRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "24",
-        "61"
+        "01 國 產",
+        "1R 不得製造",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "BC1B3E95-A0F4-43DC-A726-01ACEEFA4106",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1204001410",
+            "ingredientsName": "RIVASTIGMINE HYDROGEN TARTRATE",
             "ingredientsDesc": "RIVASTIGMINE HYDROGEN TARTRATE",
             "concentDesc": "(eq. to rivastigamine 4.5mg)",
-            "concent": "7.2000",
+            "concent": "7.200000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -76,49 +89,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6B72846F-5F57-484F-9970-4F286E01D3EE",
-            "approvedDocNo": "1120807810",
-            "approvedDate": "2023-08-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1CE80407-19DA-40CF-B017-AD79DC3F4328",
-            "approvedDocNo": "1086817387",
-            "approvedDate": "2020-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "47E02AC9-E904-4C95-A5E0-E8E3437012FB",
-            "approvedDocNo": "1086817387",
-            "approvedDate": "2020-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4D211CCF-FF71-4BC3-8D72-1497493F7166",
-            "approvedDocNo": "1086817387",
-            "approvedDate": "2020-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N06DA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06DA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "E1048E01-C445-4113-9C56-06E33F3FBBE0"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01010325",
+    "licUnit": "1",
     "validDate": "2026-05-25 00:00:00.000",
     "issueDate": "1976-07-17 00:00:00.000",
+    "oriIssueDate": "1976-07-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101032500",
@@ -16,21 +20,24 @@
     "does": "1130",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D4D0A466-316C-4215-92BF-38280211346B",
+    "subCategory": [],
     "ingredientsDesc": [
         "MEFENAMIC ACID"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "太田藥品股份有限公司",
     "applicantAddr": "高雄市民族一路２巷２７號１樓",
@@ -42,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "D27AFF6E-2EA5-4607-955D-003FB551346F",
             "factoryCode": "1",
             "factoryName": "台灣陽生製藥工業股份有限公司",
             "factoryAddr": "屏東縣屏東市龍華路３８１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1111823300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808401800",
+            "ingredientsName": "MEFENAMIC ACID",
             "ingredientsDesc": "MEFENAMIC ACID",
             "concentDesc": "250",
-            "concent": "250.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,21 +85,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "48FC7B72-270C-4B3F-82E6-90394B99A956",
-            "approvedDocNo": "1096601367",
-            "approvedDate": "2020-03-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "M01AG01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "7A1D16CB-6308-41E3-8B5D-F758475B1EA4"
 }

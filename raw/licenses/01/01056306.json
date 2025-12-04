@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056306",
+    "licUnit": "1",
     "validDate": "2026-05-12 00:00:00.000",
     "issueDate": "2011-05-12 00:00:00.000",
+    "oriIssueDate": "2011-05-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -31,14 +35,17 @@
     "medMCode": "05",
     "maMedCode": "A",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1B59F2A4-98AD-4D36-ABA3-73D5B5BE0599",
+    "subCategory": [],
     "ingredientsDesc": [
         "MORPHINE SULFATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "06",
-        "1E",
-        "31"
+        "01 國 產",
+        "06 管制藥品",
+        "1E 須執行Phase IV Study",
+        "31 第一級管制藥品"
     ],
     "applicantName": "衛生福利部食品藥物管理署管制藥品製藥工廠",
     "applicantAddr": "新北市三峽區大同路287號（A棟地下1樓至4樓、C棟地下2樓至7樓、D棟1樓）",
@@ -50,28 +57,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "F700DFB2-EBF4-4F7A-ACA6-363E472C45A0",
             "factoryCode": "1",
             "factoryName": "衛生福利部食品藥物管理署管制藥品製藥工廠",
             "factoryAddr": "新北市三峽區大同路287號（A棟地下1樓至4樓、C棟地下2樓至7樓、D棟1樓）",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0603402300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800622",
+            "ingredientsName": "MORPHINE SULFATE",
             "ingredientsDesc": "MORPHINE SULFATE",
             "concentDesc": "",
-            "concent": "15.0000",
+            "concent": "15.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -80,49 +93,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E3DDF534-36A6-40E0-BD65-78B79ED000F6",
-            "approvedDocNo": "1111409781",
-            "approvedDate": "2022-09-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A5A45F5B-2989-48D5-B307-9C340704F592",
-            "approvedDocNo": "1101407249",
-            "approvedDate": "2021-09-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "591A8FF3-4EC3-4771-A909-7083AC7AD1BF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "64422F1D-598B-448A-9E50-912425BDEE9E",
-            "approvedDocNo": "1081405448",
-            "approvedDate": "2019-05-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02AA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02AA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "99724DE0-298A-44F5-9A85-5410FFDD0246"
 }

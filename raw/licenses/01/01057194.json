@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057194",
+    "licUnit": "1",
     "validDate": "2027-04-25 00:00:00.000",
     "issueDate": "2012-04-25 00:00:00.000",
+    "oriIssueDate": "2012-04-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105719402",
@@ -17,10 +21,6 @@
     "packageUnit": [
         {
             "packageSpec": "2-1000粒",
-            "packageUnit": "89"
-        },
-        {
-            "packageSpec": "2-1000粒",
             "packageUnit": "A3"
         },
         {
@@ -31,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "90BBF643-1A4C-42FC-A531-F18FAA5111E3",
+    "subCategory": [],
     "ingredientsDesc": [
         "ROSUVASTATIN CALCIUM"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -49,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "E8D98C25-73C7-4CDA-9CAA-01474F926152",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406003210",
+            "ingredientsName": "ROSUVASTATIN CALCIUM",
             "ingredientsDesc": "ROSUVASTATIN CALCIUM",
             "concentDesc": "(eq. to Rosuvastatin 10mg)",
-            "concent": "10.4000",
+            "concent": "10.400000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -79,45 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0C04842D-DBD6-40C9-907E-F83CE456DBDD",
-            "approvedDocNo": "1110810505",
-            "approvedDate": "2022-11-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7E7245E6-5736-4A3E-8B44-D70DD580A984",
-            "approvedDocNo": "1110800700",
-            "approvedDate": "2022-07-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B71F539B-9C4A-460A-8A90-1A077AED4267",
-            "approvedDocNo": "1110800700",
-            "approvedDate": "2022-07-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0C14EFB7-7A0B-407F-98D7-6B31153B784D",
-            "approvedDocNo": "1096820550",
-            "approvedDate": "2021-02-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C10AA07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "D7037A4D-C5BC-44E3-A0C7-14FFD564AF21"
 }

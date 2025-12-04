@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01026013",
+    "licUnit": "1",
     "validDate": "2026-05-19 00:00:00.000",
     "issueDate": "1982-08-20 00:00:00.000",
+    "oriIssueDate": "1982-08-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102601301",
@@ -16,20 +20,23 @@
     "does": "1110",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1437789B-32A4-475A-80FF-71C678F6BEF9",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIBOFLAVIN TETRABUTYRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "歐業藥品股份有限公司",
     "applicantAddr": "高雄市鳥松區松埔路11-10號",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "90E51E08-113C-4E28-A8DA-774101CB9A27",
             "factoryCode": "1",
             "factoryName": "皇佳化學製藥股份有限公司",
             "factoryAddr": "高雄市鳥松區坔埔里埔安街1號",
-            "factoryCompanyAddr": "高雄市鳥松區埔安街1號",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0920322300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200800",
+            "ingredientsName": "RIBOFLAVIN TETRABUTYRATE",
             "ingredientsDesc": "RIBOFLAVIN TETRABUTYRATE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -71,21 +84,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5DE43BD2-70BA-4311-A3A6-BCE8A39B23B0",
-            "approvedDocNo": "1120004925",
-            "approvedDate": "2023-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A11HA04"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "3B4EA2FF-30D1-4614-9367-A586704D1327"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025417",
+    "licUnit": "1",
     "validDate": "2026-05-13 00:00:00.000",
     "issueDate": "2011-05-13 00:00:00.000",
+    "oriIssueDate": "2011-05-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202541701",
@@ -23,14 +27,18 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E7E4876F-FA6A-4ED0-9E80-B123864B4E94",
+    "subCategory": [],
     "ingredientsDesc": [
         "DAPOXETINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D",
-        "55"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫",
+        "55 依本署89、12、12衛署藥字第0890035812號公告事項三經本署認定得免除銜接性試驗之新藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "新加坡商美納里尼醫藥有限公司台灣分公司",
     "applicantAddr": "臺北市中山區民生東路3段2號9樓之2",
@@ -42,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "082327D4-7A36-44F0-9BB7-1F31D8FD42B9",
             "factoryCode": "1",
             "factoryName": "Menarini-Von Heyden GmbH",
             "factoryAddr": "Leipziger Straβe 7-13, 01097 Dresden, Germany",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FDE0606000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816402510",
+            "ingredientsName": "DAPOXETINE HYDROCHLORIDE",
             "ingredientsDesc": "DAPOXETINE HYDROCHLORIDE",
             "concentDesc": "eq to Dapoxetine free base 30mg",
-            "concent": "33.6000",
+            "concent": "33.600000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,57 +86,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6BAB1E02-E924-443F-AFAB-6DDC7ED8E7B0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CEF2A557-C41B-4897-8401-33CE8D3CA79D",
-            "approvedDocNo": "1119009903",
-            "approvedDate": "2022-06-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BE6EF0F4-B064-42FF-ADA4-62C38DAB1DC4",
-            "approvedDocNo": "1119009903",
-            "approvedDate": "2022-06-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F74A36E6-A032-444A-BA74-AFD290F26AA2",
-            "approvedDocNo": "1096035751",
-            "approvedDate": "2021-03-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4FC6AF31-B0A7-4325-802C-EBDC52244423",
-            "approvedDocNo": "1086003678",
-            "approvedDate": "2019-04-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "G04BX14"
-        },
         {
             "isMain": "1",
             "atcCode": "G04BX14"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "22BC9B79-49AC-47AE-B006-E35135921CAA"
 }

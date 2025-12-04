@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "14003098",
+    "licUnit": "1",
     "validDate": "2026-05-19 00:00:00.000",
     "issueDate": "1970-12-23 00:00:00.000",
+    "oriIssueDate": "1970-12-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01400309802",
@@ -16,13 +20,16 @@
     "does": "1184",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "03",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "768D06AC-B2E5-4F6A-950B-996B04B6BCC7",
+    "subCategory": [],
     "ingredientsDesc": [
         "CARDAMON",
         "ALMOND OIL",
@@ -31,10 +38,10 @@
         "POTASSIUM GUAIACOLSULFONATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "恆信藥品有限公司",
     "applicantAddr": "台北市松山區復興北路1號6樓之6",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "615B471B-CBBA-4827-ACE8-8687D193B54C",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": "0.5",
-            "concent": "0.500",
+            "concent": "0.500000",
             "concentUnit": "002",
             "seq": "0",
             "prescription_seq": "0",
@@ -76,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9690007500",
+            "ingredientsName": "ACETUM SCILLAE",
             "ingredientsDesc": "ACETUM SCILLAE",
             "concentDesc": "0.75",
-            "concent": "0.750",
+            "concent": "0.750000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "0",
@@ -87,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200016000",
+            "ingredientsName": "CARDAMON",
             "ingredientsDesc": "CARDAMON",
             "concentDesc": "1.5",
-            "concent": "1.500",
+            "concent": "1.500000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "0",
@@ -98,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200004401",
+            "ingredientsName": "GLYCYRRHIZA EXTRACT",
             "ingredientsDesc": "GLYCYRRHIZA EXTRACT",
             "concentDesc": "0.25",
-            "concent": "0.250",
+            "concent": "0.250000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "0",
@@ -109,9 +125,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600001805",
+            "ingredientsName": "ALMOND OIL",
             "ingredientsDesc": "ALMOND OIL",
             "concentDesc": "0.093",
-            "concent": "0.093",
+            "concent": "0.093000",
             "concentUnit": "002",
             "seq": "4",
             "prescription_seq": "0",
@@ -123,25 +140,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05CA10"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "48F492EC-1EC4-4FA4-A298-746B8DB661AC"
 }

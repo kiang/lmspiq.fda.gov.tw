@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028051",
+    "licUnit": "1",
     "validDate": "2026-05-19 00:00:00.000",
     "issueDate": "2021-05-19 00:00:00.000",
+    "oriIssueDate": "2021-05-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202805103",
@@ -23,14 +27,19 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "9F7C1AFD-AEBB-4FBB-92F0-C0902B8D39BB",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Indacaterol acetate",
         "MOMETASONE FUROATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "臺北市中山區民生東路3段2號8樓",
@@ -42,8 +51,11 @@
     "monitorDate": "2026-05-19",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "8DEF55EF-CAE9-4ABD-B476-E8EFE2394DC2",
             "factoryCode": "1",
             "factoryName": "Siegfried Barbera S.L. ",
             "factoryAddr": "RONDA SANTA MARIA, 158, 08210 BARBERA DEL VALLES BARCELONA, SPAIN",
@@ -59,13 +71,16 @@
             "factoryKind": "M",
             "factoryNo": "FES0106000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "030FE976-840F-47CE-9C4C-1D9B71D54EDE",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -75,11 +90,14 @@
             ],
             "processCodeStr": "3P;二級包裝廠(委託貼標及置入仿單)",
             "factoryKind": "M",
-            "factoryNo": "1225204000",
+            "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "A865BB94-EC3F-41F1-9CC7-55F14B51E544",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA AG",
             "factoryAddr": "LICHTSTRASSE 35, CH-4056 BASEL, SWITZERLAND",
@@ -95,16 +113,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0253000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212009720",
+            "ingredientsName": "Indacaterol acetate",
             "ingredientsDesc": "Indacaterol acetate",
             "concentDesc": "(Eq. to Indacaterol......0.150 MG)",
-            "concent": "0.173",
+            "concent": "0.173000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -113,9 +134,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804002310",
+            "ingredientsName": "MOMETASONE FUROATE",
             "ingredientsDesc": "MOMETASONE FUROATE",
             "concentDesc": "",
-            "concent": "0.320",
+            "concent": "0.320000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -124,69 +146,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E294A5CA-6E62-4353-A46F-7AEDF453CB82",
-            "approvedDocNo": "1129039595",
-            "approvedDate": "2023-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A473A61D-25DE-4D40-BAAF-B6B58D997D59",
-            "approvedDocNo": "1110712104",
-            "approvedDate": "2022-09-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "74CE79B8-3508-4B05-99BA-C64F20A259DA",
-            "approvedDocNo": "1110712104",
-            "approvedDate": "2022-09-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "05A13819-F704-4298-B693-BAF4671E4ACC",
-            "approvedDocNo": "1101499115",
-            "approvedDate": "2022-04-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5C7E531F-67D1-4C25-B0E8-980528BA6C8D",
-            "approvedDocNo": "1101497028",
-            "approvedDate": "2021-10-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1B934D6A-12EF-47CA-8144-7F34D0D43FAA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R03AC18"
-        },
         {
             "isMain": "1",
             "atcCode": "R03AK14"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03BA07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8810A724-CD5A-45A3-9206-845383C197E5"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039955",
+    "licUnit": "1",
     "validDate": "2026-05-03 00:00:00.000",
     "issueDate": "1996-05-03 00:00:00.000",
+    "oriIssueDate": "1996-05-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103995509",
@@ -16,20 +20,23 @@
     "does": "3363",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "06"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CA05BD02-978F-4CEE-AA2E-7D7ACB2B8C82",
+    "subCategory": [],
     "ingredientsDesc": [
         "SULFADIAZINE SILVER"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "一成藥品股份有限公司",
     "applicantAddr": "新北市汐止區新台五路一段77號19樓之8",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "9E4F9069-0953-4A3D-8C10-94E1F26B240B",
             "factoryCode": "1",
             "factoryName": "大豐製藥股份有限公司",
             "factoryAddr": "彰化市延平里岸頭巷１１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0306811200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0824000720",
+            "ingredientsName": "SULFADIAZINE SILVER",
             "ingredientsDesc": "SULFADIAZINE SILVER",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,21 +84,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EFD11725-C225-4789-B2D9-FC489867A0E1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-10-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D06BA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "E7162803-353E-4C47-A28B-65FA76380075"
 }

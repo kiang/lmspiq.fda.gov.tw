@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044439",
+    "licUnit": "1",
     "validDate": "2026-05-01 00:00:00.000",
     "issueDate": "2001-05-01 00:00:00.000",
+    "oriIssueDate": "2001-05-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104443901",
@@ -16,25 +20,28 @@
     "does": "3393",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "96"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C8F13BAE-1E56-4B18-B43F-64C43F642C9F",
+    "subCategory": [],
     "ingredientsDesc": [
         "BENZOYL PEROXIDE HYDROUS"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "岳生生技股份有限公司",
     "applicantAddr": "桃園市楊梅區獅四路１號",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "8E9CCCD7-D4A0-4295-A810-D6AE961925D8",
             "factoryCode": "1",
             "factoryName": "華盛頓製藥廠股份有限公司",
             "factoryAddr": "高雄市仁武區仁武里工業二路１２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1202822300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8428000350",
+            "ingredientsName": "BENZOYL PEROXIDE HYDROUS",
             "ingredientsDesc": "BENZOYL PEROXIDE HYDROUS",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -81,11 +94,8 @@
         {
             "isMain": "1",
             "atcCode": "D10AE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D10AE01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "483F87DD-BFE7-43F4-9C30-B191683EE1C3"
 }

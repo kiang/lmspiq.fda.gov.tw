@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026843",
+    "licUnit": "1",
     "validDate": "2026-05-27 00:00:00.000",
     "issueDate": "2016-05-27 00:00:00.000",
+    "oriIssueDate": "2016-05-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202684300",
@@ -23,13 +27,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3DF5DA67-E5E1-4917-BDC1-4B861C7EA619",
+    "subCategory": [],
     "ingredientsDesc": [
         "LATANOPROST",
         "TIMOLOL MALEATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "安沛國際有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號20樓",
@@ -41,8 +49,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "382CE85D-63A5-4056-B9B8-8AB3B98DED2B",
             "factoryCode": "1",
             "factoryName": "RAFARM SA",
             "factoryAddr": "AGIOU LOUKA ST., THESI POUSI-HATZI 19002 PEANIA-ATTIKI, GREECE",
@@ -53,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "FGR0040000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037500",
+            "ingredientsName": "LATANOPROST",
             "ingredientsDesc": "LATANOPROST",
             "concentDesc": "",
-            "concent": "0.050",
+            "concent": "0.050000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216001910",
+            "ingredientsName": "TIMOLOL MALEATE",
             "ingredientsDesc": "TIMOLOL MALEATE",
             "concentDesc": "(Equivalent to Timolol.....5mg)",
-            "concent": "6.830",
+            "concent": "6.830000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,29 +97,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "34D34CE9-6C34-4EBB-8619-1BC8F3921F43",
-            "approvedDocNo": "1081492237",
-            "approvedDate": "2020-05-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "S01ED51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01ED01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01EE01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "6C185263-25E6-42E1-98AA-3E3E0578BA6A"
 }

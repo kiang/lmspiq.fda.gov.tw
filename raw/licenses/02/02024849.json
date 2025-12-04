@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024849",
+    "licUnit": "1",
     "validDate": "2028-06-25 00:00:00.000",
     "issueDate": "2008-06-25 00:00:00.000",
+    "oriIssueDate": "2008-06-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202484909",
@@ -23,16 +27,20 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "280BF09E-9EA3-4C91-ACC6-43EDB44139D6",
+    "subCategory": [],
     "ingredientsDesc": [
         "SALMETEROL XINAFOATE MICRONIZED",
         "FLUTICASONE PROPIONATE MICRONIZED"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "荷商葛蘭素史克藥廠股份有限公司台灣分公司",
-    "applicantAddr": "台北市中正區忠孝西路一段66號23-24樓",
+    "applicantAddr": "臺北市中正區忠孝西路1段66號23樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -41,25 +49,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "5FC405C5-078A-4BDC-8780-8004361A3D18",
             "factoryCode": "1",
             "factoryName": "GLAXO WELLCOME PRODUCTION",
             "factoryAddr": "23 RUE LAVOISIER, ZONE INDUSTRIELLE NO.2, 27000 EVREUX, FRANCE",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "FR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FFR0183000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2037019E-B66E-4F57-A1F1-91D754B9CDA1",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -69,18 +83,21 @@
             ],
             "processCodeStr": "3P;二級包裝廠(委託貼標及置入仿單)",
             "factoryKind": "M",
-            "factoryNo": "1225204000",
+            "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216002920",
+            "ingredientsName": "SALMETEROL XINAFOATE MICRONIZED",
             "ingredientsDesc": "SALMETEROL XINAFOATE MICRONIZED",
             "concentDesc": "(=salmeterol 50 mcg)",
-            "concent": "72.5000",
+            "concent": "72.500000",
             "concentUnit": "016",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,9 +106,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406002220",
+            "ingredientsName": "FLUTICASONE PROPIONATE MICRONIZED",
             "ingredientsDesc": "FLUTICASONE PROPIONATE MICRONIZED",
             "concentDesc": null,
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "016",
             "seq": "2",
             "prescription_seq": "1",
@@ -100,77 +118,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AC342289-6788-45BF-9E3E-27CA49907F49",
-            "approvedDocNo": "1119062244",
-            "approvedDate": "2023-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D1779FC8-D191-4C14-AEC6-7E3074AE185C",
-            "approvedDocNo": "1101494147",
-            "approvedDate": "2021-12-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "027A78AF-7380-422C-B1A7-D2E6730A3035",
-            "approvedDocNo": "1091494821",
-            "approvedDate": "2020-12-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "75B788D9-4A3A-4E2B-8558-59C4EF0DE286",
-            "approvedDocNo": "1091491208",
-            "approvedDate": "2020-07-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F403D5FB-F277-43D3-B3A0-89E5942C31A5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CE3376BC-37C8-4289-AD04-25132627109F",
-            "approvedDocNo": "1086003618",
-            "approvedDate": "2019-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E8A559C7-5E43-422E-8AB8-0FB27FAD810F",
-            "approvedDocNo": "1076025915",
-            "approvedDate": "2019-03-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R03AC12"
-        },
         {
             "isMain": "1",
             "atcCode": "R03AK06"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03BA05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "B9A570FD-9D12-4241-A92A-2D74F8A5A711"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059183",
+    "licUnit": "1",
     "validDate": "2026-05-11 00:00:00.000",
     "issueDate": "2016-05-11 00:00:00.000",
+    "oriIssueDate": "2016-05-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105918300",
@@ -26,13 +30,18 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "A0721EC5-70E8-4AA8-AE45-4B82BEF7BACC",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "EPRAZINONE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "多安健康事業有限公司",
     "applicantAddr": "屏東縣萬丹鄉新庄村萬新路583號、585號",
@@ -44,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "EA642257-1AFA-4995-BF13-251990835B1C",
             "factoryCode": "1",
             "factoryName": "羅得化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區東西七路一段65號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1901510300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001311",
+            "ingredientsName": "EPRAZINONE HCL",
             "ingredientsDesc": "EPRAZINONE HCL",
             "concentDesc": "",
-            "concent": "30.000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,21 +89,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C4F93C18-F391-4D26-AD0E-F513C457C996",
-            "approvedDocNo": "1076808700",
-            "approvedDate": "2019-01-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R05CB04"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "26154AA8-B6EB-4215-A84E-12980211E207"
 }

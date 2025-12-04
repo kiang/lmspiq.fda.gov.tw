@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2024-01-10",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "02023188",
+    "licUnit": "1",
     "validDate": "2026-05-23 00:00:00.000",
     "issueDate": "2001-05-23 00:00:00.000",
+    "oriIssueDate": "2001-05-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202318802",
@@ -25,13 +29,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "80B3E8B2-DDD1-45F3-AD47-AC9EE2D80B7A",
+    "subCategory": [],
     "ingredientsDesc": [
         "RITONAVIR",
         "LOPINAVIR"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "瑞士商艾伯維藥品有限公司台灣分公司",
     "applicantAddr": "台北市中山區民生東路三段49號及51號15樓",
@@ -43,8 +50,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "67364FEA-7BFE-4973-941A-092174D99F7C",
             "factoryCode": "1",
             "factoryName": "ABBVIE INC.",
             "factoryAddr": "1 N WAUKEGAN RD, NORTH CHICAGO, IL 60064, USA",
@@ -55,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0300100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818001100",
+            "ingredientsName": "RITONAVIR",
             "ingredientsDesc": "RITONAVIR",
             "concentDesc": null,
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -73,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818002100",
+            "ingredientsName": "LOPINAVIR",
             "ingredientsDesc": "LOPINAVIR",
             "concentDesc": null,
-            "concent": "80.0000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "18",
             "prescription_seq": "0",
@@ -84,53 +98,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AE7EAF89-53F7-41EC-A25F-16CEA15D7ECF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DE3A9D73-687D-4F1D-BF57-FD4FDB067443",
-            "approvedDocNo": "1096027252",
-            "approvedDate": "2021-02-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4F3C25C9-E7CD-493E-921A-4B991659FDB3",
-            "approvedDocNo": "1086030049",
-            "approvedDate": "2020-04-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DDEDFE67-A4BA-4DF2-BA13-CDC2D52E0C40",
-            "approvedDocNo": "1086006342",
-            "approvedDate": "2019-06-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J05AE03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J05AE"
-        },
         {
             "isMain": "1",
             "atcCode": "J05AR10"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "CED8B89A-8316-4C98-857C-8CD4FC355C4D"
 }

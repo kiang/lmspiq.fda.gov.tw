@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01024113",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1981-08-18 00:00:00.000",
+    "oriIssueDate": "1981-08-18",
     "licKind": "02",
     "oldLicid": "01002580",
     "certNo": "DHY00102411308",
@@ -35,14 +39,17 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7DDF912A-C127-465B-A8FB-C88400677FEB",
+    "subCategory": [],
     "ingredientsDesc": [
         "SODIUM CHLORIDE",
         "DEXTROSE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
-    "applicantName": "永豐化學工業股份有限公司",
+    "applicantName": "永豐製藥股份有限公司",
     "applicantAddr": "新北市新莊區新樹路２９２號",
     "medClass": null,
     "efficacy": " ",
@@ -52,25 +59,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "F8DACC68-0325-483A-8A0E-8570F60FE809",
             "factoryCode": "1",
             "factoryName": "永豐化學工業股份有限公司新莊工廠",
             "factoryAddr": "新北市新莊區新樹路２９２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0504302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000500",
+            "ingredientsName": "DEXTROSE",
             "ingredientsDesc": "DEXTROSE",
             "concentDesc": "(5%) 50",
             "concent": null,
@@ -82,6 +95,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": "(0.9%) 9",
             "concent": null,
@@ -93,45 +107,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F0D8F4FD-1834-4972-BBCC-DDA999F1EF96",
-            "approvedDocNo": "1120715763",
-            "approvedDate": "2023-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3E6F741F-DA9C-45D3-A8EE-9FFE3F068FC5",
-            "approvedDocNo": "1096014220",
-            "approvedDate": "2020-08-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F688BD72-B0D3-494F-BE84-786691A9E818",
-            "approvedDocNo": "1096010218",
-            "approvedDate": "2020-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "B05BB02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "B05BB01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "A78DE4CE-8BF1-49B4-BF11-6821333F7126"
 }

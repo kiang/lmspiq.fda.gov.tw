@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033959",
+    "licUnit": "1",
     "validDate": "2026-05-08 00:00:00.000",
     "issueDate": "1991-05-08 00:00:00.000",
+    "oriIssueDate": "1991-05-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": "C",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2476056E-F87F-44F3-B65C-0F51B4FCB8B0",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRIAZOLAM"
     ],
     "restraintItemsCode": [
-        "01",
-        "06",
-        "33"
+        "01 國 產",
+        "06 管制藥品",
+        "33 第三級管制藥品"
     ],
     "applicantName": "華興化學製藥廠股份有限公司",
     "applicantAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "FCF1C4D0-3EF5-4849-8AD9-34479EAAF835",
             "factoryCode": "1",
             "factoryName": "華興化學製藥廠股份有限公司",
             "factoryAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1203612300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824201700",
+            "ingredientsName": "TRIAZOLAM",
             "ingredientsDesc": "TRIAZOLAM",
             "concentDesc": "",
-            "concent": "0.2500",
+            "concent": "0.250000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -75,53 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E019017B-2A01-4790-8538-071D0088A575",
-            "approvedDocNo": "1110017857",
-            "approvedDate": "2022-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F8C6B6D5-434C-4D17-96ED-F61CC9CCDC82",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7928B6A0-AD35-4C65-9CA8-555F4503946E",
-            "approvedDocNo": "1100032643",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "10893C92-0049-4DD0-8E86-4585ADAA0E52",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CCFFB401-27D0-4753-BBD9-D135F8DAB683",
-            "approvedDocNo": "1076608858",
-            "approvedDate": "2019-01-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N05CD05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "A509410C-045B-46AE-8BCC-C4D43D949570"
 }

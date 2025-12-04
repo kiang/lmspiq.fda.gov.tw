@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01024775",
+    "licUnit": "1",
     "validDate": "2026-05-25 00:00:00.000",
     "issueDate": "1982-02-08 00:00:00.000",
+    "oriIssueDate": "1982-02-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102477502",
@@ -24,15 +27,18 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "91C5D0E0-5655-4115-8F5F-9BFCA3941FE2",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIBOFLAVIN (VIT B2)",
         "PROSULTIAMINE (THIAMINE PROPYL DISULFIDE)",
         "THIOCTIC ACID (VIT B14ALPHA-LIPOIC ACID)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "新喜國際企業股份有限公司",
     "applicantAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
@@ -44,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "825A48F1-0729-4DCF-A9BF-7C6C39E3F916",
             "factoryCode": "1",
             "factoryName": "正和製藥股份有限公司新營廠",
             "factoryAddr": "台南市新營區嘉芳里新工路２３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0505720300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810101500",
+            "ingredientsName": "PROSULTIAMINE (THIAMINE PROPYL DISULFIDE)",
             "ingredientsDesc": "PROSULTIAMINE (THIAMINE PROPYL DISULFIDE)",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,9 +98,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656900700",
+            "ingredientsName": "THIOCTIC ACID (VIT B14ALPHA-LIPOIC ACID)",
             "ingredientsDesc": "THIOCTIC ACID (VIT B14ALPHA-LIPOIC ACID)",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -96,41 +110,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6377EABC-0906-47A6-8436-50630CA732AF",
-            "approvedDocNo": "1120612959",
-            "approvedDate": "2024-02-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AF3A7DBB-E37F-477A-8CF5-B42250CE36B1",
-            "approvedDocNo": "1086800749",
-            "approvedDate": "2019-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A11JC"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A16AX01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11DA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "A202A0C6-4A60-4892-9050-C79987FDD508"
 }

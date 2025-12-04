@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01016439",
+    "licUnit": "1",
     "validDate": "2026-05-19 00:00:00.000",
     "issueDate": "1979-01-18 00:00:00.000",
+    "oriIssueDate": "1979-01-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101643903",
@@ -16,7 +20,7 @@
     "does": "1130",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         },
         {
@@ -27,6 +31,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C7400F00-9DC7-4AAF-ADE7-EF8C991BB58D",
+    "subCategory": [],
     "ingredientsDesc": [
         "POTASSIUM GUAIACOLSULFONATE",
         "NOSCAPINE",
@@ -35,8 +42,8 @@
         "METHYLEPHEDRINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "歐業藥品股份有限公司",
     "applicantAddr": "高雄市鳥松區松埔路11-10號",
@@ -48,28 +55,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "3F387A3E-32C0-494F-8CE7-9ECAFE79B7BE",
             "factoryCode": "1",
             "factoryName": "皇佳化學製藥股份有限公司",
             "factoryAddr": "高雄市鳥松區坔埔里埔安街1號",
-            "factoryCompanyAddr": "高雄市鳥松區埔安街1號",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0920322300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001010",
+            "ingredientsName": "DEXTROMETHORPHAN HBR",
             "ingredientsDesc": "DEXTROMETHORPHAN HBR",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -78,9 +91,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000610",
+            "ingredientsName": "CARBINOXAMINE MALEATE",
             "ingredientsDesc": "CARBINOXAMINE MALEATE",
             "concentDesc": "",
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -89,9 +103,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212001810",
+            "ingredientsName": "METHYLEPHEDRINE HCL",
             "ingredientsDesc": "METHYLEPHEDRINE HCL",
             "concentDesc": "",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -100,9 +115,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002400",
+            "ingredientsName": "NOSCAPINE",
             "ingredientsDesc": "NOSCAPINE",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -111,9 +127,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": "",
-            "concent": "90.0000",
+            "concent": "90.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "0",
@@ -122,41 +139,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3CA595A1-3F63-4AD7-ACA6-A7DE33C5576C",
-            "approvedDocNo": "1120004630",
-            "approvedDate": "2023-04-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "R05DA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AA08"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05DA07"
-        },
         {
             "isMain": "1",
             "atcCode": "R05FA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "FF1F9829-EAA5-4F8C-A0B3-C733C05D9A73"
 }

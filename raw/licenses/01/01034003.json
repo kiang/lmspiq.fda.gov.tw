@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01034003",
+    "licUnit": "1",
     "validDate": "2026-05-15 00:00:00.000",
     "issueDate": "1991-05-15 00:00:00.000",
+    "oriIssueDate": "1991-05-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103400307",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "04125FF6-BC5A-4793-84F3-D5984F54BF77",
+    "subCategory": [],
     "ingredientsDesc": [
         "QUINIDINE SULFATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "華盛頓製藥廠股份有限公司",
     "applicantAddr": "高雄市仁武區仁武里工業二路12號",
@@ -39,28 +46,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "D2A8B970-4EBD-4CE5-B3FF-303360F26DF7",
             "factoryCode": "1",
             "factoryName": "華盛頓製藥廠股份有限公司",
             "factoryAddr": "高雄市仁武區仁武里工業二路12號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1202822300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2404200730",
+            "ingredientsName": "QUINIDINE SULFATE",
             "ingredientsDesc": "QUINIDINE SULFATE",
             "concentDesc": "200",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -69,37 +82,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FE280F7D-77E8-40A1-A010-FCF0133303B8",
-            "approvedDocNo": "1100009322",
-            "approvedDate": "2021-07-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "00268B13-8C1C-42C8-9BEE-0106E8E3F218",
-            "approvedDocNo": "1100009454",
-            "approvedDate": "2021-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "060EE636-4F6F-4BBA-9357-CBF2436DFFA7",
-            "approvedDocNo": "1100009454",
-            "approvedDate": "2021-05-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C01BA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "C9066499-8088-462C-B4FC-9BF19AA9F7CE"
 }

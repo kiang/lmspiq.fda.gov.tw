@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057240",
+    "licUnit": "1",
     "validDate": "2027-06-04 00:00:00.000",
     "issueDate": "2012-06-04 00:00:00.000",
+    "oriIssueDate": "2012-06-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105724009",
     "prodNameC": "鈦能注射劑",
     "prodNameE": "Tynen Injection",
     "indicationsName": [
-        "1.乳癌2.非小細胞肺癌3.前列腺癌4.胃腺癌5.頭頸癌"
+        "１、乳癌\n- 與doxorubicin和cyclophosphamide併用適用於可手術切除具有淋巴結轉移及無淋巴結轉移的乳癌病人的術後輔助療法。對於可接受手術切除且無淋巴結轉移的乳癌病人，輔助療法僅限用於可接受化學治療的病人，該化療方式則是遵照國際標準對早期乳癌之主要治療方式。\n- 與doxorubicin併用適用局部晚期或轉移性乳癌且先前未曾接受過化學治療之病人。\n- 單獨使用，適用於治療局部晚期或轉移性且先前化學治療失敗之乳癌病人。\n- 與trastuzumab併用，可用於治療腫瘤HER2過度表現且先前未曾接受過化學治療的轉移性乳癌病人。\n- 與capecitabine併用於治療對先前化學治療(包括anthracycline)無效之局部晚期或轉移性乳癌病人。\n２、非小細胞肺癌\n- 與cisplatin併用適用於局部晚期或轉移性非小細胞肺癌，且先前未曾接受過化學治療之病人。Docetaxel與carboplatin併用為另一含鉑之治療選擇。\n- 適用於對先前接受含鉑化學治療失敗的局部晚期或轉移性之非小細胞肺癌。\n３、前列腺癌\n- 與prednisone或prednisolone併用適用於荷爾蒙治療無效之轉移性前列腺癌。\n- 與雄激素去除療法(ADT)併用 (不論是否併用prednisone或prednisolone)適用於荷爾蒙治療敏感性之轉移性前列腺癌。\n４、胃腺癌\n- 與oxaliplatin、leucovorin及5-fluorouracil (FLOT)併用適用於局部晚期胃腺癌(LAGC) (包括胃食道接合處之腺癌)病人的手術期間治療。\n- 與S-1併用適用於可手術切除、病理分期Stage III的LAGC(包括胃食道接合處之腺癌)病人之術後輔助治療。\n- 與cisplatin及5-fluorouracil併用適用於先前未曾接受過化學治療的晚期胃腺癌 (包括胃食道接合處之腺癌)病人。\n- 單藥治療適用於接受第一線全身性治療失敗後的晚期 (無法以手術切除) 胃腺癌 (包括胃食道接合處之腺癌) 病人。\n５、頭頸癌\n- 與cisplatin及5-fluorouracil併用適用於頭頸部局部進行性鱗狀細胞癌病人放射治療前的引導性化療。"
     ],
     "does": "2279",
     "packageUnit": [
@@ -27,13 +31,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "068D79E6-F3B4-4A80-848D-7504CE366577",
+    "subCategory": [],
     "ingredientsDesc": [
         "DOCETAXEL ANHYDROUS"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
-    "applicantName": "臺灣東洋藥品工業股份有限公司",
+    "applicantName": "台灣東洋藥品工業股份有限公司",
     "applicantAddr": "台北市南港區園區街3之1號3樓",
     "medClass": null,
     "efficacy": " ",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A9BEE13E-1D68-41DC-AD52-CE7ADF7CE26C",
             "factoryCode": "1",
-            "factoryName": "臺灣東洋藥品工業股份有限公司中壢廠",
+            "factoryName": "台灣東洋藥品工業股份有限公司中壢廠",
             "factoryAddr": "桃園市中壢區中華路一段８３８號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1406804300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000220",
+            "ingredientsName": "DOCETAXEL ANHYDROUS",
             "ingredientsDesc": "DOCETAXEL ANHYDROUS",
             "concentDesc": null,
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,45 +86,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CDD79EB2-29B7-4450-A565-E75E1E48B271",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "50D09C99-F8C3-45FB-A520-C48D78E0EDAD",
-            "approvedDocNo": "1106033757",
-            "approvedDate": "2022-03-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3768BB3B-43AE-44A1-8948-11A26A065529",
-            "approvedDocNo": "1086817834",
-            "approvedDate": "2020-04-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A3C2FB96-9B27-46DD-8A48-EBB8689B025A",
-            "approvedDocNo": "1086815319",
-            "approvedDate": "2019-12-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01CD02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "5FFE1190-9719-4B1B-A98E-A9EC0B7AE44B"
 }

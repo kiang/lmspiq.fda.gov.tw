@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12005438",
+    "licUnit": "1",
     "validDate": "2026-05-25 00:00:00.000",
     "issueDate": "1970-07-01 00:00:00.000",
+    "oriIssueDate": "1970-07-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01200543807",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "699B4B9F-8243-4397-9757-3A6E59819AAA",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORMEZANONE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "新喜國際企業股份有限公司",
     "applicantAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "909269DB-6B27-43B6-97B8-0D619124FDD1",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1220000400",
+            "ingredientsName": "CHLORMEZANONE",
             "ingredientsDesc": "CHLORMEZANONE",
             "concentDesc": "100",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,61 +83,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E4FD7137-0376-4E3E-946D-0F045BA16C23",
-            "approvedDocNo": "1096815348",
-            "approvedDate": "2021-01-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5176BD08-D237-4CAE-AA0D-74C283744EC8",
-            "approvedDocNo": "1096815348",
-            "approvedDate": "2021-01-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DA20C60E-FFA6-4E05-A552-F050FAB4817E",
-            "approvedDocNo": "1096815349",
-            "approvedDate": "2020-12-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "93AC6A80-CBE3-4714-AC4D-214DB658F701",
-            "approvedDocNo": "1096815349",
-            "approvedDate": "2020-12-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "21DAAFC6-BB9C-4AB9-952E-349526C10CBF",
-            "approvedDocNo": "1096815349",
-            "approvedDate": "2020-12-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C3A080F0-088C-4CFB-85A1-65FF667C8B00",
-            "approvedDocNo": "1096815349",
-            "approvedDate": "2020-12-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "M03BB02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8FF8959F-0101-472F-8545-15AA47AD7581"
 }

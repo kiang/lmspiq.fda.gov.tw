@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028082",
+    "licUnit": "1",
     "validDate": "2026-05-23 00:00:00.000",
     "issueDate": "2021-05-23 00:00:00.000",
+    "oriIssueDate": "2021-05-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202808201",
@@ -27,13 +31,19 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "536A9D5D-F8E4-43CC-8553-6D69DC3A4FED",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "avanafil"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "新加坡商美納里尼醫藥有限公司台灣分公司",
     "applicantAddr": "臺北市中山區民生東路3段2號9樓之2",
@@ -45,28 +55,34 @@
     "monitorDate": "2026-05-23",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "E30B0F02-0F2A-4B00-821D-EC3246F8555C",
             "factoryCode": "1",
             "factoryName": "Menarini-Von Heyden GmbH",
             "factoryAddr": "Leipziger Straβe 7-13, 01097 Dresden, Germany",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FDE0606000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200048000",
+            "ingredientsName": "avanafil",
             "ingredientsDesc": "avanafil",
             "concentDesc": "",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,45 +91,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "507CF233-DA89-4805-B381-3FC6A1BAEE96",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "99FDCC49-1865-4B51-AF57-490EEFE7A2DD",
-            "approvedDocNo": "1129049120",
-            "approvedDate": "2023-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F1D4C5B2-AF9D-4C13-823F-00FAB6A83D53",
-            "approvedDocNo": "1129049120",
-            "approvedDate": "2023-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "22E92A43-D497-42E1-BC85-01A8811219A6",
-            "approvedDocNo": "1129049120",
-            "approvedDate": "2023-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G04BE10"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "4FE3C1A8-B333-4318-B69A-1DB4787BDF11"
 }

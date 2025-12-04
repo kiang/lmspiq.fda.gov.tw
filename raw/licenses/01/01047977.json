@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047977",
+    "licUnit": "1",
     "validDate": "2026-05-09 00:00:00.000",
     "issueDate": "2006-05-09 00:00:00.000",
+    "oriIssueDate": "2006-05-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104797702",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0459CC64-F9DA-492D-A457-AA3E9237A14F",
+    "subCategory": [],
     "ingredientsDesc": [
         "FLUTICASONE PROPIONATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "24"
+        "01 國 產",
+        "1R 不得製造",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "羅得化學製藥股份有限公司",
     "applicantAddr": "台中市大甲區東西七路一段65號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "107D7D66-00BE-48DB-A363-3469430AE23F",
             "factoryCode": "1",
             "factoryName": "羅得化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區東西七路一段65號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1901510300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406002210",
+            "ingredientsName": "FLUTICASONE PROPIONATE",
             "ingredientsDesc": "FLUTICASONE PROPIONATE",
             "concentDesc": null,
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,37 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "701150C2-038A-412A-98EF-289FE5817746",
-            "approvedDocNo": "1110811840",
-            "approvedDate": "2022-10-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2C003949-7374-44AC-A64C-5EF20E94F475",
-            "approvedDocNo": "1110811840",
-            "approvedDate": "2022-10-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1D6EA7C3-1549-463B-A841-5B677436341F",
-            "approvedDocNo": "1106816182",
-            "approvedDate": "2021-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D07AC17"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "C9860A9B-DE80-481E-9390-AF1D78260A99"
 }

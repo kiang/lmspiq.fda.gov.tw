@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027341",
+    "licUnit": "1",
     "validDate": "2028-03-05 00:00:00.000",
     "issueDate": "2018-03-05 00:00:00.000",
+    "oriIssueDate": "2018-03-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202734107",
@@ -23,13 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "4D1B8D34-B459-4638-B1D4-E1ADB9464B60",
+    "subCategory": [
+        "A03"
+    ],
     "ingredientsDesc": [
         "TOLVAPTAN"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "1D"
+        "02 輸 入",
+        "07 新藥監視",
+        "1D 須執行風險管理計畫"
     ],
     "applicantName": "台灣大塚製藥股份有限公司",
     "applicantAddr": "台北市中山區復興北路378號11樓",
@@ -41,8 +50,11 @@
     "monitorDate": "2023-03-05",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "ABF25A36-9ABF-4534-AECF-78836AD93CBB",
             "factoryCode": "1",
             "factoryName": "OTSUKA PHARMACEUTICAL CO., LTD. TOKUSHIMA ITANO FACTORY",
             "factoryAddr": "13 MINAMI, SHISHITOKI, MATSUTANI ITANO-CHO, ITANO-GUN, TOKUSHIMA, 779-0195, JAPAN",
@@ -53,13 +65,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0537000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "EAF3A1CA-B263-4C2C-9B3E-0CA00B77EFF0",
             "factoryCode": "2",
             "factoryName": "台灣大塚製藥股份有限公司中壢工廠",
             "factoryAddr": "桃園市中壢區吉林路１５號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -71,13 +86,16 @@
             "factoryKind": "M",
             "factoryNo": "1403304200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B0A1A18B-22AF-46FE-ACA3-327CA05A80F3",
             "factoryCode": "2",
             "factoryName": "ANDERSONBRECON (UK) LTD",
             "factoryAddr": "UNITS 2-7, WYE VALLEY BUSINESS PARK, BRECON ROAD, HAY-ON-WYE, HEREFORD, HEREFORDSHIRE, HR3 5PG, UNITED KINGDOM",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GB",
             "processCode": [
                 {
@@ -89,16 +107,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0219100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200095900",
+            "ingredientsName": "TOLVAPTAN",
             "ingredientsDesc": "TOLVAPTAN",
             "concentDesc": "",
-            "concent": "15.000",
+            "concent": "15.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -107,69 +128,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CF0C477E-FCD0-42AB-8453-8D1AACAB2EDA",
-            "approvedDocNo": "1106035986",
-            "approvedDate": "2022-04-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AA69EE6B-398F-4BFD-A822-A1F1B2F9EC11",
-            "approvedDocNo": "1106030649",
-            "approvedDate": "2022-01-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7C4A9EA0-2EC8-40D8-8564-B091B22A25A5",
-            "approvedDocNo": "1081491041",
-            "approvedDate": "2019-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "94CADC12-D685-47BB-8A5D-EFF39CF06E41",
-            "approvedDocNo": "1081491041",
-            "approvedDate": "2019-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "93351B69-460B-4E1C-849A-425919345D6C",
-            "approvedDocNo": "1081491041",
-            "approvedDate": "2019-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3ACC9D42-4664-4F87-9147-6869A8354C6F",
-            "approvedDocNo": "1081491041",
-            "approvedDate": "2019-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "13E7D6EA-3DE9-4DD8-9808-7959F44EB67B",
-            "approvedDocNo": "1076808346",
-            "approvedDate": "2019-04-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C03XA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "B5FE9E4D-7FDA-4E46-9D56-E2A3B2F7F298"
 }

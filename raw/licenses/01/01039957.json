@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039957",
+    "licUnit": "1",
     "validDate": "2026-05-03 00:00:00.000",
     "issueDate": "1996-05-03 00:00:00.000",
+    "oriIssueDate": "1996-05-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103995700",
@@ -23,13 +27,16 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DD08341D-8329-42BE-A8C3-72C7C8355346",
+    "subCategory": [],
     "ingredientsDesc": [
         "MECLIZINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "正長生化學製藥股份有限公司",
     "applicantAddr": "彰化縣和美鎮彰美路二段６號",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "3C47DB02-C1CD-4D65-8308-89F9C62180CC",
             "factoryCode": "1",
             "factoryName": "長安化學工業股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路19號、19-1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0814912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400002600",
+            "ingredientsName": "MECLIZINE",
             "ingredientsDesc": "MECLIZINE",
             "concentDesc": "25",
-            "concent": "25.0000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,21 +84,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EFBF3BC8-ADF9-4984-B527-291171FC5CFA",
-            "approvedDocNo": "1101491520",
-            "approvedDate": "2021-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R06AE05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "5C4316A7-501B-42F7-80C5-EA4753ECFBB1"
 }

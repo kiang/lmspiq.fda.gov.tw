@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059079",
+    "licUnit": "1",
     "validDate": "2026-05-03 00:00:00.000",
     "issueDate": "2016-05-03 00:00:00.000",
+    "oriIssueDate": "2016-05-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105907905",
@@ -26,13 +30,18 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "0C704E86-FAF5-4F9A-8C3A-2E69C7BEF25B",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "DICLOFENAC DIETHYLAMINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "顏玉瑩和興化工廠有限公司",
     "applicantAddr": "台南市佳里區延平街351號6樓之2",
@@ -44,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "1BF1DDB2-F085-49D1-BD3C-A9285715E202",
             "factoryCode": "1",
             "factoryName": "衛達化學製藥股份有限公司",
             "factoryAddr": "台中市南屯區寶山里工業區２３路２１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1605609300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808408440",
+            "ingredientsName": "DICLOFENAC DIETHYLAMINE",
             "ingredientsDesc": "DICLOFENAC DIETHYLAMINE",
             "concentDesc": "(eq. to Diclofenac sodium.....10mg)",
-            "concent": "11.600",
+            "concent": "11.600000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,5 +96,6 @@
             "atcCode": "M02AA15"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "3B7B7BFF-6659-4AAB-8F1D-97255E3A8BB4"
 }

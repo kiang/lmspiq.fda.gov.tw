@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-07-15",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "52026198",
+    "licUnit": "1",
     "validDate": "2028-11-18 00:00:00.000",
     "issueDate": "2013-11-18 00:00:00.000",
+    "oriIssueDate": "2013-11-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202619800",
@@ -23,12 +29,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EF18DB46-01B4-4511-AA2B-0842C852D003",
+    "subCategory": [],
     "ingredientsDesc": [
         "BICALUTAMIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "香港商梯瓦藥業有限公司台灣分公司",
     "applicantAddr": "台北市中正區忠孝東路二段116號10樓",
@@ -40,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "D1A52524-CB60-4097-8B12-EBBEC0CAD347",
             "factoryCode": "1",
             "factoryName": "TEVA PHARMACEUTICAL INDUSTRIES LTD.",
             "factoryAddr": "18, ELI HURVITZ STREET, INDUSTRIAL ZONE, KFAR SABA 4410202, ISRAEL",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IL",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIL0037000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6808400300",
+            "ingredientsName": "BICALUTAMIDE",
             "ingredientsDesc": "BICALUTAMIDE",
             "concentDesc": "",
-            "concent": "50.000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,37 +86,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BDBB6EDA-1C09-402F-A74B-7B639DC7AF53",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-09-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DE322D82-B366-410D-B5C7-5362BC64F585",
-            "approvedDocNo": "1110706113",
-            "approvedDate": "2022-04-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "722754E7-25F0-40AE-AE28-D586C04DB01A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L02BB03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "ACD72374-D6A9-466D-A9F8-7B77BB3A2913"
 }

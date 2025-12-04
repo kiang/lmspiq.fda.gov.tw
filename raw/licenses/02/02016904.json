@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02016904",
+    "licUnit": "1",
     "validDate": "2028-11-02 00:00:00.000",
     "issueDate": "2013-11-02 00:00:00.000",
+    "oriIssueDate": "1993-11-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201690408",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "1F8C6DE2-6F69-4710-85B3-C8F729A4E2D7",
+    "subCategory": [],
     "ingredientsDesc": [
         "VALPROIC ACID"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "吉富貿易有限公司",
     "applicantAddr": "台北市內湖區行愛路77巷69號7樓",
@@ -40,8 +47,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "134A2D87-A714-4C1F-BF0C-560F133476C9",
             "factoryCode": "1",
             "factoryName": "Catalent Germany Eberbach GmbH ",
             "factoryAddr": "GAMMELSBACHER STRASSE 2, 69412 EBERBACH, GERMANY",
@@ -52,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0157000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "DE42C6E3-3A49-4B2B-89A5-98BBAEE2FA51",
             "factoryCode": "2",
             "factoryName": "G.L. Pharma GmbH",
             "factoryAddr": "Industriestrasse 1, A-8502 Lannach, Austria",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "AT",
             "processCode": [
                 {
@@ -70,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "FAT0046000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812001300",
+            "ingredientsName": "VALPROIC ACID",
             "ingredientsDesc": "VALPROIC ACID",
             "concentDesc": "",
-            "concent": "150.0000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -88,53 +104,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2F654E50-ACCB-4245-815E-8C150A910981",
-            "approvedDocNo": "1120710006",
-            "approvedDate": "2023-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D7CA9E00-82C3-4958-92F1-841AED519F56",
-            "approvedDocNo": "1096019241",
-            "approvedDate": "2020-09-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FC98771B-FD9A-48E0-BBCE-950C5CEAB083",
-            "approvedDocNo": "1086019517",
-            "approvedDate": "2019-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6DB38A27-742B-4F87-A7E0-87C4BD17F5BF",
-            "approvedDocNo": "1076044726",
-            "approvedDate": "2019-05-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D24079B8-4778-44C2-877E-70B54C2234E8",
-            "approvedDocNo": "1076044726",
-            "approvedDate": "2019-05-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N03AG01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "33993B55-E37E-425C-B15F-DE33698F6D0D"
 }

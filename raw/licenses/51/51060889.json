@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060889",
+    "licUnit": "1",
     "validDate": "2026-05-21 00:00:00.000",
     "issueDate": "2021-05-21 00:00:00.000",
+    "oriIssueDate": "2021-05-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106088901",
@@ -31,13 +35,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "BAD1DCBF-685D-48E7-80FC-B7B955930082",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "DULOXETINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "62"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "62 完成溶離率試驗"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -49,28 +58,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A5B8155E-B3E2-4C2C-BFFE-5C7C8FF80E94",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816402110",
+            "ingredientsName": "DULOXETINE HYDROCHLORIDE",
             "ingredientsDesc": "DULOXETINE HYDROCHLORIDE",
             "concentDesc": "(eq. to Duloxetine.....60mg)",
-            "concent": "67.400",
+            "concent": "67.400000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -79,29 +94,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "06A95596-DB08-4E8D-9DA3-03AB71367D84",
-            "approvedDocNo": "1110806945",
-            "approvedDate": "2022-11-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "43EFA253-A110-447F-8281-15E3C98CB49E",
-            "approvedDocNo": "1110806945",
-            "approvedDate": "2022-11-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N06AX21"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "93A32405-8577-4D1B-8EA0-7FA19E717CDB"
 }

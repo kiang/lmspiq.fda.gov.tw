@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047983",
+    "licUnit": "1",
     "validDate": "2026-05-17 00:00:00.000",
     "issueDate": "2006-05-17 00:00:00.000",
+    "oriIssueDate": "2006-05-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104798300",
@@ -31,13 +35,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A92FD64D-44FE-468D-BC17-40893962750D",
+    "subCategory": [],
     "ingredientsDesc": [
         "CEFEPIME HCL (EQ TO CEFEPIME)",
         "CEFEPIME HCL (EQ TO CEFEPIME)"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "生達化學製藥股份有限公司",
     "applicantAddr": "台南市新營區土庫里土庫6之20號",
@@ -49,28 +56,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "C7BD334B-E211-4282-990A-381D2E4FA1FA",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司",
             "factoryAddr": "台南市新營區土庫里土庫6之20號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0510620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812302940",
+            "ingredientsName": "CEFEPIME HCL (EQ TO CEFEPIME)",
             "ingredientsDesc": "CEFEPIME HCL (EQ TO CEFEPIME)",
             "concentDesc": "",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -79,9 +92,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812302940",
+            "ingredientsName": "CEFEPIME HCL (EQ TO CEFEPIME)",
             "ingredientsDesc": "CEFEPIME HCL (EQ TO CEFEPIME)",
             "concentDesc": "",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "2",
@@ -90,41 +104,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7C103363-36BA-4E4C-825F-F177E1181284",
-            "approvedDocNo": "1106607496",
-            "approvedDate": "2021-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D79B6A98-60D3-4D3A-8BAD-88257232F580",
-            "approvedDocNo": "1106600121",
-            "approvedDate": "2021-06-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "17A097C7-31AC-4DDC-B76C-732440667BC2",
-            "approvedDocNo": "1081412325",
-            "approvedDate": "2019-12-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J01DE01"
-        },
         {
             "isMain": "1",
             "atcCode": "J01DE01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "5297A004-4355-4A6E-BD9A-9C8497A618AD"
 }

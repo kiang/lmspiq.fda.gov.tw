@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047717",
+    "licUnit": "1",
     "validDate": "2026-05-09 00:00:00.000",
     "issueDate": "2011-05-09 00:00:00.000",
+    "oriIssueDate": "2006-01-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104771702",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E01A5C23-AEFA-4E8A-8ECF-B0FCB9B207C8",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEXAMETHASONE SODIUM PHOSPHATE",
         "NEOMYCIN SULFATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "E9F608A8-718A-4018-B127-DDB404C30C1E",
             "factoryCode": "1",
             "factoryName": "景德製藥股份有限公司桃園廠",
             "factoryAddr": "桃園市蘆竹區內厝里長安路一段80號、蘆竹市長安路一段148號2樓至7樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6132051397",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812100530",
+            "ingredientsName": "NEOMYCIN SULFATE",
             "ingredientsDesc": "NEOMYCIN SULFATE",
             "concentDesc": "(POTENCY)",
-            "concent": "3.5000",
+            "concent": "3.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -70,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000640",
+            "ingredientsName": "DEXAMETHASONE SODIUM PHOSPHATE",
             "ingredientsDesc": "DEXAMETHASONE SODIUM PHOSPHATE",
             "concentDesc": "",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,53 +95,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D8CB5C51-9F7C-4F58-B5FB-70BC3AD82860",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D56A7AFD-6E16-4DE4-8C89-8278ADC4A297",
-            "approvedDocNo": "1076047535",
-            "approvedDate": "2019-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF3883DA-3E76-4CC7-89C5-EB3E101E083B",
-            "approvedDocNo": "1076047535",
-            "approvedDate": "2019-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A2958D32-0D17-42E3-81D1-265AC427E5F8",
-            "approvedDocNo": "1076047535",
-            "approvedDate": "2019-06-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AA03"
-        },
         {
             "isMain": "1",
             "atcCode": "S01CA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "072A8070-D245-4127-95BC-780CECBB6E1D"
 }

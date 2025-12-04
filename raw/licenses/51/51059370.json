@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059370",
+    "licUnit": "1",
     "validDate": "2026-11-08 00:00:00.000",
     "issueDate": "2016-11-08 00:00:00.000",
+    "oriIssueDate": "2016-11-08",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105937002",
@@ -27,11 +31,15 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9C2D2FBF-1D70-4BAA-AEFB-E2B07BFF438B",
+    "subCategory": [],
     "ingredientsDesc": [
         "SPIRONOLACTONE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "大豐製藥股份有限公司",
     "applicantAddr": "彰化縣彰化市延平里岸頭巷11號",
@@ -43,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "70F1E5AE-8084-4DEB-A36A-F46E2F098B0C",
             "factoryCode": "1",
             "factoryName": "大豐製藥股份有限公司",
             "factoryAddr": "彰化市延平里岸頭巷１１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0306811300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028001800",
+            "ingredientsName": "SPIRONOLACTONE",
             "ingredientsDesc": "SPIRONOLACTONE",
             "concentDesc": "",
-            "concent": "25.000",
+            "concent": "25.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,85 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "CDD34F8C-AF7E-49EA-BE18-3E0C8A05D11E",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "51D9953F-9624-4560-B864-2B13C8D60611",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "094B18C9-E09A-47FA-93C2-5CE3E702A02B",
-            "approvedDocNo": "1076613697",
-            "approvedDate": "2019-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D3BC70E4-3000-4C87-87D9-73FB90E12BD7",
-            "approvedDocNo": "1076613697",
-            "approvedDate": "2019-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "47568B97-E973-4E4F-8872-9D244AF6EFE4",
-            "approvedDocNo": "1076613697",
-            "approvedDate": "2019-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2B97D78F-8583-47AD-8543-B6B79E5080A4",
-            "approvedDocNo": "1076613697",
-            "approvedDate": "2019-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E046F9E9-A7C9-4C6F-BC82-D4AD9620D0D6",
-            "approvedDocNo": "1076613697",
-            "approvedDate": "2019-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D0BACE77-C490-46B1-8230-FCF4772144A1",
-            "approvedDocNo": "1076613697",
-            "approvedDate": "2019-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "967F357E-E9DB-4447-9D6A-3420C980C100",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-03-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C03DA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "90993BF4-760E-4D36-AE2F-77BE7141EC22"
 }

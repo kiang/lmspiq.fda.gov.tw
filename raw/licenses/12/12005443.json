@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12005443",
+    "licUnit": "1",
     "validDate": "2026-05-25 00:00:00.000",
     "issueDate": "1970-07-01 00:00:00.000",
+    "oriIssueDate": "1970-07-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY01200544300",
@@ -23,14 +27,17 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "773526AA-5596-4427-A8CF-AEF1F3A4114D",
+    "subCategory": [],
     "ingredientsDesc": [
         "DICYCLOMINE HCL",
         "ALUMINUM HYDROXIDE DRIED GEL",
         "MAGNESIUM OXIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "新喜國際企業股份有限公司",
     "applicantAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
@@ -42,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "9120B680-0681-4600-89E4-D393E2F62546",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208001810",
+            "ingredientsName": "DICYCLOMINE HCL",
             "ingredientsDesc": "DICYCLOMINE HCL",
             "concentDesc": "2.5",
-            "concent": "2.500",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000202",
+            "ingredientsName": "ALUMINUM HYDROXIDE DRIED GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE DRIED GEL",
             "concentDesc": "150",
-            "concent": "150.000",
+            "concent": "150.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612001300",
+            "ingredientsName": "MAGNESIUM OXIDE",
             "ingredientsDesc": "MAGNESIUM OXIDE",
             "concentDesc": "100",
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -99,19 +114,8 @@
         {
             "isMain": "1",
             "atcCode": "A02AG"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03AA07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "D8B5FA0D-A031-461C-BA08-3E2DA3D15B42"
 }

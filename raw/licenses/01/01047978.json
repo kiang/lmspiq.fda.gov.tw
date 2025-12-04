@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047978",
+    "licUnit": "1",
     "validDate": "2026-05-09 00:00:00.000",
     "issueDate": "2006-05-09 00:00:00.000",
+    "oriIssueDate": "2006-05-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104797804",
@@ -22,13 +26,18 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "751C0A81-257C-44EA-B53D-199A04165FD3",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
-        "THIOGLYCOLLATE CALCIUM TRIHYDRATE (EQ TO CALCIUM THIOGLYCOLLATE TRIHYDRATE )"
+        "THIOGLYCOLATE CALCIUM TRIHYDRATE (EQ TO CALCIUM THIOGLYCOLATE TRIHYDRATE )"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "寶齡富錦生技股份有限公司",
     "applicantAddr": "臺北市南港區園區街3號16樓",
@@ -40,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "C5F6731D-85BE-4F3D-A347-DE14F7270D61",
             "factoryCode": "1",
             "factoryName": "寶齡富錦生技股份有限公司平鎮廠",
             "factoryAddr": "桃園市平鎮區興隆路２６６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "2001304300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600035225",
+            "ingredientsName": "THIOGLYCOLATE CALCIUM TRIHYDRATE (EQ TO CALCIUM THIOGLYCOLATE TRIHYDRATE )",
             "ingredientsDesc": "THIOGLYCOLLATE CALCIUM TRIHYDRATE (EQ TO CALCIUM THIOGLYCOLLATE TRIHYDRATE )",
             "concentDesc": "",
-            "concent": "75.0000",
+            "concent": "75.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,5 +92,6 @@
             "atcCode": "D11AX"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "A1F335D1-05F5-4854-9C0A-97BB0FC91BBA"
 }

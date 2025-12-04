@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01035814",
+    "licUnit": "1",
     "validDate": "2027-10-13 00:00:00.000",
     "issueDate": "1992-10-13 00:00:00.000",
+    "oriIssueDate": "1992-10-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103581400",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0B21FEE9-C9BB-4F09-B74A-0BA5A74BBA4B",
+    "subCategory": [],
     "ingredientsDesc": [
         "BETAMETHASONE DIPROPIONATE",
         "CLOTRIMAZOLE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "約克製藥股份有限公司",
     "applicantAddr": "雲林縣斗六市榴中里復興路3號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "F8EF60A1-EBA1-4934-A2DE-84896E226210",
             "factoryCode": "1",
             "factoryName": "約克製藥股份有限公司",
             "factoryAddr": "雲林縣斗六市榴中里復興路3號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6139011104",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000220",
+            "ingredientsName": "BETAMETHASONE DIPROPIONATE",
             "ingredientsDesc": "BETAMETHASONE DIPROPIONATE",
             "concentDesc": "0.5",
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404800400",
+            "ingredientsName": "CLOTRIMAZOLE",
             "ingredientsDesc": "CLOTRIMAZOLE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -85,117 +99,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7329299E-5F07-4F17-9B03-06E6A446B017",
-            "approvedDocNo": "1110017069",
-            "approvedDate": "2022-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C5FCA07A-C0A9-45A7-B0F7-8677866B4FC3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "28A0C887-CE4A-4E91-B646-763DA6039624",
-            "approvedDocNo": "1096611767",
-            "approvedDate": "2021-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68721C29-E727-4D62-AEF3-0BD555184766",
-            "approvedDocNo": "1096611767",
-            "approvedDate": "2021-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "66738D54-8AC9-4482-93AD-15D789267692",
-            "approvedDocNo": "1096611767",
-            "approvedDate": "2021-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7EE78D7A-6233-4CB6-8406-1671158CFF52",
-            "approvedDocNo": "1096611767",
-            "approvedDate": "2021-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "21D0AA92-AB8F-451E-99E7-D53670C98630",
-            "approvedDocNo": "1096611767",
-            "approvedDate": "2021-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1830EF13-011E-466C-85A9-E71B902C1141",
-            "approvedDocNo": "1096611767",
-            "approvedDate": "2021-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "45CA8E69-1CE8-4A5F-836B-401B9AF41D00",
-            "approvedDocNo": "1076612041",
-            "approvedDate": "2019-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E6A25C6B-761F-4926-8F45-7743C85075C9",
-            "approvedDocNo": "1076612041",
-            "approvedDate": "2019-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AEEBF858-E587-4F26-9CDC-A025330A3E29",
-            "approvedDocNo": "1076612041",
-            "approvedDate": "2019-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C70AA0FB-8B5A-4A5C-B80B-B783D05ECA8C",
-            "approvedDocNo": "1076612041",
-            "approvedDate": "2019-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D01AC20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AC01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "52AB1E13-177E-4CE4-AE73-B9D569ED4EA3"
 }

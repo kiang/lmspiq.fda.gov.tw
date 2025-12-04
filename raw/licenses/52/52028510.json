@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028510",
+    "licUnit": "1",
     "validDate": "2028-07-13 00:00:00.000",
     "issueDate": "2023-07-13 00:00:00.000",
+    "oriIssueDate": "2023-07-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202851009",
     "prodNameC": "謀敏態鼻用噴液劑",
     "prodNameE": "MOMATE NASAL SPRAY (Mometasone Furoate Monohydrate Nasal Spray 50mcg)",
     "indicationsName": [
-        "成人青少年及二歲以上兒童之季節性或常年性過敏性鼻炎。亦用於治療18歲及以上成人輕度到中度鼻息肉之相關症狀。"
+        "暫時緩解18歲以上成年人經醫師診斷之過敏性鼻炎或其他上呼吸道過敏相關症狀：鼻塞、流鼻水、打噴嚏、鼻搔癢、眼睛癢、流眼淚。"
     ],
     "does": "4404",
     "packageUnit": [
@@ -24,16 +28,21 @@
             "packageUnit": "01"
         }
     ],
-    "medMCode": "06",
+    "medMCode": "17",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "54AA1D04-6F31-4A5B-927E-6572DE395BED",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "MOMETASONE FUROATE MONOHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24",
-        "61"
+        "02 輸 入",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "吉富貿易有限公司",
     "applicantAddr": "臺北市內湖區行愛路77巷69號7樓",
@@ -45,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "A5B1C71C-023C-4B90-AE30-F6B215AF4B7C",
             "factoryCode": "1",
             "factoryName": "GLENMARK PHARMACEUTICALS LIMITED ",
             "factoryAddr": "KISHANPURA, BADDI NALAGARH ROAD, SOLAN, HIMACHAL PRADESH-173205 INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0988000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804002340",
+            "ingredientsName": "MOMETASONE FUROATE MONOHYDRATE",
             "ingredientsDesc": "MOMETASONE FUROATE MONOHYDRATE",
             "concentDesc": "(eq. to Mometasone Furoate Anhydrous.....0.05mg)",
-            "concent": "0.052",
+            "concent": "0.052000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -82,5 +97,6 @@
             "atcCode": "R01AD09"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "151C9A2E-38C2-4478-AA00-FB254BA10B9D"
 }

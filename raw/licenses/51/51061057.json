@@ -3,9 +3,12 @@
     "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51061057",
+    "licUnit": "1",
     "validDate": "2027-01-18 00:00:00.000",
     "issueDate": "2022-01-18 00:00:00.000",
+    "oriIssueDate": "2022-01-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106105700",
@@ -28,13 +31,19 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "C732C7CD-F37F-4AED-AF80-7282FE211FBA",
+    "subCategory": [
+        "B03"
+    ],
     "ingredientsDesc": [
+        "SENNOSIDE",
         "BISACODYL",
-        "DIOCTYL SODIUM SULFOSUCCINATE(AEROSOL OT)",
-        "SENNOSIDE"
+        "DIOCTYL SODIUM SULFOSUCCINATE(AEROSOL OT)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "天下生物科技股份有限公司",
     "applicantAddr": "臺中市大甲區工九路9號",
@@ -46,28 +55,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "EF385DFC-FAFE-4BC5-8777-69066AB34258",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612000400",
+            "ingredientsName": "BISACODYL",
             "ingredientsDesc": "BISACODYL",
             "concentDesc": "",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +91,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612000900",
+            "ingredientsName": "DIOCTYL SODIUM SULFOSUCCINATE(AEROSOL OT)",
             "ingredientsDesc": "DIOCTYL SODIUM SULFOSUCCINATE(AEROSOL OT)",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,9 +103,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5612002500",
+            "ingredientsName": "SENNOSIDE",
             "ingredientsDesc": "SENNOSIDE",
             "concentDesc": "Sennosides",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -98,33 +115,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DE75C0D7-6385-4E80-8BD7-0C2F8615CDF0",
-            "approvedDocNo": "1120608278",
-            "approvedDate": "2024-02-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A06AB06"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A06AA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A06AB02"
-        },
         {
             "isMain": "1",
             "atcCode": "A06AB20"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "1568F8C8-969D-4F2E-ACEB-E29D699D5346"
 }

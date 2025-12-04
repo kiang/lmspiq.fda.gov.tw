@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12004135",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1970-06-04 00:00:00.000",
+    "oriIssueDate": "1970-06-04",
     "licKind": "02",
     "oldLicid": "17003275",
     "certNo": "DHY01200413500",
@@ -31,13 +35,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C502D4F9-6A37-44A6-B7DE-749E6D19AEE9",
+    "subCategory": [],
     "ingredientsDesc": [
         "DEXTROSE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
-    "applicantName": "永豐化學工業股份有限公司",
+    "applicantName": "永豐製藥股份有限公司",
     "applicantAddr": "新北市新莊區新樹路２９２號",
     "medClass": null,
     "efficacy": " ",
@@ -47,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "21833663-3C56-43BF-A82C-A41FA0CDEB85",
             "factoryCode": "1",
             "factoryName": "永豐化學工業股份有限公司新莊工廠",
             "factoryAddr": "新北市新莊區新樹路２９２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0504302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020000500",
+            "ingredientsName": "DEXTROSE",
             "ingredientsDesc": "DEXTROSE",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.000000",
             "concentUnit": "002",
             "seq": "0",
             "prescription_seq": "1",
@@ -77,45 +90,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0999E3FE-D074-4280-9443-B86FC05560EF",
-            "approvedDocNo": "1120703938",
-            "approvedDate": "2023-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8A6384E4-4424-4142-98AB-F73EDA496912",
-            "approvedDocNo": "1120703938",
-            "approvedDate": "2023-02-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "56652DCB-F615-4319-9B97-33C6AC162DC6",
-            "approvedDocNo": "1096014226",
-            "approvedDate": "2020-09-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "02DDAC13-60D2-4677-BC4D-FB617CC622D9",
-            "approvedDocNo": "1096010223",
-            "approvedDate": "2020-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "B05BA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "26DEDFA6-7519-4927-A6BD-DB15F4B0E45E"
 }

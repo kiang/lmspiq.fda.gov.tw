@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01015845",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1978-11-08 00:00:00.000",
+    "oriIssueDate": "1978-11-08",
     "licKind": "02",
     "oldLicid": "00000000",
     "certNo": "DHY00101584509",
@@ -27,14 +31,17 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "ACE74719-FA71-4650-90F4-F9BFB27DF95D",
+    "subCategory": [],
     "ingredientsDesc": [
         "PENICILLIN G SODIUM ( EQ TO BENZYLPENICILLIN SODIUM)",
         "PENICILLIN G SODIUM ( EQ TO BENZYLPENICILLIN SODIUM)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
-    "applicantName": "永豐化學工業股份有限公司",
+    "applicantName": "永豐製藥股份有限公司",
     "applicantAddr": "新北市新莊區新樹路２９２號",
     "medClass": null,
     "efficacy": " ",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "AA3AB836-ED1C-4FE2-88FE-A4ACD5CC3C80",
             "factoryCode": "1",
             "factoryName": "永豐化學工業股份有限公司新莊工廠",
             "factoryAddr": "新北市新莊區新樹路２９２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0504302300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812601650",
+            "ingredientsName": "PENICILLIN G SODIUM ( EQ TO BENZYLPENICILLIN SODIUM)",
             "ingredientsDesc": "PENICILLIN G SODIUM ( EQ TO BENZYLPENICILLIN SODIUM)",
             "concentDesc": " ",
-            "concent": "10000000.0000",
+            "concent": "10000000.000000",
             "concentUnit": "200",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812601650",
+            "ingredientsName": "PENICILLIN G SODIUM ( EQ TO BENZYLPENICILLIN SODIUM)",
             "ingredientsDesc": "PENICILLIN G SODIUM ( EQ TO BENZYLPENICILLIN SODIUM)",
             "concentDesc": "",
-            "concent": "3000000.0000",
+            "concent": "3000000.000000",
             "concentUnit": "200",
             "seq": "2",
             "prescription_seq": "1",
@@ -85,25 +99,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "471FC3AC-E7F1-4E55-B818-A72B3588ED2C",
-            "approvedDocNo": "1096603000",
-            "approvedDate": "2020-03-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01CE09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CE09"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "35FD317B-9BEE-4EF6-9DB6-39EA4B7CCB77"
 }

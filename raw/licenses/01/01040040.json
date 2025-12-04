@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040040",
+    "licUnit": "1",
     "validDate": "2026-05-31 00:00:00.000",
     "issueDate": "1996-05-31 00:00:00.000",
+    "oriIssueDate": "1996-05-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104004002",
@@ -27,13 +31,16 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5CDC8CAF-098A-47E7-9AEA-F8E1A4676EF0",
+    "subCategory": [],
     "ingredientsDesc": [
         "SIMETHICONE EMULSION"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "聯邦化學製藥股份有限公司",
     "applicantAddr": "台北市內湖區瑞光路26巷36弄2號5樓",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "72109E84-7024-4F67-984D-9A25DF2DBD2E",
             "factoryCode": "1",
             "factoryName": "晟德大藥廠股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉實踐路2號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1013806300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000680",
+            "ingredientsName": "SIMETHICONE EMULSION",
             "ingredientsDesc": "SIMETHICONE EMULSION",
             "concentDesc": "40",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,37 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E482D7D7-E424-4206-A4D7-E1878D0B2CB5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F2C01B44-9B6C-4B15-B91F-7B202CE81E0D",
-            "approvedDocNo": "1091493124",
-            "approvedDate": "2020-10-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "219934B1-1A6D-43E7-87E9-414C1D0EF43E",
-            "approvedDocNo": "1081491914",
-            "approvedDate": "2019-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A03AX13"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "1A5B0308-6DE8-4F6A-BA6E-B1D52199E61B"
 }

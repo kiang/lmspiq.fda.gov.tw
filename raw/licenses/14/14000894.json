@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "14000894",
+    "licUnit": "1",
     "validDate": "2026-05-19 00:00:00.000",
     "issueDate": "1970-09-11 00:00:00.000",
+    "oriIssueDate": "1970-09-11",
     "licKind": "02",
     "oldLicid": "14000466",
     "certNo": "DHY01400089401",
@@ -16,22 +20,25 @@
     "does": "1184",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "03",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "69DEC2B3-69C8-4907-BEAB-8AD7BB0130B6",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAFFEINE",
         "QUININE SULFATE",
         "SODIUM HYPOPHOSPHITE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "恆信藥品有限公司",
     "applicantAddr": "台北市松山區復興北路1號6樓之6",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "624AACF4-65CC-45D5-B1D9-202EF018C414",
             "factoryCode": "1",
             "factoryName": "健康化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區幼獅工業區幼四路１２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012004000",
+            "ingredientsName": "SODIUM HYPOPHOSPHITE",
             "ingredientsDesc": "SODIUM HYPOPHOSPHITE",
             "concentDesc": "0.34",
-            "concent": "0.340",
+            "concent": "0.340000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000400",
+            "ingredientsName": "CAFFEINE",
             "ingredientsDesc": "CAFFEINE",
             "concentDesc": "0.099",
-            "concent": "0.099",
+            "concent": "0.099000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,9 +98,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0820000630",
+            "ingredientsName": "QUININE SULFATE",
             "ingredientsDesc": "QUININE SULFATE",
             "concentDesc": "0.002",
-            "concent": "0.002",
+            "concent": "0.002000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "1",
@@ -98,21 +113,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
             "isMain": "1",
             "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "A019DC97-0BB0-4F60-AA2A-F4D3FD822885"
 }

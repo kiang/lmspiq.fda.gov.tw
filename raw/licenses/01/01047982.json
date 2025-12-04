@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01047982",
+    "licUnit": "1",
     "validDate": "2026-05-17 00:00:00.000",
     "issueDate": "2006-05-17 00:00:00.000",
+    "oriIssueDate": "2006-05-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104798208",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2143ACCA-7FE8-4B97-8A7B-E91ABE15A92D",
+    "subCategory": [],
     "ingredientsDesc": [
         "GABAPENTIN"
     ],
     "restraintItemsCode": [
-        "01",
-        "25",
-        "61"
+        "01 國 產",
+        "25 監視中學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "瑩碩生技醫藥股份有限公司",
     "applicantAddr": "台北市中山區南京東路二段206號8樓之3",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "F7207A0E-B5A5-4AE2-8464-7F45850B6FCB",
             "factoryCode": "1",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉光復路1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133061413",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812001700",
+            "ingredientsName": "GABAPENTIN",
             "ingredientsDesc": "GABAPENTIN",
             "concentDesc": "",
-            "concent": "800.0000",
+            "concent": "800.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -75,21 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F5CBD270-0A96-4DFE-84A3-8C296B2C90E8",
-            "approvedDocNo": "1091491172",
-            "approvedDate": "2020-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
-            "atcCode": "N03AX12"
+            "atcCode": "N02BF01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "46CC0F7A-6DA6-497C-99C6-07E36845E0B0"
 }

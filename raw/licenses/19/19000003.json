@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "19000003",
+    "licUnit": "1",
     "validDate": "2026-05-19 00:00:00.000",
     "issueDate": "2006-05-19 00:00:00.000",
+    "oriIssueDate": "2006-05-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA01900000302",
@@ -20,13 +24,16 @@
             "packageUnit": "L8"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "B8"
         }
     ],
     "medMCode": "13",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C9124719-920C-4B64-98DD-5E446C56EDDF",
+    "subCategory": [],
     "ingredientsDesc": [
         "CAMPHOR",
         "CAJUPUT OIL",
@@ -34,7 +41,7 @@
         "MENTHOL"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "台灣泰格醫藥股份有限公司",
     "applicantAddr": "台北市信義區忠孝東路５段４１０號５樓之１",
@@ -46,8 +53,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "D7DDFCC5-6EC0-44E0-ACC8-DF033D2DB562",
             "factoryCode": "1",
             "factoryName": "HAW PAR HEALTHCARE",
             "factoryAddr": "NO.2, CHIA PING ROAD, HAW PAR TIGER BALM BUILDING, SINGAPORE 619968",
@@ -58,16 +68,19 @@
             "factoryKind": "M",
             "factoryNo": "FSG0011000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000100",
+            "ingredientsName": "CAMPHOR",
             "ingredientsDesc": "CAMPHOR",
             "concentDesc": null,
-            "concent": "110.000",
+            "concent": "110.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -76,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000300",
+            "ingredientsName": "MENTHOL",
             "ingredientsDesc": "MENTHOL",
             "concentDesc": null,
-            "concent": "100.000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -87,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8410000605",
+            "ingredientsName": "CAJUPUT OIL",
             "ingredientsDesc": "CAJUPUT OIL",
             "concentDesc": null,
-            "concent": "70.000",
+            "concent": "70.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -98,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200000305",
+            "ingredientsName": "CLOVE OIL",
             "ingredientsDesc": "CLOVE OIL",
             "concentDesc": null,
-            "concent": "50.000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -109,37 +125,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F27DFFF7-77F4-4E44-B703-11984777283A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6BA3B9BB-3BC4-44D7-82C7-6165015FE584",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
         {
             "isMain": "1",
             "atcCode": "V03AX"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "A40A1205-2147-4440-9B7D-907FE3AA6846"
 }

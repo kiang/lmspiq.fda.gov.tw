@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01055974",
-    "validDate": "2026-04-06 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2031-04-06 00:00:00.000",
     "issueDate": "2011-04-06 00:00:00.000",
+    "oriIssueDate": "2011-04-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105597405",
@@ -23,14 +27,18 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "27531022-4B8C-4760-83AF-DDE252AE3B6B",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMISULPRIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "24",
-        "61"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -42,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "2180079D-01AC-430D-AB0C-8CC9813C6DA3",
             "factoryCode": "1",
             "factoryName": "衛達化學製藥股份有限公司",
             "factoryAddr": "台中市南屯區寶山里工業區２３路２１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1605609300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816401900",
+            "ingredientsName": "AMISULPRIDE",
             "ingredientsDesc": "AMISULPRIDE",
             "concentDesc": null,
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,57 +86,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B3F637CD-729A-46E0-A0C8-32C8716DBD53",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2000CBD8-0D5A-46D1-9F8F-B39272BE4971",
-            "approvedDocNo": "1076807522",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5385A3B4-D3B7-4DE7-85AA-E4EB91BA9E36",
-            "approvedDocNo": "1076807522",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "82BE40F9-11B1-4FF4-ACB9-EFB2F0D283F0",
-            "approvedDocNo": "1076807522",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B33CD817-0BA9-4A98-8387-F3015610EBD1",
-            "approvedDocNo": "1076807522",
-            "approvedDate": "2019-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N05AL05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N05AL05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "340FE6B5-8DE1-48B0-B954-929C1AE89A8A"
 }

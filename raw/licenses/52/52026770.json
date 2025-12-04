@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026770",
+    "licUnit": "1",
     "validDate": "2026-05-27 00:00:00.000",
     "issueDate": "2016-05-27 00:00:00.000",
+    "oriIssueDate": "2016-05-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202677002",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "83F56A81-7635-4A16-ADB8-FF836073F7F1",
+    "subCategory": [],
     "ingredientsDesc": [
         "TAFLUPROST",
         "TIMOLOL MALEATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "台灣參天製藥股份有限公司",
     "applicantAddr": "台北市中山區松江路126號9樓之1",
@@ -45,28 +52,34 @@
     "monitorDate": "2021-05-27",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "4D0F9D0B-6F7E-42C3-AFFE-BB20878F7755",
             "factoryCode": "1",
             "factoryName": "LABORATOIRE UNITHER",
             "factoryAddr": "1 RUE DE L ARQUERIE, COUTANCES, 50200, FRANCE",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "FR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FFR0381000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5240000100",
+            "ingredientsName": "TAFLUPROST",
             "ingredientsDesc": "TAFLUPROST",
             "concentDesc": "",
-            "concent": "0.015",
+            "concent": "0.015000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216001910",
+            "ingredientsName": "TIMOLOL MALEATE",
             "ingredientsDesc": "TIMOLOL MALEATE",
             "concentDesc": "(eq to timolol......5.00MG)",
-            "concent": "6.840",
+            "concent": "6.840000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -86,85 +100,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9F411395-F32C-46EF-A513-5BC92AE60DD1",
-            "approvedDocNo": "1119052178",
-            "approvedDate": "2023-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F7395EB2-EC68-47B8-8EB2-7B200FCB7086",
-            "approvedDocNo": "1119052178",
-            "approvedDate": "2023-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "03BF7B39-383D-481B-8DDD-D9DDF5879FF0",
-            "approvedDocNo": "1119052178",
-            "approvedDate": "2023-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D4955CED-C379-4B8D-A5F8-E8FE76D831A7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "24F69F06-3C18-4777-BFC3-C73F6681BC6F",
-            "approvedDocNo": "1096031024",
-            "approvedDate": "2021-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "942FDCD9-82D0-43FF-ACD2-F783E1F9888C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1FBB5725-D1F2-43B0-AF12-1273E4D8059B",
-            "approvedDocNo": "1086011772",
-            "approvedDate": "2019-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "29EEE4F2-69C8-4B6A-910E-9C3BADAEE11B",
-            "approvedDocNo": "1081490365",
-            "approvedDate": "2019-04-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "S01EE05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01ED01"
-        },
         {
             "isMain": "1",
             "atcCode": "S01ED51"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "AE843CCE-0B15-41B1-A64F-9F30D17AA8EB"
 }

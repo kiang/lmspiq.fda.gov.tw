@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01039979",
+    "licUnit": "1",
     "validDate": "2026-05-16 00:00:00.000",
     "issueDate": "1996-05-16 00:00:00.000",
+    "oriIssueDate": "1996-05-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "E2B8280C-9792-4E36-9CFC-13A9C9F75D7C",
+    "subCategory": [],
     "ingredientsDesc": [
         "DIAZEPAM"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "34"
+        "01 國 產",
+        "1R 不得製造",
+        "34 第四級管制藥品"
     ],
     "applicantName": "永勝藥品工業股份有限公司",
     "applicantAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路6之3號",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "818E316E-4D57-44BE-94EE-4A3C67478749",
             "factoryCode": "1",
             "factoryName": "永勝藥品工業股份有限公司",
             "factoryAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路6之3號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6140040022",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824200600",
+            "ingredientsName": "DIAZEPAM",
             "ingredientsDesc": "DIAZEPAM",
             "concentDesc": "",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -71,33 +84,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5CFE15BF-F858-4435-B28D-4085CC0CA395",
-            "approvedDocNo": "1096808285",
-            "approvedDate": "2020-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F93150C8-9D2A-480D-BB1D-E384C4911A71",
-            "approvedDocNo": "1096808285",
-            "approvedDate": "2020-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N05BA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N05BA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "F1FBDF44-A64C-4207-A19B-368FA568969B"
 }

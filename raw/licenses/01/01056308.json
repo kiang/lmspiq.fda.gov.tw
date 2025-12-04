@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056308",
+    "licUnit": "1",
     "validDate": "2026-05-13 00:00:00.000",
     "issueDate": "2011-05-13 00:00:00.000",
+    "oriIssueDate": "2011-05-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105630802",
@@ -27,11 +31,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "2ED050B8-8446-4EF3-A75A-AA59FE4548D4",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMOXICILLIN (AS TRIHYDATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "榮民製藥股份有限公司",
     "applicantAddr": "桃園市中壢區中山東路３段４４７號",
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "0D1A1BB9-A667-44E7-8BBC-57CF2CFE5E51",
             "factoryCode": "1",
             "factoryName": "榮民製藥股份有限公司",
             "factoryAddr": "桃園市中壢區中山東路三段４４７號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6132020070",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812600270",
+            "ingredientsName": "AMOXICILLIN (AS TRIHYDATE)",
             "ingredientsDesc": "AMOXICILLIN (AS TRIHYDATE)",
             "concentDesc": "(potency)",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -78,11 +91,8 @@
         {
             "isMain": "1",
             "atcCode": "J01CA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CA04"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "3E84E717-47A7-4A21-936A-9A1692BC15CA"
 }

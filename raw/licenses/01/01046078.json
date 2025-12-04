@@ -1,11 +1,16 @@
 {
-    "cancelStatus": "0",
-    "licStatus": "1",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2025-11-19",
+    "cancelReason": [
+        "838"
+    ],
+    "otherCancelReason": "",
     "licid": "01046078",
+    "licUnit": "1",
     "validDate": "2024-02-05 00:00:00.000",
     "issueDate": "2004-02-05 00:00:00.000",
+    "oriIssueDate": "2004-02-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104607802",
@@ -17,7 +22,7 @@
     "does": "1116",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         },
         {
@@ -28,13 +33,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7D2A2F68-696A-4F54-A07D-AC99639EA42E",
+    "subCategory": [],
     "ingredientsDesc": [
         "FAMOTIDINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "07",
-        "1R"
+        "01 國 產",
+        "07 新藥監視",
+        "1R 不得製造"
     ],
     "applicantName": "盛雲藥品股份有限公司",
     "applicantAddr": "台中市西區忠明南路３０３號２４樓之２",
@@ -46,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A477CBAD-61EC-49CD-987E-12DFCBD56163",
             "factoryCode": "1",
             "factoryName": "永勝藥品工業股份有限公司",
             "factoryAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路６之３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6140040022",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640002100",
+            "ingredientsName": "FAMOTIDINE",
             "ingredientsDesc": "FAMOTIDINE",
             "concentDesc": "",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "",
             "seq": "0",
             "prescription_seq": "1",
@@ -76,21 +90,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0B04F08F-5C8A-421B-B5F2-232ECAA4F0CD",
-            "approvedDocNo": "1110600400",
-            "approvedDate": "2022-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A02BA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "E7DF3529-1A15-42B5-92A4-963819C8ECAA"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025404",
+    "licUnit": "1",
     "validDate": "2026-05-05 00:00:00.000",
     "issueDate": "2011-05-05 00:00:00.000",
+    "oriIssueDate": "2011-05-05",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00202540402",
@@ -16,18 +20,21 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "3FB00D54-3193-4423-B2B4-574AFD11B22B",
+    "subCategory": [],
     "ingredientsDesc": [
         "Ketorolac Tromethamine contains not less than 98.5% and not more than 101.5% of C15H13NO3.C4H11NO3, Calculated on the dried basis."
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "中大藥品股份有限公司",
     "applicantAddr": "台南市中區民權路二段158號3樓",
@@ -39,21 +46,27 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "B51D14D2-15D9-4C0F-83D8-75568CD26FC1",
             "factoryCode": "1",
             "factoryName": "DR. REDDY’S  LABORATORIES LTD. (CHEMICAL TECHNICAL OPERATIONS – UNIT II)",
             "factoryAddr": "PLOT NO.1, 75A, 75B, 105, 110, 111 AND 112 SRI VENKATESWARA CO-OPERATIVE INDUSTRIAL ESTATE, BOLLARAM, JINNARAM MANDAL, SANGAREDDY DISTRICT, TELANGANA – 502 325",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0959000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "C581D99F-188D-4A90-A90D-A74C8E537E8E",
             "factoryCode": "2",
             "factoryName": "DR. REDDY'S LABORATORIES, LIMITED",
             "factoryAddr": "7-1-27,AMEERPET, HYDERABAD-500 016, ANDHRA PRADESH, INDIA",
@@ -69,13 +82,16 @@
             "factoryKind": "O",
             "factoryNo": "FIN0459000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Ketorolac Tromethamine contains not less than 98.5% and not more than 101.5% of C15H13NO3.C4H11NO3, Calculated on the dried basis.",
             "ingredientsDesc": "Ketorolac Tromethamine contains not less than 98.5% and not more than 101.5% of C15H13NO3.C4H11NO3, Calculated on the dried basis.",
             "concentDesc": null,
             "concent": null,
@@ -95,41 +111,13 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F73A1334-F779-47D3-8B66-42F8B61495FD",
-            "approvedDocNo": "1091490283",
-            "approvedDate": "2020-03-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A82D3AFA-F33C-46FF-9E3E-39FD529C3F4D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5A743657-3FC7-4505-835D-AEFAC79536BF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "M01AB15"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01BC05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "73E1352A-86F5-4BE9-91DC-EAB882249160"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057191",
+    "licUnit": "1",
     "validDate": "2027-04-23 00:00:00.000",
     "issueDate": "2012-04-23 00:00:00.000",
+    "oriIssueDate": "2012-04-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105719109",
@@ -27,12 +31,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "24FBD0CE-745B-450E-AE18-6DCC1E165F51",
+    "subCategory": [],
     "ingredientsDesc": [
         "LEVOFLOXACIN HEMIHYDRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台裕化學製藥廠股份有限公司",
     "applicantAddr": "新竹縣竹東鎮員山路11巷13弄1號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "B5F0EDB0-7E66-4C49-B471-2D9824D1DC52",
             "factoryCode": "1",
             "factoryName": "台裕化學製藥廠股份有限公司",
             "factoryAddr": "新竹縣竹東鎮員山路11巷13弄1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133030016",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0836002310",
+            "ingredientsName": "LEVOFLOXACIN HEMIHYDRATE",
             "ingredientsDesc": "LEVOFLOXACIN HEMIHYDRATE",
             "concentDesc": "(Potency)",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,93 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "907B7CEB-5D65-41BA-89B6-3AC713306EA0",
-            "approvedDocNo": "1106806019",
-            "approvedDate": "2021-06-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4981F13E-4A29-4A3A-B5F8-A9871725CFA5",
-            "approvedDocNo": "1106806019",
-            "approvedDate": "2021-06-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "447B10F1-5CC6-451A-9517-3841F69B3B4C",
-            "approvedDocNo": "1096803492",
-            "approvedDate": "2020-05-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31B0F9A9-C9D4-4C27-9759-9BF86D1212FF",
-            "approvedDocNo": "1086613584",
-            "approvedDate": "2019-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6AD63076-7A76-4FA4-8DE8-D96E1F879540",
-            "approvedDocNo": "1086613584",
-            "approvedDate": "2019-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B60C92F3-9D4A-4FAF-93D8-F304D9BF734C",
-            "approvedDocNo": "1086613584",
-            "approvedDate": "2019-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9F16A0D6-95AC-4275-B323-7A2EF67562BE",
-            "approvedDocNo": "1086613584",
-            "approvedDate": "2019-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "559D9A0C-C50F-4E5E-BE35-166808DF803C",
-            "approvedDocNo": "1086613584",
-            "approvedDate": "2019-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "153A075F-A48F-41CB-8814-37D4F72CC61C",
-            "approvedDocNo": "1086613584",
-            "approvedDate": "2019-12-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D58BFB8F-3398-4686-9716-9700767EAE9C",
-            "approvedDocNo": "1086805868",
-            "approvedDate": "2019-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01MA12"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "64226E61-D7B6-4FD5-B6AB-0552FF3E1FB5"
 }

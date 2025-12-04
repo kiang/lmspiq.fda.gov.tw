@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01033943",
+    "licUnit": "1",
     "validDate": "2026-05-04 00:00:00.000",
     "issueDate": "1991-05-04 00:00:00.000",
+    "oriIssueDate": "1991-05-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103394301",
@@ -27,6 +31,9 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0A50ED6E-3188-4D1F-90DA-32BE9FD5168B",
+    "subCategory": [],
     "ingredientsDesc": [
         "NYSTATIN",
         "GRAMICIDIN",
@@ -42,7 +49,7 @@
         "NEOMYCIN (SULFATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "井田國際醫藥廠股份有限公司",
     "applicantAddr": "台中市大甲區幼獅路32號",
@@ -54,25 +61,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "0EB89A74-8636-45FE-846E-3BC0E3FC31D5",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200900",
+            "ingredientsName": "NYSTATIN",
             "ingredientsDesc": "NYSTATIN",
             "concentDesc": "100000(U)",
             "concent": null,
@@ -84,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "1.0",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -95,6 +109,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "(POTENCY)2.5",
             "concent": null,
@@ -106,6 +121,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404400200",
+            "ingredientsName": "GRAMICIDIN",
             "ingredientsDesc": "GRAMICIDIN",
             "concentDesc": "(POTENCY)0.25",
             "concent": null,
@@ -117,6 +133,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200900",
+            "ingredientsName": "NYSTATIN",
             "ingredientsDesc": "NYSTATIN",
             "concentDesc": "100000(U)",
             "concent": null,
@@ -128,9 +145,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "1.0",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -139,6 +157,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "(POTENCY)2.5",
             "concent": null,
@@ -150,6 +169,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404400200",
+            "ingredientsName": "GRAMICIDIN",
             "ingredientsDesc": "GRAMICIDIN",
             "concentDesc": "(POTENCY)0.25",
             "concent": null,
@@ -161,6 +181,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200900",
+            "ingredientsName": "NYSTATIN",
             "ingredientsDesc": "NYSTATIN",
             "concentDesc": "100000(U)",
             "concent": null,
@@ -172,9 +193,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "1.0",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "3",
@@ -183,6 +205,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109530",
+            "ingredientsName": "NEOMYCIN (SULFATE)",
             "ingredientsDesc": "NEOMYCIN (SULFATE)",
             "concentDesc": "(POTENCY)2.5",
             "concent": null,
@@ -194,6 +217,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404400200",
+            "ingredientsName": "GRAMICIDIN",
             "ingredientsDesc": "GRAMICIDIN",
             "concentDesc": "(POTENCY)0.25",
             "concent": null,
@@ -205,45 +229,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "081263B9-E00F-4202-841E-4341BBD2CDCE",
-            "approvedDocNo": "1110021518",
-            "approvedDate": "2022-12-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "21AEE86D-638D-4F7F-AAF6-FEE241C2F071",
-            "approvedDocNo": "1110021518",
-            "approvedDate": "2022-12-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D06AX04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AB09"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06AX"
-        },
         {
             "isMain": "1",
             "atcCode": "D07CB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "6802B559-6FD4-4A36-9367-2F3EB8CDFBF8"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057922",
+    "licUnit": "1",
     "validDate": "2028-05-06 00:00:00.000",
     "issueDate": "2013-05-06 00:00:00.000",
+    "oriIssueDate": "2013-05-06",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105792209",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A9C3F284-E2CC-4400-99E1-AF8D5B91B6CC",
+    "subCategory": [],
     "ingredientsDesc": [
         "ORLISTAT"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "美時化學製藥股份有限公司",
     "applicantAddr": "台北市信義區松仁路277號17樓",
@@ -40,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "124101E1-9437-4D97-B639-53FDDC25F106",
             "factoryCode": "1",
             "factoryName": "美時化學製藥股份有限公司南投廠",
             "factoryAddr": "南投縣南投市新興里成功一路３０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0901314300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212004500",
+            "ingredientsName": "ORLISTAT",
             "ingredientsDesc": "ORLISTAT",
             "concentDesc": "",
-            "concent": "120.0000",
+            "concent": "120.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -70,53 +84,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4749D4E2-C289-43CF-A72C-654D21E9F3DB",
-            "approvedDocNo": "1129005987",
-            "approvedDate": "2023-04-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "75493B69-2EDB-495E-8AAF-88EB6E14A01D",
-            "approvedDocNo": "1120700977",
-            "approvedDate": "2023-02-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DDCB216D-C500-4B1E-8D37-E9587FF44BE7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A1A3AF45-CD6C-4CF3-8EF5-E7555854DA12",
-            "approvedDocNo": "1086005366",
-            "approvedDate": "2019-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D796A221-F5C5-49F3-B40D-ED9EC069266D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A08AB01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "910D0160-C09C-4C82-8F3E-5C6694C56150"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02026029",
+    "licUnit": "1",
     "validDate": "2028-05-13 00:00:00.000",
     "issueDate": "2013-05-13 00:00:00.000",
+    "oriIssueDate": "2013-05-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202602907",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3663792D-94B9-4677-B832-4C5DD6CEA1E5",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIVASTIGMINE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "臺灣諾華股份有限公司",
     "applicantAddr": "臺北市中山區民生東路3段2號8樓",
@@ -39,8 +46,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "FD98E3EE-D8F1-44AA-A1E7-BB34BD0493FC",
             "factoryCode": "1",
             "factoryName": "LTS LOHMANN THERAPIE-SYSTEME AG",
             "factoryAddr": "LOHMANNSTR 2,D-56626 ANDERNACH,GERMANY",
@@ -51,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0242000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D46C98C6-1395-49F4-B899-E3936441F188",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMA AG",
             "factoryAddr": "LICHTSTRASSE 35 CH-4056 BASLE SWITZERLAND",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CH",
             "processCode": [
                 {
@@ -69,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0088200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1204001400",
+            "ingredientsName": "RIVASTIGMINE",
             "ingredientsDesc": "RIVASTIGMINE",
             "concentDesc": "base",
-            "concent": "18.0000",
+            "concent": "18.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,61 +103,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8C2E327C-436B-4C46-A3D0-AE2F239C9992",
-            "approvedDocNo": "1120703068",
-            "approvedDate": "2023-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0310661E-BA46-4944-95A7-E21925E0E03A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4A99D852-6798-453D-9780-C78B4AD3C7B2",
-            "approvedDocNo": "1081491109",
-            "approvedDate": "2019-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0C3C8D77-8627-4C2D-8A30-DBC2120E134B",
-            "approvedDocNo": "1081491109",
-            "approvedDate": "2019-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "94830396-0C54-45C0-A704-A60D8ECAE752",
-            "approvedDocNo": "1081491109",
-            "approvedDate": "2019-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "15FE3337-5D5E-45C4-9490-1405BAC38C74",
-            "approvedDocNo": "1081408956",
-            "approvedDate": "2019-08-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N06DA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "C0BD13A8-C0C4-43AC-A960-4C4D789727A6"
 }
