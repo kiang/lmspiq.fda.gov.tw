@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024495",
+    "licUnit": "1",
     "validDate": "2026-07-26 00:00:00.000",
     "issueDate": "2006-07-26 00:00:00.000",
+    "oriIssueDate": "2006-07-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202449500",
@@ -23,13 +27,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0AECC102-E80F-4C81-9E4C-4AEF7881E566",
+    "subCategory": [],
     "ingredientsDesc": [
         "Lanthanum Carbonate Hydrate"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "52"
+        "02 輸 入",
+        "07 新藥監視",
+        "52 依本署七七公告於國內進行臨床試驗且核定為新藥",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "台灣武田藥品工業股份有限公司",
     "applicantAddr": "台北市信義區松高路1號17樓",
@@ -41,8 +49,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "F67360F1-4D73-44F3-81CA-ACA3C1FBBCF7",
             "factoryCode": "1",
             "factoryName": "HAMOL LIMITED",
             "factoryAddr": "THANE ROAD, NOTTINGHAM, NOTTINGHAMSHIRE, NG90 2DB, UNITED KINGDOM",
@@ -53,16 +64,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0198000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9901006120",
+            "ingredientsName": "Lanthanum Carbonate Hydrate",
             "ingredientsDesc": "Lanthanum Carbonate Hydrate",
             "concentDesc": "",
-            "concent": "954.0000",
+            "concent": "954.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -71,61 +85,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "37BE2BEF-9783-4C06-B7D9-30AC76E78E34",
-            "approvedDocNo": "1129061529",
-            "approvedDate": "2023-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AE8CE26D-95D2-4283-9D3B-CED20472DD49",
-            "approvedDocNo": "1119061981",
-            "approvedDate": "2023-07-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2C97F2D6-63D5-4AC7-8972-576A477E0AC3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A5C43913-8879-465F-96FA-B402C9FA7C2D",
-            "approvedDocNo": "1096003272",
-            "approvedDate": "2020-06-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BEF0BD2F-BE1C-4B51-8247-6B5BDC89E9DB",
-            "approvedDocNo": "1086025208",
-            "approvedDate": "2019-12-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C02D590F-52A8-4BB1-8A08-1EEDB2FDCBCD",
-            "approvedDocNo": "1086024918",
-            "approvedDate": "2019-11-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "V03AE03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "D292C6CC-D4E4-41C8-9FD4-CBD154EC0095"
 }

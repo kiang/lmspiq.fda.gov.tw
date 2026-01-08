@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02R00074",
+    "licUnit": "1",
     "validDate": "2026-06-13 00:00:00.000",
     "issueDate": "2021-10-15 00:00:00.000",
+    "oriIssueDate": "1996-06-13",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHAS02R0007400",
@@ -16,23 +20,26 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "74"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "468A9333-DFEA-4BFB-8586-CDD4A61B1340",
+    "subCategory": [],
     "ingredientsDesc": [
         "TC-99M SODIUM PERTECHNETATE",
         "MOLYBDENUM"
     ],
     "restraintItemsCode": [
-        "02",
-        "15"
+        "02 輸 入",
+        "15 輸入須附同意書（每批輸入應附核能安全委員會核准輸入證明書）"
     ],
     "applicantName": "臺灣新吉美碩股份有限公司",
-    "applicantAddr": "台北市大安區復興南路一段237號11樓",
+    "applicantAddr": "臺北市信義區忠孝東路5段510號10樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "CDEA8027-1568-4036-9A82-926969F98D9A",
             "factoryCode": "1",
             "factoryName": "Australian Nuclear Science and Technology Organisation T\/A ANSTO",
             "factoryAddr": "BUILDING 23, NEW ILLAWARRA ROAD, LUCAS HEIGHTS, NSW, 2234",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "AU",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FAU0038000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7804200210",
+            "ingredientsName": "TC-99M SODIUM PERTECHNETATE",
             "ingredientsDesc": "TC-99M SODIUM PERTECHNETATE",
             "concentDesc": "20-120",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "048",
             "seq": "3",
             "prescription_seq": "1",
@@ -71,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7804000300",
+            "ingredientsName": "MOLYBDENUM",
             "ingredientsDesc": "MOLYBDENUM",
             "concentDesc": "MOLYBDENUM (MO) SOLUTION 20-120",
-            "concent": "0.0000",
+            "concent": "0.000000",
             "concentUnit": "048",
             "seq": "1",
             "prescription_seq": "2",
@@ -82,37 +96,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7497746A-324C-4D76-8139-52D1116720AB",
-            "approvedDocNo": "1101493315",
-            "approvedDate": "2021-06-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5563F054-0642-4995-AE15-51598A35F454",
-            "approvedDocNo": "1101491523",
-            "approvedDate": "2021-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "77E2A029-B73D-461A-9E4B-BAC0206AAE30",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "V09FX01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "BBE95FE3-2D54-49C3-9AD3-0428F5CE5422"
 }

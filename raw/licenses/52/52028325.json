@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028325",
+    "licUnit": "1",
     "validDate": "2027-07-01 00:00:00.000",
     "issueDate": "2022-07-01 00:00:00.000",
+    "oriIssueDate": "2022-07-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202832501",
     "prodNameC": "可申達10毫克膜衣錠",
     "prodNameE": "Kerendia 10 mg film-coated tablets",
     "indicationsName": [
-        "用於患有第二型糖尿病(T2D)相關的慢性腎臟病(CKD)成年病人，可降低持續性腎絲球過濾率(eGFR)下降、末期腎病(ESKD)、心血管死亡、非致命性心肌梗塞以及因心衰竭住院的風險。"
+        "1.用於患有第二型糖尿病(T2D)相關的慢性腎臟病(CKD)成年病人，可降低持續性腎絲球過濾率(eGFR)下降、末期腎病(ESKD)、心血管死亡、非致命性心肌梗塞以及因心衰竭住院的風險。\n2.用於心衰竭且左心室射出分率(LVEF) ≥40%的成人病人，可降低心血管死亡、心衰竭住院及心衰竭緊急就醫的風險。"
     ],
     "does": "1116",
     "packageUnit": [
@@ -23,16 +27,21 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "76AFC0E3-F5C4-43B2-BEF2-052E7706A7A8",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Finerenone micronized"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "台灣拜耳股份有限公司",
-    "applicantAddr": "台北市信義區信義路5段7號53樓",
+    "applicantAddr": "臺北市信義區信義路5段7號53樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -41,12 +50,15 @@
     "monitorDate": "2027-07-01",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "D90A89F6-433E-4526-8B44-40B6EAB5CA1A",
             "factoryCode": "1",
             "factoryName": "Bayer AG",
             "factoryAddr": "Kaiser-Wilhelm-Allee, 51368 Leverkusen, Germany",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -58,16 +70,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0438200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4028003000",
+            "ingredientsName": "Finerenone micronized",
             "ingredientsDesc": "Finerenone micronized",
             "concentDesc": "",
-            "concent": "10.000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,21 +91,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F5E03E0A-1262-41C6-866A-AA9DA9187923",
-            "approvedDocNo": "1110727652",
-            "approvedDate": "2023-03-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C03DA05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "F0B812DB-3E80-4BCE-BCE2-E1C2754B63D9"
 }

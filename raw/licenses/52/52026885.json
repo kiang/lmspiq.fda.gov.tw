@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026885",
+    "licUnit": "1",
     "validDate": "2026-06-30 00:00:00.000",
     "issueDate": "2016-06-30 00:00:00.000",
+    "oriIssueDate": "2016-06-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202688503",
@@ -22,7 +26,12 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "EBD5DC22-855A-457E-A27D-2651E9677FD4",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "Isopropylmethylphenol",
         "TOCOPHEROL ACETATE",
@@ -30,8 +39,8 @@
         "CROTAMITON"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "德佑藥品有限公司",
     "applicantAddr": "台北市大同區南京西路46號（實際營業地址：5樓）",
@@ -43,28 +52,34 @@
     "monitorDate": "2021-06-30",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "DDCEB0AC-E83F-4A6C-9B71-D5F590FF3DD8",
             "factoryCode": "1",
             "factoryName": "YUKINOMOTO HONTEN CO., LTD.",
             "factoryAddr": "182, 183, 184 OTANI-CHO KASHIHARA CITY NARA JAPAN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP4114100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001582",
+            "ingredientsName": "Prednisolone Valerate Acetate",
             "ingredientsDesc": "Prednisolone Valerate Acetate",
             "concentDesc": "",
-            "concent": "0.150",
+            "concent": "0.150000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404200200",
+            "ingredientsName": "CROTAMITON",
             "ingredientsDesc": "CROTAMITON",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.000000",
             "concentUnit": "002",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,9 +100,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000200",
+            "ingredientsName": "TOCOPHEROL ACETATE",
             "ingredientsDesc": "TOCOPHEROL ACETATE",
             "concentDesc": "",
-            "concent": "0.500",
+            "concent": "0.500000",
             "concentUnit": "002",
             "seq": "3",
             "prescription_seq": "1",
@@ -95,9 +112,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9900083500",
+            "ingredientsName": "Isopropylmethylphenol",
             "ingredientsDesc": "Isopropylmethylphenol",
             "concentDesc": "",
-            "concent": "0.100",
+            "concent": "0.100000",
             "concentUnit": "002",
             "seq": "4",
             "prescription_seq": "1",
@@ -114,57 +132,13 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5C799D79-DC20-4026-8FE4-406FCF0B626F",
-            "approvedDocNo": "1110721796",
-            "approvedDate": "2022-12-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DFD9B86E-44FF-43AD-9DA9-C1E96AFA227A",
-            "approvedDocNo": "1086004596",
-            "approvedDate": "2019-02-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F7F2BDCF-6A27-4886-B214-374EC9D7192E",
-            "approvedDocNo": "1076024144",
-            "approvedDate": "2019-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0D8CAD9E-0F3A-4CE6-B254-BCA16D824FBA",
-            "approvedDocNo": "1076024144",
-            "approvedDate": "2019-01-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D08AE"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AX"
-        },
         {
             "isMain": "1",
             "atcCode": "D07XA"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "AF52A048-55BD-460C-8259-A3D186167853"
 }

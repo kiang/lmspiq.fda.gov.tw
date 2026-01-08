@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044507",
+    "licUnit": "1",
     "validDate": "2026-07-03 00:00:00.000",
     "issueDate": "2001-07-03 00:00:00.000",
+    "oriIssueDate": "2001-07-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104450702",
@@ -27,11 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B639F746-9DF7-41FA-88E0-D9DF67EF6084",
+    "subCategory": [],
     "ingredientsDesc": [
         "MEPHENOXALONE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "羅得化學製藥股份有限公司",
     "applicantAddr": "台中市大甲區東西七路一段65號",
@@ -43,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "5F7C486E-533D-4CDA-BB5F-49A8E1D06722",
             "factoryCode": "1",
             "factoryName": "羅得化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區東西七路一段65號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1901510300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816801000",
+            "ingredientsName": "MEPHENOXALONE",
             "ingredientsDesc": "MEPHENOXALONE",
             "concentDesc": "500",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -80,5 +94,6 @@
             "atcCode": "N05BX01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "DAF3F70E-B779-427D-AEC4-DA5CA394819A"
 }

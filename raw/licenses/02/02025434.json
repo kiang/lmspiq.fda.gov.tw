@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2021-06-08",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "02025434",
+    "licUnit": "1",
     "validDate": "2026-06-14 00:00:00.000",
     "issueDate": "2011-06-14 00:00:00.000",
+    "oriIssueDate": "2011-06-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202543401",
@@ -25,12 +29,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B10D54C9-5670-47C9-8BFE-B955639C7E04",
+    "subCategory": [],
     "ingredientsDesc": [
         "PAZOPANIB HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1U"
+        "02 輸 入",
+        "1U 未依本署規定完成變更中文仿單安全性資訊，不得輸入或製造"
     ],
     "applicantName": "台灣諾華股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號8樓",
@@ -42,25 +49,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "4297CBB5-B266-417B-95AB-22707D810AD9",
             "factoryCode": "1",
             "factoryName": "GLAXO OPERATIONS UK LIMITED",
             "factoryAddr": "PRIORY STREET, WARE, HERTFORDSHIRE, SG12 0DJ, UNITED KINGDOM.",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GB",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FGB0044400",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "E6BF50CD-4542-449C-B9A1-0EE4719285AA",
             "factoryCode": "2",
             "factoryName": "GLAXO WELLCOME, S.A.",
             "factoryAddr": "AVENIDA EXTREMADURA 3, ARANDA DE DUERO, BURGOS 09400, SPAIN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "ES",
             "processCode": [
                 {
@@ -72,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "FES0122000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013003000",
+            "ingredientsName": "PAZOPANIB HYDROCHLORIDE",
             "ingredientsDesc": "PAZOPANIB HYDROCHLORIDE",
             "concentDesc": "(Eq. to Pazopanib....400mg)",
-            "concent": "433.4000",
+            "concent": "433.400000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,29 +106,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3FE6CE28-7586-4149-8AA2-F831D81B5B10",
-            "approvedDocNo": "1086037035",
-            "approvedDate": "2020-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "754A0469-3FEF-4D7D-87E4-C05FD4716E3A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01EX03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "CE673D6A-46A3-400A-BFA5-0C4D6B532B47"
 }

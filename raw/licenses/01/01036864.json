@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01036864",
+    "licUnit": "1",
     "validDate": "2028-10-22 00:00:00.000",
     "issueDate": "1993-10-22 00:00:00.000",
+    "oriIssueDate": "1993-10-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103686404",
@@ -27,12 +31,15 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7640A257-AFC1-4FCD-8D48-15756264340E",
+    "subCategory": [],
     "ingredientsDesc": [
         "PSEUDOEPHEDRINE HCL",
         "TRIPROLIDINE HCL MONOHYDRATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "井田國際醫藥廠股份有限公司",
     "applicantAddr": "台中市大甲區幼獅路32號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "0F325E07-2CA1-4EBC-8D3F-27706B1E0EDE",
             "factoryCode": "1",
             "factoryName": "晟德大藥廠股份有限公司新竹廠",
             "factoryAddr": "新竹縣湖口鄉實踐路2號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133060087",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002610",
+            "ingredientsName": "PSEUDOEPHEDRINE HCL",
             "ingredientsDesc": "PSEUDOEPHEDRINE HCL",
             "concentDesc": "6",
-            "concent": "6.0000",
+            "concent": "6.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -74,9 +87,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400004115",
+            "ingredientsName": "TRIPROLIDINE HCL MONOHYDRATE",
             "ingredientsDesc": "TRIPROLIDINE HCL MONOHYDRATE",
             "concentDesc": "0.25",
-            "concent": "0.2500",
+            "concent": "0.250000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -85,45 +99,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "53B29691-1222-46AE-95CE-47B4A15A10EF",
-            "approvedDocNo": "1120605299",
-            "approvedDate": "2023-09-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A66A2D32-A15F-4F48-9532-B6EAB60B4CF1",
-            "approvedDocNo": "1086012406",
-            "approvedDate": "2019-07-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "28906587-AD27-4508-A17F-EE4D25B518AD",
-            "approvedDocNo": "1086012406",
-            "approvedDate": "2019-07-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R01BA52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AX07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "B92D111D-51E7-4C8C-8455-7DCED5303421"
 }

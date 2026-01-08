@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52027524",
+    "licUnit": "1",
     "validDate": "2028-10-29 00:00:00.000",
     "issueDate": "2018-10-29 00:00:00.000",
+    "oriIssueDate": "2018-10-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202752402",
@@ -13,7 +17,7 @@
     "indicationsName": [
         "BEVESPI AEROSPHERE是glycopyrronium和formoterol fumarate dihydrate的組合藥品，適用於慢性阻塞性肺病(Chronic Obstructive Pulmonary Disease, COPD)病人氣流阻塞的長期維持治療。"
     ],
-    "does": "4437",
+    "does": "1102",
     "packageUnit": [
         {
             "packageSpec": "100毫升以下鋁罐裝，",
@@ -23,13 +27,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "AE662CFD-01FA-4018-AFAF-02CF96FCF19A",
+    "subCategory": [
+        "A02"
+    ],
     "ingredientsDesc": [
         "glycopyrronium",
         "FORMOTEROL FUMARATE DIHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "臺灣阿斯特捷利康股份有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號21樓",
@@ -41,28 +50,34 @@
     "monitorDate": "2023-10-29",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "9C78A914-6AED-4ADD-92D1-B0C592859534",
             "factoryCode": "1",
             "factoryName": "ASTRAZENECA DUNKERQUE PRODUCTION",
             "factoryAddr": "224, AVENUE DE LA DORDOGNE, 59640 DUNKERQUE, FRANCE",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "FR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FFR0195100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208002420",
+            "ingredientsName": "glycopyrronium",
             "ingredientsDesc": "glycopyrronium",
             "concentDesc": "(equivalent to glycopyrronium bromide 9 mcg；glycopyrrolate 9 mcg)",
-            "concent": "7.200",
+            "concent": "7.200000",
             "concentUnit": "016",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1216003030",
+            "ingredientsName": "FORMOTEROL FUMARATE DIHYDRATE",
             "ingredientsDesc": "FORMOTEROL FUMARATE DIHYDRATE",
             "concentDesc": "(equivalent to formoterol fumarate 4.8 mcg)",
-            "concent": "5.000",
+            "concent": "5.000000",
             "concentUnit": "016",
             "seq": "2",
             "prescription_seq": "1",
@@ -82,53 +98,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DDE25171-2C16-4709-982A-2D7A33D9FDBC",
-            "approvedDocNo": "1129012640",
-            "approvedDate": "2023-04-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2DA2E2CB-1654-426F-9639-6FE7410FA3F5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E20B0673-F014-4BEE-AC00-690709C07F59",
-            "approvedDocNo": "1106012819",
-            "approvedDate": "2021-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "373F888C-5086-45C5-97B0-D3F37D934DA9",
-            "approvedDocNo": "1096014400",
-            "approvedDate": "2021-01-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "88585C0D-4E06-4FC5-A4B4-42E95A01BC1B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R03AL07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "5472EC2B-AAD6-4774-A232-740A2EAC3327"
 }

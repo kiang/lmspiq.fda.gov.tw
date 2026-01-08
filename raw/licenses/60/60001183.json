@@ -41,7 +41,6 @@
         "02 輸 入",
         "07 新藥監視",
         "1D 須執行風險管理計畫",
-        "1Q 不得輸入",
         "91 生物相似性藥品"
     ],
     "applicantName": "台灣山德士藥業股份有限公司",
@@ -54,9 +53,11 @@
     "monitorDate": "2027-01-06",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
-            "id": "DC6132E7-9825-4E68-9929-E5BCA02F46D9",
+            "id": "0240F4EA-FF26-415D-B549-E9CA61B5AD97",
             "factoryCode": "1",
             "factoryName": "Novartis Pharmaceutical Manufacturing GmbH",
             "factoryAddr": "Biochemiestraße 10, 6336 Langkampfen, Austria",
@@ -77,7 +78,7 @@
             "factoryMadeIn": null
         },
         {
-            "id": "3C4CA81A-C1B6-4B01-A45E-2B06E38BB31D",
+            "id": "421F9F0A-D02E-483D-8FEC-DD4243D45004",
             "factoryCode": "2",
             "factoryName": "NOVARTIS PHARMACEUTICAL MANUFACTURING GMBH",
             "factoryAddr": "BIOCHEMIESTRASSE 10, 6250 KUNDL, AUSTRIA",
@@ -85,38 +86,17 @@
             "countryCode": "AT",
             "processCode": [
                 {
-                    "value": "1K",
-                    "name": "原料藥製造廠"
-                },
-                {
                     "value": "49",
                     "name": "檢驗廠"
-                }
-            ],
-            "processCodeStr": "1K;原料藥製造廠#49;檢驗廠",
-            "factoryKind": "M",
-            "factoryNo": "FAT0007100",
-            "factoryInfo": null,
-            "qsd": null,
-            "qsdList": [],
-            "factoryMadeIn": null
-        },
-        {
-            "id": "6F801D95-4F64-4208-8261-2F5E35BFBE63",
-            "factoryCode": "2",
-            "factoryName": "LEK PHARMACEUTICALS D.D",
-            "factoryAddr": "KOLODVORSKA 27, 1234 MENGES, SLOVENIA",
-            "factoryCompanyAddr": "VEROVSKOVA 57,1526 LJUBLJANA, SLOVENIA",
-            "countryCode": "SI",
-            "processCode": [
+                },
                 {
                     "value": "1K",
                     "name": "原料藥製造廠"
                 }
             ],
-            "processCodeStr": "1K;原料藥製造廠",
+            "processCodeStr": "49;檢驗廠#1K;原料藥製造廠",
             "factoryKind": "M",
-            "factoryNo": "FSI0001000",
+            "factoryNo": "FAT0007100",
             "factoryInfo": null,
             "qsd": null,
             "qsdList": [],
@@ -154,5 +134,6 @@
             "atcCode": "L03AA13"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "F9637ADE-15B9-4E42-9187-1CA9E0ABD7C0"
 }

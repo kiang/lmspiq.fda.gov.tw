@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01034089",
+    "licUnit": "1",
     "validDate": "2026-06-19 00:00:00.000",
     "issueDate": "1991-06-19 00:00:00.000",
+    "oriIssueDate": "1991-06-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103408904",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "23E716FD-55C4-4F1C-9897-86DBA4E67ABE",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRIAMCINOLONE ACETONIDE",
         "TRIAMCINOLONE ACETONIDE",
         "TRIAMCINOLONE ACETONIDE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "羅得化學製藥股份有限公司",
     "applicantAddr": "台中市大甲區東西七路一段65號",
@@ -45,41 +52,50 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "AF8FA882-7763-492C-AE34-7D3D13D91D5E",
             "factoryCode": "1",
             "factoryName": "羅得化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區頂店里南北一路２之１３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1901510200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "96B2B9FA-E7E6-43A8-9C96-9F8925CEED9F",
             "factoryCode": "2",
             "factoryName": "羅得化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區東西七路一段65號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1901510300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "1",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -88,9 +104,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "1",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -99,9 +116,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001610",
+            "ingredientsName": "TRIAMCINOLONE ACETONIDE",
             "ingredientsDesc": "TRIAMCINOLONE ACETONIDE",
             "concentDesc": "1",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -110,61 +128,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7222A00B-932C-4788-9EE0-A77E6C4991FB",
-            "approvedDocNo": "1110812273",
-            "approvedDate": "2022-12-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EA4EE8C8-9669-464B-8E67-CDAAA058447D",
-            "approvedDocNo": "1110812273",
-            "approvedDate": "2022-12-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "018D0F36-36C5-4771-B94F-E6BBDB6310E3",
-            "approvedDocNo": "1106800036",
-            "approvedDate": "2021-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E759680B-E4AB-482D-A3B4-FECEA1973A7B",
-            "approvedDocNo": "1106800036",
-            "approvedDate": "2021-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6B9F39A6-20D3-4456-8DC7-5C38B5925998",
-            "approvedDocNo": "1106800036",
-            "approvedDate": "2021-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "56627857-B0F3-46F3-97DB-7EF9A996990F",
-            "approvedDocNo": "1106800036",
-            "approvedDate": "2021-04-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A01AC01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "B9DBBE65-0800-4E82-9595-D4BE361144CF"
 }

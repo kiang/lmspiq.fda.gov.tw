@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048154",
+    "licUnit": "1",
     "validDate": "2026-08-02 00:00:00.000",
     "issueDate": "2006-08-02 00:00:00.000",
+    "oriIssueDate": "2006-08-02",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHY00104815402",
@@ -16,22 +20,25 @@
     "does": "0043",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "35"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "EFDE6B18-A9C7-4403-B52F-52C812060A97",
+    "subCategory": [],
     "ingredientsDesc": [
         "PHENYLEPHRINE HCL"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "生泰合成工業股份有限公司",
     "applicantAddr": "台南市新營區開元路１６８號",
@@ -43,25 +50,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "6ED92175-6FEC-4DF8-BE7E-F46DFE43788D",
             "factoryCode": "1",
             "factoryName": "生泰合成工業股份有限公司",
             "factoryAddr": "台南市新營區開元路１６８號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0510820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002310",
+            "ingredientsName": "PHENYLEPHRINE HCL",
             "ingredientsDesc": "PHENYLEPHRINE HCL",
             "concentDesc": "97.5-102.5",
             "concent": null,
@@ -73,10 +86,24 @@
     ],
     "authDtoList": [
         {
+            "applicantName": "誠康貿易有限公司",
+            "certNo": "DHY00104815446",
+            "approveDocNo": "1130615697",
+            "authDate": "2024-12-30",
+            "validDate": "2026-08-02"
+        },
+        {
             "applicantName": "冠成化學有限公司",
             "certNo": "DHY00104815413",
             "approveDocNo": "1110807932",
             "authDate": "2022-06-07",
+            "validDate": "2026-08-02"
+        },
+        {
+            "applicantName": "東信化學藥品有限公司",
+            "certNo": "DHY00104815435",
+            "approveDocNo": "1130615698",
+            "authDate": "2024-12-20",
             "validDate": "2026-08-02"
         }
     ],
@@ -84,29 +111,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "R01AB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01AA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01GA05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01FB01"
-        },
-        {
             "isMain": "1",
             "atcCode": "C01CA06"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "16E9D7AA-426D-4A78-8336-68FBADD96469"
 }

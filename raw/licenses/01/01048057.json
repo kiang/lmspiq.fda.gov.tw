@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048057",
+    "licUnit": "1",
     "validDate": "2026-06-23 00:00:00.000",
     "issueDate": "2006-06-23 00:00:00.000",
+    "oriIssueDate": "2006-06-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104805704",
@@ -27,14 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C0E06336-78F1-4E4F-9037-3A61BD0C6BE9",
+    "subCategory": [],
     "ingredientsDesc": [
         "PIOGLITAZONE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "25",
-        "61"
+        "01 國 產",
+        "09 委託製造",
+        "25 監視中學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "瑩碩生技醫藥股份有限公司",
     "applicantAddr": "台北市中山區南京東路二段206號8樓之3",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "4B7DBF31-F668-44A4-8EC7-0EF778D4D25D",
             "factoryCode": "1",
             "factoryName": "羅得化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區東西七路一段65號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1901510300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400910",
+            "ingredientsName": "PIOGLITAZONE HYDROCHLORIDE",
             "ingredientsDesc": "PIOGLITAZONE HYDROCHLORIDE",
             "concentDesc": "(30)",
-            "concent": "33.1000",
+            "concent": "33.100000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -83,5 +96,6 @@
             "atcCode": "A10BG03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "0F22FE49-7C44-4E3C-B0CC-A98AA177015B"
 }

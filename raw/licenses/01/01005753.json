@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01005753",
+    "licUnit": "1",
     "validDate": "2029-05-25 00:00:00.000",
     "issueDate": "1975-01-28 00:00:00.000",
+    "oriIssueDate": "1975-01-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100575301",
@@ -16,18 +20,25 @@
     "does": "2270",
     "packageUnit": [
         {
-            "packageSpec": "1,2公撮10、50、100",
+            "packageSpec": "2毫升茶色",
             "packageUnit": "14"
+        },
+        {
+            "packageSpec": "100支以下",
+            "packageUnit": "03"
         }
     ],
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4CF79B29-0B12-4BBC-8008-623C637FD1A9",
+    "subCategory": [],
     "ingredientsDesc": [
         "THIAMINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "安星製藥股份有限公司",
     "applicantAddr": "新竹縣新豐鄉鳳坑村坑子口６７３號",
@@ -39,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "8A67F5BE-20AF-44A2-A484-8183F6BF58FD",
             "factoryCode": "1",
             "factoryName": "安星製藥股份有限公司",
             "factoryAddr": "新竹縣新豐鄉鳳坑村坑子口６７３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0603006300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810100900",
+            "ingredientsName": "THIAMINE HYDROCHLORIDE",
             "ingredientsDesc": "THIAMINE HYDROCHLORIDE",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -69,29 +86,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1F5FA4F1-D74A-4273-BA7F-3B9D87052286",
-            "approvedDocNo": "1120607681",
-            "approvedDate": "2023-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "043A30E1-0431-4F2D-919C-44855BF309FE",
-            "approvedDocNo": "1120607681",
-            "approvedDate": "2023-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A11DA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "6B1D177F-940F-4FA5-86B1-F5BFC1CA3835"
 }

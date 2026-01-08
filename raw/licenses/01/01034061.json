@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01034061",
+    "licUnit": "1",
     "validDate": "2026-06-11 00:00:00.000",
     "issueDate": "1991-06-11 00:00:00.000",
+    "oriIssueDate": "1991-06-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103406108",
@@ -27,11 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C0EEF2C1-605A-4175-8B67-880704EFE11B",
+    "subCategory": [],
     "ingredientsDesc": [
         "ISOCONAZOLE NITRATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "瑞安大藥廠股份有限公司",
     "applicantAddr": "臺北市內湖區內湖路1段392號11樓之1",
@@ -43,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "EF5C1B17-1817-4CF3-84BB-3DE726C164D0",
             "factoryCode": "1",
             "factoryName": "優良化學製藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉中興村光復路10號 ",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6133061486",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200610",
+            "ingredientsName": "ISOCONAZOLE NITRATE",
             "ingredientsDesc": "ISOCONAZOLE NITRATE",
             "concentDesc": "",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -81,45 +95,13 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E493C032-3AC6-4E68-B2B1-04324BCF8F61",
-            "approvedDocNo": "1106806922",
-            "approvedDate": "2021-05-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EE90E351-EBB4-40E2-9990-635CBE9C5A59",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9EF3E88C-E966-4E84-B143-3BC35B2B152A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2A6D7BAF-02FC-4F2E-81DC-F29B4977B965",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-01-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G01AF07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "9FE58D9E-48CC-4F75-BF88-82DBC84E364F"
 }

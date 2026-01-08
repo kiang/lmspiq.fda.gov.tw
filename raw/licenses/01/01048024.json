@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048024",
-    "validDate": "2026-06-14 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2031-06-14 00:00:00.000",
     "issueDate": "2006-06-14 00:00:00.000",
+    "oriIssueDate": "2006-06-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104802402",
@@ -23,15 +27,18 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8E67FC02-7A1A-4A55-B4FD-16FB8273E4EC",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETYLCYSTEINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "中國化學製藥股份有限公司新豐工廠",
-    "applicantAddr": "新竹縣新豐鄉坑子口１８２之１號",
+    "applicantAddr": "新竹縣新豐鄉坑子口182之1號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "C79E68D9-DF56-4C81-B290-7311224BDA71",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800000100",
+            "ingredientsName": "ACETYLCYSTEINE",
             "ingredientsDesc": "ACETYLCYSTEINE",
             "concentDesc": null,
-            "concent": "600.0000",
+            "concent": "600.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,21 +83,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D8E4EE00-94B3-4102-98F5-B8AD5D76D7DB",
-            "approvedDocNo": "1110730650",
-            "approvedDate": "2022-12-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R05CB01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "B141FB16-DCFD-40FE-BA1E-6F61972A9130"
 }

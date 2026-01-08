@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040077",
+    "licUnit": "1",
     "validDate": "2026-06-17 00:00:00.000",
     "issueDate": "1996-06-17 00:00:00.000",
+    "oriIssueDate": "1996-06-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104007709",
@@ -23,12 +27,15 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "31FDEFCC-2C61-4F9F-8C8F-26160A532B72",
+    "subCategory": [],
     "ingredientsDesc": [
         "ASPIRIN"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "永勝藥品工業股份有限公司",
     "applicantAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路6之3號",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "D22B4B1B-F21F-40CC-B28B-102923922622",
             "factoryCode": "1",
             "factoryName": "永勝藥品工業股份有限公司",
             "factoryAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路6之3號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6140040022",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808600300",
+            "ingredientsName": "ASPIRIN",
             "ingredientsDesc": "ASPIRIN",
             "concentDesc": "100",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,33 +83,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "896C03AE-919F-4E46-AF3D-9EEAE9585B55",
-            "approvedDocNo": "1096808285",
-            "approvedDate": "2020-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B3B5533D-4065-4502-AB51-B9AB748A45BB",
-            "approvedDocNo": "1096808285",
-            "approvedDate": "2020-08-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N02BA01"
-        },
         {
             "isMain": "1",
             "atcCode": "N02BA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "4F58AC3C-D3E3-4603-BF1F-7F7093DF3958"
 }

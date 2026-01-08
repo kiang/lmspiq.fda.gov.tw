@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02021848",
+    "licUnit": "1",
     "validDate": "2028-01-18 00:00:00.000",
     "issueDate": "2017-10-16 00:00:00.000",
+    "oriIssueDate": "1997-08-14",
     "licKind": "02",
     "oldLicid": "02021499",
     "certNo": "DHA00202184805",
@@ -23,11 +27,14 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3A60CF3D-96A3-4159-8E0E-BB3F8980FB12",
+    "subCategory": [],
     "ingredientsDesc": [
         "TEICOPLANIN"
     ],
     "restraintItemsCode": [
-        "02"
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "賽諾菲股份有限公司",
     "applicantAddr": "台北市信義區松仁路3號7樓",
@@ -39,25 +46,31 @@
     "monitorDate": "2000-01-18",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "20F6D1B9-BAB7-4DF4-871C-E20306CFA42A",
             "factoryCode": "1",
             "factoryName": "SANOFI S.R.L",
             "factoryAddr": "Via Valcanello 4, 03012 Anagni (FR), Italy",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIT0450000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "82AE5591-A51D-4D64-8855-5B96B573F654",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司高上倉",
             "factoryAddr": "桃園市楊梅區高上路1段150號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -69,13 +82,16 @@
             "factoryKind": "M",
             "factoryNo": "6132041444",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "EBEA0191-3BE4-4A10-8C17-A116BE7A2922",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
             "factoryAddr": "桃園市楊梅區梅獅路二段629號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -87,16 +103,19 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812010000",
+            "ingredientsName": "TEICOPLANIN",
             "ingredientsDesc": "TEICOPLANIN",
             "concentDesc": "200",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -105,69 +124,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8E106D2B-AF46-4B95-80E1-BAB1F0915E31",
-            "approvedDocNo": "1119062540",
-            "approvedDate": "2023-05-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0463B860-662E-431D-A193-56AE88501FBE",
-            "approvedDocNo": "1119054008",
-            "approvedDate": "2023-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "62C750C1-19EB-4FB0-B59B-9F02D3C85F65",
-            "approvedDocNo": "1119058556",
-            "approvedDate": "2022-12-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "658F711F-A98B-4B2F-ABB4-150782608255",
-            "approvedDocNo": "1119020373",
-            "approvedDate": "2022-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AA6552BF-2555-4EF4-891F-ECB915941813",
-            "approvedDocNo": "1119026018",
-            "approvedDate": "2022-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "921156CA-0868-4506-8685-8491C9E90848",
-            "approvedDocNo": "1101493933",
-            "approvedDate": "2021-12-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01XA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01XA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "DB72D87A-4AC2-4416-957A-8A0304D09E54"
 }

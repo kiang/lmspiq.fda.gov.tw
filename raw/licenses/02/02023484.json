@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023484",
+    "licUnit": "1",
     "validDate": "2027-07-02 00:00:00.000",
     "issueDate": "2002-07-02 00:00:00.000",
+    "oriIssueDate": "2002-07-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202348403",
@@ -23,13 +27,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CA7DA7CF-B6C6-4CA1-844F-D1D921FBBD8D",
+    "subCategory": [],
     "ingredientsDesc": [
         "URACIL",
         "TEGAFUR (FTORAFUR)"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "台灣大塚製藥股份有限公司",
     "applicantAddr": "台北市中山區復興北路378號11樓",
@@ -41,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "DB5705EE-3125-4C2E-AF5A-7EAE4F742B82",
             "factoryCode": "1",
             "factoryName": "TAIHO PHARMACEUTICAL CO. LTD. (TOKUSHIMA PLANT)",
             "factoryAddr": "224-15,AZA-EBISUNO,HIRAISHI,KAWAUCHI-CHO,TOKUSHIMA-SHI,TOKUSHIMA,771-0194, JAPAN ",
-            "factoryCompanyAddr": "1-27 KANDA NISHIKI-CHO,CHIYODA-KU,TOKYO,JAPAN",
+            "factoryCompanyAddr": "1-27 KANDANISHIKI-CHO,CHIYODA-KU,TOKYO,101-8444, JAPAN",
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP0317000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1008400300",
+            "ingredientsName": "TEGAFUR (FTORAFUR)",
             "ingredientsDesc": "TEGAFUR (FTORAFUR)",
             "concentDesc": null,
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -71,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600098800",
+            "ingredientsName": "URACIL",
             "ingredientsDesc": "URACIL",
             "concentDesc": null,
-            "concent": "224.0000",
+            "concent": "224.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -82,53 +97,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1073629C-91A6-4DF0-B807-C230869F3B5D",
-            "approvedDocNo": "1110714896",
-            "approvedDate": "2022-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "85FBFA78-01E6-4378-AA7F-2AD154E4FC58",
-            "approvedDocNo": "1119047617",
-            "approvedDate": "2022-10-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FCA0B2F0-214C-457B-8B00-2BB5F8AEF9AD",
-            "approvedDocNo": "1096009038",
-            "approvedDate": "2020-08-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C3FA281F-DC2B-4611-B1CA-8108091FCD6D",
-            "approvedDocNo": "1086032521",
-            "approvedDate": "2020-02-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "L01BC"
-        },
         {
             "isMain": "1",
             "atcCode": "L01BC53"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "L01BC03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "88A15261-3A0D-423D-9252-9AD2DC4CF9F4"
 }

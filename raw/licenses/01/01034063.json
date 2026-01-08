@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01034063",
+    "licUnit": "1",
     "validDate": "2026-06-12 00:00:00.000",
     "issueDate": "1995-08-21 00:00:00.000",
+    "oriIssueDate": "1995-08-21",
     "licKind": "02",
     "oldLicid": "01034063",
     "certNo": "DHY00103406302",
@@ -23,6 +27,9 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "25310437-34BD-497B-8D3C-8140D2895090",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "CHLORPHENIRAMINE MALEATE",
@@ -30,7 +37,7 @@
         "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "依必朗化學製藥股份有限公司",
     "applicantAddr": "彰化縣福興鄉萬豐村福工路１１號",
@@ -42,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "47A70795-461A-4E1F-8C0F-3752EF080433",
             "factoryCode": "1",
             "factoryName": "依必朗化學製藥股份有限公司",
             "factoryAddr": "彰化縣福興鄉萬豐村福工路１１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0823912300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "12.0",
-            "concent": "12.0000",
+            "concent": "12.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": "0.11",
-            "concent": "0.1100",
+            "concent": "0.110000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -83,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800001420",
+            "ingredientsName": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "ingredientsDesc": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
             "concentDesc": "3.7",
-            "concent": "3.7000",
+            "concent": "3.700000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -94,9 +109,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": "1.8",
-            "concent": "1.8000",
+            "concent": "1.800000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -105,45 +121,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D0C70461-FE6B-4226-A242-95C4A15C5E4E",
-            "approvedDocNo": "1090007232",
-            "approvedDate": "2020-05-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "431E67FE-AE9B-4EB7-90E8-4C24DC67467D",
-            "approvedDocNo": "1080016169",
-            "approvedDate": "2019-10-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA03"
-        },
         {
             "isMain": "1",
             "atcCode": "R05CA10"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "259D1AAD-40C1-465D-A861-CDE45CC29FDD"
 }

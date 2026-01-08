@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023215",
+    "licUnit": "1",
     "validDate": "2026-06-29 00:00:00.000",
     "issueDate": "2001-06-29 00:00:00.000",
+    "oriIssueDate": "2001-06-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202321502",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "145180E3-D673-4FD9-903B-3E7B0A9C2122",
+    "subCategory": [],
     "ingredientsDesc": [
         "FENOFIBRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "天義企業股份有限公司",
     "applicantAddr": "台北市復興南路一段１２９號５樓",
@@ -40,8 +48,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "542DC9B3-DD17-4750-98AD-539EA8EFC507",
             "factoryCode": "1",
             "factoryName": "SMB TECHNOLOGY S.A.",
             "factoryAddr": "39 RUE DU PARC INDUSTRIEL 6900, MARCHE-EN-FAMENNE\/BELGIUM",
@@ -52,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "FBE0042100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2406002400",
+            "ingredientsName": "FENOFIBRATE",
             "ingredientsDesc": "FENOFIBRATE",
             "concentDesc": "200",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,29 +84,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BE872BCE-52FD-41A1-B48D-9B1FAFC1AEA7",
-            "approvedDocNo": "1110720122",
-            "approvedDate": "2022-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8E75D815-C70A-40E3-94B3-0128B0AF18B6",
-            "approvedDocNo": "1101494953",
-            "approvedDate": "2021-09-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C10AB05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "DC7BECAF-610D-4602-8DC8-40F8560AC01B"
 }

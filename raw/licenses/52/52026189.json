@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026189",
+    "licUnit": "1",
     "validDate": "2028-11-07 00:00:00.000",
     "issueDate": "2013-11-07 00:00:00.000",
+    "oriIssueDate": "2013-11-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202618909",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FBA73215-DC4E-4C26-9787-23C1677E2CC0",
+    "subCategory": [],
     "ingredientsDesc": [
         "ESOMEPRAZOLE MAGNESIUM DIHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "盛益貿易有限公司",
     "applicantAddr": "新北市汐止區新台五路一段75號7樓之7",
@@ -40,21 +48,27 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "EA8EC47D-84E7-4BA3-80DB-1AF4E1EAE114",
             "factoryCode": "1",
             "factoryName": "VALPHARMA INTERNATIONAL S.P.A.",
             "factoryAddr": "VIA G. MORGAGNI, 2-47864 PENNABILLI(RN), ITALY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIT0471000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "23F4A4B2-91E6-4B5D-85D3-13F7C566C02D",
             "factoryCode": "2",
             "factoryName": "PCAS(PRODUITS CHIMIQUES AUXILIAIRES ET DE SYNTHESE)",
             "factoryAddr": "19, ROUTE DE MEULAN, F-78520 LIMAY FRANCE",
@@ -70,13 +84,16 @@
             "factoryKind": "M",
             "factoryNo": "FFR0139000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3C79192D-8306-4F4C-82A4-8B6FBEDB6E41",
             "factoryCode": "2",
             "factoryName": "LAMP SAN PROSPERO S.P.A.",
             "factoryAddr": "VIA DELLA PACE, 25\/A, SAN PROSPERO, MODENA, I-41030, ITALY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [
                 {
@@ -88,16 +105,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0472000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5640002940",
+            "ingredientsName": "ESOMEPRAZOLE MAGNESIUM DIHYDRATE",
             "ingredientsDesc": "ESOMEPRAZOLE MAGNESIUM DIHYDRATE",
             "concentDesc": "",
-            "concent": "43.380",
+            "concent": "43.380000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -113,5 +133,6 @@
             "atcCode": "A02BC05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "7D7F44AA-1D16-4028-9278-598469C003BD"
 }

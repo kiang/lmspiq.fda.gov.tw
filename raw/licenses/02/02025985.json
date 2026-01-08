@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025985",
+    "licUnit": "1",
     "validDate": "2028-04-12 00:00:00.000",
     "issueDate": "2013-04-12 00:00:00.000",
+    "oriIssueDate": "2013-04-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": "B",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9264A666-A76C-4974-A33A-A5D22DF65193",
+    "subCategory": [],
     "ingredientsDesc": [
         "FENTANYL CITRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "32"
+        "02 輸 入",
+        "07 新藥監視",
+        "32 第二級管制藥品"
     ],
     "applicantName": "衛生福利部食品藥物管理署管制藥品製藥工廠",
     "applicantAddr": "台北市南港區忠孝東路六段467號地下一層",
@@ -41,8 +48,11 @@
     "monitorDate": "2018-04-12",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "7D0F79EF-DE4B-4E01-8321-72DC2E1AE466",
             "factoryCode": "1",
             "factoryName": "LTS LOHMANN THERAPIE-SYSTEME AG",
             "factoryAddr": "LOHMANNSTRASSE 2, D-56626 ANDERNACH, GERMANY",
@@ -53,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0242000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F54F01F5-3B4E-4861-9B41-BC28E99D17E7",
             "factoryCode": "2",
             "factoryName": "Adalvo Limited",
             "factoryAddr": "Malta Life Sciences Park, Building 1, Level 4, Sir Temi Zammit Buildings, San Gwann SGN 3000, Malta",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "MT",
             "processCode": [
                 {
@@ -71,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FMT0014000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800320",
+            "ingredientsName": "FENTANYL CITRATE",
             "ingredientsDesc": "FENTANYL CITRATE",
             "concentDesc": "",
-            "concent": "1.8800",
+            "concent": "1.880000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,45 +105,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F0EB02F9-B734-482F-96C2-3AECD4643FEF",
-            "approvedDocNo": "1121403367",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8ED81ADB-01E1-492A-A1F4-ABCD0BD87A81",
-            "approvedDocNo": "1121402579",
-            "approvedDate": "2023-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2595E9B1-9744-47F6-8EC6-BDA7170AB4B2",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A972EC4A-3515-4D67-82B2-76AD46E11F8A",
-            "approvedDocNo": "1081402770",
-            "approvedDate": "2019-03-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02AB03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "AD436983-4B1F-46CC-8B57-04B13E5D2DBC"
 }

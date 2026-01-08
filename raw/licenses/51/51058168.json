@@ -1,13 +1,17 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058168",
+    "licUnit": "1",
     "validDate": "2029-01-02 00:00:00.000",
     "issueDate": "2014-01-02 00:00:00.000",
+    "oriIssueDate": "2014-01-02",
     "licKind": "02",
     "oldLicid": null,
-    "certNo": "DHY05105816802",
+    "certNo": null,
     "prodNameC": "奧必膜衣錠",
     "prodNameE": "Opicet F.C. Tablets",
     "indicationsName": [
@@ -27,15 +31,18 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3B5A1019-737F-406E-99BC-3B0D2A318A24",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "TRAMADOL HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "06",
-        "24",
-        "34"
+        "01 國 產",
+        "06 管制藥品",
+        "24 監視期滿學名藥",
+        "34 第四級管制藥品"
     ],
     "applicantName": "榮慶藥品有限公司",
     "applicantAddr": "臺北市中山區明水路387號1樓",
@@ -47,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "03A1A0F9-20B1-4DFA-A9A2-275AA91D4C1C",
             "factoryCode": "1",
             "factoryName": "五洲製藥股份有限公司",
             "factoryAddr": "桃園市新屋區赤欄里１７號之１",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0413004300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808202510",
+            "ingredientsName": "TRAMADOL HCL",
             "ingredientsDesc": "TRAMADOL HCL",
             "concentDesc": "",
-            "concent": "37.500",
+            "concent": "37.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "",
-            "concent": "325.000",
+            "concent": "325.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -88,45 +102,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C75150DD-C429-4A1F-A045-030DA7CFBE20",
-            "approvedDocNo": "1110733216",
-            "approvedDate": "2023-09-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7C9D0DDB-45B5-4E35-8A03-72D7789918AA",
-            "approvedDocNo": "1110724566",
-            "approvedDate": "2023-02-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FFECCD9F-7C53-4550-99C4-8D0F42777B89",
-            "approvedDocNo": "1096031049",
-            "approvedDate": "2021-02-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
         {
             "isMain": "1",
             "atcCode": "N02AJ13"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02AX02 "
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "AA4A4E8B-9716-4EE9-9DAC-5AA12399F3E1"
 }

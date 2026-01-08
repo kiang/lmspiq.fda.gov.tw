@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057779",
+    "licUnit": "1",
     "validDate": "2027-12-18 00:00:00.000",
     "issueDate": "2012-12-18 00:00:00.000",
+    "oriIssueDate": "2012-12-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,15 +31,18 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "529CC8EF-385E-46C7-AAB3-2ECE70B9C298",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACETAMINOPHEN (EQ TO PARACETAMOL)",
         "TRAMADOL HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "34",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "34 第四級管制藥品",
+        "61 完成BE試驗"
     ],
     "applicantName": "五洲製藥股份有限公司",
     "applicantAddr": "桃園市新屋區赤欄里17之1號",
@@ -47,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "0C8AC217-1FB0-4059-B258-92BFA02FE796",
             "factoryCode": "1",
             "factoryName": "五洲製藥股份有限公司",
             "factoryAddr": "桃園市新屋區赤欄村１７－１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0413004300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808202510",
+            "ingredientsName": "TRAMADOL HCL",
             "ingredientsDesc": "TRAMADOL HCL",
             "concentDesc": null,
-            "concent": "37.5000",
+            "concent": "37.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": null,
-            "concent": "325.0000",
+            "concent": "325.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -88,69 +102,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2B7AFFDA-959D-4DD1-970A-7134B90503A6",
-            "approvedDocNo": "1120703966",
-            "approvedDate": "2023-03-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2BAAF22E-FA34-4D03-ABB4-02C07F7B8E05",
-            "approvedDocNo": "1110724565",
-            "approvedDate": "2023-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D9890086-F1CE-43CC-87AB-1C34841530BD",
-            "approvedDocNo": "1110720314",
-            "approvedDate": "2022-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "311DA5BB-5818-4A76-8275-ADA4F7EED06C",
-            "approvedDocNo": "1096031048",
-            "approvedDate": "2021-02-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AAFA369C-6FFA-4844-B0F5-152D9E31FC9C",
-            "approvedDocNo": "1086014500",
-            "approvedDate": "2019-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6D3F02B1-0CFC-4BF1-BFC1-7C898133C482",
-            "approvedDocNo": "1086014500",
-            "approvedDate": "2019-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02AJ13"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02AX02 "
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "02C0A06C-40F5-48D1-98B9-B0751827F964"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01002483",
+    "licUnit": "1",
     "validDate": "2026-06-30 00:00:00.000",
     "issueDate": "1973-02-20 00:00:00.000",
+    "oriIssueDate": "1973-02-20",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100248306",
@@ -27,15 +31,18 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A29BEAB4-8330-4212-9D3D-53E1F1B2E412",
+    "subCategory": [],
     "ingredientsDesc": [
         "ALUMINUM HYDROXIDE DRIED GEL",
         "MAGNESIUM HYDROXIDE",
         "MAGNESIUM TRISILICATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "福元化學製藥股份有限公司",
     "applicantAddr": "新北市瑞芳區大寮路95-1號1樓",
@@ -47,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "E67C3F8E-F615-451A-BAB0-D54782DB572A",
             "factoryCode": "1",
             "factoryName": "福元化學製藥股份有限公司",
             "factoryAddr": "新北市瑞芳區大寮路９５號之１",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1419502300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000202",
+            "ingredientsName": "ALUMINUM HYDROXIDE DRIED GEL",
             "ingredientsDesc": "ALUMINUM HYDROXIDE DRIED GEL",
             "concentDesc": "260",
-            "concent": "260.0000",
+            "concent": "260.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -77,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002700",
+            "ingredientsName": "MAGNESIUM TRISILICATE",
             "ingredientsDesc": "MAGNESIUM TRISILICATE",
             "concentDesc": "455",
-            "concent": "455.0000",
+            "concent": "455.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -88,9 +102,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002500",
+            "ingredientsName": "MAGNESIUM HYDROXIDE",
             "ingredientsDesc": "MAGNESIUM HYDROXIDE",
             "concentDesc": "130",
-            "concent": "130.0000",
+            "concent": "130.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -99,41 +114,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EA8F50D3-9058-4A47-A340-6FB8E854659F",
-            "approvedDocNo": "1086012485",
-            "approvedDate": "2019-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BEE527A7-8F72-4A38-8293-C45F370B7077",
-            "approvedDocNo": "1086012485",
-            "approvedDate": "2019-07-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A02AA05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA04"
-        },
         {
             "isMain": "1",
             "atcCode": "A02AD"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "EE8048B3-C467-4B9D-826F-AA2E33157772"
 }

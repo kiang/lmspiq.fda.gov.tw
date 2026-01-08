@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02022282",
+    "licUnit": "1",
     "validDate": "2028-08-31 00:00:00.000",
     "issueDate": "1998-08-31 00:00:00.000",
+    "oriIssueDate": "1998-08-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202228202",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "BAD89F9F-977C-41BA-9F63-B0C9B1FDC89D",
+    "subCategory": [],
     "ingredientsDesc": [
         "ANASTROZOLE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "53"
+        "02 輸 入",
+        "07 新藥監視",
+        "53 依本署七七公告事項八得免除國內進行臨床試驗之特殊醫療需要之新藥"
     ],
     "applicantName": "臺灣阿斯特捷利康股份有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號21樓",
@@ -41,21 +48,27 @@
     "monitorDate": "2005-08-31",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "C3627D2C-407B-4F0E-BAD8-87EF64566915",
             "factoryCode": "1",
             "factoryName": "ASTRAZENECA PHARMACEUTICALS LP",
             "factoryAddr": "587 OLD BALTIMORE PIKE,NEWARK, DE 19702, U.S.A. ",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FUS0516000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "A4B524D6-3C43-49A7-A6F3-6A7241DD7F73",
             "factoryCode": "2",
             "factoryName": "ASTRAZENECA UK LIMITED",
             "factoryAddr": "SILK ROAD BUSINESS PARK,MACCLESFIELD,CHESHIRE,SK10 2NA",
@@ -71,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0053000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1004001800",
+            "ingredientsName": "ANASTROZOLE",
             "ingredientsDesc": "ANASTROZOLE",
             "concentDesc": null,
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -89,61 +105,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "85BC9493-ED52-4426-9E4F-95B970CB599B",
-            "approvedDocNo": "1110733208",
-            "approvedDate": "2023-06-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "75284A51-17FE-4AAA-B6F8-5CC130E0E5F1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0D6566BE-36A4-4697-A8A2-46C65CB86806",
-            "approvedDocNo": "1106025265",
-            "approvedDate": "2022-01-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B059F996-BAA8-4970-BC82-147FC88C5F24",
-            "approvedDocNo": "1106002295",
-            "approvedDate": "2021-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9544317B-3630-44C2-940A-2E69C9BC6C7A",
-            "approvedDocNo": "1106002295",
-            "approvedDate": "2021-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E5E403B6-4650-4D9B-BFBF-3EF230135C21",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L02BG03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "1644D964-EBBB-40BE-A50F-170288F6B24E"
 }

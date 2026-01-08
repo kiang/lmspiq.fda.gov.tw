@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01009609",
+    "licUnit": "1",
     "validDate": "2028-05-10 00:00:00.000",
     "issueDate": "1976-05-10 00:00:00.000",
+    "oriIssueDate": "1976-05-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00100960901",
@@ -16,22 +20,26 @@
     "does": "1130",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4C1CED88-2BD2-4D6C-A69A-8FC820C9C93A",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMPICILLIN (TRIHYDRATE)"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "榮民製藥股份有限公司",
     "applicantAddr": "桃園市中壢區中山東路３段４４７號",
@@ -43,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "AD0F56F5-28BC-4F1D-8651-95C9CADFFE2D",
             "factoryCode": "1",
             "factoryName": "榮民製藥股份有限公司",
             "factoryAddr": "桃園市中壢區中山東路３段４４７號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6132020070",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812609360",
+            "ingredientsName": "AMPICILLIN (TRIHYDRATE)",
             "ingredientsDesc": "AMPICILLIN (TRIHYDRATE)",
             "concentDesc": "",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,61 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A145F892-880B-44D9-A0A1-2BA20E0D7778",
-            "approvedDocNo": "1110817877",
-            "approvedDate": "2023-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "55B986AD-DD50-48B1-B954-600EE02AF7B3",
-            "approvedDocNo": "1110817877",
-            "approvedDate": "2023-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B34C6100-576D-48E9-9C9B-93B478882EEE",
-            "approvedDocNo": "1110817877",
-            "approvedDate": "2023-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "467EB33A-834F-4CA2-80EB-A07041BB7EED",
-            "approvedDocNo": "1110817877",
-            "approvedDate": "2023-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BED63581-A67C-47E6-BD0C-BC61CA1E6B8F",
-            "approvedDocNo": "1110817877",
-            "approvedDate": "2023-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D03B3025-A569-4221-8F35-CD4A905DE48A",
-            "approvedDocNo": "1110817877",
-            "approvedDate": "2023-01-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01CA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "6CF7AFCD-753A-4B1B-B7A3-A8DA71525A60"
 }

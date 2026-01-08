@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058053",
+    "licUnit": "1",
     "validDate": "2028-08-19 00:00:00.000",
     "issueDate": "2013-08-19 00:00:00.000",
+    "oriIssueDate": "2013-08-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105805308",
@@ -27,12 +31,15 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "70CE9BCE-F82B-471B-97B7-717FECC29D37",
+    "subCategory": [],
     "ingredientsDesc": [
         "MOXIFLOXACIN HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "南光化學製藥股份有限公司",
     "applicantAddr": "臺南市新化區全興里中山路1001號、1001-1號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "45E2290F-099A-4A81-98F9-67DCDBB8580C",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區中山路1001號、1001-1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812700910",
+            "ingredientsName": "MOXIFLOXACIN HYDROCHLORIDE",
             "ingredientsDesc": "MOXIFLOXACIN HYDROCHLORIDE",
             "concentDesc": "(eq. to Moxifloxacin 1.6mg) (potency)",
-            "concent": "1.746",
+            "concent": "1.746000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,77 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5E14A601-A9C5-4D26-AF29-EC3A56EBB65B",
-            "approvedDocNo": "1129023763",
-            "approvedDate": "2023-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3D806573-15F4-4069-A6CD-F5D9DD21E4E1",
-            "approvedDocNo": "1129023763",
-            "approvedDate": "2023-06-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A5ACFC7A-E1EA-45A8-A9B3-A08C6CF9A173",
-            "approvedDocNo": "1101498926",
-            "approvedDate": "2022-04-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "890D082F-7866-42DC-BACA-DE2201040FFE",
-            "approvedDocNo": "1101498926",
-            "approvedDate": "2022-04-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "75D65C5D-3D18-46C3-AB32-81762D7BFA85",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B700D95C-855A-4C22-AE0D-AF73AD68E3AC",
-            "approvedDocNo": "1101490511",
-            "approvedDate": "2021-03-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AFCB39E4-E157-4863-97B3-C5757EC61E17",
-            "approvedDocNo": "1081410724",
-            "approvedDate": "2019-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "35B5A893-96FE-4142-9795-F6273D596631",
-            "approvedDocNo": "1086805410",
-            "approvedDate": "2019-08-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01MA14"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "4EF213B4-67E4-41E2-8D9F-AF9C86BD842B"
 }

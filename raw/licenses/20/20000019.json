@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "20000019",
+    "licUnit": "1",
     "validDate": "2026-06-23 00:00:00.000",
     "issueDate": "2011-06-23 00:00:00.000",
+    "oriIssueDate": "2011-06-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA02000001903",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "4BD713F0-65E5-4059-BBC0-4CF955D5B1C7",
+    "subCategory": [],
     "ingredientsDesc": [
         "MEFLOQUINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "鴻汶醫藥實業有限公司",
     "applicantAddr": "台中市西屯區文心路三段236號3樓、238號3樓",
@@ -39,25 +46,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "C9AD217B-6D6F-40B4-97B0-7B72B76C4A11",
             "factoryCode": "1",
             "factoryName": "APOTEX INC.",
             "factoryAddr": "150 SIGNET DRIVE,TORONTO(WESTON),ONTARIO,CANADA M9L 1T9",
-            "factoryCompanyAddr": null,
+            "factoryCompanyAddr": "150 SIGNET DRIVE,TORONTO(WESTON),ONTARIO,CANADA M9L 1T9",
             "countryCode": "CA",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCA0025000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3E7D2EE4-DCAB-4804-A799-49C55AD3ECC7",
             "factoryCode": "2",
             "factoryName": "天義企業股份有限公司",
             "factoryAddr": "新北市林口區工二工業區工五路8號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -69,13 +82,16 @@
             "factoryKind": "M",
             "factoryNo": "6131171176",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "752B6872-78D8-42E5-9645-518C9F2D96FA",
             "factoryCode": "2",
             "factoryName": "AA Pharma Inc.",
             "factoryAddr": "UNIT 1, 1165 Creditstone Road, Vaughan, Ontario, L4K 4N7, Canada",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CA",
             "processCode": [
                 {
@@ -87,16 +103,19 @@
             "factoryKind": "M",
             "factoryNo": "FCA0138000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0820001010",
+            "ingredientsName": "MEFLOQUINE HYDROCHLORIDE",
             "ingredientsDesc": "MEFLOQUINE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "280.000",
+            "concent": "280.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -105,57 +124,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0399AE77-E49C-48E5-AB69-D68B6DEDD624",
-            "approvedDocNo": "1120808549",
-            "approvedDate": "2023-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AEC7FF52-E130-40FB-AA0F-19AF45489889",
-            "approvedDocNo": "1096033812",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "70C6ED4B-68D8-4FB8-975D-7B8CE85E5074",
-            "approvedDocNo": "1096033812",
-            "approvedDate": "2020-11-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B6B71E23-53B5-4FA3-B7F8-1AF4A32E5F25",
-            "approvedDocNo": "1096018268",
-            "approvedDate": "2020-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "375515F4-97C0-4FEE-8970-ED71BD6C0787",
-            "approvedDocNo": "1096018268",
-            "approvedDate": "2020-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "P01BC02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "P01BC02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "0DA25DC0-A72E-4E05-B5AA-398CB67D920D"
 }

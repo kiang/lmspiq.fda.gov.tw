@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "4",
+    "licStatus": "2",
+    "cancelDate": "2024-07-29",
+    "cancelReason": [
+        "827"
+    ],
+    "otherCancelReason": "",
     "licid": "02023206",
+    "licUnit": "1",
     "validDate": "2026-06-18 00:00:00.000",
     "issueDate": "2001-06-18 00:00:00.000",
+    "oriIssueDate": "2001-06-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202320601",
@@ -23,12 +29,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "07A189D2-BB70-42CB-8881-C75580EDD8D1",
+    "subCategory": [],
     "ingredientsDesc": [
         "PIOGLITAZONE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "台灣賽特瑞恩有限公司",
     "applicantAddr": "臺北市信義區松仁路97號3樓之1",
@@ -40,25 +49,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "3E322F6E-A7A1-4F81-8193-48972951BD5B",
             "factoryCode": "1",
             "factoryName": "TAKEDA PHARMACEUTICAL COMPANY LIMITED, HIKARI PLANT",
             "factoryAddr": "4720, TAKEDA, MITSUI, HIKARI, YAMAGUCHI 743-8502, JAPAN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP0619000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "7F558E97-163D-408F-89F4-062E16D8C940",
             "factoryCode": "2",
             "factoryName": "歐帕生技醫藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉光復路1號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -70,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "6133061413",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400910",
+            "ingredientsName": "PIOGLITAZONE HYDROCHLORIDE",
             "ingredientsDesc": "PIOGLITAZONE HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "33.0600",
+            "concent": "33.060000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -96,69 +114,13 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DA95DDA1-C8B7-4A28-B290-13E8973037B3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "165E8173-A66D-4551-B029-14727E23B42A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-02-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C22C342B-D2B7-46CB-AA13-06BC40582EBB",
-            "approvedDocNo": "1101493846",
-            "approvedDate": "2021-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CF2277B6-6553-4F22-99A9-B1A75E28E60A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-06-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "15351633-7E6C-4FE8-9F9C-3D391A29B6EF",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B36F0F5C-EE34-48CD-9A29-795E9780A651",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "95E41CAD-A955-4FC6-93F9-F10D9AE8DB32",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A10BG03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8E156E25-B8BA-4180-BAB7-35D8664A6DDC"
 }

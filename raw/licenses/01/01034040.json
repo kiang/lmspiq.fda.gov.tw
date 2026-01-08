@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01034040",
+    "licUnit": "1",
     "validDate": "2026-06-07 00:00:00.000",
     "issueDate": "1991-06-07 00:00:00.000",
+    "oriIssueDate": "1991-06-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103404000",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F4909AAE-3E42-45FA-AE50-4DA78BA2F8BC",
+    "subCategory": [],
     "ingredientsDesc": [
         "ISOCONAZOLE NITRATE",
         "DIFLUCORTOLONE 21-VALERATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "合成藥品股份有限公司",
     "applicantAddr": "高雄市新興區洛陽街１１號５樓之６",
@@ -41,8 +48,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "5FABFC4F-5C0A-4AFB-BB9A-397B9F098676",
             "factoryCode": "1",
             "factoryName": "美西製藥有限公司",
             "factoryAddr": "高雄市仁武區仁武里工業一路９號",
@@ -53,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "0900822300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804000811",
+            "ingredientsName": "DIFLUCORTOLONE 21-VALERATE",
             "ingredientsDesc": "DIFLUCORTOLONE 21-VALERATE",
             "concentDesc": "1",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -71,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812200610",
+            "ingredientsName": "ISOCONAZOLE NITRATE",
             "ingredientsDesc": "ISOCONAZOLE NITRATE",
             "concentDesc": "10",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -82,61 +96,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D9944358-61CF-4BDA-B3D3-4E124EF26660",
-            "approvedDocNo": "1110022976",
-            "approvedDate": "2022-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "975B0573-3998-4E58-BF42-A6DAC1D2B423",
-            "approvedDocNo": "1110022976",
-            "approvedDate": "2022-10-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "06030A39-C3F9-48DA-9AE0-A9C50893E845",
-            "approvedDocNo": "1086602818",
-            "approvedDate": "2019-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6B66FD0F-E005-4328-9C17-1804E0EF9C4E",
-            "approvedDocNo": "1086602818",
-            "approvedDate": "2019-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D74C4622-DF22-492F-8644-305A4DFB74D6",
-            "approvedDocNo": "1086602818",
-            "approvedDate": "2019-06-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D01AC20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AC05"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AC06"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "A4E296E5-F651-4E8A-A04F-F86F17A02E40"
 }

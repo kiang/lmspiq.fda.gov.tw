@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057204",
+    "licUnit": "1",
     "validDate": "2027-05-04 00:00:00.000",
     "issueDate": "2012-05-04 00:00:00.000",
+    "oriIssueDate": "2012-05-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105720405",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C18DC5B1-1BE9-4C83-8B30-A61C027A5CBC",
+    "subCategory": [],
     "ingredientsDesc": [
         "IRBESARTAN"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "62"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "62 完成溶離率試驗"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -45,8 +52,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "81D9D054-2553-43C4-A417-603B76E0F34C",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業一路６號",
@@ -57,16 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200038400",
+            "ingredientsName": "IRBESARTAN",
             "ingredientsDesc": "IRBESARTAN",
             "concentDesc": "",
-            "concent": "300.0000",
+            "concent": "300.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -75,61 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "806EBC0E-A940-4A91-AA19-EFB98EBA31CA",
-            "approvedDocNo": "1120705764",
-            "approvedDate": "2023-09-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E268BB4B-6C41-45FE-9DA8-33AFDF3AD9B9",
-            "approvedDocNo": "1110703820",
-            "approvedDate": "2022-09-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8AEFA4AA-2BF9-4FBF-91E3-7527D8D82A5C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8AAECE1F-A9AF-4BCF-856C-8D72825F4CD9",
-            "approvedDocNo": "1106020490",
-            "approvedDate": "2021-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F28A58A9-F2F0-43CF-8859-6C25332640B4",
-            "approvedDocNo": "1096821405",
-            "approvedDate": "2021-01-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F346D468-0E9C-4760-AD22-B3D2732464F9",
-            "approvedDocNo": "1076807526",
-            "approvedDate": "2019-03-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C09CA04"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "BEFB8F46-70A5-4314-A182-12AC58F46E4F"
 }

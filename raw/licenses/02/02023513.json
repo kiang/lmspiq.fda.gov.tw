@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023513",
+    "licUnit": "1",
     "validDate": "2027-08-09 00:00:00.000",
     "issueDate": "2002-08-09 00:00:00.000",
+    "oriIssueDate": "2002-08-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202351300",
@@ -23,13 +27,16 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "CBDD940D-1340-4C33-B00C-73F9177B8A18",
+    "subCategory": [],
     "ingredientsDesc": [
         "ASPARTATE POTASSIUM L- (eq to POTASSIUM L-ASPARTATE)",
         "AMINOETHYLSULFONIC ACID",
         "SODIUM CHLORIDE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "獅王家品股份有限公司",
     "applicantAddr": "新北市三重區重新路四段97號18樓之1 ",
@@ -41,8 +48,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "C30A78E4-6D67-4A53-A3CD-AD2AAC23B9E1",
             "factoryCode": "1",
             "factoryName": "NITTO MEDIC CO., LTD.YATSUO PLANT",
             "factoryAddr": "1-14-1 YASUUCHI, YATSUOMACHI, TOYAMA-CITY, TOYAMA, JAPAN",
@@ -53,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "FJP0499000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "6A763242-173F-47B7-8625-6809CF57537F",
             "factoryCode": "2",
             "factoryName": "LION CORPORATION",
             "factoryAddr": "3-7, HONJO 1-CHOME, SUMIDA-KU, TOKYO 130-8644, JAPAN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [
                 {
@@ -71,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0443100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100442",
+            "ingredientsName": "ASPARTATE POTASSIUM L- (eq to POTASSIUM L-ASPARTATE)",
             "ingredientsDesc": "ASPARTATE POTASSIUM L- (eq to POTASSIUM L-ASPARTATE)",
             "concentDesc": null,
-            "concent": "2.5000",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,9 +105,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9900081400",
+            "ingredientsName": "AMINOETHYLSULFONIC ACID",
             "ingredientsDesc": "AMINOETHYLSULFONIC ACID",
             "concentDesc": null,
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -100,9 +117,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012002100",
+            "ingredientsName": "SODIUM CHLORIDE",
             "ingredientsDesc": "SODIUM CHLORIDE",
             "concentDesc": null,
-            "concent": "3.0000",
+            "concent": "3.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -111,37 +129,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5B5206F1-073C-4A19-B5F4-7C17BEB237E0",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-03-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6505F643-EFFE-4CB0-9540-5ECA4332D6FB",
-            "approvedDocNo": "1091490721",
-            "approvedDate": "2020-05-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01XA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "A45FD74E-215B-4064-8C3F-2FADC14F933D"
 }

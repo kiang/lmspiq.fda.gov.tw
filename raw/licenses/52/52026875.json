@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026875",
+    "licUnit": "1",
     "validDate": "2026-06-24 00:00:00.000",
     "issueDate": "2016-06-24 00:00:00.000",
+    "oriIssueDate": "2016-06-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,12 +31,15 @@
     "medMCode": "05",
     "maMedCode": "B",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DAFDB33C-BA2D-490D-867D-0D8F9BCC5EA1",
+    "subCategory": [],
     "ingredientsDesc": [
         "FENTANYL CITRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "32"
+        "02 輸 入",
+        "32 第二級管制藥品"
     ],
     "applicantName": "衛生福利部食品藥物管理署管制藥品製藥工廠",
     "applicantAddr": "台北市南港區忠孝東路六段467號地下一層",
@@ -44,8 +51,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "3958F5E0-DF02-46F0-85C2-03A760DFFB1D",
             "factoryCode": "1",
             "factoryName": "SIEGFRIED HAMELN GMBH",
             "factoryAddr": "LANGES FELD 13, 31789 HAMELN, GERMANY",
@@ -56,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0367000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "1F8A1EAB-88C9-4CE5-8A89-23507FAE1BCB",
             "factoryCode": "2",
             "factoryName": "Hameln pharma gmbh",
             "factoryAddr": "Inselstrasse 1, 31787 Hameln, Germany",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -74,16 +87,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0627000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800320",
+            "ingredientsName": "FENTANYL CITRATE",
             "ingredientsDesc": "FENTANYL CITRATE",
             "concentDesc": "(corresponding to Fentanyl .....0.05mg)",
-            "concent": "0.079",
+            "concent": "0.079000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -92,45 +108,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E340A151-42CE-4E96-B667-86756B2C7A4E",
-            "approvedDocNo": "1121404010",
-            "approvedDate": "2023-04-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "75CDF85D-FC0C-424E-B852-DD4C5A0A6327",
-            "approvedDocNo": "1101412074",
-            "approvedDate": "2021-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3E23F4EC-829D-41ED-B99F-0058A703101C",
-            "approvedDocNo": "1101412074",
-            "approvedDate": "2021-11-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "03893CCF-4204-4756-AD4A-233A62F18768",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N01AH01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "D1456BDD-9673-4A4E-B760-088365F6C6F1"
 }

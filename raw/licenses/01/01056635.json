@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056635",
+    "licUnit": "1",
     "validDate": "2026-06-30 00:00:00.000",
     "issueDate": "2011-06-30 00:00:00.000",
+    "oriIssueDate": "2011-06-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105663501",
@@ -26,12 +30,17 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "8D78F0AB-7F51-49DA-925D-96B7C895C738",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "HYDROCORTISONE ACETATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "中生生技製藥股份有限公司淡水廠",
     "applicantAddr": "新北市淡水區埤島里行忠路120號",
@@ -43,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "AA6D1EC5-F9BD-47DF-9D2E-894152E8CB5F",
             "factoryCode": "1",
             "factoryName": "中生生技製藥股份有限公司淡水廠",
             "factoryAddr": "新北市淡水區埤島里行忠路120號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1403902300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6804001120",
+            "ingredientsName": "HYDROCORTISONE ACETATE",
             "ingredientsDesc": "HYDROCORTISONE ACETATE",
             "concentDesc": null,
-            "concent": "2.5000",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,57 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E688568A-3D39-42CA-AB6F-1742F8A9124D",
-            "approvedDocNo": "1110018777",
-            "approvedDate": "2022-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C280617F-7F20-408A-ACC3-D34946C621FD",
-            "approvedDocNo": "1110018777",
-            "approvedDate": "2022-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "41A45906-889E-4F6C-A49E-F577FD24D629",
-            "approvedDocNo": "1076042889",
-            "approvedDate": "2019-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2ED071CD-E243-4575-8AE3-86E13B2C1659",
-            "approvedDocNo": "1076042889",
-            "approvedDate": "2019-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED425A27-7136-48F3-AAF2-B6D6F66C086F",
-            "approvedDocNo": "1076042889",
-            "approvedDate": "2019-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D07AA02"
-        },
         {
             "isMain": "1",
             "atcCode": "D07AA02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "C32EAEEB-7030-401B-9387-19148EE87B4A"
 }

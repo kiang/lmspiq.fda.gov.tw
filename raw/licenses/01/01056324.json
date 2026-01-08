@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056324",
+    "licUnit": "1",
     "validDate": "2026-06-14 00:00:00.000",
     "issueDate": "2011-06-14 00:00:00.000",
+    "oriIssueDate": "2011-06-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105632400",
@@ -26,12 +30,17 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "8AAC7B9B-A9A6-4559-B593-978C79DB04B9",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "CRYSTALLINE GLUCOSAMINE SULFATE"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "華盛頓製藥廠股份有限公司",
     "applicantAddr": "高雄市仁武區仁武里工業二路12號",
@@ -43,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "51951875-1AB1-41ED-9E43-4F64AE4FF2F4",
             "factoryCode": "1",
             "factoryName": "華盛頓製藥廠股份有限公司",
             "factoryAddr": "高雄市仁武區仁武里工業二路12號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1202822300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600013340",
+            "ingredientsName": "CRYSTALLINE GLUCOSAMINE SULFATE",
             "ingredientsDesc": "CRYSTALLINE GLUCOSAMINE SULFATE",
             "concentDesc": "(Eq. To Glucosamine Sulfate.....250mg)",
-            "concent": "314.0000",
+            "concent": "314.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,57 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "6716C013-5F85-4660-BB1E-0055BEEF5139",
-            "approvedDocNo": "1106606985",
-            "approvedDate": "2021-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2BF7679C-9C92-40B9-A212-4CC430C40CBC",
-            "approvedDocNo": "1106606985",
-            "approvedDate": "2021-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "99F2A725-D567-4EF0-BCC8-E712E742EA4D",
-            "approvedDocNo": "1106606985",
-            "approvedDate": "2021-08-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F00D15F4-636D-42ED-9E2E-6FCE423F0CAD",
-            "approvedDocNo": "1086614643",
-            "approvedDate": "2020-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "665814D8-B432-4B50-8F2B-B200296909FC",
-            "approvedDocNo": "1086614643",
-            "approvedDate": "2020-06-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "M01AX05"
-        },
         {
             "isMain": "1",
             "atcCode": "M01AX05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "3EE076F2-1C34-41B6-9C36-8A35DBBD81B5"
 }

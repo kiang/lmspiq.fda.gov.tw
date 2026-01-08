@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "12013247",
+    "licUnit": "1",
     "validDate": "2026-06-30 00:00:00.000",
     "issueDate": "1970-10-28 00:00:00.000",
+    "oriIssueDate": "1970-10-28",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -23,6 +27,9 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "15F50E1B-6D10-41F1-BAED-A1BD3A1EADF8",
+    "subCategory": [],
     "ingredientsDesc": [
         "POLYGALA EXTRACT",
         "AMMONIUM CHLORIDE",
@@ -32,10 +39,10 @@
         "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R",
-        "34"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造",
+        "34 第四級管制藥品"
     ],
     "applicantName": "福元化學製藥股份有限公司",
     "applicantAddr": "新北市瑞芳區大寮路95-1號1樓",
@@ -47,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "2822C267-6FF4-4350-BF0A-0F956757148F",
             "factoryCode": "1",
             "factoryName": "福元化學製藥股份有限公司",
             "factoryAddr": "新北市瑞芳區大寮路９５號之１",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1419502300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800110",
+            "ingredientsName": "CODEINE PHOSPHATE",
             "ingredientsDesc": "CODEINE PHOSPHATE",
             "concentDesc": null,
-            "concent": "20.000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -77,9 +90,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": null,
-            "concent": "5.000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -88,9 +102,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800002800",
+            "ingredientsName": "POTASSIUM GUAIACOLSULFONATE",
             "ingredientsDesc": "POTASSIUM GUAIACOLSULFONATE",
             "concentDesc": null,
-            "concent": "300.000",
+            "concent": "300.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -99,9 +114,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4004000200",
+            "ingredientsName": "AMMONIUM CHLORIDE",
             "ingredientsDesc": "AMMONIUM CHLORIDE",
             "concentDesc": null,
-            "concent": "500.000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -110,9 +126,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212000510",
+            "ingredientsName": "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)",
             "ingredientsDesc": "EPHEDRINE HCL (EQ TO EPHEDRINE HYDROCHLORIDE)",
             "concentDesc": null,
-            "concent": "20.000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "0",
@@ -121,9 +138,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4800003801",
+            "ingredientsName": "POLYGALA EXTRACT",
             "ingredientsDesc": "POLYGALA EXTRACT",
             "concentDesc": null,
-            "concent": "0.200",
+            "concent": "0.200000",
             "concentUnit": "003",
             "seq": "5",
             "prescription_seq": "0",
@@ -135,33 +153,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "R05DA04"
-        },
-        {
             "isMain": "1",
             "atcCode": "R05FA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R03CA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R05CA09"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8A1D1ED5-3F31-4D26-80E6-89340467931B"
 }

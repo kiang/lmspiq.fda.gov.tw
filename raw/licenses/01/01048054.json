@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048054",
+    "licUnit": "1",
     "validDate": "2026-06-23 00:00:00.000",
     "issueDate": "2006-06-23 00:00:00.000",
+    "oriIssueDate": "2006-06-23",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "768B4D5F-1E84-4213-990A-D57F9F5AAE43",
+    "subCategory": [],
     "ingredientsDesc": [
         "VENLAFAXINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "25",
-        "61"
+        "01 國 產",
+        "25 監視中學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "BE4A03B5-DBD9-4399-B007-A5D741327471",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200036910",
+            "ingredientsName": "VENLAFAXINE HYDROCHLORIDE",
             "ingredientsDesc": "VENLAFAXINE HYDROCHLORIDE",
             "concentDesc": "(eq. to VENLAFAXINE 37.5 mg)",
-            "concent": "42.4200",
+            "concent": "42.420000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,37 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "19D48A55-909E-47EB-B935-20309C4A7DFC",
-            "approvedDocNo": "1110807272",
-            "approvedDate": "2022-06-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0116FE18-BF6E-4412-85D4-796624E1AAD5",
-            "approvedDocNo": "1086809132",
-            "approvedDate": "2019-12-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "221EB260-CBDF-46BB-968D-F5961B483792",
-            "approvedDocNo": "1086809132",
-            "approvedDate": "2019-12-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N06AX16"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "76DF46B3-D2A2-4D19-A746-79AEC2B0DB5A"
 }

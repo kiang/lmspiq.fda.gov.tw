@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01034050",
+    "licUnit": "1",
     "validDate": "2026-06-10 00:00:00.000",
     "issueDate": "1991-06-10 00:00:00.000",
+    "oriIssueDate": "1991-06-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103405003",
@@ -16,7 +20,7 @@
     "does": "1140",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "92"
         },
         {
@@ -27,14 +31,17 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D12E980C-DB20-4B55-AF3A-2E9061A26F21",
+    "subCategory": [],
     "ingredientsDesc": [
         "BIODIASTASE",
         "LIPASE",
         "NEWLASE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "井田國際醫藥廠股份有限公司",
     "applicantAddr": "台中市大甲區幼獅路32號",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A7908822-33E5-4F1B-871E-8C565D3445FC",
             "factoryCode": "1",
             "factoryName": "井田國際醫藥廠股份有限公司",
             "factoryAddr": "台中市大甲區幼獅路32號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6103030017",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400007100",
+            "ingredientsName": "BIODIASTASE",
             "ingredientsDesc": "BIODIASTASE",
             "concentDesc": "",
-            "concent": "60.0000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -76,9 +89,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4400002700",
+            "ingredientsName": "NEWLASE",
             "ingredientsDesc": "NEWLASE",
             "concentDesc": "",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5616000900",
+            "ingredientsName": "LIPASE",
             "ingredientsDesc": "LIPASE",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -101,17 +116,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A09AA02"
-        },
-        {
             "isMain": "1",
-            "atcCode": "A09AA"
-        },
-        {
-            "isMain": "2",
             "atcCode": "A09AA"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "553DED15-9A52-479A-AD63-0B38004CD7C9"
 }

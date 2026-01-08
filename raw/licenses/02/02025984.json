@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025984",
+    "licUnit": "1",
     "validDate": "2028-04-12 00:00:00.000",
     "issueDate": "2013-04-12 00:00:00.000",
+    "oriIssueDate": "2013-04-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": "B",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "463F2FB1-4100-4BE3-89AA-23B9BA36846A",
+    "subCategory": [],
     "ingredientsDesc": [
         "FENTANYL CITRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "32"
+        "02 輸 入",
+        "07 新藥監視",
+        "32 第二級管制藥品"
     ],
     "applicantName": "衛生福利部食品藥物管理署管制藥品製藥工廠",
     "applicantAddr": "台北市南港區忠孝東路六段467號地下一層",
@@ -41,8 +48,11 @@
     "monitorDate": "2018-04-12",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "6E0083DD-B5ED-4F78-8A73-63B90FBAFE7C",
             "factoryCode": "1",
             "factoryName": "LTS LOHMANN THERAPIE-SYSTEME AG",
             "factoryAddr": "LOHMANNSTRASSE 2, D-56626 ANDERNACH, GERMANY",
@@ -53,13 +63,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0242000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "4980B6E1-E977-4A6F-BA03-C531E5AA6DA4",
             "factoryCode": "2",
             "factoryName": "Adalvo Limited",
             "factoryAddr": "Malta Life Sciences Park, Building 1, Level 4, Sir Temi Zammit Buildings, San Gwann SGN 3000, Malta",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "MT",
             "processCode": [
                 {
@@ -71,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FMT0014000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808800320",
+            "ingredientsName": "FENTANYL CITRATE",
             "ingredientsDesc": "FENTANYL CITRATE",
             "concentDesc": "",
-            "concent": "1.2600",
+            "concent": "1.260000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,45 +105,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "0A6DD538-027E-471F-8AE3-4C985F01FFBE",
-            "approvedDocNo": "1121403367",
-            "approvedDate": "2023-04-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AE63C6DD-C479-4DA2-8EDC-B9C250CC1682",
-            "approvedDocNo": "1121402579",
-            "approvedDate": "2023-03-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "21EF40EC-DCE5-4EE5-9489-278C454B3851",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3F4B1CA4-E725-496C-9438-B2581241D64C",
-            "approvedDocNo": "1081402768",
-            "approvedDate": "2019-03-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02AB03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "9C0160FD-711B-480F-A565-FC7398EF2257"
 }

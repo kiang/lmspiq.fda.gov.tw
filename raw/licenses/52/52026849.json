@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "6",
+    "licStatus": "2",
+    "cancelDate": "2024-09-18",
+    "cancelReason": [
+        "886"
+    ],
+    "otherCancelReason": "",
     "licid": "52026849",
+    "licUnit": "1",
     "validDate": "2026-06-17 00:00:00.000",
     "issueDate": "2016-06-17 00:00:00.000",
+    "oriIssueDate": "2016-06-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -23,14 +29,17 @@
     "medMCode": "06",
     "maMedCode": "B",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "19C6844E-267D-42CD-9571-D7112C265782",
+    "subCategory": [],
     "ingredientsDesc": [
         "Hydromorphone HCL"
     ],
     "restraintItemsCode": [
-        "02",
-        "1L",
-        "1Q",
-        "32"
+        "02 輸 入",
+        "1L 監視中新藥",
+        "1Q 不得輸入",
+        "32 第二級管制藥品"
     ],
     "applicantName": "衛生福利部食品藥物管理署管制藥品製藥工廠",
     "applicantAddr": "台北市南港區忠孝東路六段467號地下一層",
@@ -42,8 +51,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "30B910DC-8114-444A-BD1E-E38D73B18354",
             "factoryCode": "1",
             "factoryName": "ALZA CORPORATION",
             "factoryAddr": "700 EUBANKS DRIVE VACAVILLE,CA USA",
@@ -54,13 +66,16 @@
             "factoryKind": "M",
             "factoryNo": "FUS0015000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "B15AF4CD-CD75-4E10-A201-74B50B3E6127",
             "factoryCode": "2",
             "factoryName": "JANSSEN-CILAG S.P.A.",
             "factoryAddr": "VIA C. JANSSEN 04100 BORGO S. MICHELE-LATINA, ITALY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": "VIA M. BUONARROTI 23 20093 COLOGNO MONZESE ITALY",
             "countryCode": "IT",
             "processCode": [
                 {
@@ -72,16 +87,19 @@
             "factoryKind": "M",
             "factoryNo": "FIT0332000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808802110",
+            "ingredientsName": "Hydromorphone HCL",
             "ingredientsDesc": "Hydromorphone HCL",
             "concentDesc": "",
-            "concent": "32.000",
+            "concent": "32.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -90,45 +108,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "87725F5F-53C2-494A-8DBD-7C4FB894AC05",
-            "approvedDocNo": "1111400636",
-            "approvedDate": "2022-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B7A84683-E302-4788-BEB2-87DC298F1A43",
-            "approvedDocNo": "1101400371",
-            "approvedDate": "2021-01-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FEE5811A-379C-4AF5-B5D9-B183CD662C34",
-            "approvedDocNo": "1101400371",
-            "approvedDate": "2021-01-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "794075FC-F488-425A-9CFF-47115C332053",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02AA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "F598A58C-98E0-43D0-829F-D4E49D99E135"
 }

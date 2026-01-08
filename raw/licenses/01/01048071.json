@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048071",
+    "licUnit": "1",
     "validDate": "2026-06-30 00:00:00.000",
     "issueDate": "2006-06-30 00:00:00.000",
+    "oriIssueDate": "2006-06-30",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "958CA521-6E61-4ACB-BE94-9FBD79BA3890",
+    "subCategory": [],
     "ingredientsDesc": [
         "FLUDIAZEPAM"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "34"
+        "01 國 產",
+        "1R 不得製造",
+        "34 第四級管制藥品"
     ],
     "applicantName": "優生製藥廠股份有限公司",
     "applicantAddr": "台中市南屯區工業區二一路１４號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "264E5BEF-9024-4BA1-B582-32F1855DD9E2",
             "factoryCode": "1",
             "factoryName": "優生製藥廠股份有限公司",
             "factoryAddr": "台中市南屯區工業區２１路１４號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1702509300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2824200800",
+            "ingredientsName": "FLUDIAZEPAM",
             "ingredientsDesc": "FLUDIAZEPAM",
             "concentDesc": null,
-            "concent": "0.2500",
+            "concent": "0.250000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -82,5 +95,6 @@
             "atcCode": "N05BA17"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "CBAE3D07-BAF4-4F34-8C2E-E6432F51C25D"
 }

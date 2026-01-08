@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51058991",
+    "licUnit": "1",
     "validDate": "2026-06-21 00:00:00.000",
     "issueDate": "2016-06-21 00:00:00.000",
+    "oriIssueDate": "2016-06-21",
     "licKind": "02",
     "oldLicid": "01032010",
     "certNo": "DHY05105899100",
@@ -26,13 +30,18 @@
     ],
     "medMCode": "17",
     "maMedCode": "",
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "59FA4C90-43E1-4BC2-A072-21AE93247B65",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "CLEMASTINE FUMARATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "一成藥品股份有限公司",
     "applicantAddr": "新北市汐止區新台五路一段77號19樓之8",
@@ -44,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "3F8E52EF-D9A1-4096-87E3-E669FC7A3ED6",
             "factoryCode": "1",
             "factoryName": "優良化學製藥股份有限公司",
             "factoryAddr": "新竹縣湖口鄉中興村光復路10號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1702804200",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400001010",
+            "ingredientsName": "CLEMASTINE FUMARATE",
             "ingredientsDesc": "CLEMASTINE FUMARATE",
             "concentDesc": "",
-            "concent": "1.340",
+            "concent": "1.340000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,5 +96,6 @@
             "atcCode": "R06AA04"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "4B58C712-F8AB-498B-B701-BBE15A7A1079"
 }

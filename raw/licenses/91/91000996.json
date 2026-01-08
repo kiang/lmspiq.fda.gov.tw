@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "91000996",
+    "licUnit": "1",
     "validDate": "2026-06-01 00:00:00.000",
     "issueDate": "2021-06-01 00:00:00.000",
+    "oriIssueDate": "2021-06-01",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA09100099601",
@@ -23,12 +27,15 @@
     "medMCode": "01",
     "maMedCode": "",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "3BD0475A-DE40-4C16-A1E7-EE77B9140897",
+    "subCategory": [],
     "ingredientsDesc": [
         "Ampicillin Trihydrate contains NLT 96.0% and NMT 102.0% of C16H19N3O4S‧3H2O, calculated on anhydrous substance."
     ],
     "restraintItemsCode": [
-        "02",
-        "40"
+        "02 輸 入",
+        "40 大陸生產"
     ],
     "applicantName": "中大藥品股份有限公司",
     "applicantAddr": "台南市中西區民權路二段158號3樓",
@@ -40,25 +47,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "4243012C-6109-4A43-842D-40260E11E5DF",
             "factoryCode": "1",
             "factoryName": "THE UNITED LABORATORIES (INNER MONGOLIA) CO., LTD.",
             "factoryAddr": "BAYANNAOER ECONOMY & TECHNOLOGY PARK, INNER MONGOLIA, P.R. CHINA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCN1264000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Ampicillin Trihydrate contains NLT 96.0% and NMT 102.0% of C16H19N3O4S‧3H2O, calculated on anhydrous substance.",
             "ingredientsDesc": "Ampicillin Trihydrate contains NLT 96.0% and NMT 102.0% of C16H19N3O4S‧3H2O, calculated on anhydrous substance.",
             "concentDesc": null,
             "concent": null,
@@ -69,6 +82,13 @@
         }
     ],
     "authDtoList": [
+        {
+            "applicantName": "榮民製藥股份有限公司",
+            "certNo": "DHA09100099620",
+            "approveDocNo": "1139072264",
+            "authDate": "2024-09-09",
+            "validDate": "2026-06-01"
+        },
         {
             "applicantName": "龍大生技股份有限公司",
             "certNo": "DHA09100099612",
@@ -83,19 +103,8 @@
         {
             "isMain": "1",
             "atcCode": "J01CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CA51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J01CR01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "S01AA19"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "7EFA60C6-4292-404C-975A-6232CB5F2109"
 }

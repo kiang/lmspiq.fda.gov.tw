@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025005",
+    "licUnit": "1",
     "validDate": "2029-04-02 00:00:00.000",
     "issueDate": "2009-04-02 00:00:00.000",
+    "oriIssueDate": "2009-04-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202500501",
@@ -23,11 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3B9B362C-E948-49BB-B103-E59C74BE9D79",
+    "subCategory": [],
     "ingredientsDesc": [
         "OLMESARTAN MEDOXOMIL"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "台灣第一三共股份有限公司",
     "applicantAddr": "台北市中山區松江路223號13樓",
@@ -39,8 +47,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "714CBCEE-2E99-4740-9986-B99768E03AEE",
             "factoryCode": "1",
             "factoryName": "DAIICHI SANKYO EUROPE GMBH",
             "factoryAddr": "LUITPOLDSTRABE 1 D-85276 PFAFFENHOFEN, GERMANY",
@@ -51,16 +62,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0135000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005910",
+            "ingredientsName": "OLMESARTAN MEDOXOMIL",
             "ingredientsDesc": "OLMESARTAN MEDOXOMIL",
             "concentDesc": "",
-            "concent": "40.0000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -69,49 +83,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BAD09C72-EDA6-4074-9C30-23DF881269C1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E9D10C35-123F-4288-869B-825150233F68",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "180E1851-4293-4C74-97BB-F25C28EA3D1A",
-            "approvedDocNo": "1096024156",
-            "approvedDate": "2021-01-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D2AA27B6-7C10-4A75-A37D-8EBF8DE8F5A0",
-            "approvedDocNo": "1091493121",
-            "approvedDate": "2020-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C09CA08"
-        },
         {
             "isMain": "1",
             "atcCode": "C09CA08"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "33A02DCD-D38C-41D8-9487-54AD8349E33B"
 }

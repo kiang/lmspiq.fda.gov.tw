@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023248",
+    "licUnit": "1",
     "validDate": "2026-08-01 00:00:00.000",
     "issueDate": "2001-08-01 00:00:00.000",
+    "oriIssueDate": "2001-08-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202324804",
@@ -23,12 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "349F6BC0-A612-44C2-A6FA-01A45B0FBB33",
+    "subCategory": [],
     "ingredientsDesc": [
         "ENTACAPONE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "美時化學製藥股份有限公司",
     "applicantAddr": "台北市信義區松仁路277號17樓",
@@ -40,25 +48,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "19F01084-55C0-4DB9-9D5C-06300AAD4D0F",
             "factoryCode": "1",
             "factoryName": "ORION CORPORATION",
-            "factoryAddr": "ORIONINTIE 1 02200 ESPOO FINLAND",
-            "factoryCompanyAddr": "",
+            "factoryAddr": "ORIONINTIE 1 FIN-02200 ESPOO FINLAND",
+            "factoryCompanyAddr": null,
             "countryCode": "FI",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
-            "factoryNo": "FFI0013500",
+            "factoryNo": "FFI0009100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "EC57DFDD-99F1-4AF9-BA8F-D22DA5247817",
             "factoryCode": "2",
             "factoryName": "Orion Corporation",
             "factoryAddr": "Joensuunkatu 7, Salo 24100, Finland",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "FI",
             "processCode": [
                 {
@@ -70,16 +84,19 @@
             "factoryKind": "M",
             "factoryNo": "FFI0031000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1208008800",
+            "ingredientsName": "ENTACAPONE",
             "ingredientsDesc": "ENTACAPONE",
             "concentDesc": "",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,53 +105,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "526C7F98-D76B-4B16-8BBC-8B6D501DECA2",
-            "approvedDocNo": "1110722319",
-            "approvedDate": "2022-12-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "95535261-DD05-4BBB-BE0E-8BD01B450C0A",
-            "approvedDocNo": "1096029857",
-            "approvedDate": "2021-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "CB21CFFC-9C70-4C65-BDE0-A1C5501B6315",
-            "approvedDocNo": "1096029857",
-            "approvedDate": "2021-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A9BA34ED-E710-42FD-AEB0-E9B5E20CEC64",
-            "approvedDocNo": "1091493382",
-            "approvedDate": "2020-09-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7E6FD056-11C7-4682-ACA2-6A5604578434",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-10-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N04BX02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "D38F6C40-B1DC-42F7-8D62-286D0678BD6D"
 }

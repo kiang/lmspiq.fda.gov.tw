@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048023",
+    "licUnit": "1",
     "validDate": "2026-06-14 00:00:00.000",
     "issueDate": "2006-06-14 00:00:00.000",
+    "oriIssueDate": "2006-06-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104802300",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "573BF45E-CF2A-4A9E-8024-E4CDBAC98074",
+    "subCategory": [],
     "ingredientsDesc": [
         "FLUMETHASONE PIVALATE",
         "SALICYLIC ACID"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產"
     ],
     "applicantName": "寶齡富錦生技股份有限公司",
     "applicantAddr": "臺北市南港區園區街3號16樓",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "FF52B15A-8C95-43C0-853B-B3251A0255EB",
             "factoryCode": "1",
             "factoryName": "寶齡富錦生技股份有限公司平鎮廠",
             "factoryAddr": "桃園市平鎮區興隆路２６６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "2001304300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8406000810",
+            "ingredientsName": "FLUMETHASONE PIVALATE",
             "ingredientsDesc": "FLUMETHASONE PIVALATE",
             "concentDesc": "",
-            "concent": "0.2000",
+            "concent": "0.200000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,9 +83,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8428000700",
+            "ingredientsName": "SALICYLIC ACID",
             "ingredientsDesc": "SALICYLIC ACID",
             "concentDesc": "",
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -81,45 +95,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "8A91E748-CFBE-43EE-BADC-64437108C064",
-            "approvedDocNo": "1110718998",
-            "approvedDate": "2022-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C939354A-FE2B-4C58-9B94-A735F949ADBA",
-            "approvedDocNo": "1110718998",
-            "approvedDate": "2022-09-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D19D8500-D15E-4104-A701-5C8CD8489A75",
-            "approvedDocNo": "1091497758",
-            "approvedDate": "2021-04-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "D01AE12"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D07AB03"
-        },
         {
             "isMain": "1",
             "atcCode": "D01AE20"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "3DCABB1E-CE32-4437-97BF-3B282F8A4478"
 }

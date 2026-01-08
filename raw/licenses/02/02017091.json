@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02017091",
+    "licUnit": "1",
     "validDate": "2029-02-27 00:00:00.000",
     "issueDate": "2018-11-27 00:00:00.000",
+    "oriIssueDate": "1989-02-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00201709101",
@@ -22,13 +26,18 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "E4203AAA-ADBD-445E-BACC-6C1772295260",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "DEXTRAN 70",
         "HYPROMELLOSE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "瑞士商愛爾康大藥廠股份有限公司台灣分公司",
     "applicantAddr": "台北市中正區仁愛路二段99號11樓",
@@ -40,25 +49,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "9E316DBE-97C2-491E-8452-14FE4E53F537",
             "factoryCode": "1",
             "factoryName": "Alcon Singapore Manufacturing Pte. Ltd.",
             "factoryAddr": "19 Tuas South Avenue 14, Singapore 637313",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "SG",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FSG0040000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "BA11FC5D-8DE5-46E4-9FA0-C4D01A86DA8E",
             "factoryCode": "2",
             "factoryName": "台灣大昌華嘉股份有限公司",
             "factoryAddr": "桃園市楊梅區梅獅路二段629號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -70,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "7770824858",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600015505",
+            "ingredientsName": "HYPROMELLOSE",
             "ingredientsDesc": "HYPROMELLOSE",
             "concentDesc": "HYPROMELLOSE 3mg+Dextran 70 1mg",
-            "concent": "3.0000",
+            "concent": "3.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -88,9 +106,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4012001000",
+            "ingredientsName": "DEXTRAN 70",
             "ingredientsDesc": "DEXTRAN 70",
             "concentDesc": "HYPROMELLOSE 3mg+Dextran 70 1mg",
-            "concent": "1.0000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "9",
             "prescription_seq": "1",
@@ -99,61 +118,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E4A1145D-88D8-433A-B7ED-3B662B15C002",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D081C508-F3A0-4AB2-87EE-8BDA2D6E7DB0",
-            "approvedDocNo": "1096007933",
-            "approvedDate": "2020-12-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F29A8981-2EA6-4248-88DD-E4F66C3C7726",
-            "approvedDocNo": "1096007933",
-            "approvedDate": "2020-12-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "71695788-9F6A-4F8A-BF2A-D6F87A85EC82",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-02-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "24F15914-9CF1-4977-B4D9-FE1C28A576E0",
-            "approvedDocNo": "1086022273",
-            "approvedDate": "2019-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "746222B6-BBF3-4EC7-945D-652E089B28A3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "S01XA20"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "2EDD5393-1BBB-4B89-853D-2BA60D583D00"
 }

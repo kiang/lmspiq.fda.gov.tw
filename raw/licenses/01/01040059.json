@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040059",
+    "licUnit": "1",
     "validDate": "2026-06-10 00:00:00.000",
     "issueDate": "1996-06-10 00:00:00.000",
+    "oriIssueDate": "1996-06-10",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104005907",
@@ -27,12 +31,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "9F3687DB-8487-437B-AD9E-49793F8B178C",
+    "subCategory": [],
     "ingredientsDesc": [
         "NETILMICIN (SULFATE)"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "信東生技股份有限公司",
     "applicantAddr": "桃園市桃園區介壽路２２號",
@@ -44,25 +51,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "168A3A06-1F3A-4555-AE5B-B273F06823A8",
             "factoryCode": "1",
             "factoryName": "信東生技股份有限公司",
             "factoryAddr": "桃園市桃園區介壽路２２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0908703300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812109610",
+            "ingredientsName": "NETILMICIN (SULFATE)",
             "ingredientsDesc": "NETILMICIN (SULFATE)",
             "concentDesc": "100(POTENCY)",
             "concent": null,
@@ -74,29 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "AC510A1C-FC01-41DC-BD89-3623AD9B5C42",
-            "approvedDocNo": "1110815694",
-            "approvedDate": "2023-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ECFCB779-7D39-4B59-BF3C-F3B5AAD92AFE",
-            "approvedDocNo": "1110815694",
-            "approvedDate": "2023-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01GB07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "858F05AE-494A-4BAB-A5FA-8BA55C8A6AC1"
 }

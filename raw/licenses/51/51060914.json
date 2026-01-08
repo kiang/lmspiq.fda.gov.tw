@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060914",
+    "licUnit": "1",
     "validDate": "2026-06-29 00:00:00.000",
     "issueDate": "2021-06-29 00:00:00.000",
+    "oriIssueDate": "2021-06-29",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106091400",
@@ -23,12 +27,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "949A6DA9-AB3B-42AD-95B2-C5B1FF201F19",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "SILDENAFIL CITRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "榮慶藥品有限公司",
     "applicantAddr": "臺北市中山區明水路387號1樓",
@@ -40,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "695D53E0-EE8C-4599-BB83-B1935CD7C77B",
             "factoryCode": "1",
             "factoryName": "五洲製藥股份有限公司",
             "factoryAddr": "桃園市新屋區赤欄里１７號之１",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0413004300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200091910",
+            "ingredientsName": "SILDENAFIL CITRATE",
             "ingredientsDesc": "SILDENAFIL CITRATE",
             "concentDesc": "(eq. to Sildenafil.....100mg)",
-            "concent": "140.500",
+            "concent": "140.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -77,5 +92,6 @@
             "atcCode": "G04BE03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "300686E4-DF62-4F67-925C-68B2CDFDF90A"
 }

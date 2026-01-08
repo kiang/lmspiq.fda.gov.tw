@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026778",
+    "licUnit": "1",
     "validDate": "2026-06-01 00:00:00.000",
     "issueDate": "2016-06-01 00:00:00.000",
+    "oriIssueDate": "2016-06-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202677802",
@@ -23,16 +27,20 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6E790557-0F94-46C1-A2B1-E4F6A5EB12FB",
+    "subCategory": [],
     "ingredientsDesc": [
         "Rufinamide"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "衛采製藥股份有限公司",
-    "applicantAddr": "台北市長安東路一段十八號九樓",
+    "applicantAddr": "臺北市中山區松江路106號8樓",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -41,25 +49,31 @@
     "monitorDate": "2021-06-01",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "EB097029-355C-43E5-B6CA-4F33B2A4CC40",
             "factoryCode": "1",
             "factoryName": "BUSHU PHARMACEUTICALS LTD. MISATO FACTORY",
             "factoryAddr": "950 HIROKI OHAZA MISATO-MACHI KODAMA-GUN SAITAMA-KEN, JAPAN",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP0826000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "93F044AE-BD0B-424E-AB74-80664DDCEDA6",
             "factoryCode": "2",
             "factoryName": "EISAI MANUFACTURING LTD.",
             "factoryAddr": "EUROPEAN KNOWLEDGE CENTRE, MOSQUITO WAY, HATFIELD, HERTFORDSHIRE, AL10 9SN UNITED KINGDOM",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GB",
             "processCode": [
                 {
@@ -71,16 +85,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0304000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2812002500",
+            "ingredientsName": "Rufinamide",
             "ingredientsDesc": "Rufinamide",
             "concentDesc": "",
-            "concent": "400.000",
+            "concent": "400.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,45 +106,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "46C94F0E-7B74-449E-8F44-F34A3516FFE7",
-            "approvedDocNo": "1101499104",
-            "approvedDate": "2022-03-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "043C56F1-C010-4479-AC11-64645D03A78F",
-            "approvedDocNo": "1086009212",
-            "approvedDate": "2019-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0423C8F8-99E2-475B-B0E7-935909662112",
-            "approvedDocNo": "1086009212",
-            "approvedDate": "2019-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1AF602AC-EBF4-455D-B53A-9379CCB9E908",
-            "approvedDocNo": "1086009212",
-            "approvedDate": "2019-11-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N03AF03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "767EF482-62F2-43B9-A5BF-F4D891FB8ACE"
 }
