@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040150",
+    "licUnit": "1",
     "validDate": "2026-07-24 00:00:00.000",
     "issueDate": "1996-07-24 00:00:00.000",
+    "oriIssueDate": "1996-07-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104015006",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DC36C9F3-C9DD-451B-B5AD-EEA380165E5B",
+    "subCategory": [],
     "ingredientsDesc": [
         "SULFADIAZINE SILVER",
         "CHLORHEXIDINE DIGLUCONATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "正和製藥股份有限公司新營廠",
     "applicantAddr": "台南市新營區嘉芳里新工路２３號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "0B65F157-42CB-4984-B19B-67A9E963A2D0",
             "factoryCode": "1",
             "factoryName": "正和製藥股份有限公司新營廠",
             "factoryAddr": "台南市新營區嘉芳里新工路２３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0505720300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0824000720",
+            "ingredientsName": "SULFADIAZINE SILVER",
             "ingredientsDesc": "SULFADIAZINE SILVER",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5204900240",
+            "ingredientsName": "CHLORHEXIDINE DIGLUCONATE",
             "ingredientsDesc": "CHLORHEXIDINE DIGLUCONATE",
             "concentDesc": "20% SOLUTION",
-            "concent": "0.0100",
+            "concent": "0.010000",
             "concentUnit": "003",
             "seq": "2",
             "prescription_seq": "1",
@@ -91,15 +105,8 @@
         {
             "isMain": "1",
             "atcCode": "D06BA51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D08AC02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D06BA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "7162FCA8-0906-4BEE-8855-B587CA95110C"
 }

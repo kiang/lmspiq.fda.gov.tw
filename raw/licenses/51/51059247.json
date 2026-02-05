@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059247",
+    "licUnit": "1",
     "validDate": "2026-07-27 00:00:00.000",
     "issueDate": "2016-07-27 00:00:00.000",
+    "oriIssueDate": "2016-07-27",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105924700",
@@ -27,13 +31,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "0BE8029A-7327-4EC9-8AF3-536F491ABCF9",
+    "subCategory": [],
     "ingredientsDesc": [
         "VANCOMYCIN HCL",
         "VANCOMYCIN HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "中化裕民健康事業股份有限公司",
     "applicantAddr": "台北市中正區襄陽路23號8樓",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "85D087AA-1C51-4F70-A10F-124B0A65DFA5",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812001710",
+            "ingredientsName": "VANCOMYCIN HCL",
             "ingredientsDesc": "VANCOMYCIN HCL",
             "concentDesc": "(equivalent to Vancomycin base 500mg)",
-            "concent": "500.000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,9 +88,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812001710",
+            "ingredientsName": "VANCOMYCIN HCL",
             "ingredientsDesc": "VANCOMYCIN HCL",
             "concentDesc": "(equivalent to Vancomycin base 1000mg) ",
-            "concent": "1000.000",
+            "concent": "1000.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -86,45 +100,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3F30F1A2-C476-4DDC-98FA-F9D90A6D9DA5",
-            "approvedDocNo": "1120704160",
-            "approvedDate": "2023-07-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "38979574-B9F5-4C68-9F23-B68B9D455D69",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C38BF37F-B133-43F2-A159-295E16D3F26F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-09-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F48263D3-BDFE-4ECF-A157-6D7AE4D2BA32",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J01XA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "50BE6662-E6B8-4704-A69B-1BF99566F803"
 }

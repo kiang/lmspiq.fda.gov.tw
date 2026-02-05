@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059239",
+    "licUnit": "1",
     "validDate": "2026-07-19 00:00:00.000",
     "issueDate": "2016-07-19 00:00:00.000",
+    "oriIssueDate": "2016-07-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105923901",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "6778D17C-5552-46CD-8C3D-6F95B521AF61",
+    "subCategory": [],
     "ingredientsDesc": [
         "GEFITINIB"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "中國化學製藥股份有限公司新豐工廠",
     "applicantAddr": "新竹縣新豐鄉坑子口182之1號",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "2353002D-A847-4F24-AB06-F4F32EA2D0EB",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000600",
+            "ingredientsName": "GEFITINIB",
             "ingredientsDesc": "GEFITINIB",
             "concentDesc": "",
-            "concent": "250.000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,37 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "D4988B65-9AA7-4D38-8DAF-54C5F867A285",
-            "approvedDocNo": "1120713855",
-            "approvedDate": "2023-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D1D2D45E-EE39-461C-8FC4-D7B3DE11CFE1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3459FF0F-5D77-4BBF-BB4C-80785852315B",
-            "approvedDocNo": "1106007125",
-            "approvedDate": "2021-04-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01EB01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "DA4F8190-A359-448F-8B28-72F16BC7CBC6"
 }

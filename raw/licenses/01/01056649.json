@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056649",
+    "licUnit": "1",
     "validDate": "2026-07-25 00:00:00.000",
     "issueDate": "2011-07-25 00:00:00.000",
+    "oriIssueDate": "2011-07-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105664902",
@@ -27,12 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "5A17D4F7-D3D8-4CF1-B759-AB7B4D6B77E6",
+    "subCategory": [],
     "ingredientsDesc": [
         "AMINOSALICYLATE CALCIUM PARA-"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "培力藥品工業股份有限公司",
     "applicantAddr": "台中市西屯區工業六路11號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "6771BF98-91B0-4427-A214-D1F30E1AF19E",
             "factoryCode": "1",
             "factoryName": "培力藥品工業股份有限公司",
             "factoryAddr": "台中市西屯區工業區六路１１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1112209300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0816000114",
+            "ingredientsName": "AMINOSALICYLATE CALCIUM PARA-",
             "ingredientsDesc": "AMINOSALICYLATE CALCIUM PARA-",
             "concentDesc": null,
-            "concent": "1000.0000",
+            "concent": "1000.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -79,11 +92,8 @@
         {
             "isMain": "1",
             "atcCode": "J04AA03"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "J04AA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "9E2B7915-F88B-4A24-9618-297CEDEAA460"
 }

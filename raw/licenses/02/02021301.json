@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02021301",
+    "licUnit": "1",
     "validDate": "2026-07-12 00:00:00.000",
     "issueDate": "2021-04-07 00:00:00.000",
+    "oriIssueDate": "1996-07-12",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00202130101",
@@ -23,11 +27,14 @@
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "F6F74BB8-C69E-4A3C-BD9F-BCABDC9ECB81",
+    "subCategory": [],
     "ingredientsDesc": [
         "FLUOXETINE (HYDROCHLORIDE)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "新雙隆生技股份有限公司",
     "applicantAddr": "台北市松山區復興北路369號14樓",
@@ -39,8 +46,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "8314072E-73A5-4CDB-B034-C822D8F107B6",
             "factoryCode": "1",
             "factoryName": "ERREGIERRE S.P.A.",
             "factoryAddr": "24060 S. PAOLO D'ARGON (BG)-VIA FRANCESCO BARACCA 19 ,ITALY",
@@ -51,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "FIT0281500",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816491310",
+            "ingredientsName": "FLUOXETINE (HYDROCHLORIDE)",
             "ingredientsDesc": "FLUOXETINE (HYDROCHLORIDE)",
             "concentDesc": "99.0~100.5",
             "concent": null,
@@ -69,21 +82,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7721F806-9767-43B4-A55A-BDD5A0BDFDCE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N06AB03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "FF734709-BE8D-4521-92F4-EE0EA7E5144C"
 }

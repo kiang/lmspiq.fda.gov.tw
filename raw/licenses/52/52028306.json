@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028306",
+    "licUnit": "1",
     "validDate": "2027-05-12 00:00:00.000",
     "issueDate": "2022-05-12 00:00:00.000",
+    "oriIssueDate": "2022-05-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202830600",
@@ -23,12 +27,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "64FCF0F9-3D70-4177-8EEE-192F85A6EC34",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "DULOXETINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "毅有生技醫藥股份有限公司",
     "applicantAddr": "新北市中和區中山路２段332巷37號13樓",
@@ -40,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "628738F1-D126-4EC5-82E4-D749C2FEE1D5",
             "factoryCode": "1",
             "factoryName": "ZYDUS LIFESCIENCES LIMITED",
             "factoryAddr": "SURVEY NO. 417, 419, 420, SARKHEJ-BAVLA NATIONAL HIGHWAY NO. 8A, VILLAGE-MORAIYA, TALUKA-SANAND, DIST.-AHMEDABAD - 382 210, GUJARAT STATE, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN1161000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816402110",
+            "ingredientsName": "DULOXETINE HYDROCHLORIDE",
             "ingredientsDesc": "DULOXETINE HYDROCHLORIDE",
             "concentDesc": "(eq. to Duloxetine.....60mg)",
-            "concent": "67.360",
+            "concent": "67.360000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,29 +85,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F7FC4262-DE97-4FF3-861B-B21238BAA047",
-            "approvedDocNo": "1129035547",
-            "approvedDate": "2024-01-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6971FFF2-3D97-4E18-A90F-7758B2B17CFA",
-            "approvedDocNo": "1119035733",
-            "approvedDate": "2022-11-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N06AX21"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "610CCFCE-7035-444B-8D9D-8332EC0FAB5B"
 }

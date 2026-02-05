@@ -1,10 +1,14 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2026-01-02",
+    "cancelReason": null,
+    "otherCancelReason": null,
     "licid": "01040537",
+    "licUnit": "1",
     "validDate": "2026-11-01 00:00:00.000",
     "issueDate": "1996-11-01 00:00:00.000",
+    "oriIssueDate": "1996-11-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104053704",
@@ -16,13 +20,16 @@
     "does": "3363",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "36"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "68FA6A0E-B823-47F1-81E7-5F2DA12E6EF8",
+    "subCategory": [],
     "ingredientsDesc": [
         "TOLNAFTATE",
         "CROTAMITON",
@@ -30,11 +37,11 @@
         "LIDOCAINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "新萬仁化學製藥股份有限公司",
-    "applicantAddr": "台中市豐原區文賢街１５８號",
+    "applicantAddr": "臺中市后里區圳寮路138之106號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -43,28 +50,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "DA250258-1A6F-45CE-90F7-5E5AD8CB9E08",
             "factoryCode": "1",
             "factoryName": "新萬仁化學製藥股份有限公司",
             "factoryAddr": "豐原市文賢街１５８號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1303110300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404801300",
+            "ingredientsName": "TOLNAFTATE",
             "ingredientsDesc": "TOLNAFTATE",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404200200",
+            "ingredientsName": "CROTAMITON",
             "ingredientsDesc": "CROTAMITON",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -84,9 +98,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7200001000",
+            "ingredientsName": "LIDOCAINE",
             "ingredientsDesc": "LIDOCAINE",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -95,9 +110,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8408000302",
+            "ingredientsName": "L-MENTHOL ",
             "ingredientsDesc": "L-MENTHOL ",
             "concentDesc": "20",
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -111,23 +127,8 @@
         {
             "isMain": "1",
             "atcCode": "D01AE20"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D01AE18"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V07"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D04AB01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "92FB2E4C-BF08-4A7B-968C-7C65806DD214"
 }

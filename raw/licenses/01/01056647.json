@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056647",
+    "licUnit": "1",
     "validDate": "2026-07-21 00:00:00.000",
     "issueDate": "2011-07-21 00:00:00.000",
+    "oriIssueDate": "2011-07-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105664708",
@@ -31,14 +35,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "D7CE3B15-170A-42FC-A342-2BB867F917D7",
+    "subCategory": [],
     "ingredientsDesc": [
         "BENAZEPRIL HYDROCHLORIDE",
         "AMLODIPINE BESYLATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "61"
+        "01 國 產",
+        "09 委託製造",
+        "61 完成BE試驗"
     ],
     "applicantName": "東生華製藥股份有限公司",
     "applicantAddr": "台北市南港區園區街3之1號3樓之1",
@@ -50,28 +57,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "334A4930-0C73-4772-9D6C-96079A87B570",
             "factoryCode": "1",
             "factoryName": "健亞生物科技股份有限公司",
             "factoryAddr": "新竹縣湖口鄉新竹工業區工業一路１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1119206300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412402210",
+            "ingredientsName": "AMLODIPINE BESYLATE",
             "ingredientsDesc": "AMLODIPINE BESYLATE",
             "concentDesc": "",
-            "concent": "7.0000",
+            "concent": "7.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -80,9 +93,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408004510",
+            "ingredientsName": "BENAZEPRIL HYDROCHLORIDE",
             "ingredientsDesc": "BENAZEPRIL HYDROCHLORIDE",
             "concentDesc": "",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -91,77 +105,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3190166B-960F-4AE5-A499-0732910734E3",
-            "approvedDocNo": "1106025660",
-            "approvedDate": "2022-04-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BB99F926-A230-49F7-85BE-1AE6CE7C35A7",
-            "approvedDocNo": "1106025660",
-            "approvedDate": "2022-04-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4522D4D3-04AF-47CD-BB15-77F9F7638F74",
-            "approvedDocNo": "1106025660",
-            "approvedDate": "2022-04-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "50A0C5AD-C5EA-493B-9190-7ED49F4DF3FA",
-            "approvedDocNo": "1106025660",
-            "approvedDate": "2022-04-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "648258D8-03F5-4907-BF6D-A8F5D5E15B58",
-            "approvedDocNo": "1106025660",
-            "approvedDate": "2022-04-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2DC82625-646F-4493-B436-DF87DFDDB784",
-            "approvedDocNo": "1096030506",
-            "approvedDate": "2020-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E0AA5439-88A1-482B-A4BD-E024A58C5B96",
-            "approvedDocNo": "1096030506",
-            "approvedDate": "2020-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C09BB"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C08CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09AA07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "C044549B-1FDB-4981-AF96-A3AFE99BFFCD"
 }

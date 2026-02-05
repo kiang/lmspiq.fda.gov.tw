@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025446",
+    "licUnit": "1",
     "validDate": "2026-09-14 00:00:00.000",
     "issueDate": "2011-09-14 00:00:00.000",
+    "oriIssueDate": "2011-09-14",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202544605",
@@ -23,14 +27,18 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B868463B-C62B-4831-B365-F64671BEB4BF",
+    "subCategory": [],
     "ingredientsDesc": [
         "TELMISARTAN",
         "AMLODIPINE BESILATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "51"
+        "02 輸 入",
+        "07 新藥監視",
+        "51 免除銜接性臨床試驗",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "台灣百靈佳殷格翰股份有限公司",
     "applicantAddr": "台北市中山區民生東路三段2號12樓",
@@ -42,21 +50,27 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "7A054A18-AC45-4004-B6F6-58ABBB4F4786",
             "factoryCode": "1",
             "factoryName": "M\/S CIPLA LTD.",
             "factoryAddr": "PLOT NO. L-139 TO L-146, VERNA INDUSTRIAL ESTATE, VERNA, SALCETTE, GOA, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0237000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "EFE73AB1-4F20-43CB-98C9-0240F5EF7D3A",
             "factoryCode": "2",
             "factoryName": "BOEHRINGER INGELHEIM PHARMA GMBH & CO. KG.",
             "factoryAddr": "BINGER STRASSE 173, 55216 INGELHEIM AM RHEIN GERMANY",
@@ -72,13 +86,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0021000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2FBFA16D-DD50-4788-93E7-772C066255EC",
             "factoryCode": "2",
             "factoryName": "BOEHRINGER INGELHEIM INTERNATIONAL GMBH",
             "factoryAddr": "",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -90,13 +107,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0299000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "2ED75604-7C33-4DC6-A5B6-20BAB8677363",
             "factoryCode": "2",
             "factoryName": "Rottendorf Pharma GmbH",
             "factoryAddr": "Am Fleigendahl 3, 59320 Ennigerloh, Germany",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -108,16 +128,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0625000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2408005600",
+            "ingredientsName": "TELMISARTAN",
             "ingredientsDesc": "TELMISARTAN",
             "concentDesc": "",
-            "concent": "80.0000",
+            "concent": "80.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -126,9 +149,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2412402220",
+            "ingredientsName": "AMLODIPINE BESILATE",
             "ingredientsDesc": "AMLODIPINE BESILATE",
             "concentDesc": "eq. to 5mg free base",
-            "concent": "6.9350",
+            "concent": "6.935000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -137,77 +161,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "FAC61EB8-5B95-43B5-8DAF-CAFFCD46B705",
-            "approvedDocNo": "1129010253",
-            "approvedDate": "2023-11-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A8FBDDEF-80DD-490C-BF58-A3DBAD4A734B",
-            "approvedDocNo": "1129007073",
-            "approvedDate": "2023-08-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "898475EE-05DB-4B58-9CCB-A039D609E209",
-            "approvedDocNo": "1119068083",
-            "approvedDate": "2023-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "93C8E002-EE24-43A1-9E3C-9C15D5604EF2",
-            "approvedDocNo": "1096017043",
-            "approvedDate": "2020-11-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AAEB0AFC-F564-427B-AB37-5D3E882F47A3",
-            "approvedDocNo": "1086030981",
-            "approvedDate": "2020-01-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9D96820A-3148-48ED-90DE-0BB6CEE4965F",
-            "approvedDocNo": "1076042922",
-            "approvedDate": "2019-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F4726B3E-7D73-41C3-AD9A-E502CDDB5F9E",
-            "approvedDocNo": "1076042922",
-            "approvedDate": "2019-04-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "C09DB04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C08CA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "C09CA07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "82F8F7CA-B50E-491F-8DAA-B08C0DC6685A"
 }

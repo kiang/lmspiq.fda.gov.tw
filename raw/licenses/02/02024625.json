@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024625",
+    "licUnit": "1",
     "validDate": "2027-03-15 00:00:00.000",
     "issueDate": "2007-03-15 00:00:00.000",
+    "oriIssueDate": "2007-03-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202462500",
@@ -23,12 +27,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DD7EC93B-A8ED-43D1-B242-CD05FFD4BE99",
+    "subCategory": [],
     "ingredientsDesc": [
         "IRINOTECAN HYDROCHLORIDE TRIHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "25"
+        "02 輸 入",
+        "25 監視中學名藥",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "台灣費森尤斯卡比股份有限公司",
     "applicantAddr": "臺北市大安區仁愛路3段30號5樓、32號5樓",
@@ -40,8 +48,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "0C90C87A-109E-49CA-9EEA-DDA757F02ECC",
             "factoryCode": "1",
             "factoryName": "FRESENIUS KABI ONCOLOGY LIMITED",
             "factoryAddr": "VILLAGE-KISHANPURA, P.O. GURU MAJRA, TEHSIL-NALAGARH, DISTT. SOLAN, (H.P.)-174101, INDIA",
@@ -52,16 +63,19 @@
             "factoryKind": "M",
             "factoryNo": "FIN0368000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037710",
+            "ingredientsName": "IRINOTECAN HYDROCHLORIDE TRIHYDRATE",
             "ingredientsDesc": "IRINOTECAN HYDROCHLORIDE TRIHYDRATE",
             "concentDesc": null,
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -70,69 +84,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "4DE2B903-B3D9-4A73-817B-4D9DEE103848",
-            "approvedDocNo": "1120703463",
-            "approvedDate": "2023-05-03",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A87D1A69-1DA7-4C11-B08E-AA100D031A7C",
-            "approvedDocNo": "1110721716",
-            "approvedDate": "2023-02-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A9E7A595-B144-4FDA-9FC8-F94F900C71B8",
-            "approvedDocNo": "1110721257",
-            "approvedDate": "2022-10-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D88300C3-1C0C-47FC-9821-641F3E4B427B",
-            "approvedDocNo": "1110704098",
-            "approvedDate": "2022-04-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FA2E8DE6-3E5E-4933-9A3F-25861D105ABD",
-            "approvedDocNo": "1110702161",
-            "approvedDate": "2022-03-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED93EF65-8421-4201-B8FC-4A8F99E17738",
-            "approvedDocNo": "1086014625",
-            "approvedDate": "2019-11-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "52518B75-8A8A-4045-A617-8FC99EC05E3B",
-            "approvedDocNo": "1086014625",
-            "approvedDate": "2019-11-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01CE02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "9DFCEB1F-6065-459B-9F09-AB3A2C8B0E11"
 }

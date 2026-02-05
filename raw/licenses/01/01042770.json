@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01042770",
+    "licUnit": "1",
     "validDate": "2029-02-02 00:00:00.000",
     "issueDate": "1999-02-02 00:00:00.000",
+    "oriIssueDate": "1999-02-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -16,20 +20,23 @@
     "does": "1121",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "06",
     "maMedCode": "D",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "A5D7FEED-DDDC-440D-A386-CCB89033D1B4",
+    "subCategory": [],
     "ingredientsDesc": [
         "TRAMADOL HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "06",
-        "34"
+        "01 國 產",
+        "06 管制藥品",
+        "34 第四級管制藥品"
     ],
     "applicantName": "美時化學製藥股份有限公司",
     "applicantAddr": "台北市信義區松仁路277號17樓",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "80500C0C-1759-4BF7-9479-056B9809CF60",
             "factoryCode": "1",
             "factoryName": "美時化學製藥股份有限公司南投廠",
             "factoryAddr": "南投縣南投市新興里成功一路３０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0901314300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808202510",
+            "ingredientsName": "TRAMADOL HCL",
             "ingredientsDesc": "TRAMADOL HCL",
             "concentDesc": "",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -71,77 +84,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BBAA815B-CFFA-4BB3-8D16-FF2A8408D5B5",
-            "approvedDocNo": "1129065753",
-            "approvedDate": "2023-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B44441E-CBC5-4902-BEC2-B6403BF6151E",
-            "approvedDocNo": "1110724944",
-            "approvedDate": "2022-12-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "68929A45-A3BA-4AC6-A40E-B5E780624F92",
-            "approvedDocNo": "1100017240",
-            "approvedDate": "2021-07-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "709C8868-27B6-4726-B0E0-712AAD51163F",
-            "approvedDocNo": "1106801275",
-            "approvedDate": "2021-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "60140211-FFC2-48F2-98C6-B80706F1A8CE",
-            "approvedDocNo": "1096027855",
-            "approvedDate": "2020-09-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "ED79B183-DDA1-416B-9AB5-AA4A7F813666",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-12-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "14AEA59F-1ACC-4E56-B462-14B53C1FCF76",
-            "approvedDocNo": "1086000064",
-            "approvedDate": "2019-04-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "512B52C4-5FED-4475-B704-BE6D107EED5F",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02AX02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "F983D671-6916-4F9E-8AE2-3AAD08D853E2"
 }

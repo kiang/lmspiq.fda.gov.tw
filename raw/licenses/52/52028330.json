@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2026-01-05",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "52028330",
+    "licUnit": "1",
     "validDate": "2027-06-22 00:00:00.000",
     "issueDate": "2022-06-22 00:00:00.000",
+    "oriIssueDate": "2022-06-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202833007",
@@ -23,14 +29,20 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "900F5140-6C34-41D4-9AD1-C452409EEB63",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
-        "Imidafenacin"
+        "IMIDAFENACIN"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5E",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "1Q 不得輸入",
+        "5E 已執行國內臨床試驗",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -42,28 +54,34 @@
     "monitorDate": "2027-06-22",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "A5489B07-C793-4D1E-8CDA-4DCB579DF5A4",
             "factoryCode": "1",
             "factoryName": "Kyorin Pharmaceutical Group Facilities Co., Ltd. Noshiro Plant",
             "factoryAddr": "1, Matsubara, Noshiro-shi, Akita, 016-0000, Japan",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "JP",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FJP9458700",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "7600002100",
+            "ingredientsName": "IMIDAFENACIN",
             "ingredientsDesc": "Imidafenacin",
             "concentDesc": "",
-            "concent": "0.100",
+            "concent": "0.100000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,21 +90,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "409ABD4B-86CF-4F02-8597-33D7D29C24CC",
-            "approvedDocNo": "1120707008",
-            "approvedDate": "2023-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G04BD14"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "C7FA0F4B-4367-460C-8DFF-12B6B6D895EA"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023345",
+    "licUnit": "1",
     "validDate": "2026-12-25 00:00:00.000",
     "issueDate": "2001-12-25 00:00:00.000",
+    "oriIssueDate": "2001-12-25",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202334502",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7F814180-0E45-4E43-A90A-C8192DDF6143",
+    "subCategory": [],
     "ingredientsDesc": [
         "TACROLIMUS"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "禾利行股份有限公司",
     "applicantAddr": "台北市松山區敦化北路311號3樓",
@@ -40,8 +47,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "FFF30EC3-F047-49BF-B1C7-46F515E4ED23",
             "factoryCode": "1",
             "factoryName": "LEO LABORATORIES LIMITED",
             "factoryAddr": "285 CASHEL ROAD, CRUMLIN, DUBLIN 12, IRELAND",
@@ -57,9 +67,12 @@
             "factoryKind": "M",
             "factoryNo": "FIE0034000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "3B60C443-C214-46D8-A7B2-2491E9C0FD11",
             "factoryCode": "2",
             "factoryName": "LEO PHARMA A\/S",
             "factoryAddr": "55,INDUSTRIPARKEN, DK-2750 BALLERUP, DENMARK",
@@ -75,19 +88,22 @@
             "factoryKind": "M",
             "factoryNo": "FDK0013000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9250000800",
+            "ingredientsName": "TACROLIMUS",
             "ingredientsDesc": "TACROLIMUS",
             "concentDesc": "",
-            "concent": "0.3000",
+            "concent": "0.300000",
             "concentUnit": "001",
-            "seq": "0",
-            "prescription_seq": "0",
+            "seq": "1",
+            "prescription_seq": "1",
             "prescription_Kind": "1"
         }
     ],
@@ -108,125 +124,13 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9A1DC974-BD55-4254-8C0A-FCC7AFE3D901",
-            "approvedDocNo": "1129033316",
-            "approvedDate": "2023-10-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31D32AFA-59E9-432C-8C37-ED759D72963E",
-            "approvedDocNo": "1129033314",
-            "approvedDate": "2023-09-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "06919EB2-2A1E-47AB-A2ED-22C94122C4CC",
-            "approvedDocNo": "1106022995",
-            "approvedDate": "2021-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F236EE7A-EF5A-4A50-8C88-25517C8F5CF1",
-            "approvedDocNo": "1106022995",
-            "approvedDate": "2021-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "8D7FC0FC-A685-4777-873A-25D83CBA86A7",
-            "approvedDocNo": "1086002348",
-            "approvedDate": "2019-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E9E1865A-91F6-4FEB-8944-2A9CF8EA976C",
-            "approvedDocNo": "1086002348",
-            "approvedDate": "2019-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D6020C13-4603-49F3-8E86-44988162BAB5",
-            "approvedDocNo": "1086002348",
-            "approvedDate": "2019-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1D386028-7CAD-4B6F-9004-64A809C7E7E6",
-            "approvedDocNo": "1086002348",
-            "approvedDate": "2019-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E679EE2A-9434-482F-AEC3-A6F5181C0426",
-            "approvedDocNo": "1086002348",
-            "approvedDate": "2019-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DDA8923C-1C76-4254-8909-CA94370A50FF",
-            "approvedDocNo": "1086002348",
-            "approvedDate": "2019-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4FFD48DA-DE21-4FCA-A637-D484C1578950",
-            "approvedDocNo": "1086002348",
-            "approvedDate": "2019-08-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "EC54A3A3-7F24-490F-8C17-19C433221D81",
-            "approvedDocNo": "1076046891",
-            "approvedDate": "2019-05-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "464C201F-C23A-4E30-808D-76F26D63BC30",
-            "approvedDocNo": "1076046891",
-            "approvedDate": "2019-05-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "292D423A-6201-402E-A68D-7F6CD550BC05",
-            "approvedDocNo": "1076046891",
-            "approvedDate": "2019-05-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D11AH01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "EC70E152-8C63-40F5-B52B-057494DB2809"
 }

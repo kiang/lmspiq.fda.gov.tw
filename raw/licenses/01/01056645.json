@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056645",
+    "licUnit": "1",
     "validDate": "2026-07-15 00:00:00.000",
     "issueDate": "2011-07-15 00:00:00.000",
+    "oriIssueDate": "2011-07-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105664504",
@@ -27,13 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F87920E0-05FC-4025-9E35-BE40BD8F7CAF",
+    "subCategory": [],
     "ingredientsDesc": [
         "OLANZAPINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "62"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "62 完成溶離率試驗",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "新瑞生物科技股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -45,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "F6B58E5E-4CC9-4132-9029-4EBABC036CD9",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200036800",
+            "ingredientsName": "OLANZAPINE",
             "ingredientsDesc": "OLANZAPINE",
             "concentDesc": null,
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -83,57 +97,13 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F7B2C29F-F31B-498A-A9AE-776416E5C84C",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DF2CFC3E-383B-4047-A10C-B8210BBAEC0B",
-            "approvedDocNo": "1106802420",
-            "approvedDate": "2021-04-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F9C95D26-8511-432F-A731-EB2B9CC9E6F8",
-            "approvedDocNo": "1086815434",
-            "approvedDate": "2020-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3413692D-6E5E-4CF6-ACB3-FF6B6A8282F9",
-            "approvedDocNo": "1086815434",
-            "approvedDate": "2020-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "222FF671-C164-4651-BAE3-9D1592EDA2FD",
-            "approvedDocNo": "1086815434",
-            "approvedDate": "2020-04-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "N05AH03"
-        },
         {
             "isMain": "1",
             "atcCode": "N05AH03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "B771638C-DBD8-4044-AA31-EEDE94E971B2"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "91001064",
+    "licUnit": "1",
     "validDate": "2027-07-22 00:00:00.000",
     "issueDate": "2022-07-22 00:00:00.000",
+    "oriIssueDate": "2022-07-22",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA09100106406",
@@ -23,12 +27,15 @@
     "medMCode": "01",
     "maMedCode": "",
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "DC45030C-4D0B-4F5F-8C31-F3737CE49C3F",
+    "subCategory": [],
     "ingredientsDesc": [
         "Isotretinoin contains not less than 98.0% and not more than 102.0% of C20H28O2, calculated on the anhydrous basis."
     ],
     "restraintItemsCode": [
-        "02",
-        "40"
+        "02 輸 入",
+        "40 大陸生產"
     ],
     "applicantName": "宇直泰貿易股份有限公司",
     "applicantAddr": "台北市中山區南京東路二段206號8樓",
@@ -40,25 +47,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "FF59565E-AF56-415A-8386-16C369CFB1F7",
             "factoryCode": "1",
             "factoryName": "CHONGQING HUAPONT SHENGCHEM PHARM. CO., LTD.",
             "factoryAddr": "NO. 666 RONGJUN ROAD, NANJIN AVENUE, HECHUAN DISTRICT, CHONGQING, CHINA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "CN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FCN0940000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Isotretinoin contains not less than 98.0% and not more than 102.0% of C20H28O2, calculated on the anhydrous basis.",
             "ingredientsDesc": "Isotretinoin contains not less than 98.0% and not more than 102.0% of C20H28O2, calculated on the anhydrous basis.",
             "concentDesc": null,
             "concent": null,
@@ -73,17 +86,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "D10AD54"
-        },
-        {
             "isMain": "1",
             "atcCode": "D10AD04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D10BA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8B988DC4-FBDA-4B0E-83E9-F3F80671F9B8"
 }

@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2026-01-16",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "02025563",
+    "licUnit": "1",
     "validDate": "2026-11-17 00:00:00.000",
     "issueDate": "2019-05-06 00:00:00.000",
+    "oriIssueDate": "2011-11-17",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202556309",
@@ -27,13 +33,16 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8BC036F7-A811-45C4-9BA0-61D637B2F9F7",
+    "subCategory": [],
     "ingredientsDesc": [
         "GANCICLOVIR SODIUM"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "裕利股份有限公司",
     "applicantAddr": "台北市松山區南京東路四段126號10樓，10樓之1-3",
@@ -45,25 +54,31 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "5E8A9C0D-35EB-4BD3-84EA-B38C1A29A0B7",
             "factoryCode": "1",
             "factoryName": "BSP PHARMACEUTICALS S.p.A",
             "factoryAddr": "VIA APPIA KM 65,561, LATINA SCALO(LT), 04013, ITALY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIT0479000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "0CFB51DE-CA89-4A76-8F26-9B6ECE2AE421",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -73,11 +88,14 @@
             ],
             "processCodeStr": "47;貼標廠",
             "factoryKind": "M",
-            "factoryNo": "1225204000",
+            "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "EA835D85-5FEF-4828-9FD4-63135FF241A1",
             "factoryCode": "2",
             "factoryName": "F. HOFFMANN-LA ROCHE LTD.",
             "factoryAddr": "WURMISWEG, CH-4303 KAISERAUGST, SWITZERLAND",
@@ -93,13 +111,16 @@
             "factoryKind": "M",
             "factoryNo": "FCH0257000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "30864666-A3EC-4B8E-BC05-790408F509BF",
             "factoryCode": "2",
             "factoryName": "Prestige Promotion Verkaufsforderung& Werbeservice GmbH",
             "factoryAddr": "Lindigstrase 6, 63801 Kleinostheim, Germany",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -111,13 +132,16 @@
             "factoryKind": "M",
             "factoryNo": "FDE0490000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "6D7D9070-6340-4E54-A260-423243701130",
             "factoryCode": "2",
             "factoryName": "CHEPLAPHARM Arzneimittel GmbH",
             "factoryAddr": "Ziegelhof 24, 17489 Greifswald, Germany",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "DE",
             "processCode": [
                 {
@@ -129,16 +153,19 @@
             "factoryKind": "M",
             "factoryNo": "FDE0605100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8180200110",
+            "ingredientsName": "GANCICLOVIR SODIUM",
             "ingredientsDesc": "GANCICLOVIR SODIUM",
             "concentDesc": "(eq. to Ganciclovir 500mg)",
-            "concent": "543.0000",
+            "concent": "543.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -147,45 +174,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E71F6E56-FA7E-4C7E-BFD2-2F886BF7C862",
-            "approvedDocNo": "1119015509",
-            "approvedDate": "2022-07-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2D7E29D5-71DA-4A6A-ABD5-5858B84AB9F5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-03-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E4A737E7-8853-487C-8188-3E835AE82EF6",
-            "approvedDocNo": "1086021140",
-            "approvedDate": "2019-07-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5B986283-70CA-4CC2-B78D-6D2528465832",
-            "approvedDocNo": "1086007484",
-            "approvedDate": "2019-05-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J05AB06"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "DEC790C8-214B-41FB-9CB3-A445037905BE"
 }

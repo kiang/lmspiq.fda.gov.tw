@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01034165",
+    "licUnit": "1",
     "validDate": "2026-07-22 00:00:00.000",
     "issueDate": "1991-07-22 00:00:00.000",
+    "oriIssueDate": "1991-07-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103416507",
@@ -27,6 +31,9 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3FB24FB3-C0C2-4A13-BDE1-A9D0596F1A24",
+    "subCategory": [],
     "ingredientsDesc": [
         "LYSINE L- (ACETATE)",
         "L-TRYPTOPHAN",
@@ -40,8 +47,8 @@
         "L-HISTIDINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "南光化學製藥股份有限公司",
     "applicantAddr": "台南市新化區全興里中山路１００１號",
@@ -53,28 +60,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "4336A96C-2089-4A23-A18A-FD82B979CB9E",
             "factoryCode": "1",
             "factoryName": "南光化學製藥股份有限公司",
             "factoryAddr": "台南市新化區全興里中山路１００１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0903620300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101002",
+            "ingredientsName": "L-ISOLEUCINE",
             "ingredientsDesc": "L-ISOLEUCINE",
             "concentDesc": "5.6",
-            "concent": "5.6000",
+            "concent": "5.600000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -83,9 +96,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101202",
+            "ingredientsName": "L-LEUCINE",
             "ingredientsDesc": "L-LEUCINE",
             "concentDesc": "8.8",
-            "concent": "8.8000",
+            "concent": "8.800000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -94,6 +108,7 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020191322",
+            "ingredientsName": "LYSINE L- (ACETATE)",
             "ingredientsDesc": "LYSINE L- (ACETATE)",
             "concentDesc": "(9.03MG) 6.4",
             "concent": null,
@@ -105,9 +120,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101502",
+            "ingredientsName": "L-METHIONINE",
             "ingredientsDesc": "L-METHIONINE",
             "concentDesc": "8.8",
-            "concent": "8.8000",
+            "concent": "8.800000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "1",
@@ -116,9 +132,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020101702",
+            "ingredientsName": "L-PHENYLALANINE",
             "ingredientsDesc": "L-PHENYLALANINE",
             "concentDesc": "8.8",
-            "concent": "8.8000",
+            "concent": "8.800000",
             "concentUnit": "001",
             "seq": "4",
             "prescription_seq": "1",
@@ -127,9 +144,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102002",
+            "ingredientsName": "L-THREONINE",
             "ingredientsDesc": "L-THREONINE",
             "concentDesc": "4",
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "5",
             "prescription_seq": "1",
@@ -138,9 +156,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102102",
+            "ingredientsName": "L-TRYPTOPHAN",
             "ingredientsDesc": "L-TRYPTOPHAN",
             "concentDesc": "2",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "6",
             "prescription_seq": "1",
@@ -149,9 +168,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020102302",
+            "ingredientsName": "L-VALINE",
             "ingredientsDesc": "L-VALINE",
             "concentDesc": "6.4",
-            "concent": "6.4000",
+            "concent": "6.400000",
             "concentUnit": "001",
             "seq": "7",
             "prescription_seq": "1",
@@ -160,9 +180,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100902",
+            "ingredientsName": "L-HISTIDINE",
             "ingredientsDesc": "L-HISTIDINE",
             "concentDesc": "2.5",
-            "concent": "2.5000",
+            "concent": "2.500000",
             "concentUnit": "001",
             "seq": "8",
             "prescription_seq": "1",
@@ -171,9 +192,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "4020100552",
+            "ingredientsName": "L-CYSTEINE HCL MONOHYDRATE",
             "ingredientsDesc": "L-CYSTEINE HCL MONOHYDRATE",
             "concentDesc": "0.2",
-            "concent": "0.2000",
+            "concent": "0.200000",
             "concentUnit": "001",
             "seq": "9",
             "prescription_seq": "1",
@@ -185,13 +207,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "B05BA01"
-        },
-        {
             "isMain": "1",
             "atcCode": "B05BA01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "7EC1AED3-3BBA-4D21-ACA8-CB3592F5AB1A"
 }

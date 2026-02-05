@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02021298",
+    "licUnit": "1",
     "validDate": "2026-07-11 00:00:00.000",
     "issueDate": "2021-04-08 00:00:00.000",
+    "oriIssueDate": "1996-07-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202129809",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "77938272-B9C0-4F08-9376-E97C9C43F125",
+    "subCategory": [],
     "ingredientsDesc": [
         "THEOPHYLLINE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q"
+        "02 輸 入",
+        "1Q 不得輸入"
     ],
     "applicantName": "嘉德藥品企業股份有限公司",
     "applicantAddr": "台北市中山區民生東路二段176號5樓",
@@ -40,8 +47,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "0EE9967C-2A55-4E0B-9BD1-B145B140FE3F",
             "factoryCode": "1",
             "factoryName": "BARD PHARMACEUTICAL LTD.",
             "factoryAddr": "CAMBRIDGE SCIENCE PARK, MILTON ROAD, CAMBRIDGE, CAMBRIDGESHIRE, CB4 0GW, U.K.",
@@ -52,13 +62,16 @@
             "factoryKind": "M",
             "factoryNo": "FGB0151000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "F3A6F8B5-F1B2-43F6-B934-D3DC14F6760A",
             "factoryCode": "2",
             "factoryName": "Ennogen Healthcare Ltd.",
             "factoryAddr": "Unit G2, G3 & G4 Riverside Industrial Estate Riverside Way Dartford, DA1 5BS Kent, U.K",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "GB",
             "processCode": [
                 {
@@ -70,16 +83,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0436000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8600100100",
+            "ingredientsName": "THEOPHYLLINE",
             "ingredientsDesc": "THEOPHYLLINE",
             "concentDesc": null,
-            "concent": "300.0000",
+            "concent": "300.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -88,45 +104,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A95EF642-439A-42E1-9BF3-0B4BAFA2C860",
-            "approvedDocNo": "1129049732",
-            "approvedDate": "2023-10-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A4CDF74F-654A-4FDA-BE87-5870BE225CF4",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "21A4F620-6DDB-4EC2-9ACA-C805679DBC6A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-04-15",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "0A4E3522-FD5E-48F0-A46C-73CAAF3439A9",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-09-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R03DA04"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "1F1C9CFB-629B-427F-9F35-87AC2A5EE59D"
 }

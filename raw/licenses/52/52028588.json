@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028588",
+    "licUnit": "1",
     "validDate": "2028-10-02 00:00:00.000",
     "issueDate": "2023-10-02 00:00:00.000",
+    "oriIssueDate": "2023-10-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202858807",
@@ -23,11 +27,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "2BAED4AF-7AF5-418B-BBB2-3EBCD33ACAD5",
+    "subCategory": [
+        "B"
+    ],
     "ingredientsDesc": [
         "PSEUDOEPHEDRINE HCL"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "美時化學製藥股份有限公司",
     "applicantAddr": "臺北市信義區松仁路277號17樓",
@@ -39,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "7096E583-E514-4ADC-917B-99EA8D202BCC",
             "factoryCode": "1",
             "factoryName": "KOLON PHARMA",
             "factoryAddr": "45,Munpyeongseo-ro 18beon-gil, Daedeok-gu, Daejeon, Republic of Korea",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "KR",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FKR0681000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002610",
+            "ingredientsName": "PSEUDOEPHEDRINE HCL",
             "ingredientsDesc": "PSEUDOEPHEDRINE HCL",
             "concentDesc": "",
-            "concent": "60.000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,5 +91,6 @@
             "atcCode": "R01BA02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "555DE413-4514-4497-8FC1-7E02D1CE0A39"
 }

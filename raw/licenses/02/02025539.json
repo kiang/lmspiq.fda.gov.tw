@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025539",
+    "licUnit": "1",
     "validDate": "2026-10-24 00:00:00.000",
     "issueDate": "2011-10-24 00:00:00.000",
+    "oriIssueDate": "2011-10-24",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202553902",
@@ -23,11 +27,14 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DD8F5F6C-A722-488C-9280-46218D10E117",
+    "subCategory": [],
     "ingredientsDesc": [
         "DYDROGESTERONE"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "美商亞培股份有限公司台灣分公司",
     "applicantAddr": "台北市中山區民生東路三段49號5樓、6樓及51號6樓",
@@ -39,8 +46,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "E6670BFB-2D0D-4E6D-B1B5-270AD7B706A0",
             "factoryCode": "1",
             "factoryName": "ABBOTT BIOLOGICALS B.V.",
             "factoryAddr": "VEERWEG 12, 8121 AA OLST, THE NETHERLANDS",
@@ -51,13 +61,16 @@
             "factoryKind": "M",
             "factoryNo": "FNL0058000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "34264A7C-12A3-401A-BBFF-8347C1815CBE",
             "factoryCode": "2",
             "factoryName": "裕利股份有限公司",
             "factoryAddr": "桃園市大園區和平里1鄰開和路91號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [
                 {
@@ -67,18 +80,21 @@
             ],
             "processCodeStr": "3P;二級包裝廠(委託貼標及置入仿單)",
             "factoryKind": "M",
-            "factoryNo": "1225204000",
+            "factoryNo": "6132061151",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6832000200",
+            "ingredientsName": "DYDROGESTERONE",
             "ingredientsDesc": "DYDROGESTERONE",
             "concentDesc": "(9, 10-pregna-4, 6-diene-3, 20-dione)",
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -87,37 +103,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "41B9945F-C7FE-48C6-B97F-7298AAE1A3DF",
-            "approvedDocNo": "1106036091",
-            "approvedDate": "2022-09-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "73D6452B-B4F2-4529-B3BC-E28D2433CDB3",
-            "approvedDocNo": "1096031291",
-            "approvedDate": "2020-10-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2C5EE05D-C4AF-4711-B4AA-46FD6E6BFEA0",
-            "approvedDocNo": "1086017386",
-            "approvedDate": "2019-06-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G03DB01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "EA8E4225-829F-4F8D-940A-325AEA759980"
 }

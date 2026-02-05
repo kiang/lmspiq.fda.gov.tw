@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048086",
+    "licUnit": "1",
     "validDate": "2026-07-05 00:00:00.000",
     "issueDate": "2006-07-05 00:00:00.000",
+    "oriIssueDate": "2006-07-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,11 +31,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "76F9D9D9-8319-4451-8882-464C509CECE1",
+    "subCategory": [],
     "ingredientsDesc": [
         "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT"
     ],
     "restraintItemsCode": [
-        "01"
+        "01 國 產",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "強生化學製藥廠股份有限公司",
     "applicantAddr": "新北市三重區三和路四段77號2、3樓、79號1至6樓",
@@ -43,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "E0696AD5-91A1-40FF-8C57-0C8789880523",
             "factoryCode": "1",
             "factoryName": "強生化學製藥廠股份有限公司",
             "factoryAddr": "新北市三重區三和路四段７７號2、3樓、79號1至6樓",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1110202300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5656900902",
+            "ingredientsName": "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT",
             "ingredientsDesc": "EXSICCATED FRUCTUS CARDUI MARIAE EXTRACT",
             "concentDesc": "",
-            "concent": "230.0000",
+            "concent": "230.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -73,21 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1ACF935B-5572-4005-94C6-E72F770C426C",
-            "approvedDocNo": "1100017069",
-            "approvedDate": "2021-06-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A05BA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "016E6959-6024-4BFB-9B36-4435F154ED1A"
 }

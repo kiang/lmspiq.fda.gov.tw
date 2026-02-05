@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02025461",
+    "licUnit": "1",
     "validDate": "2026-07-18 00:00:00.000",
     "issueDate": "2011-07-18 00:00:00.000",
+    "oriIssueDate": "2011-07-18",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00202546101",
@@ -16,18 +20,21 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "6A614EDA-3621-4452-B831-921D799D25CE",
+    "subCategory": [],
     "ingredientsDesc": [
         "Carisoprodol contains not less than 98.0% and not more than 102.0% of C12H24N2O4 on dried basis."
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "新雙隆生技股份有限公司",
     "applicantAddr": "台北市松山區復興北路369號14樓",
@@ -39,8 +46,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "EE6DD22C-669A-4FE0-8A0B-46A87FA17AFD",
             "factoryCode": "1",
             "factoryName": "LABORATORIO CHIMICO INTERNAZIONALE (LABOCHIM) S.P.A.",
             "factoryAddr": "VIA TOMMASO SALVINI, 10 20122 MILANO, ITALY",
@@ -51,26 +61,32 @@
             "factoryKind": "M",
             "factoryNo": "FIT0447000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "546BFE73-F88B-4671-ADB9-7D0DD1FEDB9E",
             "factoryCode": "1",
             "factoryName": "OLON S.P.A.",
             "factoryAddr": "Via B. Cellini, 20, SEGRATE, 20054, Italy",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIT0518100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": null,
+            "ingredientsName": "Carisoprodol contains not less than 98.0% and not more than 102.0% of C12H24N2O4 on dried basis.",
             "ingredientsDesc": "Carisoprodol contains not less than 98.0% and not more than 102.0% of C12H24N2O4 on dried basis.",
             "concentDesc": null,
             "concent": null,
@@ -80,47 +96,15 @@
             "prescription_Kind": "2"
         }
     ],
-    "authDtoList": [
-        {
-            "applicantName": "回春堂製藥廠股份有限公司",
-            "certNo": "DHA00202546112",
-            "approveDocNo": "1106016336",
-            "authDate": "2021-06-01",
-            "validDate": "2024-06-30"
-        }
-    ],
+    "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5306EE97-9580-4E45-B8CB-F44CB361B30C",
-            "approvedDocNo": "1109501479",
-            "approvedDate": "2022-08-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "469DF83F-5059-4926-91E1-659D63675418",
-            "approvedDocNo": "1091494603",
-            "approvedDate": "2020-11-16",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A7093514-F7D6-48AE-AE3E-D114342C3C3D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "M03BA02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "EA027639-8128-44EC-909B-046BB644C12A"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01049901",
+    "licUnit": "1",
     "validDate": "2029-01-12 00:00:00.000",
     "issueDate": "2009-01-12 00:00:00.000",
+    "oriIssueDate": "2009-01-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104990105",
@@ -27,12 +31,15 @@
     "medMCode": "05",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B9C81027-1D31-4B7D-91D3-7C1A10D0757D",
+    "subCategory": [],
     "ingredientsDesc": [
         "DOBUTAMINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "歐舒邁克有限公司",
     "applicantAddr": "新北市新店區中正路487-4號8樓",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "996C9F7B-8036-4284-A5D0-56176E698FB3",
             "factoryCode": "1",
-            "factoryName": "濟生醫藥生技股份有限公司",
-            "factoryAddr": "新竹縣湖口鄉勝利村實踐路3號",
+            "factoryName": "台裕化學製藥廠股份有限公司",
+            "factoryAddr": "新竹縣竹東鎮員山路11巷13弄1號",
             "factoryCompanyAddr": "",
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
-            "factoryKind": "M",
-            "factoryNo": "6133060069",
+            "factoryKind": "E",
+            "factoryNo": "6133030016",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2404300210",
+            "ingredientsName": "DOBUTAMINE HCL",
             "ingredientsDesc": "DOBUTAMINE HCL",
             "concentDesc": "(dobutamine 1mg)",
-            "concent": "1.1200",
+            "concent": "1.120000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,25 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "41043776-AE70-4AC2-BF22-EBB3FA8B6CA6",
-            "approvedDocNo": "1129056676",
-            "approvedDate": "2023-11-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "C01CA07"
-        },
         {
             "isMain": "1",
             "atcCode": "C01CA07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "90F603E5-E88C-4765-85F0-BB5E959B0371"
 }

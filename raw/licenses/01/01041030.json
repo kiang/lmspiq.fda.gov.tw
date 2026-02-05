@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01041030",
+    "licUnit": "1",
     "validDate": "2028-08-14 00:00:00.000",
     "issueDate": "1997-04-07 00:00:00.000",
+    "oriIssueDate": "1997-04-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104103001",
@@ -23,12 +27,15 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "C0A5F070-0F38-449B-BC55-E667AE814941",
+    "subCategory": [],
     "ingredientsDesc": [
         "PSEUDOEPHEDRINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "國嘉製藥工業股份有限公司幼獅三廠",
     "applicantAddr": "臺中市大甲區日南里工十路2號",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "1DA89BBA-D48E-421E-885C-4A308A2384DF",
             "factoryCode": "1",
             "factoryName": "國嘉製藥工業股份有限公司幼獅三廠",
             "factoryAddr": "臺中市大甲區日南里工十路2號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6103030026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002600",
+            "ingredientsName": "PSEUDOEPHEDRINE",
             "ingredientsDesc": "PSEUDOEPHEDRINE",
             "concentDesc": "",
-            "concent": "60.0000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -70,21 +83,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "1349E331-CB7C-4643-8996-A440D566BAAD",
-            "approvedDocNo": "1110815668",
-            "approvedDate": "2022-11-18",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R01BA02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "1881D366-6053-490F-A985-CEDA37B5261F"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01034167",
+    "licUnit": "1",
     "validDate": "2026-07-22 00:00:00.000",
     "issueDate": "1991-07-22 00:00:00.000",
+    "oriIssueDate": "1991-07-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103416701",
@@ -16,19 +20,22 @@
     "does": "3393",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "36"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8EC48065-1BEE-41E0-AD11-DC3D62240613",
+    "subCategory": [],
     "ingredientsDesc": [
         "PIROXICAM"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "政德製藥股份有限公司",
     "applicantAddr": "雲林縣大埤鄉嘉興村豐田路２號",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "508E7EB5-2068-4569-A1AB-133862EEC3BD",
             "factoryCode": "1",
             "factoryName": "政德製藥股份有限公司",
             "factoryAddr": "雲林縣大埤鄉嘉興村豐田路２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0922116300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808402500",
+            "ingredientsName": "PIROXICAM",
             "ingredientsDesc": "PIROXICAM",
             "concentDesc": "5",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -70,21 +83,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F4BF4CC4-A12C-42C0-9646-CF989E1B4C22",
-            "approvedDocNo": "1070041503",
-            "approvedDate": "2019-01-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "M02AA07"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "7DBCDD4F-9259-4C3A-800B-361BCB047ADF"
 }

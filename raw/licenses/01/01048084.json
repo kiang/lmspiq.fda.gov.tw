@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048084",
-    "validDate": "2026-07-04 00:00:00.000",
+    "licUnit": "1",
+    "validDate": "2031-07-04 00:00:00.000",
     "issueDate": "2006-07-04 00:00:00.000",
+    "oriIssueDate": "2006-07-04",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -30,7 +34,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "E35C800F-95A3-449E-BE04-70126504105E",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "SIMETHICONE (ACTIVE DIMETHICONE)",
         "MAGNESIUM HYDROXIDE",
@@ -43,8 +52,8 @@
         "DRIED ALUMINUM HYDROXIDE GEL"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "臺灣派頓化學製藥股份有限公司",
     "applicantAddr": "高雄市岡山區為隨東路50號",
@@ -56,28 +65,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "4EDE51C4-CE97-412B-B954-118570458773",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000207",
+            "ingredientsName": "DRIED ALUMINUM HYDROXIDE GEL",
             "ingredientsDesc": "DRIED ALUMINUM HYDROXIDE GEL",
             "concentDesc": null,
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -86,9 +101,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002500",
+            "ingredientsName": "MAGNESIUM HYDROXIDE",
             "ingredientsDesc": "MAGNESIUM HYDROXIDE",
             "concentDesc": null,
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -97,9 +113,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000600",
+            "ingredientsName": "SIMETHICONE (ACTIVE DIMETHICONE)",
             "ingredientsDesc": "SIMETHICONE (ACTIVE DIMETHICONE)",
             "concentDesc": null,
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -108,9 +125,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000207",
+            "ingredientsName": "DRIED ALUMINUM HYDROXIDE GEL",
             "ingredientsDesc": "DRIED ALUMINUM HYDROXIDE GEL",
             "concentDesc": null,
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -119,9 +137,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002500",
+            "ingredientsName": "MAGNESIUM HYDROXIDE",
             "ingredientsDesc": "MAGNESIUM HYDROXIDE",
             "concentDesc": null,
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -130,9 +149,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000600",
+            "ingredientsName": "SIMETHICONE (ACTIVE DIMETHICONE)",
             "ingredientsDesc": "SIMETHICONE (ACTIVE DIMETHICONE)",
             "concentDesc": null,
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -141,9 +161,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604000207",
+            "ingredientsName": "DRIED ALUMINUM HYDROXIDE GEL",
             "ingredientsDesc": "DRIED ALUMINUM HYDROXIDE GEL",
             "concentDesc": null,
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "2",
@@ -152,9 +173,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604002500",
+            "ingredientsName": "MAGNESIUM HYDROXIDE",
             "ingredientsDesc": "MAGNESIUM HYDROXIDE",
             "concentDesc": null,
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "2",
@@ -163,9 +185,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5610000600",
+            "ingredientsName": "SIMETHICONE (ACTIVE DIMETHICONE)",
             "ingredientsDesc": "SIMETHICONE (ACTIVE DIMETHICONE)",
             "concentDesc": null,
-            "concent": "20.0000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "2",
@@ -177,21 +200,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A02AB01"
-        },
-        {
             "isMain": "1",
             "atcCode": "A02AF02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A02AA04"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A03AX13"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "AAE36B14-7563-41DE-84BD-9E786369E045"
 }

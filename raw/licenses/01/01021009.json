@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01021009",
+    "licUnit": "1",
     "validDate": "2028-05-25 00:00:00.000",
     "issueDate": "1980-03-18 00:00:00.000",
+    "oriIssueDate": "1980-03-18",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00102100901",
@@ -23,13 +27,16 @@
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8A2F0626-7EE6-4A37-BDD7-4EC88BD0E299",
+    "subCategory": [],
     "ingredientsDesc": [
         "CHLORPHENIRAMINE MALEATE",
         "PSEUDOEPHEDRINE HCL"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "富邦藥品有限公司",
     "applicantAddr": "新北市汐止區大同路一段179號7樓",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "37590481-80E2-4EE3-BAF3-0AF6162E3F44",
             "factoryCode": "1",
             "factoryName": "新喜國際企業股份有限公司",
             "factoryAddr": "台南市鹽水區孫厝里孫厝寮４之６號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1302820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400000810",
+            "ingredientsName": "CHLORPHENIRAMINE MALEATE",
             "ingredientsDesc": "CHLORPHENIRAMINE MALEATE",
             "concentDesc": null,
-            "concent": "4.0000",
+            "concent": "4.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -71,9 +84,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002610",
+            "ingredientsName": "PSEUDOEPHEDRINE HCL",
             "ingredientsDesc": "PSEUDOEPHEDRINE HCL",
             "concentDesc": null,
-            "concent": "60.0000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -82,101 +96,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "46B9F9EF-0B07-41F9-8833-6DAB1B8D8082",
-            "approvedDocNo": "1121407670",
-            "approvedDate": "2023-07-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BDD90C99-E9D4-48F7-B196-37C38FC247B7",
-            "approvedDocNo": "1110733449",
-            "approvedDate": "2023-03-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7188CA22-5DFE-40C5-A963-4EA5462C22F8",
-            "approvedDocNo": "1106807991",
-            "approvedDate": "2021-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "481D8789-17FB-4409-8F9E-901269A3C712",
-            "approvedDocNo": "1106807991",
-            "approvedDate": "2021-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F781F533-A50D-480B-AB56-C4107F387E3B",
-            "approvedDocNo": "1106807991",
-            "approvedDate": "2021-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "2D1B47AF-F4DF-485A-956A-12BF6CEE9224",
-            "approvedDocNo": "1106807991",
-            "approvedDate": "2021-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A6D754C7-9CA2-4191-95AD-3115C029A93C",
-            "approvedDocNo": "1106807991",
-            "approvedDate": "2021-08-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A93649E0-0307-4752-B9E0-2CACA5F393FD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-10-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B227C261-6E42-414C-B9D6-335E8CABF4AD",
-            "approvedDocNo": "1086605337",
-            "approvedDate": "2019-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7DECF79E-4DCA-4FF3-BAD6-221046EF2201",
-            "approvedDocNo": "1086605337",
-            "approvedDate": "2019-10-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R06AB52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AB02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "F08D7CC9-70F7-41D7-876C-9E9CCB33021D"
 }

@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01019905",
+    "licUnit": "1",
     "validDate": "2028-12-31 00:00:00.000",
     "issueDate": "1979-12-21 00:00:00.000",
+    "oriIssueDate": "1979-12-21",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00101990508",
@@ -16,29 +20,32 @@
     "does": "3360",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "36"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "01"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "03"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "105B9938-8720-44E0-A4E0-A6EFC849CEB8",
+    "subCategory": [],
     "ingredientsDesc": [
         "TOCOPHEROL ACETATE ALPHA DL-",
         "VITAMIN A",
         "ERGOCALCIFEROL (VIT D2CALCIFEROL)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09"
+        "01 國 產",
+        "09 委託製造"
     ],
     "applicantName": "華興化學製藥廠股份有限公司",
     "applicantAddr": "彰化縣田尾鄉饒平村四維巷１２８號",
@@ -50,28 +57,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "FEBE1215-1BBD-49A7-95D2-7BB8DC8F24FB",
             "factoryCode": "1",
             "factoryName": "臺灣派頓化學製藥股份有限公司",
             "factoryAddr": "高雄市岡山區為隨里為隨東路五十號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1407422300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8804000100",
+            "ingredientsName": "VITAMIN A",
             "ingredientsDesc": "VITAMIN A",
             "concentDesc": "2000",
-            "concent": "2000.0000",
+            "concent": "2000.000000",
             "concentUnit": "212",
             "seq": "0",
             "prescription_seq": "1",
@@ -80,9 +93,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8818000200",
+            "ingredientsName": "ERGOCALCIFEROL (VIT D2CALCIFEROL)",
             "ingredientsDesc": "ERGOCALCIFEROL (VIT D2CALCIFEROL)",
             "concentDesc": "12.5",
-            "concent": "12.5000",
+            "concent": "12.500000",
             "concentUnit": "016",
             "seq": "1",
             "prescription_seq": "1",
@@ -91,9 +105,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000213",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA DL-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA DL-",
             "concentDesc": "2",
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -102,41 +117,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "696FA194-2A6F-44FC-9E1F-2D61D742BF29",
-            "approvedDocNo": "1129031651",
-            "approvedDate": "2023-09-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A1D697A1-A17D-4FDC-B311-826A78028898",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-06-28",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C0DFBA43-B8F3-45A9-A27F-51A112137160",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-11-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D02AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "D02AX"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "26F3CCE3-8D5F-4ED3-9F23-62F92E53655F"
 }

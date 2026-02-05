@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01040122",
+    "licUnit": "1",
     "validDate": "2026-07-15 00:00:00.000",
     "issueDate": "1996-07-15 00:00:00.000",
+    "oriIssueDate": "1996-07-15",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104012201",
@@ -16,26 +20,29 @@
     "does": "1124",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "61"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "58"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "79512650-9621-4DE8-A33E-D8B039E67711",
+    "subCategory": [],
     "ingredientsDesc": [
         "NAPROXEN"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "中國化學製藥股份有限公司新豐工廠",
-    "applicantAddr": "新竹縣新豐鄉坑子口１８２之１號",
+    "applicantAddr": "新竹縣新豐鄉坑子口182之1號",
     "medClass": null,
     "efficacy": " ",
     "mdFormat": null,
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "70CB8BB3-5666-4F0A-9B39-B417AE8A5B04",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808402000",
+            "ingredientsName": "NAPROXEN",
             "ingredientsDesc": "NAPROXEN",
             "concentDesc": "250",
-            "concent": "250.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -74,21 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "B9A0FF0F-CC0E-45F1-9D97-16F1506AC6F7",
-            "approvedDocNo": "1110730649",
-            "approvedDate": "2023-03-31",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "M01AE02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "2F1DD5F4-A330-419E-B787-E74E6699EA06"
 }

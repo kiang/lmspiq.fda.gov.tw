@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51059245",
+    "licUnit": "1",
     "validDate": "2026-07-26 00:00:00.000",
     "issueDate": "2016-07-26 00:00:00.000",
+    "oriIssueDate": "2016-07-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05105924509",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "3714E229-BFE5-45CB-A85F-5B3C5AD297E1",
+    "subCategory": [],
     "ingredientsDesc": [
         "ETORICOXIB"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "生達化學製藥股份有限公司二廠",
     "applicantAddr": "台南市新營區開元路１５４號",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "19E05882-2544-42AC-A00D-E02D0B9E51D5",
             "factoryCode": "1",
             "factoryName": "生達化學製藥股份有限公司二廠",
             "factoryAddr": "台南市新營區開元路１５４號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6141010064",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200097300",
+            "ingredientsName": "ETORICOXIB",
             "ingredientsDesc": "ETORICOXIB",
             "concentDesc": "",
-            "concent": "60.000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,109 +84,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "51E64619-27CC-4657-9473-6010A4CB218B",
-            "approvedDocNo": "1120810242",
-            "approvedDate": "2023-08-14",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "42EA827C-18D2-4093-8374-1E6392673A5C",
-            "approvedDocNo": "1120808100",
-            "approvedDate": "2023-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9F46CDFE-41A2-4A4D-833F-2B25FD51DBC6",
-            "approvedDocNo": "1120803379",
-            "approvedDate": "2023-03-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "1F31D839-226D-4877-8712-0706D98B7E27",
-            "approvedDocNo": "1111405760",
-            "approvedDate": "2022-06-09",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E0687A01-C6AB-4A46-B094-B3AF6D0D1E44",
-            "approvedDocNo": "1110601809",
-            "approvedDate": "2022-06-02",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5B215996-B324-4A8F-BBEB-D5AB13C70D0A",
-            "approvedDocNo": "1106614077",
-            "approvedDate": "2022-02-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A276988D-A500-4D90-963A-D9EB57A8A20E",
-            "approvedDocNo": "1106614077",
-            "approvedDate": "2022-02-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "B945CC21-1FD1-4397-9839-321385177A60",
-            "approvedDocNo": "1091406767",
-            "approvedDate": "2020-06-24",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E7895DF9-1860-49FC-A9F3-52C466A3715C",
-            "approvedDocNo": "1086602467",
-            "approvedDate": "2019-06-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "7718E397-ED36-4FE6-BE31-00A72A34B18C",
-            "approvedDocNo": "1086602467",
-            "approvedDate": "2019-06-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4646AE7F-6A1E-4DCF-A00A-AE4DC8483110",
-            "approvedDocNo": "1086602467",
-            "approvedDate": "2019-06-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D8BEB1B2-FCB4-4A8A-9896-BAAFBB0D42B0",
-            "approvedDocNo": "1086602467",
-            "approvedDate": "2019-06-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "M01AH05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "CEEE143F-95B2-4CC7-97BB-98AA3D8C8CAD"
 }
