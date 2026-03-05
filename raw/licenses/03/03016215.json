@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "03016215",
+    "licUnit": "1",
     "validDate": "2026-08-29 00:00:00.000",
     "issueDate": "2012-05-25 00:00:00.000",
+    "oriIssueDate": "2012-05-25",
     "licKind": "02",
     "oldLicid": "01034292",
     "certNo": "DHY00301621500",
@@ -23,12 +27,15 @@
     "medMCode": "13",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8A0A868E-CAA7-4FC9-81EF-4A495C346287",
+    "subCategory": [],
     "ingredientsDesc": [
         "CETYLPYRIDINIUM CHLORIDE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "華盛頓製藥廠股份有限公司",
     "applicantAddr": "高雄市仁武區仁武里工業二路12號",
@@ -40,28 +47,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "2937B431-ADF3-412E-86F8-8C9C31982D64",
             "factoryCode": "1",
             "factoryName": "華盛頓製藥廠股份有限公司",
             "factoryAddr": "高雄市仁武區仁武里工業二路12號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1202822300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8404601310",
+            "ingredientsName": "CETYLPYRIDINIUM CHLORIDE",
             "ingredientsDesc": "CETYLPYRIDINIUM CHLORIDE",
             "concentDesc": null,
-            "concent": "0.5000",
+            "concent": "0.500000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -70,21 +83,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3B59F221-CBDC-4337-BDB3-8F38F21F56A5",
-            "approvedDocNo": "1090012440",
-            "approvedDate": "2020-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R02AA06"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "93E8CC67-0B8D-476E-AC07-29D756830EAF"
 }

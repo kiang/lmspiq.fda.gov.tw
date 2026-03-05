@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060952",
+    "licUnit": "1",
     "validDate": "2026-08-05 00:00:00.000",
     "issueDate": "2021-08-05 00:00:00.000",
+    "oriIssueDate": "2021-08-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106095208",
@@ -27,13 +31,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "D6D2688E-74C5-4ED7-A696-440A25FAF7CF",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "TADALAFIL"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "62"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "62 完成溶離率試驗"
     ],
     "applicantName": "中國化學製藥股份有限公司新豐工廠",
     "applicantAddr": "新竹縣新豐鄉坑子口182之1號",
@@ -45,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "A0649355-801D-441A-9C97-3B634C2A0F5F",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200043000",
+            "ingredientsName": "TADALAFIL",
             "ingredientsDesc": "TADALAFIL",
             "concentDesc": "",
-            "concent": "5.000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,45 +90,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "3DACA76C-5A1A-4230-BE32-AC6B5DE99BDF",
-            "approvedDocNo": "1120713857",
-            "approvedDate": "2023-06-30",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "492681D5-5340-44BD-83AE-D097BB5852CB",
-            "approvedDocNo": "1110707507",
-            "approvedDate": "2022-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9260840C-AB27-4111-8AAF-4BDBDF04A538",
-            "approvedDocNo": "1110707507",
-            "approvedDate": "2022-05-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "861FBEC8-59E9-45C8-9408-E26508ED30D1",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-22",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "G04BE08"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "C1DC534A-A809-447C-B3A4-31CB13403067"
 }

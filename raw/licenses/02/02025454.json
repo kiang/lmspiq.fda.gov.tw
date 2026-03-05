@@ -1,12 +1,16 @@
 {
     "cancelStatus": "1",
+    "licStatus": "2",
     "cancelDate": "2023-12-07",
     "cancelReason": [
         "841"
     ],
+    "otherCancelReason": null,
     "licid": "02025454",
+    "licUnit": "1",
     "validDate": "2026-08-19 00:00:00.000",
     "issueDate": "2011-08-19 00:00:00.000",
+    "oriIssueDate": "2011-08-19",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202545404",
@@ -25,13 +29,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "FC22DD00-6EB7-4E93-BF18-41A0BC4ADB37",
+    "subCategory": [],
     "ingredientsDesc": [
         "SAXAGLIPTIN",
         "METFORMIN HYDROCHLORIDE WITH 0.5% MAGNESIUM STEARATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "07"
+        "02 輸 入",
+        "07 新藥監視"
     ],
     "applicantName": "臺灣阿斯特捷利康股份有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號21樓",
@@ -43,8 +50,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "2AC43ADE-A28A-4C46-AE70-51FB1649C6A6",
             "factoryCode": "1",
             "factoryName": "ASTRAZENECA PHARMACEUTICALS LP",
             "factoryAddr": "4601 HIGHWAY 62 EAST, MOUNT VERNON, INDIANA 47620 USA",
@@ -55,16 +65,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0373000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400720",
+            "ingredientsName": "METFORMIN HYDROCHLORIDE WITH 0.5% MAGNESIUM STEARATE",
             "ingredientsDesc": "METFORMIN HYDROCHLORIDE WITH 0.5% MAGNESIUM STEARATE",
             "concentDesc": "(=metformin hydrochloride 500mg)",
-            "concent": "502.5000",
+            "concent": "502.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -73,9 +86,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820802000",
+            "ingredientsName": "SAXAGLIPTIN",
             "ingredientsDesc": "SAXAGLIPTIN",
             "concentDesc": null,
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "3",
@@ -84,29 +98,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "20620476-E32C-4A67-9856-C1DB6A404135",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "77117592-7E28-4954-9715-4FD0697380AD",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-05-07",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A10BD10"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "4241E74C-67D8-4065-84EA-9FD837D39CEF"
 }

@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2026-02-03",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "52027432",
+    "licUnit": "1",
     "validDate": "2028-05-11 00:00:00.000",
     "issueDate": "2018-05-11 00:00:00.000",
+    "oriIssueDate": "2018-05-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202743200",
@@ -27,12 +33,17 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "B3A987F0-9E43-46EA-B4E6-E9BEB23662A8",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "BORTEZOMIB"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台灣邁蘭有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -44,28 +55,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "CB950BD7-939F-4963-9572-07FD1F4C197C",
             "factoryCode": "1",
             "factoryName": "MYLAN LABORATORIES LIMITED-OTL",
             "factoryAddr": "PLOT NO. 284B, BOMMASANDRA-JIGANI LINK ROAD, INDUSTRIAL AREA, ANEKAL TALUK, BANGALORE-560105, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0921000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013001200",
+            "ingredientsName": "BORTEZOMIB",
             "ingredientsDesc": "BORTEZOMIB",
             "concentDesc": "(Bortezomib Monohydrate) eq. to",
-            "concent": "3.500",
+            "concent": "3.500000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -82,69 +99,13 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "2EC4EE58-11B6-4B3E-A540-18AE9102D0C9",
-            "approvedDocNo": "1129004495",
-            "approvedDate": "2023-07-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F0992893-AC83-470D-9927-6F053AC59261",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "DD7D48B8-EF89-4739-80AA-061BB684B0D5",
-            "approvedDocNo": "1101497065",
-            "approvedDate": "2022-01-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C6C5280-63B8-4204-B6B6-DB21A0CC2C5F",
-            "approvedDocNo": "1106014235",
-            "approvedDate": "2021-07-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "3B8647C4-2F22-4027-BEBE-EE56C25FBF31",
-            "approvedDocNo": "1106010947",
-            "approvedDate": "2021-07-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "755605C4-76A7-480B-B538-241ADD421EA2",
-            "approvedDocNo": "1096039882",
-            "approvedDate": "2021-02-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "81F15FF2-CEC0-4C2B-8283-CA6ADF98CA41",
-            "approvedDocNo": "1086027596",
-            "approvedDate": "2019-09-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01XG01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "021FCF15-7B72-42A7-B79C-E9F21E4A8A2C"
 }

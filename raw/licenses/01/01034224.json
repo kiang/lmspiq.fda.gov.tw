@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01034224",
+    "licUnit": "1",
     "validDate": "2026-08-09 00:00:00.000",
     "issueDate": "1991-09-13 00:00:00.000",
+    "oriIssueDate": "1991-08-09",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103422400",
@@ -23,13 +27,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DB3720F7-97DE-483E-9F79-692B4E8FF6A4",
+    "subCategory": [],
     "ingredientsDesc": [
         "ACYCLOVIR"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "健康化學製藥股份有限公司",
     "applicantAddr": "台中市大甲區幼獅工業區幼四路１２號",
@@ -41,28 +48,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "93E3D988-A5BA-4FB4-8B9E-595A75D633DD",
             "factoryCode": "1",
             "factoryName": "健康化學製藥股份有限公司",
             "factoryAddr": "台中市大甲區幼獅工業區幼四路１２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "1103310300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818000100",
+            "ingredientsName": "ACYCLOVIR",
             "ingredientsDesc": "ACYCLOVIR",
             "concentDesc": "50",
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,45 +84,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "EF4FCBE7-B326-4018-9ED9-279F5FFC979F",
-            "approvedDocNo": "1086601439",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5FDD8B12-8285-431C-96C3-706058AB570C",
-            "approvedDocNo": "1086601439",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "128753EA-7EF1-47E4-ACEF-84384C31F30F",
-            "approvedDocNo": "1086601439",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "99B01EAB-4B3C-4DDC-B094-87F0F0976E92",
-            "approvedDocNo": "1086601439",
-            "approvedDate": "2019-08-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "D06BB03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "93B9B3A1-6074-4FF4-AC36-D4604DA55F00"
 }

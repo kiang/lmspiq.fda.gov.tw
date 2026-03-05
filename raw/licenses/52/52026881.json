@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52026881",
+    "licUnit": "1",
     "validDate": "2026-08-05 00:00:00.000",
     "issueDate": "2016-08-05 00:00:00.000",
+    "oriIssueDate": "2016-08-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202688108",
@@ -23,13 +27,17 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "162DFBB8-9E3B-48B5-BCE9-36600968575F",
+    "subCategory": [],
     "ingredientsDesc": [
         "Bilastine"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗",
+        "67 成品已完成元素不純物評估(Option 1、2a、2b)"
     ],
     "applicantName": "新加坡商美納里尼醫藥有限公司台灣分公司",
     "applicantAddr": "臺北市中山區民生東路3段2號9樓之2",
@@ -41,28 +49,34 @@
     "monitorDate": "2021-08-05",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "EC414FC9-4000-4F48-84A2-7A09016FC621",
             "factoryCode": "1",
             "factoryName": "A. MENARINI MANUFACTURING LOGISTICS AND SERVICES S.R.L (L’AQUILA PLANT)",
             "factoryAddr": "CAMPO DI PILE STREET, 67100-L’AQUILA, ITALY",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IT",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIT0001100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400007100",
+            "ingredientsName": "Bilastine",
             "ingredientsDesc": "Bilastine",
             "concentDesc": "",
-            "concent": "20.000",
+            "concent": "20.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -71,45 +85,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "7EBC2521-5D77-48E5-B9EA-0794B726F959",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-11-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "220BFAF1-0039-4938-A821-BAC51216C0B2",
-            "approvedDocNo": "1109501511",
-            "approvedDate": "2022-08-10",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "680FECA9-3103-4956-981E-924384555D76",
-            "approvedDocNo": "1119005191",
-            "approvedDate": "2022-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C4646B51-858C-453D-A746-95FABF9A13EE",
-            "approvedDocNo": "1119005191",
-            "approvedDate": "2022-05-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R06AX29"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "BBEFACD3-AFAE-43DE-8CE5-512803429AA1"
 }

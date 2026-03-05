@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048183",
+    "licUnit": "1",
     "validDate": "2026-08-22 00:00:00.000",
     "issueDate": "2006-08-22 00:00:00.000",
+    "oriIssueDate": "2006-08-22",
     "licKind": "02",
     "oldLicid": null,
     "certNo": null,
@@ -27,16 +31,19 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "DC401F96-880F-4A73-9F30-2828217DF78D",
+    "subCategory": [],
     "ingredientsDesc": [
         "RISPERIDONE"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1G",
-        "1R",
-        "25",
-        "61"
+        "01 國 產",
+        "09 委託製造",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造",
+        "25 監視中學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "濟生醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉勝利村實踐路3號",
@@ -48,28 +55,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "B4A94066-9004-4446-A18D-F451E55AB10A",
             "factoryCode": "1",
             "factoryName": "永勝藥品工業股份有限公司",
             "factoryAddr": "嘉義縣民雄鄉興南村頭橋工業區工業三路６之３號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6140040022",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2816100600",
+            "ingredientsName": "RISPERIDONE",
             "ingredientsDesc": "RISPERIDONE",
             "concentDesc": null,
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -78,29 +91,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "F9BF761E-AEA8-4AAA-94EE-59EBD25399F9",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6D4BC72D-28F3-4FD1-9B6E-75A3A49F8706",
-            "approvedDocNo": "1096804079",
-            "approvedDate": "2020-07-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N05AX08"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "86A92E1A-EA5A-4503-B83E-12311298F34B"
 }

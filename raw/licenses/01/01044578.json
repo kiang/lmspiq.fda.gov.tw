@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01044578",
+    "licUnit": "1",
     "validDate": "2026-08-16 00:00:00.000",
     "issueDate": "2001-08-16 00:00:00.000",
+    "oriIssueDate": "2001-08-16",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104457802",
@@ -16,23 +20,26 @@
     "does": "1196",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "07E0BFB9-274A-4432-88E0-86E7EEF47F0C",
+    "subCategory": [],
     "ingredientsDesc": [
         "ASPIRIN"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -44,8 +51,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "C38AEDEC-237C-4974-8421-3A6E2A5FAA08",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業區工業一路６號",
@@ -56,16 +66,19 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808600300",
+            "ingredientsName": "ASPIRIN",
             "ingredientsDesc": "ASPIRIN",
             "concentDesc": "100",
-            "concent": "100.0000",
+            "concent": "100.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,21 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "ECAB5256-BDBE-47CE-8510-A426201FACEC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "B01AC06"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "214E75F0-D66F-45F1-B216-5F4641352ECB"
 }

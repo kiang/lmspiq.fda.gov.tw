@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2026-02-09",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "52027138",
+    "licUnit": "1",
     "validDate": "2027-05-02 00:00:00.000",
     "issueDate": "2017-05-02 00:00:00.000",
+    "oriIssueDate": "2017-05-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202713800",
@@ -27,13 +33,16 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "F8BED722-8987-4A25-9084-303A0B46EDEB",
+    "subCategory": [],
     "ingredientsDesc": [
         "DOCETAXEL ANHYDROUS"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台灣邁蘭有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -45,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "A5E56024-B6ED-484A-9833-9A568F31A40A",
             "factoryCode": "1",
             "factoryName": "MYLAN LABORATORIES LIMITED-OTL",
             "factoryAddr": "PLOT NO. 284B, BOMMASANDRA-JIGANI LINK ROAD, INDUSTRIAL AREA, ANEKAL TALUK, BANGALORE-560105, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0921000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013000220",
+            "ingredientsName": "DOCETAXEL ANHYDROUS",
             "ingredientsDesc": "DOCETAXEL ANHYDROUS",
             "concentDesc": "",
-            "concent": "40.000",
+            "concent": "40.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,29 +90,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "9C7A53FF-696D-4B22-AAF5-773486FB0B94",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C511E6C-F911-41AE-B213-2B08C4DF332C",
-            "approvedDocNo": "1096009221",
-            "approvedDate": "2020-08-05",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01CD02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "8BDDB332-A792-47F1-A9FC-E678AFEB3E21"
 }

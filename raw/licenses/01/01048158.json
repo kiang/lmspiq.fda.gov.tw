@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048158",
+    "licUnit": "1",
     "validDate": "2026-08-03 00:00:00.000",
     "issueDate": "2006-08-03 00:00:00.000",
+    "oriIssueDate": "2006-08-03",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104815800",
@@ -26,15 +30,20 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "12CDFD4F-91D3-4393-BCD7-D22A89886333",
+    "subCategory": [
+        "B04"
+    ],
     "ingredientsDesc": [
         "CAFFEINE ANHYDROUS",
         "ACETAMINOPHEN (EQ TO PARACETAMOL)"
     ],
     "restraintItemsCode": [
-        "01",
-        "09",
-        "1R"
+        "01 國 產",
+        "09 委託製造",
+        "1R 不得製造"
     ],
     "applicantName": "臺灣源山股份有限公司",
     "applicantAddr": "台北市大安區忠孝東路３段９８之１號５樓",
@@ -46,28 +55,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "89B2050A-EBE4-49B8-82CB-4791580D4639",
             "factoryCode": "1",
             "factoryName": "旭能醫藥生技股份有限公司",
             "factoryAddr": "苗栗縣竹南鎮科研路25號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6135041348",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2808000100",
+            "ingredientsName": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "ingredientsDesc": "ACETAMINOPHEN (EQ TO PARACETAMOL)",
             "concentDesc": "(500)",
-            "concent": "600.0000",
+            "concent": "600.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +91,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820000450",
+            "ingredientsName": "CAFFEINE ANHYDROUS",
             "ingredientsDesc": "CAFFEINE ANHYDROUS",
             "concentDesc": null,
-            "concent": "50.0000",
+            "concent": "50.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "1",
@@ -87,29 +103,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "E9B4D8E9-EBA3-4447-AACA-22BF56479514",
-            "approvedDocNo": "1086012604",
-            "approvedDate": "2019-09-17",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "N02BE51"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N06BC01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "N02BE01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "3241F100-ABA6-4426-8ADE-1910AD3AFD37"
 }

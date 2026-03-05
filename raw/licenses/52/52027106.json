@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2026-02-10",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "52027106",
+    "licUnit": "1",
     "validDate": "2027-04-05 00:00:00.000",
     "issueDate": "2017-04-05 00:00:00.000",
+    "oriIssueDate": "2017-04-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202710600",
@@ -27,14 +33,17 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "7C7174F6-DA1E-4C12-8219-B9B7C4CC595C",
+    "subCategory": [],
     "ingredientsDesc": [
         "GEMCITABINE HYDROCHLORIDE",
         "GEMCITABINE HYDROCHLORIDE"
     ],
     "restraintItemsCode": [
-        "02",
-        "1Q",
-        "24"
+        "02 輸 入",
+        "1Q 不得輸入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台灣邁蘭有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -46,28 +55,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "DB4AF1DC-7AF8-406C-B4D2-CD125D5B8AC9",
             "factoryCode": "1",
             "factoryName": "MYLAN LABORATORIES LIMITED-OTL",
             "factoryAddr": "PLOT NO. 284B, BOMMASANDRA-JIGANI LINK ROAD, INDUSTRIAL AREA, ANEKAL TALUK, BANGALORE-560105, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0921000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1010000610",
+            "ingredientsName": "GEMCITABINE HYDROCHLORIDE",
             "ingredientsDesc": "GEMCITABINE HYDROCHLORIDE",
             "concentDesc": "(Equivalent to Gemcitabine)",
-            "concent": "0.200",
+            "concent": "0.200000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -76,9 +91,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1010000610",
+            "ingredientsName": "GEMCITABINE HYDROCHLORIDE",
             "ingredientsDesc": "GEMCITABINE HYDROCHLORIDE",
             "concentDesc": "(Equivalent to Gemcitabine)",
-            "concent": "1.000",
+            "concent": "1.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "2",
@@ -87,21 +103,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "A8FE8E7B-A086-47D1-A4E3-7D7D8A23DDA5",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01BC05"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "A55AAE1D-EE04-414A-8439-A484312A5B97"
 }

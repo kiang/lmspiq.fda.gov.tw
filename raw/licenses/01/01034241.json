@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01034241",
+    "licUnit": "1",
     "validDate": "2026-08-12 00:00:00.000",
     "issueDate": "1991-08-12 00:00:00.000",
+    "oriIssueDate": "1991-08-12",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00103424100",
@@ -20,19 +24,22 @@
             "packageUnit": "A3"
         },
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "89"
         }
     ],
     "medMCode": "17",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8A2D4076-2C4B-449A-ABFE-24938CB95E83",
+    "subCategory": [],
     "ingredientsDesc": [
         "CALCIUM CARBONATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "成大藥品股份有限公司",
     "applicantAddr": "台南市麻豆區南勢里關帝廟８０號",
@@ -44,28 +51,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "8C1D5C1D-39A9-4174-8FEE-CF4BE69F9227",
             "factoryCode": "1",
             "factoryName": "成大藥品股份有限公司",
             "factoryAddr": "台南市麻豆區南勢里關帝廟８０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0603820300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "5604001200",
+            "ingredientsName": "CALCIUM CARBONATE",
             "ingredientsDesc": "CALCIUM CARBONATE",
             "concentDesc": "500",
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,53 +87,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "35DC2C79-71A1-4B57-AD6C-669101D72103",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2023-11-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "5D1E83FA-74F7-48C4-A834-FBB639AADDA8",
-            "approvedDocNo": "1120609134",
-            "approvedDate": "2023-09-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "9C1C23A3-FD72-4283-9E55-285F806FC07B",
-            "approvedDocNo": "1120609134",
-            "approvedDate": "2023-09-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "E6D4BCA3-047A-4D73-B62A-2931FB6BC830",
-            "approvedDocNo": "1120609134",
-            "approvedDate": "2023-09-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "4B17110A-1E29-4ACA-9282-55EEBC6D86FD",
-            "approvedDocNo": "1120609134",
-            "approvedDate": "2023-09-26",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A02AC01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "C200E1FF-B43E-4586-933B-14D1BAB5201B"
 }

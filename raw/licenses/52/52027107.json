@@ -1,10 +1,16 @@
 {
-    "cancelStatus": "0",
-    "cancelDate": null,
-    "cancelReason": [],
+    "cancelStatus": "1",
+    "licStatus": "2",
+    "cancelDate": "2026-02-09",
+    "cancelReason": [
+        "841"
+    ],
+    "otherCancelReason": "",
     "licid": "52027107",
+    "licUnit": "1",
     "validDate": "2027-04-05 00:00:00.000",
     "issueDate": "2017-04-05 00:00:00.000",
+    "oriIssueDate": "2017-04-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202710702",
@@ -27,12 +33,15 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "720A94CA-2997-4AB9-8395-6174CC2D542F",
+    "subCategory": [],
     "ingredientsDesc": [
         "IRINOTECAN HYDROCHLORIDE TRIHYDRATE"
     ],
     "restraintItemsCode": [
-        "02",
-        "24"
+        "02 輸 入",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "台灣邁蘭有限公司",
     "applicantAddr": "臺北市信義區信義路５段7號27樓",
@@ -44,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "D5994271-C56A-4877-86B2-4D2728F73C90",
             "factoryCode": "1",
             "factoryName": "MYLAN LABORATORIES LIMITED-OTL",
             "factoryAddr": "PLOT NO. 284B, BOMMASANDRA-JIGANI LINK ROAD, INDUSTRIAL AREA, ANEKAL TALUK, BANGALORE-560105, INDIA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "IN",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FIN0921000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9200037710",
+            "ingredientsName": "IRINOTECAN HYDROCHLORIDE TRIHYDRATE",
             "ingredientsDesc": "IRINOTECAN HYDROCHLORIDE TRIHYDRATE",
             "concentDesc": "",
-            "concent": "0.020",
+            "concent": "0.020000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -74,53 +89,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "96771E04-885B-4EC5-8BD9-F66FD7C0E81B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-01-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FD0CE111-1763-4CA8-99A0-19A80BB91C34",
-            "approvedDocNo": "1101497537",
-            "approvedDate": "2021-11-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "45EDED03-DDF2-40B9-9FDF-8A8504BB211C",
-            "approvedDocNo": "1101497537",
-            "approvedDate": "2021-11-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "53629F40-431F-4128-9D48-BAC4C8AE2E60",
-            "approvedDocNo": "1101497537",
-            "approvedDate": "2021-11-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "58FB705F-4D0F-4A4D-AB2A-45E39C4AEE8A",
-            "approvedDocNo": "1080024805",
-            "approvedDate": "2019-11-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01CE02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "67C6D808-26FB-4A40-9BC6-3234C9185E83"
 }

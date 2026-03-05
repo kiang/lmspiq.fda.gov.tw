@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056669",
+    "licUnit": "1",
     "validDate": "2026-08-11 00:00:00.000",
     "issueDate": "2011-08-11 00:00:00.000",
+    "oriIssueDate": "2011-08-11",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105666905",
@@ -27,14 +31,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "EE59E47D-F924-42AA-88C5-8C1396F6D66A",
+    "subCategory": [],
     "ingredientsDesc": [
         "ROSIGLITAZONE MALEATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "24",
-        "61"
+        "01 國 產",
+        "1R 不得製造",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "瑞士藥廠股份有限公司",
     "applicantAddr": "台南市新市區中山路182號",
@@ -46,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "C4944EE2-93B0-4934-B3F4-9AA04C46A237",
             "factoryCode": "1",
             "factoryName": "瑞士藥廠股份有限公司新市廠",
             "factoryAddr": "台南市新市區中山路182號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105200026",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "6820400810",
+            "ingredientsName": "ROSIGLITAZONE MALEATE",
             "ingredientsDesc": "ROSIGLITAZONE MALEATE",
             "concentDesc": "(eq. to Rosiglitazone 4mg)",
-            "concent": "5.3000",
+            "concent": "5.300000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -79,13 +92,10 @@
     "changeDtoList": [],
     "atcList": [
         {
-            "isMain": "2",
-            "atcCode": "A10BG02"
-        },
-        {
             "isMain": "1",
             "atcCode": "A10BG02"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "B42DF337-0D3F-4A6E-B5A5-F14E03FD8984"
 }

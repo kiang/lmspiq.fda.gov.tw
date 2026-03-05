@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01048152",
+    "licUnit": "1",
     "validDate": "2026-08-02 00:00:00.000",
     "issueDate": "2006-08-02 00:00:00.000",
+    "oriIssueDate": "2006-08-02",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00104815201",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "AB59DEF8-48BD-4300-B374-25785490DEEF",
+    "subCategory": [],
     "ingredientsDesc": [
         "RIBAVIRIN"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R",
-        "25"
+        "01 國 產",
+        "1R 不得製造",
+        "25 監視中學名藥"
     ],
     "applicantName": "健喬信元醫藥生技股份有限公司",
     "applicantAddr": "新竹縣湖口鄉工業一路6號",
@@ -45,8 +52,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "6288BDD6-0815-4F92-83E1-1A95B218BB05",
             "factoryCode": "1",
             "factoryName": "健喬信元醫藥生技股份有限公司健喬廠",
             "factoryAddr": "新竹縣湖口鄉中興村工業一路６號",
@@ -57,16 +67,19 @@
             "factoryKind": "M",
             "factoryNo": "1409106300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0818000800",
+            "ingredientsName": "RIBAVIRIN",
             "ingredientsDesc": "RIBAVIRIN",
             "concentDesc": "",
-            "concent": "200.0000",
+            "concent": "200.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "1",
@@ -75,45 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "BFDE08F5-82F9-4A3B-8D7E-B6A7CB1662CE",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A852FD6A-1402-4131-8FAC-4CBDF04174D2",
-            "approvedDocNo": "1106011721",
-            "approvedDate": "2021-05-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "05C59610-4F51-432B-8271-55AD1A1A3332",
-            "approvedDocNo": "1106011721",
-            "approvedDate": "2021-05-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "93F5EBF0-ECF6-40BF-AC31-84CA536E9AD4",
-            "approvedDocNo": "1106011721",
-            "approvedDate": "2021-05-12",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "J05AP01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "AB48DA0E-B6A9-4C16-B4C9-3D79B176D0C4"
 }

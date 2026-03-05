@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02024512",
+    "licUnit": "1",
     "validDate": "2026-08-31 00:00:00.000",
     "issueDate": "2006-08-31 00:00:00.000",
+    "oriIssueDate": "2006-08-31",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA00202451200",
@@ -26,7 +30,12 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "B417D1F5-F449-42C2-8C43-1FAA66B537BF",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "ORYZANOL GAMMA-",
         "RIBOFLAVIN (VIT B2)",
@@ -34,7 +43,7 @@
         "NIACIN (NICOTINIC ACID)"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "生匯貿易有限公司",
     "applicantAddr": "高雄市三民區大昌二路１０５號１９樓",
@@ -46,8 +55,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "0A29F9F6-9841-460F-9A8A-114F4C06B8CB",
             "factoryCode": "1",
             "factoryName": "TOKAI CAPSULE CO., LTD.",
             "factoryAddr": "168 KUZAWA,FUJI-CITY, SHIZOKA-PREF, JAPAN",
@@ -58,16 +70,19 @@
             "factoryKind": "M",
             "factoryNo": "FJP0367100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810200400",
+            "ingredientsName": "RIBOFLAVIN (VIT B2)",
             "ingredientsDesc": "RIBOFLAVIN (VIT B2)",
             "concentDesc": null,
-            "concent": "30.0000",
+            "concent": "30.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -76,9 +91,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810600300",
+            "ingredientsName": "PYRIDOXINE HCL",
             "ingredientsDesc": "PYRIDOXINE HCL",
             "concentDesc": null,
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "0",
@@ -87,9 +103,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8810000200",
+            "ingredientsName": "NIACIN (NICOTINIC ACID)",
             "ingredientsDesc": "NIACIN (NICOTINIC ACID)",
             "concentDesc": null,
-            "concent": "12.0000",
+            "concent": "12.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "0",
@@ -98,9 +115,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "2820002103",
+            "ingredientsName": "ORYZANOL GAMMA-",
             "ingredientsDesc": "ORYZANOL GAMMA-",
             "concentDesc": null,
-            "concent": "10.0000",
+            "concent": "10.000000",
             "concentUnit": "001",
             "seq": "3",
             "prescription_seq": "0",
@@ -109,45 +127,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "C9B3CE15-DFD6-4A1E-9898-F87492D2B547",
-            "approvedDocNo": "1076615103",
-            "approvedDate": "2019-03-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "432956DC-6114-44AA-BC1B-FA37812F6C89",
-            "approvedDocNo": "1076615103",
-            "approvedDate": "2019-03-27",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "A11HA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA01"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "V03AX"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "A11HA04"
-        },
         {
             "isMain": "1",
             "atcCode": "A11JA"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "34693F27-FFE0-442A-8834-9D7ECAC8F0B7"
 }

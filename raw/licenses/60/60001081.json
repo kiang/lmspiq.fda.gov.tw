@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "60001081",
+    "licUnit": "1",
     "validDate": "2028-04-25 00:00:00.000",
     "issueDate": "2018-04-25 00:00:00.000",
+    "oriIssueDate": "2018-04-25",
     "licKind": "04",
     "oldLicid": null,
     "certNo": "DHA06000108100",
@@ -23,13 +27,18 @@
     "medMCode": "05",
     "maMedCode": "",
     "medDCode": "C",
+    "mainCategory": "C",
+    "drBaseId": "269233BA-48E5-4290-B980-E05E3C4CA009",
+    "subCategory": [
+        "C0501"
+    ],
     "ingredientsDesc": [
         "Inotuzumab Ozogamicin"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5F"
+        "02 輸 入",
+        "07 新藥監視",
+        "5F 免除銜接性試驗"
     ],
     "applicantName": "美商惠氏藥廠（亞洲）股份有限公司台灣分公司",
     "applicantAddr": "台北市信義區松仁路100號42、43樓",
@@ -41,8 +50,11 @@
     "monitorDate": "2023-04-25",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "CE24F97F-A682-4342-B6DA-2753498074CC",
             "factoryCode": "1",
             "factoryName": "WYETH PHARMACEUTICAL DIVISION OF WYETH HOLDINGS LLC",
             "factoryAddr": "401 NORTH MIDDLETOWN ROAD, PEARL RIVER, NY 10965-1299, U.S.A.",
@@ -58,14 +70,17 @@
             "factoryKind": "M",
             "factoryNo": "FUS0351100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "EE9CABF8-3B3F-4137-A38F-4EC430841DD5",
             "factoryCode": "2",
             "factoryName": "久裕企業股份有限公司",
-            "factoryAddr": "桃園市桃園區大林里興邦路43巷2-1號4樓、3樓、1樓A區",
+            "factoryAddr": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區",
             "factoryCompanyAddr": "",
-            "countryCode": "",
+            "countryCode": "TW",
             "processCode": [
                 {
                     "value": "3P",
@@ -76,9 +91,33 @@
             "factoryKind": "M",
             "factoryNo": "6605071926",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "C4E02293-0978-4611-A625-1E54015E9818",
+            "factoryCode": "2",
+            "factoryName": "PFIZER GLOBAL SUPPLY JAPAN INC. NAGOYA PLANT",
+            "factoryAddr": "AZA 5-GOCHI 2-BANCHI, TAKETOYO-CHO, CHITA-GUN, AICHI 470-2393 JAPAN",
+            "factoryCompanyAddr": "",
+            "countryCode": "JP",
+            "processCode": [
+                {
+                    "value": "1A",
+                    "name": "二級包裝廠"
+                }
+            ],
+            "processCodeStr": "1A;二級包裝廠",
+            "factoryKind": "M",
+            "factoryNo": "FJP0248100",
+            "factoryInfo": null,
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
+        },
+        {
+            "id": "A4D855A5-1675-4AE9-BB02-207BA9CCBA8E",
             "factoryCode": "2",
             "factoryName": "PHARMACIA & UPJOHN COMPANY LLC",
             "factoryAddr": "7000 Portage Road, Kalamazoo, MI, 49001, USA",
@@ -94,11 +133,14 @@
             "factoryKind": "M",
             "factoryNo": "FUS0196100",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "D4F52D6B-AA7E-447F-8585-6548F2CD356E",
             "factoryCode": "2",
-            "factoryName": "WYETH BIOPHARMA DIVISION OF WYETH PHARMACEUTICALS INC",
+            "factoryName": "WYETH BIOPHARMA DIVISION OF WYETH PHARMACEUTICALS LLC",
             "factoryAddr": "ONE BURTT ROAD, ANDOVER, MA 01810, USA",
             "factoryCompanyAddr": "",
             "countryCode": "US",
@@ -112,16 +154,19 @@
             "factoryKind": "M",
             "factoryNo": "FUS0691000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013006800",
+            "ingredientsName": "Inotuzumab Ozogamicin",
             "ingredientsDesc": "Inotuzumab Ozogamicin",
             "concentDesc": "",
-            "concent": "1.000",
+            "concent": "1.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -130,69 +175,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DC7B727C-2BAD-4F9E-8C78-D18379B23D02",
-            "approvedDocNo": "1119029579",
-            "approvedDate": "2022-07-20",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "31467516-834F-4409-9A90-69A37182D9A4",
-            "approvedDocNo": "1106802076",
-            "approvedDate": "2021-08-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "D6E5742B-B759-4567-8500-3CCFAE1F3140",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-09-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "A547C3F3-DE7C-4CEB-9734-44B8090DC97D",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-05-25",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "C91659CA-6ED5-4E17-A173-9585772F91F8",
-            "approvedDocNo": "1086000831",
-            "approvedDate": "2019-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "F8E31E5E-5B79-44F0-B5A9-B034625795CE",
-            "approvedDocNo": "1086000831",
-            "approvedDate": "2019-08-01",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "522C0816-03E0-4CE2-A3F3-6A909CDABB13",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2019-02-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01FB01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "CCD1292B-9853-4784-99EB-83B8A3AE5D5D"
 }

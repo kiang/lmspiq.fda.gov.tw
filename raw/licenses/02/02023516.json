@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "02023516",
+    "licUnit": "1",
     "validDate": "2026-08-14 00:00:00.000",
     "issueDate": "2002-08-14 00:00:00.000",
+    "oriIssueDate": "2002-08-14",
     "licKind": "10",
     "oldLicid": null,
     "certNo": "DHA00202351603",
@@ -16,18 +20,21 @@
     "does": "0040",
     "packageUnit": [
         {
-            "packageSpec": null,
+            "packageSpec": "",
             "packageUnit": "44"
         }
     ],
     "medMCode": "01",
     "maMedCode": null,
     "medDCode": "E",
+    "mainCategory": "E",
+    "drBaseId": "6734574D-5120-4D31-97D5-64CF83E0071B",
+    "subCategory": [],
     "ingredientsDesc": [
         "TOCOPHEROL ACETATE ALPHA DL-"
     ],
     "restraintItemsCode": [
-        "02"
+        "02 輸 入"
     ],
     "applicantName": "帝斯曼營養品股份有限公司",
     "applicantAddr": "台北市士林區中山北路六段90號3樓",
@@ -39,8 +46,11 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "03B93ACC-E70F-49AE-8972-EE5F6483856D",
             "factoryCode": "1",
             "factoryName": "DSM NUTRITIONAL PRODUCTS LTD BRANCH SITE SISSELN",
             "factoryAddr": "HAUPTSTRASSE 4 CH-4334 SISSELN SWITZERLAND",
@@ -51,9 +61,12 @@
             "factoryKind": "M",
             "factoryNo": "FCH0100000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "17549F4B-5270-4C04-BD02-FCB4AAE45919",
             "factoryCode": "2",
             "factoryName": "ROCHE AG",
             "factoryAddr": "GRENZACHERSTRASSE 124, CH-4070, BASEL, SWITZERLAND",
@@ -69,16 +82,19 @@
             "factoryKind": "M",
             "factoryNo": "FCH0102000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "8820000213",
+            "ingredientsName": "TOCOPHEROL ACETATE ALPHA DL-",
             "ingredientsDesc": "TOCOPHEROL ACETATE ALPHA DL-",
             "concentDesc": null,
-            "concent": "500.0000",
+            "concent": "500.000000",
             "concentUnit": "001",
             "seq": "0",
             "prescription_seq": "0",
@@ -87,44 +103,28 @@
     ],
     "authDtoList": [
         {
-            "applicantName": "仁友興業有限公司",
-            "certNo": "DHA00202351625",
-            "approveDocNo": "1106029543",
-            "authDate": "2021-10-06",
-            "validDate": "2026-08-14"
-        },
-        {
             "applicantName": "丞泰企業有限公司",
             "certNo": "DHA00202351681",
             "approveDocNo": "1120702727",
             "authDate": "2023-02-03",
             "validDate": "2026-08-14"
+        },
+        {
+            "applicantName": "仁友興業有限公司",
+            "certNo": "DHA00202351625",
+            "approveDocNo": "1106029543",
+            "authDate": "2021-10-06",
+            "validDate": "2026-08-14"
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "5DE12144-3761-434F-850F-3667A086EE48",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-12-08",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "FEE7E220-3ECA-478C-840A-746204C8C3CC",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2020-07-21",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "A11HA03"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "43E7715F-5423-47CE-9EE9-CAE9E18A2A29"
 }

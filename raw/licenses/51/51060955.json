@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "51060955",
+    "licUnit": "1",
     "validDate": "2026-08-05 00:00:00.000",
     "issueDate": "2021-08-05 00:00:00.000",
+    "oriIssueDate": "2021-08-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY05106095501",
@@ -27,13 +31,18 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "F7346175-CAAC-4926-B6D9-6E3A774AB156",
+    "subCategory": [
+        "B02"
+    ],
     "ingredientsDesc": [
         "SULTAMICILLIN TOSILATE DIHYDRATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24",
-        "61"
+        "01 國 產",
+        "24 監視期滿學名藥",
+        "61 完成BE試驗"
     ],
     "applicantName": "中國化學製藥股份有限公司台中工廠",
     "applicantAddr": "台中市西屯區工業區１５路１０號",
@@ -45,28 +54,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "94A780FB-B7D5-4658-A6C4-90F93FA14972",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司台中工廠",
             "factoryAddr": "台中市西屯區工業區１５路１０號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402609300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0812602910",
+            "ingredientsName": "SULTAMICILLIN TOSILATE DIHYDRATE",
             "ingredientsDesc": "SULTAMICILLIN TOSILATE DIHYDRATE",
             "concentDesc": "(eq. to Sultamicillin.....375mg) (potency)",
-            "concent": "506.300",
+            "concent": "506.300000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -82,5 +97,6 @@
             "atcCode": "J01CR04"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "1236DFEC-B8F1-4799-88BA-D663E1A0D755"
 }

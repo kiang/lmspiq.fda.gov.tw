@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01057121",
+    "licUnit": "1",
     "validDate": "2027-03-05 00:00:00.000",
     "issueDate": "2012-03-05 00:00:00.000",
+    "oriIssueDate": "2012-03-05",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105712101",
@@ -23,14 +27,17 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "8CDCEB5D-4D33-4385-A836-2D7F14B230FB",
+    "subCategory": [],
     "ingredientsDesc": [
         "PSEUDOEPHEDRINE SULFATE",
         "LORATADINE",
         "PSEUDOEPHEDRINE SULFATE"
     ],
     "restraintItemsCode": [
-        "01",
-        "24"
+        "01 國 產",
+        "24 監視期滿學名藥"
     ],
     "applicantName": "中化裕民健康事業股份有限公司",
     "applicantAddr": "台北市中正區襄陽路23號8樓",
@@ -42,28 +49,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "6764B600-298F-4E6D-A6EA-1CAE2C35B534",
             "factoryCode": "1",
             "factoryName": "中國化學製藥股份有限公司新豐工廠",
             "factoryAddr": "新竹縣新豐鄉坑子口１８２之１號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0402602300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002620",
+            "ingredientsName": "PSEUDOEPHEDRINE SULFATE",
             "ingredientsDesc": "PSEUDOEPHEDRINE SULFATE",
             "concentDesc": "",
-            "concent": "60.0000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -72,9 +85,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0400005600",
+            "ingredientsName": "LORATADINE",
             "ingredientsDesc": "LORATADINE",
             "concentDesc": "",
-            "concent": "5.0000",
+            "concent": "5.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "3",
@@ -83,9 +97,10 @@
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1212002620",
+            "ingredientsName": "PSEUDOEPHEDRINE SULFATE",
             "ingredientsDesc": "PSEUDOEPHEDRINE SULFATE",
             "concentDesc": "",
-            "concent": "60.0000",
+            "concent": "60.000000",
             "concentUnit": "001",
             "seq": "2",
             "prescription_seq": "3",
@@ -102,61 +117,13 @@
         }
     ],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "966DC617-2E6D-4B19-B3CD-28D3269571E7",
-            "approvedDocNo": "1110707798",
-            "approvedDate": "2022-07-13",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "6F10DA11-28B6-431D-8F94-E6EA091398C6",
-            "approvedDocNo": "1110704795",
-            "approvedDate": "2022-05-19",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "48A59701-ABA1-4181-98E4-9C960D8947BA",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-12-23",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "AE209261-6D1E-4B8A-9450-44CF6E725DF7",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-09-29",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        },
-        {
-            "licChgDocId": "BD0C4EDB-71C5-4FF6-9C24-75363E41F24B",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-04-06",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "R01BA52"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R01BA02"
-        },
-        {
-            "isMain": "2",
-            "atcCode": "R06AX13"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "21197E57-9A27-4F8A-AF08-1489AF2A599D"
 }

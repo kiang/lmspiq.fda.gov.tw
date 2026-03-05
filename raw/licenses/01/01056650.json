@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056650",
+    "licUnit": "1",
     "validDate": "2026-08-01 00:00:00.000",
     "issueDate": "2011-08-01 00:00:00.000",
+    "oriIssueDate": "2011-08-01",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105665000",
@@ -27,13 +31,16 @@
     "medMCode": "06",
     "maMedCode": null,
     "medDCode": null,
+    "mainCategory": null,
+    "drBaseId": "B4FDDFC6-1208-4CC3-8DE3-00453732923B",
+    "subCategory": [],
     "ingredientsDesc": [
         "CYCLOSERINE"
     ],
     "restraintItemsCode": [
-        "01",
-        "1G",
-        "1R"
+        "01 國 產",
+        "1G 依藥品審查準則第64條 不得製造",
+        "1R 不得製造"
     ],
     "applicantName": "聯邦化學製藥股份有限公司",
     "applicantAddr": "台北市內湖區瑞光路26巷36弄2號5樓",
@@ -45,28 +52,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "2C1EFDCA-59F4-46D3-8D26-D09015DFFD90",
             "factoryCode": "1",
             "factoryName": "保瑞藥業股份有限公司",
             "factoryAddr": "台南市官田區二鎮里工業西路54號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "6105140025",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "0816000500",
+            "ingredientsName": "CYCLOSERINE",
             "ingredientsDesc": "CYCLOSERINE",
             "concentDesc": null,
-            "concent": "250.0000",
+            "concent": "250.000000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -75,25 +88,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "DF78E4C3-C61B-43AA-BBFD-083260CBAE1A",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2021-03-04",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
-        {
-            "isMain": "2",
-            "atcCode": "J04AB01"
-        },
         {
             "isMain": "1",
             "atcCode": "J04AB01"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "0C403716-40F0-4672-A28E-97547BDAC666"
 }

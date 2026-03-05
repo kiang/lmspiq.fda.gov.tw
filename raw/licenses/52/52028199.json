@@ -1,17 +1,21 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "52028199",
+    "licUnit": "1",
     "validDate": "2026-12-07 00:00:00.000",
     "issueDate": "2021-12-07 00:00:00.000",
+    "oriIssueDate": "2021-12-07",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHA05202819909",
     "prodNameC": "科舒洛膠囊25毫克",
     "prodNameE": "Koselugo capsules 25mg",
     "indicationsName": [
-        "適用於治療3歲以上罹患第1型神經纖維瘤(NF1)合併有症狀且無法手術切除的叢狀經纖維瘤之兒童病人。"
+        "適用於治療3歲以上罹患第1型神經纖維瘤(NF1)合併有症狀且無法手術切除的叢狀神經纖維瘤病人。"
     ],
     "does": "1130",
     "packageUnit": [
@@ -23,13 +27,20 @@
     "medMCode": "06",
     "maMedCode": "",
     "medDCode": "A",
+    "mainCategory": "A",
+    "drBaseId": "01F8D81F-C73D-4647-A50C-CC247C60072B",
+    "subCategory": [
+        "A01"
+    ],
     "ingredientsDesc": [
         "Selumetinib hyd-sulfate (Selumetinib sulfate)"
     ],
     "restraintItemsCode": [
-        "02",
-        "07",
-        "5G"
+        "02 輸 入",
+        "07 新藥監視",
+        "5E 已執行國內臨床試驗",
+        "5G 小兒\/少數嚴重疾病藥品認定",
+        "68 成品已完成元素不純物評估(Option 3)"
     ],
     "applicantName": "臺灣阿斯特捷利康股份有限公司",
     "applicantAddr": "台北市大安區敦化南路二段207號21樓",
@@ -41,21 +52,27 @@
     "monitorDate": "2026-12-07",
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "2",
     "factoryDtoList": [
         {
+            "id": "7F2EB0EB-92CB-4FDA-95B0-FDF240966E38",
             "factoryCode": "1",
             "factoryName": "PATHEON PHARMACEUTICALS INC.",
             "factoryAddr": "2110 EAST GALBRAITH ROAD, CINCINNATI, OHIO 45237,USA",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "US",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "FUS0728000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         },
         {
+            "id": "329984B1-6784-4E52-A98E-D45BB77BF111",
             "factoryCode": "2",
             "factoryName": "ASTRAZENECA UK LIMITED",
             "factoryAddr": "SILK ROAD BUSINESS PARK,MACCLESFIELD,CHESHIRE,SK10 2NA",
@@ -71,16 +88,19 @@
             "factoryKind": "M",
             "factoryNo": "FGB0053000",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "1013009500",
+            "ingredientsName": "Selumetinib hyd-sulfate (Selumetinib sulfate)",
             "ingredientsDesc": "Selumetinib hyd-sulfate (Selumetinib sulfate)",
             "concentDesc": "(Eq. to Selumetinib 25 MG)",
-            "concent": "30.250",
+            "concent": "30.250000",
             "concentUnit": "001",
             "seq": "1",
             "prescription_seq": "1",
@@ -89,21 +109,13 @@
     ],
     "authDtoList": [],
     "iomDtoList": [],
-    "changeDtoList": [
-        {
-            "licChgDocId": "30F484FD-F256-4DA1-8EA7-10598F5A94F3",
-            "approvedDocNo": "9999999999",
-            "approvedDate": "2022-05-11",
-            "changeItem": null,
-            "changeRecord": null,
-            "remark": ""
-        }
-    ],
+    "changeDtoList": [],
     "atcList": [
         {
             "isMain": "1",
             "atcCode": "L01EE04"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "DA93D864-B75E-494E-822B-D7DDC67C81E5"
 }

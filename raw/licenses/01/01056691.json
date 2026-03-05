@@ -1,10 +1,14 @@
 {
     "cancelStatus": "0",
+    "licStatus": "1",
     "cancelDate": null,
     "cancelReason": [],
+    "otherCancelReason": "",
     "licid": "01056691",
+    "licUnit": "1",
     "validDate": "2026-08-26 00:00:00.000",
     "issueDate": "2011-08-26 00:00:00.000",
+    "oriIssueDate": "2011-08-26",
     "licKind": "02",
     "oldLicid": null,
     "certNo": "DHY00105669101",
@@ -26,13 +30,18 @@
     ],
     "medMCode": "17",
     "maMedCode": null,
-    "medDCode": null,
+    "medDCode": "B",
+    "mainCategory": "B",
+    "drBaseId": "F81A5595-DC0B-4C1B-9F68-F8946D09E6AE",
+    "subCategory": [
+        "B05"
+    ],
     "ingredientsDesc": [
         "SPHERICAL ABSORPTIVE CARBON"
     ],
     "restraintItemsCode": [
-        "01",
-        "1R"
+        "01 國 產",
+        "1R 不得製造"
     ],
     "applicantName": "明大化學製藥股份有限公司",
     "applicantAddr": "台中市外埔區水美村水美路５２號",
@@ -44,28 +53,34 @@
     "monitorDate": null,
     "licidNew": null,
     "licidOld": null,
+    "manuImportDesc": "廠商未登錄資料",
+    "licManuImport": "1",
     "factoryDtoList": [
         {
+            "id": "06947D9A-7023-4F38-9E5F-DC24642CA5C6",
             "factoryCode": "1",
             "factoryName": "明大化學製藥股份有限公司",
             "factoryAddr": "台中市外埔區水美村水美路５２號",
-            "factoryCompanyAddr": "",
+            "factoryCompanyAddr": null,
             "countryCode": "TW",
             "processCode": [],
             "processCodeStr": null,
             "factoryKind": "M",
             "factoryNo": "0804410300",
             "factoryInfo": null,
-            "qsd": null
+            "qsd": null,
+            "qsdList": [],
+            "factoryMadeIn": null
         }
     ],
     "ingredientsDtoList": [
         {
             "ingredientsKind": "1",
             "ingredientsCode": "9600065540",
+            "ingredientsName": "SPHERICAL ABSORPTIVE CARBON",
             "ingredientsDesc": "SPHERICAL ABSORPTIVE CARBON",
             "concentDesc": null,
-            "concent": "2.0000",
+            "concent": "2.000000",
             "concentUnit": "002",
             "seq": "1",
             "prescription_seq": "1",
@@ -81,5 +96,6 @@
             "atcCode": "A07BA"
         }
     ],
+    "udiInfoList": [],
     "licBaseId": "037C1E02-981C-4AC4-8F2B-863107F3352F"
 }
